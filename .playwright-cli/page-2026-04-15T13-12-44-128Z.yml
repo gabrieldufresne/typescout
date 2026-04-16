@@ -1,0 +1,458 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "W Type Foundry" [ref=e5] [cursor=pointer]:
+      - /url: https://wtypefoundry.com
+      - img "LOGO WTF" [ref=e6]
+    - list [ref=e9]:
+      - listitem [ref=e10]:
+        - link "Typefaces" [ref=e11] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/typefaces
+      - listitem [ref=e12]:
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/about
+      - listitem [ref=e14]:
+        - link "Blog" [ref=e15] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/blog
+      - listitem [ref=e16]:
+        - link "Licenses" [ref=e17] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/licenses
+      - listitem [ref=e18]:
+        - link "Contact" [ref=e19] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/contact
+    - list [ref=e21]:
+      - listitem [ref=e22]:
+        - link "Sign in" [ref=e23] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/login
+  - main [ref=e24]:
+    - link "badge_text_buy badge_w" [ref=e25] [cursor=pointer]:
+      - /url: "#buy"
+      - generic [ref=e26]:
+        - img "badge_text_buy" [ref=e27]
+        - img "badge_w" [ref=e44]
+    - generic [ref=e46]:
+      - generic [ref=e48]:
+        - generic: LOADING
+        - generic [ref=e49]:
+          - generic [ref=e50]: Ask a silly question, get a silly answer
+          - generic [ref=e53]:
+            - button "Armin Grotesk Black" [ref=e56] [cursor=pointer]
+            - button "Choose text" [ref=e59] [cursor=pointer]
+            - generic [ref=e61]:
+              - generic [ref=e63]: 
+              - slider [ref=e65]: "117"
+              - generic [ref=e67]: 
+            - generic [ref=e69]:
+              - generic [ref=e71]: 
+              - slider [ref=e73]: "1.1"
+              - generic [ref=e75]: 
+            - generic [ref=e77]:
+              - generic [ref=e79]: "#"
+              - textbox [ref=e80]: "F7F4F3 #"
+            - generic [ref=e82]:
+              - generic [ref=e84]: "#"
+              - textbox [ref=e85]: "323232 #"
+            - generic [ref=e87]:
+              - button "" [ref=e89] [cursor=pointer]:
+                - generic [ref=e90]: 
+              - button "" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]: 
+              - button "" [ref=e95] [cursor=pointer]:
+                - generic [ref=e96]: 
+            - button "" [ref=e99] [cursor=pointer]:
+              - generic [ref=e100]: 
+      - generic [ref=e101]: ↓
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - heading "Armin Grotesk" [level=5] [ref=e105]
+        - paragraph [ref=e107]: As a graphic designer, sometimes it’s impossible not to be inspired by the Swiss Style, specifically the work of Armin Hofmann, who is one of its best exponents. Grids and grotesk and neo-grotesk typefaces are a fundamental part of the tools that make this aesthetic possible. A visual language that has caused full admiration since we were students. Therefore, we decided to design Armin as an homage to Hofmann’s work. Technically, we added stylistic sets applied to the letters –G, R, a, g, h, l, m, n, r, t, u, y– to make Armin more eclectic and suitable for the creation of any visual language.
+        - generic [ref=e108]:
+          - listitem [ref=e109]: Designed by David Súid
+          - listitem [ref=e110]: 14 styles
+          - listitem [ref=e111]:
+            - paragraph [ref=e112]: Release August 2018
+          - listitem [ref=e113]:
+            - paragraph [ref=e114]:
+              - link "Armin Soft" [ref=e115] [cursor=pointer]:
+                - /url: http://dev.tipografia.com.ar/wtypefoundry/typefaces/armin-soft
+      - generic [ref=e117]: Thin Thin Italic Ultralight Ultralight Italic Normal Normal Italic Regular Regular Italic Semibold Semibold Italic Ultrabold Ultrabold Italic Black Black Italic
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - heading "GLYPHS" [level=2] [ref=e121]
+        - button "Select Style" [ref=e124] [cursor=pointer]
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - heading "Uppercase" [level=5] [ref=e128]
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - img [ref=e134]
+            - img [ref=e137]
+            - img [ref=e140]
+            - img [ref=e143]
+            - img [ref=e146]
+            - img [ref=e149]
+            - img [ref=e152]
+            - img [ref=e155]
+            - img [ref=e158]
+            - img [ref=e161]
+            - img [ref=e164]
+            - img [ref=e167]
+            - img [ref=e170]
+            - img [ref=e173]
+            - img [ref=e176]
+            - img [ref=e179]
+            - img [ref=e182]
+            - img [ref=e185]
+            - img [ref=e188]
+            - img [ref=e191]
+            - img [ref=e194]
+            - img [ref=e197]
+            - img [ref=e200]
+            - img [ref=e203]
+            - img [ref=e206]
+            - img [ref=e209]
+            - img [ref=e212]
+            - img [ref=e215]
+            - img [ref=e218]
+            - img [ref=e221]
+            - img [ref=e224]
+            - img [ref=e227]
+            - img [ref=e230]
+            - img [ref=e233]
+            - img [ref=e236]
+            - img [ref=e239]
+            - img [ref=e242]
+            - img [ref=e245]
+            - img [ref=e248]
+            - img [ref=e251]
+            - img [ref=e254]
+            - img [ref=e257]
+            - img [ref=e260]
+            - img [ref=e263]
+            - img [ref=e266]
+            - img [ref=e269]
+            - img [ref=e272]
+            - img [ref=e275]
+            - img [ref=e278]
+            - img [ref=e281]
+            - img [ref=e284]
+            - img [ref=e287]
+            - img [ref=e290]
+            - img [ref=e293]
+            - img [ref=e296]
+            - img [ref=e299]
+            - img [ref=e302]
+            - img [ref=e305]
+            - img [ref=e308]
+            - img [ref=e311]
+            - img [ref=e314]
+            - img [ref=e317]
+            - img [ref=e320]
+            - img [ref=e323]
+            - img [ref=e326]
+            - img [ref=e329]
+            - img [ref=e332]
+            - img [ref=e335]
+            - img [ref=e338]
+            - img [ref=e341]
+            - img [ref=e344]
+            - img [ref=e347]
+            - img [ref=e350]
+            - img [ref=e353]
+            - img [ref=e356]
+            - img [ref=e359]
+            - img [ref=e362]
+            - img [ref=e365]
+            - img [ref=e368]
+            - img [ref=e371]
+            - img [ref=e374]
+            - img [ref=e377]
+            - img [ref=e380]
+            - img [ref=e383]
+            - img [ref=e386]
+            - img [ref=e389]
+            - img [ref=e392]
+            - img [ref=e395]
+            - img [ref=e398]
+            - img [ref=e401]
+            - img [ref=e404]
+            - img [ref=e407]
+            - img [ref=e410]
+            - img [ref=e413]
+            - img [ref=e416]
+            - img [ref=e419]
+            - img [ref=e422]
+            - img [ref=e425]
+            - img [ref=e428]
+            - img [ref=e431]
+            - img [ref=e434]
+            - img [ref=e437]
+            - img [ref=e440]
+            - img [ref=e443]
+            - img [ref=e446]
+            - img [ref=e449]
+            - img [ref=e452]
+            - img [ref=e455]
+            - img [ref=e458]
+            - img [ref=e461]
+            - img [ref=e464]
+            - img [ref=e467]
+            - img [ref=e470]
+            - img [ref=e473]
+            - img [ref=e476]
+            - img [ref=e479]
+            - img [ref=e482]
+            - img [ref=e485]
+            - img [ref=e488]
+        - generic [ref=e490]:
+          - heading "Lowercase" [level=5] [ref=e491]
+          - generic [ref=e492]:
+            - img [ref=e494]
+            - img [ref=e497]
+            - img [ref=e500]
+            - img [ref=e503]
+            - img [ref=e506]
+            - img [ref=e509]
+            - img [ref=e512]
+            - img [ref=e515]
+            - img [ref=e518]
+            - img [ref=e521]
+            - img [ref=e524]
+            - img [ref=e527]
+            - img [ref=e530]
+            - img [ref=e533]
+            - img [ref=e536]
+            - img [ref=e539]
+            - img [ref=e542]
+            - img [ref=e545]
+            - img [ref=e548]
+            - img [ref=e551]
+            - img [ref=e554]
+            - img [ref=e557]
+            - img [ref=e560]
+            - img [ref=e563]
+            - img [ref=e566]
+            - img [ref=e569]
+            - img [ref=e572]
+            - img [ref=e575]
+            - img [ref=e578]
+            - img [ref=e581]
+            - img [ref=e584]
+            - img [ref=e587]
+            - img [ref=e590]
+            - img [ref=e593]
+            - img [ref=e596]
+            - img [ref=e599]
+            - img [ref=e602]
+            - img [ref=e605]
+            - img [ref=e608]
+            - img [ref=e611]
+            - img [ref=e614]
+            - img [ref=e617]
+            - img [ref=e620]
+            - img [ref=e623]
+            - img [ref=e626]
+            - img [ref=e629]
+            - img [ref=e632]
+            - img [ref=e635]
+            - img [ref=e638]
+            - img [ref=e641]
+            - img [ref=e644]
+            - img [ref=e647]
+            - img [ref=e650]
+            - img [ref=e653]
+            - img [ref=e656]
+            - img [ref=e659]
+            - img [ref=e662]
+            - img [ref=e665]
+            - img [ref=e668]
+            - img [ref=e671]
+            - img [ref=e674]
+            - img [ref=e677]
+            - img [ref=e680]
+            - img [ref=e683]
+            - img [ref=e686]
+            - img [ref=e689]
+            - img [ref=e692]
+            - img [ref=e695]
+            - img [ref=e698]
+            - img [ref=e701]
+            - img [ref=e704]
+            - img [ref=e707]
+            - img [ref=e710]
+            - img [ref=e713]
+            - img [ref=e716]
+            - img [ref=e719]
+            - img [ref=e722]
+            - img [ref=e725]
+            - img [ref=e728]
+            - img [ref=e731]
+            - img [ref=e734]
+            - img [ref=e737]
+            - img [ref=e740]
+            - img [ref=e743]
+            - img [ref=e746]
+            - img [ref=e749]
+            - img [ref=e752]
+            - img [ref=e755]
+            - img [ref=e758]
+            - img [ref=e761]
+            - img [ref=e764]
+            - img [ref=e767]
+            - img [ref=e770]
+            - img [ref=e773]
+            - img [ref=e776]
+            - img [ref=e779]
+            - img [ref=e782]
+            - img [ref=e785]
+            - img [ref=e788]
+            - img [ref=e791]
+            - img [ref=e794]
+            - img [ref=e797]
+            - img [ref=e800]
+            - img [ref=e803]
+            - img [ref=e806]
+            - img [ref=e809]
+            - img [ref=e812]
+            - img [ref=e815]
+            - img [ref=e818]
+            - img [ref=e821]
+            - img [ref=e824]
+            - img [ref=e827]
+            - img [ref=e830]
+            - img [ref=e833]
+            - img [ref=e836]
+            - img [ref=e839]
+            - img [ref=e842]
+            - img [ref=e845]
+            - img [ref=e848]
+            - img [ref=e851]
+            - img [ref=e854]
+            - img [ref=e857]
+        - generic [ref=e859]:
+          - heading "Numerals" [level=5] [ref=e860]
+          - generic [ref=e861]:
+            - img [ref=e863]
+            - img [ref=e866]
+            - img [ref=e869]
+            - img [ref=e872]
+            - img [ref=e875]
+            - img [ref=e878]
+            - img [ref=e881]
+            - img [ref=e884]
+            - img [ref=e887]
+            - img [ref=e890]
+      - button "Show all glyphs" [ref=e894] [cursor=pointer]
+    - generic [ref=e896]:
+      - heading "ARMIN GROTESK BUYING OPTIONS" [level=2] [ref=e899]
+      - generic [ref=e900]:
+        - generic [ref=e901]:
+          - heading "Select Fonts" [level=4] [ref=e902]
+          - separator [ref=e903]
+          - generic [ref=e905]:
+            - generic [ref=e907] [cursor=pointer]:
+              - generic [ref=e908]: Armin Grotesk Complete family
+              - generic [ref=e909]: USD 299.00
+            - generic [ref=e911] [cursor=pointer]:
+              - generic [ref=e912]: Armin Grotesk Basic family
+              - generic [ref=e913]: USD 135.00
+          - generic [ref=e915]:
+            - generic [ref=e917] [cursor=pointer]:
+              - generic [ref=e918]: Armin Grotesk Thin
+              - generic [ref=e920]: USD 25.00
+            - generic [ref=e922] [cursor=pointer]:
+              - generic [ref=e923]: Armin Grotesk Thin Italic
+              - generic [ref=e925]: USD 25.00
+            - generic [ref=e927] [cursor=pointer]:
+              - generic [ref=e928]: Armin Grotesk Ultralight
+              - generic [ref=e930]: USD 25.00
+            - generic [ref=e932] [cursor=pointer]:
+              - generic [ref=e933]: Armin Grotesk Ultralight Italic
+              - generic [ref=e935]: USD 25.00
+            - generic [ref=e937] [cursor=pointer]:
+              - generic [ref=e938]: Armin Grotesk Normal
+              - generic [ref=e940]: USD 25.00
+            - generic [ref=e942] [cursor=pointer]:
+              - generic [ref=e943]: Armin Grotesk Normal Italic
+              - generic [ref=e945]: USD 25.00
+            - generic [ref=e947] [cursor=pointer]:
+              - generic [ref=e948]: Armin Grotesk Regular
+              - generic [ref=e950]: USD 25.00
+            - generic [ref=e952] [cursor=pointer]:
+              - generic [ref=e953]: Armin Grotesk Italic
+              - generic [ref=e955]: USD 25.00
+            - generic [ref=e957] [cursor=pointer]:
+              - generic [ref=e958]: Armin Grotesk Semibold
+              - generic [ref=e960]: USD 25.00
+            - generic [ref=e962] [cursor=pointer]:
+              - generic [ref=e963]: Armin Grotesk Semibold Italic
+              - generic [ref=e965]: USD 25.00
+            - generic [ref=e967] [cursor=pointer]:
+              - generic [ref=e968]: Armin Grotesk Ultrabold
+              - generic [ref=e970]: USD 25.00
+            - generic [ref=e972] [cursor=pointer]:
+              - generic [ref=e973]: Armin Grotesk Ultrabold Italic
+              - generic [ref=e975]: USD 25.00
+            - generic [ref=e977] [cursor=pointer]:
+              - generic [ref=e978]: Armin Grotesk Black
+              - generic [ref=e980]: USD 25.00
+            - generic [ref=e982] [cursor=pointer]:
+              - generic [ref=e983]: Armin Grotesk Black Italic
+              - generic [ref=e985]: USD 25.00
+        - generic [ref=e986]:
+          - heading "Cross media license" [level=4] [ref=e987]
+          - separator [ref=e988]
+          - generic [ref=e990]:
+            - generic [ref=e991]: OUR CROSS MEDIA LICENSE UNIFIES THE FOLLOWING
+            - paragraph [ref=e992]: 1 • Desktop installation; according to specified number of work stations.
+            - paragraph [ref=e993]: 2 • Web installation; according to number of visitors the web may serve, calculated on a monthly basis.
+            - paragraph [ref=e994]: 3 • Social Media applications; according to the combined amount of followers across existing channels.
+            - paragraph [ref=e995]:
+              - link "CROSS MEDIA LICENSE" [ref=e996] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses
+          - separator [ref=e997]
+          - generic [ref=e998]:
+            - generic [ref=e999]:
+              - generic [ref=e1000]: CHOOSE SIZE
+              - combobox [ref=e1002]:
+                - option "XS (1 Desktop / 5K Web / 25K Social Media)" [selected]
+                - option "S (3 Desktop / 10K Web / 50K Social Media)"
+                - option "M (5 Desktop / 25K Web / 100K Social Media)"
+                - option "L (10 Desktop / 100K Web / 250K Social Media)"
+            - generic [ref=e1003]:
+              - generic [ref=e1004]:
+                - heading "TOTAL" [level=4] [ref=e1005]
+                - heading "USD 0.00" [level=4] [ref=e1006]
+              - button "Proceed to checkout" [disabled]
+            - separator [ref=e1007]
+            - generic [ref=e1008]:
+              - generic [ref=e1009]: CONTACT US FOR SPECIAL LICENSES & OTHER REQUESTS
+              - link "App / SaaS" [ref=e1010] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#app-saas
+              - link "Logo / Wordmark Extension" [ref=e1011] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#logo-wordmark-extension
+              - link "Digital Ads" [ref=e1012] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#digital-ads
+              - link "YouTube" [ref=e1013] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#youtube
+              - link "Streaming" [ref=e1014] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#streaming
+              - link "Broadcasting" [ref=e1015] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#broadcasting
+              - link "Computer Game / Software License" [ref=e1016] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#computer-game-software-license
+              - link "eBook / ePub" [ref=e1017] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#ebook-epub
+              - link "Corporate" [ref=e1018] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#corporate
+              - link "Server" [ref=e1019] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/licenses#server
+  - contentinfo [ref=e1020]:
+    - generic [ref=e1021]:
+      - link "Instagram" [ref=e1023] [cursor=pointer]:
+        - /url: http://www.instagram.com/wtypefoundry/
+      - link "Subscribe" [ref=e1025] [cursor=pointer]:
+        - /url: https://wtypefoundry.com/contact
+      - link "hola@wtypefoundry.com" [ref=e1027] [cursor=pointer]:
+        - /url: mailto:hola@wtypefoundry.com
+      - button "BACK TO TOP" [ref=e1029] [cursor=pointer]
+      - generic [ref=e1030]: © W Type Foundry 2026

@@ -1,0 +1,1013 @@
+- generic [ref=e1]:
+  - dialog "Cookie banner" [active] [ref=e2]:
+    - generic [ref=e3]:
+      - paragraph [ref=e6]:
+        - text: This website uses cookies, pixels, and similar technologies to instantaneously collect information from and about you and your usage of our site. We and the vendors who supply us with these technologies use this information to improve and customize your website experience, for analytics, and for advertising and marketing purposes. By proceeding to use our website, you consent to the collection of your personal information using cookies, pixels, or similar technologies, as further described in our
+        - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+          - /url: https://thetypefounders.com/privacy/
+        - text: .
+      - paragraph [ref=e8]: If you decline, your information won’t be tracked when you visit this website. A single cookie will be used in your browser to remember your preference not to be tracked.
+      - generic [ref=e11]:
+        - button "Accept" [ref=e12] [cursor=pointer]
+        - button "Decline" [ref=e13] [cursor=pointer]
+  - banner [ref=e14]:
+    - link "Tightype™" [ref=e15] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e16]:
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - link "Typefaces" [ref=e19] [cursor=pointer]:
+            - /url: /typefaces/
+        - listitem [ref=e20]:
+          - link "Information" [ref=e21] [cursor=pointer]:
+            - /url: /information/
+        - listitem [ref=e22]:
+          - link "Cart" [ref=e23] [cursor=pointer]:
+            - /url: /cart/
+            - text: Cart ()
+  - generic [ref=e24]:
+    - generic [ref=e25]: Bull-5
+    - generic [ref=e26]:
+      - link "Buy" [ref=e27] [cursor=pointer]:
+        - /url: "#buy"
+      - button "Options ▾" [ref=e28] [cursor=pointer]
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e32]: Cornell University Press
+      - generic [ref=e34]: Ullmann’s Encyclopedia of Industrial Chemistry
+      - generic [ref=e36]: Underwood Typewriter Company
+      - generic [ref=e38]: "{By Renard Lowe, 1968}"
+      - generic [ref=e40]: Museum of Modern Art
+      - generic [ref=e42]: DE500 & DE700
+      - generic [ref=e44]: Standard A4
+      - generic [ref=e46]: Documenter
+      - generic [ref=e48]: Nordbahn&shy;halle 2017
+      - generic [ref=e50]: Musée des Arts Décoratifs
+      - generic [ref=e52]: Olivetti is an Italian manufacturer of business products such as computers, printers, calculators, and fax machines.
+      - generic [ref=e54]: “Spectral”
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - heading "About" [level=3] [ref=e57]
+        - heading "Styles" [level=3] [ref=e58]
+        - heading "Character Set" [level=3] [ref=e59]
+        - heading "Language Support" [level=3] [ref=e60]
+        - heading "Features" [level=3] [ref=e61]
+      - generic [ref=e62]:
+        - heading "About" [level=3] [ref=e63]
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: Bull-5, designed by David Einwaller, derives from a particular style of typewriter fonts that emerged in the 1960s, presumably introduced through Olivetti — an Italian manufacturer of office products.
+          - paragraph [ref=e66]: The project began by digitizing printed type samples spotted on labels of photographic prints from the 1980s, which were sold due to the closure of an American newspaper archive. To preserve its raw and mechanical character, Bull-5’s Mono styles are drawn in coherence with the source material, including all their quirks and irregular proportions. They are accompanied by Proportional styles for greater legibility and Typewriter styles to embrace another iconic characteristic of typewriter fonts.
+          - paragraph [ref=e67]: All styles are linked through bold punctuation and optional features like the double-width M, W, and their lowercase counterparts, along with typically serifed letters such as I, i, J, and j.
+        - heading "Styles" [level=3] [ref=e68]
+        - list [ref=e69]:
+          - listitem [ref=e70]: Regular
+          - listitem [ref=e71]: Regular Italic
+          - listitem [ref=e72]: Medium
+          - listitem [ref=e73]: Medium Italic
+          - listitem [ref=e74]: Semi Bold
+          - listitem [ref=e75]: Semi Bold Italic
+          - listitem [ref=e76]: Bold
+          - listitem [ref=e77]: Bold Italic
+          - listitem [ref=e78]: Extra Bold
+          - listitem [ref=e79]: Extra Bold Italic
+          - listitem [ref=e80]: Black
+          - listitem [ref=e81]: Black Italic
+        - heading "Character Set" [level=3] [ref=e82]
+        - generic [ref=e83]:
+          - generic:
+            - generic:
+              - generic:
+                - heading "Uppercase Letter Latin" [level=3]
+                - generic:
+                  - button "A"
+                  - button "Á"
+                  - button "À"
+                  - button "Ă"
+                  - button "Â"
+                  - button "Ǎ"
+                  - button "Å"
+                  - button "Ä"
+                  - button "Ã"
+                  - button "Ą"
+                  - button "Ā"
+                  - button "Æ"
+                  - button "B"
+                  - button "Ḃ"
+                  - button "C"
+                  - button "Ć"
+                  - button "Ĉ"
+                  - button "Č"
+                  - button "Ċ"
+                  - button "Ç"
+                  - button "D"
+                  - button "Ď"
+                  - button "Ḋ"
+                  - button "Ḑ"
+                  - button "Đ"
+                  - button "Ð"
+                  - button "E"
+                  - button "É"
+                  - button "È"
+                  - button "Ĕ"
+                  - button "Ê"
+                  - button "Ě"
+                  - button "Ë"
+                  - button "Ẽ"
+                  - button "Ė"
+                  - button "Ę"
+                  - button "Ē"
+                  - button "Ẹ"
+                  - button "Ə"
+                  - button "F"
+                  - button "Ḟ"
+                  - button "G"
+                  - button "Ğ"
+                  - button "Ĝ"
+                  - button "Ǧ"
+                  - button "Ġ"
+                  - button "Ģ"
+                  - button "Ḡ"
+                  - button "H"
+                  - button "Ĥ"
+                  - button "Ȟ"
+                  - button "Ħ"
+                  - button "Ḥ"
+                  - button "I"
+                  - button "Í"
+                  - button "Ì"
+                  - button "Ĭ"
+                  - button "Î"
+                  - button "Ï"
+                  - button "Ĩ"
+                  - button "İ"
+                  - button "Į"
+                  - button "Ī"
+                  - button "Ị"
+                  - button "Ĳ"
+                  - button "J"
+                  - button "Ĵ"
+                  - button "K"
+                  - button "Ķ"
+                  - button "L"
+                  - button "Ĺ"
+                  - button "Ľ"
+                  - button "Ļ"
+                  - button "Ł"
+                  - button "Ḷ"
+                  - button "Ŀ"
+                  - button "M"
+                  - button "Ṁ"
+                  - button "N"
+                  - button "Ń"
+                  - button "Ň"
+                  - button "Ñ"
+                  - button "Ṅ"
+                  - button "Ņ"
+                  - button "Ŋ"
+                  - button "O"
+                  - button "Ó"
+                  - button "Ò"
+                  - button "Ŏ"
+                  - button "Ô"
+                  - button "Ö"
+                  - button "Ő"
+                  - button "Õ"
+                  - button "Ø"
+                  - button "Ǿ"
+                  - button "Ō"
+                  - button "Ọ"
+                  - button "Œ"
+                  - button "P"
+                  - button "Ṗ"
+                  - button "Q"
+                  - button "R"
+                  - button "Ŕ"
+                  - button "Ř"
+                  - button "Ŗ"
+                  - button "S"
+                  - button "Ś"
+                  - button "Ŝ"
+                  - button "Š"
+                  - button "Ṡ"
+                  - button "Ş"
+                  - button "Ṣ"
+                  - button "Ș"
+                  - button "ẞ"
+                  - button "T"
+                  - button "Ť"
+                  - button "Ṫ"
+                  - button "Ţ"
+                  - button "Ț"
+                  - button "Ŧ"
+                  - button "U"
+                  - button "Ú"
+                  - button "Ù"
+                  - button "Ŭ"
+                  - button "Û"
+                  - button "Ǔ"
+                  - button "Ů"
+                  - button "Ü"
+                  - button "Ű"
+                  - button "Ũ"
+                  - button "Ų"
+                  - button "Ū"
+                  - button "Ụ"
+                  - button "V"
+                  - button "W"
+                  - button "Ẃ"
+                  - button "Ẁ"
+                  - button "Ŵ"
+                  - button "Ẅ"
+                  - button "X"
+                  - button "Y"
+                  - button "Ý"
+                  - button "Ỳ"
+                  - button "Ŷ"
+                  - button "Ÿ"
+                  - button "Z"
+                  - button "Ź"
+                  - button "Ž"
+                  - button "Ż"
+                  - button "Þ"
+                  - button "Ꞌ"
+                - heading "Uppercase Letter Greek" [level=3]
+                - generic:
+                  - button "Δ"
+                  - button "Ω"
+                - heading "Lowercase Letter Latin" [level=3]
+                - generic:
+                  - button "a"
+                  - button "á"
+                  - button "à"
+                  - button "ă"
+                  - button "â"
+                  - button "ǎ"
+                  - button "å"
+                  - button "ä"
+                  - button "ã"
+                  - button "ą"
+                  - button "ā"
+                  - button "æ"
+                  - button "b"
+                  - button "ḃ"
+                  - button "c"
+                  - button "ć"
+                  - button "ĉ"
+                  - button "č"
+                  - button "ċ"
+                  - button "ç"
+                  - button "d"
+                  - button "ď"
+                  - button "ḋ"
+                  - button "ḑ"
+                  - button "đ"
+                  - button "ð"
+                  - button "e"
+                  - button "é"
+                  - button "è"
+                  - button "ĕ"
+                  - button "ê"
+                  - button "ě"
+                  - button "ë"
+                  - button "ẽ"
+                  - button "ė"
+                  - button "ę"
+                  - button "ē"
+                  - button "ẹ"
+                  - button "ə"
+                  - button "f"
+                  - button "ḟ"
+                  - button "g"
+                  - button "ğ"
+                  - button "ĝ"
+                  - button "ǧ"
+                  - button "ġ"
+                  - button "ģ"
+                  - button "ḡ"
+                  - button "h"
+                  - button "ĥ"
+                  - button "ȟ"
+                  - button "ħ"
+                  - button "ḥ"
+                  - button "i"
+                  - button "í"
+                  - button "ì"
+                  - button "ĭ"
+                  - button "î"
+                  - button "ï"
+                  - button "ĩ"
+                  - button "į"
+                  - button "ī"
+                  - button "ị"
+                  - button "ĳ"
+                  - button "ı"
+                  - button "j"
+                  - button "ĵ"
+                  - button "ȷ"
+                  - button "k"
+                  - button "ķ"
+                  - button "l"
+                  - button "ĺ"
+                  - button "ľ"
+                  - button "ļ"
+                  - button "ł"
+                  - button "ḷ"
+                  - button "ŀ"
+                  - button "m"
+                  - button "ṁ"
+                  - button "n"
+                  - button "ń"
+                  - button "ň"
+                  - button "ñ"
+                  - button "ṅ"
+                  - button "ņ"
+                  - button "ŋ"
+                  - button "o"
+                  - button "ó"
+                  - button "ò"
+                  - button "ŏ"
+                  - button "ô"
+                  - button "ö"
+                  - button "ő"
+                  - button "õ"
+                  - button "ø"
+                  - button "ǿ"
+                  - button "ō"
+                  - button "ọ"
+                  - button "œ"
+                  - button "p"
+                  - button "ṗ"
+                  - button "q"
+                  - button "ĸ"
+                  - button "r"
+                  - button "ŕ"
+                  - button "ř"
+                  - button "ŗ"
+                  - button "s"
+                  - button "ś"
+                  - button "ŝ"
+                  - button "š"
+                  - button "ṡ"
+                  - button "ş"
+                  - button "ṣ"
+                  - button "ș"
+                  - button "ſ"
+                  - button "ß"
+                  - button "t"
+                  - button "ť"
+                  - button "ṫ"
+                  - button "ţ"
+                  - button "ț"
+                  - button "ŧ"
+                  - button "u"
+                  - button "ú"
+                  - button "ù"
+                  - button "ŭ"
+                  - button "û"
+                  - button "ǔ"
+                  - button "ů"
+                  - button "ü"
+                  - button "ű"
+                  - button "ũ"
+                  - button "ų"
+                  - button "ū"
+                  - button "ụ"
+                  - button "v"
+                  - button "w"
+                  - button "ẃ"
+                  - button "ẁ"
+                  - button "ŵ"
+                  - button "ẅ"
+                  - button "x"
+                  - button "y"
+                  - button "ý"
+                  - button "ỳ"
+                  - button "ŷ"
+                  - button "ÿ"
+                  - button "z"
+                  - button "ź"
+                  - button "ž"
+                  - button "ż"
+                  - button "þ"
+                  - button "ŉ"
+                  - button "ꞌ"
+                - heading "Lowercase Letter" [level=3]
+                - generic:
+                  - button "ℓ"
+                  - button "µ"
+                - heading "Lowercase Letter Greek" [level=3]
+                - generic:
+                  - button "μ"
+                  - button "π"
+                - heading "Modifier Letter" [level=3]
+                - generic:
+                  - button "ˆ"
+                  - button "ˇ"
+                  - button "ʼ"
+                - heading "Other Letter Latin" [level=3]
+                - generic:
+                  - button "ª"
+                  - button "º"
+                - heading "Nonspacing Mark Inherited" [level=3]
+                - generic:
+                  - button "̓"
+                  - button "́"
+                  - button "̀"
+                  - button "̆"
+                  - button "̂"
+                  - button "̌"
+                  - button "̊"
+                  - button "̈"
+                  - button "̋"
+                  - button "̃"
+                  - button "̇"
+                  - button "̧"
+                  - button "̨"
+                  - button "̄"
+                  - button "̒"
+                  - button "̣"
+                  - button "̦"
+                - heading "Decimal Number" [level=3]
+                - generic:
+                  - button "0"
+                  - button "1"
+                  - button "2"
+                  - button "3"
+                  - button "4"
+                  - button "5"
+                  - button "6"
+                  - button "7"
+                  - button "8"
+                  - button "9"
+                - heading "Other Number" [level=3]
+                - generic:
+                  - button "⓪"
+                  - button "⁰"
+                  - button "₀"
+                  - button "↉"
+                  - button "①"
+                  - button "¹"
+                  - button "₁"
+                  - button "⅟"
+                  - button "½"
+                  - button "⅓"
+                  - button "¼"
+                  - button "⅕"
+                  - button "⅙"
+                  - button "⅐"
+                  - button "⅛"
+                  - button "⅑"
+                  - button "⑩"
+                  - button "②"
+                  - button "²"
+                  - button "₂"
+                  - button "⅔"
+                  - button "⅖"
+                  - button "③"
+                  - button "³"
+                  - button "₃"
+                  - button "¾"
+                  - button "⅗"
+                  - button "⅜"
+                  - button "④"
+                  - button "⁴"
+                  - button "₄"
+                  - button "⅘"
+                  - button "⑤"
+                  - button "⁵"
+                  - button "₅"
+                  - button "⅚"
+                  - button "⅝"
+                  - button "⑥"
+                  - button "⁶"
+                  - button "₆"
+                  - button "⑦"
+                  - button "⁷"
+                  - button "₇"
+                  - button "⅞"
+                  - button "⑧"
+                  - button "⁸"
+                  - button "₈"
+                  - button "⑨"
+                  - button "⁹"
+                  - button "₉"
+                - heading "Connector Punctuation" [level=3]
+                - generic:
+                  - button "_"
+                - heading "Dash Punctuation" [level=3]
+                - generic:
+                  - button "-"
+                  - button "–"
+                  - button "—"
+                - heading "Close Punctuation" [level=3]
+                - generic:
+                  - button ")"
+                  - button "]"
+                  - 'button "}"'
+                - heading "Final Punctuation" [level=3]
+                - generic:
+                  - button "’"
+                  - button "›"
+                  - button "”"
+                  - button "»"
+                - heading "Initial Punctuation" [level=3]
+                - generic:
+                  - button "‘"
+                  - button "‹"
+                  - button "“"
+                  - button "«"
+                - heading "Other Punctuation" [level=3]
+                - generic:
+                  - button ","
+                  - button ";"
+                  - button ":"
+                  - button "!"
+                  - button "¡"
+                  - button "?"
+                  - button "¿"
+                  - button "."
+                  - button "…"
+                  - button "·"
+                  - button "'"
+                  - button "\""
+                  - button "§"
+                  - button "¶"
+                  - button "@"
+                  - button "*"
+                  - button /
+                  - button "\\"
+                  - button "&"
+                  - button "#"
+                  - button "%"
+                  - button "‰"
+                  - button "†"
+                  - button "‡"
+                  - button "•"
+                - heading "Open Punctuation" [level=3]
+                - generic:
+                  - button "‚"
+                  - button "„"
+                  - button "("
+                  - button "["
+                  - 'button "{"'
+                - heading "Currency Symbol" [level=3]
+                - generic:
+                  - button "¢"
+                  - button "$"
+                  - button "£"
+                  - button "¥"
+                  - button "€"
+                - heading "Modifier Symbol" [level=3]
+                - generic:
+                  - 'button "`"'
+                  - button "´"
+                  - button "˜"
+                  - button "^"
+                  - button "¯"
+                  - button "˘"
+                  - button "˙"
+                  - button "¨"
+                  - button "˚"
+                  - button "˝"
+                  - button "¸"
+                  - button "˛"
+                - heading "Math Symbol" [level=3]
+                - generic:
+                  - button "←"
+                  - button "→"
+                  - button "↑"
+                  - button "↓"
+                  - button "↔"
+                  - button "∂"
+                  - button "∅"
+                  - button "∏"
+                  - button "∑"
+                  - button "+"
+                  - button "±"
+                  - button "÷"
+                  - button "×"
+                  - button "<"
+                  - button "="
+                  - button "≠"
+                  - button ">"
+                  - button "|"
+                  - button "~"
+                  - button "−"
+                  - button "⁄"
+                  - button "√"
+                  - button "∞"
+                  - button "∫"
+                  - button "≈"
+                  - button "≤"
+                  - button "≥"
+                - heading "Other Symbol" [level=3]
+                - generic:
+                  - button "°"
+                  - button "©"
+                  - button "®"
+                  - button "℗"
+                  - button "℮"
+                  - button "↕"
+                  - button "↖"
+                  - button "↗"
+                  - button "↘"
+                  - button "↙"
+                  - button "¦"
+                  - button "◊"
+                  - button "❛"
+                  - button "❜"
+                  - button "❝"
+                  - button "❞"
+                  - button "™"
+                - heading "Contextual Alternates" [level=3]
+                - generic:
+                  - button "*in"
+                - heading "Stylistic Set 1" [level=3]
+                - generic:
+                  - button "1"
+                  - button "I"
+                  - button "i"
+                  - button "j"
+                  - button "l"
+                  - button "Ì"
+                  - button "Í"
+                  - button "Î"
+                  - button "Ï"
+                  - button "ì"
+                  - button "í"
+                  - button "î"
+                  - button "ï"
+                  - button "ĩ"
+                  - button "Ī"
+                  - button "ī"
+                  - button "ĭ"
+                  - button "Į"
+                  - button "į"
+                  - button "ı"
+                  - button "ĳ"
+                  - button "ĵ"
+                  - button "ĺ"
+                  - button "ļ"
+                  - button "ľ"
+                  - button "ŀ"
+                  - button "ł"
+                  - button "ȷ"
+                  - button "ḷ"
+                  - button "ị"
+                - heading "Stylistic Set 3" [level=3]
+                - generic:
+                  - button "K"
+                  - button "R"
+                  - button "k"
+                  - button "y"
+                  - button "ý"
+                  - button "ÿ"
+                  - button "Ķ"
+                  - button "ķ"
+                  - button "Ŕ"
+                  - button "Ŗ"
+                  - button "Ř"
+                  - button "ŷ"
+                  - button "ỳ"
+                - heading "Fractions" [level=3]
+                - generic:
+                  - button /
+                  - button "0"
+                  - button "1"
+                  - button "2"
+                  - button "3"
+                  - button "4"
+                  - button "5"
+                  - button "6"
+                  - button "7"
+                  - button "8"
+                  - button "9"
+                - heading "Tabular Figures" [level=3]
+                - generic:
+                  - button "0"
+                  - button "1"
+                  - button "2"
+                  - button "3"
+                  - button "4"
+                  - button "5"
+                  - button "6"
+                  - button "7"
+                  - button "8"
+                  - button "9"
+                - heading "Ordinals" [level=3]
+                - generic:
+                  - button "0A"
+                  - button "0a"
+                  - button "1A"
+                  - button "1a"
+                  - button "2A"
+                  - button "2a"
+                  - button "3A"
+                  - button "3a"
+                  - button "4A"
+                  - button "4a"
+                  - button "5A"
+                  - button "5a"
+                  - button "6A"
+                  - button "6a"
+                  - button "7A"
+                  - button "7a"
+                  - button "8A"
+                  - button "8a"
+                  - button "9A"
+                  - button "9a"
+                  - button "0O"
+                  - button "0o"
+                  - button "1O"
+                  - button "1o"
+                  - button "2O"
+                  - button "2o"
+                  - button "3O"
+                  - button "3o"
+                  - button "4O"
+                  - button "4o"
+                  - button "5O"
+                  - button "5o"
+                  - button "6O"
+                  - button "6o"
+                  - button "7O"
+                  - button "7o"
+                  - button "8O"
+                  - button "8o"
+                  - button "9O"
+                  - button "9o"
+                - heading "Scientific Inferiors" [level=3]
+                - generic:
+                  - button "0"
+                  - button "1"
+                  - button "2"
+                  - button "3"
+                  - button "4"
+                  - button "5"
+                  - button "6"
+                  - button "7"
+                  - button "8"
+                  - button "9"
+                - heading "Superscript" [level=3]
+                - generic:
+                  - button "0"
+                  - button "1"
+                  - button "2"
+                  - button "3"
+                  - button "4"
+                  - button "5"
+                  - button "6"
+                  - button "7"
+                  - button "8"
+                  - button "9"
+                - heading "Subscript" [level=3]
+                - generic:
+                  - button "0"
+                  - button "1"
+                  - button "2"
+                  - button "3"
+                  - button "4"
+                  - button "5"
+                  - button "6"
+                  - button "7"
+                  - button "8"
+                  - button "9"
+                - heading "Numerators" [level=3]
+                - generic:
+                  - button "0"
+                  - button "1"
+                  - button "2"
+                  - button "3"
+                  - button "4"
+                  - button "5"
+                  - button "6"
+                  - button "7"
+                  - button "8"
+                  - button "9"
+                - heading "Denominators" [level=3]
+                - generic:
+                  - button "0"
+                  - button "1"
+                  - button "2"
+                  - button "3"
+                  - button "4"
+                  - button "5"
+                  - button "6"
+                  - button "7"
+                  - button "8"
+                  - button "9"
+                - heading "Case-Sensitive Forms" [level=3]
+                - generic:
+                  - button "("
+                  - button ")"
+                  - button "-"
+                  - button /
+                  - button "["
+                  - button "\\"
+                  - button "]"
+                  - 'button "{"'
+                  - button "|"
+                  - 'button "}"'
+                  - button "¡"
+                  - button "¦"
+                  - button "«"
+                  - button "»"
+                  - button "¿"
+                  - button "–"
+                  - button "—"
+                  - button "‹"
+                  - button "›"
+                - heading "Glyph Composition" [level=3]
+                - generic:
+                  - button "ì"
+                  - button "í"
+                  - button "î"
+                  - button "ĩ"
+                  - button "ī"
+                  - button "ĭ"
+                  - button "i̇"
+                  - button "ï"
+                  - button "i̊"
+                  - button "i̋"
+                  - button "ǐ"
+                  - button "i̒"
+                  - button "i̓"
+                  - button "j̀"
+                  - button "j́"
+                  - button "ĵ"
+                  - button "j̃"
+                  - button "j̄"
+                  - button "j̆"
+                  - button "j̇"
+                  - button "j̈"
+                  - button "j̊"
+                  - button "j̋"
+                  - button "ǰ"
+                  - button "j̒"
+                  - button "j̓"
+                  - button "ŉ"
+        - heading "Language Support" [level=3] [ref=e84]
+        - list [ref=e86]:
+          - listitem [ref=e87]: Catalan
+          - listitem [ref=e88]: Chinese Pinyin
+          - listitem [ref=e89]: Croatian
+          - listitem [ref=e90]: Czech
+          - listitem [ref=e91]: Danish
+          - listitem [ref=e92]: Dutch
+          - listitem [ref=e93]: English
+          - listitem [ref=e94]: Filipino
+          - listitem [ref=e95]: Finnish
+          - listitem [ref=e96]: French
+          - listitem [ref=e97]: Fula
+          - listitem [ref=e98]: German
+          - listitem [ref=e99]: Hungarian
+          - listitem [ref=e100]: Indonesian
+          - listitem [ref=e101]: Italian
+          - listitem [ref=e102]: Latvian
+          - listitem [ref=e103]: Malay
+          - listitem [ref=e104]: Maltese
+          - listitem [ref=e105]: Norwegian
+          - listitem [ref=e106]: Polish
+          - listitem [ref=e107]: Portuguese
+          - listitem [ref=e108]: Romanian
+          - listitem [ref=e109]: Slovak
+          - listitem [ref=e110]: Slovenian
+          - listitem [ref=e111]: Spanish
+          - listitem [ref=e112]: Swedish
+          - listitem [ref=e113]: Turkish
+        - heading "Features" [level=3] [ref=e114]
+        - list [ref=e116]:
+          - listitem [ref=e117]: Fractions
+          - listitem [ref=e118]: Ordinal Numerals
+          - listitem [ref=e119]: Proportional Numerals
+          - listitem [ref=e120]: Stylistic Sets
+          - listitem [ref=e121]: Subscript
+          - listitem [ref=e122]: Superscript
+          - listitem [ref=e123]: Tabular Numerals
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - group [ref=e126]:
+          - generic [ref=e127]:
+            - checkbox "Desktop" [ref=e129] [cursor=pointer]
+            - generic [ref=e130]:
+              - generic [ref=e131]: Desktop
+              - paragraph [ref=e132]:
+                - link "Desktop license terms" [ref=e133] [cursor=pointer]:
+                  - /url: /licensing/desktop/
+          - button "Select Users" [ref=e136] [cursor=pointer]:
+            - generic: Select Users
+        - group [ref=e137]:
+          - generic [ref=e138]:
+            - checkbox "Web (yearly subscription)" [ref=e140] [cursor=pointer]
+            - generic [ref=e141]:
+              - generic [ref=e142]: Web (yearly subscription)
+              - paragraph [ref=e143]:
+                - link "Web license terms" [ref=e144] [cursor=pointer]:
+                  - /url: /licensing/web/
+          - button "Select Page views" [ref=e147] [cursor=pointer]:
+            - generic: Select Page views
+        - group [ref=e148]:
+          - generic [ref=e149]:
+            - checkbox "App (yearly subscription)" [ref=e151] [cursor=pointer]
+            - generic [ref=e152]:
+              - generic [ref=e153]: App (yearly subscription)
+              - paragraph [ref=e154]:
+                - link "App license terms" [ref=e155] [cursor=pointer]:
+                  - /url: /licensing/app/
+          - button "Select Apps" [ref=e158] [cursor=pointer]:
+            - generic: Select Apps
+      - table [ref=e160] [cursor=pointer]:
+        - rowgroup [ref=e161]:
+          - row "Bull-5 Family 12 styles $266.49 Save 38% $431.88" [ref=e162]:
+            - columnheader "Bull-5 Family 12 styles $266.49 Save 38% $431.88" [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - text: Bull-5
+                    - generic [ref=e168]: Family
+                  - generic [ref=e169]: 12 styles
+                - generic [ref=e170]:
+                  - generic [ref=e171]: $266.49
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: Save 38%
+                    - text: $431.88
+          - row "Regular $35.99 Regular Italic $35.99" [ref=e174]:
+            - cell "Regular $35.99" [ref=e175]:
+              - generic [ref=e176]:
+                - generic [ref=e177]: Regular
+                - generic [ref=e178]: $35.99
+            - cell "Regular Italic $35.99" [ref=e179]:
+              - generic [ref=e180]:
+                - generic [ref=e181]: Regular Italic
+                - generic [ref=e182]: $35.99
+          - row "Medium $35.99 Medium Italic $35.99" [ref=e183]:
+            - cell "Medium $35.99" [ref=e184]:
+              - generic [ref=e185]:
+                - generic [ref=e186]: Medium
+                - generic [ref=e187]: $35.99
+            - cell "Medium Italic $35.99" [ref=e188]:
+              - generic [ref=e189]:
+                - generic [ref=e190]: Medium Italic
+                - generic [ref=e191]: $35.99
+          - row "Semi Bold $35.99 Semi Bold Italic $35.99" [ref=e192]:
+            - cell "Semi Bold $35.99" [ref=e193]:
+              - generic [ref=e194]:
+                - generic [ref=e195]: Semi Bold
+                - generic [ref=e196]: $35.99
+            - cell "Semi Bold Italic $35.99" [ref=e197]:
+              - generic [ref=e198]:
+                - generic [ref=e199]: Semi Bold Italic
+                - generic [ref=e200]: $35.99
+          - row "Bold $35.99 Bold Italic $35.99" [ref=e201]:
+            - cell "Bold $35.99" [ref=e202]:
+              - generic [ref=e203]:
+                - generic [ref=e204]: Bold
+                - generic [ref=e205]: $35.99
+            - cell "Bold Italic $35.99" [ref=e206]:
+              - generic [ref=e207]:
+                - generic [ref=e208]: Bold Italic
+                - generic [ref=e209]: $35.99
+          - row "Extra Bold $35.99 Extra Bold Italic $35.99" [ref=e210]:
+            - cell "Extra Bold $35.99" [ref=e211]:
+              - generic [ref=e212]:
+                - generic [ref=e213]: Extra Bold
+                - generic [ref=e214]: $35.99
+            - cell "Extra Bold Italic $35.99" [ref=e215]:
+              - generic [ref=e216]:
+                - generic [ref=e217]: Extra Bold Italic
+                - generic [ref=e218]: $35.99
+          - row "Black $35.99 Black Italic $35.99" [ref=e219]:
+            - cell "Black $35.99" [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e222]: Black
+                - generic [ref=e223]: $35.99
+            - cell "Black Italic $35.99" [ref=e224]:
+              - generic [ref=e225]:
+                - generic [ref=e226]: Black Italic
+                - generic [ref=e227]: $35.99
+      - paragraph [ref=e230]: Please select fonts and licenses.
+      - button "Add to Cart" [ref=e231] [cursor=pointer]
+    - button "Sign Up For Our Newsletter" [ref=e234]:
+      - generic [ref=e235] [cursor=pointer]: Sign Up For Our Newsletter
+    - generic [ref=e236]:
+      - link "←Sneak" [ref=e237] [cursor=pointer]:
+        - /url: /typefaces/sneak
+      - link "Bull-5 Mono→" [ref=e238] [cursor=pointer]:
+        - /url: /typefaces/bull-5-mono
+  - contentinfo [ref=e239]:
+    - generic [ref=e240]: © The Type Founders, LLC 2026
+    - list [ref=e241]:
+      - listitem "dark mode toggle" [ref=e242]:
+        - button "◐" [ref=e243] [cursor=pointer]
+      - listitem [ref=e244]:
+        - link "Licensing" [ref=e245] [cursor=pointer]:
+          - /url: /licensing/
+      - listitem [ref=e246]:
+        - link "Privacy Policy" [ref=e247] [cursor=pointer]:
+          - /url: /privacy/
+      - listitem [ref=e248]:
+        - link "Terms of Service" [ref=e249] [cursor=pointer]:
+          - /url: /terms/
+      - listitem [ref=e250]:
+        - link "Contact" [ref=e251] [cursor=pointer]:
+          - /url: /contact/

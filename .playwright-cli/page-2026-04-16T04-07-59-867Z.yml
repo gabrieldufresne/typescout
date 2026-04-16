@@ -1,0 +1,606 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - paragraph [ref=e6]: Beta 0.1
+      - link "Logo" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=e8]
+    - generic [ref=e10]:
+      - paragraph [ref=e12]: ","
+      - link "Fonts" [ref=e13] [cursor=pointer]:
+        - /url: https://intervaltype.com/fonts/
+    - generic [ref=e15]:
+      - paragraph [ref=e17]: Partly Cloudy +22C˚
+      - link "Custom" [ref=e18] [cursor=pointer]:
+        - /url: https://intervaltype.com/custom/
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - paragraph [ref=e24]:
+            - link "Instagram" [ref=e25] [cursor=pointer]:
+              - /url: https://www.instagram.com/intervaltype
+          - paragraph [ref=e26]:
+            - link "Behance" [ref=e27] [cursor=pointer]:
+              - /url: https://www.behance.net
+        - generic [ref=e28]:
+          - link "Cart(0)" [ref=e29] [cursor=pointer]:
+            - /url: https://intervaltype.com/cart/
+          - link "Sign in" [ref=e30] [cursor=pointer]:
+            - /url: https://intervaltype.com/sign-in/
+      - link "Info+" [ref=e31] [cursor=pointer]:
+        - /url: https://intervaltype.com/info/
+  - main [ref=e32]:
+    - generic [ref=e36]:
+      - img [ref=e37]
+      - img [ref=e38]
+      - img [ref=e39]
+      - img [ref=e40]
+      - img [ref=e41]
+      - img [ref=e42]
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e48] [cursor=pointer]:
+          - combobox [ref=e49]:
+            - generic [ref=e50]: Riegraf Light
+            - listbox:
+              - option "Riegraf Light" [ref=e51]
+              - option "Riegraf Light Italic" [ref=e52]
+              - option "Riegraf Regular" [ref=e53]
+              - option "Riegraf Italic" [ref=e54]
+              - option "Riegraf Medium" [ref=e55]
+              - option "Riegraf Medium Italic" [ref=e56]
+              - option "Riegraf Bold" [ref=e57]
+              - option "Riegraf Bold Italic" [ref=e58]
+              - option "Riegraf Black" [ref=e59]
+              - option "Riegraf Black Italic" [ref=e60]
+          - option "Riegraf Light" [selected]
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e62]: "110"
+        - slider [ref=e64]: "1.05"
+        - link "BUY" [ref=e65] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e66]: They gain the ability to empathize with their friends, and enjoy playing in groups
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e70] [cursor=pointer]:
+          - combobox [ref=e71]:
+            - generic [ref=e72]: Riegraf Light Italic
+            - listbox:
+              - option "Riegraf Light" [ref=e73]
+              - option "Riegraf Light Italic" [ref=e74]
+              - option "Riegraf Regular" [ref=e75]
+              - option "Riegraf Italic" [ref=e76]
+              - option "Riegraf Medium" [ref=e77]
+              - option "Riegraf Medium Italic" [ref=e78]
+              - option "Riegraf Bold" [ref=e79]
+              - option "Riegraf Bold Italic" [ref=e80]
+              - option "Riegraf Black" [ref=e81]
+              - option "Riegraf Black Italic" [ref=e82]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic" [selected]
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e84]: "60"
+        - slider [ref=e86]: "1.1"
+        - generic [ref=e88] [cursor=pointer]:
+          - combobox [ref=e89]:
+            - generic [ref=e90]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e91]
+              - option "Lowercase alts italics" [ref=e92]
+              - option "Uppercase alts italics" [ref=e93]
+          - option "Default Set" [selected]
+          - option "Lowercase alts italics"
+          - option "Uppercase alts italics"
+        - link "BUY" [ref=e94] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e95]: Georg Simmel beschreibt in seinem Standardwerk Soziologie (1908) die Freundschaft differenziert und als graduelles Phänomen. Freundschaft fängt für ihn in dem Moment an, in dem sich zwei Menschen kennenlernen, also um ihre gegenseitige Existenz wissen
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e99] [cursor=pointer]:
+          - combobox [ref=e100]:
+            - generic [ref=e101]: Riegraf Regular
+            - listbox:
+              - option "Riegraf Light" [ref=e102]
+              - option "Riegraf Light Italic" [ref=e103]
+              - option "Riegraf Regular" [ref=e104]
+              - option "Riegraf Italic" [ref=e105]
+              - option "Riegraf Medium" [ref=e106]
+              - option "Riegraf Medium Italic" [ref=e107]
+              - option "Riegraf Bold" [ref=e108]
+              - option "Riegraf Bold Italic" [ref=e109]
+              - option "Riegraf Black" [ref=e110]
+              - option "Riegraf Black Italic" [ref=e111]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular" [selected]
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e113]: "190"
+        - slider [ref=e115]: "1"
+        - link "BUY" [ref=e116] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e117]: Functionality Personality
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - generic [ref=e121] [cursor=pointer]:
+          - combobox [ref=e122]:
+            - generic [ref=e123]: Riegraf Italic
+            - listbox:
+              - option "Riegraf Light" [ref=e124]
+              - option "Riegraf Light Italic" [ref=e125]
+              - option "Riegraf Regular" [ref=e126]
+              - option "Riegraf Italic" [ref=e127]
+              - option "Riegraf Medium" [ref=e128]
+              - option "Riegraf Medium Italic" [ref=e129]
+              - option "Riegraf Bold" [ref=e130]
+              - option "Riegraf Bold Italic" [ref=e131]
+              - option "Riegraf Black" [ref=e132]
+              - option "Riegraf Black Italic" [ref=e133]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic" [selected]
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e135]: "40"
+        - slider [ref=e137]: "1.1"
+        - generic [ref=e139] [cursor=pointer]:
+          - combobox [ref=e140]:
+            - generic [ref=e141]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e142]
+              - option "Uppercase alts italics" [ref=e143]
+              - option "Lowercase alts italics" [ref=e144]
+          - option "Default Set" [selected]
+          - option "Uppercase alts italics"
+          - option "Lowercase alts italics"
+        - link "BUY" [ref=e145] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e146]: В Древней Греции понятие дружбы становится предметом специальных философских и этических трактатов. Демокрит, Эпикур, Аристотель подчеркивали её земной, чувственный характер, способствующий достижению основной, по их мнению, цели жизни — разумного удовольствия. «Дружба, — говорил Эпикур, — обходит с пляской Вселенную, объявляя нам всем, чтобы мы пробуждались к прославлению счастливой жизни». Говоря о бескорыстном характере дружбы, Эпикур вместе с тем связывал её с пользой. «Всякая дружба желанна ради себя самой, а начало она берет из пользы»
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - generic [ref=e150] [cursor=pointer]:
+          - combobox [ref=e151]:
+            - generic [ref=e152]: Riegraf Medium
+            - listbox:
+              - option "Riegraf Light" [ref=e153]
+              - option "Riegraf Light Italic" [ref=e154]
+              - option "Riegraf Regular" [ref=e155]
+              - option "Riegraf Italic" [ref=e156]
+              - option "Riegraf Medium" [ref=e157]
+              - option "Riegraf Medium Italic" [ref=e158]
+              - option "Riegraf Bold" [ref=e159]
+              - option "Riegraf Bold Italic" [ref=e160]
+              - option "Riegraf Black" [ref=e161]
+              - option "Riegraf Black Italic" [ref=e162]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium" [selected]
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e164]: "120"
+        - slider [ref=e166]: "1"
+        - link "BUY" [ref=e167] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e168]: La amistad era una divinidad alegórica entre los griegos y romanos
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - generic [ref=e172] [cursor=pointer]:
+          - combobox [ref=e173]:
+            - generic [ref=e174]: Riegraf Medium Italic
+            - listbox:
+              - option "Riegraf Light" [ref=e175]
+              - option "Riegraf Light Italic" [ref=e176]
+              - option "Riegraf Regular" [ref=e177]
+              - option "Riegraf Italic" [ref=e178]
+              - option "Riegraf Medium" [ref=e179]
+              - option "Riegraf Medium Italic" [ref=e180]
+              - option "Riegraf Bold" [ref=e181]
+              - option "Riegraf Bold Italic" [ref=e182]
+              - option "Riegraf Black" [ref=e183]
+              - option "Riegraf Black Italic" [ref=e184]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic" [selected]
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e186]: "55"
+        - slider [ref=e188]: "1.05"
+        - generic [ref=e190] [cursor=pointer]:
+          - combobox [ref=e191]:
+            - generic [ref=e192]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e193]
+              - option "Uppercase alts italics" [ref=e194]
+              - option "Lowercase alts italics" [ref=e195]
+          - option "Default Set" [selected]
+          - option "Uppercase alts italics"
+          - option "Lowercase alts italics"
+        - link "BUY" [ref=e196] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e197]: Während ich überall sonst genötigt bin, mich in tausenden Lebenskreisen zu zersplittern, hier ein Stückchen zu nehmen, dort ein Quentchen zu geben, darf ich ihm so gesammelt und umfänglich nahen, wie ich bin und wie ich mich fühle. Meine Existenz ist ihm voll gegenwärtig, er kennt mein Verhältnis zu den Menschen, und versteht, warum ich so und nicht anders handeln muss, denn noch zu dem widersprechendsten Tun hat er die inneren Verbindungsfäden in Händen
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - generic [ref=e201] [cursor=pointer]:
+          - combobox [ref=e202]:
+            - generic [ref=e203]: Riegraf Bold
+            - listbox:
+              - option "Riegraf Light" [ref=e204]
+              - option "Riegraf Light Italic" [ref=e205]
+              - option "Riegraf Regular" [ref=e206]
+              - option "Riegraf Italic" [ref=e207]
+              - option "Riegraf Medium" [ref=e208]
+              - option "Riegraf Medium Italic" [ref=e209]
+              - option "Riegraf Bold" [ref=e210]
+              - option "Riegraf Bold Italic" [ref=e211]
+              - option "Riegraf Black" [ref=e212]
+              - option "Riegraf Black Italic" [ref=e213]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold" [selected]
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e215]: "210"
+        - slider [ref=e217]: "0.9"
+        - link "BUY" [ref=e218] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e219]: Уважение Personality Dialectics
+    - generic [ref=e220]:
+      - generic [ref=e221]:
+        - generic [ref=e223] [cursor=pointer]:
+          - combobox [ref=e224]:
+            - generic [ref=e225]: Riegraf Regular
+            - listbox:
+              - option "Riegraf Light" [ref=e226]
+              - option "Riegraf Light Italic" [ref=e227]
+              - option "Riegraf Regular" [ref=e228]
+              - option "Riegraf Italic" [ref=e229]
+              - option "Riegraf Medium" [ref=e230]
+              - option "Riegraf Medium Italic" [ref=e231]
+              - option "Riegraf Bold" [ref=e232]
+              - option "Riegraf Bold Italic" [ref=e233]
+              - option "Riegraf Black" [ref=e234]
+              - option "Riegraf Black Italic" [ref=e235]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular" [selected]
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e237]: "25"
+        - slider [ref=e239]: "1.2"
+        - link "BUY" [ref=e240] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e241]: Aristoteles hält Freundschaft nicht für ein graduelles Phänomen, bei dem einem der eine Mensch mehr Freund ist als der andere, sondern er kategorisiert die verschiedenen Freundschaften. Als erstes teilt er sie in die „Freundschaft unter Gleichen“ und die „Freundschaft unter Ungleichen“ und schließt gleichzeitig die Freundschaft zu unbeseelten Dingen aus. Aristoteles bezieht sich mit dieser Philia-Systematik auf Platons Dialog Lysis, in dem kategorial souverän und künstlerisch spielend das Problem der selbstlosen Freundschaft entfaltet wird. Die Freundschaft unter Gleichen gilt für gleichgestellte Bürger, sie sind einander ebenbürtig. Diese Freundschaft unterteilt er weiter in Nutzen-, Lust- und Tugendfreundschaft. Die Nutzenfreundschaft bringt die Menschen zu einem Zweck zusammen. Fällt dieser Zweck weg, ist die Freundschaft gefährdet. Ähnliches gilt für die Lustfreundschaft, die rein affektiv begründet ist. Diese beiden Arten sind akzidentiell und labil. Stabil dagegen ist die Tugend- oder Charakterfreundschaft. Sie ist die Freundschaft um des Freundes willen. Hier kommt Aristoteles’ Mesotes-Lehre ins Spiel, deren Maxime zufolge das Maßhalten der Weg zu einem tugendhaften und erfüllten Leben ist. Sind sich zwei Personen in ihrer Tugendhaftigkeit ähnlich, so ist das die Voraussetzung für die vollkommene Freundschaft. Wie für jegliche Tugend gilt auch für die Freundschaft bei Aristoteles, dass sie durch wiederholtes Handeln zur Gewohnheit werden muss. Freundschaft wird nur im alltäglichen Umgang ausgeübt. Die Teilhabe am Leben des Freundes und damit die räumliche Nähe sind nach Aristoteles für eine Freundschaft unerlässlich. Die Freundschaft unter Ungleichen bei Aristoteles würde vermutlich eher als Ehrerbietung bezeichnet. Sie beschreibt nicht nur das Verhältnis zwischen den Generationen, sondern auch das Verhältnis des Menschen zum Staat. So muss nach Aristoteles die Asymmetrie der Hierarchie durch einen Mehraufwand von philia seitens des Unterlegenen ausgeglichen werden. Der Sohn muss dem Vater mehr Respekt entgegenbringen als umgekehrt, so wie der Bürger mehr in den Staat investiert, als er unmittelbar zurückbekommt
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - generic [ref=e245] [cursor=pointer]:
+          - combobox [ref=e246]:
+            - generic [ref=e247]: Riegraf Bold
+            - listbox:
+              - option "Riegraf Light" [ref=e248]
+              - option "Riegraf Light Italic" [ref=e249]
+              - option "Riegraf Regular" [ref=e250]
+              - option "Riegraf Italic" [ref=e251]
+              - option "Riegraf Medium" [ref=e252]
+              - option "Riegraf Medium Italic" [ref=e253]
+              - option "Riegraf Bold" [ref=e254]
+              - option "Riegraf Bold Italic" [ref=e255]
+              - option "Riegraf Black" [ref=e256]
+              - option "Riegraf Black Italic" [ref=e257]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold" [selected]
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e259]: "135"
+        - slider [ref=e261]: "0.95"
+        - generic [ref=e263] [cursor=pointer]:
+          - combobox [ref=e264]:
+            - generic [ref=e265]: Default
+            - listbox:
+              - option "Default" [ref=e266]
+          - option "Default" [selected]
+        - link "BUY" [ref=e267] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e268]: PHYLOSOPHIC KNOWLEDGE AND ANTHROPOLOGY
+    - generic [ref=e269]:
+      - generic [ref=e270]:
+        - generic [ref=e272] [cursor=pointer]:
+          - combobox [ref=e273]:
+            - generic [ref=e274]: Riegraf Light
+            - listbox:
+              - option "Riegraf Light" [ref=e275]
+              - option "Riegraf Light Italic" [ref=e276]
+              - option "Riegraf Regular" [ref=e277]
+              - option "Riegraf Italic" [ref=e278]
+              - option "Riegraf Medium" [ref=e279]
+              - option "Riegraf Medium Italic" [ref=e280]
+              - option "Riegraf Bold" [ref=e281]
+              - option "Riegraf Bold Italic" [ref=e282]
+              - option "Riegraf Black" [ref=e283]
+              - option "Riegraf Black Italic" [ref=e284]
+          - option "Riegraf Light" [selected]
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic"
+        - slider [ref=e286]: "25"
+        - slider [ref=e288]: "1.3"
+        - generic [ref=e290] [cursor=pointer]:
+          - combobox [ref=e291]:
+            - generic [ref=e292]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e293]
+          - option "Default Set" [selected]
+        - link "BUY" [ref=e294] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e295]: "Развернутое учение о дружбе даёт и Аристотель в «Никомаховой этике». Аристотель различал три вида дружбы: дружбу, основанную на взаимной пользе; дружбу, преследующую удовольствие, и дружбу, основанную на добродетели. Первые два вида дружбы являются низшими; здесь люди любят не друг друга, а только ту пользу или то удовольствие, которое достигается в их общении. Такая дружба не может быть продолжительной, так как с исчезновением пользы или удовольствия исчезает и сама дружба. Истинная дружба — это дружба, основанная на добродетели. Здесь дружба имеет цель сама в себе и сохраняется до тех пор, пока люди, разделяющие её, остаются хорошими, добродетельными. Вместе с тем дружба, основанная на добродетели, включает в себя и взаимную пользу и удовольствие. Предполагая равенство участвующих в ней лиц, дружба тесно связана со справедливостью и теми условиями государственной жизни, в которой проявляется эта справедливость. «Дружба во всех формах государственного устройства проявляется настолько же, насколько справедливость». В соответствии с этим Аристотель утверждал, что при тираническом правлении дружба либо вовсе отсутствует, либо же занимает весьма незначительное место. «… Там не может быть дружбы, где нет ничего общего между правителем и управляемыми; нет места и справедливости…». Напротив, больше всего дружба проявляется в демократиях, так как здесь граждане, «… будучи равными, имеют много общих интересов». Совершенство общественной жизни состоит, по Аристотелю, в справедливости, соединенной с дружбой. Аристотель считал, что друзья есть то благо, которым в числе прочих должен обладать счастливый человек, целью дружбы он видел взаимное совершенствование в добродетели"
+    - generic [ref=e296]:
+      - generic [ref=e297]:
+        - generic [ref=e299] [cursor=pointer]:
+          - combobox [ref=e300]:
+            - generic [ref=e301]: Riegraf Black
+            - listbox:
+              - option "Riegraf Light" [ref=e302]
+              - option "Riegraf Light Italic" [ref=e303]
+              - option "Riegraf Regular" [ref=e304]
+              - option "Riegraf Italic" [ref=e305]
+              - option "Riegraf Medium" [ref=e306]
+              - option "Riegraf Medium Italic" [ref=e307]
+              - option "Riegraf Bold" [ref=e308]
+              - option "Riegraf Bold Italic" [ref=e309]
+              - option "Riegraf Black" [ref=e310]
+              - option "Riegraf Black Italic" [ref=e311]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black" [selected]
+          - option "Riegraf Black Italic"
+        - slider [ref=e313]: "110"
+        - slider [ref=e315]: "1.05"
+        - generic [ref=e317] [cursor=pointer]:
+          - combobox [ref=e318]:
+            - generic [ref=e319]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e320]
+          - option "Default Set" [selected]
+        - link "BUY" [ref=e321] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e322]: A World Happiness Database study found that people with close friendships are happier
+    - generic [ref=e323]:
+      - generic [ref=e324]:
+        - generic [ref=e326] [cursor=pointer]:
+          - combobox [ref=e327]:
+            - generic [ref=e328]: Riegraf Black Italic
+            - listbox:
+              - option "Riegraf Light" [ref=e329]
+              - option "Riegraf Light Italic" [ref=e330]
+              - option "Riegraf Regular" [ref=e331]
+              - option "Riegraf Italic" [ref=e332]
+              - option "Riegraf Medium" [ref=e333]
+              - option "Riegraf Medium Italic" [ref=e334]
+              - option "Riegraf Bold" [ref=e335]
+              - option "Riegraf Bold Italic" [ref=e336]
+              - option "Riegraf Black" [ref=e337]
+              - option "Riegraf Black Italic" [ref=e338]
+          - option "Riegraf Light"
+          - option "Riegraf Light Italic"
+          - option "Riegraf Regular"
+          - option "Riegraf Italic"
+          - option "Riegraf Medium"
+          - option "Riegraf Medium Italic"
+          - option "Riegraf Bold"
+          - option "Riegraf Bold Italic"
+          - option "Riegraf Black"
+          - option "Riegraf Black Italic" [selected]
+        - slider [ref=e340]: "110"
+        - slider [ref=e342]: "1.05"
+        - generic [ref=e344] [cursor=pointer]:
+          - combobox [ref=e345]:
+            - generic [ref=e346]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e347]
+              - option "Uppercase alts italics" [ref=e348]
+              - option "Lowercase alts italics" [ref=e349]
+          - option "Default Set" [selected]
+          - option "Uppercase alts italics"
+          - option "Lowercase alts italics"
+        - link "BUY" [ref=e350] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e351]: A World Happiness Database study found that people with close friendships are happier
+    - generic [ref=e353]:
+      - generic [ref=e355]:
+        - img [ref=e356]
+        - img [ref=e357]
+        - img [ref=e358]
+        - img [ref=e359]
+      - img [ref=e360] [cursor=pointer]
+      - img [ref=e361] [cursor=pointer]
+      - generic [ref=e362]:
+        - button [ref=e363] [cursor=pointer]
+        - button [ref=e364] [cursor=pointer]
+    - generic [ref=e365]:
+      - link "Download PDF Specimen" [ref=e366] [cursor=pointer]:
+        - /url: https://intervaltype.com/app/uploads/2022/11/Riegraf-Specimen-2023.pdf
+        - paragraph [ref=e368]: Download PDF Specimen
+      - generic [ref=e369]:
+        - paragraph [ref=e370]:
+          - strong [ref=e371]: Riegraf, a quick story
+        - paragraph [ref=e372]
+        - paragraph [ref=e373]: Riegraf was born out of an idea of designing a Serif typeface that feels like a geometric Sans-serif grotesk, while preserving the elegance usually associated with Serif typefaces.
+        - paragraph [ref=e374]
+        - paragraph [ref=e375]: The result is a fusion Serif typeface that has simple square slab serifs, high contrast letters, that bring elegance, as well as low contrast letters and numerals/currencies, that might look like they belong to a Sans-serif typeface. This mixed design approach aims to create something truly unique and innovative. In short Riegraf could be described as a Geometric Fusion Serif.
+        - paragraph [ref=e376]
+        - paragraph [ref=e377]: Riegraf was designed as a “friend” companion to Riegla, a non-neutral grotesk font family also available on intervaltype.com. These two families share many commonalities and will work well together creating a page that truly stands out typographically.
+        - paragraph [ref=e378]
+        - paragraph [ref=e379]: "Scripts: Extended Latin, Cyrillic"
+        - paragraph [ref=e380]
+        - paragraph [ref=e381]
+        - paragraph [ref=e382]:
+          - strong [ref=e383]: "Typeface minisite:"
+        - paragraph [ref=e384]:
+          - link "www.typefriends.com" [ref=e385] [cursor=pointer]:
+            - /url: http://typefriends.com
+    - generic [ref=e386]:
+      - heading "Buying options" [level=3] [ref=e387]
+      - generic [ref=e389]:
+        - paragraph [ref=e390]: Choose Licenses
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - generic [ref=e393]: Desktop
+            - combobox [ref=e394] [cursor=pointer]:
+              - option "Select license"
+              - option "1-3 Users" [selected]
+              - option "4-7 Users"
+              - option "8-12 Users"
+              - option "12-20 Users"
+              - option "20-50 Users"
+              - option "50-100 Users"
+              - option "100-500 Users"
+              - option "500-1000 Users"
+              - option "1000-5000 Users"
+            - img
+          - generic [ref=e395]:
+            - generic [ref=e396]: Web
+            - combobox [ref=e397] [cursor=pointer]:
+              - option "Select license" [selected]
+              - option "50k visitors/month"
+              - option "100k visitors/month"
+              - option "200k visitors/month"
+              - option "500k visitors/month"
+              - option "1 million visitors/month"
+              - option "5 million visitors/month"
+              - option "10 million visitors/month"
+              - option "20 million visitors/month"
+            - img
+          - generic [ref=e398]:
+            - generic [ref=e399]: App
+            - combobox [ref=e400] [cursor=pointer]:
+              - option "Select license" [selected]
+              - option "1 app"
+              - option "2 apps"
+              - option "3 apps"
+              - option "4 apps"
+              - option "5 apps"
+            - img
+        - paragraph [ref=e401]: Choose Fonts
+        - link "Review Cart / 0 items / 0 €" [ref=e403] [cursor=pointer]:
+          - /url: https://intervaltype.com/cart/
+          - text: Review Cart /
+          - generic [ref=e404]: "0"
+          - text: items /
+          - generic [ref=e405]: "0"
+          - text: €
+        - paragraph [ref=e406]:
+          - text: Proceed to reviewing your cart and payments. After your payment is complete you will receive the link to download your new fonts. If you have any questions please write to
+          - link "hello@intervaltype.com" [ref=e407] [cursor=pointer]:
+            - /url: mailto:help@intervaltype.com
+        - paragraph
+  - contentinfo [ref=e408]:
+    - generic [ref=e410]:
+      - list [ref=e412]:
+        - listitem [ref=e413]:
+          - strong [ref=e414]: Interval
+        - listitem [ref=e415]:
+          - link "Fonts" [ref=e416] [cursor=pointer]:
+            - /url: https://intervaltype.com/fonts/
+        - listitem [ref=e417]:
+          - link "Custom" [ref=e418] [cursor=pointer]:
+            - /url: https://intervaltype.com/custom/
+        - listitem [ref=e419]:
+          - link "Info+" [ref=e420] [cursor=pointer]:
+            - /url: https://intervaltype.com/info/
+      - generic [ref=e421]:
+        - list [ref=e423]:
+          - listitem [ref=e424]:
+            - link "Desktop license" [ref=e425] [cursor=pointer]:
+              - /url: https://intervaltype.com/info/
+          - listitem [ref=e426]:
+            - link "Web license" [ref=e427] [cursor=pointer]:
+              - /url: https://intervaltype.com/info/
+          - listitem [ref=e428]:
+            - link "App license" [ref=e429] [cursor=pointer]:
+              - /url: https://intervaltype.com/info/
+          - listitem [ref=e430]:
+            - link "Trial license" [ref=e431] [cursor=pointer]:
+              - /url: https://intervaltype.com/info/
+        - generic [ref=e432]:
+          - list [ref=e433]:
+            - listitem [ref=e434]:
+              - link "Terms & Conditions" [ref=e435] [cursor=pointer]:
+                - /url: https://intervaltype.com/terms-conditions/
+            - listitem [ref=e436]:
+              - link "Privacy Policy" [ref=e437] [cursor=pointer]:
+                - /url: https://intervaltype.com/privacy-policy-2/
+          - list [ref=e438]:
+            - listitem [ref=e439]:
+              - link "E-mail" [ref=e440] [cursor=pointer]:
+                - /url: mailto:hello@intervaltype.com
+            - listitem [ref=e441]:
+              - link "Instagram" [ref=e442] [cursor=pointer]:
+                - /url: https://www.instagram.com/intervaltype
+            - listitem [ref=e443]:
+              - link "Behance" [ref=e444] [cursor=pointer]:
+                - /url: https://www.behance.net
+        - list [ref=e446]:
+          - listitem [ref=e447]: Copyright ©2026
+          - listitem [ref=e448]: All Rights Reserved.

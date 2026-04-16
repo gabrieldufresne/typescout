@@ -1,0 +1,179 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - button "↑" [ref=e4] [cursor=pointer]
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link "Typefaces" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Custom" [ref=e8] [cursor=pointer]:
+          - /url: /custom
+        - link "Studio" [ref=e9] [cursor=pointer]:
+          - /url: /studio
+    - navigation [ref=e10]:
+      - link "Trials" [ref=e11] [cursor=pointer]:
+        - /url: /trials
+      - generic [ref=e12] [cursor=pointer]: Cart
+    - img [ref=e14] [cursor=pointer]
+  - generic [ref=e17]:
+    - heading "Schick Toikka is an independent type foundry established in 2010 by Florian Schick and Lauri Toikka. Located in Berlin and Helsinki we create high quality retail fonts, as well as custom typefaces for a wide range of large and small organizations. Please contact us for more information & inquiries." [level=1] [ref=e18]
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - heading "Selected clients" [level=2] [ref=e21]
+        - paragraph [ref=e22]: Apple, Chantelle, Designmuseum Helsinki, Google, Esquire, Elle, Flow Festival, Kinfolk, Kunsthalle Liechtenstein, Lemarié, Max Richter, Marimekko, Moda Operandi, Movado, New York Times, Nike, Office Magazine, Suomen Kuvalehti, Southbank Centre, The Atlantic, MoMA, Zeit Magazine
+      - generic [ref=e23]:
+        - heading "Contact" [level=2] [ref=e24]
+        - paragraph [ref=e25]:
+          - text: Schick Toikka
+          - text: Simplonstraße 54 · 10245 Berlin · Germany
+          - link "mail@schick-toikka.com" [ref=e26] [cursor=pointer]:
+            - /url: mailto:mail@schick-toikka.com
+    - generic [ref=e27]:
+      - link "Merged Contours • Typespecimen" [ref=e28] [cursor=pointer]:
+        - /url: /studio/merged-contours-typespecimen
+        - text: Merged Contours • Typespecimen
+        - img [ref=e29]
+      - link "Other Words • Exhibition" [ref=e30] [cursor=pointer]:
+        - /url: /studio/other-words-exhibition
+        - text: Other Words • Exhibition
+        - img [ref=e31]
+      - link "Other Words • Exhibition Catalogue" [ref=e32] [cursor=pointer]:
+        - /url: /studio/other-words-exhibition-catalogue
+        - text: Other Words • Exhibition Catalogue
+        - img [ref=e33]
+  - contentinfo [ref=e34]:
+    - generic [ref=e35]:
+      - separator [ref=e36]
+      - generic [ref=e37]:
+        - generic [ref=e39]:
+          - heading "Typefaces" [level=4] [ref=e40]:
+            - link "Typefaces" [ref=e41] [cursor=pointer]:
+              - /url: /
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "Edict" [ref=e44] [cursor=pointer]:
+                - /url: /edict
+            - listitem [ref=e45]:
+              - link "Phonic" [ref=e46] [cursor=pointer]:
+                - /url: /phonic
+            - listitem [ref=e47]:
+              - link "Lateral" [ref=e48] [cursor=pointer]:
+                - /url: /lateral
+            - listitem [ref=e49]:
+              - link "Items" [ref=e50] [cursor=pointer]:
+                - /url: /items
+            - listitem [ref=e51]:
+              - link "Saol" [ref=e52] [cursor=pointer]:
+                - /url: /saol
+            - listitem [ref=e53]:
+              - link "Scto Grotesk" [ref=e54] [cursor=pointer]:
+                - /url: /scto-grotesk
+            - listitem [ref=e55]:
+              - link "Apris" [ref=e56] [cursor=pointer]:
+                - /url: /apris
+            - listitem [ref=e57]:
+              - link "Noe" [ref=e58] [cursor=pointer]:
+                - /url: /noe
+            - listitem [ref=e59]:
+              - link "Krana Fat" [ref=e60] [cursor=pointer]:
+                - /url: /krana-fat
+            - listitem [ref=e61]:
+              - link "Spot" [ref=e62] [cursor=pointer]:
+                - /url: /spot
+            - listitem [ref=e63]:
+              - link "Chap" [ref=e64] [cursor=pointer]:
+                - /url: /chap
+            - listitem [ref=e65]:
+              - link "Trio Grotesk" [ref=e66] [cursor=pointer]:
+                - /url: /trio-grotesk
+            - listitem [ref=e67]:
+              - link "Lyyra" [ref=e68] [cursor=pointer]:
+                - /url: /lyyra
+            - listitem [ref=e69]:
+              - link "Dia" [ref=e70] [cursor=pointer]:
+                - /url: /dia
+        - generic [ref=e72]:
+          - heading "Custom" [level=4] [ref=e73]:
+            - link "Custom" [ref=e74] [cursor=pointer]:
+              - /url: /custom
+          - list [ref=e75]:
+            - listitem [ref=e76]:
+              - link "Marimekko" [ref=e77] [cursor=pointer]:
+                - /url: /custom/marimekko
+            - listitem [ref=e78]:
+              - link "Movado" [ref=e79] [cursor=pointer]:
+                - /url: /custom/movado
+            - listitem [ref=e80]:
+              - link "Kinfolk" [ref=e81] [cursor=pointer]:
+                - /url: /custom/kinfolk
+            - listitem [ref=e82]:
+              - link "Nike Women" [ref=e83] [cursor=pointer]:
+                - /url: /custom/nike-women
+            - listitem [ref=e84]:
+              - link "Sakara" [ref=e85] [cursor=pointer]:
+                - /url: /custom/sakara
+            - listitem [ref=e86]:
+              - link "Pitted Dates" [ref=e87] [cursor=pointer]:
+                - /url: /custom/pitted-dates
+            - listitem [ref=e88]:
+              - link "Nora Turato" [ref=e89] [cursor=pointer]:
+                - /url: /custom/nora-turato
+            - listitem [ref=e90]:
+              - link "Moda Operandi" [ref=e91] [cursor=pointer]:
+                - /url: /custom/moda-operandi
+            - listitem [ref=e92]:
+              - link "Max Richter" [ref=e93] [cursor=pointer]:
+                - /url: /custom/max-richter
+            - listitem [ref=e94]:
+              - link "Jacobin" [ref=e95] [cursor=pointer]:
+                - /url: /custom/jacobin
+            - listitem [ref=e96]:
+              - link "Suomen Kuvalehti" [ref=e97] [cursor=pointer]:
+                - /url: /custom/suomen-kuvalehti
+            - listitem [ref=e98]:
+              - link "Nike Unlaced" [ref=e99] [cursor=pointer]:
+                - /url: /custom/nike-unlaced
+            - listitem [ref=e100]:
+              - link "Flow Festival" [ref=e101] [cursor=pointer]:
+                - /url: /custom/flow-festival
+            - listitem [ref=e102]:
+              - link "Receptor" [ref=e103] [cursor=pointer]:
+                - /url: /custom/receptor
+            - listitem [ref=e104]:
+              - link "Dansens Hus" [ref=e105] [cursor=pointer]:
+                - /url: /custom/dansens-hus
+            - listitem [ref=e106]:
+              - link "Grafia" [ref=e107] [cursor=pointer]:
+                - /url: /custom/grafia
+        - generic [ref=e109]:
+          - heading "Information" [level=4] [ref=e110]:
+            - link "Information" [ref=e111] [cursor=pointer]:
+              - /url: /studio
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - link "Studio" [ref=e114] [cursor=pointer]:
+                - /url: /studio
+            - listitem [ref=e115]:
+              - link "Licenses" [ref=e116] [cursor=pointer]:
+                - /url: /licenses
+            - listitem [ref=e117]:
+              - link "Disclaimer" [ref=e118] [cursor=pointer]:
+                - /url: /disclaimer
+            - listitem [ref=e119]:
+              - link "Privacy Policy" [ref=e120] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e121]:
+              - link "Imprint" [ref=e122] [cursor=pointer]:
+                - /url: /imprint
+            - listitem [ref=e123]:
+              - link "Contact" [ref=e124] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e126]:
+          - heading "Get in touch" [level=4] [ref=e127]
+          - list [ref=e128]:
+            - listitem [ref=e129]:
+              - link "Email" [ref=e130] [cursor=pointer]:
+                - /url: mailto:mail@schick-toikka.com
+            - listitem [ref=e131]:
+              - link "Instagram" [ref=e132] [cursor=pointer]:
+                - /url: https://www.instagram.com/schicktoikka/
+      - generic [ref=e133]: Copyright © 2026 Schick Toikka

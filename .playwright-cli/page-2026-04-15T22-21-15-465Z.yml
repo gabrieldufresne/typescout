@@ -1,0 +1,556 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Markelius Sans" [ref=e6] [cursor=pointer]
+        - button "Regular" [ref=e8] [cursor=pointer]
+        - generic [ref=e11]:
+          - button [ref=e12]
+          - button [ref=e14] [cursor=pointer]
+          - button [ref=e16] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e19]: Folkets Hus at Norra Bantorget
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - heading "Letters from Sweden" [level=2] [ref=e23]:
+          - link "Letters from Sweden" [ref=e24] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se
+        - navigation [ref=e25]:
+          - link "Fonts" [ref=e26] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/fonts
+          - text: ","
+          - link "Custom" [ref=e27] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/custom
+          - text: ","
+          - link "Trials" [ref=e28] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/trials
+          - text: ", &"
+          - link "More" [ref=e29] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about
+        - link "Cart → €0" [ref=e31] [cursor=pointer]:
+          - /url: https://lettersfromsweden.se/cart/
+          - text: Cart →
+          - generic [ref=e34]: €0
+        - button [ref=e35] [cursor=pointer]
+      - generic [ref=e36]:
+        - text: Quick Preview
+        - figure [ref=e37]:
+          - generic [ref=e38]: xx
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Markelius Sans" [level=1] [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]: Buy →
+          - generic [ref=e44]:
+            - button "App" [ref=e45] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e46]:
+            - button "Desktop" [ref=e47] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e48]:
+            - button "Web" [ref=e49] [cursor=pointer]
+            - text: 02193 02193
+      - generic [ref=e50]:
+        - paragraph [ref=e51]:
+          - text: Markelius Sans is based on hand-drawn interpretations of Helvetica found in the archives of
+          - link "Folkets Hus" [ref=e52] [cursor=pointer]:
+            - /url: https://houseofpeople.se/en/history
+          - text: at Norra Bantorget in Stockholm. The building, a Functionalist masterpiece, was designed by architect Sven Markelius, who played a central role in Stockholm’s post-war urban planning. Among architectural drawings and signboards, these letters were discovered. When the building was inaugurated in 1960, they were used for signage spelling “stadsteatern”, “kongresshallen”, “baldakinen”, and “pelarsalen”. In 1991, signage for “dansens hus” was added, produced using the same limited set of letters.
+        - paragraph [ref=e53]: "An antidote to the perfectionism of contemporary typography, the typeface carries an inherent charm that cannot be constructed with Bézier curves alone. Each letter was digitised directly from the source material, with missing characters drawn to follow the same underlying logic. Sixty-six years later, Markelius Sans is released in four weights with italics. The typeface includes a unicase stylistic set and four arrow sets: circled and uncircled, each adapted for lowercase and capital-height alignment."
+        - paragraph [ref=e54]:
+          - text: Commissioned by
+          - link "Figur" [ref=e55] [cursor=pointer]:
+            - /url: https://figur123.com
+          - text: as part of the new signage system designed for the reopening of Folkets Hus in 2025.
+        - generic [ref=e56]:
+          - text: Year
+          - text: "2026"
+        - generic [ref=e57]:
+          - text: Designed by
+          - generic [ref=e58]:
+            - link "Göran Söderström" [ref=e60] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/goran-soderstrom/
+            - link "Figur" [ref=e62] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/figur/
+            - link "Léo Guibert" [ref=e64] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/leo-guibert/
+        - generic [ref=e65]:
+          - text: Script(s)
+          - text: latin
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]: New!
+        - button "Markelius Sans" [ref=e70] [cursor=pointer]
+        - button "Regular" [ref=e72] [cursor=pointer]
+        - generic [ref=e75]:
+          - button [ref=e76]
+          - button [ref=e78] [cursor=pointer]
+          - button [ref=e80] [cursor=pointer]
+        - list [ref=e83]:
+          - listitem [ref=e84] [cursor=pointer]: ss01
+          - listitem [ref=e85] [cursor=pointer]: ss02
+          - listitem [ref=e86] [cursor=pointer]: ss03
+          - listitem [ref=e87] [cursor=pointer]: ss04
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e89]: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890@&!?#$€%→
+    - figure [ref=e91]
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]: New!
+        - generic [ref=e96]: Markelius Sans Variable
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e100]: LFS/FIGUR
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - button "Markelius Sans" [ref=e104] [cursor=pointer]
+        - button "Regular" [ref=e106] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e108]: Markelius played an important role in the post-war urban planning of Stockholm, for example in the creation of the model suburbs of Vällingby (1950s) and Farsta (1960s).
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - button "Markelius Sans" [ref=e112] [cursor=pointer]
+        - button "Bold Italic" [ref=e114] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e116]:
+        - text: Source
+        - text: Material
+    - generic [ref=e118]:
+      - button "Markelius Sans" [ref=e120] [cursor=pointer]
+      - button "Regular" [ref=e122] [cursor=pointer]
+      - text: 02193 02193 02193 02193 02193 02193
+    - generic [ref=e127]:
+      - generic [ref=e129]: Markelius Sans Characters
+      - generic [ref=e130]:
+        - generic: A
+        - generic [ref=e131]:
+          - text: A
+          - text: 
+          - text: Á
+          - text: 
+          - text: Ă
+          - text: 
+          - text: Â
+          - text: 
+          - text: Ä
+          - text: 
+          - text: À
+          - text: 
+          - text: Ā
+          - text: 
+          - text: Ą
+          - text: 
+          - text: Å
+          - text: 
+          - text: Ã
+          - text: 
+          - text: Æ
+          - text: 
+          - text: B
+          - text: C
+          - text: Ć
+          - text: Č
+          - text: Ç
+          - text: Ċ
+          - text: D
+          - text: Ď
+          - text: Đ
+          - text: Ð
+          - text: E
+          - text: 
+          - text: É
+          - text: 
+          - text: Ě
+          - text: 
+          - text: Ê
+          - text: 
+          - text: Ë
+          - text: 
+          - text: Ė
+          - text: 
+          - text: È
+          - text: 
+          - text: Ē
+          - text: 
+          - text: Ę
+          - text: 
+          - text: Ə
+          - text: F
+          - text: G
+          - text: Ğ
+          - text: Ģ
+          - text: Ġ
+          - text: H
+          - text: Ħ
+          - text: I
+          - text: Ĳ
+          - text: Í
+          - text: Î
+          - text: Ï
+          - text: İ
+          - text: Ì
+          - text: Ī
+          - text: Į
+          - text: J
+          - text: 
+          - text: K
+          - text: Ķ
+          - text: L
+          - text: Ĺ
+          - text: Ľ
+          - text: Ļ
+          - text: Ł
+          - text: M
+          - text: 
+          - text: "N"
+          - text: 
+          - text: Ń
+          - text: 
+          - text: Ň
+          - text: 
+          - text: Ņ
+          - text: 
+          - text: Ñ
+          - text: 
+          - text: O
+          - text: Ó
+          - text: Ô
+          - text: Ö
+          - text: Ò
+          - text: Ő
+          - text: Ō
+          - text: Ø
+          - text: Õ
+          - text: Œ
+          - text: 
+          - text: P
+          - text: Þ
+          - text: Q
+          - text: R
+          - text: Ŕ
+          - text: Ř
+          - text: Ŗ
+          - text: S
+          - text: Ś
+          - text: Š
+          - text: Ş
+          - text: Ș
+          - text: ẞ
+          - text: T
+          - text: Ť
+          - text: Ţ
+          - text: Ț
+          - text: U
+          - text: Ú
+          - text: Û
+          - text: Ü
+          - text: Ù
+          - text: Ű
+          - text: Ū
+          - text: Ų
+          - text: Ů
+          - text: V
+          - text: W
+          - text: Ẃ
+          - text: Ŵ
+          - text: Ẅ
+          - text: Ẁ
+          - text: X
+          - text: "Y"
+          - text: Ý
+          - text: Ŷ
+          - text: Ÿ
+          - text: Ỳ
+          - text: Z
+          - text: Ź
+          - text: Ž
+          - text: Ż
+          - text: a
+          - text: á
+          - text: ă
+          - text: â
+          - text: ä
+          - text: à
+          - text: ā
+          - text: ą
+          - text: å
+          - text: ã
+          - text: æ
+          - text: b
+          - text: c
+          - text: ć
+          - text: č
+          - text: ç
+          - text: ċ
+          - text: d
+          - text: ď
+          - text: đ
+          - text: ð
+          - text: e
+          - text: é
+          - text: 
+          - text: ě
+          - text: ê
+          - text: ë
+          - text: ė
+          - text: è
+          - text: ē
+          - text: ę
+          - text: ə
+          - text: f
+          - text: g
+          - text: ğ
+          - text: ģ
+          - text: ġ
+          - text: h
+          - text: ħ
+          - text: i
+          - text: ı
+          - text: í
+          - text: î
+          - text: ï
+          - text: 
+          - text: ì
+          - text: ī
+          - text: į
+          - text: ĳ
+          - text: j
+          - text: ȷ
+          - text: 
+          - text: k
+          - text: ķ
+          - text: l
+          - text: ĺ
+          - text: ľ
+          - text: ļ
+          - text: ł
+          - text: m
+          - text: "n"
+          - text: ń
+          - text: ň
+          - text: ņ
+          - text: ñ
+          - text: o
+          - text: ó
+          - text: ô
+          - text: ö
+          - text: ò
+          - text: ő
+          - text: ō
+          - text: ø
+          - text: õ
+          - text: œ
+          - text: p
+          - text: þ
+          - text: q
+          - text: r
+          - text: ŕ
+          - text: ř
+          - text: ŗ
+          - text: s
+          - text: ś
+          - text: š
+          - text: ş
+          - text: ș
+          - text: ß
+          - text: t
+          - text: ť
+          - text: ţ
+          - text: ț
+          - text: u
+          - text: ú
+          - text: û
+          - text: ü
+          - text: ù
+          - text: ű
+          - text: ū
+          - text: ų
+          - text: ů
+          - text: v
+          - text: w
+          - text: ẃ
+          - text: ŵ
+          - text: ẅ
+          - text: ẁ
+          - text: x
+          - text: "y"
+          - text: ý
+          - text: ŷ
+          - text: ÿ
+          - text: ỳ
+          - text: z
+          - text: ź
+          - text: ž
+          - text: ż
+          - text: ﬁ
+          - text: ﬂ
+          - text: ª
+          - text: º
+          - text: μ
+          - text: π
+          - text: "0"
+          - text: "1"
+          - text: "2"
+          - text: "3"
+          - text: "4"
+          - text: "5"
+          - text: "6"
+          - text: "7"
+          - text: "8"
+          - text: "9"
+          - text: ⁄
+          - text: ½
+          - text: ¼
+          - text: ¾
+          - text: ¹
+          - text: ²
+          - text: ³
+          - text: .
+          - text: ","
+          - text: ":"
+          - text: 
+          - text: ;
+          - text: …
+          - text: "!"
+          - text: ¡
+          - text: "?"
+          - text: ¿
+          - text: ·
+          - text: •
+          - text: "*"
+          - text: "#"
+          - text: /
+          - text: \
+          - text: "-"
+          - text: –
+          - text: —
+          - text: _
+          - text: (
+          - text: )
+          - text: "{"
+          - text: "}"
+          - text: "["
+          - text: "]"
+          - text: ‚
+          - text: „
+          - text: “
+          - text: ”
+          - text: ‘
+          - text: ’
+          - text: «
+          - text: »
+          - text: ‹
+          - text: ›
+          - text: "\""
+          - text: "'"
+          - text: "@"
+          - text: "&"
+          - text: ¶
+          - text: §
+          - text: ©
+          - text: ®
+          - text: ™
+          - text: °
+          - text: "|"
+          - text: ¦
+          - text: †
+          - text: ‡
+          - text: ¢
+          - text: $
+          - text: €
+          - text: ₹
+          - text: £
+          - text: ¥
+          - text: +
+          - text: −
+          - text: ×
+          - text: ÷
+          - text: =
+          - text: ≠
+          - text: ">"
+          - text: <
+          - text: ≥
+          - text: ≤
+          - text: ±
+          - text: ≈
+          - text: ~
+          - text: ¬
+          - text: ^
+          - text: ∞
+          - text: ∫
+          - text: ∏
+          - text: ∑
+          - text: √
+          - text: ∂
+          - text: µ
+          - text: "%"
+          - text: ‰
+          - text: ↑
+          - text: 
+          - text: 
+          - text: 
+          - text: ↗
+          - text: 
+          - text: 
+          - text: 
+          - text: →
+          - text: 
+          - text: 
+          - text: 
+          - text: ↘
+          - text: 
+          - text: 
+          - text: 
+          - text: ↓
+          - text: 
+          - text: 
+          - text: 
+          - text: ↙
+          - text: 
+          - text: 
+          - text: 
+          - text: ←
+          - text: 
+          - text: 
+          - text: 
+          - text: ↖
+          - text: 
+          - text: 
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - button "Tid" [ref=e135] [cursor=pointer]
+        - button "Regular Display" [ref=e137] [cursor=pointer]
+        - generic [ref=e140]:
+          - button [ref=e141]
+          - button [ref=e143] [cursor=pointer]
+          - button [ref=e145] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e148]: Tid Regular Display, Tid Regular Display, Tid Regular Display, Tid Regular Display, Tid Regular Display, Tid Regular Display, Tid Regular Display, Tid Regular Display ...
+      - link "→ Learn more about Tid" [ref=e149] [cursor=pointer]:
+        - /url: https://lettersfromsweden.se/font/tid/
+  - contentinfo [ref=e150]:
+    - navigation [ref=e151]:
+      - list [ref=e153]:
+        - listitem [ref=e154]:
+          - link "About" [ref=e155] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about/
+          - text: ","
+        - listitem [ref=e156]:
+          - link "Support" [ref=e157] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/support/
+          - text: ","
+        - listitem [ref=e158]:
+          - link "License" [ref=e159] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/license/
+          - text: ","
+        - listitem [ref=e160]:
+          - link "Designers" [ref=e161] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/designers/
+          - text: ","
+        - listitem [ref=e162]:
+          - link "Contact" [ref=e163] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/contact/
+          - text: ","
+        - listitem [ref=e164]:
+          - link "Privacy Policy" [ref=e165] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/privacypolicy/
+  - status [ref=e166]

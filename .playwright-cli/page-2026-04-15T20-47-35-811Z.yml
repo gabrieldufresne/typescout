@@ -1,0 +1,1413 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - heading "Labor and Wait" [level=1] [ref=e4]:
+      - link "Labor and Wait" [ref=e5] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Fonts" [ref=e8] [cursor=pointer]:
+          - /url: /fonts
+        - link "Trials" [ref=e9] [cursor=pointer]:
+          - /url: /trials
+      - generic [ref=e10]:
+        - link "Info" [ref=e11] [cursor=pointer]:
+          - /url: /info
+        - link "Account" [ref=e12] [cursor=pointer]:
+          - /url: /account
+        - button "Cart" [ref=e13] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - heading "Copernicus New Cond" [level=1] [ref=e17]
+      - button "Buy Copernicus New Cond" [ref=e25] [cursor=pointer]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - img [ref=e33]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e35]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - img [ref=e39]
+              - text: "170"
+            - combobox "170" [ref=e41]:
+              - option "070"
+              - option "090"
+              - option "110"
+              - option "130"
+              - option "150"
+              - option "170" [selected]
+        - generic [ref=e43]:
+          - generic [ref=e44]: Size
+          - slider [ref=e46] [cursor=pointer]
+      - textbox [ref=e52]:
+        - generic [ref=e56]: MORNING BELL
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - img [ref=e64]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e66]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img [ref=e70]
+              - text: "130"
+            - combobox "130" [ref=e72]:
+              - option "070"
+              - option "090"
+              - option "110"
+              - option "130" [selected]
+              - option "150"
+              - option "170"
+        - generic [ref=e74]:
+          - generic [ref=e75]: Size
+          - slider [ref=e77] [cursor=pointer]
+      - textbox [ref=e83]:
+        - generic [ref=e87]: AN ARM AND A LEG
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - img [ref=e95]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e97]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - img [ref=e101]
+              - text: "090"
+            - combobox "090" [ref=e103]:
+              - option "070"
+              - option "090" [selected]
+              - option "110"
+              - option "130"
+              - option "150"
+              - option "170"
+        - generic [ref=e105]:
+          - generic [ref=e106]: Size
+          - slider [ref=e108] [cursor=pointer]
+      - textbox [ref=e114]:
+        - generic [ref=e118]: TRADITIONNELLEMENT
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - img [ref=e126]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e128]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - img [ref=e132]
+              - text: "130"
+            - combobox "130" [ref=e134]:
+              - option "070"
+              - option "090"
+              - option "110"
+              - option "130" [selected]
+              - option "150"
+              - option "170"
+        - generic [ref=e136]:
+          - generic [ref=e137]: Size
+          - slider [ref=e139] [cursor=pointer]
+      - textbox [ref=e145]:
+        - generic [ref=e149]: ISABELLA, OR THE POT OF BASIL
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - img [ref=e157]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e159]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - img [ref=e163]
+              - text: "070"
+            - combobox "070" [ref=e165]:
+              - option "070" [selected]
+              - option "090"
+              - option "110"
+              - option "130"
+              - option "150"
+              - option "170"
+        - generic [ref=e167]:
+          - generic [ref=e168]: Size
+          - slider [ref=e170] [cursor=pointer]
+      - textbox [ref=e176]:
+        - generic [ref=e180]: LET NOT THE SUN GO DOWN ON YOUR WRATH
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - img [ref=e188]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e190]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - img [ref=e194]
+              - text: "090"
+            - combobox "090" [ref=e196]:
+              - option "070"
+              - option "090" [selected]
+              - option "110"
+              - option "130"
+              - option "150"
+              - option "170"
+        - generic [ref=e198]:
+          - generic [ref=e199]: Size
+          - slider [ref=e201] [cursor=pointer]
+      - textbox [ref=e207]:
+        - generic [ref=e211]: YOU CAN’T MAKE A TOMLETTE WITHOUT BREAKING A FEW GREGS
+    - generic [ref=e213]:
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - img [ref=e219]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e221]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - img [ref=e225]
+              - text: "150"
+            - combobox "150" [ref=e227]:
+              - option "070"
+              - option "090"
+              - option "110"
+              - option "130"
+              - option "150" [selected]
+              - option "170"
+        - generic [ref=e229]:
+          - generic [ref=e230]: Size
+          - slider [ref=e232] [cursor=pointer]
+      - textbox [ref=e238]:
+        - generic [ref=e242]: A star is an astronomical object comprising a luminous spheroid of plasma held together by self-gravity. The nearest star to Earth is the Sun. Many other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light. The most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names.
+    - generic [ref=e244]:
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - img [ref=e250]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e252]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - img [ref=e256]
+              - text: "110"
+            - combobox "110" [ref=e258]:
+              - option "070"
+              - option "090"
+              - option "110" [selected]
+              - option "130"
+              - option "150"
+              - option "170"
+        - generic [ref=e260]:
+          - generic [ref=e261]: Size
+          - slider [ref=e263] [cursor=pointer]
+      - textbox [ref=e269]:
+        - generic [ref=e273]: A star’s life begins with the gravitational collapse of a gaseous nebula of material largely comprising hydrogen, helium, and trace heavier elements. Its total mass mainly determines its evolution and eventual fate. A star shines for most of its active life due to the thermonuclear fusion of hydrogen into helium in its core. Stellar nucleosynthesis in stars or their remnants creates almost all naturally occurring chemical elements heavier than lithium.
+    - generic [ref=e275]:
+      - generic [ref=e276]:
+        - generic [ref=e277]:
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - img [ref=e281]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e283]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - img [ref=e287]
+              - text: "170"
+            - combobox "170" [ref=e289]:
+              - option "070"
+              - option "090"
+              - option "110"
+              - option "130"
+              - option "150"
+              - option "170" [selected]
+        - generic [ref=e291]:
+          - generic [ref=e292]: Size
+          - slider [ref=e294] [cursor=pointer]
+      - textbox [ref=e300]:
+        - generic [ref=e304]: Astronomers can determine stellar properties—including mass, age, metallicity (chemical composition), variability, distance, and motion through space—by carrying out observations of a star’s apparent brightness, spectrum, and changes in its position in the sky over time. Stars can form orbital systems with other astronomical objects, as in planetary systems and star systems with two or more stars.
+    - generic [ref=e306]:
+      - generic [ref=e307]:
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - img [ref=e312]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e314]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - img [ref=e318]
+              - text: "130"
+            - combobox "130" [ref=e320]:
+              - option "070"
+              - option "090"
+              - option "110"
+              - option "130" [selected]
+              - option "150"
+              - option "170"
+        - generic [ref=e322]:
+          - generic [ref=e323]: Size
+          - slider [ref=e325] [cursor=pointer]
+      - textbox [ref=e331]:
+        - generic [ref=e335]: Early astronomers recognized a difference between fixed stars, whose position on the celestial sphere does not change, and wandering stars (planets) which move noticeably relative to the fixed stars over days or weeks. Many ancient astronomers believed that the stars were permanently affixed to a heavenly sphere and that they were immutable. By convention, astronomers grouped prominent stars into asterisms and constellations.
+    - generic [ref=e337]:
+      - generic [ref=e338]:
+        - generic [ref=e339]:
+          - generic [ref=e340]:
+            - generic [ref=e341]:
+              - img [ref=e343]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e345]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - img [ref=e349]
+              - text: "070"
+            - combobox "070" [ref=e351]:
+              - option "070" [selected]
+              - option "090"
+              - option "110"
+              - option "130"
+              - option "150"
+              - option "170"
+        - generic [ref=e353]:
+          - generic [ref=e354]: Size
+          - slider [ref=e356] [cursor=pointer]
+      - textbox [ref=e362]:
+        - generic [ref=e366]: The concept of a constellation was known to exist during the Babylonian period. Ancient sky watchers imagined that prominent arrangements of stars formed patterns, and they associated these with particular aspects of nature or their myths. Twelve of these formations lay along the band of the ecliptic and these became the basis of astrology. Many of the more prominent individual stars were given names, particularly with Arabic or Latin designations.
+    - generic [ref=e368]:
+      - generic [ref=e369]:
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - generic [ref=e372]:
+              - img [ref=e374]
+              - text: Copernicus New Cond
+            - combobox "Copernicus New Cond" [ref=e376]:
+              - option "Esperanza Headline"
+              - option "Esperanza Stencil"
+              - option "Cosmica"
+              - option "Cosmica Mono"
+              - option "OBBLIGATO"
+              - option "Copernicus New Cond" [selected]
+              - option "Copernicus"
+              - option "Aero"
+              - option "Cassiopeia"
+              - option "Brooklyn"
+              - option "Brooklyn Stencil"
+              - option "Apex New"
+              - option "Apex Rounded"
+              - option "Polaris"
+              - option "Polaris Condensed"
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - img [ref=e380]
+              - text: "090"
+            - combobox "090" [ref=e382]:
+              - option "070"
+              - option "090" [selected]
+              - option "110"
+              - option "130"
+              - option "150"
+              - option "170"
+        - generic [ref=e384]:
+          - generic [ref=e385]: Size
+          - slider [ref=e387] [cursor=pointer]
+      - textbox [ref=e393]:
+        - generic [ref=e397]: Many stars are observed, and most or all may have originally formed in gravitationally bound, multiple-star systems. This is particularly true for very massive O and B class stars, 80% of which are believed to be part of multiple-star systems. The proportion of single star systems increases with decreasing star mass, so that only 25% of red dwarfs are known to have stellar companions.
+    - generic [ref=e398]:
+      - generic [ref=e399]:
+        - heading "About Copernicus New Cond" [level=2] [ref=e400]
+        - paragraph [ref=e401]: Tight beta 2024.01.29. The present beta represents the expected weight range and is kerned and tightly spaced. The default numeral set lining proportional, with lining tabular and oldstyle proportional also included. In the previous beta, the heaviest weight was much wider, being more of a semicondensed. As a result, all weights are now uniformly condensed. Galaxie New Condensed will be released before the end of 2024.Q1. Licensees of the Beta will receive the final files when they are released.
+        - heading "Supported Languages" [level=2] [ref=e402]
+        - paragraph [ref=e403]: Afrikaans, Albanian, Basque, Bosnian, Breton, Catalan, Corsican, Croatian, Czech, Danish, Dutch, English, Esperanto, Estonian, Faroese, Finnish, French, Galician, German, Greenlandic, Hungarian, Icelandic, Indonesian, Irish, Irish Gaelic, Italian, Kurdish, Latin, Latvian, Leonese, Lithuanian, Lower Sorbian, Luxembourgish, Malay, Maltese, Manx, Māori, Norwegian, Occitan, Polish, Portuguese, Rhaeto-Romanic, Romanian, Sami, Scots, Scottish Gaelic, Serbian, Slovak, Slovene, Slovenian, Spanish, Swahili, Swedish, Tagalog, Turkish, Upper Sorbian, Walloon, Welsh
+      - generic [ref=e404]:
+        - heading "PDF Specimen" [level=3] [ref=e405]
+        - link [ref=e407] [cursor=pointer]:
+          - /url: https://store.laborandwait.xyz/pdfs/de260adb42325ca39eb3a98085f3e4b7f0b05202
+    - generic [ref=e410]:
+      - generic [ref=e412]:
+        - generic [ref=e413]:
+          - generic [ref=e414]: A
+          - generic [ref=e415]:
+            - generic: Baseline
+            - generic: "0"
+          - generic [ref=e416]:
+            - generic: Descender
+            - generic: "-240"
+          - generic [ref=e417]:
+            - generic: Ascender
+            - generic: "800"
+          - generic [ref=e418]:
+            - generic: Cap height
+            - generic: "780"
+          - generic [ref=e419]:
+            - generic: x-Height
+            - generic: "538"
+        - generic [ref=e420]:
+          - generic [ref=e421]: Font style
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - img [ref=e426]
+              - text: Copernicus New Cond 130
+            - combobox "Copernicus New Cond 130" [ref=e428]:
+              - option "Copernicus New Cond 070"
+              - option "Copernicus New Cond 090"
+              - option "Copernicus New Cond 110"
+              - option "Copernicus New Cond 130" [selected]
+              - option "Copernicus New Cond 150"
+              - option "Copernicus New Cond 170"
+          - generic [ref=e429]: Glyph name
+          - generic [ref=e430]: A
+          - generic [ref=e431]: Unicode name
+          - generic "Latin Capital Letter A" [ref=e432]
+          - generic [ref=e433]: Unicode decimal
+          - generic [ref=e434]: "65"
+          - generic [ref=e435]: Unicode hex
+          - generic [ref=e436]: "0041"
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - generic [ref=e439]: Basic Latin
+          - generic:
+            - generic:
+              - generic [ref=e441]: "!"
+              - generic [ref=e442]: "\""
+              - generic [ref=e443]: "#"
+              - generic [ref=e444]: $
+              - generic [ref=e445]: "%"
+              - generic [ref=e446]: "&"
+              - generic [ref=e447]: "'"
+              - generic [ref=e448]: (
+              - generic [ref=e449]: )
+              - generic [ref=e450]: "*"
+              - generic [ref=e451]: +
+              - generic [ref=e452]: ","
+              - generic [ref=e453]: "-"
+              - generic [ref=e454]: .
+              - generic [ref=e455]: /
+              - generic [ref=e456]: "0"
+              - generic [ref=e457]: "1"
+              - generic [ref=e458]: "2"
+              - generic [ref=e459]: "3"
+              - generic [ref=e460]: "4"
+              - generic [ref=e461]: "5"
+              - generic [ref=e462]: "6"
+              - generic [ref=e463]: "7"
+              - generic [ref=e464]: "8"
+              - generic [ref=e465]: "9"
+              - generic [ref=e466]: ":"
+              - generic [ref=e467]: ;
+              - generic [ref=e468]: <
+              - generic [ref=e469]: =
+              - generic [ref=e470]: ">"
+              - generic [ref=e471]: "?"
+              - generic [ref=e472]: "@"
+              - generic [ref=e473]: A
+              - generic [ref=e474]: B
+              - generic [ref=e475]: C
+              - generic [ref=e476]: D
+              - generic [ref=e477]: E
+              - generic [ref=e478]: F
+              - generic [ref=e479]: G
+              - generic [ref=e480]: H
+              - generic [ref=e481]: I
+              - generic [ref=e482]: J
+              - generic [ref=e483]: K
+              - generic [ref=e484]: L
+              - generic [ref=e485]: M
+              - generic [ref=e486]: "N"
+              - generic [ref=e487]: O
+              - generic [ref=e488]: P
+              - generic [ref=e489]: Q
+              - generic [ref=e490]: R
+              - generic [ref=e491]: S
+              - generic [ref=e492]: T
+              - generic [ref=e493]: U
+              - generic [ref=e494]: V
+              - generic [ref=e495]: W
+              - generic [ref=e496]: X
+              - generic [ref=e497]: "Y"
+              - generic [ref=e498]: Z
+              - generic [ref=e499]: "["
+              - generic [ref=e500]: \
+              - generic [ref=e501]: "]"
+              - generic [ref=e502]: ^
+              - generic [ref=e503]: _
+              - generic [ref=e504]: "`"
+              - generic [ref=e505]: a
+              - generic [ref=e506]: b
+              - generic [ref=e507]: c
+              - generic [ref=e508]: d
+              - generic [ref=e509]: e
+              - generic [ref=e510]: f
+              - generic [ref=e511]: g
+              - generic [ref=e512]: h
+              - generic [ref=e513]: i
+              - generic [ref=e514]: j
+              - generic [ref=e515]: k
+              - generic [ref=e516]: l
+              - generic [ref=e517]: m
+              - generic [ref=e518]: "n"
+              - generic [ref=e519]: o
+              - generic [ref=e520]: p
+              - generic [ref=e521]: q
+              - generic [ref=e522]: r
+              - generic [ref=e523]: s
+              - generic [ref=e524]: t
+              - generic [ref=e525]: u
+              - generic [ref=e526]: v
+              - generic [ref=e527]: w
+              - generic [ref=e528]: x
+              - generic [ref=e529]: "y"
+              - generic [ref=e530]: z
+              - generic [ref=e531]: "{"
+              - generic [ref=e532]: "|"
+              - generic [ref=e533]: "}"
+              - generic [ref=e534]: ~
+        - generic [ref=e535]:
+          - generic [ref=e536]: Latin-1 Supplement
+          - generic:
+            - generic:
+              - generic [ref=e538]: ¡
+              - generic [ref=e539]: ¢
+              - generic [ref=e540]: £
+              - generic [ref=e541]: ¤
+              - generic [ref=e542]: ¥
+              - generic [ref=e543]: ¦
+              - generic [ref=e544]: §
+              - generic [ref=e545]: ¨
+              - generic [ref=e546]: ©
+              - generic [ref=e547]: ª
+              - generic [ref=e548]: «
+              - generic [ref=e549]: ¬
+              - generic [ref=e551]: ®
+              - generic [ref=e552]: ¯
+              - generic [ref=e553]: °
+              - generic [ref=e554]: ±
+              - generic [ref=e555]: ²
+              - generic [ref=e556]: ³
+              - generic [ref=e557]: ´
+              - generic [ref=e558]: ¶
+              - generic [ref=e559]: ·
+              - generic [ref=e560]: ¸
+              - generic [ref=e561]: ¹
+              - generic [ref=e562]: º
+              - generic [ref=e563]: »
+              - generic [ref=e564]: ¼
+              - generic [ref=e565]: ½
+              - generic [ref=e566]: ¾
+              - generic [ref=e567]: ¿
+              - generic [ref=e568]: À
+              - generic [ref=e569]: Á
+              - generic [ref=e570]: Â
+              - generic [ref=e571]: Ã
+              - generic [ref=e572]: Ä
+              - generic [ref=e573]: Å
+              - generic [ref=e574]: Æ
+              - generic [ref=e575]: Ç
+              - generic [ref=e576]: È
+              - generic [ref=e577]: É
+              - generic [ref=e578]: Ê
+              - generic [ref=e579]: Ë
+              - generic [ref=e580]: Ì
+              - generic [ref=e581]: Í
+              - generic [ref=e582]: Î
+              - generic [ref=e583]: Ï
+              - generic [ref=e584]: Ð
+              - generic [ref=e585]: Ñ
+              - generic [ref=e586]: Ò
+              - generic [ref=e587]: Ó
+              - generic [ref=e588]: Ô
+              - generic [ref=e589]: Õ
+              - generic [ref=e590]: Ö
+              - generic [ref=e591]: ×
+              - generic [ref=e592]: Ø
+              - generic [ref=e593]: Ù
+              - generic [ref=e594]: Ú
+              - generic [ref=e595]: Û
+              - generic [ref=e596]: Ü
+              - generic [ref=e597]: Ý
+              - generic [ref=e598]: Þ
+              - generic [ref=e599]: ß
+              - generic [ref=e600]: à
+              - generic [ref=e601]: á
+              - generic [ref=e602]: â
+              - generic [ref=e603]: ã
+              - generic [ref=e604]: ä
+              - generic [ref=e605]: å
+              - generic [ref=e606]: æ
+              - generic [ref=e607]: ç
+              - generic [ref=e608]: è
+              - generic [ref=e609]: é
+              - generic [ref=e610]: ê
+              - generic [ref=e611]: ë
+              - generic [ref=e612]: ì
+              - generic [ref=e613]: í
+              - generic [ref=e614]: î
+              - generic [ref=e615]: ï
+              - generic [ref=e616]: ð
+              - generic [ref=e617]: ñ
+              - generic [ref=e618]: ò
+              - generic [ref=e619]: ó
+              - generic [ref=e620]: ô
+              - generic [ref=e621]: õ
+              - generic [ref=e622]: ö
+              - generic [ref=e623]: ÷
+              - generic [ref=e624]: ø
+              - generic [ref=e625]: ù
+              - generic [ref=e626]: ú
+              - generic [ref=e627]: û
+              - generic [ref=e628]: ü
+              - generic [ref=e629]: ý
+              - generic [ref=e630]: þ
+              - generic [ref=e631]: ÿ
+        - generic [ref=e632]:
+          - generic [ref=e633]: Latin Extended-A
+          - generic:
+            - generic:
+              - generic [ref=e634]: Ā
+              - generic [ref=e635]: ā
+              - generic [ref=e636]: Ă
+              - generic [ref=e637]: ă
+              - generic [ref=e638]: Ą
+              - generic [ref=e639]: ą
+              - generic [ref=e640]: Ć
+              - generic [ref=e641]: ć
+              - generic [ref=e642]: Ĉ
+              - generic [ref=e643]: ĉ
+              - generic [ref=e644]: Ċ
+              - generic [ref=e645]: ċ
+              - generic [ref=e646]: Č
+              - generic [ref=e647]: č
+              - generic [ref=e648]: Ď
+              - generic [ref=e649]: ď
+              - generic [ref=e650]: Đ
+              - generic [ref=e651]: đ
+              - generic [ref=e652]: Ē
+              - generic [ref=e653]: ē
+              - generic [ref=e654]: Ĕ
+              - generic [ref=e655]: ĕ
+              - generic [ref=e656]: Ė
+              - generic [ref=e657]: ė
+              - generic [ref=e658]: Ę
+              - generic [ref=e659]: ę
+              - generic [ref=e660]: Ě
+              - generic [ref=e661]: ě
+              - generic [ref=e662]: Ĝ
+              - generic [ref=e663]: ĝ
+              - generic [ref=e664]: Ğ
+              - generic [ref=e665]: ğ
+              - generic [ref=e666]: Ġ
+              - generic [ref=e667]: ġ
+              - generic [ref=e668]: Ģ
+              - generic [ref=e669]: ģ
+              - generic [ref=e670]: Ĥ
+              - generic [ref=e671]: ĥ
+              - generic [ref=e672]: Ħ
+              - generic [ref=e673]: ħ
+              - generic [ref=e674]: Ĩ
+              - generic [ref=e675]: ĩ
+              - generic [ref=e676]: Ī
+              - generic [ref=e677]: ī
+              - generic [ref=e678]: Ĭ
+              - generic [ref=e679]: ĭ
+              - generic [ref=e680]: Į
+              - generic [ref=e681]: į
+              - generic [ref=e682]: İ
+              - generic [ref=e683]: ı
+              - generic [ref=e684]: Ĳ
+              - generic [ref=e685]: ĳ
+              - generic [ref=e686]: Ĵ
+              - generic [ref=e687]: ĵ
+              - generic [ref=e688]: Ķ
+              - generic [ref=e689]: ķ
+              - generic [ref=e690]: ĸ
+              - generic [ref=e691]: Ĺ
+              - generic [ref=e692]: ĺ
+              - generic [ref=e693]: Ļ
+              - generic [ref=e694]: ļ
+              - generic [ref=e695]: Ľ
+              - generic [ref=e696]: ľ
+              - generic [ref=e697]: Ŀ
+              - generic [ref=e698]: ŀ
+              - generic [ref=e699]: Ł
+              - generic [ref=e700]: ł
+              - generic [ref=e701]: Ń
+              - generic [ref=e702]: ń
+              - generic [ref=e703]: Ņ
+              - generic [ref=e704]: ņ
+              - generic [ref=e705]: Ň
+              - generic [ref=e706]: ň
+              - generic [ref=e707]: Ŋ
+              - generic [ref=e708]: ŋ
+              - generic [ref=e709]: Ō
+              - generic [ref=e710]: ō
+              - generic [ref=e711]: Ŏ
+              - generic [ref=e712]: ŏ
+              - generic [ref=e713]: Ő
+              - generic [ref=e714]: ő
+              - generic [ref=e715]: Œ
+              - generic [ref=e716]: œ
+              - generic [ref=e717]: Ŕ
+              - generic [ref=e718]: ŕ
+              - generic [ref=e719]: Ŗ
+              - generic [ref=e720]: ŗ
+              - generic [ref=e721]: Ř
+              - generic [ref=e722]: ř
+              - generic [ref=e723]: Ś
+              - generic [ref=e724]: ś
+              - generic [ref=e725]: Ŝ
+              - generic [ref=e726]: ŝ
+              - generic [ref=e727]: Ş
+              - generic [ref=e728]: ş
+              - generic [ref=e729]: Š
+              - generic [ref=e730]: š
+              - generic [ref=e731]: Ţ
+              - generic [ref=e732]: ţ
+              - generic [ref=e733]: Ť
+              - generic [ref=e734]: ť
+              - generic [ref=e735]: Ŧ
+              - generic [ref=e736]: ŧ
+              - generic [ref=e737]: Ũ
+              - generic [ref=e738]: ũ
+              - generic [ref=e739]: Ū
+              - generic [ref=e740]: ū
+              - generic [ref=e741]: Ŭ
+              - generic [ref=e742]: ŭ
+              - generic [ref=e743]: Ů
+              - generic [ref=e744]: ů
+              - generic [ref=e745]: Ű
+              - generic [ref=e746]: ű
+              - generic [ref=e747]: Ų
+              - generic [ref=e748]: ų
+              - generic [ref=e749]: Ŵ
+              - generic [ref=e750]: ŵ
+              - generic [ref=e751]: Ŷ
+              - generic [ref=e752]: ŷ
+              - generic [ref=e753]: Ÿ
+              - generic [ref=e754]: Ź
+              - generic [ref=e755]: ź
+              - generic [ref=e756]: Ż
+              - generic [ref=e757]: ż
+              - generic [ref=e758]: Ž
+              - generic [ref=e759]: ž
+              - generic [ref=e760]: ſ
+        - generic [ref=e761]:
+          - generic [ref=e762]: Latin Extended-B
+          - generic:
+            - generic:
+              - generic [ref=e763]: Ə
+              - generic [ref=e764]: ƒ
+              - generic [ref=e765]: Ș
+              - generic [ref=e766]: ș
+              - generic [ref=e767]: Ț
+              - generic [ref=e768]: ț
+              - generic [ref=e769]: Ȳ
+              - generic [ref=e770]: ȳ
+              - generic [ref=e771]: ȷ
+              - generic [ref=e772]: Ʌ
+        - generic [ref=e773]:
+          - generic [ref=e774]: IPA Extensions
+          - generic:
+            - generic:
+              - generic [ref=e775]: ə
+              - generic [ref=e776]: ʌ
+        - generic [ref=e777]:
+          - generic [ref=e778]: Spacing Modifier Letters
+          - generic:
+            - generic:
+              - generic [ref=e780]: ‌ˆ
+              - generic [ref=e782]: ‌ˇ
+              - generic [ref=e784]: ‌˘
+              - generic [ref=e786]: ‌˙
+              - generic [ref=e788]: ‌˚
+              - generic [ref=e790]: ‌˛
+              - generic [ref=e792]: ‌˜
+              - generic [ref=e794]: ‌˝
+        - generic [ref=e795]:
+          - generic [ref=e796]: Combining Diacritical Marks
+          - generic:
+            - generic:
+              - generic [ref=e797]:
+                - generic: ‌̏
+              - generic [ref=e798]:
+                - generic: ‌̒
+              - generic [ref=e799]:
+                - generic: ‌̣
+              - generic [ref=e800]:
+                - generic: ‌̦
+        - generic [ref=e801]:
+          - generic [ref=e802]: Greek and Coptic
+          - generic:
+            - generic:
+              - generic [ref=e803]: Δ
+              - generic [ref=e804]: Ω
+        - generic [ref=e805]:
+          - generic [ref=e806]: Latin Extended Additional
+          - generic:
+            - generic:
+              - generic [ref=e807]: Ḃ
+              - generic [ref=e808]: ḃ
+              - generic [ref=e809]: Ḋ
+              - generic [ref=e810]: ḋ
+              - generic [ref=e811]: Ḟ
+              - generic [ref=e812]: ḟ
+              - generic [ref=e813]: Ṁ
+              - generic [ref=e814]: ṁ
+              - generic [ref=e815]: Ṗ
+              - generic [ref=e816]: ṗ
+              - generic [ref=e817]: Ṡ
+              - generic [ref=e818]: ṡ
+              - generic [ref=e819]: Ṫ
+              - generic [ref=e820]: ṫ
+              - generic [ref=e821]: Ẁ
+              - generic [ref=e822]: ẁ
+              - generic [ref=e823]: Ẃ
+              - generic [ref=e824]: ẃ
+              - generic [ref=e825]: Ẅ
+              - generic [ref=e826]: ẅ
+              - generic [ref=e827]: ẛ
+              - generic [ref=e828]: ẞ
+              - generic [ref=e829]: Ỳ
+              - generic [ref=e830]: ỳ
+        - generic [ref=e831]:
+          - generic [ref=e832]: General Punctuation
+          - generic:
+            - generic:
+              - generic [ref=e843]: ‒
+              - generic [ref=e844]: –
+              - generic [ref=e845]: —
+              - generic [ref=e846]: ―
+              - generic [ref=e847]: ‘
+              - generic [ref=e848]: ’
+              - generic [ref=e849]: ‚
+              - generic [ref=e850]: ‛
+              - generic [ref=e851]: “
+              - generic [ref=e852]: ”
+              - generic [ref=e853]: „
+              - generic [ref=e854]: ‟
+              - generic [ref=e855]: †
+              - generic [ref=e856]: ‡
+              - generic [ref=e857]: •
+              - generic [ref=e858]: …
+              - generic [ref=e859]: ‰
+              - generic [ref=e860]: ′
+              - generic [ref=e861]: ″
+              - generic [ref=e862]: ‴
+              - generic [ref=e863]: ‹
+              - generic [ref=e864]: ›
+              - generic [ref=e865]: ‽
+              - generic [ref=e866]: ⁄
+        - generic [ref=e867]:
+          - generic [ref=e868]: Superscripts and Subscripts
+          - generic:
+            - generic:
+              - generic [ref=e869]: ⁰
+              - generic [ref=e870]: ⁴
+              - generic [ref=e871]: ⁵
+              - generic [ref=e872]: ⁶
+              - generic [ref=e873]: ⁷
+              - generic [ref=e874]: ⁸
+              - generic [ref=e875]: ⁹
+              - generic [ref=e876]: ⁺
+              - generic [ref=e877]: ⁻
+              - generic [ref=e878]: ⁼
+              - generic [ref=e879]: ⁽
+              - generic [ref=e880]: ⁾
+              - generic [ref=e881]: ₀
+              - generic [ref=e882]: ₁
+              - generic [ref=e883]: ₂
+              - generic [ref=e884]: ₃
+              - generic [ref=e885]: ₄
+              - generic [ref=e886]: ₅
+              - generic [ref=e887]: ₆
+              - generic [ref=e888]: ₇
+              - generic [ref=e889]: ₈
+              - generic [ref=e890]: ₉
+              - generic [ref=e891]: ₊
+              - generic [ref=e892]: ₋
+              - generic [ref=e893]: ₌
+              - generic [ref=e894]: ₍
+              - generic [ref=e895]: ₎
+        - generic [ref=e896]:
+          - generic [ref=e897]: Currency Symbols
+          - generic:
+            - generic:
+              - generic [ref=e898]: ₡
+              - generic [ref=e899]: ₤
+              - generic [ref=e900]: €
+        - generic [ref=e901]:
+          - generic [ref=e902]: Letterlike Symbols
+          - generic:
+            - generic:
+              - generic [ref=e903]: ℓ
+              - generic [ref=e904]: №
+              - generic [ref=e905]: ℗
+              - generic [ref=e906]: ℠
+              - generic [ref=e907]: ™
+              - generic [ref=e908]: ℮
+        - generic [ref=e909]:
+          - generic [ref=e910]: Number Forms
+          - generic:
+            - generic:
+              - generic [ref=e911]: ⅓
+              - generic [ref=e912]: ⅔
+              - generic [ref=e913]: ⅕
+              - generic [ref=e914]: ⅖
+              - generic [ref=e915]: ⅗
+              - generic [ref=e916]: ⅘
+              - generic [ref=e917]: ⅙
+              - generic [ref=e918]: ⅚
+              - generic [ref=e919]: ⅛
+              - generic [ref=e920]: ⅜
+              - generic [ref=e921]: ⅝
+              - generic [ref=e922]: ⅞
+              - generic [ref=e923]: ⅟
+        - generic [ref=e924]:
+          - generic [ref=e925]: Arrows
+          - generic:
+            - generic:
+              - generic [ref=e926]: ←
+              - generic [ref=e927]: ↑
+              - generic [ref=e928]: →
+              - generic [ref=e929]: ↓
+              - generic [ref=e930]: ↖
+              - generic [ref=e931]: ↗
+              - generic [ref=e932]: ↘
+              - generic [ref=e933]: ↙
+        - generic [ref=e934]:
+          - generic [ref=e935]: Mathematical Operators
+          - generic:
+            - generic:
+              - generic [ref=e936]: ∂
+              - generic [ref=e937]: ∏
+              - generic [ref=e938]: ∑
+              - generic [ref=e939]: −
+              - generic [ref=e940]: ∕
+              - generic [ref=e941]: ∙
+              - generic [ref=e942]: √
+              - generic [ref=e943]: ∞
+              - generic [ref=e944]: ∫
+              - generic [ref=e945]: ≈
+              - generic [ref=e946]: ≠
+              - generic [ref=e947]: ≡
+              - generic [ref=e948]: ≤
+              - generic [ref=e949]: ≥
+              - generic [ref=e950]: ⊠
+        - generic [ref=e951]:
+          - generic [ref=e952]: Miscellaneous Technical
+          - generic:
+            - generic:
+              - generic [ref=e953]: ⌂
+              - generic [ref=e954]: 〈
+              - generic [ref=e955]: 〉
+        - generic [ref=e956]:
+          - generic [ref=e957]: Geometric Shapes
+          - generic:
+            - generic:
+              - generic [ref=e958]: ■
+              - generic [ref=e959]: □
+              - generic [ref=e960]: ▪
+              - generic [ref=e961]: ▫
+              - generic [ref=e962]: ▲
+              - generic [ref=e963]: ►
+              - generic [ref=e964]: ▼
+              - generic [ref=e965]: ◄
+              - generic [ref=e966]: ◊
+              - generic [ref=e967]: ○
+              - generic [ref=e968]: ●
+              - generic [ref=e969]: ◢
+              - generic [ref=e970]: ◣
+              - generic [ref=e971]: ◤
+              - generic [ref=e972]: ◥
+              - generic [ref=e973]: ◯
+        - generic [ref=e974]:
+          - generic [ref=e975]: Miscellaneous Symbols
+          - generic:
+            - generic:
+              - generic [ref=e976]: ☀
+              - generic [ref=e977]: ☁
+              - generic [ref=e978]: ☃
+              - generic [ref=e979]: ★
+              - generic [ref=e980]: ☑
+              - generic [ref=e981]: ☒
+              - generic [ref=e982]: ☸
+              - generic [ref=e983]: ♠
+              - generic [ref=e984]: ♣
+              - generic [ref=e985]: ♥
+              - generic [ref=e986]: ♦
+              - generic [ref=e987]: ♩
+              - generic [ref=e988]: ♪
+              - generic [ref=e989]: ♫
+              - generic [ref=e990]: ♬
+              - generic [ref=e991]: ♭
+              - generic [ref=e992]: ♮
+              - generic [ref=e993]: ♯
+              - generic [ref=e994]: ♻
+              - generic [ref=e995]: ♼
+              - generic [ref=e996]: ♽
+        - generic [ref=e997]:
+          - generic [ref=e998]: Miscellaneous Symbols and Arrows
+          - generic [ref=e999]: ⬤
+        - generic [ref=e1000]:
+          - generic [ref=e1001]: Alphabetic Presentation Forms
+          - generic:
+            - generic:
+              - generic [ref=e1002]: ﬀ
+              - generic [ref=e1003]: ﬁ
+              - generic [ref=e1004]: ﬂ
+              - generic [ref=e1005]: ﬃ
+              - generic [ref=e1006]: ﬄ
+        - generic [ref=e1007]:
+          - generic [ref=e1008]: Halfwidth and Fullwidth Forms
+          - generic [ref=e1009]: ＿
+        - generic [ref=e1010]:
+          - generic [ref=e1011]: Case-Sensitive Forms
+          - generic:
+            - generic:
+              - generic [ref=e1012]: a
+              - generic [ref=e1013]: á
+              - generic [ref=e1014]: ă
+              - generic [ref=e1015]: â
+              - generic [ref=e1016]: ä
+              - generic [ref=e1017]: à
+              - generic [ref=e1018]: ā
+              - generic [ref=e1019]: ą
+              - generic [ref=e1020]: å
+              - generic [ref=e1021]: ã
+              - generic [ref=e1022]: æ
+              - generic [ref=e1023]: b
+              - generic [ref=e1024]: ḃ
+              - generic [ref=e1025]: c
+              - generic [ref=e1026]: ć
+              - generic [ref=e1027]: č
+              - generic [ref=e1028]: ç
+              - generic [ref=e1029]: ĉ
+              - generic [ref=e1030]: ċ
+              - generic [ref=e1031]: d
+              - generic [ref=e1032]: ď
+              - generic [ref=e1033]: đ
+              - generic [ref=e1034]: ḋ
+              - generic [ref=e1035]: ð
+              - generic [ref=e1036]: e
+              - generic [ref=e1037]: é
+              - generic [ref=e1038]: ĕ
+              - generic [ref=e1039]: ě
+              - generic [ref=e1040]: ê
+              - generic [ref=e1041]: ë
+              - generic [ref=e1042]: ė
+              - generic [ref=e1043]: è
+              - generic [ref=e1044]: ē
+              - generic [ref=e1045]: ę
+              - generic [ref=e1046]: ə
+              - generic [ref=e1047]: f
+              - generic [ref=e1048]: ḟ
+              - generic [ref=e1049]: g
+              - generic [ref=e1050]: ğ
+              - generic [ref=e1051]: ĝ
+              - generic [ref=e1052]: ģ
+              - generic [ref=e1053]: ġ
+              - generic [ref=e1054]: h
+              - generic [ref=e1055]: ħ
+              - generic [ref=e1056]: ĥ
+              - generic [ref=e1057]: i
+              - generic [ref=e1058]: í
+              - generic [ref=e1059]: ĭ
+              - generic [ref=e1060]: î
+              - generic [ref=e1061]: ï
+              - generic [ref=e1062]: ì
+              - generic [ref=e1063]: ī
+              - generic [ref=e1064]: į
+              - generic [ref=e1065]: ĩ
+              - generic [ref=e1066]: ĳ
+              - generic [ref=e1067]: j
+              - generic [ref=e1068]: ĵ
+              - generic [ref=e1069]: k
+              - generic [ref=e1070]: ķ
+              - generic [ref=e1071]: l
+              - generic [ref=e1072]: ĺ
+              - generic [ref=e1073]: ľ
+              - generic [ref=e1074]: ļ
+              - generic [ref=e1075]: ŀ
+              - generic [ref=e1076]: ł
+              - generic [ref=e1077]: m
+              - generic [ref=e1078]: ṁ
+              - generic [ref=e1079]: "n"
+              - generic [ref=e1080]: ń
+              - generic [ref=e1081]: ň
+              - generic [ref=e1082]: ņ
+              - generic [ref=e1083]: ñ
+              - generic [ref=e1084]: ŋ
+              - generic [ref=e1085]: o
+              - generic [ref=e1086]: ó
+              - generic [ref=e1087]: ŏ
+              - generic [ref=e1088]: ô
+              - generic [ref=e1089]: ö
+              - generic [ref=e1090]: ò
+              - generic [ref=e1091]: ő
+              - generic [ref=e1092]: ō
+              - generic [ref=e1093]: ø
+              - generic [ref=e1094]: õ
+              - generic [ref=e1095]: œ
+              - generic [ref=e1096]: p
+              - generic [ref=e1097]: ṗ
+              - generic [ref=e1098]: þ
+              - generic [ref=e1099]: q
+              - generic [ref=e1100]: r
+              - generic [ref=e1101]: ŕ
+              - generic [ref=e1102]: ř
+              - generic [ref=e1103]: ŗ
+              - generic [ref=e1104]: s
+              - generic [ref=e1105]: ś
+              - generic [ref=e1106]: š
+              - generic [ref=e1107]: ş
+              - generic [ref=e1108]: ŝ
+              - generic [ref=e1109]: ș
+              - generic [ref=e1110]: ß
+              - generic [ref=e1111]: t
+              - generic [ref=e1112]: ŧ
+              - generic [ref=e1113]: ť
+              - generic [ref=e1114]: ţ
+              - generic [ref=e1115]: ț
+              - generic [ref=e1116]: ṫ
+              - generic [ref=e1117]: u
+              - generic [ref=e1118]: ú
+              - generic [ref=e1119]: ŭ
+              - generic [ref=e1120]: û
+              - generic [ref=e1121]: ü
+              - generic [ref=e1122]: ù
+              - generic [ref=e1123]: ű
+              - generic [ref=e1124]: ū
+              - generic [ref=e1125]: ų
+              - generic [ref=e1126]: ů
+              - generic [ref=e1127]: ũ
+              - generic [ref=e1128]: v
+              - generic [ref=e1129]: w
+              - generic [ref=e1130]: ẃ
+              - generic [ref=e1131]: ŵ
+              - generic [ref=e1132]: ẅ
+              - generic [ref=e1133]: ẁ
+              - generic [ref=e1134]: x
+              - generic [ref=e1135]: "y"
+              - generic [ref=e1136]: ý
+              - generic [ref=e1137]: ŷ
+              - generic [ref=e1138]: ÿ
+              - generic [ref=e1139]: ỳ
+              - generic [ref=e1140]: ȳ
+              - generic [ref=e1141]: z
+              - generic [ref=e1142]: ź
+              - generic [ref=e1143]: ž
+              - generic [ref=e1144]: ż
+              - generic [ref=e1145]: ¡
+              - generic [ref=e1146]: ¿
+              - generic [ref=e1147]: ·
+              - generic [ref=e1148]: •
+              - generic [ref=e1149]: /
+              - generic [ref=e1150]: \
+              - generic [ref=e1151]: "-"
+              - generic [ref=e1153]: –
+              - generic [ref=e1154]: —
+              - generic [ref=e1155]: ‒
+              - generic [ref=e1156]: ―
+              - generic [ref=e1157]: (
+              - generic [ref=e1158]: )
+              - generic [ref=e1159]: "{"
+              - generic [ref=e1160]: "}"
+              - generic [ref=e1161]: "["
+              - generic [ref=e1162]: "]"
+              - generic [ref=e1163]: 〈
+              - generic [ref=e1164]: 〉
+              - generic [ref=e1165]: «
+              - generic [ref=e1166]: »
+              - generic [ref=e1167]: ‹
+              - generic [ref=e1168]: ›
+              - generic [ref=e1169]: "@"
+        - generic [ref=e1170]:
+          - generic [ref=e1171]: Discretionary Ligatures
+          - generic [ref=e1172]: fı
+        - generic [ref=e1173]:
+          - generic [ref=e1174]: Historical Forms
+          - generic:
+            - generic:
+              - generic [ref=e1175]: P
+              - generic [ref=e1176]: Ṗ
+              - generic [ref=e1177]: Þ
+        - generic [ref=e1178]:
+          - generic [ref=e1179]: Oldstyle Figures
+          - generic:
+            - generic:
+              - generic [ref=e1180]: "0"
+              - generic [ref=e1181]: "1"
+              - generic [ref=e1182]: "2"
+              - generic [ref=e1183]: "3"
+              - generic [ref=e1184]: "4"
+              - generic [ref=e1185]: "5"
+              - generic [ref=e1186]: "6"
+              - generic [ref=e1187]: "7"
+              - generic [ref=e1188]: "8"
+              - generic [ref=e1189]: "9"
+        - generic [ref=e1190]:
+          - generic [ref=e1191]: Ordinals
+          - generic [ref=e1192]: No.
+        - generic [ref=e1193]:
+          - generic [ref=e1194]: Schoolbook forms
+          - generic:
+            - generic:
+              - generic [ref=e1195]: a
+              - generic [ref=e1196]: á
+              - generic [ref=e1197]: ă
+              - generic [ref=e1198]: â
+              - generic [ref=e1199]: ä
+              - generic [ref=e1200]: à
+              - generic [ref=e1201]: ā
+              - generic [ref=e1202]: ą
+              - generic [ref=e1203]: å
+              - generic [ref=e1204]: ã
+              - generic [ref=e1205]: g
+              - generic [ref=e1206]: ğ
+              - generic [ref=e1207]: ĝ
+              - generic [ref=e1208]: ģ
+              - generic [ref=e1209]: ġ
+              - generic [ref=e1210]: "y"
+              - generic [ref=e1211]: ý
+              - generic [ref=e1212]: ŷ
+              - generic [ref=e1213]: ÿ
+              - generic [ref=e1214]: ỳ
+              - generic [ref=e1215]: ȳ
+        - generic [ref=e1216]:
+          - generic [ref=e1217]: Standard Ligatures
+          - generic:
+            - generic:
+              - generic [ref=e1218]: fi
+              - generic [ref=e1219]: fl
+        - generic [ref=e1220]:
+          - generic [ref=e1221]: Tabular Figures
+          - generic:
+            - generic:
+              - generic [ref=e1222]: "0"
+              - generic [ref=e1223]: "1"
+              - generic [ref=e1224]: "2"
+              - generic [ref=e1225]: "3"
+              - generic [ref=e1226]: "4"
+              - generic [ref=e1227]: "5"
+              - generic [ref=e1228]: "6"
+              - generic [ref=e1229]: "7"
+              - generic [ref=e1230]: "8"
+              - generic [ref=e1231]: "9"
+  - contentinfo [ref=e1233]:
+    - generic [ref=e1234]:
+      - img [ref=e1236]
+      - list [ref=e1238]:
+        - listitem [ref=e1239]:
+          - link "Fonts" [ref=e1240] [cursor=pointer]:
+            - /url: /fonts
+        - listitem [ref=e1241]:
+          - link "Info" [ref=e1242] [cursor=pointer]:
+            - /url: /info
+        - listitem [ref=e1243]:
+          - link "Trials" [ref=e1244] [cursor=pointer]:
+            - /url: /trials
+        - listitem [ref=e1245]:
+          - link "Licensing" [ref=e1246] [cursor=pointer]:
+            - /url: /licensing
+        - listitem [ref=e1247]:
+          - link "Contact" [ref=e1248] [cursor=pointer]:
+            - /url: /contact
+        - listitem [ref=e1249]:
+          - link "Newsletter" [ref=e1250] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=e1251]:
+          - link "Custom type" [ref=e1252] [cursor=pointer]:
+            - /url: /custom-type
+        - listitem [ref=e1253]:
+          - link "Services" [ref=e1254] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=e1255]:
+          - link "Cookie Policy" [ref=e1256] [cursor=pointer]:
+            - /url: /cookie-policy
+        - listitem [ref=e1257]:
+          - link "Privacy Policy" [ref=e1258] [cursor=pointer]:
+            - /url: /privacy-policy
+        - listitem [ref=e1259]:
+          - link "Fulfilment Policy" [ref=e1260] [cursor=pointer]:
+            - /url: /fulfilment-policy
+      - list [ref=e1261]:
+        - listitem [ref=e1262]:
+          - link "Account" [ref=e1263] [cursor=pointer]:
+            - /url: /account
+        - listitem [ref=e1264]:
+          - button "Cart" [ref=e1265] [cursor=pointer]
+      - paragraph [ref=e1267]: © 2026 Village Type & Design LLC
+  - alert [ref=e1268]

@@ -1,0 +1,151 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Optimo®" [ref=e4] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Typefaces" [ref=e8] [cursor=pointer]:
+            - /url: /typefaces
+        - listitem [ref=e9]:
+          - link "Type it" [ref=e10] [cursor=pointer]:
+            - /url: /type_it
+        - listitem [ref=e11]:
+          - link "Custom" [ref=e12] [cursor=pointer]:
+            - /url: /custom
+        - listitem [ref=e13]:
+          - link "Articles" [ref=e15] [cursor=pointer]:
+            - /url: /articles
+        - listitem [ref=e16]:
+          - text: Information
+          - navigation:
+            - list:
+              - listitem:
+                - link "FAQ":
+                  - /url: /faq
+              - listitem:
+                - link "Specifications":
+                  - /url: /specifications
+              - listitem:
+                - link "EULA":
+                  - /url: /eula
+              - listitem:
+                - link "Terms of Service":
+                  - /url: /terms_of_service
+              - listitem:
+                - link "Privacy Policy":
+                  - /url: /privacy_policy
+              - listitem:
+                - link "Designers":
+                  - /url: /designers
+              - listitem:
+                - link "About":
+                  - /url: /about_optimo
+              - listitem:
+                - link "Contact":
+                  - /url: /contact
+        - listitem [ref=e17]:
+          - link "Sign In" [ref=e18] [cursor=pointer]:
+            - /url: /sign_in
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - heading "About Optimo" [level=1] [ref=e21]
+      - navigation [ref=e22]:
+        - heading "Team" [level=2] [ref=e23]
+        - link "Valentin Brustaux, Licensing, Type Design" [ref=e25] [cursor=pointer]:
+          - /url: "#team_valentin_brustaux_licensing"
+        - link "Sandra Carrera, Project Management" [ref=e27] [cursor=pointer]:
+          - /url: "#team_sandra_carrera_type_designer_and_project_manager"
+        - link "Amélie Gallay, Type Design" [ref=e29] [cursor=pointer]:
+          - /url: "#team_amelie_gallay_type_designer"
+        - link "Gilles Gavillet, Founder" [ref=e31] [cursor=pointer]:
+          - /url: "#team_gilles_gavillet_founder"
+        - link "Tanja Kern, Library Management" [ref=e33] [cursor=pointer]:
+          - /url: "#team_tanja_kern_library_manager"
+        - link "Alizée Mabriez, Finance" [ref=e35] [cursor=pointer]:
+          - /url: "#team_alizee_mabriez_finance"
+        - link "Louise Paradis, Editor" [ref=e37] [cursor=pointer]:
+          - /url: "#team_louise_paradis_editor"
+        - link "Joana Siniavskaja, Type Design" [ref=e39] [cursor=pointer]:
+          - /url: "#team_joana_siniavskaja"
+        - generic [ref=e40]:
+          - heading "Collaborators" [level=2] [ref=e41]
+          - link "Alphabet Type" [ref=e43] [cursor=pointer]:
+            - /url: "#collaborator_alphabet_type"
+          - link "GrayBits" [ref=e45] [cursor=pointer]:
+            - /url: "#collaborator_graybits"
+          - link "iKern" [ref=e47] [cursor=pointer]:
+            - /url: "#collaborator_ikern"
+          - link "Gerry Leonidas" [ref=e49] [cursor=pointer]:
+            - /url: "#collaborator_gerry_leonidas"
+          - link "Titus Nemeth" [ref=e51] [cursor=pointer]:
+            - /url: "#collaborator_titus_nemeth"
+          - link "Office for Typography" [ref=e53] [cursor=pointer]:
+            - /url: "#collaborator_office_for_typography"
+          - link "Alexei Vanyashin" [ref=e55] [cursor=pointer]:
+            - /url: "#collaborator_alexei_vanyashin"
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - img [ref=e58]
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: Established in Geneva, Switzerland, Optimo® is a type foundry that designs and publishes premium typefaces, which are engineered to the highest standards and offer graphic designers and type-users long-lasting tools with a distinctive identity.
+          - paragraph [ref=e61]: With the aim of releasing their own fonts, Gilles Gavillet, Stéphane Delgado, and David Rust founded Optimo® in 1998. First initiated as a student project at the École cantonale d’art de Lausanne (ECAL), Optimo has become an independent library of contemporary classics, drawn by influential designers.
+          - paragraph [ref=e62]: Investigating typographic paradigms from different eras, our catalogue demonstrates a commitment to revisiting type history with a contemporary perspective. We aim to create typefaces that will have a lasting impression on our culture.
+          - paragraph [ref=e63]: In addition to our retail library, we offer custom fonts, bespoke versions of our typefaces, and language extensions for clients who need tailor-made designs.
+          - paragraph [ref=e64]: With an international mindset, we have begun expanding the supported languages of our typefaces. For the moment, some of our typefaces offer Cyrillic, Greek and Arabic language supports, in addition to the Latin character set.
+          - paragraph [ref=e65]: All Optimo® fonts are available exclusively through this website.
+      - generic [ref=e66]:
+        - heading "Valentin Brustaux, Licensing, Type Design" [level=1] [ref=e67]
+        - paragraph [ref=e69]: Valentin Brustaux lives and works in Zürich, Switzerland. He studied typography at the University of Reading, United Kingdom, successfully earning a master’s degree in typeface design in 2007. Brustaux has worked for many type companies, including Adobe, Monotype, Tiro Typeworks, for various scripts and languages (Cyrillic, Greek, Kannada and Telugu). He received the Type Directors Club Certificate of Excellence in Type Design in 2008 and the Swiss Federal Design Award in 2010 for his typeface Tiina. In 2019, he received the Type Directors Club Certificate of Excellence in Type Design for his typeface Adobe Telugu. Brustaux collaborates with Optimo since 2012 both as licensing expert and type designer.
+      - generic [ref=e70]:
+        - heading "Sandra Carrera, Project Management" [level=1] [ref=e71]
+        - paragraph [ref=e73]: Type designer originally from Spain and Switzerland, Sandra Carrera lives and works in Geneva. She holds a BA in Visual Communication from the Haute école d’art et de design de Genève (HEAD), Geneva and obtained a master’s degree in art direction and type design at the École cantonale d’art de Lausanne (ECAL). For the summer of 2013, Carrera interned at Commercial Type in New York, after which she worked at Production Type in Paris. She occasionally teaches at HEAD. In 2015, she joined the Optimo team, where she has developed and coordinated many type design projects.
+      - generic [ref=e74]:
+        - heading "Amélie Gallay, Type Design" [level=1] [ref=e75]
+        - paragraph [ref=e77]: Amélie Gallay is a type designer living and working in Geneva, Switzerland. After a BA in Visual Communication at the Haute école d'art de design de Genève (HEAD), she obtained a master's degree in type design at the Ecole cantonale d'art de Lausanne (ECAL) where she was awarded the EXECAL award for her master's thesis on The History of Orientalism and Type Design. Her diploma project was granted the Jury Prize and the Type Design Gold Award from the NewOne Awards committee. In 2022, she joined Optimo as a type designer. Amélie works on the retail library and collaborates with the type designers on the development of their projects.
+      - generic [ref=e78]:
+        - heading "Gilles Gavillet, Founder" [level=1] [ref=e79]
+        - paragraph [ref=e81]: Following his studies at the École cantonale d’art de Lausanne (ECAL), Gilles Gavillet worked for Cornel Windlin in Zürich, before moving to Geneva, where he now lives and works. In 2001, he established his studio specializing in editorial and visual identity projects, predominantly working in the cultural sector. Gavillet has been teaching at the ECAL since 2008. He has received many distinctions for his work including the prestigious Jan Tschichold Prize in 2006 for his outstanding achievement in book design and the Swiss Grand Award for Design in 2012. From 2015 to 2021, he was the Head of the Jury of The Most Beautiful Swiss Books competition. In 1998, he co-founded Optimo and since then he has been directing the foundry’s operations.
+      - generic [ref=e82]:
+        - heading "Tanja Kern, Library Management" [level=1] [ref=e83]
+        - paragraph [ref=e85]: Originally from Lucerne, Tanja Kern currently lives and works in Geneva, Switzerland. Kern did an apprenticeship in graphic design, following one year in law school. In 2007, after collaborating with a non-profit organization specialized in intellectual property, she joined the Optimo team as a library manager, a role in which she assists the type foundry on diverse administrative tasks.
+      - generic [ref=e86]:
+        - heading "Alizée Mabriez, Finance" [level=1] [ref=e87]
+        - paragraph [ref=e89]: Alizée Mabriez lives and works in Geneva, Switzerland. In 2021, she joined the Optimo team, for whom she monitors accounts and reviews financial reports.
+      - generic [ref=e90]:
+        - heading "Louise Paradis, Editor" [level=1] [ref=e91]
+        - paragraph [ref=e93]: Louise Paradis grew up in the Centre-du-Québec region in Canada and now lives and works in Montreal. She obtained a master’s degree in art direction from the École cantonale d’art de Lausanne (ECAL), and holds a bachelor’s of art degree in graphic design from the Université du Québec à Montréal (UQAM). Paradis worked for several years as a graphic designer in Los Angeles, predominantly in the fashion industry. She is a professor at Université du Québec à Montréal (UQAM). Paradis is lead researcher, co-author, and co-designer of 30 Years of Swiss Typographic Discourse in the Typografische Monatsblätter, which was published by Lars Müller in 2013. A long-time collaborator of Optimo, she has managed licenses and communications from 2018 to 2021 and now edits the contents of the website.
+      - generic [ref=e94]:
+        - heading "Joana Siniavskaja, Type Design" [level=1] [ref=e95]
+        - paragraph [ref=e97]: Joana obtained a master's degree in type design at the Ecole cantonale d'art de Lausanne (ECAL). In 2024, she joined Optimo as a type designer.
+      - generic [ref=e98]:
+        - heading "Alphabet Type" [level=1] [ref=e99]
+        - paragraph [ref=e101]: Founded in 2014 in Berlin, Alphabet Type is a company specializing in font production and type technology.
+      - generic [ref=e102]:
+        - heading "GrayBits" [level=1] [ref=e103]
+        - paragraph [ref=e105]: GrayBits consults with clients on content architecture, business processes, and digital design. They create custom tools and user interfaces for organizational workflows. GrayBits developed the Optimo website and consulted on the internal licensing system and related front end and back end interfaces that handle the variety of purchase options Optimo offers.
+      - generic [ref=e106]:
+        - heading "iKern" [level=1] [ref=e107]
+        - paragraph [ref=e109]: Based in Italy, iKern is a company specializing in spacing and kerning founded and operated by engineer Igino Marini.
+      - generic [ref=e110]:
+        - heading "Gerry Leonidas" [level=1] [ref=e111]
+        - paragraph [ref=e113]: Gerry Leonidas is an Associate Professor of Typography at the University of Reading. He is also president of the Association Typographique Internationale (ATypI) and co-founder of the Institute for the Study of Typography & Visual Communication (ISTVC) and the Granshan Foundation.
+      - generic [ref=e114]:
+        - heading "Titus Nemeth" [level=1] [ref=e115]
+        - paragraph [ref=e117]: "Titus Nemeth is a type designer and historian. His practice revolves around Arabic and multilingual type design and typography. His publications include the monograph Arabic Type-Making in the Machine Age (Brill, 2017) and Arabic Typography: History and Practice (Niggli, 2023)."
+      - generic [ref=e118]:
+        - heading "Office for Typography" [level=1] [ref=e119]
+        - paragraph [ref=e121]: Based in Switzerland and in Japan, Office for Typography is the association of two brothers; Chi-Long and Chi-Binh Trieu. Together they work on graphic and type design projects. In collaboration with the Optimo team, Chi-Long designed the Optimo website.
+      - generic [ref=e122]:
+        - heading "Alexei Vanyashin" [level=1] [ref=e123]
+        - paragraph [ref=e125]: Alexei Vanyashin is a typeface designer, educator, and researcher.
+    - generic [ref=e126]: © 1998–2026 Optimo Sàrl, All rights reserved
+  - contentinfo:
+    - generic [ref=e127]:
+      - text: By continuing to browse this site, you agree to the use of cookies to identify your session and to remember your login after you close the browser (authentication cookies).
+      - link "Learn more" [ref=e128] [cursor=pointer]:
+        - /url: /privacy_policy
+      - text: or
+      - link "agree and close" [ref=e129] [cursor=pointer]:
+        - /url: /cookie_agree
+      - text: .

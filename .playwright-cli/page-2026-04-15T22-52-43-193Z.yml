@@ -1,0 +1,821 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Ivar Script" [ref=e6] [cursor=pointer]
+        - button "Large" [ref=e8] [cursor=pointer]
+        - generic [ref=e11]:
+          - button [ref=e12]
+          - button [ref=e14] [cursor=pointer]
+          - button [ref=e16] [cursor=pointer]
+        - list [ref=e19]:
+          - listitem [ref=e20] [cursor=pointer]: calt
+          - listitem [ref=e21] [cursor=pointer]: onum
+          - listitem [ref=e22] [cursor=pointer]: ss01
+          - listitem [ref=e23] [cursor=pointer]: ss02
+          - listitem [ref=e24] [cursor=pointer]: ss03
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e26]: Please Read The Letter That I Wrote
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - heading "Letters from Sweden" [level=2] [ref=e30]:
+          - link "Letters from Sweden" [ref=e31] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se
+        - navigation [ref=e32]:
+          - link "Fonts" [ref=e33] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/fonts
+          - text: ","
+          - link "Custom" [ref=e34] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/custom
+          - text: ","
+          - link "Trials" [ref=e35] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/trials
+          - text: ", &"
+          - link "More" [ref=e36] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about
+        - link "Cart → €0" [ref=e38] [cursor=pointer]:
+          - /url: https://lettersfromsweden.se/cart/
+          - text: Cart →
+          - generic [ref=e41]: €0
+        - button [ref=e42] [cursor=pointer]
+      - generic [ref=e43]:
+        - text: Quick Preview
+        - figure [ref=e44]:
+          - generic [ref=e45]: xx
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - heading "Ivar Script" [level=1] [ref=e48]
+        - generic [ref=e49]:
+          - generic [ref=e50]: Buy →
+          - generic [ref=e51]:
+            - button "Web" [ref=e52] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e53]:
+            - button "Desktop" [ref=e54] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e55]:
+            - button "Web" [ref=e56] [cursor=pointer]
+            - text: 02193 02193
+      - generic [ref=e57]:
+        - paragraph [ref=e58]:
+          - text: Ivar Script is a connected extension of the italics in
+          - link "Ivar" [ref=e59] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/ivar-display/
+          - text: ", mixing the elegance of a serif italic with the fluidity of a script. Originally commissioned in 2024 for"
+          - link "Sotheby’s Magazine" [ref=e60] [cursor=pointer]:
+            - /url: https://www.sothebys.com/en/series/sothebys-magazine
+          - text: by
+          - link "Magnus Berger" [ref=e61] [cursor=pointer]:
+            - /url: https://www.magnusbergerstudio.com
+          - text: and
+          - link "Henrik Zachrisson" [ref=e62] [cursor=pointer]:
+            - /url: https://henrikzachrisson.com
+          - text: ", it comes in three optical sizes—Large, Medium, and Small—and is powered by Contextual Alternates. For added expression, Stylistic Set 01 connects capitals to lowercases, Stylistic Set 02 introduces alternate capitals, and Stylistic Set 03 retains connecting tails even at word or sentence endings. If you prefer manual control, simply disable the OpenType features. Ivar Script is offered as a package containing all three optical sizes."
+        - generic [ref=e63]:
+          - text: Year
+          - text: "2025"
+        - generic [ref=e64]:
+          - text: Designed by
+          - generic [ref=e65]:
+            - link "Göran Söderström" [ref=e67] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/goran-soderstrom/
+            - link "Léo Guibert (Production)" [ref=e69] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/leo-guibert/
+        - generic [ref=e70]:
+          - text: Script(s)
+          - text: latin
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]: New!
+        - button "Ivar Script" [ref=e75] [cursor=pointer]
+        - button "Large" [ref=e77] [cursor=pointer]
+        - list [ref=e81]:
+          - listitem [ref=e82] [cursor=pointer]: calt
+          - listitem [ref=e83] [cursor=pointer]: onum
+          - listitem [ref=e84] [cursor=pointer]: ss01
+          - listitem [ref=e85] [cursor=pointer]: ss02
+          - listitem [ref=e86] [cursor=pointer]: ss03
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e88]:
+        - text: The letter I write to you is longer
+        - text: than the distance between your
+        - text: house and mine.
+    - generic [ref=e90]:
+      - button "Ivar Script" [ref=e92] [cursor=pointer]
+      - button "Large" [ref=e94] [cursor=pointer]
+      - generic [ref=e97]:
+        - button [ref=e98]
+        - button [ref=e100] [cursor=pointer]
+        - button [ref=e102] [cursor=pointer]
+      - list [ref=e105]:
+        - listitem [ref=e106] [cursor=pointer]: calt
+        - listitem [ref=e107] [cursor=pointer]: onum
+        - listitem [ref=e108] [cursor=pointer]: ss01
+        - listitem [ref=e109] [cursor=pointer]: ss02
+        - listitem [ref=e110] [cursor=pointer]: ss03
+      - text: 02193 02193 02193 02193 02193 02193
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - button "Ivar Script" [ref=e116] [cursor=pointer]
+        - button "Large" [ref=e118] [cursor=pointer]
+        - generic [ref=e121]:
+          - button [ref=e122]
+          - button [ref=e124] [cursor=pointer]
+          - button [ref=e126] [cursor=pointer]
+        - list [ref=e129]:
+          - listitem [ref=e130] [cursor=pointer]: calt
+          - listitem [ref=e131] [cursor=pointer]: onum
+          - listitem [ref=e132] [cursor=pointer]: ss01
+          - listitem [ref=e133] [cursor=pointer]: ss02
+          - listitem [ref=e134] [cursor=pointer]: ss03
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e136]: Put the pen to the paper . Press the envelope with my scent. Can’t you see, in my handwriting ? The curve of my ‘g’, the longing. Who is left that writes these days?
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - button "Ivar Script" [ref=e140] [cursor=pointer]
+        - button "Large" [ref=e142] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e144]:
+        - text: Your face is the
+        - text: punctuation
+        - text: I can’t erase
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - button "Ivar Script" [ref=e148] [cursor=pointer]
+        - button "Small" [ref=e150] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e152]:
+        - text: I wrote a letter you’ll never read
+        - text: Every word typed with a trembling hand
+        - text: Letters spilling secrets no one sees
+        - text: Your face haunts the margins like ink on sand
+        - text: Every line a question, every dot a sigh
+        - text: Your face is the punctuation I can’t erase
+        - text: Each letter I send can’t take your place
+    - generic [ref=e153]:
+      - generic [ref=e155]: Ivar Script Characters
+      - generic [ref=e156]:
+        - generic: A
+        - generic [ref=e157]:
+          - text: A
+          - text: 
+          - text: 
+          - text: Á
+          - text: 
+          - text: 
+          - text: Ă
+          - text: 
+          - text: 
+          - text: Â
+          - text: 
+          - text: 
+          - text: Ä
+          - text: 
+          - text: 
+          - text: À
+          - text: 
+          - text: 
+          - text: Ā
+          - text: 
+          - text: 
+          - text: Ą
+          - text: 
+          - text: 
+          - text: Å
+          - text: 
+          - text: 
+          - text: Ã
+          - text: 
+          - text: 
+          - text: Æ
+          - text: B
+          - text: C
+          - text: 
+          - text: 
+          - text: 
+          - text: Ć
+          - text: 
+          - text: 
+          - text: 
+          - text: Č
+          - text: 
+          - text: 
+          - text: 
+          - text: Ç
+          - text: 
+          - text: 
+          - text: 
+          - text: Ċ
+          - text: 
+          - text: 
+          - text: 
+          - text: D
+          - text: Ď
+          - text: Đ
+          - text: Ð
+          - text: E
+          - text: 
+          - text: 
+          - text: É
+          - text: 
+          - text: 
+          - text: Ě
+          - text: 
+          - text: 
+          - text: Ê
+          - text: 
+          - text: 
+          - text: Ë
+          - text: 
+          - text: 
+          - text: Ė
+          - text: 
+          - text: 
+          - text: È
+          - text: 
+          - text: 
+          - text: Ē
+          - text: 
+          - text: 
+          - text: Ę
+          - text: 
+          - text: 
+          - text: F
+          - text: G
+          - text: 
+          - text: Ğ
+          - text: 
+          - text: Ģ
+          - text: 
+          - text: Ġ
+          - text: 
+          - text: H
+          - text: Ħ
+          - text: I
+          - text: Í
+          - text: Î
+          - text: Ï
+          - text: İ
+          - text: Ì
+          - text: Ī
+          - text: Į
+          - text: J
+          - text: 
+          - text: 
+          - text: 
+          - text: K
+          - text: 
+          - text: 
+          - text: Ķ
+          - text: 
+          - text: 
+          - text: L
+          - text: Ĺ
+          - text: Ľ
+          - text: Ļ
+          - text: Ł
+          - text: M
+          - text: "N"
+          - text: Ń
+          - text: Ň
+          - text: Ņ
+          - text: Ñ
+          - text: Ŋ
+          - text: O
+          - text: Ó
+          - text: Ô
+          - text: Ö
+          - text: Ò
+          - text: Ő
+          - text: Ō
+          - text: Ø
+          - text: Õ
+          - text: Œ
+          - text: P
+          - text: Þ
+          - text: Q
+          - text: R
+          - text: 
+          - text: 
+          - text: Ŕ
+          - text: 
+          - text: 
+          - text: Ř
+          - text: 
+          - text: 
+          - text: Ŗ
+          - text: 
+          - text: 
+          - text: S
+          - text: 
+          - text: Ś
+          - text: 
+          - text: Š
+          - text: 
+          - text: Ş
+          - text: 
+          - text: Ș
+          - text: 
+          - text: ẞ
+          - text: T
+          - text: Ŧ
+          - text: Ť
+          - text: Ţ
+          - text: Ț
+          - text: U
+          - text: 
+          - text: 
+          - text: Ú
+          - text: 
+          - text: 
+          - text: Û
+          - text: 
+          - text: 
+          - text: Ü
+          - text: 
+          - text: 
+          - text: Ù
+          - text: 
+          - text: 
+          - text: Ű
+          - text: 
+          - text: 
+          - text: Ū
+          - text: 
+          - text: 
+          - text: Ų
+          - text: 
+          - text: 
+          - text: Ů
+          - text: 
+          - text: 
+          - text: V
+          - text: 
+          - text: W
+          - text: 
+          - text: Ẃ
+          - text: 
+          - text: Ŵ
+          - text: 
+          - text: Ẅ
+          - text: 
+          - text: Ẁ
+          - text: 
+          - text: X
+          - text: 
+          - text: 
+          - text: "Y"
+          - text: 
+          - text: Ý
+          - text: 
+          - text: Ŷ
+          - text: 
+          - text: Ÿ
+          - text: 
+          - text: Ỳ
+          - text: 
+          - text: Z
+          - text: 
+          - text: Ź
+          - text: 
+          - text: Ž
+          - text: 
+          - text: Ż
+          - text: 
+          - text: a
+          - text: 
+          - text: á
+          - text: 
+          - text: ă
+          - text: 
+          - text: â
+          - text: 
+          - text: ä
+          - text: 
+          - text: à
+          - text: 
+          - text: ā
+          - text: 
+          - text: ą
+          - text: 
+          - text: å
+          - text: 
+          - text: ã
+          - text: 
+          - text: æ
+          - text: 
+          - text: b
+          - text: c
+          - text: 
+          - text: 
+          - text: ć
+          - text: 
+          - text: 
+          - text: č
+          - text: 
+          - text: 
+          - text: ç
+          - text: 
+          - text: 
+          - text: ċ
+          - text: 
+          - text: 
+          - text: d
+          - text: 
+          - text: ď
+          - text: 
+          - text: đ
+          - text: 
+          - text: ð
+          - text: e
+          - text: 
+          - text: é
+          - text: 
+          - text: ě
+          - text: 
+          - text: ê
+          - text: 
+          - text: ë
+          - text: 
+          - text: ė
+          - text: 
+          - text: è
+          - text: 
+          - text: ē
+          - text: 
+          - text: ę
+          - text: 
+          - text: f
+          - text: g
+          - text: 
+          - text: ğ
+          - text: 
+          - text: ģ
+          - text: 
+          - text: ġ
+          - text: 
+          - text: h
+          - text: 
+          - text: ħ
+          - text: 
+          - text: i
+          - text: 
+          - text: ı
+          - text: 
+          - text: í
+          - text: 
+          - text: î
+          - text: 
+          - text: ï
+          - text: 
+          - text: 
+          - text: 
+          - text: ì
+          - text: 
+          - text: ī
+          - text: 
+          - text: į
+          - text: 
+          - text: j
+          - text: 
+          - text: ȷ
+          - text: 
+          - text: 
+          - text: 
+          - text: k
+          - text: 
+          - text: 
+          - text: ķ
+          - text: 
+          - text: 
+          - text: l
+          - text: 
+          - text: ĺ
+          - text: 
+          - text: ľ
+          - text: 
+          - text: ļ
+          - text: 
+          - text: ł
+          - text: 
+          - text: m
+          - text: 
+          - text: "n"
+          - text: 
+          - text: ń
+          - text: 
+          - text: ň
+          - text: 
+          - text: ņ
+          - text: 
+          - text: ñ
+          - text: 
+          - text: ŋ
+          - text: 
+          - text: o
+          - text: ó
+          - text: ô
+          - text: ö
+          - text: ò
+          - text: ő
+          - text: ō
+          - text: ø
+          - text: õ
+          - text: œ
+          - text: 
+          - text: p
+          - text: þ
+          - text: q
+          - text: r
+          - text: ŕ
+          - text: ř
+          - text: ŗ
+          - text: s
+          - text: ś
+          - text: š
+          - text: ş
+          - text: ș
+          - text: ß
+          - text: t
+          - text: 
+          - text: 
+          - text: ŧ
+          - text: 
+          - text: 
+          - text: ť
+          - text: 
+          - text: 
+          - text: ţ
+          - text: 
+          - text: 
+          - text: ț
+          - text: 
+          - text: 
+          - text: u
+          - text: 
+          - text: ú
+          - text: 
+          - text: û
+          - text: 
+          - text: ü
+          - text: 
+          - text: ù
+          - text: 
+          - text: ű
+          - text: 
+          - text: ū
+          - text: 
+          - text: ų
+          - text: 
+          - text: ů
+          - text: 
+          - text: v
+          - text: w
+          - text: ẃ
+          - text: ŵ
+          - text: ẅ
+          - text: ẁ
+          - text: x
+          - text: 
+          - text: "y"
+          - text: ý
+          - text: ŷ
+          - text: ÿ
+          - text: ỳ
+          - text: z
+          - text: ź
+          - text: ž
+          - text: ż
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: ﬂ
+          - text: 
+          - text: ª
+          - text: º
+          - text: "0"
+          - text: "1"
+          - text: "2"
+          - text: "3"
+          - text: "4"
+          - text: "5"
+          - text: "6"
+          - text: "7"
+          - text: "8"
+          - text: "9"
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: ⁄
+          - text: ½
+          - text: ⅔
+          - text: ¼
+          - text: ¾
+          - text: ⅛
+          - text: ⅜
+          - text: ⅝
+          - text: ⅞
+          - text: ₀
+          - text: ₁
+          - text: ₂
+          - text: ₃
+          - text: ₄
+          - text: ₅
+          - text: ₆
+          - text: ₇
+          - text: ₈
+          - text: ₉
+          - text: ⁰
+          - text: ¹
+          - text: ²
+          - text: ³
+          - text: ⁴
+          - text: ⁵
+          - text: ⁶
+          - text: ⁷
+          - text: ⁸
+          - text: ⁹
+          - text: .
+          - text: ","
+          - text: ":"
+          - text: ;
+          - text: …
+          - text: "!"
+          - text: ¡
+          - text: 
+          - text: "?"
+          - text: ¿
+          - text: 
+          - text: ·
+          - text: •
+          - text: "*"
+          - text: "#"
+          - text: /
+          - text: \
+          - text: "-"
+          - text: 
+          - text: –
+          - text: 
+          - text: —
+          - text: 
+          - text: ‑
+          - text: _
+          - text: (
+          - text: )
+          - text: "{"
+          - text: "}"
+          - text: "["
+          - text: "]"
+          - text: ‚
+          - text: „
+          - text: “
+          - text: ”
+          - text: ‘
+          - text: ’
+          - text: «
+          - text: »
+          - text: ‹
+          - text: ›
+          - text: "\""
+          - text: "'"
+          - text: "@"
+          - text: 
+          - text: "&"
+          - text: ¶
+          - text: §
+          - text: ©
+          - text: ®
+          - text: ℗
+          - text: ™
+          - text: °
+          - text: ′
+          - text: ″
+          - text: "|"
+          - text: ¦
+          - text: †
+          - text: ‡
+          - text: ¢
+          - text: ¤
+          - text: $
+          - text: €
+          - text: ₺
+          - text: ₹
+          - text: £
+          - text: ¥
+          - text: +
+          - text: 
+          - text: −
+          - text: 
+          - text: ×
+          - text: 
+          - text: ÷
+          - text: 
+          - text: =
+          - text: 
+          - text: ≠
+          - text: 
+          - text: ">"
+          - text: 
+          - text: <
+          - text: 
+          - text: ≥
+          - text: 
+          - text: ≤
+          - text: 
+          - text: ±
+          - text: 
+          - text: ≈
+          - text: 
+          - text: ~
+          - text: ^
+          - text: "%"
+          - text: ‰
+    - generic [ref=e159]: Need a letter which is not here? Let us know ☺
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - button "Ivar Mono" [ref=e163] [cursor=pointer]
+        - button "Regular" [ref=e165] [cursor=pointer]
+        - generic [ref=e168]:
+          - button [ref=e169]
+          - button [ref=e171] [cursor=pointer]
+          - button [ref=e173] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - link "→ Learn more about Ivar Mono" [ref=e177] [cursor=pointer]:
+        - /url: https://lettersfromsweden.se/font/ivar-mono/
+  - contentinfo [ref=e178]:
+    - navigation [ref=e179]:
+      - list [ref=e181]:
+        - listitem [ref=e182]:
+          - link "About" [ref=e183] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about/
+          - text: ","
+        - listitem [ref=e184]:
+          - link "Support" [ref=e185] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/support/
+          - text: ","
+        - listitem [ref=e186]:
+          - link "License" [ref=e187] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/license/
+          - text: ","
+        - listitem [ref=e188]:
+          - link "Designers" [ref=e189] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/designers/
+          - text: ","
+        - listitem [ref=e190]:
+          - link "Contact" [ref=e191] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/contact/
+          - text: ","
+        - listitem [ref=e192]:
+          - link "Privacy Policy" [ref=e193] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/privacypolicy/
+  - status [ref=e194]

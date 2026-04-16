@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - heading "Labor and Wait" [level=1] [ref=e4]:
+      - link "Labor and Wait" [ref=e5] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Fonts" [ref=e8] [cursor=pointer]:
+          - /url: /fonts
+        - link "Trials" [ref=e9] [cursor=pointer]:
+          - /url: /trials
+      - generic [ref=e10]:
+        - link "Info" [ref=e11] [cursor=pointer]:
+          - /url: /info
+        - link "Account" [ref=e12] [cursor=pointer]:
+          - /url: /account
+        - button "Cart" [ref=e13] [cursor=pointer]
+  - main [ref=e14]:
+    - main [ref=e15]:
+      - article [ref=e16]:
+        - 'heading "Labor & Wait is a digital type foundry based in the Hudson River Valley, in New York State. We are the publisher of the fonts released under the Constellation banner: Aero, Apex, Brooklyn, Cassiopeia, Copernicus, Cosmica, and Polaris. These types were previously available exclusively via Village/vllg.com, which we ran from 2005-23." [level=3] [ref=e17]'
+        - 'heading "We design custom type and typography as bspk, working with esteemed colleagues and clients such as 2x4, ADP, American Museum of Natural History, Mary Ellen Carroll, Cooper Hewitt: Smithsonian Design Museum, Havas, Maharam, Pentagram Design, City of Seattle, Snickers, and Syracuse University, amongst others." [level=4] [ref=e18]':
+          - text: We design custom type and typography as
+          - link "bspk" [ref=e19] [cursor=pointer]:
+            - /url: https://www.bspk.xyz/
+          - text: ", working with esteemed colleagues and clients such as 2x4, ADP, American Museum of Natural History, Mary Ellen Carroll, Cooper Hewitt: Smithsonian Design Museum, Havas, Maharam, Pentagram Design, City of Seattle, Snickers, and Syracuse University, amongst others."
+        - heading "In September 2023, we closed the doors of vllg.com after 18 years. We are very proud of the work we did to bring the work of a supremely talented group of young designers to the wider world in the early days of e-commerce." [level=4] [ref=e20]
+        - 'heading "With Labor & Wait, we are focusing on one of our passions: designing original types for publication. This pursuit sits alongside our custom type practice, and the two inform and influence each other. Our work extends to the creation of novel forms, utilization of software advances, and revivification of historical models. We look forward to diffusing more and varied projects, including singles and remixes." [level=4] [ref=e21]'
+        - heading "Please consider joining our mailing list. If you have any questions or thoughts please feel free to contact us. We can be found at instagram and bluesky." [level=6] [ref=e22]:
+          - text: Please consider joining our mailing list. If you have any questions or thoughts please feel free to
+          - link "contact us" [ref=e23] [cursor=pointer]:
+            - /url: https://www.laborandwait.xyz/contact
+          - text: . We can be found at
+          - link "instagram" [ref=e24] [cursor=pointer]:
+            - /url: https://www.instagram.com/laborandwait.xyz
+          - text: and
+          - link "bluesky" [ref=e25] [cursor=pointer]:
+            - /url: http://laborandwait.bsky.social/
+          - text: .
+        - paragraph [ref=e26]:
+          - strong [ref=e27]: Why 'Labor & Wait' as a name?
+        - paragraph [ref=e28]: "We came across an old ceramic jam jar at an antique shop, the base of which was stamped with the crest of the producer: Co-operative Wholesale Society Ld. The crest depicts a wheat sheaf flanked by a shovel and a scythe with a banner unfurled across the wheat sheaf reading LABOR AND WAIT. We brought the jar back to our studio; it sits on a desk filled with pencils."
+        - paragraph [ref=e29]: "Beyond the handsome solidity of the jam jar and its stamped graphics, 'Labor & Wait' struck a nerve as a reflection on the craft of type design: patient dedication to a project then handing off the product of that labor to be applied by other hands. The wheat sheaf design is an elaboration of the work of a farmer; she sows her seeds, tends her fields, and reaps what she has grown. The process cannot be expedited, only minded."
+        - paragraph [ref=e30]:
+          - strong [ref=e31]: Where does the phrase 'Labor & Wait' come from in the first place?
+        - paragraph [ref=e32]: "American poet Henry Wadsworth Longfellow (1807-1882) wrote his poem 'A Psalm of Life' in 1838, culminating in the lines:"
+        - paragraph [ref=e33]:
+          - text: Let us, then, be up and doing,
+          - text: With a heart for any fate;
+          - text: Still achieving, still pursuing,
+          - text: Learn to labor and to wait.
+        - paragraph [ref=e34]:
+          - text: The full poem can be read at the
+          - link "Poetry Foundation" [ref=e35] [cursor=pointer]:
+            - /url: https://www.poetryfoundation.org/poems/44644/a-psalm-of-life
+          - text: website. The poem is less a soaring celebration of life, and more a call to do one's best in one's time on Earth. Longfellow urges us to act in the present, seeking to make an incrementally better future without dwelling on the past.
+        - paragraph [ref=e36]:
+          - strong [ref=e37]: Labor and Wait is the brand under which Village Type & Design LLC conducts its business. All contracts, invoices, and legal agreements are issued by Village Type & Design LLC, the registered legal entity.
+  - contentinfo [ref=e39]:
+    - generic [ref=e40]:
+      - img [ref=e42]
+      - list [ref=e44]:
+        - listitem [ref=e45]:
+          - link "Fonts" [ref=e46] [cursor=pointer]:
+            - /url: /fonts
+        - listitem [ref=e47]:
+          - link "Info" [ref=e48] [cursor=pointer]:
+            - /url: /info
+        - listitem [ref=e49]:
+          - link "Trials" [ref=e50] [cursor=pointer]:
+            - /url: /trials
+        - listitem [ref=e51]:
+          - link "Licensing" [ref=e52] [cursor=pointer]:
+            - /url: /licensing
+        - listitem [ref=e53]:
+          - link "Contact" [ref=e54] [cursor=pointer]:
+            - /url: /contact
+        - listitem [ref=e55]:
+          - link "Newsletter" [ref=e56] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=e57]:
+          - link "Custom type" [ref=e58] [cursor=pointer]:
+            - /url: /custom-type
+        - listitem [ref=e59]:
+          - link "Services" [ref=e60] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=e61]:
+          - link "Cookie Policy" [ref=e62] [cursor=pointer]:
+            - /url: /cookie-policy
+        - listitem [ref=e63]:
+          - link "Privacy Policy" [ref=e64] [cursor=pointer]:
+            - /url: /privacy-policy
+        - listitem [ref=e65]:
+          - link "Fulfilment Policy" [ref=e66] [cursor=pointer]:
+            - /url: /fulfilment-policy
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - link "Account" [ref=e69] [cursor=pointer]:
+            - /url: /account
+        - listitem [ref=e70]:
+          - button "Cart" [ref=e71] [cursor=pointer]
+      - paragraph [ref=e73]: © 2026 Village Type & Design LLC
+  - alert [ref=e74]

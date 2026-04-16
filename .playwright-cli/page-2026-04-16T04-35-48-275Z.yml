@@ -1,0 +1,107 @@
+- main [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - link "Nuform_logo_Orange_A":
+          - /url: https://nuformtype.com
+          - img "Nuform_logo_Orange_A" [ref=e8] [cursor=pointer]
+      - navigation [ref=e12]:
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "Fonts" [ref=e15] [cursor=pointer]:
+              - /url: https://nuformtype.com/
+              - generic [ref=e16]: Fonts
+          - listitem [ref=e17]:
+            - link "Info" [ref=e18] [cursor=pointer]:
+              - /url: www.nuformtype.com/info
+              - generic [ref=e19]: Info
+    - generic [ref=e21]:
+      - img "NF_Ozik_Specimen_1C" [ref=e30]
+      - img "NF_Ozik_Specimen_8E" [ref=e39]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Weight
+            - combobox [ref=e51] [cursor=pointer]:
+              - option "Regular"
+              - option "Medium"
+              - option "Bold"
+              - option "Black" [selected]
+          - generic [ref=e52]:
+            - generic [ref=e53]: Size
+            - slider [ref=e54] [cursor=pointer]: "178"
+          - generic [ref=e55]:
+            - generic [ref=e56]: Leading
+            - slider [ref=e57] [cursor=pointer]: "0.8"
+          - generic [ref=e58]:
+            - generic [ref=e59]: Tracking
+            - slider [ref=e60] [cursor=pointer]: "0"
+          - generic [ref=e61]:
+            - button "AA" [ref=e62] [cursor=pointer]
+            - button "Aa" [ref=e63] [cursor=pointer]
+            - button "aa" [ref=e64] [cursor=pointer]
+          - generic [ref=e65] [cursor=pointer]:
+            - generic: Text Maker
+        - generic [ref=e67]: Heavy Metal Geometry
+      - generic [ref=e70]:
+        - img "NF_Rose_AB" [ref=e76]
+        - generic [ref=e78]:
+          - paragraph [ref=e82]:
+            - generic [ref=e83]:
+              - text: FRESHLY
+              - text: CUT
+              - text: FONTS
+          - link "ADD TO CART" [ref=e87] [cursor=pointer]:
+            - /url: https://nuformtype.gumroad.com/l/gxvtn
+            - generic [ref=e89]: ADD TO CART
+      - generic [ref=e94]:
+        - img "NF_Ozik_Specimen_5B" [ref=e98]
+        - paragraph [ref=e101]: OZIK Medium
+      - generic [ref=e104]:
+        - generic [ref=e106]:
+          - heading "\"Though clouded by round counters, OZIK found Nuform Type at a creative peak that teetered on the edge of going off the rails completely. It's messy and bewildered, but stands as one of the foundries most captivating and influential typefaces in all of its bizarre, damaged brilliance.\"" [level=1] [ref=e109]:
+            - generic [ref=e110]:
+              - text: "\"Though clouded by round counters,"
+              - text: OZIK found Nuform Type at a creative
+              - text: peak that teetered on the edge of
+              - text: going off the rails completely.
+              - text: It's messy and bewildered, but
+              - text: stands as one of the foundries most
+              - text: captivating and influential typefaces
+              - text: in all of its bizarre, damaged brilliance."
+          - paragraph [ref=e114]:
+            - link "-James Edmondson, Founder of Oh no Type Co" [ref=e115] [cursor=pointer]:
+              - /url: https://ohnotype.co
+        - img "NF_Ozik_Record_Sleeve9" [ref=e121]
+      - paragraph [ref=e129]:
+        - generic [ref=e130]: Black Sabbath's Finest
+      - generic [ref=e133]:
+        - paragraph [ref=e138]: Most people tend to overlook this album, which to me is quite a shame. Whilst the first 3 albums are indeed heavy metal classics, the material on this album is just total lightyears ahead of anything else Sabbath has done. It has it all, the doom, the heavy, the slow, the weird, the folk, the blues...it's just everything Black Sabbath has ever been associated piled into 43 minutes of complete sonic bliss. From the bluesy and lethargic intro of "Wheels of Confusion" to the down right doom of "Cornucopia", this album is absolutely perfect, aside from one glitch. I understand it's probably something of a drug induced experiment, "FX" just isn't necessary to the album. Had the album progressed from the tear jerking "Changes" straight to "Supernaut", the contrast between the two songs would have made a much welcome change as opposed to having
+        - paragraph [ref=e143]:
+          - generic [ref=e144]:
+            - text: to skip "FX" in between. But, all that garbage aside, what we have here is Iommi has his absolute prime, Bill Ward as his most technical and Geezer Butler with some of the best bass work you'll ever hear. And not to forget Ozzy's vocal performance, I don't think this album would have worked had Dio done vocals on it, in the same way Ozzy just wouldn't sound right on the Dehumanizer album.
+            - generic [ref=e145]: To me this album is the definitive album in the "Classic Sabbath" era with Ozzy, it covers all they done together, from their doomy and gloomy beginnings, to their more progressive and technical sound on their later albums together. If the classic line up ever does another album together, one can only hope it's as good as Volume 4, which to me stands as the pinnacle record in the Black Sabbath discography. Every metal fan should own this LP.
+      - generic [ref=e150]:
+        - img "NF_Ozik_Specimen_5C" [ref=e154]
+        - paragraph [ref=e157]: OZIK Bold
+      - img "NF_Ozik_Specimen_Invisible_Creature_ED" [ref=e166]
+      - generic [ref=e168]:
+        - img "NF_Ozik_Specimen_4B" [ref=e175]
+        - paragraph [ref=e181]: OZIK Black
+      - generic [ref=e183]:
+        - paragraph [ref=e189]:
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - text: OZIK
+              - generic [ref=e192]:
+                - text: OZIK
+                - generic [ref=e193]: OZIK
+            - text: OZIK
+        - paragraph [ref=e200]: A 4 weight display face that pays homage to the iconic lettering featured on Black Sabbath's "Vol.4" album. Track it tight or loose but make sure to set it big! OZIK's signature rounded counters and clean cut terminals will give any design the lil' touch of metal it deserves.
+      - paragraph [ref=e208]:
+        - link "DOWNLOAD SPECIMEN" [ref=e210] [cursor=pointer]:
+          - /url: https://nuformtype.com/wp-content/uploads/2022/01/OZIK_specimen.pdf
+      - link "BUY OZIK" [ref=e219] [cursor=pointer]:
+        - /url: https://nuformtype.gumroad.com/l/gxvtn
+        - generic [ref=e221]: BUY OZIK
+      - paragraph [ref=e229]: ©2026 NUFORM TYPE

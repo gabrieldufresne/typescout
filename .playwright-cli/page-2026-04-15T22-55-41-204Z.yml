@@ -1,0 +1,62 @@
+- generic [active]:
+  - link "" [ref=e2] [cursor=pointer]:
+    - /url: index
+  - generic [ref=e4]:
+    - link "Typefaces" [ref=e5] [cursor=pointer]:
+      - /url: typefaces
+    - link "Information" [ref=e6] [cursor=pointer]:
+      - /url: info
+    - link "Basket 0" [ref=e7] [cursor=pointer]:
+      - /url: basket
+      - text: Basket
+      - generic [ref=e8]: "0"
+  - generic [ref=e10]:
+    - link "Info" [ref=e11] [cursor=pointer]:
+      - /url: info
+    - link "Basket" [ref=e12] [cursor=pointer]:
+      - /url: basket
+    - link "Typefaces" [ref=e13] [cursor=pointer]:
+      - /url: typefaces
+    - link "Gela" [ref=e14] [cursor=pointer]:
+      - /url: gela
+    - link "Freizeit" [ref=e15] [cursor=pointer]:
+      - /url: freizeit
+    - link "Roquefort" [ref=e16] [cursor=pointer]:
+      - /url: roquefort
+    - link "Spoof" [ref=e17] [cursor=pointer]:
+      - /url: spoof
+    - link "Hellenic Typewriter" [ref=e18] [cursor=pointer]:
+      - /url: hellenic-typewriter
+    - link "Chromatica" [ref=e19] [cursor=pointer]:
+      - /url: chromatica
+  - generic [ref=e20]:
+    - link "Tester" [ref=e21] [cursor=pointer]:
+      - /url: javascript:void(0)
+    - link "About" [ref=e22] [cursor=pointer]:
+      - /url: javascript:void(0)
+    - link "Examples" [ref=e23] [cursor=pointer]:
+      - /url: javascript:void(0)
+    - link "Glyphset" [ref=e24] [cursor=pointer]:
+      - /url: javascript:void(0)
+    - link "Trial or Buy" [ref=e25] [cursor=pointer]:
+      - /url: javascript:void(0)
+  - generic [ref=e26]:
+    - generic:
+      - generic [ref=e27]:
+        - generic [ref=e29] [cursor=pointer]: 72pt
+        - slider [ref=e31]: "110"
+        - generic [ref=e32] [cursor=pointer]: ⬔
+        - generic [ref=e33] [cursor=pointer]: ⬓
+        - generic [ref=e34] [cursor=pointer]: ⬕
+        - generic [ref=e35] [cursor=pointer]: ⟲
+        - generic [ref=e36] [cursor=pointer]: OpenType Features
+      - generic [ref=e38] [cursor=pointer]:
+        - text: Bootsy Collins’
+        - text: Orange Star
+        - text: Signature Bass
+  - generic [ref=e39]:
+    - paragraph:
+      - link "This website uses cookies, OK?" [ref=e41] [cursor=pointer]:
+        - /url: info?legal
+      - link "OK" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0);

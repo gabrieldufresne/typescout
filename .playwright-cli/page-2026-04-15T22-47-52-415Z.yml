@@ -1,0 +1,609 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "BAZAAR" [ref=e6] [cursor=pointer]
+        - button "Black" [ref=e8] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e12]: LETTERS FROM FRANCE
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - heading "Letters from Sweden" [level=2] [ref=e16]:
+          - link "Letters from Sweden" [ref=e17] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se
+        - navigation [ref=e18]:
+          - link "Fonts" [ref=e19] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/fonts
+          - text: ","
+          - link "Custom" [ref=e20] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/custom
+          - text: ","
+          - link "Trials" [ref=e21] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/trials
+          - text: ", &"
+          - link "More" [ref=e22] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about
+        - link "Cart → €0" [ref=e24] [cursor=pointer]:
+          - /url: https://lettersfromsweden.se/cart/
+          - text: Cart →
+          - generic [ref=e27]: €0
+        - button [ref=e28] [cursor=pointer]
+      - generic [ref=e29]:
+        - text: Quick Preview
+        - figure [ref=e30]:
+          - generic [ref=e31]: "18"
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - heading "BAZAAR" [level=1] [ref=e34]
+        - generic [ref=e35]:
+          - generic [ref=e36]: Buy →
+          - generic [ref=e37]:
+            - button "App" [ref=e38] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e39]:
+            - button "Desktop" [ref=e40] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e41]:
+            - button "Web" [ref=e42] [cursor=pointer]
+            - text: 02193 02193
+      - generic [ref=e43]:
+        - paragraph [ref=e44]: BAZAAR is a gestural and spirited script typeface. Letterforms are spaced extremely tightly, vary in height and balance themselves around a center line rather than sitting still on the baseline. Uppercase and lowercase follow peculiar strokes’ path, inspired by unique letterforms found in graffiti and street writing. This contributes to a very wild and fierce rhythm within words, especially in all-caps settings. Drawing BAZAAR required to question some of the most common features of a good typeface – balance and harmony. It is an ode to disorder and a tribute to those who challenge the rules. The typeface family comes in five weights, from Light to Black, and offers extensive language support along with contextual alternates and a set of icons.
+        - generic [ref=e45]:
+          - text: Year
+          - text: "2025"
+        - generic [ref=e46]:
+          - text: Designed by
+          - link "Laurette Colmard" [ref=e49] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/designer/laurette-colmard/
+        - generic [ref=e50]:
+          - text: Script(s)
+          - text: latin
+        - generic [ref=e51]:
+          - text: Specimen
+          - link "Download BAZAAR PDF" [ref=e53] [cursor=pointer]:
+            - /url: https://bunny-wp-pullzone-4h7oycc6ie.b-cdn.net/wp-content/uploads/LFS_BAZAAR.pdf
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - button "BAZAAR" [ref=e57] [cursor=pointer]
+        - button "Regular" [ref=e59] [cursor=pointer]
+        - generic [ref=e62]:
+          - button [ref=e63]
+          - button [ref=e65] [cursor=pointer]
+          - button [ref=e67] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e70]: ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖabcdefghijklmnopqrstuvwxyzåäö1234567890@&!?#$€%
+    - generic [ref=e72]:
+      - button "BAZAAR" [ref=e74] [cursor=pointer]
+      - button "Black" [ref=e76] [cursor=pointer]
+      - generic [ref=e79]:
+        - button [ref=e80]
+        - button [ref=e82] [cursor=pointer]
+        - button [ref=e84] [cursor=pointer]
+      - text: 02193 02193 02193 02193 02193 02193
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - button "BAZAAR" [ref=e91] [cursor=pointer]
+        - button "Medium" [ref=e93] [cursor=pointer]
+        - generic [ref=e96]:
+          - button [ref=e97]
+          - button [ref=e99] [cursor=pointer]
+          - button [ref=e101] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e104]: BAZAAR HAS 296 LETTERS, 38 ALTERNATES, 12 ARROWS, 6 LIGATURES, 37 PUNCTUATION SIGNS & ONLY 1 CARROT.
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - button "BAZAAR" [ref=e108] [cursor=pointer]
+        - button "Light" [ref=e110] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e114]: 🌐🌧🍅👁👑💩😐🥕🪐☐☑☒☹☺☼♥✉❀
+    - generic [ref=e115]:
+      - generic [ref=e117]: BAZAAR Characters
+      - generic [ref=e118]:
+        - generic: A
+        - generic [ref=e119]:
+          - text: A
+          - text: 
+          - text: Á
+          - text: Ă
+          - text: Â
+          - text: Ä
+          - text: 
+          - text: À
+          - text: Ā
+          - text: Ą
+          - text: Å
+          - text: Ã
+          - text: Æ
+          - text: B
+          - text: 
+          - text: C
+          - text: 
+          - text: Ć
+          - text: Č
+          - text: Ç
+          - text: Ċ
+          - text: D
+          - text: Ď
+          - text: Đ
+          - text: Ð
+          - text: E
+          - text: 
+          - text: É
+          - text: Ě
+          - text: Ê
+          - text: Ë
+          - text: Ė
+          - text: È
+          - text: Ē
+          - text: Ę
+          - text: Ẽ
+          - text: Ə
+          - text: Ʒ
+          - text: Ǯ
+          - text: F
+          - text: 
+          - text: G
+          - text: 
+          - text: Ğ
+          - text: Ǧ
+          - text: Ģ
+          - text: Ġ
+          - text: Ǥ
+          - text: H
+          - text: Ħ
+          - text: I
+          - text: 
+          - text: 
+          - text: Ĳ
+          - text: Í
+          - text: Î
+          - text: Ï
+          - text: İ
+          - text: Ì
+          - text: Ī
+          - text: Į
+          - text: Ĩ
+          - text: J
+          - text: 
+          - text: K
+          - text: 
+          - text: Ǩ
+          - text: Ķ
+          - text: L
+          - text: 
+          - text: Ĺ
+          - text: Ľ
+          - text: Ļ
+          - text: Ł
+          - text: M
+          - text: 
+          - text: "N"
+          - text: 
+          - text: Ń
+          - text: Ň
+          - text: Ņ
+          - text: Ñ
+          - text: Ŋ
+          - text: O
+          - text: 
+          - text: Ó
+          - text: Ô
+          - text: Ö
+          - text: 
+          - text: Ò
+          - text: Ő
+          - text: Ō
+          - text: Ø
+          - text: Õ
+          - text: Œ
+          - text: P
+          - text: 
+          - text: Þ
+          - text: Q
+          - text: R
+          - text: 
+          - text: Ŕ
+          - text: Ř
+          - text: Ŗ
+          - text: S
+          - text: 
+          - text: Ś
+          - text: Š
+          - text: Ş
+          - text: Ș
+          - text: ẞ
+          - text: T
+          - text: 
+          - text: Ť
+          - text: Ţ
+          - text: Ț
+          - text: U
+          - text: 
+          - text: Ú
+          - text: Û
+          - text: Ü
+          - text: Ù
+          - text: Ű
+          - text: Ū
+          - text: Ų
+          - text: Ů
+          - text: Ũ
+          - text: V
+          - text: W
+          - text: Ẃ
+          - text: Ŵ
+          - text: Ẅ
+          - text: Ẁ
+          - text: X
+          - text: "Y"
+          - text: Ý
+          - text: Ŷ
+          - text: Ÿ
+          - text: Ỳ
+          - text: Ỹ
+          - text: Z
+          - text: 
+          - text: Ź
+          - text: Ž
+          - text: Ż
+          - text: Ꞌ
+          - text: a
+          - text: 
+          - text: á
+          - text: ă
+          - text: â
+          - text: ä
+          - text: 
+          - text: à
+          - text: ā
+          - text: ą
+          - text: å
+          - text: ã
+          - text: æ
+          - text: b
+          - text: 
+          - text: c
+          - text: 
+          - text: ć
+          - text: č
+          - text: ç
+          - text: ċ
+          - text: d
+          - text: ď
+          - text: đ
+          - text: ð
+          - text: e
+          - text: 
+          - text: é
+          - text: ě
+          - text: ê
+          - text: ë
+          - text: ė
+          - text: è
+          - text: ē
+          - text: ę
+          - text: ẽ
+          - text: ə
+          - text: ʒ
+          - text: ǯ
+          - text: f
+          - text: g
+          - text: 
+          - text: 
+          - text: ğ
+          - text: ǧ
+          - text: ģ
+          - text: ġ
+          - text: ǥ
+          - text: h
+          - text: ħ
+          - text: i
+          - text: 
+          - text: ı
+          - text: 
+          - text: í
+          - text: î
+          - text: ï
+          - text: 
+          - text: ì
+          - text: ī
+          - text: į
+          - text: ĩ
+          - text: ĳ
+          - text: j
+          - text: ȷ
+          - text: 
+          - text: k
+          - text: 
+          - text: ǩ
+          - text: ķ
+          - text: l
+          - text: 
+          - text: ĺ
+          - text: ľ
+          - text: ļ
+          - text: ł
+          - text: m
+          - text: 
+          - text: "n"
+          - text: 
+          - text: ń
+          - text: ň
+          - text: ņ
+          - text: ñ
+          - text: ŋ
+          - text: o
+          - text: 
+          - text: ó
+          - text: ô
+          - text: ö
+          - text: 
+          - text: ò
+          - text: ő
+          - text: ō
+          - text: ø
+          - text: õ
+          - text: œ
+          - text: p
+          - text: 
+          - text: þ
+          - text: q
+          - text: r
+          - text: 
+          - text: ŕ
+          - text: ř
+          - text: ŗ
+          - text: s
+          - text: 
+          - text: ś
+          - text: š
+          - text: ş
+          - text: ș
+          - text: ß
+          - text: t
+          - text: ť
+          - text: ţ
+          - text: ț
+          - text: u
+          - text: 
+          - text: ú
+          - text: û
+          - text: ü
+          - text: ù
+          - text: ű
+          - text: ū
+          - text: ų
+          - text: ů
+          - text: ũ
+          - text: v
+          - text: w
+          - text: ẃ
+          - text: ŵ
+          - text: ẅ
+          - text: ẁ
+          - text: x
+          - text: "y"
+          - text: ý
+          - text: ŷ
+          - text: ÿ
+          - text: ỳ
+          - text: ỹ
+          - text: z
+          - text: 
+          - text: ź
+          - text: ž
+          - text: ż
+          - text: ꞌ
+          - text: 
+          - text: 
+          - text: 
+          - text: ﬁ
+          - text: ﬂ
+          - text: 
+          - text: ª
+          - text: º
+          - text: Δ
+          - text: Ω
+          - text: μ
+          - text: π
+          - text: "0"
+          - text: "1"
+          - text: "2"
+          - text: "3"
+          - text: "4"
+          - text: "5"
+          - text: "6"
+          - text: "7"
+          - text: "8"
+          - text: "9"
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: ⁄
+          - text: ½
+          - text: ⅔
+          - text: ¼
+          - text: ¾
+          - text: ⅛
+          - text: ⅜
+          - text: ⅝
+          - text: ⅞
+          - text: ₀
+          - text: ₁
+          - text: ₂
+          - text: ₃
+          - text: ₄
+          - text: ₅
+          - text: ₆
+          - text: ₇
+          - text: ₈
+          - text: ₉
+          - text: ⁰
+          - text: ¹
+          - text: ²
+          - text: ³
+          - text: ⁴
+          - text: ⁵
+          - text: ⁶
+          - text: ⁷
+          - text: ⁸
+          - text: ⁹
+          - text: .
+          - text: ","
+          - text: ":"
+          - text: ;
+          - text: …
+          - text: "!"
+          - text: ¡
+          - text: "?"
+          - text: ¿
+          - text: ·
+          - text: •
+          - text: "*"
+          - text: "#"
+          - text: /
+          - text: \
+          - text: "-"
+          - text: –
+          - text: —
+          - text: _
+          - text: (
+          - text: )
+          - text: "{"
+          - text: "}"
+          - text: "["
+          - text: "]"
+          - text: ‚
+          - text: „
+          - text: “
+          - text: ”
+          - text: ‘
+          - text: ’
+          - text: «
+          - text: »
+          - text: ‹
+          - text: ›
+          - text: "\""
+          - text: "'"
+          - text: 🌐
+          - text: 🌧
+          - text: 🍅
+          - text: 👁
+          - text: 👑
+          - text: 💩
+          - text: 😐
+          - text: 🥕
+          - text: 🪐
+          - text: ☐
+          - text: ☑
+          - text: ☒
+          - text: ☹
+          - text: ☺
+          - text: ☼
+          - text: ♥
+          - text: ✉
+          - text: ❀
+          - text: "@"
+          - text: "&"
+          - text: ¶
+          - text: §
+          - text: ©
+          - text: ®
+          - text: ™
+          - text: °
+          - text: "|"
+          - text: ¦
+          - text: †
+          - text: ‡
+          - text: ¢
+          - text: ¤
+          - text: $
+          - text: €
+          - text: ₺
+          - text: ₹
+          - text: £
+          - text: ¥
+          - text: +
+          - text: −
+          - text: ×
+          - text: ÷
+          - text: =
+          - text: ≠
+          - text: ">"
+          - text: <
+          - text: ≥
+          - text: ≤
+          - text: ≈
+          - text: ~
+          - text: ^
+          - text: µ
+          - text: "%"
+          - text: ‰
+          - text: ↑
+          - text: ↗
+          - text: →
+          - text: ↘
+          - text: ↓
+          - text: ↙
+          - text: ←
+          - text: ↖
+          - text: ↔
+          - text: ↕
+          - text: ↺
+          - text: ↻
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - button "Eklips" [ref=e123] [cursor=pointer]
+        - button "Medium" [ref=e125] [cursor=pointer]
+        - generic [ref=e128]:
+          - button [ref=e129]
+          - button [ref=e131] [cursor=pointer]
+          - button [ref=e133] [cursor=pointer]
+        - text: 02193 02193 02193 02193
+      - generic [ref=e136]: TOTAL ECLIPSE OF THE HEART
+      - link "→ Learn more about Eklips" [ref=e137] [cursor=pointer]:
+        - /url: https://lettersfromsweden.se/font/eklips/
+  - contentinfo [ref=e138]:
+    - navigation [ref=e139]:
+      - list [ref=e141]:
+        - listitem [ref=e142]:
+          - link "About" [ref=e143] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about/
+          - text: ","
+        - listitem [ref=e144]:
+          - link "Support" [ref=e145] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/support/
+          - text: ","
+        - listitem [ref=e146]:
+          - link "License" [ref=e147] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/license/
+          - text: ","
+        - listitem [ref=e148]:
+          - link "Designers" [ref=e149] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/designers/
+          - text: ","
+        - listitem [ref=e150]:
+          - link "Contact" [ref=e151] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/contact/
+          - text: ","
+        - listitem [ref=e152]:
+          - link "Privacy Policy" [ref=e153] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/privacypolicy/
+  - status [ref=e154]

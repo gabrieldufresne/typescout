@@ -1,0 +1,342 @@
+- generic [ref=e1]:
+  - dialog "Cookie banner" [active] [ref=e2]:
+    - generic [ref=e3]:
+      - paragraph [ref=e6]:
+        - text: This website uses cookies, pixels, and similar technologies to instantaneously collect information from and about you and your usage of our site. We and the vendors who supply us with these technologies use this information to improve and customize your website experience, for analytics, and for advertising and marketing purposes. By proceeding to use our website, you consent to the collection of your personal information using cookies, pixels, or similar technologies, as further described in our
+        - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+          - /url: https://thetypefounders.com/privacy/
+        - text: .
+      - paragraph [ref=e8]: If you decline, your information won’t be tracked when you visit this website. A single cookie will be used in your browser to remember your preference not to be tracked.
+      - generic [ref=e11]:
+        - button "Accept" [ref=e12] [cursor=pointer]
+        - button "Decline" [ref=e13] [cursor=pointer]
+  - banner [ref=e14]:
+    - link "Tightype™" [ref=e15] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e16]:
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - link "Typefaces" [ref=e19] [cursor=pointer]:
+            - /url: /typefaces/
+        - listitem [ref=e20]:
+          - link "Information" [ref=e21] [cursor=pointer]:
+            - /url: /information/
+        - listitem [ref=e22]:
+          - link "Cart" [ref=e23] [cursor=pointer]:
+            - /url: /cart/
+            - text: Cart ()
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - paragraph [ref=e26]: TIGHTYPE is an independent type foundry, established in 2015. Our approach is to provide visually strong typefaces for people who value contemporary type design.
+      - paragraph [ref=e27]: We are always interested in collaborations with designers, magazines and publishers around the world — please feel free to drop us a line if you have any questions or project inquiries at any time!
+    - article [ref=e28]:
+      - generic [ref=e29]:
+        - heading "Overview" [level=2] [ref=e30]
+        - paragraph [ref=e31]:
+          - text: Licensing fonts should be simple. The fastest and easiest way is directly from this site. This page will help you choose the right license and answer common questions. If you need further guidance, don’t hesitate to
+          - link "get in touch" [ref=e32] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: — we are here to help.
+        - list [ref=e33]:
+          - listitem [ref=e34]:
+            - link "Why do I need a font license?" [ref=e35] [cursor=pointer]:
+              - /url: "#why-license-fonts"
+          - listitem [ref=e36]:
+            - link "What kind of license do I need?" [ref=e37] [cursor=pointer]:
+              - /url: "#license-kind"
+          - listitem [ref=e38]:
+            - link "Do you offer large volume or tailored licensing options?" [ref=e39] [cursor=pointer]:
+              - /url: "#enterprise-licensing"
+          - listitem [ref=e40]:
+            - link "Where can I purchase a font license?" [ref=e41] [cursor=pointer]:
+              - /url: "#where-to-buy"
+          - listitem [ref=e42]:
+            - link "What kind of font files do you provide?" [ref=e43] [cursor=pointer]:
+              - /url: "#which-font-files"
+          - listitem [ref=e44]:
+            - link "How many domains does a web font license cover?" [ref=e45] [cursor=pointer]:
+              - /url: "#how-many-domains"
+          - listitem [ref=e46]:
+            - link "How do renewals work?" [ref=e47] [cursor=pointer]:
+              - /url: "#license-renewals"
+          - listitem [ref=e48]:
+            - link "Can I try fonts before purchasing?" [ref=e49] [cursor=pointer]:
+              - /url: "#try-before-buy"
+          - listitem [ref=e50]:
+            - link "Do you offer student or non-profit discounts?" [ref=e51] [cursor=pointer]:
+              - /url: "#student-npo-discount"
+          - listitem [ref=e52]:
+            - link "Can I create a subset of your web fonts?" [ref=e53] [cursor=pointer]:
+              - /url: "#subset-fonts"
+          - listitem [ref=e54]:
+            - link "Can I modify a font?" [ref=e55] [cursor=pointer]:
+              - /url: "#modification"
+          - listitem [ref=e56]:
+            - link "Do you offer custom type design?" [ref=e57] [cursor=pointer]:
+              - /url: "#custom-design"
+          - listitem [ref=e58]:
+            - link "Can I get a refund?" [ref=e59] [cursor=pointer]:
+              - /url: "#refund"
+          - listitem [ref=e60]:
+            - link "Can I get an invoice?" [ref=e61] [cursor=pointer]:
+              - /url: "#invoice"
+          - listitem [ref=e62]:
+            - link "Can I use my Tax ID at checkout?" [ref=e63] [cursor=pointer]:
+              - /url: "#tax-id"
+          - listitem [ref=e64]:
+            - link "Can I update my business name, Tax ID, or licensee name after purchase?" [ref=e65] [cursor=pointer]:
+              - /url: "#update-invoice"
+          - listitem [ref=e66]:
+            - link "I received an email from licensing@tightype.com about my font license. Is it legitimate?" [ref=e67] [cursor=pointer]:
+              - /url: "#license-verification-email"
+          - listitem [ref=e68]:
+            - link "I bought a license from a distributor like MyFonts, Creative Market, or Fontspring. Why are you asking me to verify my license?" [ref=e69] [cursor=pointer]:
+              - /url: "#license-verification-distributor"
+          - listitem [ref=e70]:
+            - link "Who are The Type Founders, and why did they contact me?" [ref=e71] [cursor=pointer]:
+              - /url: "#who-is-ttf"
+          - listitem [ref=e72]:
+            - link "I don’t have a license or may have the wrong one. What should I do?" [ref=e73] [cursor=pointer]:
+              - /url: "#no-license"
+          - listitem [ref=e74]:
+            - link "The person who purchased our license left the company. What now?" [ref=e75] [cursor=pointer]:
+              - /url: "#license-not-found"
+          - listitem [ref=e76]:
+            - link "I have another question. Can I call you?" [ref=e77] [cursor=pointer]:
+              - /url: "#phone-calls"
+          - listitem [ref=e78]:
+            - link "End User License Agreements" [ref=e79] [cursor=pointer]:
+              - /url: "#eula"
+      - generic [ref=e80]:
+        - heading "Why do I need a font license?" [level=2] [ref=e81]
+        - paragraph [ref=e82]: Fonts are software and require a license for legal use. A license ensures type designers are fairly compensated for their work, which can take years to develop. While free fonts exist, they often come with limitations or quality issues. Professionals typically purchase licensed fonts from reputable sources.
+      - generic [ref=e83]:
+        - heading "What kind of license do I need?" [level=2] [ref=e84]
+        - paragraph [ref=e85]:
+          - text: Like any software, fonts are licensed for specific uses. All our licenses allow commercial use, but the right one depends on how you plan to use the fonts. The most common licenses cover desktop use for creating static content like images and print materials, web use for rendering live text via HTML and
+          - code [ref=e86]: "@font-face"
+          - text: CSS, and app use for embedding fonts in mobile applications. Less common uses include on-air broadcasts or incorporating fonts into video games.
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - text: A
+            - strong [ref=e89]: web license
+            - text: lets you host fonts on your website and display live text using HTML and
+            - code [ref=e90]: "@font-face"
+            - text: CSS. Pricing is based on the fonts licensed and monthly page views.
+          - listitem [ref=e91]:
+            - text: An
+            - strong [ref=e92]: app license
+            - text: allows you to embed fonts in a mobile app, with pricing based on the number of app titles. A single license covers distribution across platforms like iOS and Android.
+          - listitem [ref=e93]:
+            - text: A
+            - strong [ref=e94]: desktop license
+            - text: lets you install fonts on your computer to create static assets like logos, social media images, and print materials. Fonts must be outlined before export; embedding requires a separate license. Pricing is based on the number of users.
+        - paragraph [ref=e95]:
+          - strong [ref=e96]: "Note:"
+          - text: Fonts uploaded to Canva for static images are covered under a desktop license, but live Canva Websites require a web license.
+        - table [ref=e97]:
+          - rowgroup [ref=e98]:
+            - row "License Permitted uses Priced by Font file Important things to remember" [ref=e99]:
+              - columnheader "License" [ref=e100]
+              - columnheader "Permitted uses" [ref=e101]
+              - columnheader "Priced by" [ref=e102]
+              - columnheader "Font file" [ref=e103]
+              - columnheader "Important things to remember" [ref=e104]
+          - rowgroup [ref=e105]:
+            - row "Web Website (HTML, @font-face CSS) Monthly pageviews Web Open Font Format (WOFF, WOFF2) Must use WOFF2 or WOFF (converting OTFs or TTFs to use as web fonts is prohibited). Cannot modify, alter, or create derivative works from the font software; cannot embed fonts in software or apps; share, transfer, or sublicense fonts; convert the font into open-source or publicly available software." [ref=e106]:
+              - cell "Web" [ref=e107]
+              - cell "Website (HTML, @font-face CSS)" [ref=e108]:
+                - text: Website (HTML,
+                - code [ref=e109]: "@font-face"
+                - text: CSS)
+              - cell "Monthly pageviews" [ref=e110]
+              - cell "Web Open Font Format (WOFF, WOFF2)" [ref=e111]
+              - cell "Must use WOFF2 or WOFF (converting OTFs or TTFs to use as web fonts is prohibited). Cannot modify, alter, or create derivative works from the font software; cannot embed fonts in software or apps; share, transfer, or sublicense fonts; convert the font into open-source or publicly available software." [ref=e112]
+            - row "App Mobile applications Number of app titles OpenType (OTF) and TrueType (TTF) files Cannot modify, alter, or create derivative works from the font software; cannot embed fonts in software or websites; share, transfer, or sublicense fonts; convert the font into open-source or publicly available software." [ref=e113]:
+              - cell "App" [ref=e114]
+              - cell "Mobile applications" [ref=e115]
+              - cell "Number of app titles" [ref=e116]
+              - cell "OpenType (OTF) and TrueType (TTF) files" [ref=e117]
+              - cell "Cannot modify, alter, or create derivative works from the font software; cannot embed fonts in software or websites; share, transfer, or sublicense fonts; convert the font into open-source or publicly available software." [ref=e118]
+            - row "Desktop Logos, images, print, packaging Number of users OpenType (OTF) and TrueType (TTF) files Cannot modify, alter, or create derivative works from the font software; cannot embed fonts in software, apps, or websites; share, transfer, or sublicense the fonts; convert the font into open-source or publicly available software." [ref=e119]:
+              - cell "Desktop" [ref=e120]
+              - cell "Logos, images, print, packaging" [ref=e121]
+              - cell "Number of users" [ref=e122]
+              - cell "OpenType (OTF) and TrueType (TTF) files" [ref=e123]
+              - cell "Cannot modify, alter, or create derivative works from the font software; cannot embed fonts in software, apps, or websites; share, transfer, or sublicense the fonts; convert the font into open-source or publicly available software." [ref=e124]
+        - paragraph [ref=e125]:
+          - strong [ref=e126]: "Note:"
+          - text: while we always send reminders before the renewal date, web and app licenses will automatically renew unless canceled (more on renewals below). If your usage needs are above and beyond what our site offers, please
+          - link "reach out" [ref=e127] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: ; we will arrange the best-fit license for you.
+      - generic [ref=e128]:
+        - heading "Do you offer large volume or tailored licensing options?" [level=2] [ref=e129]
+        - paragraph [ref=e130]:
+          - text: Absolutely. We provide enterprise licenses for high-volume use, broadcasting, and special platforms.
+          - link "Reach out" [ref=e131] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: and we’ll tailor a solution for your needs.
+      - generic [ref=e132]:
+        - heading "Where can I purchase a font license?" [level=2] [ref=e133]
+        - paragraph [ref=e134]:
+          - text: For standard desktop, web, or app licenses, the quickest and easiest way to purchase is directly through our site. If you need an enterprise license or a custom solution,
+          - link "contact us" [ref=e135] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: ", and we’ll be happy to assist."
+      - generic [ref=e136]:
+        - heading "What kind of font files do you provide?" [level=2] [ref=e137]
+        - paragraph [ref=e138]:
+          - text: Upon purchase, you’ll receive a download link for the font files. In order to minimize support issues, always use the files provided. If you need a different format or have another special request, please
+          - link "contact us" [ref=e139] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: "and we will find the best solution for you. Below are the standard font file formats we provide with each kind of license:"
+        - list [ref=e140]:
+          - listitem [ref=e141]:
+            - strong [ref=e142]: "Desktop/App:"
+            - text: OpenType (OTF) and TrueType (TTF) files - variable fonts are provided as TTF.
+          - listitem [ref=e143]:
+            - strong [ref=e144]: "Web:"
+            - text: Web Open Font Format (WOFF and WOFF2) — must be used as provided.
+        - paragraph [ref=e145]:
+          - emphasis [ref=e146]: Users are prohibited from converting desktop or application fonts for use as web fonts.
+      - generic [ref=e147]:
+        - heading "How many domains does a web font license cover?" [level=2] [ref=e148]
+        - paragraph [ref=e149]:
+          - text: A web font license covers one domain and its subdomains (e.g.,
+          - strong [ref=e150]: mysite.com
+          - text: and
+          - strong [ref=e151]: store.mysite.com
+          - text: ). It does not cover other domains (e.g.,
+          - strong [ref=e152]: myothersite.com
+          - text: ).
+      - generic [ref=e153]:
+        - heading "How do renewals work?" [level=2] [ref=e154]
+        - paragraph [ref=e155]: Web and app licenses renew automatically using your original payment method. You’ll receive email reminders 30, 14, and 7 days before renewal. You can update your payment method or cancel anytime before renewal through the link provided on your original email receipt or in the email notifications leading up to renewal.
+      - generic [ref=e156]:
+        - heading "Can I try fonts before purchasing?" [level=2] [ref=e157]
+        - paragraph [ref=e158]:
+          - text: Yes. If you need to test fonts for internal mockups or client pitches,
+          - link "contact us" [ref=e159] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: to arrange a trial license.
+      - generic [ref=e160]:
+        - heading "Do you offer student or non-profit discounts?" [level=2] [ref=e161]
+        - paragraph [ref=e162]:
+          - text: Yes. Students and non-profits can request a discount by
+          - link "contacting us" [ref=e163] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: with proof of eligibility.
+      - generic [ref=e164]:
+        - heading "Can I create a subset of your web fonts?" [level=2] [ref=e165]
+        - paragraph [ref=e166]:
+          - text: We understand subsetting can be a tool to improve the performance of your website, but it also risks breaking a lot of the carefully designed features and language support in our fonts. For that reason we do not allow subsetting of our web fonts. If performance is a concern, consider using
+          - link "preload hints" [ref=e167] [cursor=pointer]:
+            - /url: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload
+          - text: and the
+          - link "font-display descriptor" [ref=e168] [cursor=pointer]:
+            - /url: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
+          - text: . For critical subsetting needs, please
+          - link "contact us" [ref=e169] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: to discuss options.
+      - generic [ref=e170]:
+        - heading "Can I modify a font?" [level=2] [ref=e171]
+        - paragraph [ref=e172]: Modifying font files to create derivative works is not permitted under any of our licenses. Fonts are carefully engineered for compatibility across applications. Opening the font in a font editor or tool such as Glyphs, FontForge, Font Squirrel, etc., modifying the outlines, and generating a new font file can break its deliberately designed functionality and create support issues.
+        - paragraph [ref=e173]:
+          - text: However, if you have a
+          - strong [ref=e174]: desktop license
+          - text: ", you may modify glyph outlines in design software (e.g., Illustrator) to create static assets like logos. If you need a custom version of a font, we would be happy to discuss modifying any of our fonts according to your needs, so please"
+          - link "reach out" [ref=e175] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: .
+      - generic [ref=e176]:
+        - heading "Do you offer custom type design?" [level=2] [ref=e177]
+        - paragraph [ref=e178]:
+          - text: Definitely. We can customize fonts or create entirely new ones. Whether you need additional glyphs, new weights, or a bespoke typeface, we can help.
+          - link "Contact us" [ref=e179] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: to discuss.
+      - generic [ref=e180]:
+        - heading "Can I get a refund?" [level=2] [ref=e181]
+        - paragraph [ref=e182]:
+          - text: Yes. If you purchased the wrong styles or changed your mind,
+          - link "contact us" [ref=e183] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: "with your order confirmation email attached, and we’ll refund or replace your order. Note: After a refund, you may no longer use the fonts."
+      - generic [ref=e184]:
+        - heading "Can I get an invoice?" [level=2] [ref=e185]
+        - paragraph [ref=e186]: Your order confirmation email includes a receipt section that serves as an invoice. It includes all necessary details (invoice ID, tax info, business name, etc.) that you can print out or save as a PDF for your records. We do not currently provide custom invoices for online orders.
+      - generic [ref=e187]:
+        - heading "Can I use my Tax ID at checkout?" [level=2] [ref=e188]
+        - paragraph [ref=e189]: Yes. Select "I’m purchasing as a business" at checkout and enter your Tax ID. Our checkout process will calculate the correct tax amount automatically and the Tax ID will also appear on your receipt.
+      - generic [ref=e190]:
+        - heading "Can I update my business name, Tax ID, or licensee name after purchase?" [level=2] [ref=e191]
+        - paragraph [ref=e192]:
+          - text: We cannot edit existing orders, but we can issue a refund so you can place a corrected order. Please
+          - link "contact us" [ref=e193] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: if you need assistance.
+      - generic [ref=e194]:
+        - heading "I received an email from licensing@tightype.com about my font license. Is it legitimate?" [level=2] [ref=e195]
+        - paragraph [ref=e196]: Yes, the email is legitimate. It means we couldn’t find a record of a license for your website or app. Font licensing can be complex, and it’s easy to overlook usage limits or unintentionally use an incorrect license. There’s no need to worry — our goal is simply to ensure everything is in order. If you received an email from us, we’re happy to work with you to find the right solution.
+      - generic [ref=e197]:
+        - heading "I bought a license from a distributor like MyFonts, Creative Market, or Fontspring. Why are you asking me to verify my license?" [level=2] [ref=e198]
+        - paragraph [ref=e199]: Distributors don’t always share license records with us. If we contact you, we likely need verification. Forward your order confirmation, and we’ll update our records.
+      - generic [ref=e200]:
+        - heading "Who are The Type Founders, and why did they contact me?" [level=2] [ref=e201]
+        - paragraph [ref=e202]:
+          - link "The Type Founders" [ref=e203] [cursor=pointer]:
+            - /url: https://thetypefounders.com
+          - text: owns and operates TIGHTYPE and other foundries. They handle sales and licensing for us, so our designers can focus on drawing more type.
+      - generic [ref=e204]:
+        - heading "I don’t have a license or may have the wrong one. What should I do?" [level=2] [ref=e205]
+        - paragraph [ref=e206]: No problem — we’ll help you get the correct license for your website. Typically, this means purchasing a license that matches your site’s traffic and usage. If the fonts have been used without a license for a significant period, we may also discuss fair compensation based on the length of use and traffic volume. Our goal is to ensure proper licensing while fostering a positive, long-term relationship. We appreciate your support of type designers and are here to help.
+      - generic [ref=e207]:
+        - heading "The person who purchased our license left the company. What now?" [level=2] [ref=e208]
+        - paragraph [ref=e209]:
+          - text: We can help locate your license using an email, name, or domain.
+          - link "Reach out" [ref=e210] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: and we’ll sort it out.
+      - generic [ref=e211]:
+        - heading "I have another question. Can I call you?" [level=2] [ref=e212]
+        - paragraph [ref=e213]:
+          - text: We’re a small team and don’t offer phone support. Please
+          - link "contact us through the website" [ref=e214] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: ", and we’ll get back to you within 48 hours on weekdays."
+      - generic [ref=e215]:
+        - heading "End User License Agreements" [level=2] [ref=e216]
+        - paragraph [ref=e217]:
+          - text: On the pages below you’ll find our standard End User License Agreements, or EULAs, for all of the licenses offered directly on this site. If you have any questions about our EULAs, please don’t hesitate to send an email to
+          - link "contact us" [ref=e218] [cursor=pointer]:
+            - /url: mailto:info@tightype.com
+          - text: .
+        - list [ref=e219]:
+          - listitem [ref=e220]:
+            - link "Desktop End User License Agreement" [ref=e221] [cursor=pointer]:
+              - /url: /licensing/desktop
+          - listitem [ref=e222]:
+            - link "Web End User License Agreement" [ref=e223] [cursor=pointer]:
+              - /url: /licensing/web
+          - listitem [ref=e224]:
+            - link "App End User License Agreement" [ref=e225] [cursor=pointer]:
+              - /url: /licensing/app
+  - contentinfo [ref=e226]:
+    - generic [ref=e227]: © The Type Founders, LLC 2026
+    - list [ref=e228]:
+      - listitem "dark mode toggle" [ref=e229]:
+        - button "◐" [ref=e230] [cursor=pointer]
+      - listitem [ref=e231]:
+        - link "Licensing" [ref=e232] [cursor=pointer]:
+          - /url: /licensing/
+      - listitem [ref=e233]:
+        - link "Privacy Policy" [ref=e234] [cursor=pointer]:
+          - /url: /privacy/
+      - listitem [ref=e235]:
+        - link "Terms of Service" [ref=e236] [cursor=pointer]:
+          - /url: /terms/
+      - listitem [ref=e237]:
+        - link "Contact" [ref=e238] [cursor=pointer]:
+          - /url: /contact/

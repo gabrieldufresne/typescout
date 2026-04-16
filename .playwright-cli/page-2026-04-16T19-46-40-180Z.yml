@@ -1,0 +1,1559 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Pangram Pangram Foundry" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: Pangram Pangram Foundry
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "All fonts" [ref=e11] [cursor=pointer]:
+              - /url: /collections/fonts
+          - listitem [ref=e12]:
+            - link "Font starter pack" [ref=e13] [cursor=pointer]:
+              - /url: /products/fsp
+          - listitem [ref=e14]:
+            - link "Font in use" [ref=e15] [cursor=pointer]:
+              - /url: /blogs/font-in-use
+          - listitem [ref=e16]:
+            - link "Academy" [ref=e17] [cursor=pointer]:
+              - /url: /blogs/journal
+          - listitem [ref=e18]:
+            - link "Support" [ref=e19] [cursor=pointer]:
+              - /url: /pages/contact-us
+      - navigation [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link [ref=e23] [cursor=pointer]:
+              - /url: /search
+              - img [ref=e24]
+          - listitem [ref=e27]:
+            - link [ref=e28] [cursor=pointer]:
+              - /url: /cart
+              - img [ref=e29]
+          - listitem [ref=e32]:
+            - button [ref=e34] [cursor=pointer]:
+              - img [ref=e35]
+  - main [ref=e37]:
+    - generic [ref=e39]:
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "Paloma Collection" [ref=e44] [cursor=pointer]:
+            - /url: /products/paloma
+            - img [ref=e46]
+            - generic [ref=e49]: Paloma Collection
+        - listitem [ref=e50]:
+          - link "Aa Fizzy Family" [ref=e51] [cursor=pointer]:
+            - /url: /products/paloma-fizzy
+            - generic [ref=e52]: Aa
+            - generic [ref=e53]: Fizzy Family
+        - listitem [ref=e54]:
+          - link "Aa Plain Family" [ref=e55] [cursor=pointer]:
+            - /url: /products/paloma-plain
+            - generic [ref=e56]: Aa
+            - generic [ref=e57]: Plain Family
+      - generic [ref=e59]:
+        - generic [ref=e60]: Early Access
+        - generic [ref=e61]:
+          - heading "Paloma Plain" [level=1] [ref=e62]:
+            - generic [ref=e63]: Paloma Plain
+          - paragraph [ref=e64]: Paloma is loosely inspired by the giants like Antique Olive, Johnston and Avenir, but treats the references lightheartedly, going for a different route with a flair.
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - button "Try for Free" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: Try for Free
+            - button "Buy Now" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: Buy Now
+          - paragraph [ref=e73]:
+            - text: Free to try
+            - text: Licenses start at $40
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - heading "Paloma Plain style list" [level=2] [ref=e83]
+        - paragraph [ref=e84]: 14 Styles
+      - generic [ref=e85]:
+        - generic [ref=e89]:
+          - text: AaBbCc
+          - text: "01234567"
+          - text: "{(!@#$?&)}"
+        - list [ref=e90]:
+          - listitem [ref=e91] [cursor=pointer]:
+            - generic [ref=e92]: Thin
+            - generic [ref=e93]: "200"
+          - listitem [ref=e94] [cursor=pointer]:
+            - generic [ref=e95]: Light
+            - generic [ref=e96]: "300"
+          - listitem [ref=e97] [cursor=pointer]:
+            - generic [ref=e98]: Regular
+            - generic [ref=e99]: "400"
+          - listitem [ref=e100] [cursor=pointer]:
+            - generic [ref=e101]: Medium
+            - generic [ref=e102]: "550"
+          - listitem [ref=e103] [cursor=pointer]:
+            - generic [ref=e104]: Bold
+            - generic [ref=e105]: "700"
+          - listitem [ref=e106] [cursor=pointer]:
+            - generic [ref=e107]: Heavy
+            - generic [ref=e108]: "800"
+          - listitem [ref=e109] [cursor=pointer]:
+            - generic [ref=e110]: Black
+            - generic [ref=e111]: "900"
+          - listitem [ref=e112] [cursor=pointer]:
+            - generic [ref=e113]: Thin Italic
+            - generic [ref=e114]: "200"
+          - listitem [ref=e115] [cursor=pointer]:
+            - generic [ref=e116]: Light Italic
+            - generic [ref=e117]: "300"
+          - listitem [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]: Regular Italic
+            - generic [ref=e120]: "400"
+          - listitem [ref=e121] [cursor=pointer]:
+            - generic [ref=e122]: Medium Italic
+            - generic [ref=e123]: "550"
+          - listitem [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]: Bold Italic
+            - generic [ref=e126]: "700"
+          - listitem [ref=e127] [cursor=pointer]:
+            - generic [ref=e128]: Heavy Italic
+            - generic [ref=e129]: "800"
+          - listitem [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]: Black Italic
+            - generic [ref=e132]: "900"
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - generic [ref=e140]: Paloma Plain
+            - generic [ref=e142]:
+              - combobox [ref=e143] [cursor=pointer]:
+                - option "Thin"
+                - option "Light"
+                - option "Regular"
+                - option "Medium"
+                - option "Bold"
+                - option "Heavy"
+                - option "Black" [selected]
+                - option "Thin Italic"
+                - option "Light Italic"
+                - option "Regular Italic"
+                - option "Medium Italic"
+                - option "Bold Italic"
+                - option "Heavy Italic"
+                - option "Black Italic"
+              - img
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - generic [ref=e146]: Size
+              - slider [ref=e147]: "160"
+              - textbox [ref=e148]: "160"
+            - generic [ref=e149]:
+              - generic [ref=e150]: Leading
+              - slider [ref=e151]: "10"
+              - textbox [ref=e152]: "10"
+            - generic [ref=e153]:
+              - generic [ref=e154]: Spacing
+              - slider [ref=e155]: "0"
+              - textbox [ref=e156]: "0"
+        - generic [ref=e158]:
+          - button "Alt a" [ref=e159] [cursor=pointer]
+          - button "Alt g" [ref=e160] [cursor=pointer]
+          - button "Alt l" [ref=e161] [cursor=pointer]
+          - button "Alt &" [ref=e162] [cursor=pointer]
+          - button "Dotted 0" [ref=e163] [cursor=pointer]
+          - button "Case" [ref=e164] [cursor=pointer]
+          - button "Tab Fig" [ref=e165] [cursor=pointer]
+        - generic [ref=e168]: A spritzy sans family of a dual geo-humanist nature.
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - generic [ref=e172]: Paloma Plain
+            - generic [ref=e174]:
+              - combobox [ref=e175] [cursor=pointer]:
+                - option "Thin"
+                - option "Light"
+                - option "Regular"
+                - option "Medium"
+                - option "Bold"
+                - option "Heavy"
+                - option "Black"
+                - option "Thin Italic" [selected]
+                - option "Light Italic"
+                - option "Regular Italic"
+                - option "Medium Italic"
+                - option "Bold Italic"
+                - option "Heavy Italic"
+                - option "Black Italic"
+              - img
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: Size
+              - slider [ref=e179]: "90"
+              - textbox [ref=e180]: "90"
+            - generic [ref=e181]:
+              - generic [ref=e182]: Leading
+              - slider [ref=e183]: "11"
+              - textbox [ref=e184]: "11"
+            - generic [ref=e185]:
+              - generic [ref=e186]: Spacing
+              - slider [ref=e187]: "0"
+              - textbox [ref=e188]: "0"
+        - generic [ref=e190]:
+          - button "Alt a" [ref=e191] [cursor=pointer]
+          - button "Alt g" [ref=e192] [cursor=pointer]
+          - button "Alt l" [ref=e193] [cursor=pointer]
+          - button "Alt &" [ref=e194] [cursor=pointer]
+          - button "Dotted 0" [ref=e195] [cursor=pointer]
+          - button "Case" [ref=e196] [cursor=pointer]
+          - button "Tab Fig" [ref=e197] [cursor=pointer]
+        - generic [ref=e200]: Designed for versatility, the typeface spans across the two genres, combining the best of both worlds.
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]: Paloma Plain
+            - generic [ref=e206]:
+              - combobox [ref=e207] [cursor=pointer]:
+                - option "Thin"
+                - option "Light"
+                - option "Regular"
+                - option "Medium"
+                - option "Bold" [selected]
+                - option "Heavy"
+                - option "Black"
+                - option "Thin Italic"
+                - option "Light Italic"
+                - option "Regular Italic"
+                - option "Medium Italic"
+                - option "Bold Italic"
+                - option "Heavy Italic"
+                - option "Black Italic"
+              - img
+          - generic [ref=e209]:
+            - generic [ref=e210]: Size
+            - slider [ref=e211]: "48"
+            - textbox [ref=e212]: "48"
+        - generic [ref=e215]: One part of the family is toned-down and humanist, featuring open shapes, natural letterforms and balanced proportions, intended for subtle roles when reading comfort and legibility are crucial. The other subfamily, Fizzy, cranks up the flavor all the way up, turning the shapes geometric, tightening spacing and making details more crisp and accentuated, perfect for juicy large-size uses.
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - generic [ref=e219]: Paloma Plain
+            - generic [ref=e221]:
+              - combobox [ref=e222] [cursor=pointer]:
+                - option "Thin"
+                - option "Light" [selected]
+                - option "Regular"
+                - option "Medium"
+                - option "Bold"
+                - option "Heavy"
+                - option "Black"
+                - option "Thin Italic"
+                - option "Light Italic"
+                - option "Regular Italic"
+                - option "Medium Italic"
+                - option "Bold Italic"
+                - option "Heavy Italic"
+                - option "Black Italic"
+              - img
+          - generic [ref=e224]:
+            - generic [ref=e225]: Size
+            - slider [ref=e226]: "18"
+            - textbox [ref=e227]: "18"
+        - generic [ref=e230]: "Paloma is loosely inspired by the giants like Antique Olive, Johnston and Avenir, but treats the references lightheartedly, going for a different route with a flair. This duality becomes especially clear in the structure of the family itself. Paloma is divided into two complementary subfamilies that explore the concept from different angles. The first leans toward the humanist side of the spectrum. Here, shapes are open and relaxed, proportions are balanced, and the overall rhythm favors readability and comfort. The letterforms carry a natural flow that makes them particularly well suited for extended reading, editorial design, and any situation where subtlety and clarity take priority. The second subfamily, called Fizzy, turns up the energy considerably. While sharing the same underlying DNA, the Fizzy styles push the geometry further: shapes become more circular and defined, spacing tightens, and details appear sharper and more assertive. The result is a brighter, more graphic voice that shines in display settings, headlines, posters, and branding applications where a stronger typographic presence is needed. Where the humanist styles are calm and composed, Fizzy feels vibrant, crisp, and full of personality. Together, these two directions allow Paloma to operate across a surprisingly wide stylistic range. Designers can move seamlessly between a softer, more neutral tone and a more expressive and graphic one, all while maintaining a cohesive typographic system. This versatility makes the family particularly adaptable for projects that require both quiet text settings and impactful display moments within the same visual language. Although Paloma isn’t conceived as a traditional “workhorse” grotesk, it was carefully designed to perform across many practical scenarios. Its structure supports comfortable reading in longer texts while still offering enough character to stand out in headlines and larger compositions. The interplay between its humanist and geometric tendencies allows it to shift effortlessly from understated editorial typography to bold visual statements. The family includes 28 styles in total, organized into two subfamilies of seven weights, each accompanied by matching italics. In addition to the static fonts, Paloma is also available as a variable font, providing continuous control across the weight range and allowing for even greater flexibility in responsive and performance-driven typographic environments. Paloma also includes a wide set of OpenType features to support professional typesetting workflows, along with broad language support covering a large range of Latin-based writing systems. With its balanced mix of personality, adaptability, and typographic precision, PP Paloma aims to offer designers a tool that can move comfortably between quiet functionality and expressive flair—sometimes serious, sometimes playful, but always unmistakably lively."
+    - generic [ref=e234]:
+      - generic [ref=e235]: Paloma Plain is variable
+      - paragraph [ref=e236]:
+        - text: Paloma
+        - text: Plain Family
+      - generic [ref=e237]:
+        - button [ref=e238] [cursor=pointer]:
+          - img [ref=e240]
+        - generic [ref=e243]:
+          - generic [ref=e244]: Weight
+          - slider "Weight" [ref=e245]: "633"
+          - generic [ref=e246]: "633"
+        - generic [ref=e247]:
+          - generic [ref=e248]: Italic
+          - slider "Italic" [ref=e249]: "0.23"
+          - generic [ref=e250]: "0.23"
+    - generic [ref=e254]:
+      - generic [ref=e255]:
+        - heading "Glyphs set overview" [level=4] [ref=e257]
+        - generic [ref=e258]:
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - heading "Uppercase" [level=5] [ref=e261]
+              - list [ref=e262]:
+                - listitem [ref=e263] [cursor=pointer]:
+                  - generic [ref=e264]: A
+                - listitem [ref=e265] [cursor=pointer]:
+                  - generic [ref=e266]: B
+                - listitem [ref=e267] [cursor=pointer]:
+                  - generic [ref=e268]: C
+                - listitem [ref=e269] [cursor=pointer]:
+                  - generic [ref=e270]: D
+                - listitem [ref=e271] [cursor=pointer]:
+                  - generic [ref=e272]: E
+                - listitem [ref=e273] [cursor=pointer]:
+                  - generic [ref=e274]: F
+                - listitem [ref=e275] [cursor=pointer]:
+                  - generic [ref=e276]: G
+                - listitem [ref=e277] [cursor=pointer]:
+                  - generic [ref=e278]: H
+                - listitem [ref=e279] [cursor=pointer]:
+                  - generic [ref=e280]: I
+                - listitem [ref=e281] [cursor=pointer]:
+                  - generic [ref=e282]: J
+                - listitem [ref=e283] [cursor=pointer]:
+                  - generic [ref=e284]: K
+                - listitem [ref=e285] [cursor=pointer]:
+                  - generic [ref=e286]: L
+                - listitem [ref=e287] [cursor=pointer]:
+                  - generic [ref=e288]: M
+                - listitem [ref=e289] [cursor=pointer]:
+                  - generic [ref=e290]: "N"
+                - listitem [ref=e291] [cursor=pointer]:
+                  - generic [ref=e292]: O
+                - listitem [ref=e293] [cursor=pointer]:
+                  - generic [ref=e294]: P
+                - listitem [ref=e295] [cursor=pointer]:
+                  - generic [ref=e296]: Q
+                - listitem [ref=e297] [cursor=pointer]:
+                  - generic [ref=e298]: R
+                - listitem [ref=e299] [cursor=pointer]:
+                  - generic [ref=e300]: S
+                - listitem [ref=e301] [cursor=pointer]:
+                  - generic [ref=e302]: T
+                - listitem [ref=e303] [cursor=pointer]:
+                  - generic [ref=e304]: U
+                - listitem [ref=e305] [cursor=pointer]:
+                  - generic [ref=e306]: V
+                - listitem [ref=e307] [cursor=pointer]:
+                  - generic [ref=e308]: W
+                - listitem [ref=e309] [cursor=pointer]:
+                  - generic [ref=e310]: X
+                - listitem [ref=e311] [cursor=pointer]:
+                  - generic [ref=e312]: "Y"
+                - listitem [ref=e313] [cursor=pointer]:
+                  - generic [ref=e314]: Z
+            - generic [ref=e315]:
+              - heading "Lowercase" [level=5] [ref=e316]
+              - list [ref=e317]:
+                - listitem [ref=e318] [cursor=pointer]:
+                  - generic [ref=e319]: a
+                - listitem [ref=e320] [cursor=pointer]:
+                  - generic [ref=e321]: b
+                - listitem [ref=e322] [cursor=pointer]:
+                  - generic [ref=e323]: c
+                - listitem [ref=e324] [cursor=pointer]:
+                  - generic [ref=e325]: d
+                - listitem [ref=e326] [cursor=pointer]:
+                  - generic [ref=e327]: e
+                - listitem [ref=e328] [cursor=pointer]:
+                  - generic [ref=e329]: f
+                - listitem [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331]: g
+                - listitem [ref=e332] [cursor=pointer]:
+                  - generic [ref=e333]: h
+                - listitem [ref=e334] [cursor=pointer]:
+                  - generic [ref=e335]: i
+                - listitem [ref=e336] [cursor=pointer]:
+                  - generic [ref=e337]: j
+                - listitem [ref=e338] [cursor=pointer]:
+                  - generic [ref=e339]: k
+                - listitem [ref=e340] [cursor=pointer]:
+                  - generic [ref=e341]: l
+                - listitem [ref=e342] [cursor=pointer]:
+                  - generic [ref=e343]: m
+                - listitem [ref=e344] [cursor=pointer]:
+                  - generic [ref=e345]: "n"
+                - listitem [ref=e346] [cursor=pointer]:
+                  - generic [ref=e347]: o
+                - listitem [ref=e348] [cursor=pointer]:
+                  - generic [ref=e349]: p
+                - listitem [ref=e350] [cursor=pointer]:
+                  - generic [ref=e351]: q
+                - listitem [ref=e352] [cursor=pointer]:
+                  - generic [ref=e353]: r
+                - listitem [ref=e354] [cursor=pointer]:
+                  - generic [ref=e355]: s
+                - listitem [ref=e356] [cursor=pointer]:
+                  - generic [ref=e357]: t
+                - listitem [ref=e358] [cursor=pointer]:
+                  - generic [ref=e359]: u
+                - listitem [ref=e360] [cursor=pointer]:
+                  - generic [ref=e361]: v
+                - listitem [ref=e362] [cursor=pointer]:
+                  - generic [ref=e363]: w
+                - listitem [ref=e364] [cursor=pointer]:
+                  - generic [ref=e365]: x
+                - listitem [ref=e366] [cursor=pointer]:
+                  - generic [ref=e367]: "y"
+                - listitem [ref=e368] [cursor=pointer]:
+                  - generic [ref=e369]: z
+            - generic [ref=e370]:
+              - heading "Digits" [level=5] [ref=e371]
+              - list [ref=e372]:
+                - listitem [ref=e373] [cursor=pointer]:
+                  - generic [ref=e374]: "0"
+                - listitem [ref=e375] [cursor=pointer]:
+                  - generic [ref=e376]: "1"
+                - listitem [ref=e377] [cursor=pointer]:
+                  - generic [ref=e378]: "2"
+                - listitem [ref=e379] [cursor=pointer]:
+                  - generic [ref=e380]: "3"
+                - listitem [ref=e381] [cursor=pointer]:
+                  - generic [ref=e382]: "4"
+                - listitem [ref=e383] [cursor=pointer]:
+                  - generic [ref=e384]: "5"
+                - listitem [ref=e385] [cursor=pointer]:
+                  - generic [ref=e386]: "6"
+                - listitem [ref=e387] [cursor=pointer]:
+                  - generic [ref=e388]: "7"
+                - listitem [ref=e389] [cursor=pointer]:
+                  - generic [ref=e390]: "8"
+                - listitem [ref=e391] [cursor=pointer]:
+                  - generic [ref=e392]: "9"
+            - generic [ref=e393]:
+              - heading "Punctuation & Symbols" [level=5] [ref=e394]
+              - list [ref=e395]:
+                - listitem [ref=e396] [cursor=pointer]:
+                  - generic [ref=e397]: "-"
+                - listitem [ref=e398] [cursor=pointer]:
+                  - generic [ref=e399]: .
+                - listitem [ref=e400] [cursor=pointer]:
+                  - generic [ref=e401]: ","
+                - listitem [ref=e402] [cursor=pointer]:
+                  - generic [ref=e403]: "!"
+                - listitem [ref=e404] [cursor=pointer]:
+                  - generic [ref=e405]: /
+                - listitem [ref=e406] [cursor=pointer]:
+                  - generic [ref=e407]: "*"
+                - listitem [ref=e408] [cursor=pointer]:
+                  - generic [ref=e409]: "#"
+                - listitem [ref=e410] [cursor=pointer]:
+                  - generic [ref=e411]: (
+                - listitem [ref=e412] [cursor=pointer]:
+                  - generic [ref=e413]: )
+                - listitem [ref=e414] [cursor=pointer]:
+                  - generic [ref=e415]: "'"
+                - listitem [ref=e416] [cursor=pointer]:
+                  - generic [ref=e417]: "\""
+                - listitem [ref=e418] [cursor=pointer]:
+                  - generic [ref=e419]: $
+                - listitem [ref=e420] [cursor=pointer]:
+                  - generic [ref=e421]: +
+                - listitem [ref=e422] [cursor=pointer]:
+                  - generic [ref=e423]: "%"
+                - listitem [ref=e424] [cursor=pointer]:
+                  - generic [ref=e425]: "&"
+                - listitem [ref=e426] [cursor=pointer]:
+                  - generic [ref=e427]: ":"
+                - listitem [ref=e428] [cursor=pointer]:
+                  - generic [ref=e429]: ;
+                - listitem [ref=e430] [cursor=pointer]:
+                  - generic [ref=e431]: "?"
+                - listitem [ref=e432] [cursor=pointer]:
+                  - generic [ref=e433]: =
+                - listitem [ref=e434] [cursor=pointer]:
+                  - generic [ref=e435]: ">"
+                - listitem [ref=e436] [cursor=pointer]:
+                  - generic [ref=e437]: <
+                - listitem [ref=e438] [cursor=pointer]:
+                  - generic [ref=e439]: "@"
+                - listitem [ref=e440] [cursor=pointer]:
+                  - generic [ref=e441]: _
+                - listitem [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443]: \
+                - listitem [ref=e444] [cursor=pointer]:
+                  - generic [ref=e445]: "["
+                - listitem [ref=e446] [cursor=pointer]:
+                  - generic [ref=e447]: "]"
+                - listitem [ref=e448] [cursor=pointer]:
+                  - generic [ref=e449]: ^
+            - generic [ref=e450]:
+              - heading "C1 Controls and Latin-1 Supplement" [level=5] [ref=e451]
+              - list [ref=e452]:
+                - listitem [ref=e453] [cursor=pointer]:
+                  - generic [ref=e454]: Á
+                - listitem [ref=e455] [cursor=pointer]:
+                  - generic [ref=e456]: Â
+                - listitem [ref=e457] [cursor=pointer]:
+                  - generic [ref=e458]: Ä
+                - listitem [ref=e459] [cursor=pointer]:
+                  - generic [ref=e460]: À
+                - listitem [ref=e461] [cursor=pointer]:
+                  - generic [ref=e462]: Å
+                - listitem [ref=e463] [cursor=pointer]:
+                  - generic [ref=e464]: Ã
+                - listitem [ref=e465] [cursor=pointer]:
+                  - generic [ref=e466]: Æ
+                - listitem [ref=e467] [cursor=pointer]:
+                  - generic [ref=e468]: Ç
+                - listitem [ref=e469] [cursor=pointer]:
+                  - generic [ref=e470]: É
+                - listitem [ref=e471] [cursor=pointer]:
+                  - generic [ref=e472]: Ê
+                - listitem [ref=e473] [cursor=pointer]:
+                  - generic [ref=e474]: Ë
+                - listitem [ref=e475] [cursor=pointer]:
+                  - generic [ref=e476]: È
+                - listitem [ref=e477] [cursor=pointer]:
+                  - generic [ref=e478]: Ð
+                - listitem [ref=e479] [cursor=pointer]:
+                  - generic [ref=e480]: Í
+                - listitem [ref=e481] [cursor=pointer]:
+                  - generic [ref=e482]: Î
+                - listitem [ref=e483] [cursor=pointer]:
+                  - generic [ref=e484]: Ï
+                - listitem [ref=e485] [cursor=pointer]:
+                  - generic [ref=e486]: Ì
+                - listitem [ref=e487] [cursor=pointer]:
+                  - generic [ref=e488]: Ñ
+                - listitem [ref=e489] [cursor=pointer]:
+                  - generic [ref=e490]: Ó
+                - listitem [ref=e491] [cursor=pointer]:
+                  - generic [ref=e492]: Ô
+                - listitem [ref=e493] [cursor=pointer]:
+                  - generic [ref=e494]: Ö
+                - listitem [ref=e495] [cursor=pointer]:
+                  - generic [ref=e496]: Ò
+                - listitem [ref=e497] [cursor=pointer]:
+                  - generic [ref=e498]: Ø
+                - listitem [ref=e499] [cursor=pointer]:
+                  - generic [ref=e500]: Õ
+                - listitem [ref=e501] [cursor=pointer]:
+                  - generic [ref=e502]: Þ
+                - listitem [ref=e503] [cursor=pointer]:
+                  - generic [ref=e504]: Ú
+                - listitem [ref=e505] [cursor=pointer]:
+                  - generic [ref=e506]: Û
+                - listitem [ref=e507] [cursor=pointer]:
+                  - generic [ref=e508]: Ü
+                - listitem [ref=e509] [cursor=pointer]:
+                  - generic [ref=e510]: Ù
+                - listitem [ref=e511] [cursor=pointer]:
+                  - generic [ref=e512]: Ý
+                - listitem [ref=e513] [cursor=pointer]:
+                  - generic [ref=e514]: á
+                - listitem [ref=e515] [cursor=pointer]:
+                  - generic [ref=e516]: â
+                - listitem [ref=e517] [cursor=pointer]:
+                  - generic [ref=e518]: ä
+                - listitem [ref=e519] [cursor=pointer]:
+                  - generic [ref=e520]: æ
+                - listitem [ref=e521] [cursor=pointer]:
+                  - generic [ref=e522]: à
+                - listitem [ref=e523] [cursor=pointer]:
+                  - generic [ref=e524]: å
+                - listitem [ref=e525] [cursor=pointer]:
+                  - generic [ref=e526]: ã
+                - listitem [ref=e527] [cursor=pointer]:
+                  - generic [ref=e528]: ç
+                - listitem [ref=e529] [cursor=pointer]:
+                  - generic [ref=e530]: é
+                - listitem [ref=e531] [cursor=pointer]:
+                  - generic [ref=e532]: ê
+                - listitem [ref=e533] [cursor=pointer]:
+                  - generic [ref=e534]: ë
+                - listitem [ref=e535] [cursor=pointer]:
+                  - generic [ref=e536]: è
+                - listitem [ref=e537] [cursor=pointer]:
+                  - generic [ref=e538]: ð
+                - listitem [ref=e539] [cursor=pointer]:
+                  - generic [ref=e540]: ß
+                - listitem [ref=e541] [cursor=pointer]:
+                  - generic [ref=e542]: í
+                - listitem [ref=e543] [cursor=pointer]:
+                  - generic [ref=e544]: î
+                - listitem [ref=e545] [cursor=pointer]:
+                  - generic [ref=e546]: ï
+                - listitem [ref=e547] [cursor=pointer]:
+                  - generic [ref=e548]: ì
+                - listitem [ref=e549] [cursor=pointer]:
+                  - generic [ref=e550]: ñ
+                - listitem [ref=e551] [cursor=pointer]:
+                  - generic [ref=e552]: ó
+                - listitem [ref=e553] [cursor=pointer]:
+                  - generic [ref=e554]: ô
+                - listitem [ref=e555] [cursor=pointer]:
+                  - generic [ref=e556]: ö
+                - listitem [ref=e557] [cursor=pointer]:
+                  - generic [ref=e558]: ò
+                - listitem [ref=e559] [cursor=pointer]:
+                  - generic [ref=e560]: ø
+                - listitem [ref=e561] [cursor=pointer]:
+                  - generic [ref=e562]: õ
+                - listitem [ref=e563] [cursor=pointer]:
+                  - generic [ref=e564]: þ
+                - listitem [ref=e565] [cursor=pointer]:
+                  - generic [ref=e566]: ú
+                - listitem [ref=e567] [cursor=pointer]:
+                  - generic [ref=e568]: û
+                - listitem [ref=e569] [cursor=pointer]:
+                  - generic [ref=e570]: ü
+                - listitem [ref=e571] [cursor=pointer]:
+                  - generic [ref=e572]: ù
+                - listitem [ref=e573] [cursor=pointer]:
+                  - generic [ref=e574]: ý
+                - listitem [ref=e575] [cursor=pointer]:
+                  - generic [ref=e576]: ÿ
+                - listitem [ref=e577] [cursor=pointer]:
+                  - generic [ref=e578]: ª
+                - listitem [ref=e579] [cursor=pointer]:
+                  - generic [ref=e580]: º
+                - listitem [ref=e581] [cursor=pointer]:
+                  - generic [ref=e582]: ¹
+                - listitem [ref=e583] [cursor=pointer]:
+                  - generic [ref=e584]: ²
+                - listitem [ref=e585] [cursor=pointer]:
+                  - generic [ref=e586]: ³
+                - listitem [ref=e587] [cursor=pointer]:
+                  - generic [ref=e588]: ½
+                - listitem [ref=e589] [cursor=pointer]:
+                  - generic [ref=e590]: ¼
+                - listitem [ref=e591] [cursor=pointer]:
+                  - generic [ref=e592]: ¾
+                - listitem [ref=e593] [cursor=pointer]:
+                  - generic [ref=e594]: ¡
+                - listitem [ref=e595] [cursor=pointer]:
+                  - generic [ref=e596]: ¿
+                - listitem [ref=e597] [cursor=pointer]:
+                  - generic [ref=e598]: ·
+                - listitem [ref=e599] [cursor=pointer]:
+                  - generic [ref=e600]: «
+                - listitem [ref=e601] [cursor=pointer]:
+                  - generic [ref=e602]: »
+                - listitem [ref=e603] [cursor=pointer]:
+                  - generic [ref=e604]: ¢
+                - listitem [ref=e605] [cursor=pointer]:
+                  - generic [ref=e606]: ¤
+                - listitem [ref=e607] [cursor=pointer]:
+                  - generic [ref=e608]: £
+                - listitem [ref=e609] [cursor=pointer]:
+                  - generic [ref=e610]: ¥
+                - listitem [ref=e611] [cursor=pointer]:
+                  - generic [ref=e612]: ÷
+                - listitem [ref=e613] [cursor=pointer]:
+                  - generic [ref=e614]: ×
+                - listitem [ref=e615] [cursor=pointer]:
+                  - generic [ref=e616]: ±
+                - listitem [ref=e617] [cursor=pointer]:
+                  - generic [ref=e618]: ¬
+                - listitem [ref=e619] [cursor=pointer]:
+                  - generic [ref=e620]: ¦
+                - listitem [ref=e621] [cursor=pointer]:
+                  - generic [ref=e622]: ©
+                - listitem [ref=e623] [cursor=pointer]:
+                  - generic [ref=e624]: ®
+                - listitem [ref=e625] [cursor=pointer]:
+                  - generic [ref=e626]: §
+                - listitem [ref=e627] [cursor=pointer]:
+                  - generic [ref=e628]: ¶
+                - listitem [ref=e629] [cursor=pointer]:
+                  - generic [ref=e630]: °
+            - generic [ref=e631]:
+              - heading "Latin Extended-A" [level=5] [ref=e632]
+              - list [ref=e633]:
+                - listitem [ref=e634] [cursor=pointer]:
+                  - generic [ref=e635]: Ă
+                - listitem [ref=e636] [cursor=pointer]:
+                  - generic [ref=e637]: Ā
+                - listitem [ref=e638] [cursor=pointer]:
+                  - generic [ref=e639]: Ą
+                - listitem [ref=e640] [cursor=pointer]:
+                  - generic [ref=e641]: Ć
+                - listitem [ref=e642] [cursor=pointer]:
+                  - generic [ref=e643]: Č
+                - listitem [ref=e644] [cursor=pointer]:
+                  - generic [ref=e645]: Ċ
+                - listitem [ref=e646] [cursor=pointer]:
+                  - generic [ref=e647]: Ď
+                - listitem [ref=e648] [cursor=pointer]:
+                  - generic [ref=e649]: Đ
+                - listitem [ref=e650] [cursor=pointer]:
+                  - generic [ref=e651]: Ě
+                - listitem [ref=e652] [cursor=pointer]:
+                  - generic [ref=e653]: Ė
+                - listitem [ref=e654] [cursor=pointer]:
+                  - generic [ref=e655]: Ē
+                - listitem [ref=e656] [cursor=pointer]:
+                  - generic [ref=e657]: Ę
+                - listitem [ref=e658] [cursor=pointer]:
+                  - generic [ref=e659]: Ģ
+                - listitem [ref=e660] [cursor=pointer]:
+                  - generic [ref=e661]: Ğ
+                - listitem [ref=e662] [cursor=pointer]:
+                  - generic [ref=e663]: Ġ
+                - listitem [ref=e664] [cursor=pointer]:
+                  - generic [ref=e665]: Ħ
+                - listitem [ref=e666] [cursor=pointer]:
+                  - generic [ref=e667]: Ī
+                - listitem [ref=e668] [cursor=pointer]:
+                  - generic [ref=e669]: Į
+                - listitem [ref=e670] [cursor=pointer]:
+                  - generic [ref=e671]: İ
+                - listitem [ref=e672] [cursor=pointer]:
+                  - generic [ref=e673]: Ĳ
+                - listitem [ref=e674] [cursor=pointer]:
+                  - generic [ref=e675]: Ķ
+                - listitem [ref=e676] [cursor=pointer]:
+                  - generic [ref=e677]: Ĺ
+                - listitem [ref=e678] [cursor=pointer]:
+                  - generic [ref=e679]: Ľ
+                - listitem [ref=e680] [cursor=pointer]:
+                  - generic [ref=e681]: Ļ
+                - listitem [ref=e682] [cursor=pointer]:
+                  - generic [ref=e683]: Ł
+                - listitem [ref=e684] [cursor=pointer]:
+                  - generic [ref=e685]: Ŀ
+                - listitem [ref=e686] [cursor=pointer]:
+                  - generic [ref=e687]: Ń
+                - listitem [ref=e688] [cursor=pointer]:
+                  - generic [ref=e689]: Ň
+                - listitem [ref=e690] [cursor=pointer]:
+                  - generic [ref=e691]: Ņ
+                - listitem [ref=e692] [cursor=pointer]:
+                  - generic [ref=e693]: Ŋ
+                - listitem [ref=e694] [cursor=pointer]:
+                  - generic [ref=e695]: Ő
+                - listitem [ref=e696] [cursor=pointer]:
+                  - generic [ref=e697]: Ō
+                - listitem [ref=e698] [cursor=pointer]:
+                  - generic [ref=e699]: Œ
+                - listitem [ref=e700] [cursor=pointer]:
+                  - generic [ref=e701]: Ŕ
+                - listitem [ref=e702] [cursor=pointer]:
+                  - generic [ref=e703]: Ř
+                - listitem [ref=e704] [cursor=pointer]:
+                  - generic [ref=e705]: Ŗ
+                - listitem [ref=e706] [cursor=pointer]:
+                  - generic [ref=e707]: Ś
+                - listitem [ref=e708] [cursor=pointer]:
+                  - generic [ref=e709]: Š
+                - listitem [ref=e710] [cursor=pointer]:
+                  - generic [ref=e711]: Ş
+                - listitem [ref=e712] [cursor=pointer]:
+                  - generic [ref=e713]: Ť
+                - listitem [ref=e714] [cursor=pointer]:
+                  - generic [ref=e715]: Ţ
+                - listitem [ref=e716] [cursor=pointer]:
+                  - generic [ref=e717]: Ŧ
+                - listitem [ref=e718] [cursor=pointer]:
+                  - generic [ref=e719]: Ű
+                - listitem [ref=e720] [cursor=pointer]:
+                  - generic [ref=e721]: Ū
+                - listitem [ref=e722] [cursor=pointer]:
+                  - generic [ref=e723]: Ų
+                - listitem [ref=e724] [cursor=pointer]:
+                  - generic [ref=e725]: Ů
+                - listitem [ref=e726] [cursor=pointer]:
+                  - generic [ref=e727]: Ũ
+                - listitem [ref=e728] [cursor=pointer]:
+                  - generic [ref=e729]: Ŵ
+                - listitem [ref=e730] [cursor=pointer]:
+                  - generic [ref=e731]: Ŷ
+                - listitem [ref=e732] [cursor=pointer]:
+                  - generic [ref=e733]: Ÿ
+                - listitem [ref=e734] [cursor=pointer]:
+                  - generic [ref=e735]: Ź
+                - listitem [ref=e736] [cursor=pointer]:
+                  - generic [ref=e737]: Ž
+                - listitem [ref=e738] [cursor=pointer]:
+                  - generic [ref=e739]: Ż
+                - listitem [ref=e740] [cursor=pointer]:
+                  - generic [ref=e741]: ă
+                - listitem [ref=e742] [cursor=pointer]:
+                  - generic [ref=e743]: ā
+                - listitem [ref=e744] [cursor=pointer]:
+                  - generic [ref=e745]: ą
+                - listitem [ref=e746] [cursor=pointer]:
+                  - generic [ref=e747]: ć
+                - listitem [ref=e748] [cursor=pointer]:
+                  - generic [ref=e749]: č
+                - listitem [ref=e750] [cursor=pointer]:
+                  - generic [ref=e751]: ċ
+                - listitem [ref=e752] [cursor=pointer]:
+                  - generic [ref=e753]: ď
+                - listitem [ref=e754] [cursor=pointer]:
+                  - generic [ref=e755]: đ
+                - listitem [ref=e756] [cursor=pointer]:
+                  - generic [ref=e757]: ě
+                - listitem [ref=e758] [cursor=pointer]:
+                  - generic [ref=e759]: ė
+                - listitem [ref=e760] [cursor=pointer]:
+                  - generic [ref=e761]: ē
+                - listitem [ref=e762] [cursor=pointer]:
+                  - generic [ref=e763]: ę
+                - listitem [ref=e764] [cursor=pointer]:
+                  - generic [ref=e765]: ģ
+                - listitem [ref=e766] [cursor=pointer]:
+                  - generic [ref=e767]: ğ
+                - listitem [ref=e768] [cursor=pointer]:
+                  - generic [ref=e769]: ġ
+                - listitem [ref=e770] [cursor=pointer]:
+                  - generic [ref=e771]: ħ
+                - listitem [ref=e772] [cursor=pointer]:
+                  - generic [ref=e773]: ı
+                - listitem [ref=e774] [cursor=pointer]:
+                  - generic [ref=e775]: ĳ
+                - listitem [ref=e776] [cursor=pointer]:
+                  - generic [ref=e777]: ī
+                - listitem [ref=e778] [cursor=pointer]:
+                  - generic [ref=e779]: į
+                - listitem [ref=e780] [cursor=pointer]:
+                  - generic [ref=e781]: ķ
+                - listitem [ref=e782] [cursor=pointer]:
+                  - generic [ref=e783]: ĺ
+                - listitem [ref=e784] [cursor=pointer]:
+                  - generic [ref=e785]: ľ
+                - listitem [ref=e786] [cursor=pointer]:
+                  - generic [ref=e787]: ļ
+                - listitem [ref=e788] [cursor=pointer]:
+                  - generic [ref=e789]: ł
+                - listitem [ref=e790] [cursor=pointer]:
+                  - generic [ref=e791]: ŀ
+                - listitem [ref=e792] [cursor=pointer]:
+                  - generic [ref=e793]: ń
+                - listitem [ref=e794] [cursor=pointer]:
+                  - generic [ref=e795]: ň
+                - listitem [ref=e796] [cursor=pointer]:
+                  - generic [ref=e797]: ņ
+                - listitem [ref=e798] [cursor=pointer]:
+                  - generic [ref=e799]: ŋ
+                - listitem [ref=e800] [cursor=pointer]:
+                  - generic [ref=e801]: œ
+                - listitem [ref=e802] [cursor=pointer]:
+                  - generic [ref=e803]: ő
+                - listitem [ref=e804] [cursor=pointer]:
+                  - generic [ref=e805]: ō
+                - listitem [ref=e806] [cursor=pointer]:
+                  - generic [ref=e807]: ŕ
+                - listitem [ref=e808] [cursor=pointer]:
+                  - generic [ref=e809]: ř
+                - listitem [ref=e810] [cursor=pointer]:
+                  - generic [ref=e811]: ŗ
+                - listitem [ref=e812] [cursor=pointer]:
+                  - generic [ref=e813]: ś
+                - listitem [ref=e814] [cursor=pointer]:
+                  - generic [ref=e815]: š
+                - listitem [ref=e816] [cursor=pointer]:
+                  - generic [ref=e817]: ş
+                - listitem [ref=e818] [cursor=pointer]:
+                  - generic [ref=e819]: ť
+                - listitem [ref=e820] [cursor=pointer]:
+                  - generic [ref=e821]: ţ
+                - listitem [ref=e822] [cursor=pointer]:
+                  - generic [ref=e823]: ŧ
+                - listitem [ref=e824] [cursor=pointer]:
+                  - generic [ref=e825]: ű
+                - listitem [ref=e826] [cursor=pointer]:
+                  - generic [ref=e827]: ū
+                - listitem [ref=e828] [cursor=pointer]:
+                  - generic [ref=e829]: ų
+                - listitem [ref=e830] [cursor=pointer]:
+                  - generic [ref=e831]: ů
+                - listitem [ref=e832] [cursor=pointer]:
+                  - generic [ref=e833]: ũ
+                - listitem [ref=e834] [cursor=pointer]:
+                  - generic [ref=e835]: ŵ
+                - listitem [ref=e836] [cursor=pointer]:
+                  - generic [ref=e837]: ŷ
+                - listitem [ref=e838] [cursor=pointer]:
+                  - generic [ref=e839]: ź
+                - listitem [ref=e840] [cursor=pointer]:
+                  - generic [ref=e841]: ž
+                - listitem [ref=e842] [cursor=pointer]:
+                  - generic [ref=e843]: ż
+          - generic [ref=e845]:
+            - heading "Latin Extended-B" [level=5] [ref=e846]
+            - list [ref=e847]:
+              - listitem [ref=e848] [cursor=pointer]:
+                - generic [ref=e849]: Ǽ
+              - listitem [ref=e850] [cursor=pointer]:
+                - generic [ref=e851]: Ə
+              - listitem [ref=e852] [cursor=pointer]:
+                - generic [ref=e853]: Ș
+              - listitem [ref=e854] [cursor=pointer]:
+                - generic [ref=e855]: Ț
+              - listitem [ref=e856] [cursor=pointer]:
+                - generic [ref=e857]: ǽ
+              - listitem [ref=e858] [cursor=pointer]:
+                - generic [ref=e859]: ȷ
+              - listitem [ref=e860] [cursor=pointer]:
+                - generic [ref=e861]: ș
+              - listitem [ref=e862] [cursor=pointer]:
+                - generic [ref=e863]: ț
+          - button "See all glyphs" [ref=e865] [cursor=pointer]:
+            - generic [ref=e866]: See all glyphs
+      - generic [ref=e868]:
+        - generic [ref=e870]:
+          - combobox [ref=e871] [cursor=pointer]:
+            - option "Thin"
+            - option "Light"
+            - option "Regular"
+            - option "Medium"
+            - option "Bold"
+            - option "Heavy" [selected]
+            - option "Black"
+            - option "Thin Italic"
+            - option "Light Italic"
+            - option "Regular Italic"
+            - option "Medium Italic"
+            - option "Bold Italic"
+            - option "Heavy Italic"
+            - option "Black Italic"
+          - img
+        - generic [ref=e872]:
+          - generic [ref=e873]:
+            - heading "Glyphs View" [level=5] [ref=e874]
+            - generic [ref=e875]: U+0041 (2)
+          - figure [ref=e877]
+    - generic [ref=e882]:
+      - heading "Paloma Plain's Features" [level=4] [ref=e884]
+      - generic [ref=e885]:
+        - generic [ref=e886]:
+          - generic [ref=e888]: Single-storey a
+          - generic [ref=e889]:
+            - generic [ref=e890]: a
+            - generic [ref=e891]: →
+            - generic [ref=e892]: a
+        - generic [ref=e893]:
+          - generic [ref=e895]: Single-storey g
+          - generic [ref=e896]:
+            - generic [ref=e897]: g
+            - generic [ref=e898]: →
+            - generic [ref=e899]: g
+        - generic [ref=e900]:
+          - generic [ref=e902]: Legible l
+          - generic [ref=e903]:
+            - generic [ref=e904]: l
+            - generic [ref=e905]: →
+            - generic [ref=e906]: l
+        - generic [ref=e907]:
+          - generic [ref=e909]: Geometric &
+          - generic [ref=e910]:
+            - generic [ref=e911]: "&"
+            - generic [ref=e912]: →
+            - generic [ref=e913]: "&"
+        - generic [ref=e914]:
+          - generic [ref=e916]: Dotted 0
+          - generic [ref=e917]:
+            - generic [ref=e918]: "0"
+            - generic [ref=e919]: →
+            - generic [ref=e920]: "0"
+        - generic [ref=e921]:
+          - generic [ref=e923]: Case-Sensitive Forms
+          - generic [ref=e924]:
+            - generic [ref=e925]: (11:11) - [2] H—H
+            - generic [ref=e926]: (11:11) - [2] H—H
+        - generic [ref=e927]:
+          - generic [ref=e929]: Tabular Figures
+          - generic [ref=e930]:
+            - generic [ref=e931]: "1234567890"
+            - generic [ref=e932]: "1234567890"
+    - generic [ref=e934]:
+      - generic [ref=e937]:
+        - heading "A familiar Humanist with Fizz." [level=2] [ref=e938]
+        - paragraph [ref=e940]:
+          - text: PP Paloma is a spritzy sans family of a dual geo-humanist nature. Designed for versatility, the typeface spans across the two genres, combining the best of both worlds. Paloma is loosely inspired by the giants like Antique Olive, Johnston and Avenir, but treats the references lightheartedly, going for a different route with a flair.
+          - text: One part of the family is toned-down and humanist, featuring open shapes, natural letterforms and balanced proportions, intended for subtle roles when reading comfort and legibility are crucial. The other subfamily, Fizzy, cranks up the flavor all the way up, turning the shapes geometric, tightening spacing and making details more crisp and accentuated, perfect for juicy large-size uses.
+          - text: "While not a typical “workhorse” grotesk, Paloma is crafted to be adaptive for a wide range of applications from long-form reading to headlines and posters; from soft neutrality to memorable resonance. The font family comes in 28 styles: 2 subfamilies of 7 weights plus italics; all also available in the variable format. It includes many OpenType features for professional typesettings and supports a wide range of Latin-based languages."
+      - generic [ref=e943]:
+        - generic [ref=e945]:
+          - heading "Designers" [level=4] [ref=e946]
+          - list [ref=e947]:
+            - listitem [ref=e948]:
+              - link "Alex Slobzheninov" [ref=e949] [cursor=pointer]:
+                - /url: https://instagram.com/slobzheninov
+            - listitem [ref=e950]:
+              - link "Mat Desjardins" [ref=e951] [cursor=pointer]:
+                - /url: https://instagram.com/matdesjardins
+            - listitem [ref=e952]:
+              - link "Francesca Bolognini" [ref=e953] [cursor=pointer]:
+                - /url: https://www.instagram.com/francescab_type
+        - generic [ref=e955]:
+          - heading "Categories" [level=4] [ref=e956]
+          - list [ref=e957]:
+            - listitem [ref=e958]: Display
+            - listitem [ref=e959]: Expressive
+            - listitem [ref=e960]: Humanist
+            - listitem [ref=e961]: Italics
+            - listitem [ref=e962]: Sans Serif
+            - listitem [ref=e963]: Variable
+        - generic [ref=e965]:
+          - heading "Styles" [level=4] [ref=e966]
+          - list [ref=e967]:
+            - listitem [ref=e968]: 14 Styles
+          - paragraph [ref=e969]:
+            - text: 2 cuts X 14 Styles each with 501 Glyphs
+            - text: Including Italic
+          - paragraph [ref=e970]:
+            - link "Explore the complete family" [ref=e971] [cursor=pointer]:
+              - /url: /products/paloma
+          - heading "Version" [level=4] [ref=e972]
+          - paragraph [ref=e973]: "1.00"
+          - paragraph [ref=e974]: "Latest update: March 2026"
+        - generic [ref=e976]:
+          - heading "Available formats" [level=4] [ref=e977]
+          - paragraph [ref=e978]: OTF, TTF, WOFF, WOFF2
+          - heading "Language Support" [level=4] [ref=e979]
+          - paragraph [ref=e980]: Afrikaans, Basque, Breton, Catalan, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Gaelic, German, Hungarian, Icelandic, Indonesian, Irish, Italian, Latvian, Lituanian, Norwegian, Polish, Portuguese, Romanian, Saami, Slovak, Slovenian, Spanish, Swahili, Swedish, Turkish, (and more)
+    - generic [ref=e984]:
+      - generic [ref=e985]:
+        - generic [ref=e986]:
+          - heading "Commercial Licenses" [level=2] [ref=e987]
+          - generic [ref=e989]: Love Paloma Plain for your project? Grab our comprehensive licenses below.
+        - generic [ref=e992]:
+          - generic [ref=e993]:
+            - text: 1 Choose your font package
+            - generic [ref=e994]:
+              - combobox "1 Choose your font package" [ref=e995] [cursor=pointer]:
+                - option "Full Family (14 Styles with Italics + Variable Font)" [selected]
+                - option "Upright Family (7 Styles + Variable Font)"
+                - option "Italic Family (7 Styles + Variable Font)"
+                - option "Essentials (4 Styles - Regular, Italic, Bold, Bold Italic)"
+                - option "Thin"
+                - option "Light"
+                - option "Regular"
+                - option "Medium"
+                - option "Bold"
+                - option "Heavy"
+                - option "Black"
+                - option "Thin Italic"
+                - option "Light Italic"
+                - option "Regular Italic"
+                - option "Medium Italic"
+                - option "Bold Italic"
+                - option "Heavy Italic"
+                - option "Black Italic"
+              - img
+          - generic [ref=e996]:
+            - paragraph
+            - generic [ref=e997]: Subtotal in USD
+            - button "Add to cart →" [disabled] [ref=e999]
+      - generic [ref=e1000]:
+        - generic [ref=e1001]:
+          - generic [ref=e1002]:
+            - heading "Not sure what to get? Or can’t find the right coverage?" [level=6] [ref=e1003]
+            - paragraph [ref=e1004]: Please contact us for our tailored corporate licenses!
+          - link "Contact us" [ref=e1006] [cursor=pointer]:
+            - /url: /pages/contact-us
+            - generic [ref=e1007]: Contact us
+        - generic [ref=e1008]:
+          - generic [ref=e1009]:
+            - heading "Need more information about our licenses?" [level=6] [ref=e1010]
+            - paragraph [ref=e1011]: Our FAQ usually contains most of the answers.
+          - link "Read our FAQ" [ref=e1013] [cursor=pointer]:
+            - /url: /pages/faq
+            - generic [ref=e1014]: Read our FAQ
+    - generic [ref=e1017]:
+      - generic [ref=e1018]:
+        - heading "Explore the Paloma sub-families by clicking on the cards below." [level=4] [ref=e1019]
+        - paragraph [ref=e1020]: 2 Sub-Families
+      - list [ref=e1021]:
+        - listitem [ref=e1022]:
+          - link "Fizzy Family 14 styles + Variable cut Including Italics Aa Just keep examining every low bid quoted for zinc etchings. Check it out" [ref=e1024] [cursor=pointer]:
+            - /url: /products/paloma-fizzy
+            - generic [ref=e1026]:
+              - heading "Fizzy Family" [level=3] [ref=e1027]
+              - generic [ref=e1028]:
+                - text: 14 styles + Variable cut
+                - text: Including Italics
+            - generic [ref=e1029]:
+              - img [ref=e1033]:
+                - generic [ref=e1034]: Aa
+              - generic [ref=e1035]:
+                - generic [ref=e1037]: Just keep examining every low bid quoted for zinc etchings.
+                - button "Check it out" [ref=e1038]:
+                  - generic [ref=e1039]: Check it out
+        - listitem [ref=e1040]:
+          - link "Plain Family 14 styles + Variable cut Including Italics Aa Why shouldn't a quixotic Kazakh vampire jog barefoot? Check it out" [ref=e1042] [cursor=pointer]:
+            - /url: /products/paloma-plain
+            - generic [ref=e1044]:
+              - heading "Plain Family" [level=3] [ref=e1045]
+              - generic [ref=e1046]:
+                - text: 14 styles + Variable cut
+                - text: Including Italics
+            - generic [ref=e1047]:
+              - img [ref=e1051]:
+                - generic [ref=e1052]: Aa
+              - generic [ref=e1053]:
+                - generic [ref=e1055]: Why shouldn't a quixotic Kazakh vampire jog barefoot?
+                - button "Check it out" [ref=e1056]:
+                  - generic [ref=e1057]: Check it out
+    - generic [ref=e1059]:
+      - generic [ref=e1061]:
+        - heading "Our fonts in use" [level=2] [ref=e1062]
+        - link "View all" [ref=e1063] [cursor=pointer]:
+          - /url: /blogs/font-in-use
+          - generic [ref=e1064]: View all
+      - generic [ref=e1067]:
+        - generic [ref=e1068]:
+          - img [ref=e1070]
+          - generic [ref=e1071]:
+            - generic [ref=e1072]:
+              - generic [ref=e1073]: Bitmap Fonts
+              - generic [ref=e1074]: Branding
+              - generic [ref=e1075]: Packaging
+              - generic [ref=e1076]: Print
+            - heading "Catalyst" [level=3] [ref=e1077]
+            - link "View project" [ref=e1078] [cursor=pointer]:
+              - /url: /blogs/font-in-use/catalyst
+              - generic [ref=e1079]: View project
+        - generic [ref=e1080]:
+          - img [ref=e1082]
+          - generic [ref=e1083]:
+            - generic [ref=e1084]:
+              - generic [ref=e1085]: Editorial New
+              - generic [ref=e1086]: Print
+            - heading "Carlos Edelmiro" [level=3] [ref=e1087]
+            - link "View project" [ref=e1088] [cursor=pointer]:
+              - /url: /blogs/font-in-use/pages
+              - generic [ref=e1089]: View project
+        - generic [ref=e1090]:
+          - img [ref=e1092]
+          - generic [ref=e1093]:
+            - generic [ref=e1094]:
+              - generic [ref=e1095]: Branding
+              - generic [ref=e1096]: Digital
+              - generic [ref=e1097]: Editorial Old
+            - heading "Delve" [level=3] [ref=e1098]
+            - link "View project" [ref=e1099] [cursor=pointer]:
+              - /url: /blogs/font-in-use/delve
+              - generic [ref=e1100]: View project
+        - generic [ref=e1101]:
+          - img [ref=e1103]
+          - generic [ref=e1104]:
+            - generic [ref=e1105]:
+              - generic [ref=e1106]: Acma
+              - generic [ref=e1107]: Branding
+              - generic [ref=e1108]: Digital
+              - generic [ref=e1109]: Editorial New
+              - generic [ref=e1110]: Lettra Mono
+              - generic [ref=e1111]: Playground
+              - generic [ref=e1112]: Print
+            - heading "Forma" [level=3] [ref=e1113]
+            - link "View project" [ref=e1114] [cursor=pointer]:
+              - /url: /blogs/font-in-use/forma
+              - generic [ref=e1115]: View project
+        - generic [ref=e1116]:
+          - img [ref=e1118]
+          - generic [ref=e1119]:
+            - generic [ref=e1120]:
+              - generic [ref=e1121]: Branding
+              - generic [ref=e1122]: Cirka
+              - generic [ref=e1123]: Digital
+              - generic [ref=e1124]: Print
+            - heading "DARC" [level=3] [ref=e1125]
+            - link "View project" [ref=e1126] [cursor=pointer]:
+              - /url: /blogs/font-in-use/darc
+              - generic [ref=e1127]: View project
+        - generic [ref=e1128]:
+          - img [ref=e1130]
+          - generic [ref=e1131]:
+            - generic [ref=e1132]:
+              - generic [ref=e1133]: Branding
+              - generic [ref=e1134]: Neue Montreal
+              - generic [ref=e1135]: Print
+            - heading "Semiprecious" [level=3] [ref=e1136]
+            - link "View project" [ref=e1137] [cursor=pointer]:
+              - /url: /blogs/font-in-use/semiprecious
+              - generic [ref=e1138]: View project
+    - generic [ref=e1149]:
+      - generic [ref=e1150]:
+        - heading "Paloma Plain pairs well with these typefaces." [level=2] [ref=e1151]
+        - link "View all fonts" [ref=e1152] [cursor=pointer]:
+          - /url: /collections/fonts
+          - generic [ref=e1153]: View all fonts
+      - list [ref=e1154]:
+        - listitem [ref=e1155]:
+          - generic [ref=e1156]:
+            - link "Kyoto 18 styles + Variable cuts Including Italics Aa Jaded zombies acted quietly but kept driving their oxen forward. Check it out New" [ref=e1157] [cursor=pointer]:
+              - /url: /products/kyoto
+              - generic [ref=e1159]:
+                - heading "Kyoto" [level=3] [ref=e1160]
+                - generic [ref=e1161]:
+                  - text: 18 styles + Variable cuts
+                  - text: Including Italics
+              - generic [ref=e1162]:
+                - img [ref=e1166]:
+                  - generic [ref=e1167]: Aa
+                - generic [ref=e1168]:
+                  - generic [ref=e1170]: Jaded zombies acted quietly but kept driving their oxen forward.
+                  - button "Check it out" [ref=e1171]:
+                    - generic [ref=e1172]: Check it out
+            - generic [ref=e1173]: New
+        - listitem [ref=e1174]:
+          - link "Lettra Mono 16 styles + Variable cut Including Italics Aa The cajoling quirked sexy wizard mob persuade very influentially. Check it out" [ref=e1176] [cursor=pointer]:
+            - /url: /products/lettra-mono
+            - generic [ref=e1178]:
+              - heading "Lettra Mono" [level=3] [ref=e1179]
+              - generic [ref=e1180]:
+                - text: 16 styles + Variable cut
+                - text: Including Italics
+            - generic [ref=e1181]:
+              - img [ref=e1185]:
+                - generic [ref=e1186]: Aa
+              - generic [ref=e1187]:
+                - generic [ref=e1189]: The cajoling quirked sexy wizard mob persuade very influentially.
+                - button "Check it out" [ref=e1190]:
+                  - generic [ref=e1191]: Check it out
+        - listitem [ref=e1192]:
+          - link "Air Collection 36 Styles + Variable Cut Including Italics Aa All questions asked by five watched experts amaze the judge. Check it out" [ref=e1194] [cursor=pointer]:
+            - /url: /products/air
+            - generic [ref=e1195]:
+              - generic [ref=e1196]:
+                - heading "Air Collection" [level=3] [ref=e1197]
+                - generic [ref=e1198]:
+                  - text: 36 Styles + Variable Cut
+                  - text: Including Italics
+              - img [ref=e1200]
+            - generic [ref=e1203]:
+              - img [ref=e1207]:
+                - generic [ref=e1208]: Aa
+              - generic [ref=e1209]:
+                - generic [ref=e1211]: All questions asked by five watched experts amaze the judge.
+                - button "Check it out" [ref=e1212]:
+                  - generic [ref=e1213]: Check it out
+        - listitem [ref=e1214]:
+          - link "Playground 5 styles + Variable cut Aa The July sun caused a fragment of black pine wax to ooze on the velvet quilt. Check it out" [ref=e1216] [cursor=pointer]:
+            - /url: /products/playground
+            - generic [ref=e1218]:
+              - heading "Playground" [level=3] [ref=e1219]
+              - generic [ref=e1220]: 5 styles + Variable cut
+            - generic [ref=e1221]:
+              - img [ref=e1225]:
+                - generic [ref=e1226]: Aa
+              - generic [ref=e1227]:
+                - generic [ref=e1229]: The July sun caused a fragment of black pine wax to ooze on the velvet quilt.
+                - button "Check it out" [ref=e1230]:
+                  - generic [ref=e1231]: Check it out
+    - generic [ref=e1235]:
+      - generic [ref=e1236]: 🛠️
+      - generic [ref=e1237]:
+        - heading "This typeface is still in beta." [level=6] [ref=e1238]
+        - paragraph [ref=e1239]: This typeface is still in Beta which means it’s almost finished but not quite. You can still try it for free and buy it but there might be some very minor issues. If you have bought it, you will automatically get the final version once it’s ready.
+      - button [ref=e1240] [cursor=pointer]:
+        - img [ref=e1241]
+  - contentinfo [ref=e1244]:
+    - generic [ref=e1245]:
+      - generic [ref=e1246]:
+        - img "Pangram Pangram Foundry" [ref=e1248]
+        - generic [ref=e1249]:
+          - generic [ref=e1250]:
+            - generic [ref=e1251]: All Fonts
+            - list [ref=e1252]:
+              - listitem [ref=e1253]:
+                - link "Frama" [ref=e1254] [cursor=pointer]:
+                  - /url: /products/frama
+              - listitem [ref=e1255]:
+                - link "Kyoto" [ref=e1256] [cursor=pointer]:
+                  - /url: /products/kyoto
+              - listitem [ref=e1257]:
+                - link "Watch" [ref=e1258] [cursor=pointer]:
+                  - /url: /products/watch
+              - listitem [ref=e1259]:
+                - link "Museum" [ref=e1260] [cursor=pointer]:
+                  - /url: /products/museum
+              - listitem [ref=e1261]:
+                - link "Model" [ref=e1262] [cursor=pointer]:
+                  - /url: /products/model
+              - listitem [ref=e1263]:
+                - link "Lettra Mono" [ref=e1264] [cursor=pointer]:
+                  - /url: /products/lettra-mono
+              - listitem [ref=e1265]:
+                - link "Valve" [ref=e1266] [cursor=pointer]:
+                  - /url: /products/valve
+              - listitem [ref=e1267]:
+                - link "Neue Corp" [ref=e1268] [cursor=pointer]:
+                  - /url: /products/neue-corp
+              - listitem [ref=e1269]:
+                - link "Editorial Sans" [ref=e1270] [cursor=pointer]:
+                  - /url: /products/editorial-sans
+              - listitem [ref=e1271]:
+                - link "Playground" [ref=e1272] [cursor=pointer]:
+                  - /url: /products/playground
+              - listitem [ref=e1273]:
+                - link "Nikkei" [ref=e1274] [cursor=pointer]:
+                  - /url: /products/nikkei
+              - listitem [ref=e1275]:
+                - link "Gatwick" [ref=e1276] [cursor=pointer]:
+                  - /url: /products/gatwick
+              - listitem [ref=e1277]:
+                - link "Talisman" [ref=e1278] [cursor=pointer]:
+                  - /url: /products/talisman
+              - listitem [ref=e1279]:
+                - link "Right Grotesk Mono" [ref=e1280] [cursor=pointer]:
+                  - /url: /products/right-grotesk-mono
+              - listitem [ref=e1281]:
+                - link "Right Serif Mono" [ref=e1282] [cursor=pointer]:
+                  - /url: /products/right-serif-mono
+              - listitem [ref=e1283]:
+                - link "Pangaia" [ref=e1284] [cursor=pointer]:
+                  - /url: /products/pangaia
+              - listitem [ref=e1285]:
+                - link "Neue Montreal Mono" [ref=e1286] [cursor=pointer]:
+                  - /url: /products/neue-montreal-mono
+              - listitem [ref=e1287]:
+                - link "Hatton" [ref=e1288] [cursor=pointer]:
+                  - /url: /products/hatton
+              - listitem [ref=e1289]:
+                - link "Air" [ref=e1290] [cursor=pointer]:
+                  - /url: /products/air
+              - listitem [ref=e1291]:
+                - link "Editorial Old" [ref=e1292] [cursor=pointer]:
+                  - /url: /products/editorial-old
+              - listitem [ref=e1293]:
+                - link "Fragment" [ref=e1294] [cursor=pointer]:
+                  - /url: /products/fragment
+              - listitem [ref=e1295]:
+                - link "Neue Montreal Arabic" [ref=e1296] [cursor=pointer]:
+                  - /url: /products/neue-montreal-arabic
+              - listitem [ref=e1297]:
+                - link "Right Didone" [ref=e1298] [cursor=pointer]:
+                  - /url: /products/right-didone
+              - listitem [ref=e1299]:
+                - link "Right Serif" [ref=e1300] [cursor=pointer]:
+                  - /url: /products/right-serif
+              - listitem [ref=e1301]:
+                - link "Right Slab" [ref=e1302] [cursor=pointer]:
+                  - /url: /products/right-slab
+              - listitem [ref=e1303]:
+                - link "Acma" [ref=e1304] [cursor=pointer]:
+                  - /url: /products/acma
+              - listitem [ref=e1305]:
+                - link "Writer" [ref=e1306] [cursor=pointer]:
+                  - /url: /products/writer
+              - listitem [ref=e1307]:
+                - link "Telegraf" [ref=e1308] [cursor=pointer]:
+                  - /url: /products/telegraf
+              - listitem [ref=e1309]:
+                - link "Neue Machina" [ref=e1310] [cursor=pointer]:
+                  - /url: /products/neue-machina-collection
+              - listitem [ref=e1311]:
+                - link "Mori" [ref=e1312] [cursor=pointer]:
+                  - /url: /products/mori
+              - listitem [ref=e1313]:
+                - link "Right Sans" [ref=e1314] [cursor=pointer]:
+                  - /url: /products/right-sans
+              - listitem [ref=e1315]:
+                - link "Formula" [ref=e1316] [cursor=pointer]:
+                  - /url: /products/formula
+              - listitem [ref=e1317]:
+                - link "Rader" [ref=e1318] [cursor=pointer]:
+                  - /url: /products/rader
+              - listitem [ref=e1319]:
+                - link "Neue Montreal" [ref=e1320] [cursor=pointer]:
+                  - /url: /products/neue-montreal
+              - listitem [ref=e1321]:
+                - link "Neue World" [ref=e1322] [cursor=pointer]:
+                  - /url: /products/neue-world
+              - listitem [ref=e1323]:
+                - link "Radio Grotesk" [ref=e1324] [cursor=pointer]:
+                  - /url: /products/radio-grotesk
+              - listitem [ref=e1325]:
+                - link "Eiko" [ref=e1326] [cursor=pointer]:
+                  - /url: /products/eiko
+              - listitem [ref=e1327]:
+                - link "Pangram Sans" [ref=e1328] [cursor=pointer]:
+                  - /url: /products/pangram-sans
+              - listitem [ref=e1329]:
+                - link "Editorial New" [ref=e1330] [cursor=pointer]:
+                  - /url: /products/editorial-new
+              - listitem [ref=e1331]:
+                - link "Migra" [ref=e1332] [cursor=pointer]:
+                  - /url: /products/migra
+              - listitem [ref=e1333]:
+                - link "Pangram Sans Rounded" [ref=e1334] [cursor=pointer]:
+                  - /url: /products/pangram-sans-rounded
+              - listitem [ref=e1335]:
+                - link "Agrandir" [ref=e1336] [cursor=pointer]:
+                  - /url: /products/agrandir
+              - listitem [ref=e1337]:
+                - link "Right Gothic" [ref=e1338] [cursor=pointer]:
+                  - /url: /products/right-gothic
+              - listitem [ref=e1339]:
+                - link "Supply" [ref=e1340] [cursor=pointer]:
+                  - /url: /products/supply
+              - listitem [ref=e1341]:
+                - link "Monument" [ref=e1342] [cursor=pointer]:
+                  - /url: /products/monument
+              - listitem [ref=e1343]:
+                - link "Right Grotesk" [ref=e1344] [cursor=pointer]:
+                  - /url: /products/right-grotesk
+              - listitem [ref=e1345]:
+                - link "Fraktion" [ref=e1346] [cursor=pointer]:
+                  - /url: /products/fraktion
+              - listitem [ref=e1347]:
+                - link "Bitmap Font Pack" [ref=e1348] [cursor=pointer]:
+                  - /url: /products/bitmap-fonts
+              - listitem [ref=e1349]:
+                - link "Object Sans" [ref=e1350] [cursor=pointer]:
+                  - /url: /products/object-sans
+              - listitem [ref=e1351]:
+                - link "Cirka" [ref=e1352] [cursor=pointer]:
+                  - /url: /products/cirka
+              - listitem [ref=e1353]:
+                - link "Grafier" [ref=e1354] [cursor=pointer]:
+                  - /url: /products/grafier
+              - listitem [ref=e1355]:
+                - link "Gosha Sans" [ref=e1356] [cursor=pointer]:
+                  - /url: /products/gosha-sans
+              - listitem [ref=e1357]:
+                - link "Woodland" [ref=e1358] [cursor=pointer]:
+                  - /url: /products/woodland
+              - listitem [ref=e1359]:
+                - link "Fuji Sans" [ref=e1360] [cursor=pointer]:
+                  - /url: /products/fuji-sans
+              - listitem [ref=e1361]:
+                - link "Stellar Sans" [ref=e1362] [cursor=pointer]:
+                  - /url: /products/stellar-sans
+              - listitem [ref=e1363]:
+                - link "Pier Sans" [ref=e1364] [cursor=pointer]:
+                  - /url: /products/pier-sans
+              - listitem [ref=e1365]:
+                - link "Charlevoix Pro" [ref=e1366] [cursor=pointer]:
+                  - /url: /products/charlevoix-pro
+              - listitem [ref=e1367]:
+                - link "Casa Stencil" [ref=e1368] [cursor=pointer]:
+                  - /url: /products/casa-stencil
+              - listitem [ref=e1369]:
+                - link "Chronos Serif" [ref=e1370] [cursor=pointer]:
+                  - /url: /products/chronos-serif
+          - generic [ref=e1371]:
+            - generic [ref=e1372]: Support
+            - list [ref=e1373]:
+              - listitem [ref=e1374]:
+                - link "Contact us" [ref=e1375] [cursor=pointer]:
+                  - /url: /pages/contact-us
+              - listitem [ref=e1376]:
+                - link "Font Licenses" [ref=e1377] [cursor=pointer]:
+                  - /url: /pages/faq#font-licensing
+              - listitem [ref=e1378]:
+                - link "Free To Try" [ref=e1379] [cursor=pointer]:
+                  - /url: /pages/faq#free-fonts-and-personal-use
+              - listitem [ref=e1380]:
+                - link "FAQs" [ref=e1381] [cursor=pointer]:
+                  - /url: /pages/faq
+              - listitem [ref=e1382]:
+                - link "EULA" [ref=e1383] [cursor=pointer]:
+                  - /url: /pages/eula
+            - link "About us" [ref=e1385] [cursor=pointer]:
+              - /url: /pages/about-us
+            - list [ref=e1386]:
+              - listitem [ref=e1387]:
+                - link "Expertise" [ref=e1388] [cursor=pointer]:
+                  - /url: /pages/about-us#intro
+              - listitem [ref=e1389]:
+                - link "Clients" [ref=e1390] [cursor=pointer]:
+                  - /url: /pages/about-us#clients
+              - listitem [ref=e1391]:
+                - link "Team" [ref=e1392] [cursor=pointer]:
+                  - /url: /pages/about-us#team
+            - generic [ref=e1393]: Follow us
+            - list [ref=e1394]:
+              - listitem [ref=e1395]:
+                - link "Instagram" [ref=e1396] [cursor=pointer]:
+                  - /url: https://www.instagram.com/pangram.pangram/
+              - listitem [ref=e1397]:
+                - link "Twitter" [ref=e1398] [cursor=pointer]:
+                  - /url: https://x.com/pangrampangram_
+              - listitem [ref=e1399]:
+                - link "YouTube" [ref=e1400] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@pangrampangramfoundry7892
+          - generic [ref=e1401]:
+            - generic [ref=e1402]: More PP®F
+            - list [ref=e1403]:
+              - listitem [ref=e1404]:
+                - link "All Fonts" [ref=e1405] [cursor=pointer]:
+                  - /url: /collections/fonts
+              - listitem [ref=e1406]:
+                - link "Early access" [ref=e1407] [cursor=pointer]:
+                  - /url: /collections/early-access
+              - listitem [ref=e1408]:
+                - link "Font Starter Pack" [ref=e1409] [cursor=pointer]:
+                  - /url: /products/fsp
+              - listitem [ref=e1410]:
+                - link "Font in use" [ref=e1411] [cursor=pointer]:
+                  - /url: /blogs/font-in-use
+              - listitem [ref=e1412]:
+                - link "Academy" [ref=e1413] [cursor=pointer]:
+                  - /url: /blogs/journal
+              - listitem [ref=e1414]:
+                - link "About Us" [ref=e1415] [cursor=pointer]:
+                  - /url: /pages/about-us
+            - generic [ref=e1416]: From the Lab
+            - list [ref=e1417]:
+              - listitem [ref=e1418]:
+                - link "Inspiration" [ref=e1419] [cursor=pointer]:
+                  - /url: https://www.instagram.com/lab.pangrampangram
+              - listitem [ref=e1420]:
+                - link "Latest Playlist" [ref=e1421] [cursor=pointer]:
+                  - /url: https://open.spotify.com/playlist/4OhzmCJrrvbmibukHpExOb?si=1c22ebde7dc04c7a
+          - generic [ref=e1422]:
+            - generic [ref=e1423]: Microsites
+            - list [ref=e1424]:
+              - listitem [ref=e1425]:
+                - link "Frama" [ref=e1426] [cursor=pointer]:
+                  - /url: https://pp-frama.com/
+              - listitem [ref=e1427]:
+                - link "Fragment" [ref=e1428] [cursor=pointer]:
+                  - /url: https://pp-fragment.com/
+              - listitem [ref=e1429]:
+                - link "Editorial New" [ref=e1430] [cursor=pointer]:
+                  - /url: https://editorialnew.com/
+            - generic [ref=e1431]: Powered by us
+            - list [ref=e1432]:
+              - listitem [ref=e1433]:
+                - link "Off Type Foundry" [ref=e1434] [cursor=pointer]:
+                  - /url: https://off-type.com/
+              - listitem [ref=e1435]:
+                - link "Playground Goods" [ref=e1436] [cursor=pointer]:
+                  - /url: https://pangramplayground.com/
+              - listitem [ref=e1437]:
+                - link "Font Starter Pack" [ref=e1438] [cursor=pointer]:
+                  - /url: /products/fsp
+              - listitem [ref=e1439]:
+                - link "TypeTrials®" [ref=e1440] [cursor=pointer]:
+                  - /url: https://typetrials.com/
+          - generic [ref=e1441]:
+            - generic [ref=e1442]: Account
+            - list [ref=e1443]:
+              - listitem [ref=e1444]:
+                - link "Login" [ref=e1445] [cursor=pointer]:
+                  - /url: /account/login
+              - listitem [ref=e1446]:
+                - link "Create account" [ref=e1447] [cursor=pointer]:
+                  - /url: /account/register
+            - link "Cart0" [ref=e1449] [cursor=pointer]:
+              - /url: /cart
+              - text: Cart
+              - superscript [ref=e1450]: "0"
+            - link "Français" [ref=e1453] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e1454]:
+            - generic [ref=e1455]: Don't miss a beat
+            - paragraph [ref=e1456]: Subscribe to our newsletter to stay in touch with the latest.
+            - generic [ref=e1458]:
+              - textbox "Email address" [ref=e1459]
+              - button "→" [ref=e1460] [cursor=pointer]
+        - generic [ref=e1461]:
+          - generic [ref=e1462]:
+            - img [ref=e1464]
+            - img [ref=e1467]
+            - img [ref=e1470]
+            - img [ref=e1473]
+          - generic [ref=e1476]: Copyright © 2018 – 2026. All rights reserved.
+      - generic [ref=e1477]:
+        - link "↑ Back to top" [ref=e1479] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e1480]: Pangram Pangram® Foundry
+        - generic [ref=e1481]:
+          - text: Created by
+          - link "Mat Desjardins" [ref=e1482] [cursor=pointer]:
+            - /url: https://www.instagram.com/matdesjardins/
+          - text: and
+          - link "the team" [ref=e1483] [cursor=pointer]:
+            - /url: /pages/about-us#team
+          - text: .

@@ -1,0 +1,39 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "W Type Foundry" [ref=e5] [cursor=pointer]:
+      - /url: https://wtypefoundry.com
+      - img "W Type Foundry" [ref=e6]
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "Typefaces" [ref=e10] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/typefaces
+      - listitem [ref=e11]:
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/about
+      - listitem [ref=e13]:
+        - link "Blog" [ref=e14] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/blog
+      - listitem [ref=e15]:
+        - link "Licenses" [ref=e16] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/licenses
+      - listitem [ref=e17]:
+        - link "Contact" [ref=e18] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/contact
+    - list [ref=e20]:
+      - listitem [ref=e21]:
+        - link "Sign in" [ref=e22] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/login
+  - main [ref=e23]:
+    - generic [ref=e26]:
+      - generic:
+        - text: YUM-YUM!
+        - text: Please may I have the menu?
+  - contentinfo [ref=e27]:
+    - generic [ref=e28]:
+      - link "Instagram" [ref=e30] [cursor=pointer]:
+        - /url: http://www.instagram.com/wtypefoundry/
+      - link "Subscribe" [ref=e32] [cursor=pointer]:
+        - /url: https://wtypefoundry.com/contact
+      - link "hola@wtypefoundry.com" [ref=e34] [cursor=pointer]:
+        - /url: mailto:hola@wtypefoundry.com
+      - generic [ref=e35]: © W Type Foundry 2026

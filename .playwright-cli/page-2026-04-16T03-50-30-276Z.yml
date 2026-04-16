@@ -1,0 +1,2369 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - paragraph [ref=e6]: Beta 0.1
+      - link "Logo" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=e8]
+    - generic [ref=e10]:
+      - paragraph [ref=e12]: ","
+      - link "Fonts" [ref=e13] [cursor=pointer]:
+        - /url: https://intervaltype.com/fonts/
+    - generic [ref=e15]:
+      - paragraph [ref=e17]: Partly Cloudy +22C˚
+      - link "Custom" [ref=e18] [cursor=pointer]:
+        - /url: https://intervaltype.com/custom/
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - paragraph [ref=e24]:
+            - link "Instagram" [ref=e25] [cursor=pointer]:
+              - /url: https://www.instagram.com/intervaltype
+          - paragraph [ref=e26]:
+            - link "Behance" [ref=e27] [cursor=pointer]:
+              - /url: https://www.behance.net
+        - generic [ref=e28]:
+          - link "Cart(0)" [ref=e29] [cursor=pointer]:
+            - /url: https://intervaltype.com/cart/
+          - link "Sign in" [ref=e30] [cursor=pointer]:
+            - /url: https://intervaltype.com/sign-in/
+      - link "Info+" [ref=e31] [cursor=pointer]:
+        - /url: https://intervaltype.com/info/
+  - main [ref=e32]:
+    - generic [ref=e36]:
+      - img [ref=e37]
+      - img [ref=e38]
+      - img [ref=e39]
+      - img [ref=e40]
+      - img [ref=e41]
+      - img [ref=e42]
+      - img [ref=e43]
+      - img [ref=e44]
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e50] [cursor=pointer]:
+          - combobox [ref=e51]:
+            - generic [ref=e52]: FactorA Light
+            - listbox:
+              - option "FactorA Ultralight" [ref=e53]
+              - option "FactorA Ultralight Italic" [ref=e54]
+              - option "FactorA Light" [ref=e55]
+              - option "FactorA Light Italic" [ref=e56]
+              - option "FactorA Regular" [ref=e57]
+              - option "FactorA Italic" [ref=e58]
+              - option "FactorA Medium" [ref=e59]
+              - option "FactorA Medium Italic" [ref=e60]
+              - option "FactorA Bold" [ref=e61]
+              - option "FactorA Bold Italic" [ref=e62]
+              - option "FactorA Extrabold" [ref=e63]
+              - option "FactorA Extrabold Italic" [ref=e64]
+              - option "FactorA Black" [ref=e65]
+              - option "FactorA Black Italic" [ref=e66]
+              - option "FactorA Ultralight 35" [ref=e67]
+              - option "FactorA Ultralight 35 Italic" [ref=e68]
+              - option "FactorA Light 35" [ref=e69]
+              - option "FactorA Light 35 Italic" [ref=e70]
+              - option "FactorA Regular 35" [ref=e71]
+              - option "FactorA Regular 35 Italic" [ref=e72]
+              - option "FactorA Medium 35" [ref=e73]
+              - option "FactorA Medium 35 Italic" [ref=e74]
+              - option "FactorA Bold 35" [ref=e75]
+              - option "FactorA Bold 35 Italic" [ref=e76]
+              - option "FactorA Extrabold 35" [ref=e77]
+              - option "FactorA Extrabold 35 Italic" [ref=e78]
+              - option "FactorA Black 35" [ref=e79]
+              - option "FactorA Black 35 Italic" [ref=e80]
+              - option "FactorA Ultralight 65" [ref=e81]
+              - option "FactorA Ultralight 65 Italic" [ref=e82]
+              - option "FactorA Light 65" [ref=e83]
+              - option "FactorA Light 65 Italic" [ref=e84]
+              - option "FactorA Regular 65" [ref=e85]
+              - option "FactorA Regular 65 Italic" [ref=e86]
+              - option "FactorA Medium 65" [ref=e87]
+              - option "FactorA Medium 65 Italic" [ref=e88]
+              - option "FactorA Bold 65" [ref=e89]
+              - option "FactorA Bold 65 Italic" [ref=e90]
+              - option "FactorA Extrabold 65" [ref=e91]
+              - option "FactorA Extrabold 65 Italic" [ref=e92]
+              - option "FactorA Black 65" [ref=e93]
+              - option "FactorA Black 65 Italic" [ref=e94]
+              - option "FactorA Ultralight 100" [ref=e95]
+              - option "FactorA Ultralight 100 Italic" [ref=e96]
+              - option "FactorA Light 100" [ref=e97]
+              - option "FactorA Light 100 Italic" [ref=e98]
+              - option "FactorA Regular 100" [ref=e99]
+              - option "FactorA Regular 100 Italic" [ref=e100]
+              - option "FactorA Medium 100" [ref=e101]
+              - option "FactorA Medium 100 Italic" [ref=e102]
+              - option "FactorA Bold 100" [ref=e103]
+              - option "FactorA Bold 100 Italic" [ref=e104]
+              - option "FactorA Extrabold 100" [ref=e105]
+              - option "FactorA Extrabold 100 Italic" [ref=e106]
+              - option "FactorA Black 100" [ref=e107]
+              - option "FactorA Black 100 Italic" [ref=e108]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light" [selected]
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e110]: "120"
+        - slider [ref=e112]: "1.2"
+        - generic [ref=e114] [cursor=pointer]:
+          - combobox [ref=e115]:
+            - generic [ref=e116]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e117]
+              - option "Funk It Up" [ref=e118]
+              - option "Neutral 'f' and 't'" [ref=e119]
+              - option "Rounded lowercase" [ref=e120]
+              - option "Slashed Zero" [ref=e121]
+          - option "Default Set" [selected]
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e122] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e123]: Wizards are making a toxic brew for the Queen of Lanschaft
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e127] [cursor=pointer]:
+          - combobox [ref=e128]:
+            - generic [ref=e129]: FactorA Black 100 Italic
+            - listbox:
+              - option "FactorA Ultralight" [ref=e130]
+              - option "FactorA Ultralight Italic" [ref=e131]
+              - option "FactorA Light" [ref=e132]
+              - option "FactorA Light Italic" [ref=e133]
+              - option "FactorA Regular" [ref=e134]
+              - option "FactorA Italic" [ref=e135]
+              - option "FactorA Medium" [ref=e136]
+              - option "FactorA Medium Italic" [ref=e137]
+              - option "FactorA Bold" [ref=e138]
+              - option "FactorA Bold Italic" [ref=e139]
+              - option "FactorA Extrabold" [ref=e140]
+              - option "FactorA Extrabold Italic" [ref=e141]
+              - option "FactorA Black" [ref=e142]
+              - option "FactorA Black Italic" [ref=e143]
+              - option "FactorA Ultralight 35" [ref=e144]
+              - option "FactorA Ultralight 35 Italic" [ref=e145]
+              - option "FactorA Light 35" [ref=e146]
+              - option "FactorA Light 35 Italic" [ref=e147]
+              - option "FactorA Regular 35" [ref=e148]
+              - option "FactorA Regular 35 Italic" [ref=e149]
+              - option "FactorA Medium 35" [ref=e150]
+              - option "FactorA Medium 35 Italic" [ref=e151]
+              - option "FactorA Bold 35" [ref=e152]
+              - option "FactorA Bold 35 Italic" [ref=e153]
+              - option "FactorA Extrabold 35" [ref=e154]
+              - option "FactorA Extrabold 35 Italic" [ref=e155]
+              - option "FactorA Black 35" [ref=e156]
+              - option "FactorA Black 35 Italic" [ref=e157]
+              - option "FactorA Ultralight 65" [ref=e158]
+              - option "FactorA Ultralight 65 Italic" [ref=e159]
+              - option "FactorA Light 65" [ref=e160]
+              - option "FactorA Light 65 Italic" [ref=e161]
+              - option "FactorA Regular 65" [ref=e162]
+              - option "FactorA Regular 65 Italic" [ref=e163]
+              - option "FactorA Medium 65" [ref=e164]
+              - option "FactorA Medium 65 Italic" [ref=e165]
+              - option "FactorA Bold 65" [ref=e166]
+              - option "FactorA Bold 65 Italic" [ref=e167]
+              - option "FactorA Extrabold 65" [ref=e168]
+              - option "FactorA Extrabold 65 Italic" [ref=e169]
+              - option "FactorA Black 65" [ref=e170]
+              - option "FactorA Black 65 Italic" [ref=e171]
+              - option "FactorA Ultralight 100" [ref=e172]
+              - option "FactorA Ultralight 100 Italic" [ref=e173]
+              - option "FactorA Light 100" [ref=e174]
+              - option "FactorA Light 100 Italic" [ref=e175]
+              - option "FactorA Regular 100" [ref=e176]
+              - option "FactorA Regular 100 Italic" [ref=e177]
+              - option "FactorA Medium 100" [ref=e178]
+              - option "FactorA Medium 100 Italic" [ref=e179]
+              - option "FactorA Bold 100" [ref=e180]
+              - option "FactorA Bold 100 Italic" [ref=e181]
+              - option "FactorA Extrabold 100" [ref=e182]
+              - option "FactorA Extrabold 100 Italic" [ref=e183]
+              - option "FactorA Black 100" [ref=e184]
+              - option "FactorA Black 100 Italic" [ref=e185]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic" [selected]
+        - slider [ref=e187]: "210"
+        - slider [ref=e189]: "1"
+        - generic [ref=e191] [cursor=pointer]:
+          - combobox [ref=e192]:
+            - generic [ref=e193]: Funk It Up
+            - listbox:
+              - option "Funk It Up" [ref=e194]
+              - option "Default Set" [ref=e195]
+              - option "Neutral 'f' and 't'" [ref=e196]
+              - option "Rounded lowercase" [ref=e197]
+              - option "Slashed Zero" [ref=e198]
+          - option "Funk It Up" [selected]
+          - option "Default Set"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e199] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e200]: The New Stretch
+    - generic [ref=e201]:
+      - generic [ref=e202]:
+        - generic [ref=e204] [cursor=pointer]:
+          - combobox [ref=e205]:
+            - generic [ref=e206]: FactorA Regular
+            - listbox:
+              - option "FactorA Ultralight" [ref=e207]
+              - option "FactorA Ultralight Italic" [ref=e208]
+              - option "FactorA Light" [ref=e209]
+              - option "FactorA Light Italic" [ref=e210]
+              - option "FactorA Regular" [ref=e211]
+              - option "FactorA Italic" [ref=e212]
+              - option "FactorA Medium" [ref=e213]
+              - option "FactorA Medium Italic" [ref=e214]
+              - option "FactorA Bold" [ref=e215]
+              - option "FactorA Bold Italic" [ref=e216]
+              - option "FactorA Extrabold" [ref=e217]
+              - option "FactorA Extrabold Italic" [ref=e218]
+              - option "FactorA Black" [ref=e219]
+              - option "FactorA Black Italic" [ref=e220]
+              - option "FactorA Ultralight 35" [ref=e221]
+              - option "FactorA Ultralight 35 Italic" [ref=e222]
+              - option "FactorA Light 35" [ref=e223]
+              - option "FactorA Light 35 Italic" [ref=e224]
+              - option "FactorA Regular 35" [ref=e225]
+              - option "FactorA Regular 35 Italic" [ref=e226]
+              - option "FactorA Medium 35" [ref=e227]
+              - option "FactorA Medium 35 Italic" [ref=e228]
+              - option "FactorA Bold 35" [ref=e229]
+              - option "FactorA Bold 35 Italic" [ref=e230]
+              - option "FactorA Extrabold 35" [ref=e231]
+              - option "FactorA Extrabold 35 Italic" [ref=e232]
+              - option "FactorA Black 35" [ref=e233]
+              - option "FactorA Black 35 Italic" [ref=e234]
+              - option "FactorA Ultralight 65" [ref=e235]
+              - option "FactorA Ultralight 65 Italic" [ref=e236]
+              - option "FactorA Light 65" [ref=e237]
+              - option "FactorA Light 65 Italic" [ref=e238]
+              - option "FactorA Regular 65" [ref=e239]
+              - option "FactorA Regular 65 Italic" [ref=e240]
+              - option "FactorA Medium 65" [ref=e241]
+              - option "FactorA Medium 65 Italic" [ref=e242]
+              - option "FactorA Bold 65" [ref=e243]
+              - option "FactorA Bold 65 Italic" [ref=e244]
+              - option "FactorA Extrabold 65" [ref=e245]
+              - option "FactorA Extrabold 65 Italic" [ref=e246]
+              - option "FactorA Black 65" [ref=e247]
+              - option "FactorA Black 65 Italic" [ref=e248]
+              - option "FactorA Ultralight 100" [ref=e249]
+              - option "FactorA Ultralight 100 Italic" [ref=e250]
+              - option "FactorA Light 100" [ref=e251]
+              - option "FactorA Light 100 Italic" [ref=e252]
+              - option "FactorA Regular 100" [ref=e253]
+              - option "FactorA Regular 100 Italic" [ref=e254]
+              - option "FactorA Medium 100" [ref=e255]
+              - option "FactorA Medium 100 Italic" [ref=e256]
+              - option "FactorA Bold 100" [ref=e257]
+              - option "FactorA Bold 100 Italic" [ref=e258]
+              - option "FactorA Extrabold 100" [ref=e259]
+              - option "FactorA Extrabold 100 Italic" [ref=e260]
+              - option "FactorA Black 100" [ref=e261]
+              - option "FactorA Black 100 Italic" [ref=e262]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular" [selected]
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e264]: "45"
+        - slider [ref=e266]: "1.2"
+        - generic [ref=e268] [cursor=pointer]:
+          - combobox [ref=e269]:
+            - generic [ref=e270]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e271]
+              - option "Funk It Up" [ref=e272]
+              - option "Neutral 'f' and 't'" [ref=e273]
+              - option "Rounded lowercase" [ref=e274]
+              - option "Slashed Zero" [ref=e275]
+          - option "Default Set" [selected]
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e276] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e277]: The language has changed significantly over time. Originally, Factor programs centered on manipulating Java objects with Java’s reflection capabilities. From the beginning, the design philosophy has been to modify the language to suit programs written in it. As the Factor implementation and standard libraries grew more detailed, the need for certain language features became clear, and they were added.
+    - generic [ref=e278]:
+      - generic [ref=e279]:
+        - generic [ref=e281] [cursor=pointer]:
+          - combobox [ref=e282]:
+            - generic [ref=e283]: FactorA Bold 65
+            - listbox:
+              - option "FactorA Ultralight" [ref=e284]
+              - option "FactorA Ultralight Italic" [ref=e285]
+              - option "FactorA Light" [ref=e286]
+              - option "FactorA Light Italic" [ref=e287]
+              - option "FactorA Regular" [ref=e288]
+              - option "FactorA Italic" [ref=e289]
+              - option "FactorA Medium" [ref=e290]
+              - option "FactorA Medium Italic" [ref=e291]
+              - option "FactorA Bold" [ref=e292]
+              - option "FactorA Bold Italic" [ref=e293]
+              - option "FactorA Extrabold" [ref=e294]
+              - option "FactorA Extrabold Italic" [ref=e295]
+              - option "FactorA Black" [ref=e296]
+              - option "FactorA Black Italic" [ref=e297]
+              - option "FactorA Ultralight 35" [ref=e298]
+              - option "FactorA Ultralight 35 Italic" [ref=e299]
+              - option "FactorA Light 35" [ref=e300]
+              - option "FactorA Light 35 Italic" [ref=e301]
+              - option "FactorA Regular 35" [ref=e302]
+              - option "FactorA Regular 35 Italic" [ref=e303]
+              - option "FactorA Medium 35" [ref=e304]
+              - option "FactorA Medium 35 Italic" [ref=e305]
+              - option "FactorA Bold 35" [ref=e306]
+              - option "FactorA Bold 35 Italic" [ref=e307]
+              - option "FactorA Extrabold 35" [ref=e308]
+              - option "FactorA Extrabold 35 Italic" [ref=e309]
+              - option "FactorA Black 35" [ref=e310]
+              - option "FactorA Black 35 Italic" [ref=e311]
+              - option "FactorA Ultralight 65" [ref=e312]
+              - option "FactorA Ultralight 65 Italic" [ref=e313]
+              - option "FactorA Light 65" [ref=e314]
+              - option "FactorA Light 65 Italic" [ref=e315]
+              - option "FactorA Regular 65" [ref=e316]
+              - option "FactorA Regular 65 Italic" [ref=e317]
+              - option "FactorA Medium 65" [ref=e318]
+              - option "FactorA Medium 65 Italic" [ref=e319]
+              - option "FactorA Bold 65" [ref=e320]
+              - option "FactorA Bold 65 Italic" [ref=e321]
+              - option "FactorA Extrabold 65" [ref=e322]
+              - option "FactorA Extrabold 65 Italic" [ref=e323]
+              - option "FactorA Black 65" [ref=e324]
+              - option "FactorA Black 65 Italic" [ref=e325]
+              - option "FactorA Ultralight 100" [ref=e326]
+              - option "FactorA Ultralight 100 Italic" [ref=e327]
+              - option "FactorA Light 100" [ref=e328]
+              - option "FactorA Light 100 Italic" [ref=e329]
+              - option "FactorA Regular 100" [ref=e330]
+              - option "FactorA Regular 100 Italic" [ref=e331]
+              - option "FactorA Medium 100" [ref=e332]
+              - option "FactorA Medium 100 Italic" [ref=e333]
+              - option "FactorA Bold 100" [ref=e334]
+              - option "FactorA Bold 100 Italic" [ref=e335]
+              - option "FactorA Extrabold 100" [ref=e336]
+              - option "FactorA Extrabold 100 Italic" [ref=e337]
+              - option "FactorA Black 100" [ref=e338]
+              - option "FactorA Black 100 Italic" [ref=e339]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65" [selected]
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e341]: "45"
+        - slider [ref=e343]: "1.2"
+        - generic [ref=e345] [cursor=pointer]:
+          - combobox [ref=e346]:
+            - generic [ref=e347]: Rounded lowercase
+            - listbox:
+              - option "Rounded lowercase" [ref=e348]
+              - option "Default Set" [ref=e349]
+              - option "Funk It Up" [ref=e350]
+              - option "Neutral 'f' and 't'" [ref=e351]
+              - option "Slashed Zero" [ref=e352]
+          - option "Rounded lowercase" [selected]
+          - option "Default Set"
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e353] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e354]: Picasso showed a passion and a skill for drawing from an early age. According to his mother, his first words were “piz, piz”, a shortening of lápiz, the Spanish word for “pencil”. From the age of seven, Picasso received formal artistic training from his father in figure drawing and oil painting. Ruiz was a traditional academic artist and instructor, who believed that proper training required disciplined copying of the masters, and drawing the human body from plaster
+    - generic [ref=e355]:
+      - generic [ref=e356]:
+        - generic [ref=e358] [cursor=pointer]:
+          - combobox [ref=e359]:
+            - generic [ref=e360]: FactorA Ultralight
+            - listbox:
+              - option "FactorA Ultralight" [ref=e361]
+              - option "FactorA Ultralight Italic" [ref=e362]
+              - option "FactorA Light" [ref=e363]
+              - option "FactorA Light Italic" [ref=e364]
+              - option "FactorA Regular" [ref=e365]
+              - option "FactorA Italic" [ref=e366]
+              - option "FactorA Medium" [ref=e367]
+              - option "FactorA Medium Italic" [ref=e368]
+              - option "FactorA Bold" [ref=e369]
+              - option "FactorA Bold Italic" [ref=e370]
+              - option "FactorA Extrabold" [ref=e371]
+              - option "FactorA Extrabold Italic" [ref=e372]
+              - option "FactorA Black" [ref=e373]
+              - option "FactorA Black Italic" [ref=e374]
+              - option "FactorA Ultralight 35" [ref=e375]
+              - option "FactorA Ultralight 35 Italic" [ref=e376]
+              - option "FactorA Light 35" [ref=e377]
+              - option "FactorA Light 35 Italic" [ref=e378]
+              - option "FactorA Regular 35" [ref=e379]
+              - option "FactorA Regular 35 Italic" [ref=e380]
+              - option "FactorA Medium 35" [ref=e381]
+              - option "FactorA Medium 35 Italic" [ref=e382]
+              - option "FactorA Bold 35" [ref=e383]
+              - option "FactorA Bold 35 Italic" [ref=e384]
+              - option "FactorA Extrabold 35" [ref=e385]
+              - option "FactorA Extrabold 35 Italic" [ref=e386]
+              - option "FactorA Black 35" [ref=e387]
+              - option "FactorA Black 35 Italic" [ref=e388]
+              - option "FactorA Ultralight 65" [ref=e389]
+              - option "FactorA Ultralight 65 Italic" [ref=e390]
+              - option "FactorA Light 65" [ref=e391]
+              - option "FactorA Light 65 Italic" [ref=e392]
+              - option "FactorA Regular 65" [ref=e393]
+              - option "FactorA Regular 65 Italic" [ref=e394]
+              - option "FactorA Medium 65" [ref=e395]
+              - option "FactorA Medium 65 Italic" [ref=e396]
+              - option "FactorA Bold 65" [ref=e397]
+              - option "FactorA Bold 65 Italic" [ref=e398]
+              - option "FactorA Extrabold 65" [ref=e399]
+              - option "FactorA Extrabold 65 Italic" [ref=e400]
+              - option "FactorA Black 65" [ref=e401]
+              - option "FactorA Black 65 Italic" [ref=e402]
+              - option "FactorA Ultralight 100" [ref=e403]
+              - option "FactorA Ultralight 100 Italic" [ref=e404]
+              - option "FactorA Light 100" [ref=e405]
+              - option "FactorA Light 100 Italic" [ref=e406]
+              - option "FactorA Regular 100" [ref=e407]
+              - option "FactorA Regular 100 Italic" [ref=e408]
+              - option "FactorA Medium 100" [ref=e409]
+              - option "FactorA Medium 100 Italic" [ref=e410]
+              - option "FactorA Bold 100" [ref=e411]
+              - option "FactorA Bold 100 Italic" [ref=e412]
+              - option "FactorA Extrabold 100" [ref=e413]
+              - option "FactorA Extrabold 100 Italic" [ref=e414]
+              - option "FactorA Black 100" [ref=e415]
+              - option "FactorA Black 100 Italic" [ref=e416]
+          - option "FactorA Ultralight" [selected]
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e418]: "120"
+        - slider [ref=e420]: "1.2"
+        - generic [ref=e422] [cursor=pointer]:
+          - combobox [ref=e423]:
+            - generic [ref=e424]: Funk It Up
+            - listbox:
+              - option "Funk It Up" [ref=e425]
+              - option "Default Set" [ref=e426]
+              - option "Neutral 'f' and 't'" [ref=e427]
+              - option "Rounded lowercase" [ref=e428]
+              - option "Slashed Zero" [ref=e429]
+          - option "Funk It Up" [selected]
+          - option "Default Set"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e430] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e431]: Elise, come over to the dark side. We’ve got candy for you!
+    - generic [ref=e432]:
+      - generic [ref=e433]:
+        - generic [ref=e435] [cursor=pointer]:
+          - combobox [ref=e436]:
+            - generic [ref=e437]: FactorA Black 65
+            - listbox:
+              - option "FactorA Ultralight" [ref=e438]
+              - option "FactorA Ultralight Italic" [ref=e439]
+              - option "FactorA Light" [ref=e440]
+              - option "FactorA Light Italic" [ref=e441]
+              - option "FactorA Regular" [ref=e442]
+              - option "FactorA Italic" [ref=e443]
+              - option "FactorA Medium" [ref=e444]
+              - option "FactorA Medium Italic" [ref=e445]
+              - option "FactorA Bold" [ref=e446]
+              - option "FactorA Bold Italic" [ref=e447]
+              - option "FactorA Extrabold" [ref=e448]
+              - option "FactorA Extrabold Italic" [ref=e449]
+              - option "FactorA Black" [ref=e450]
+              - option "FactorA Black Italic" [ref=e451]
+              - option "FactorA Ultralight 35" [ref=e452]
+              - option "FactorA Ultralight 35 Italic" [ref=e453]
+              - option "FactorA Light 35" [ref=e454]
+              - option "FactorA Light 35 Italic" [ref=e455]
+              - option "FactorA Regular 35" [ref=e456]
+              - option "FactorA Regular 35 Italic" [ref=e457]
+              - option "FactorA Medium 35" [ref=e458]
+              - option "FactorA Medium 35 Italic" [ref=e459]
+              - option "FactorA Bold 35" [ref=e460]
+              - option "FactorA Bold 35 Italic" [ref=e461]
+              - option "FactorA Extrabold 35" [ref=e462]
+              - option "FactorA Extrabold 35 Italic" [ref=e463]
+              - option "FactorA Black 35" [ref=e464]
+              - option "FactorA Black 35 Italic" [ref=e465]
+              - option "FactorA Ultralight 65" [ref=e466]
+              - option "FactorA Ultralight 65 Italic" [ref=e467]
+              - option "FactorA Light 65" [ref=e468]
+              - option "FactorA Light 65 Italic" [ref=e469]
+              - option "FactorA Regular 65" [ref=e470]
+              - option "FactorA Regular 65 Italic" [ref=e471]
+              - option "FactorA Medium 65" [ref=e472]
+              - option "FactorA Medium 65 Italic" [ref=e473]
+              - option "FactorA Bold 65" [ref=e474]
+              - option "FactorA Bold 65 Italic" [ref=e475]
+              - option "FactorA Extrabold 65" [ref=e476]
+              - option "FactorA Extrabold 65 Italic" [ref=e477]
+              - option "FactorA Black 65" [ref=e478]
+              - option "FactorA Black 65 Italic" [ref=e479]
+              - option "FactorA Ultralight 100" [ref=e480]
+              - option "FactorA Ultralight 100 Italic" [ref=e481]
+              - option "FactorA Light 100" [ref=e482]
+              - option "FactorA Light 100 Italic" [ref=e483]
+              - option "FactorA Regular 100" [ref=e484]
+              - option "FactorA Regular 100 Italic" [ref=e485]
+              - option "FactorA Medium 100" [ref=e486]
+              - option "FactorA Medium 100 Italic" [ref=e487]
+              - option "FactorA Bold 100" [ref=e488]
+              - option "FactorA Bold 100 Italic" [ref=e489]
+              - option "FactorA Extrabold 100" [ref=e490]
+              - option "FactorA Extrabold 100 Italic" [ref=e491]
+              - option "FactorA Black 100" [ref=e492]
+              - option "FactorA Black 100 Italic" [ref=e493]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65" [selected]
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e495]: "120"
+        - slider [ref=e497]: "1.2"
+        - generic [ref=e499] [cursor=pointer]:
+          - combobox [ref=e500]:
+            - generic [ref=e501]: Rounded lowercase
+            - listbox:
+              - option "Rounded lowercase" [ref=e502]
+              - option "Funk It Up" [ref=e503]
+              - option "Default Set" [ref=e504]
+              - option "Neutral 'f' and 't'" [ref=e505]
+              - option "Slashed Zero" [ref=e506]
+          - option "Rounded lowercase" [selected]
+          - option "Funk It Up"
+          - option "Default Set"
+          - option "Neutral 'f' and 't'"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e507] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e508]: Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich
+    - generic [ref=e509]:
+      - generic [ref=e510]:
+        - generic [ref=e512] [cursor=pointer]:
+          - combobox [ref=e513]:
+            - generic [ref=e514]: FactorA Ultralight
+            - listbox:
+              - option "FactorA Ultralight" [ref=e515]
+              - option "FactorA Ultralight Italic" [ref=e516]
+              - option "FactorA Light" [ref=e517]
+              - option "FactorA Light Italic" [ref=e518]
+              - option "FactorA Regular" [ref=e519]
+              - option "FactorA Italic" [ref=e520]
+              - option "FactorA Medium" [ref=e521]
+              - option "FactorA Medium Italic" [ref=e522]
+              - option "FactorA Bold" [ref=e523]
+              - option "FactorA Bold Italic" [ref=e524]
+              - option "FactorA Extrabold" [ref=e525]
+              - option "FactorA Extrabold Italic" [ref=e526]
+              - option "FactorA Black" [ref=e527]
+              - option "FactorA Black Italic" [ref=e528]
+              - option "FactorA Ultralight 35" [ref=e529]
+              - option "FactorA Ultralight 35 Italic" [ref=e530]
+              - option "FactorA Light 35" [ref=e531]
+              - option "FactorA Light 35 Italic" [ref=e532]
+              - option "FactorA Regular 35" [ref=e533]
+              - option "FactorA Regular 35 Italic" [ref=e534]
+              - option "FactorA Medium 35" [ref=e535]
+              - option "FactorA Medium 35 Italic" [ref=e536]
+              - option "FactorA Bold 35" [ref=e537]
+              - option "FactorA Bold 35 Italic" [ref=e538]
+              - option "FactorA Extrabold 35" [ref=e539]
+              - option "FactorA Extrabold 35 Italic" [ref=e540]
+              - option "FactorA Black 35" [ref=e541]
+              - option "FactorA Black 35 Italic" [ref=e542]
+              - option "FactorA Ultralight 65" [ref=e543]
+              - option "FactorA Ultralight 65 Italic" [ref=e544]
+              - option "FactorA Light 65" [ref=e545]
+              - option "FactorA Light 65 Italic" [ref=e546]
+              - option "FactorA Regular 65" [ref=e547]
+              - option "FactorA Regular 65 Italic" [ref=e548]
+              - option "FactorA Medium 65" [ref=e549]
+              - option "FactorA Medium 65 Italic" [ref=e550]
+              - option "FactorA Bold 65" [ref=e551]
+              - option "FactorA Bold 65 Italic" [ref=e552]
+              - option "FactorA Extrabold 65" [ref=e553]
+              - option "FactorA Extrabold 65 Italic" [ref=e554]
+              - option "FactorA Black 65" [ref=e555]
+              - option "FactorA Black 65 Italic" [ref=e556]
+              - option "FactorA Ultralight 100" [ref=e557]
+              - option "FactorA Ultralight 100 Italic" [ref=e558]
+              - option "FactorA Light 100" [ref=e559]
+              - option "FactorA Light 100 Italic" [ref=e560]
+              - option "FactorA Regular 100" [ref=e561]
+              - option "FactorA Regular 100 Italic" [ref=e562]
+              - option "FactorA Medium 100" [ref=e563]
+              - option "FactorA Medium 100 Italic" [ref=e564]
+              - option "FactorA Bold 100" [ref=e565]
+              - option "FactorA Bold 100 Italic" [ref=e566]
+              - option "FactorA Extrabold 100" [ref=e567]
+              - option "FactorA Extrabold 100 Italic" [ref=e568]
+              - option "FactorA Black 100" [ref=e569]
+              - option "FactorA Black 100 Italic" [ref=e570]
+          - option "FactorA Ultralight" [selected]
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e572]: "45"
+        - slider [ref=e574]: "1.2"
+        - generic [ref=e576] [cursor=pointer]:
+          - combobox [ref=e577]:
+            - generic [ref=e578]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e579]
+              - option "Funk It Up" [ref=e580]
+              - option "Neutral 'f' and 't'" [ref=e581]
+              - option "Rounded lowercase" [ref=e582]
+              - option "Slashed Zero" [ref=e583]
+          - option "Default Set" [selected]
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e584] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e585]: Конкатенативные языки отличаются простотой, эффективностью и удобством в реализации, поэтому самые популярные языки этого типа используются в программируемых калькуляторах и для встраивания в небольшие микропроцессорные системы. Например, конкатенативный язык RPL применяется в программируемых микрокалькуляторах Hewlett-Packard HP-28 и HP-48
+    - generic [ref=e586]:
+      - generic [ref=e587]:
+        - generic [ref=e589] [cursor=pointer]:
+          - combobox [ref=e590]:
+            - generic [ref=e591]: FactorA Black 100 Italic
+            - listbox:
+              - option "FactorA Ultralight" [ref=e592]
+              - option "FactorA Ultralight Italic" [ref=e593]
+              - option "FactorA Light" [ref=e594]
+              - option "FactorA Light Italic" [ref=e595]
+              - option "FactorA Regular" [ref=e596]
+              - option "FactorA Italic" [ref=e597]
+              - option "FactorA Medium" [ref=e598]
+              - option "FactorA Medium Italic" [ref=e599]
+              - option "FactorA Bold" [ref=e600]
+              - option "FactorA Bold Italic" [ref=e601]
+              - option "FactorA Extrabold" [ref=e602]
+              - option "FactorA Extrabold Italic" [ref=e603]
+              - option "FactorA Black" [ref=e604]
+              - option "FactorA Black Italic" [ref=e605]
+              - option "FactorA Ultralight 35" [ref=e606]
+              - option "FactorA Ultralight 35 Italic" [ref=e607]
+              - option "FactorA Light 35" [ref=e608]
+              - option "FactorA Light 35 Italic" [ref=e609]
+              - option "FactorA Regular 35" [ref=e610]
+              - option "FactorA Regular 35 Italic" [ref=e611]
+              - option "FactorA Medium 35" [ref=e612]
+              - option "FactorA Medium 35 Italic" [ref=e613]
+              - option "FactorA Bold 35" [ref=e614]
+              - option "FactorA Bold 35 Italic" [ref=e615]
+              - option "FactorA Extrabold 35" [ref=e616]
+              - option "FactorA Extrabold 35 Italic" [ref=e617]
+              - option "FactorA Black 35" [ref=e618]
+              - option "FactorA Black 35 Italic" [ref=e619]
+              - option "FactorA Ultralight 65" [ref=e620]
+              - option "FactorA Ultralight 65 Italic" [ref=e621]
+              - option "FactorA Light 65" [ref=e622]
+              - option "FactorA Light 65 Italic" [ref=e623]
+              - option "FactorA Regular 65" [ref=e624]
+              - option "FactorA Regular 65 Italic" [ref=e625]
+              - option "FactorA Medium 65" [ref=e626]
+              - option "FactorA Medium 65 Italic" [ref=e627]
+              - option "FactorA Bold 65" [ref=e628]
+              - option "FactorA Bold 65 Italic" [ref=e629]
+              - option "FactorA Extrabold 65" [ref=e630]
+              - option "FactorA Extrabold 65 Italic" [ref=e631]
+              - option "FactorA Black 65" [ref=e632]
+              - option "FactorA Black 65 Italic" [ref=e633]
+              - option "FactorA Ultralight 100" [ref=e634]
+              - option "FactorA Ultralight 100 Italic" [ref=e635]
+              - option "FactorA Light 100" [ref=e636]
+              - option "FactorA Light 100 Italic" [ref=e637]
+              - option "FactorA Regular 100" [ref=e638]
+              - option "FactorA Regular 100 Italic" [ref=e639]
+              - option "FactorA Medium 100" [ref=e640]
+              - option "FactorA Medium 100 Italic" [ref=e641]
+              - option "FactorA Bold 100" [ref=e642]
+              - option "FactorA Bold 100 Italic" [ref=e643]
+              - option "FactorA Extrabold 100" [ref=e644]
+              - option "FactorA Extrabold 100 Italic" [ref=e645]
+              - option "FactorA Black 100" [ref=e646]
+              - option "FactorA Black 100 Italic" [ref=e647]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic" [selected]
+        - slider [ref=e649]: "45"
+        - slider [ref=e651]: "1.2"
+        - generic [ref=e653] [cursor=pointer]:
+          - combobox [ref=e654]:
+            - generic [ref=e655]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e656]
+              - option "Funk It Up" [ref=e657]
+              - option "Neutral 'f' and 't'" [ref=e658]
+              - option "Rounded lowercase" [ref=e659]
+              - option "Slashed Zero" [ref=e660]
+          - option "Default Set" [selected]
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e661] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e662]: В 1839 году сестра Томаса Эллен вышла замуж за медика Джона Чарльза Кука, чьим учеником стал Томас. В 1841 году он перешёл от Кука к гипнотизёру Томасу Чандлеру, а позже в то же году перебрался на жительство к ещё одной сестре, Элизабет, и её мужу Джону Солту. Тот преподавал судебную медицину в частном Сиднемском колледже. Учёба в этом заведении была недорогой, что позволило Хаксли начать заниматься в нём осенью 1841 года.
+    - generic [ref=e663]:
+      - generic [ref=e664]:
+        - generic [ref=e666] [cursor=pointer]:
+          - combobox [ref=e667]:
+            - generic [ref=e668]: FactorA Ultralight
+            - listbox:
+              - option "FactorA Ultralight" [ref=e669]
+              - option "FactorA Ultralight Italic" [ref=e670]
+              - option "FactorA Light" [ref=e671]
+              - option "FactorA Light Italic" [ref=e672]
+              - option "FactorA Regular" [ref=e673]
+              - option "FactorA Italic" [ref=e674]
+              - option "FactorA Medium" [ref=e675]
+              - option "FactorA Medium Italic" [ref=e676]
+              - option "FactorA Bold" [ref=e677]
+              - option "FactorA Bold Italic" [ref=e678]
+              - option "FactorA Extrabold" [ref=e679]
+              - option "FactorA Extrabold Italic" [ref=e680]
+              - option "FactorA Black" [ref=e681]
+              - option "FactorA Black Italic" [ref=e682]
+              - option "FactorA Ultralight 35" [ref=e683]
+              - option "FactorA Ultralight 35 Italic" [ref=e684]
+              - option "FactorA Light 35" [ref=e685]
+              - option "FactorA Light 35 Italic" [ref=e686]
+              - option "FactorA Regular 35" [ref=e687]
+              - option "FactorA Regular 35 Italic" [ref=e688]
+              - option "FactorA Medium 35" [ref=e689]
+              - option "FactorA Medium 35 Italic" [ref=e690]
+              - option "FactorA Bold 35" [ref=e691]
+              - option "FactorA Bold 35 Italic" [ref=e692]
+              - option "FactorA Extrabold 35" [ref=e693]
+              - option "FactorA Extrabold 35 Italic" [ref=e694]
+              - option "FactorA Black 35" [ref=e695]
+              - option "FactorA Black 35 Italic" [ref=e696]
+              - option "FactorA Ultralight 65" [ref=e697]
+              - option "FactorA Ultralight 65 Italic" [ref=e698]
+              - option "FactorA Light 65" [ref=e699]
+              - option "FactorA Light 65 Italic" [ref=e700]
+              - option "FactorA Regular 65" [ref=e701]
+              - option "FactorA Regular 65 Italic" [ref=e702]
+              - option "FactorA Medium 65" [ref=e703]
+              - option "FactorA Medium 65 Italic" [ref=e704]
+              - option "FactorA Bold 65" [ref=e705]
+              - option "FactorA Bold 65 Italic" [ref=e706]
+              - option "FactorA Extrabold 65" [ref=e707]
+              - option "FactorA Extrabold 65 Italic" [ref=e708]
+              - option "FactorA Black 65" [ref=e709]
+              - option "FactorA Black 65 Italic" [ref=e710]
+              - option "FactorA Ultralight 100" [ref=e711]
+              - option "FactorA Ultralight 100 Italic" [ref=e712]
+              - option "FactorA Light 100" [ref=e713]
+              - option "FactorA Light 100 Italic" [ref=e714]
+              - option "FactorA Regular 100" [ref=e715]
+              - option "FactorA Regular 100 Italic" [ref=e716]
+              - option "FactorA Medium 100" [ref=e717]
+              - option "FactorA Medium 100 Italic" [ref=e718]
+              - option "FactorA Bold 100" [ref=e719]
+              - option "FactorA Bold 100 Italic" [ref=e720]
+              - option "FactorA Extrabold 100" [ref=e721]
+              - option "FactorA Extrabold 100 Italic" [ref=e722]
+              - option "FactorA Black 100" [ref=e723]
+              - option "FactorA Black 100 Italic" [ref=e724]
+          - option "FactorA Ultralight" [selected]
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e726]: "180"
+        - slider [ref=e728]: "1"
+        - generic [ref=e730] [cursor=pointer]:
+          - combobox [ref=e731]:
+            - generic [ref=e732]: Funk It Up
+            - listbox:
+              - option "Funk It Up" [ref=e733]
+              - option "Default Set" [ref=e734]
+              - option "Neutral 'f' and 't'" [ref=e735]
+              - option "Rounded lowercase" [ref=e736]
+              - option "Slashed Zero" [ref=e737]
+          - option "Funk It Up" [selected]
+          - option "Default Set"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e738] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e739]: Vibrations
+    - generic [ref=e740]:
+      - generic [ref=e741]:
+        - generic [ref=e743] [cursor=pointer]:
+          - combobox [ref=e744]:
+            - generic [ref=e745]: FactorA Ultralight 35
+            - listbox:
+              - option "FactorA Ultralight" [ref=e746]
+              - option "FactorA Ultralight Italic" [ref=e747]
+              - option "FactorA Light" [ref=e748]
+              - option "FactorA Light Italic" [ref=e749]
+              - option "FactorA Regular" [ref=e750]
+              - option "FactorA Italic" [ref=e751]
+              - option "FactorA Medium" [ref=e752]
+              - option "FactorA Medium Italic" [ref=e753]
+              - option "FactorA Bold" [ref=e754]
+              - option "FactorA Bold Italic" [ref=e755]
+              - option "FactorA Extrabold" [ref=e756]
+              - option "FactorA Extrabold Italic" [ref=e757]
+              - option "FactorA Black" [ref=e758]
+              - option "FactorA Black Italic" [ref=e759]
+              - option "FactorA Ultralight 35" [ref=e760]
+              - option "FactorA Ultralight 35 Italic" [ref=e761]
+              - option "FactorA Light 35" [ref=e762]
+              - option "FactorA Light 35 Italic" [ref=e763]
+              - option "FactorA Regular 35" [ref=e764]
+              - option "FactorA Regular 35 Italic" [ref=e765]
+              - option "FactorA Medium 35" [ref=e766]
+              - option "FactorA Medium 35 Italic" [ref=e767]
+              - option "FactorA Bold 35" [ref=e768]
+              - option "FactorA Bold 35 Italic" [ref=e769]
+              - option "FactorA Extrabold 35" [ref=e770]
+              - option "FactorA Extrabold 35 Italic" [ref=e771]
+              - option "FactorA Black 35" [ref=e772]
+              - option "FactorA Black 35 Italic" [ref=e773]
+              - option "FactorA Ultralight 65" [ref=e774]
+              - option "FactorA Ultralight 65 Italic" [ref=e775]
+              - option "FactorA Light 65" [ref=e776]
+              - option "FactorA Light 65 Italic" [ref=e777]
+              - option "FactorA Regular 65" [ref=e778]
+              - option "FactorA Regular 65 Italic" [ref=e779]
+              - option "FactorA Medium 65" [ref=e780]
+              - option "FactorA Medium 65 Italic" [ref=e781]
+              - option "FactorA Bold 65" [ref=e782]
+              - option "FactorA Bold 65 Italic" [ref=e783]
+              - option "FactorA Extrabold 65" [ref=e784]
+              - option "FactorA Extrabold 65 Italic" [ref=e785]
+              - option "FactorA Black 65" [ref=e786]
+              - option "FactorA Black 65 Italic" [ref=e787]
+              - option "FactorA Ultralight 100" [ref=e788]
+              - option "FactorA Ultralight 100 Italic" [ref=e789]
+              - option "FactorA Light 100" [ref=e790]
+              - option "FactorA Light 100 Italic" [ref=e791]
+              - option "FactorA Regular 100" [ref=e792]
+              - option "FactorA Regular 100 Italic" [ref=e793]
+              - option "FactorA Medium 100" [ref=e794]
+              - option "FactorA Medium 100 Italic" [ref=e795]
+              - option "FactorA Bold 100" [ref=e796]
+              - option "FactorA Bold 100 Italic" [ref=e797]
+              - option "FactorA Extrabold 100" [ref=e798]
+              - option "FactorA Extrabold 100 Italic" [ref=e799]
+              - option "FactorA Black 100" [ref=e800]
+              - option "FactorA Black 100 Italic" [ref=e801]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35" [selected]
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e803]: "180"
+        - slider [ref=e805]: "1"
+        - generic [ref=e807] [cursor=pointer]:
+          - combobox [ref=e808]:
+            - generic [ref=e809]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e810]
+              - option "Funk It Up" [ref=e811]
+              - option "Neutral 'f' and 't'" [ref=e812]
+              - option "Rounded lowercase" [ref=e813]
+              - option "Slashed Zero" [ref=e814]
+          - option "Default Set" [selected]
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e815] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e816]: Vibrations
+    - generic [ref=e817]:
+      - generic [ref=e818]:
+        - generic [ref=e820] [cursor=pointer]:
+          - combobox [ref=e821]:
+            - generic [ref=e822]: FactorA Ultralight 65
+            - listbox:
+              - option "FactorA Ultralight" [ref=e823]
+              - option "FactorA Ultralight Italic" [ref=e824]
+              - option "FactorA Light" [ref=e825]
+              - option "FactorA Light Italic" [ref=e826]
+              - option "FactorA Regular" [ref=e827]
+              - option "FactorA Italic" [ref=e828]
+              - option "FactorA Medium" [ref=e829]
+              - option "FactorA Medium Italic" [ref=e830]
+              - option "FactorA Bold" [ref=e831]
+              - option "FactorA Bold Italic" [ref=e832]
+              - option "FactorA Extrabold" [ref=e833]
+              - option "FactorA Extrabold Italic" [ref=e834]
+              - option "FactorA Black" [ref=e835]
+              - option "FactorA Black Italic" [ref=e836]
+              - option "FactorA Ultralight 35" [ref=e837]
+              - option "FactorA Ultralight 35 Italic" [ref=e838]
+              - option "FactorA Light 35" [ref=e839]
+              - option "FactorA Light 35 Italic" [ref=e840]
+              - option "FactorA Regular 35" [ref=e841]
+              - option "FactorA Regular 35 Italic" [ref=e842]
+              - option "FactorA Medium 35" [ref=e843]
+              - option "FactorA Medium 35 Italic" [ref=e844]
+              - option "FactorA Bold 35" [ref=e845]
+              - option "FactorA Bold 35 Italic" [ref=e846]
+              - option "FactorA Extrabold 35" [ref=e847]
+              - option "FactorA Extrabold 35 Italic" [ref=e848]
+              - option "FactorA Black 35" [ref=e849]
+              - option "FactorA Black 35 Italic" [ref=e850]
+              - option "FactorA Ultralight 65" [ref=e851]
+              - option "FactorA Ultralight 65 Italic" [ref=e852]
+              - option "FactorA Light 65" [ref=e853]
+              - option "FactorA Light 65 Italic" [ref=e854]
+              - option "FactorA Regular 65" [ref=e855]
+              - option "FactorA Regular 65 Italic" [ref=e856]
+              - option "FactorA Medium 65" [ref=e857]
+              - option "FactorA Medium 65 Italic" [ref=e858]
+              - option "FactorA Bold 65" [ref=e859]
+              - option "FactorA Bold 65 Italic" [ref=e860]
+              - option "FactorA Extrabold 65" [ref=e861]
+              - option "FactorA Extrabold 65 Italic" [ref=e862]
+              - option "FactorA Black 65" [ref=e863]
+              - option "FactorA Black 65 Italic" [ref=e864]
+              - option "FactorA Ultralight 100" [ref=e865]
+              - option "FactorA Ultralight 100 Italic" [ref=e866]
+              - option "FactorA Light 100" [ref=e867]
+              - option "FactorA Light 100 Italic" [ref=e868]
+              - option "FactorA Regular 100" [ref=e869]
+              - option "FactorA Regular 100 Italic" [ref=e870]
+              - option "FactorA Medium 100" [ref=e871]
+              - option "FactorA Medium 100 Italic" [ref=e872]
+              - option "FactorA Bold 100" [ref=e873]
+              - option "FactorA Bold 100 Italic" [ref=e874]
+              - option "FactorA Extrabold 100" [ref=e875]
+              - option "FactorA Extrabold 100 Italic" [ref=e876]
+              - option "FactorA Black 100" [ref=e877]
+              - option "FactorA Black 100 Italic" [ref=e878]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65" [selected]
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e880]: "180"
+        - slider [ref=e882]: "1"
+        - generic [ref=e884] [cursor=pointer]:
+          - combobox [ref=e885]:
+            - generic [ref=e886]: Funk It Up
+            - listbox:
+              - option "Funk It Up" [ref=e887]
+              - option "Default Set" [ref=e888]
+              - option "Neutral 'f' and 't'" [ref=e889]
+              - option "Rounded lowercase" [ref=e890]
+              - option "Slashed Zero" [ref=e891]
+          - option "Funk It Up" [selected]
+          - option "Default Set"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e892] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e893]: Vibrations
+    - generic [ref=e894]:
+      - generic [ref=e895]:
+        - generic [ref=e897] [cursor=pointer]:
+          - combobox [ref=e898]:
+            - generic [ref=e899]: FactorA Ultralight 100
+            - listbox:
+              - option "FactorA Ultralight" [ref=e900]
+              - option "FactorA Ultralight Italic" [ref=e901]
+              - option "FactorA Light" [ref=e902]
+              - option "FactorA Light Italic" [ref=e903]
+              - option "FactorA Regular" [ref=e904]
+              - option "FactorA Italic" [ref=e905]
+              - option "FactorA Medium" [ref=e906]
+              - option "FactorA Medium Italic" [ref=e907]
+              - option "FactorA Bold" [ref=e908]
+              - option "FactorA Bold Italic" [ref=e909]
+              - option "FactorA Extrabold" [ref=e910]
+              - option "FactorA Extrabold Italic" [ref=e911]
+              - option "FactorA Black" [ref=e912]
+              - option "FactorA Black Italic" [ref=e913]
+              - option "FactorA Ultralight 35" [ref=e914]
+              - option "FactorA Ultralight 35 Italic" [ref=e915]
+              - option "FactorA Light 35" [ref=e916]
+              - option "FactorA Light 35 Italic" [ref=e917]
+              - option "FactorA Regular 35" [ref=e918]
+              - option "FactorA Regular 35 Italic" [ref=e919]
+              - option "FactorA Medium 35" [ref=e920]
+              - option "FactorA Medium 35 Italic" [ref=e921]
+              - option "FactorA Bold 35" [ref=e922]
+              - option "FactorA Bold 35 Italic" [ref=e923]
+              - option "FactorA Extrabold 35" [ref=e924]
+              - option "FactorA Extrabold 35 Italic" [ref=e925]
+              - option "FactorA Black 35" [ref=e926]
+              - option "FactorA Black 35 Italic" [ref=e927]
+              - option "FactorA Ultralight 65" [ref=e928]
+              - option "FactorA Ultralight 65 Italic" [ref=e929]
+              - option "FactorA Light 65" [ref=e930]
+              - option "FactorA Light 65 Italic" [ref=e931]
+              - option "FactorA Regular 65" [ref=e932]
+              - option "FactorA Regular 65 Italic" [ref=e933]
+              - option "FactorA Medium 65" [ref=e934]
+              - option "FactorA Medium 65 Italic" [ref=e935]
+              - option "FactorA Bold 65" [ref=e936]
+              - option "FactorA Bold 65 Italic" [ref=e937]
+              - option "FactorA Extrabold 65" [ref=e938]
+              - option "FactorA Extrabold 65 Italic" [ref=e939]
+              - option "FactorA Black 65" [ref=e940]
+              - option "FactorA Black 65 Italic" [ref=e941]
+              - option "FactorA Ultralight 100" [ref=e942]
+              - option "FactorA Ultralight 100 Italic" [ref=e943]
+              - option "FactorA Light 100" [ref=e944]
+              - option "FactorA Light 100 Italic" [ref=e945]
+              - option "FactorA Regular 100" [ref=e946]
+              - option "FactorA Regular 100 Italic" [ref=e947]
+              - option "FactorA Medium 100" [ref=e948]
+              - option "FactorA Medium 100 Italic" [ref=e949]
+              - option "FactorA Bold 100" [ref=e950]
+              - option "FactorA Bold 100 Italic" [ref=e951]
+              - option "FactorA Extrabold 100" [ref=e952]
+              - option "FactorA Extrabold 100 Italic" [ref=e953]
+              - option "FactorA Black 100" [ref=e954]
+              - option "FactorA Black 100 Italic" [ref=e955]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100" [selected]
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e957]: "180"
+        - slider [ref=e959]: "1"
+        - generic [ref=e961] [cursor=pointer]:
+          - combobox [ref=e962]:
+            - generic [ref=e963]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e964]
+              - option "Funk It Up" [ref=e965]
+              - option "Neutral 'f' and 't'" [ref=e966]
+              - option "Rounded lowercase" [ref=e967]
+              - option "Slashed Zero" [ref=e968]
+          - option "Default Set" [selected]
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e969] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e970]: Vibrations
+    - generic [ref=e971]:
+      - generic [ref=e972]:
+        - generic [ref=e974] [cursor=pointer]:
+          - combobox [ref=e975]:
+            - generic [ref=e976]: FactorA Bold
+            - listbox:
+              - option "FactorA Ultralight" [ref=e977]
+              - option "FactorA Ultralight Italic" [ref=e978]
+              - option "FactorA Light" [ref=e979]
+              - option "FactorA Light Italic" [ref=e980]
+              - option "FactorA Regular" [ref=e981]
+              - option "FactorA Italic" [ref=e982]
+              - option "FactorA Medium" [ref=e983]
+              - option "FactorA Medium Italic" [ref=e984]
+              - option "FactorA Bold" [ref=e985]
+              - option "FactorA Bold Italic" [ref=e986]
+              - option "FactorA Extrabold" [ref=e987]
+              - option "FactorA Extrabold Italic" [ref=e988]
+              - option "FactorA Black" [ref=e989]
+              - option "FactorA Black Italic" [ref=e990]
+              - option "FactorA Ultralight 35" [ref=e991]
+              - option "FactorA Ultralight 35 Italic" [ref=e992]
+              - option "FactorA Light 35" [ref=e993]
+              - option "FactorA Light 35 Italic" [ref=e994]
+              - option "FactorA Regular 35" [ref=e995]
+              - option "FactorA Regular 35 Italic" [ref=e996]
+              - option "FactorA Medium 35" [ref=e997]
+              - option "FactorA Medium 35 Italic" [ref=e998]
+              - option "FactorA Bold 35" [ref=e999]
+              - option "FactorA Bold 35 Italic" [ref=e1000]
+              - option "FactorA Extrabold 35" [ref=e1001]
+              - option "FactorA Extrabold 35 Italic" [ref=e1002]
+              - option "FactorA Black 35" [ref=e1003]
+              - option "FactorA Black 35 Italic" [ref=e1004]
+              - option "FactorA Ultralight 65" [ref=e1005]
+              - option "FactorA Ultralight 65 Italic" [ref=e1006]
+              - option "FactorA Light 65" [ref=e1007]
+              - option "FactorA Light 65 Italic" [ref=e1008]
+              - option "FactorA Regular 65" [ref=e1009]
+              - option "FactorA Regular 65 Italic" [ref=e1010]
+              - option "FactorA Medium 65" [ref=e1011]
+              - option "FactorA Medium 65 Italic" [ref=e1012]
+              - option "FactorA Bold 65" [ref=e1013]
+              - option "FactorA Bold 65 Italic" [ref=e1014]
+              - option "FactorA Extrabold 65" [ref=e1015]
+              - option "FactorA Extrabold 65 Italic" [ref=e1016]
+              - option "FactorA Black 65" [ref=e1017]
+              - option "FactorA Black 65 Italic" [ref=e1018]
+              - option "FactorA Ultralight 100" [ref=e1019]
+              - option "FactorA Ultralight 100 Italic" [ref=e1020]
+              - option "FactorA Light 100" [ref=e1021]
+              - option "FactorA Light 100 Italic" [ref=e1022]
+              - option "FactorA Regular 100" [ref=e1023]
+              - option "FactorA Regular 100 Italic" [ref=e1024]
+              - option "FactorA Medium 100" [ref=e1025]
+              - option "FactorA Medium 100 Italic" [ref=e1026]
+              - option "FactorA Bold 100" [ref=e1027]
+              - option "FactorA Bold 100 Italic" [ref=e1028]
+              - option "FactorA Extrabold 100" [ref=e1029]
+              - option "FactorA Extrabold 100 Italic" [ref=e1030]
+              - option "FactorA Black 100" [ref=e1031]
+              - option "FactorA Black 100 Italic" [ref=e1032]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold" [selected]
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e1034]: "110"
+        - slider [ref=e1036]: "1.2"
+        - generic [ref=e1038] [cursor=pointer]:
+          - combobox [ref=e1039]:
+            - generic [ref=e1040]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e1041]
+              - option "Funk It Up" [ref=e1042]
+              - option "Neutral 'f' and 't'" [ref=e1043]
+              - option "Rounded lowercase" [ref=e1044]
+              - option "Slashed Zero" [ref=e1045]
+          - option "Default Set" [selected]
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e1046] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e1047]: Géographe russe Pierre Kropotkine qui publia en 19c. ses recherches
+    - generic [ref=e1048]:
+      - generic [ref=e1049]:
+        - generic [ref=e1051] [cursor=pointer]:
+          - combobox [ref=e1052]:
+            - generic [ref=e1053]: FactorA Regular
+            - listbox:
+              - option "FactorA Ultralight" [ref=e1054]
+              - option "FactorA Ultralight Italic" [ref=e1055]
+              - option "FactorA Light" [ref=e1056]
+              - option "FactorA Light Italic" [ref=e1057]
+              - option "FactorA Regular" [ref=e1058]
+              - option "FactorA Italic" [ref=e1059]
+              - option "FactorA Medium" [ref=e1060]
+              - option "FactorA Medium Italic" [ref=e1061]
+              - option "FactorA Bold" [ref=e1062]
+              - option "FactorA Bold Italic" [ref=e1063]
+              - option "FactorA Extrabold" [ref=e1064]
+              - option "FactorA Extrabold Italic" [ref=e1065]
+              - option "FactorA Black" [ref=e1066]
+              - option "FactorA Black Italic" [ref=e1067]
+              - option "FactorA Ultralight 35" [ref=e1068]
+              - option "FactorA Ultralight 35 Italic" [ref=e1069]
+              - option "FactorA Light 35" [ref=e1070]
+              - option "FactorA Light 35 Italic" [ref=e1071]
+              - option "FactorA Regular 35" [ref=e1072]
+              - option "FactorA Regular 35 Italic" [ref=e1073]
+              - option "FactorA Medium 35" [ref=e1074]
+              - option "FactorA Medium 35 Italic" [ref=e1075]
+              - option "FactorA Bold 35" [ref=e1076]
+              - option "FactorA Bold 35 Italic" [ref=e1077]
+              - option "FactorA Extrabold 35" [ref=e1078]
+              - option "FactorA Extrabold 35 Italic" [ref=e1079]
+              - option "FactorA Black 35" [ref=e1080]
+              - option "FactorA Black 35 Italic" [ref=e1081]
+              - option "FactorA Ultralight 65" [ref=e1082]
+              - option "FactorA Ultralight 65 Italic" [ref=e1083]
+              - option "FactorA Light 65" [ref=e1084]
+              - option "FactorA Light 65 Italic" [ref=e1085]
+              - option "FactorA Regular 65" [ref=e1086]
+              - option "FactorA Regular 65 Italic" [ref=e1087]
+              - option "FactorA Medium 65" [ref=e1088]
+              - option "FactorA Medium 65 Italic" [ref=e1089]
+              - option "FactorA Bold 65" [ref=e1090]
+              - option "FactorA Bold 65 Italic" [ref=e1091]
+              - option "FactorA Extrabold 65" [ref=e1092]
+              - option "FactorA Extrabold 65 Italic" [ref=e1093]
+              - option "FactorA Black 65" [ref=e1094]
+              - option "FactorA Black 65 Italic" [ref=e1095]
+              - option "FactorA Ultralight 100" [ref=e1096]
+              - option "FactorA Ultralight 100 Italic" [ref=e1097]
+              - option "FactorA Light 100" [ref=e1098]
+              - option "FactorA Light 100 Italic" [ref=e1099]
+              - option "FactorA Regular 100" [ref=e1100]
+              - option "FactorA Regular 100 Italic" [ref=e1101]
+              - option "FactorA Medium 100" [ref=e1102]
+              - option "FactorA Medium 100 Italic" [ref=e1103]
+              - option "FactorA Bold 100" [ref=e1104]
+              - option "FactorA Bold 100 Italic" [ref=e1105]
+              - option "FactorA Extrabold 100" [ref=e1106]
+              - option "FactorA Extrabold 100 Italic" [ref=e1107]
+              - option "FactorA Black 100" [ref=e1108]
+              - option "FactorA Black 100 Italic" [ref=e1109]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular" [selected]
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic"
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e1111]: "25"
+        - slider [ref=e1113]: "1.3"
+        - generic [ref=e1115] [cursor=pointer]:
+          - combobox [ref=e1116]:
+            - generic [ref=e1117]: Default Set
+            - listbox:
+              - option "Default Set" [ref=e1118]
+              - option "Funk It Up" [ref=e1119]
+              - option "Neutral 'f' and 't'" [ref=e1120]
+              - option "Rounded lowercase" [ref=e1121]
+              - option "Slashed Zero" [ref=e1122]
+          - option "Default Set" [selected]
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Rounded lowercase"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e1123] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e1124]: Slava Pestov created Factor in 2003 as a scripting language for a video game. The initial implementation, now referred to as JFactor, was implemented in Java and ran on the Java Virtual Machine. Though the early language resembled modern Factor superficially in terms of syntax, the modern language is very different in practical terms and the current implementation is much faster. The language has changed significantly over time. Originally, Factor programs centered on manipulating Java objects with Java’s reflection capabilities. From the beginning, the design philosophy has been to modify the language to suit programs written in it. As the Factor implementation and standard libraries grew more detailed, the need for certain language features became clear, and they were added. JFactor did not have an object system where you could define your own classes, and early versions of native Factor were the same; the language was similar to Scheme in this way. Today, the object system is a central part of Factor. Other important language features such as tuple classes, combinator inlining, macros, user-defined parsing words and the modern vocabulary system were only added in a piecemeal fashion as their utility became clear. The foreign function interface was present from very early versions to Factor, and an analogous system existed in JFactor. This was chosen over creating a plugin to the C part of the implementation for each external library that Factor should communicate with, and has the benefit of being more declarative, faster to compile and easier to write
+    - generic [ref=e1125]:
+      - generic [ref=e1126]:
+        - generic [ref=e1128] [cursor=pointer]:
+          - combobox [ref=e1129]:
+            - generic [ref=e1130]: FactorA Extrabold 65 Italic
+            - listbox:
+              - option "FactorA Ultralight" [ref=e1131]
+              - option "FactorA Ultralight Italic" [ref=e1132]
+              - option "FactorA Light" [ref=e1133]
+              - option "FactorA Light Italic" [ref=e1134]
+              - option "FactorA Regular" [ref=e1135]
+              - option "FactorA Italic" [ref=e1136]
+              - option "FactorA Medium" [ref=e1137]
+              - option "FactorA Medium Italic" [ref=e1138]
+              - option "FactorA Bold" [ref=e1139]
+              - option "FactorA Bold Italic" [ref=e1140]
+              - option "FactorA Extrabold" [ref=e1141]
+              - option "FactorA Extrabold Italic" [ref=e1142]
+              - option "FactorA Black" [ref=e1143]
+              - option "FactorA Black Italic" [ref=e1144]
+              - option "FactorA Ultralight 35" [ref=e1145]
+              - option "FactorA Ultralight 35 Italic" [ref=e1146]
+              - option "FactorA Light 35" [ref=e1147]
+              - option "FactorA Light 35 Italic" [ref=e1148]
+              - option "FactorA Regular 35" [ref=e1149]
+              - option "FactorA Regular 35 Italic" [ref=e1150]
+              - option "FactorA Medium 35" [ref=e1151]
+              - option "FactorA Medium 35 Italic" [ref=e1152]
+              - option "FactorA Bold 35" [ref=e1153]
+              - option "FactorA Bold 35 Italic" [ref=e1154]
+              - option "FactorA Extrabold 35" [ref=e1155]
+              - option "FactorA Extrabold 35 Italic" [ref=e1156]
+              - option "FactorA Black 35" [ref=e1157]
+              - option "FactorA Black 35 Italic" [ref=e1158]
+              - option "FactorA Ultralight 65" [ref=e1159]
+              - option "FactorA Ultralight 65 Italic" [ref=e1160]
+              - option "FactorA Light 65" [ref=e1161]
+              - option "FactorA Light 65 Italic" [ref=e1162]
+              - option "FactorA Regular 65" [ref=e1163]
+              - option "FactorA Regular 65 Italic" [ref=e1164]
+              - option "FactorA Medium 65" [ref=e1165]
+              - option "FactorA Medium 65 Italic" [ref=e1166]
+              - option "FactorA Bold 65" [ref=e1167]
+              - option "FactorA Bold 65 Italic" [ref=e1168]
+              - option "FactorA Extrabold 65" [ref=e1169]
+              - option "FactorA Extrabold 65 Italic" [ref=e1170]
+              - option "FactorA Black 65" [ref=e1171]
+              - option "FactorA Black 65 Italic" [ref=e1172]
+              - option "FactorA Ultralight 100" [ref=e1173]
+              - option "FactorA Ultralight 100 Italic" [ref=e1174]
+              - option "FactorA Light 100" [ref=e1175]
+              - option "FactorA Light 100 Italic" [ref=e1176]
+              - option "FactorA Regular 100" [ref=e1177]
+              - option "FactorA Regular 100 Italic" [ref=e1178]
+              - option "FactorA Medium 100" [ref=e1179]
+              - option "FactorA Medium 100 Italic" [ref=e1180]
+              - option "FactorA Bold 100" [ref=e1181]
+              - option "FactorA Bold 100 Italic" [ref=e1182]
+              - option "FactorA Extrabold 100" [ref=e1183]
+              - option "FactorA Extrabold 100 Italic" [ref=e1184]
+              - option "FactorA Black 100" [ref=e1185]
+              - option "FactorA Black 100 Italic" [ref=e1186]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic" [selected]
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e1188]: "180"
+        - slider [ref=e1190]: "1"
+        - generic [ref=e1192] [cursor=pointer]:
+          - combobox [ref=e1193]:
+            - generic [ref=e1194]: Slashed Zero
+            - listbox:
+              - option "Slashed Zero" [ref=e1195]
+              - option "Rounded lowercase" [ref=e1196]
+              - option "Default Set" [ref=e1197]
+              - option "Funk It Up" [ref=e1198]
+              - option "Neutral 'f' and 't'" [ref=e1199]
+          - option "Slashed Zero" [selected]
+          - option "Rounded lowercase"
+          - option "Default Set"
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+        - link "BUY" [ref=e1200] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e1201]: 1549—1605 Gornezky
+    - generic [ref=e1202]:
+      - generic [ref=e1203]:
+        - generic [ref=e1205] [cursor=pointer]:
+          - combobox [ref=e1206]:
+            - generic [ref=e1207]: FactorA Extrabold 65 Italic
+            - listbox:
+              - option "FactorA Ultralight" [ref=e1208]
+              - option "FactorA Ultralight Italic" [ref=e1209]
+              - option "FactorA Light" [ref=e1210]
+              - option "FactorA Light Italic" [ref=e1211]
+              - option "FactorA Regular" [ref=e1212]
+              - option "FactorA Italic" [ref=e1213]
+              - option "FactorA Medium" [ref=e1214]
+              - option "FactorA Medium Italic" [ref=e1215]
+              - option "FactorA Bold" [ref=e1216]
+              - option "FactorA Bold Italic" [ref=e1217]
+              - option "FactorA Extrabold" [ref=e1218]
+              - option "FactorA Extrabold Italic" [ref=e1219]
+              - option "FactorA Black" [ref=e1220]
+              - option "FactorA Black Italic" [ref=e1221]
+              - option "FactorA Ultralight 35" [ref=e1222]
+              - option "FactorA Ultralight 35 Italic" [ref=e1223]
+              - option "FactorA Light 35" [ref=e1224]
+              - option "FactorA Light 35 Italic" [ref=e1225]
+              - option "FactorA Regular 35" [ref=e1226]
+              - option "FactorA Regular 35 Italic" [ref=e1227]
+              - option "FactorA Medium 35" [ref=e1228]
+              - option "FactorA Medium 35 Italic" [ref=e1229]
+              - option "FactorA Bold 35" [ref=e1230]
+              - option "FactorA Bold 35 Italic" [ref=e1231]
+              - option "FactorA Extrabold 35" [ref=e1232]
+              - option "FactorA Extrabold 35 Italic" [ref=e1233]
+              - option "FactorA Black 35" [ref=e1234]
+              - option "FactorA Black 35 Italic" [ref=e1235]
+              - option "FactorA Ultralight 65" [ref=e1236]
+              - option "FactorA Ultralight 65 Italic" [ref=e1237]
+              - option "FactorA Light 65" [ref=e1238]
+              - option "FactorA Light 65 Italic" [ref=e1239]
+              - option "FactorA Regular 65" [ref=e1240]
+              - option "FactorA Regular 65 Italic" [ref=e1241]
+              - option "FactorA Medium 65" [ref=e1242]
+              - option "FactorA Medium 65 Italic" [ref=e1243]
+              - option "FactorA Bold 65" [ref=e1244]
+              - option "FactorA Bold 65 Italic" [ref=e1245]
+              - option "FactorA Extrabold 65" [ref=e1246]
+              - option "FactorA Extrabold 65 Italic" [ref=e1247]
+              - option "FactorA Black 65" [ref=e1248]
+              - option "FactorA Black 65 Italic" [ref=e1249]
+              - option "FactorA Ultralight 100" [ref=e1250]
+              - option "FactorA Ultralight 100 Italic" [ref=e1251]
+              - option "FactorA Light 100" [ref=e1252]
+              - option "FactorA Light 100 Italic" [ref=e1253]
+              - option "FactorA Regular 100" [ref=e1254]
+              - option "FactorA Regular 100 Italic" [ref=e1255]
+              - option "FactorA Medium 100" [ref=e1256]
+              - option "FactorA Medium 100 Italic" [ref=e1257]
+              - option "FactorA Bold 100" [ref=e1258]
+              - option "FactorA Bold 100 Italic" [ref=e1259]
+              - option "FactorA Extrabold 100" [ref=e1260]
+              - option "FactorA Extrabold 100 Italic" [ref=e1261]
+              - option "FactorA Black 100" [ref=e1262]
+              - option "FactorA Black 100 Italic" [ref=e1263]
+          - option "FactorA Ultralight"
+          - option "FactorA Ultralight Italic"
+          - option "FactorA Light"
+          - option "FactorA Light Italic"
+          - option "FactorA Regular"
+          - option "FactorA Italic"
+          - option "FactorA Medium"
+          - option "FactorA Medium Italic"
+          - option "FactorA Bold"
+          - option "FactorA Bold Italic"
+          - option "FactorA Extrabold"
+          - option "FactorA Extrabold Italic"
+          - option "FactorA Black"
+          - option "FactorA Black Italic"
+          - option "FactorA Ultralight 35"
+          - option "FactorA Ultralight 35 Italic"
+          - option "FactorA Light 35"
+          - option "FactorA Light 35 Italic"
+          - option "FactorA Regular 35"
+          - option "FactorA Regular 35 Italic"
+          - option "FactorA Medium 35"
+          - option "FactorA Medium 35 Italic"
+          - option "FactorA Bold 35"
+          - option "FactorA Bold 35 Italic"
+          - option "FactorA Extrabold 35"
+          - option "FactorA Extrabold 35 Italic"
+          - option "FactorA Black 35"
+          - option "FactorA Black 35 Italic"
+          - option "FactorA Ultralight 65"
+          - option "FactorA Ultralight 65 Italic"
+          - option "FactorA Light 65"
+          - option "FactorA Light 65 Italic"
+          - option "FactorA Regular 65"
+          - option "FactorA Regular 65 Italic"
+          - option "FactorA Medium 65"
+          - option "FactorA Medium 65 Italic"
+          - option "FactorA Bold 65"
+          - option "FactorA Bold 65 Italic"
+          - option "FactorA Extrabold 65"
+          - option "FactorA Extrabold 65 Italic" [selected]
+          - option "FactorA Black 65"
+          - option "FactorA Black 65 Italic"
+          - option "FactorA Ultralight 100"
+          - option "FactorA Ultralight 100 Italic"
+          - option "FactorA Light 100"
+          - option "FactorA Light 100 Italic"
+          - option "FactorA Regular 100"
+          - option "FactorA Regular 100 Italic"
+          - option "FactorA Medium 100"
+          - option "FactorA Medium 100 Italic"
+          - option "FactorA Bold 100"
+          - option "FactorA Bold 100 Italic"
+          - option "FactorA Extrabold 100"
+          - option "FactorA Extrabold 100 Italic"
+          - option "FactorA Black 100"
+          - option "FactorA Black 100 Italic"
+        - slider [ref=e1265]: "25"
+        - slider [ref=e1267]: "1.3"
+        - generic [ref=e1269] [cursor=pointer]:
+          - combobox [ref=e1270]:
+            - generic [ref=e1271]: Rounded lowercase
+            - listbox:
+              - option "Rounded lowercase" [ref=e1272]
+              - option "Default Set" [ref=e1273]
+              - option "Funk It Up" [ref=e1274]
+              - option "Neutral 'f' and 't'" [ref=e1275]
+              - option "Slashed Zero" [ref=e1276]
+          - option "Rounded lowercase" [selected]
+          - option "Default Set"
+          - option "Funk It Up"
+          - option "Neutral 'f' and 't'"
+          - option "Slashed Zero"
+        - link "BUY" [ref=e1277] [cursor=pointer]:
+          - /url: "#module-buying-options"
+      - textbox [ref=e1278]: Slava Pestov created Factor in 2003 as a scripting language for a video game. The initial implementation, now referred to as JFactor, was implemented in Java and ran on the Java Virtual Machine. Though the early language resembled modern Factor superficially in terms of syntax, the modern language is very different in practical terms and the current implementation is much faster. The language has changed significantly over time. Originally, Factor programs centered on manipulating Java objects with Java’s reflection capabilities. From the beginning, the design philosophy has been to modify the language to suit programs written in it. As the Factor implementation and standard libraries grew more detailed, the need for certain language features became clear, and they were added. JFactor did not have an object system where you could define your own classes, and early versions of native Factor were the same; the language was similar to Scheme in this way. Today, the object system is a central part of Factor. Other important language features such as tuple classes, combinator inlining, macros, user-defined parsing words and the modern vocabulary system were only added in a piecemeal fashion as their utility became clear. The foreign function interface was present from very early versions to Factor, and an analogous system existed in JFactor. This was chosen over creating a plugin to the C part of the implementation for each external library that Factor should communicate with, and has the benefit of being more declarative, faster to compile and easier to write
+    - generic [ref=e1280]:
+      - generic [ref=e1282]:
+        - img [ref=e1283]
+        - img [ref=e1284]
+        - img [ref=e1285]
+        - img [ref=e1286]
+        - img [ref=e1287]
+        - img [ref=e1288]
+        - img [ref=e1289]
+        - img [ref=e1290]
+        - img [ref=e1291]
+        - img [ref=e1292]
+      - img [ref=e1293] [cursor=pointer]
+      - img [ref=e1294] [cursor=pointer]
+      - generic [ref=e1295]:
+        - button [ref=e1296] [cursor=pointer]
+        - button [ref=e1297] [cursor=pointer]
+        - button [ref=e1298] [cursor=pointer]
+        - button [ref=e1299] [cursor=pointer]
+        - button [ref=e1300] [cursor=pointer]
+        - button [ref=e1301] [cursor=pointer]
+        - button [ref=e1302] [cursor=pointer]
+        - button [ref=e1303] [cursor=pointer]
+    - generic [ref=e1304]:
+      - link "Download PDF Specimen" [ref=e1305] [cursor=pointer]:
+        - /url: https://intervaltype.com/app/uploads/2023/04/Factor-A-Specimen-2023.pdf
+        - paragraph [ref=e1307]: Download PDF Specimen
+      - generic [ref=e1308]:
+        - paragraph [ref=e1309]:
+          - strong [ref=e1310]: Factor A, a quick story
+        - paragraph [ref=e1311]
+        - paragraph [ref=e1312]: Factor A is a functional geometric grotesk, in a sense synthesizing the sans serif designs created in the beginning of the 20th century. Despite the cold geometry specific to this style, Factor A has warmth, thanks to, for example, a double-storey default a, or a somewhat classic t. If you are looking for a neutral or a more rounded/smooth feel there are also 2 sets of alternates for lowercase letters.
+        - paragraph [ref=e1313]
+        - paragraph [ref=e1314]: To name a few other font features, it has the same hight for caps and ascenders, low contrast, and a large palette of widths and weights, creating a perfect geometric sans workhorse type family. Factor A has a large choice of alternates, enabled by the concept of the hand-drawn loop. These alternates can be used to funk up your titles and logos. Factor A can be used at both display and text sizes for branding, web, signage… etc.
+        - paragraph [ref=e1315]
+        - paragraph [ref=e1316]: "Scripts: Extended Latin, Cyrillic"
+        - paragraph [ref=e1317]
+        - paragraph [ref=e1318]:
+          - strong [ref=e1319]: "Factor A Full Family: 56 Styles + Variable Font"
+    - generic [ref=e1320]:
+      - heading "Buying options" [level=3] [ref=e1321]
+      - generic [ref=e1323]:
+        - paragraph [ref=e1324]: Choose Licenses
+        - generic [ref=e1325]:
+          - generic [ref=e1326]:
+            - generic [ref=e1327]: Desktop
+            - combobox [ref=e1328] [cursor=pointer]:
+              - option "Select license"
+              - option "1-3 Users" [selected]
+              - option "4-7 Users"
+              - option "8-12 Users"
+              - option "12-20 Users"
+              - option "20-50 Users"
+              - option "50-100 Users"
+              - option "100-500 Users"
+            - img
+          - generic [ref=e1329]:
+            - generic [ref=e1330]: Web
+            - combobox [ref=e1331] [cursor=pointer]:
+              - option "Select license" [selected]
+              - option "50k visitors/month"
+              - option "100k visitors/month"
+              - option "200k visitors/month"
+              - option "500k visitors/month"
+              - option "1 million visitors/month"
+              - option "5 million visitors/month"
+            - img
+          - generic [ref=e1332]:
+            - generic [ref=e1333]: App
+            - combobox [ref=e1334] [cursor=pointer]:
+              - option "Select license" [selected]
+              - option "1 app"
+              - option "2 apps"
+            - img
+        - paragraph [ref=e1335]: Choose Fonts
+        - link "Review Cart / 0 items / 0 €" [ref=e1337] [cursor=pointer]:
+          - /url: https://intervaltype.com/cart/
+          - text: Review Cart /
+          - generic [ref=e1338]: "0"
+          - text: items /
+          - generic [ref=e1339]: "0"
+          - text: €
+        - paragraph [ref=e1340]:
+          - text: Proceed to reviewing your cart and payments. After your payment is complete you will receive the link to download your new fonts. If you have any questions please write to
+          - link "hello@intervaltype.com" [ref=e1341] [cursor=pointer]:
+            - /url: mailto:help@intervaltype.com
+        - paragraph
+  - contentinfo [ref=e1342]:
+    - generic [ref=e1344]:
+      - list [ref=e1346]:
+        - listitem [ref=e1347]:
+          - strong [ref=e1348]: Interval
+        - listitem [ref=e1349]:
+          - link "Fonts" [ref=e1350] [cursor=pointer]:
+            - /url: https://intervaltype.com/fonts/
+        - listitem [ref=e1351]:
+          - link "Custom" [ref=e1352] [cursor=pointer]:
+            - /url: https://intervaltype.com/custom/
+        - listitem [ref=e1353]:
+          - link "Info+" [ref=e1354] [cursor=pointer]:
+            - /url: https://intervaltype.com/info/
+      - generic [ref=e1355]:
+        - list [ref=e1357]:
+          - listitem [ref=e1358]:
+            - link "Desktop license" [ref=e1359] [cursor=pointer]:
+              - /url: https://intervaltype.com/info/
+          - listitem [ref=e1360]:
+            - link "Web license" [ref=e1361] [cursor=pointer]:
+              - /url: https://intervaltype.com/info/
+          - listitem [ref=e1362]:
+            - link "App license" [ref=e1363] [cursor=pointer]:
+              - /url: https://intervaltype.com/info/
+          - listitem [ref=e1364]:
+            - link "Trial license" [ref=e1365] [cursor=pointer]:
+              - /url: https://intervaltype.com/info/
+        - generic [ref=e1366]:
+          - list [ref=e1367]:
+            - listitem [ref=e1368]:
+              - link "Terms & Conditions" [ref=e1369] [cursor=pointer]:
+                - /url: https://intervaltype.com/terms-conditions/
+            - listitem [ref=e1370]:
+              - link "Privacy Policy" [ref=e1371] [cursor=pointer]:
+                - /url: https://intervaltype.com/privacy-policy-2/
+          - list [ref=e1372]:
+            - listitem [ref=e1373]:
+              - link "E-mail" [ref=e1374] [cursor=pointer]:
+                - /url: mailto:hello@intervaltype.com
+            - listitem [ref=e1375]:
+              - link "Instagram" [ref=e1376] [cursor=pointer]:
+                - /url: https://www.instagram.com/intervaltype
+            - listitem [ref=e1377]:
+              - link "Behance" [ref=e1378] [cursor=pointer]:
+                - /url: https://www.behance.net
+        - list [ref=e1380]:
+          - listitem [ref=e1381]: Copyright ©2026
+          - listitem [ref=e1382]: All Rights Reserved.

@@ -1,0 +1,5 @@
+[    1088ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.typeverything.com/fonts/info:0
+[    1089ms] [LOG] {statusCode: 500, message: Internal server error} @ https://typeverything.com/assets/index-Iq2R-uUO.js:32
+[    1090ms] [LOG] 500 @ https://typeverything.com/assets/index-Iq2R-uUO.js:32
+[    1090ms] [LOG] _t @ https://typeverything.com/assets/index-Iq2R-uUO.js:32
+[    1090ms] [ERROR] me @ https://typeverything.com/assets/index-Iq2R-uUO.js:14

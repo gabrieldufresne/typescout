@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ── TypeScout design tokens ──────────────────────────────────────────────── */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-lilex);
+
+  /* Canvas & surfaces */
+  --color-canvas:           #f2f1ed;   /* page background — warm cream */
+  --color-surface:          #ffffff;   /* card / specimen area */
+
+  /* Text */
+  --color-text-primary:     #000000;   /* headings, foundry names */
+  --color-text-ink:         #151515;   /* tag labels, outline tag text */
+  --color-text-paid:        #fafafa;   /* text on paid badge */
+
+  /* Borders */
+  --color-border-tag:       #151515;   /* all tag/badge borders — 0.5px */
+
+  /* Tag fills */
+  --color-tag-fill:         #e0ded8;   /* neutral tags: classification, weights */
+  --color-tag-fill-feature: #f4fbd4;   /* feature tags: italics, variable */
+  --color-tag-fill-paid:    #000000;   /* paid badge */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #fafafa;
+  --foreground: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-lilex, monospace);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(21,21,21,0.20);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(21,21,21,0.35);
 }

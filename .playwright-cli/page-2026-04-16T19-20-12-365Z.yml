@@ -1,0 +1,756 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+        - navigation [ref=e14]:
+          - link "Typefaces" [ref=e15] [cursor=pointer]:
+            - /url: /typefaces
+          - link "About Us" [ref=e16] [cursor=pointer]:
+            - /url: /about-us
+          - link "Case Studies" [ref=e17] [cursor=pointer]:
+            - /url: /case-studies
+          - link "Licensing" [ref=e18] [cursor=pointer]:
+            - /url: /licensing
+          - link "News" [ref=e19] [cursor=pointer]:
+            - /url: /news
+          - link "FM" [ref=e20] [cursor=pointer]:
+            - /url: /fm
+        - generic [ref=e21]:
+          - link "Buy" [ref=e22] [cursor=pointer]:
+            - /url: "#buy"
+            - generic [ref=e23]: Buy
+          - button "Try" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Try
+        - navigation [ref=e26]:
+          - link "Sign In" [ref=e27] [cursor=pointer]:
+            - /url: /sign-in
+          - link "Sign Up" [ref=e28] [cursor=pointer]:
+            - /url: /sign-up
+        - navigation [ref=e29]:
+          - link [ref=e30] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e31]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Ogg" [level=1] [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e43]: Ogg Superfamily
+                - link "Ogg" [ref=e45] [cursor=pointer]:
+                  - /url: ogg
+              - generic [ref=e46]:
+                - generic:
+                  - generic: Ogg Superfamily
+                - link "Ogg Text" [ref=e47] [cursor=pointer]:
+                  - /url: ogg-text
+            - generic [ref=e49]:
+              - link "Specimens" [ref=e50] [cursor=pointer]:
+                - /url: "#specimens"
+              - link "Glyphs" [ref=e51] [cursor=pointer]:
+                - /url: "#glyphs"
+              - link "PDF" [ref=e52] [cursor=pointer]:
+                - /url: https://dcym8fthxf5uu.cloudfront.net/files/0521fbc71e5d1e9b3c209e2fb18ce859/2024-Ogg-Specimen.pdf
+              - link "Buy" [ref=e53] [cursor=pointer]:
+                - /url: "#buy"
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - link "Making the Ogg Superfamily, View the Case Study" [ref=e58] [cursor=pointer]:
+              - /url: /case-studies/ogg-superfamily-case-study
+              - text: Making the Ogg Superfamily, View the Case Study
+            - generic [ref=e61]: Inspired by the hand lettering of 20th century book designer and calligrapher Oscar Ogg, Ogg captures the unique mix of calligraphic and typographic form he achieved through his use of hand carved pen nibs, brushes, and white-out. Signature moves found throughout Ogg’s calligraphic works were explored, exaggerated, and refined in the high contrast design space of Ogg. The original lettering samples are a combination of calligraphic stroke, contour drawing, and white-out (reduction). This combination of calligraphic and constructed forms became the perfect jumping off point for typographic exploration.
+            - generic [ref=e62]:
+              - generic [ref=e63]: Designed by Lucas Sharp with Connor Davenport
+              - generic [ref=e64]:
+                - generic [ref=e65]: Version History
+                - text: V.1 2013
+                - text: V.2 2019
+          - button "Information" [ref=e66] [cursor=pointer]:
+            - text: Information
+            - img [ref=e67]
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]:
+                  - generic [ref=e75]: Ogg Superfamily
+                  - generic [ref=e76]:
+                    - link "Ogg" [ref=e77] [cursor=pointer]:
+                      - /url: ogg
+                      - text: Ogg
+                    - link "Ogg Text" [ref=e79] [cursor=pointer]:
+                      - /url: ogg-text
+                      - text: Ogg Text
+                - generic [ref=e81]:
+                  - generic [ref=e82]:
+                    - generic [ref=e83]: Explore Licensing Packages
+                    - link "Individual fonts" [ref=e85] [cursor=pointer]:
+                      - /url: "#buy-fonts"
+                      - text: Individual fonts
+                  - link "Buy" [ref=e87] [cursor=pointer]:
+                    - /url: "#buy"
+                    - generic [ref=e88]: Buy
+              - link "↑ Return to top" [ref=e90] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e91]: ↑ Return to top
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e96]:
+                    - generic [ref=e98]:
+                      - combobox [ref=e100] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e102]:
+                      - generic [ref=e105]: Size
+                      - slider "Size" [ref=e108]: "120"
+                  - textbox [ref=e112]:
+                    - paragraph [ref=e113]: Oscar de la Renta
+                - generic [ref=e114]:
+                  - generic [ref=e116]:
+                    - generic [ref=e118]:
+                      - combobox [ref=e120] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e122]:
+                      - generic [ref=e125]: Size
+                      - slider "Size" [ref=e128]: "120"
+                  - textbox [ref=e132]:
+                    - paragraph [ref=e133]: Embellishments
+                - generic [ref=e134]:
+                  - generic [ref=e136]:
+                    - generic [ref=e138]:
+                      - combobox [ref=e140] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e142]:
+                      - generic [ref=e145]: Size
+                      - slider "Size" [ref=e148]: "120"
+                  - textbox [ref=e152]:
+                    - paragraph [ref=e153]: Dolce & Gabbana
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - generic [ref=e158]:
+                      - combobox [ref=e160] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e162]:
+                      - generic [ref=e165]: Size
+                      - slider "Size" [ref=e168]: "120"
+                  - textbox [ref=e172]:
+                    - paragraph [ref=e173]: Demeulemeester
+                - generic [ref=e174]:
+                  - generic [ref=e176]:
+                    - generic [ref=e178]:
+                      - combobox [ref=e180] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e182]:
+                      - generic [ref=e185]: Size
+                      - slider "Size" [ref=e188]: "120"
+                  - textbox [ref=e192]:
+                    - paragraph [ref=e193]: Yves Saint Laurent
+                - generic [ref=e194]:
+                  - generic [ref=e196]:
+                    - generic [ref=e198]:
+                      - combobox [ref=e200] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e202]:
+                      - generic [ref=e205]: Size
+                      - slider "Size" [ref=e208]: "120"
+                  - textbox [ref=e212]:
+                    - paragraph [ref=e213]: Rírcardo Covalín
+                - generic [ref=e214]:
+                  - generic [ref=e216]:
+                    - generic [ref=e218]:
+                      - combobox [ref=e220] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e222]:
+                      - generic [ref=e225]: Size
+                      - slider "Size" [ref=e228]: "120"
+                  - textbox [ref=e232]:
+                    - paragraph [ref=e233]: Natalia Valevskaya
+                - generic [ref=e234]:
+                  - generic [ref=e236]:
+                    - generic [ref=e238]:
+                      - combobox [ref=e240] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e242]:
+                      - generic [ref=e245]: Size
+                      - slider "Size" [ref=e248]: "120"
+                  - textbox [ref=e252]:
+                    - paragraph [ref=e253]: Van Beírendonck
+                - generic [ref=e254]:
+                  - generic [ref=e256]:
+                    - generic [ref=e258]:
+                      - combobox [ref=e260] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e262]:
+                      - generic [ref=e265]: Size
+                      - slider "Size" [ref=e268]: "115"
+                  - textbox [ref=e272]:
+                    - paragraph [ref=e273]: Nicolas Ghesquière
+                - generic [ref=e274]:
+                  - generic [ref=e276]:
+                    - generic [ref=e278]:
+                      - combobox [ref=e280] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e282]:
+                      - generic [ref=e285]: Size
+                      - slider "Size" [ref=e288]: "115"
+                  - textbox [ref=e292]:
+                    - paragraph [ref=e293]: Pleated Layered
+                - generic [ref=e295]:
+                  - link "Ogg lowercase a weight spectrum Ogg lowercase a weight spectrum" [ref=e296] [cursor=pointer]:
+                    - /url: /case-studies/ogg-superfamily-case-study
+                    - generic [ref=e300]: Ogg lowercase a weight spectrum
+                    - img "Ogg lowercase a weight spectrum" [ref=e302]
+                  - link "Ogg lowercase e weight spectrum Ogg lowercase a weight spectrum" [ref=e303] [cursor=pointer]:
+                    - /url: /case-studies/ogg-superfamily-case-study
+                    - generic [ref=e307]: Ogg lowercase e weight spectrum
+                    - img "Ogg lowercase a weight spectrum" [ref=e309]
+                - generic [ref=e311]:
+                  - generic [ref=e313]:
+                    - generic [ref=e315]:
+                      - combobox [ref=e317] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e319]:
+                      - generic [ref=e322]: Size
+                      - slider "Size" [ref=e325]: "200"
+                  - textbox [ref=e329]:
+                    - paragraph [ref=e330]: Wantanabe
+                - generic [ref=e332]:
+                  - generic [ref=e336]: Mixed Styles
+                  - paragraph [ref=e340]: Margelia, Lagerfeld, Ana Wintour, Christian Dior, Issey Miyake, Andre Leon Talley & Bill Cunningham.
+                - generic [ref=e341]:
+                  - generic [ref=e342]:
+                    - generic [ref=e345]:
+                      - generic [ref=e346]: Light and Light Italic
+                      - generic [ref=e347]: "25"
+                    - paragraph [ref=e351]: Luxury or nothing. There is so much to say about Andre Leon Talley and nothing said will ever be enough. No one person, not even ALT himself, could be counted on to weave all of his glories and hitches into a complete, fitting and accurate garment. We will have to depend on one another to create this last ensemble. So, this morning, I just want to celebrate how he moved through the world.
+                  - generic [ref=e352]:
+                    - generic [ref=e355]:
+                      - generic [ref=e356]: Thin and Thin Italic
+                      - generic [ref=e357]: "25"
+                    - paragraph [ref=e361]: It’s easy, I think, to dismiss ways of being as cultural contributions, but I believe that people are culture. How they live and move and myth-make and endure and drape and pose and want and want and want and observe and comment and declare. That’s culture. Andre Leon Talley’s sense of self was culture. And, I argue, it was culture at its best. One look at him and you wanted more for yourself.
+                - generic [ref=e362]:
+                  - generic [ref=e363]:
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: Thin
+                      - generic [ref=e368]: "140"
+                    - paragraph [ref=e372]: Aa
+                  - generic [ref=e373]:
+                    - generic [ref=e376]:
+                      - generic [ref=e377]: Light
+                      - generic [ref=e378]: "140"
+                    - paragraph [ref=e382]: Aa
+                  - generic [ref=e383]:
+                    - generic [ref=e386]:
+                      - generic [ref=e387]: Regular
+                      - generic [ref=e388]: "140"
+                    - paragraph [ref=e392]: Aa
+                  - generic [ref=e393]:
+                    - generic [ref=e396]:
+                      - generic [ref=e397]: Medium
+                      - generic [ref=e398]: "140"
+                    - paragraph [ref=e402]: Aa
+                  - generic [ref=e403]:
+                    - generic [ref=e406]:
+                      - generic [ref=e407]: Bold
+                      - generic [ref=e408]: "140"
+                    - paragraph [ref=e412]: Aa
+                - link "Ogg Italic Source Material In use for Chui Wan" [ref=e414] [cursor=pointer]:
+                  - /url: /case-studies/ogg-superfamily-case-study
+                  - generic [ref=e418]: Ogg Italic Source Material
+                  - img "In use for Chui Wan" [ref=e420]
+                - generic [ref=e421]:
+                  - generic [ref=e423]:
+                    - generic [ref=e425]:
+                      - combobox [ref=e427] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e429]:
+                      - generic [ref=e432]: Size
+                      - slider "Size" [ref=e435]: "200"
+                  - textbox [ref=e439]:
+                    - paragraph [ref=e440]: Jil Sander
+                - generic [ref=e441]:
+                  - generic [ref=e442]:
+                    - generic [ref=e446]: Light and Light Italic
+                    - paragraph [ref=e450]: Lil Nas X + Jean Paul Gaultier Collaboration . . . Sep 20, 2021 — This collab comes days after the Montero release on September 17, marking Lil Nas X's celebrated marriage of rap, pop and, above all, ...
+                  - generic [ref=e451]:
+                    - generic [ref=e454]:
+                      - generic [ref=e455]: Medium and Medium italic
+                      - generic [ref=e456]: "34"
+                    - paragraph [ref=e460]: "When the biggest provocateurs come together, you know the outcome is going to bring drama. The pieces: a long sleeve top with playful biblical imagery printed on tulle. I don’t understand even a minimal part of a machine. For me it’s a toy to be broken. Love is a very difficult word to use for the importance I give to love."
+                - generic [ref=e461]:
+                  - generic [ref=e462]:
+                    - generic [ref=e465]:
+                      - generic [ref=e466]: Regular
+                      - generic [ref=e467]: "16"
+                    - paragraph [ref=e471]: “I don’t live for fashion, I live for beauty and style.” So says haute couture eminence grise Andre Leon Talley in the opening seconds of Kate Novack’s The Gospel According to Andre, and the director takes those words as gospel. The documentary is a deeply loving, frequently beautiful testament to the former Vogue editor, who rose from humble beginnings in North Carolina to become arguably the high fashion world’s first major African-American tastemaker, as well as the type of multi-lingual, Russian-lit-citing public intellectual who is perfectly at ease gossiping on TV with Wendy Williams. At times hesitant to press Talley on some uncomfortable but important aspects of his life, the film amounts to essentially a long, intimate brunch conversation with its inimitable subject, and for those with even a passing interest in fashion, that should be plenty. There are plenty of famous names who show up to sing Talley’s praises – Tom Ford, Diane von Furstenberg, Marc Jacobs, Manolo Blahnik, and of course Talley’s primary foil Anna Wintour, who credits him for teaching her about fashion in her earliest days as Vogue editor-in-chief – but some of the most memorable anecdotes come from his childhood friends. Through them and Talley’s memories, we get a crystal clear image of the fashionista as a young man, raised by his beloved grandmother, and eternally
+                  - link [ref=e472] [cursor=pointer]:
+                    - /url: /typefaces/ogg-text
+                    - generic [ref=e475]:
+                      - generic [ref=e477]: Ogg Text Light and Light Italic
+                      - generic [ref=e478]: "16"
+                    - paragraph [ref=e482]: "Best known for his long association with Vogue, Talley has long stood out even in the peacockish world of couture: his imposing six-and-a-half-foot profile, usually decked out in lavish capes and jackets, is as much a staple of Paris runways as flashbulbs and champagne flutes. Alongside plenty of vintage footage, Novack follows him around New York City, his home in White Plains, and his hometown of Durham throughout the summer and fall of 2016, giving fly-on-the-wall access as he dresses famous friends and mulls on the upcoming presidential election. “Gospel” is Novack’s first solo feature, though she co-directed “Eat This New York” with husband Andrew Rossi, whose “Page One: Inside the New York Times” she also produced, and she seems to have an implicit understanding that shot composition is every bit as important in a documentary as in a narrative feature. She and cinematographer Bryan Sarkinen capture some wonderful imagery here, and she does deft work to weave in eye-popping runway footage from fashion eras past and present."
+                - generic [ref=e483]:
+                  - link "In use for by Base Design for, Panettone from Roy In use for by Base Design for Panettone from Roy" [ref=e484] [cursor=pointer]:
+                    - /url: /news/oggpanettonefromroy
+                    - generic [ref=e488]: In use for by Base Design for, Panettone from Roy
+                    - img "In use for by Base Design for Panettone from Roy" [ref=e490]
+                  - generic [ref=e491]:
+                    - generic [ref=e495]: In use for Kaleidoscope magazine, design by Bureau Mirko Borsche
+                    - img "In use for Kaleidoscope magazine, design by Bureau Mirko Borsche" [ref=e497]
+                - generic [ref=e498]:
+                  - generic [ref=e500]:
+                    - generic [ref=e502]:
+                      - combobox [ref=e504] [cursor=pointer]
+                      - generic: ▼
+                    - generic [ref=e506]:
+                      - generic [ref=e509]: Size
+                      - slider "Size" [ref=e512]: "200"
+                  - textbox [ref=e516]:
+                    - paragraph [ref=e517]: Vaquera
+                - generic [ref=e518]:
+                  - generic [ref=e519]:
+                    - generic [ref=e522]:
+                      - generic [ref=e523]: Medium and Medium Italic
+                      - generic [ref=e524]: "25"
+                    - paragraph [ref=e528]: I hate any kind of machines but the telephone, because I need it a lot. All the machines frighten me because I’m not able to use them. I don’t understand even a minimal part of a machine. For me it’s a toy to be broken. Love is a very difficult word to use for the importance I give to love. Perhaps it will be marvelous to be in love every day, every moment, but it’s very
+                  - generic [ref=e529]:
+                    - generic [ref=e532]:
+                      - generic [ref=e533]: Medium Italic
+                      - generic [ref=e534]: "25"
+                    - paragraph [ref=e538]: To celebrate the 10th anniversary of his eponymous brand, party animal-turned-streetwear sensation Marcelo Burlon brought together the brightest stars in sports and fashion for a Spring/Summer 23 Menswear presentation that married the rich textiles of his Patagonian roots with the bright colors and flowing silhouettes of the coastal European club scene that he
+                - generic [ref=e539]:
+                  - generic [ref=e540]:
+                    - generic [ref=e543]:
+                      - generic [ref=e544]: Thin Italic
+                      - generic [ref=e545]: "130"
+                    - paragraph [ref=e549]: A
+                  - generic [ref=e550]:
+                    - generic [ref=e553]:
+                      - generic [ref=e554]: Light Italic
+                      - generic [ref=e555]: "130"
+                    - paragraph [ref=e559]: A
+                  - generic [ref=e560]:
+                    - generic [ref=e563]:
+                      - generic [ref=e564]: Italic
+                      - generic [ref=e565]: "130"
+                    - paragraph [ref=e569]: A
+                  - generic [ref=e570]:
+                    - generic [ref=e573]:
+                      - generic [ref=e574]: Medium Italic
+                      - generic [ref=e575]: "130"
+                    - paragraph [ref=e579]: A
+                  - generic [ref=e580]:
+                    - generic [ref=e583]:
+                      - generic [ref=e584]: Bold Italic
+                      - generic [ref=e585]: "130"
+                    - paragraph [ref=e589]: A
+                - generic [ref=e590]:
+                  - generic [ref=e591]:
+                    - generic [ref=e594]:
+                      - generic [ref=e595]: Bold and Bold Italic
+                      - generic [ref=e596]: "71"
+                    - paragraph [ref=e600]:
+                      - text: Described by Fran Lebowitz as perhaps the only Studio 54 regular who
+                      - emphasis [ref=e601]: wasn’t
+                      - text: there for the sex and the drugs
+                  - generic [ref=e602]:
+                    - generic [ref=e605]:
+                      - generic [ref=e606]: Bold and Bold Italic
+                      - generic [ref=e607]: "34"
+                    - paragraph [ref=e611]: Diligence and passion as a fashion journalist would see him rise to gigs in Paris with Women’s Wear Daily and back in New York at Vogue. But it was through a chance meeting with legendary fashion editor Diana Vreeland, whom he regarded as something of a second mother, that he first ascended to the upper echelons.
+                - generic [ref=e612]:
+                  - generic [ref=e613]:
+                    - generic [ref=e616]:
+                      - generic [ref=e617]: Bold
+                      - generic [ref=e618]: "25"
+                    - paragraph [ref=e622]: I hate any kind of machines but the telephone, because I need it a lot. All the machines frighten me because I’m not able to use them. I don’t understand even a minimal part of a machine. For me it’s a toy to be broken. Love is a very difficult word to use for the importance I give to love. Perhaps it will be marvelous to be in love every day, every moment, but it’s very
+                  - generic [ref=e623]:
+                    - generic [ref=e626]:
+                      - generic [ref=e627]: Bold Italic
+                      - generic [ref=e628]: "25"
+                    - paragraph [ref=e632]: To celebrate the 10th anniversary of his eponymous brand, party animal-turned-streetwear sensation Marcelo Burlon brought together the brightest stars in sports and fashion for a Spring/Summer 23 Menswear presentation that married the rich textiles of his Patagonian roots with the bright colors and flowing silhouettes of the coastal European club scene that he
+                - generic [ref=e633]:
+                  - link "In use for Klassensprachen In use for Klassensprachen" [ref=e634] [cursor=pointer]:
+                    - /url: /news/klassensprachen-ogg
+                    - generic [ref=e638]: In use for Klassensprachen
+                    - img "In use for Klassensprachen" [ref=e640]
+                  - link "The Landscape the Tropics Never Had & Ogg The Landscape the Tropics Never Had & Ogg" [ref=e641] [cursor=pointer]:
+                    - /url: /news/the-landscape-the-tropics-never-had-ogg
+                    - generic [ref=e645]: The Landscape the Tropics Never Had & Ogg
+                    - img "The Landscape the Tropics Never Had & Ogg" [ref=e647]
+                - generic [ref=e648]:
+                  - generic [ref=e649]:
+                    - generic [ref=e652]:
+                      - generic [ref=e653]: Thin Italic
+                      - generic [ref=e654]: "80"
+                    - paragraph [ref=e658]: V
+                  - generic [ref=e659]:
+                    - generic [ref=e662]:
+                      - generic [ref=e663]: Light Italic
+                      - generic [ref=e664]: "80"
+                    - paragraph [ref=e668]: V
+                  - generic [ref=e669]:
+                    - generic [ref=e672]:
+                      - generic [ref=e673]: Italic
+                      - generic [ref=e674]: "80"
+                    - paragraph [ref=e678]: V
+                  - generic [ref=e679]:
+                    - generic [ref=e682]:
+                      - generic [ref=e683]: Medium Italic
+                      - generic [ref=e684]: "80"
+                    - paragraph [ref=e688]: V
+                  - generic [ref=e689]:
+                    - generic [ref=e692]:
+                      - generic [ref=e693]: Bold Italic
+                      - generic [ref=e694]: "80"
+                    - paragraph [ref=e698]: V
+            - generic [ref=e700]:
+              - paragraph [ref=e706]: Inspired by the hand lettering of 20th century book designer and calligrapher Oscar Ogg, Ogg captures the unique mix of calligraphic and typographic form achieved through his use of hand carved pen nibs, brushes, and white-out. The transitional stroke ductus of Ogg roman made for maximum legibility with an extremely compact word-shape, even when set at 8pt and below. In this vein, Ogg Text came to take on an unmistakably Dutch flavor.
+              - generic [ref=e707]:
+                - link "Ogg Thin 120 Aa" [ref=e708] [cursor=pointer]:
+                  - /url: /typefaces/ogg
+                  - generic [ref=e711]:
+                    - generic [ref=e713]: Ogg Thin
+                    - generic [ref=e714]: "120"
+                  - paragraph [ref=e718]: Aa
+                - link "Ogg Light 120 Aa" [ref=e719] [cursor=pointer]:
+                  - /url: /typefaces/ogg
+                  - generic [ref=e722]:
+                    - generic [ref=e724]: Ogg Light
+                    - generic [ref=e725]: "120"
+                  - paragraph [ref=e729]: Aa
+                - link "Ogg Regular 120 Aa" [ref=e730] [cursor=pointer]:
+                  - /url: /typefaces/ogg
+                  - generic [ref=e733]:
+                    - generic [ref=e735]: Ogg Regular
+                    - generic [ref=e736]: "120"
+                  - paragraph [ref=e740]: Aa
+                - link "Ogg Medium 120 Aa" [ref=e741] [cursor=pointer]:
+                  - /url: /typefaces/ogg
+                  - generic [ref=e744]:
+                    - generic [ref=e746]: Ogg Medium
+                    - generic [ref=e747]: "120"
+                  - paragraph [ref=e751]: Aa
+                - link "Ogg Bold 120 Aa" [ref=e752] [cursor=pointer]:
+                  - /url: /typefaces/ogg
+                  - generic [ref=e755]:
+                    - generic [ref=e757]: Ogg Bold
+                    - generic [ref=e758]: "120"
+                  - paragraph [ref=e762]: Aa
+              - generic [ref=e763]:
+                - link [ref=e764] [cursor=pointer]:
+                  - /url: /typefaces/ogg-text
+                  - generic [ref=e767]:
+                    - generic [ref=e769]: Ogg Text Light
+                    - generic [ref=e770]: "12"
+                  - paragraph [ref=e774]: "Like most other sedimentary rocks, most limestone is composed of grains. Most grains in limestone are skeletal fragments of marine organisms such as coral or foraminifera. These organisms secrete shells made of aragonite or calcite, and leave these shells behind when they die. Other carbonate grains comprising limestones are ooids, peloids, intraclasts, and extraclasts. Limestone often contains variable amounts of silica in the form of chert (chalcedony, flint, jasper). Limestone has numerous uses: as a building material, an essential component of concrete (Portland cement), as aggregate for the base of roads, as white pigment or filler in products such as toothpaste or paints, as a chemical feedstock for the production of lime, as a soil conditioner, or as a popular decorative addition to rock gardens. The primary source of the calcite in limestone is most commonly marine organisms. Some of these organisms can construct mounds of rock known as reefs, building upon past generations. Limestone has numerous uses: as a building material, an essential component of concrete (Portland cement), as aggregate for the base of roads, as a chemical feedstock for the production of lime, as a soil conditioner, and for rock gardens."
+                - link [ref=e775] [cursor=pointer]:
+                  - /url: /typefaces/ogg-text
+                  - generic [ref=e778]:
+                    - generic [ref=e780]: Ogg Text Book
+                    - generic [ref=e781]: "12"
+                  - paragraph [ref=e785]: "Some limestones do not consist of grains at all, and are formed completely by the chemical precipitation of calcite or aragonite, i.e. travertine. Secondary calcite may be deposited by supersaturated meteoric waters (groundwater that precipitates the material in caves). This produces speleothems, such as stalagmites and stalactites. Another form taken by calcite is oolitic limestone, which can be recognized by its granular (oolite) appearance. The primary source of the calcite in limestone is most commonly marine organisms. Some of these organisms can construct mounds of rock known as reefs, building upon past generations. Limestone has numerous uses: as a building material, an essential component of concrete (Portland cement), as aggregate for the base of roads, as a chemical feedstock for the production of lime, as a soil conditioner, and for rock gardens. The primary source of the calcite in limestone is most commonly marine organisms. Some of these organisms can construct mounds of rock known as reefs, building upon past generations. Limestone has numerous uses: as a building material, an essential component of concrete (Portland cement), as aggregate for the base of roads, as a chemical feedstock for the production of lime, as a soil conditioner, and for rock gardens."
+                - link [ref=e786] [cursor=pointer]:
+                  - /url: /typefaces/ogg-text
+                  - generic [ref=e789]:
+                    - generic [ref=e791]: Ogg Text Medium
+                    - generic [ref=e792]: "12"
+                  - paragraph [ref=e796]: "In the US, aragonite in the form of stalactites and “cave flowers” is known from Carlsbad Caverns and other caves. Massive deposits of oolitic aragonite sand are found on the seabed in the Bahamas. ragonite is the high pressure polymorph of calcium carbonate. As such, it occurs in high pressure metamorphic rocks such as those formed at subduction zones. Aragonite forms naturally in almost all mollusk shells. The type location for aragonite is Molina de Aragón in the Province of Guadalajara in Castilla-La Mancha, Spain, for which it was named in 1797. The mineral is not named for the region of Aragon: Molina de Aragón is located in the historic region of Castile. Turquoise is insoluble in all but heated hydrochloric acid. Its streak is a pale bluish white and its fracture is conchoidal, leaving a waxy lustre. Despite its low hardness relative to other gems, turquoise takes a good polish. Turquoise may also be peppered with flecks of pyrite or interspersed with dark, spidery limonite veining."
+                - link [ref=e797] [cursor=pointer]:
+                  - /url: /typefaces/ogg-text
+                  - generic [ref=e800]:
+                    - generic [ref=e802]: Ogg Text Bold
+                    - generic [ref=e803]: "12"
+                  - paragraph [ref=e807]: Aragonite also forms in the ocean and in caves as inorganic precipitates called marine cements and speleothems, respectively. Aragonite is not uncommon in serpentinites where high Mg in pore solutions apparently inhibits calcite growth and promotes aragonite precipitation. Aragonite is metastable at the low pressures near the Earth’s surface and is thus commonly replaced by calcite in fossils. Aragonite older than the Carboniferous is essentially unknown. It can also be synthesized by adding a calcium chloride solution to a sodium carbonate solution. As a secondary mineral, turquoise forms by the action of percolating acidic aqueous solutions during the weathering and oxidation of preexisting minerals. For example, the copper may come from primary copper sulfides such as chalcopyrite or from the secondary carbonates malachite or azurite; the aluminium may derive from feldspar; and the phosphorus from apatite. Climate factors appear to play an important role as turquoise is typically found in arid regions, filling or encrusting cavities and fractures in typically highly altered volcanic rocks, often with associated limonite and other iron oxides.
+                - link [ref=e808] [cursor=pointer]:
+                  - /url: /typefaces/ogg-text
+                  - generic [ref=e811]:
+                    - generic [ref=e813]: Ogg Text ExtraBold
+                    - generic [ref=e814]: "12"
+                  - paragraph [ref=e818]: In aquaria, aragonite is considered essential for the replication of reef conditions. Aragonite provides the materials necessary for much sea life and also keeps the pH of the water close to its natural level, to prevent the dissolution of biogenic calcium carbonate. Aragonite has been successfully tested for the removal of pollutants like zinc, cobalt and lead from contaminated wastewaters. Aragonite is thermodynamically unstable at standard temperature and pressure, and tends to alter to calcite on scales of 107 to 108 years. The mineral vaterite, also known as μ-CaCO3, is another phase of calcium carbonate that is metastable at ambient conditions typical of Earth’s surface, and decomposes even more readily than aragonite. For example, the copper may come from primary copper sulfides such as chalcopyrite or from the secondary carbonates malachite or azurite; the aluminium may derive from feldspar; and the phosphorus from apatite. Climate factors appear to play an important role as turquoise is typically found in arid regions, filling or encrusting cavities and fractures in typically highly altered volcanic rocks, often with associated limonite and other iron oxides.
+            - generic [ref=e821]: Loading…
+          - generic [ref=e822]:
+            - generic [ref=e823]:
+              - link [ref=e824] [cursor=pointer]:
+                - /url: https://dcym8fthxf5uu.cloudfront.net/files/0521fbc71e5d1e9b3c209e2fb18ce859/2024-Ogg-Specimen.pdf
+                - img [ref=e825]
+              - generic [ref=e831]:
+                - generic [ref=e832]:
+                  - generic [ref=e833]: aalt
+                  - generic [ref=e834]: Access All Alternates
+                - generic [ref=e835]:
+                  - generic [ref=e836]: calt
+                  - generic [ref=e837]: Contextual Alternates
+                - generic [ref=e838]:
+                  - generic [ref=e839]: case
+                  - generic [ref=e840]: Case-Sensitive Forms
+                - generic [ref=e841]:
+                  - generic [ref=e842]: dnom
+                  - generic [ref=e843]: Denominators
+                - generic [ref=e844]:
+                  - generic [ref=e845]: frac
+                  - generic [ref=e846]: Fractions
+                - generic [ref=e847]:
+                  - generic [ref=e848]: liga
+                  - generic [ref=e849]: Standard Ligatures
+                - generic [ref=e850]:
+                  - generic [ref=e851]: locl
+                  - generic [ref=e852]: Localized Forms
+                - generic [ref=e853]:
+                  - generic [ref=e854]: numr
+                  - generic [ref=e855]: Numerators
+                - generic [ref=e856]:
+                  - generic [ref=e857]: onum
+                  - generic [ref=e858]: Oldstyle Figures
+                - generic [ref=e859]:
+                  - generic [ref=e860]: ordn
+                  - generic [ref=e861]: Ordinals
+                - generic [ref=e862]:
+                  - generic [ref=e863]: salt
+                  - generic [ref=e864]: Stylistic Alternates
+                - generic [ref=e866]: ss01
+                - generic [ref=e869]: ss02
+                - generic [ref=e872]: ss03
+                - generic [ref=e874]:
+                  - generic [ref=e875]: subs
+                  - generic [ref=e876]: Subscript
+                - generic [ref=e877]:
+                  - generic [ref=e878]: sups
+                  - generic [ref=e879]: Superscript
+            - generic [ref=e881]: Acheron, Achinese, Acholi, Afar, Afrikaans, Alekano, Aleut, Amahuaca, Amarakaeri, Amis, Anaang, Andaandi, Dongolawi, Anuta, Ao Naga, Aragonese, Arbëreshë Albanian, Arvanitika Albanian, Asháninka, Ashéninka Perené, Asu (Tanzania), Balinese, Bari, Basque, Batak Dairi, Batak Karo, Batak Mandailing, Batak Simalungun, Batak Toba, Bemba (Zambia), Bena (Tanzania), Bikol, Bislama, Borana-Arsi-Guji Oromo, Bosnian, Breton, Buginese, Candoshi-Shapra, Caquinte, Cashibo-Cacataibo, Catalan, Cebuano, Central Aymara, Central Kurdish, Chamorro, Chavacano, Chiga, Chiltepec Chinantec, Chokwe, Chuukese, Cimbrian, Cofán, Congo Swahili, Cook Islands Māori, Cornish, Corsican, Creek, Crimean Tatar, Croatian, Czech, Danish, Dehu, Dutch, Eastern Arrernte, Eastern Oromo, Embu, English, Ese Ejja, Faroese, Fijian, Filipino, Finnish, French, Friulian, Gagauz, Galician, Ganda, Ga’anda, German, Gheg Albanian, Gilbertese, Gooniyandi, Gourmanchéma, Guadeloupean Creole French, Gusii, Haitian, Hani, Hiligaynon, Ho-Chunk, Hopi, Huastec, Hungarian, Icelandic, Iloko, Inari Sami, Indonesian, Irish, Istro Romanian, Italian, Ixcatlán Mazatec, Jamaican Creole English, Japanese, Javanese, Jola-Fonyi, K'iche', Kabuverdianu, Kala Lagaw Ya, Kalaallisut, Kalenjin, Kamba (Kenya), Kaonde, Karelian, Kashubian, Kekchí, Kenzi, Mattokki, Khasi, Kikuyu, Kimbundu, Kinyarwanda, Kituba (DRC), Kongo, Konzo, Kuanyama, Kven Finnish, Kölsch, Ladin, Ladino, Latgalian, Ligurian, Lithuanian, Lombard, Low German, Lower Sorbian, Luba-Lulua, Lule Sami, Luo (Kenya and Tanzania), Luxembourgish, Macedo-Romanian, Makhuwa, Makhuwa-Meetto, Makonde, Makwe, Malagasy, Malaysian, Maltese, Mandinka, Mandjak, Mankanya, Manx, Maore Comorian, Maori, Mapudungun, Matsés, Mauritian Creole, Meriam Mir, Meru, Minangkabau, Mirandese, Mohawk, Montenegrin, Munsee, Murrinh-Patha, Mwani, Mískito, Naga Pidgin, Ndonga, Neapolitan, Ngazidja Comorian, Niuean, Nobiin, Nomatsiguenga, North Ndebele, Northern Kurdish, Northern Qiandong Miao, Northern Sami, Northern Uzbek, Norwegian, Nyanja, Nyankole, Occitan, Orma, Oroqen, Palauan, Paluan, Pampanga, Papiamento, Pedi, Picard, Pichis Ashéninka, Piemontese, Pijin, Pintupi-Luritja, Pohnpeian, Polish, Portuguese, Potawatomi, Quechua, Romanian, Romansh, Rotokas, Rundi, Rwa, Samburu, Samoan, Sango, Sangu (Tanzania), Saramaccan, Sardinian, Scots, Scottish Gaelic, Sena, Seri, Seselwa Creole French, Shambala, Shawnee, Shipibo-Conibo, Shona, Sicilian, Silesian, Slovak, Slovenian, Soga, Somali, Soninke, South Ndebele, Southern Aymara, Southern Qiandong Miao, Southern Sami, Southern Sotho, Spanish, Sranan Tongo, Standard Estonian, Standard Latvian, Standard Malay, Sundanese, Swahili, Swati, Swedish, Swiss German, Tagalog, Tahitian, Taita, Tedim Chin, Tetum, Tetun Dili, Tiv, Tok Pisin, Tokelau, Tonga (Tonga Islands), Tosk Albanian, Tsonga, Tswana, Tumbuka, Turkish, Turkmen, Tzeltal, Tzotzil, Uab Meto, Ume Sami, Upper Guinea Crioulo, Upper Sorbian, Venetian, Veps, Võro, Walloon, Walser, Wangaaybuwan-Ngiyambaa, Waray (Philippines), Warlpiri, Wayuu, Welsh, West Central Oromo, Western Abnaki, Western Frisian, Wik-Mungkan, Wiradjuri, Wolof, Xhosa, Yanesha', Yao, Yapese, Yindjibarndi, Yucateco, Zulu, Záparo
+  - contentinfo [ref=e886]:
+    - generic [ref=e888]:
+      - generic [ref=e890]:
+        - heading "Sharp Type Bulletin" [level=3] [ref=e891]
+        - textbox "Email Address" [ref=e893]
+        - textbox [ref=e895]
+        - button "Subscribe" [ref=e896]
+      - generic [ref=e897]:
+        - text: By submitting your email you agree to receive updates about Sharp Type. You can unsubscribe at any time.
+        - link "View our full Privacy Policy" [ref=e898] [cursor=pointer]:
+          - /url: /privacy-policy
+        - text: .
+    - navigation [ref=e899]:
+      - generic [ref=e900]:
+        - generic [ref=e901]:
+          - link "Alpes" [ref=e903] [cursor=pointer]:
+            - /url: /typefaces/alpes
+            - text: Alpes
+          - link "Alpes Mono" [ref=e906] [cursor=pointer]:
+            - /url: /typefaces/alpes-mono
+            - text: Alpes Mono
+        - generic [ref=e908]:
+          - link "Beatrice Display" [ref=e910] [cursor=pointer]:
+            - /url: /typefaces/beatrice-display
+            - text: Beatrice Display
+          - link "Beatrice Headline" [ref=e913] [cursor=pointer]:
+            - /url: /typefaces/beatrice-headline
+            - text: Beatrice Headline
+          - link "Beatrice Deck" [ref=e916] [cursor=pointer]:
+            - /url: /typefaces/beatrice-deck
+            - text: Beatrice Deck
+          - link "Beatrice Standard" [ref=e919] [cursor=pointer]:
+            - /url: /typefaces/beatrice-standard
+            - text: Beatrice Standard
+        - link "Carta Nueva" [ref=e923] [cursor=pointer]:
+          - /url: /typefaces/carta-nueva
+          - text: Carta Nueva
+        - generic [ref=e925]:
+          - link "Centra No.1" [ref=e927] [cursor=pointer]:
+            - /url: /typefaces/centra-no-1
+            - text: Centra No.1
+          - link "Centra No.2" [ref=e930] [cursor=pointer]:
+            - /url: /typefaces/centra-no-2
+            - text: Centra No.2
+          - link "Centra Mono" [ref=e933] [cursor=pointer]:
+            - /url: /typefaces/centra-mono
+            - text: Centra Mono
+        - link "Ceraph" [ref=e937] [cursor=pointer]:
+          - /url: /typefaces/ceraph
+          - text: Ceraph
+        - link "Cordier Script" [ref=e941] [cursor=pointer]:
+          - /url: /typefaces/cordier-script
+          - text: Cordier Script
+        - link "DOSS Collection" [ref=e945] [cursor=pointer]:
+          - /url: /typefaces/doss-superfamily
+          - text: DOSS Collection
+        - link "Doyle" [ref=e949] [cursor=pointer]:
+          - /url: /typefaces/doyle
+          - text: Doyle
+        - generic [ref=e951]:
+          - link "Eterne Display" [ref=e953] [cursor=pointer]:
+            - /url: /typefaces/eterne-display
+            - text: Eterne Display
+          - link "Eterne Text" [ref=e956] [cursor=pointer]:
+            - /url: /typefaces/eterne-text
+            - text: Eterne Text
+        - link "Frauen" [ref=e960] [cursor=pointer]:
+          - /url: /typefaces/frauen
+          - text: Frauen
+        - link "Ghost" [ref=e964] [cursor=pointer]:
+          - /url: /typefaces/ghost
+          - text: Ghost
+        - link "Greenstone" [ref=e968] [cursor=pointer]:
+          - /url: /typefaces/greenstone
+          - text: Greenstone
+        - generic [ref=e970]:
+          - link "Hauss" [ref=e972] [cursor=pointer]:
+            - /url: /typefaces/hauss
+            - text: Hauss
+          - link "Raum" [ref=e975] [cursor=pointer]:
+            - /url: /typefaces/raum
+            - text: Raum
+        - link "Octave" [ref=e979] [cursor=pointer]:
+          - /url: /typefaces/octave
+          - text: Octave
+        - generic [ref=e981]:
+          - link "Ogg Text" [ref=e983] [cursor=pointer]:
+            - /url: /typefaces/ogg-text
+            - text: Ogg Text
+          - link "Ogg" [ref=e986] [cursor=pointer]:
+            - /url: /typefaces/ogg
+            - text: Ogg
+        - link "Post Grotesk" [ref=e990] [cursor=pointer]:
+          - /url: /typefaces/post-grotesk
+          - text: Post Grotesk
+        - generic [ref=e992]:
+          - link "Record Laser" [ref=e994] [cursor=pointer]:
+            - /url: /typefaces/record-laser
+            - text: Record Laser
+          - link "Record Disc" [ref=e997] [cursor=pointer]:
+            - /url: /typefaces/record-disc
+            - text: Record Disc
+        - link "Respira" [ref=e1001] [cursor=pointer]:
+          - /url: /typefaces/respira
+          - text: Respira
+        - link "Rosalie" [ref=e1005] [cursor=pointer]:
+          - /url: /typefaces/rosalie
+          - text: Rosalie
+        - generic [ref=e1007]:
+          - link "Rotina" [ref=e1009] [cursor=pointer]:
+            - /url: /typefaces/rotina
+            - text: Rotina
+          - link "Rotina Swash" [ref=e1012] [cursor=pointer]:
+            - /url: /typefaces/rotina
+            - text: Rotina Swash
+          - link "Rotina Script" [ref=e1015] [cursor=pointer]:
+            - /url: /typefaces/rotina
+            - text: Rotina Script
+        - link "Salter" [ref=e1019] [cursor=pointer]:
+          - /url: /typefaces/salter
+          - text: Salter
+        - generic [ref=e1021]:
+          - link "Sharp Earth" [ref=e1023] [cursor=pointer]:
+            - /url: /typefaces/earth-omni-latin
+            - text: Sharp Earth
+          - link "Sharp Earth PanEuro" [ref=e1026] [cursor=pointer]:
+            - /url: /typefaces/earth-pan-euro
+            - text: Sharp Earth PanEuro
+          - link "Sharp Earth 日本語" [ref=e1029] [cursor=pointer]:
+            - /url: /typefaces/earth-japanese
+            - text: Sharp Earth 日本語
+          - link "Sharp Earth عربي" [ref=e1032] [cursor=pointer]:
+            - /url: /typefaces/earth-arabic
+            - text: Sharp Earth عربي
+          - link "Sharp Earth देवनागरी" [ref=e1035] [cursor=pointer]:
+            - /url: /typefaces/earth-devanagari
+            - text: Sharp Earth देवनागरी
+          - link "Sharp Earth ภาษาไทย" [ref=e1038] [cursor=pointer]:
+            - /url: /typefaces/earth-thai
+            - text: Sharp Earth ภาษาไทย
+          - link "Sharp Earth Mono" [ref=e1041] [cursor=pointer]:
+            - /url: /typefaces/sharp-earth-mono
+            - text: Sharp Earth Mono
+        - link "Sharp Freehand" [ref=e1045] [cursor=pointer]:
+          - /url: /typefaces/sharp-freehand
+          - text: Sharp Freehand
+        - generic [ref=e1047]:
+          - link "Sharp Grotesk Pan Euro" [ref=e1049] [cursor=pointer]:
+            - /url: /typefaces/sharp-grotesk-pan-euro
+            - text: Sharp Grotesk Pan Euro
+          - link "Sharp Grotesk 한글" [ref=e1052] [cursor=pointer]:
+            - /url: /typefaces/sharp-grotesk-hangul
+            - text: Sharp Grotesk 한글
+          - link "Sharp Grotesk" [ref=e1055] [cursor=pointer]:
+            - /url: /typefaces/sharp-grotesk
+            - text: Sharp Grotesk
+          - link "Sharp Grotesk ภาษาไทย" [ref=e1058] [cursor=pointer]:
+            - /url: /typefaces/sharp-grotesk-thai
+            - text: Sharp Grotesk ภาษาไทย
+        - link "Sharp Roman" [ref=e1062] [cursor=pointer]:
+          - /url: /typefaces/sharp-roman
+          - text: Sharp Roman
+        - generic [ref=e1064]:
+          - link "Sharp Sans Display No.1" [ref=e1066] [cursor=pointer]:
+            - /url: /typefaces/sharp-sans-display-no-1
+            - text: Sharp Sans Display No.1
+          - link "Sharp Sans Display No.2" [ref=e1069] [cursor=pointer]:
+            - /url: /typefaces/sharp-sans-display-no-2
+            - text: Sharp Sans Display No.2
+          - link "Sharp Sans" [ref=e1072] [cursor=pointer]:
+            - /url: /typefaces/sharp-sans
+            - text: Sharp Sans
+          - link "Sharp Slab" [ref=e1075] [cursor=pointer]:
+            - /url: /typefaces/sharp-slab
+            - text: Sharp Slab
+          - link "Sharp Sans Condensed" [ref=e1078] [cursor=pointer]:
+            - /url: /typefaces/sharp-sans-condensed
+            - text: Sharp Sans Condensed
+        - generic [ref=e1080]:
+          - link "Sharp Serif Text" [ref=e1082] [cursor=pointer]:
+            - /url: /typefaces/sharp-serif-omni
+            - text: Sharp Serif Text
+          - link "Sharp Serif Text PanEuro" [ref=e1085] [cursor=pointer]:
+            - /url: /typefaces/sharp-serif-pan-euro
+            - text: Sharp Serif Text PanEuro
+          - link "Sharp Serif Display" [ref=e1088] [cursor=pointer]:
+            - /url: /typefaces/sharp-serif-display
+            - text: Sharp Serif Display
+          - link "Sharp Serif Display PanEuro" [ref=e1091] [cursor=pointer]:
+            - /url: /typefaces/sharp-serif-display-paneuro
+            - text: Sharp Serif Display PanEuro
+        - link "Simula" [ref=e1095] [cursor=pointer]:
+          - /url: /typefaces/simula
+          - text: Simula
+        - generic [ref=e1097]:
+          - link "Tarnac" [ref=e1099] [cursor=pointer]:
+            - /url: /typefaces/tarnac
+            - text: Tarnac
+          - link "Tarnac Sans" [ref=e1102] [cursor=pointer]:
+            - /url: /typefaces/tarnac-sans
+            - text: Tarnac Sans
+        - link "Trois Mille" [ref=e1106] [cursor=pointer]:
+          - /url: /typefaces/trois-mille
+          - text: Trois Mille
+      - generic [ref=e1108]:
+        - generic [ref=e1109]:
+          - link "About Us" [ref=e1110] [cursor=pointer]:
+            - /url: /about-us
+          - link "Contact Us" [ref=e1111] [cursor=pointer]:
+            - /url: /contact-us
+          - link "Things" [ref=e1112] [cursor=pointer]:
+            - /url: /things
+          - link "FAQ" [ref=e1113] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy Policy" [ref=e1114] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Cookies" [ref=e1115] [cursor=pointer]:
+            - /url: /cookies
+          - link "Terms of Use" [ref=e1116] [cursor=pointer]:
+            - /url: /terms-of-use
+        - generic [ref=e1117]:
+          - link "IG" [ref=e1118] [cursor=pointer]:
+            - /url: https://www.instagram.com/sharp_type
+          - text: /
+          - link "X" [ref=e1119] [cursor=pointer]:
+            - /url: https://x.com/sharptypeco
+  - generic [ref=e1120]:
+    - generic [ref=e1121]: We use cookies to enhance your browsing experience and provide essential functionality on our website. By continuing to use this site, you consent to the use of cookies in accordance with our Cookie Policy.
+    - generic [ref=e1122]:
+      - link "Learn more" [ref=e1123] [cursor=pointer]:
+        - /url: /cookies
+      - button "I Accept" [ref=e1124] [cursor=pointer]:
+        - generic [ref=e1125]: I Accept
+  - alert [ref=e1126]

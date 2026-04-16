@@ -1,0 +1,4 @@
+[    1460ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ chrome-error://chromewebdata/:0
+[    1914ms] [ERROR] Framing 'https://shop.app/' violates the following Content Security Policy directive: "frame-ancestors 'self' https://shop.app https://admin.shopify.com". The request has been blocked.
+ @ :0
+[    2226ms] [LOG]  @ https://d23dclunsivw3h.cloudfront.net/redirect-app.js?shop=pangrampangram.myshopify.com:0

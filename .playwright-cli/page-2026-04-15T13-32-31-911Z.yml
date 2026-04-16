@@ -1,0 +1,417 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - button "↑" [ref=e4] [cursor=pointer]
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link "Typefaces" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - link "Custom" [ref=e8] [cursor=pointer]:
+          - /url: /custom
+        - link "Studio" [ref=e9] [cursor=pointer]:
+          - /url: /studio
+    - navigation [ref=e10]:
+      - link "Trials" [ref=e11] [cursor=pointer]:
+        - /url: /trials
+      - generic [ref=e12] [cursor=pointer]: Cart
+    - generic [ref=e13]:
+      - link "Chap" [ref=e14] [cursor=pointer]:
+        - /url: /chap
+      - list
+    - link "Buy" [ref=e15] [cursor=pointer]:
+      - /url: /chap/buy
+    - img [ref=e17] [cursor=pointer]
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - navigation [ref=e22]:
+        - list [ref=e23]:
+          - listitem [ref=e24] [cursor=pointer]: Styles
+          - listitem [ref=e25] [cursor=pointer]: About
+      - generic [ref=e27]:
+        - generic [ref=e28] [cursor=pointer]: Chap Light
+        - generic [ref=e29] [cursor=pointer]: Chap Light Italic
+        - generic [ref=e30] [cursor=pointer]: Chap Regular
+        - generic [ref=e31] [cursor=pointer]: Chap Regular Italic
+        - generic [ref=e32] [cursor=pointer]: Chap Medium
+        - generic [ref=e33] [cursor=pointer]: Chap Medium Italic
+        - generic [ref=e34] [cursor=pointer]: Chap Semibold
+        - generic [ref=e35] [cursor=pointer]: Chap Semibold Italic
+        - generic [ref=e36] [cursor=pointer]: Chap Bold
+        - generic [ref=e37] [cursor=pointer]: Chap Bold Italic
+        - generic [ref=e38] [cursor=pointer]: Chap Black
+        - generic [ref=e39] [cursor=pointer]: Chap Black Italic
+      - img [ref=e41] [cursor=pointer]
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]: Chap
+              - img [ref=e49]
+            - generic [ref=e52] [cursor=pointer]:
+              - generic [ref=e53]: Light
+              - img [ref=e54]
+            - generic [ref=e56] [cursor=pointer]: Edit sample
+            - generic [ref=e61]:
+              - button [ref=e62] [cursor=pointer]:
+                - img [ref=e64]
+              - button [ref=e69] [cursor=pointer]:
+                - img [ref=e71]
+              - button [ref=e76] [cursor=pointer]:
+                - img [ref=e78]
+            - link "Buy" [ref=e83] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e86] [cursor=pointer]: Green Versace dress of Jennifer Lopez
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - generic [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]: Chap
+              - img [ref=e92]
+            - generic [ref=e95] [cursor=pointer]:
+              - generic [ref=e96]: Light Italic
+              - img [ref=e97]
+            - generic [ref=e99] [cursor=pointer]: Edit sample
+            - generic [ref=e104]:
+              - button [ref=e105] [cursor=pointer]:
+                - img [ref=e107]
+              - button [ref=e112] [cursor=pointer]:
+                - img [ref=e114]
+              - button [ref=e119] [cursor=pointer]:
+                - img [ref=e121]
+            - link "Buy" [ref=e126] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e129] [cursor=pointer]: The bay is often filled with pleasure craft as well as cargo ships from all over the world that use the Great Lakes shipping port
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e133] [cursor=pointer]:
+              - generic [ref=e134]: Chap
+              - img [ref=e135]
+            - generic [ref=e138] [cursor=pointer]:
+              - generic [ref=e139]: Regular
+              - img [ref=e140]
+            - generic [ref=e142] [cursor=pointer]: Edit sample
+            - generic [ref=e147]:
+              - button [ref=e148] [cursor=pointer]:
+                - img [ref=e150]
+              - button [ref=e155] [cursor=pointer]:
+                - img [ref=e157]
+              - button [ref=e162] [cursor=pointer]:
+                - img [ref=e164]
+            - link "Buy" [ref=e169] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e172] [cursor=pointer]: The jury is still out on this question, a problem that poses intriguing possibilities for future work
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - generic [ref=e176] [cursor=pointer]:
+              - generic [ref=e177]: Chap
+              - img [ref=e178]
+            - generic [ref=e181] [cursor=pointer]:
+              - generic [ref=e182]: Regular Italic
+              - img [ref=e183]
+            - generic [ref=e185] [cursor=pointer]: Edit sample
+            - generic [ref=e190]:
+              - button [ref=e191] [cursor=pointer]:
+                - img [ref=e193]
+              - button [ref=e198] [cursor=pointer]:
+                - img [ref=e200]
+              - button [ref=e205] [cursor=pointer]:
+                - img [ref=e207]
+            - link "Buy" [ref=e212] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e215] [cursor=pointer]: The coins were highly unpopular in the collecting community, which had seen the Louisiana Purchase coin decrease in value since its issuance
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e219] [cursor=pointer]:
+              - generic [ref=e220]: Chap
+              - img [ref=e221]
+            - generic [ref=e224] [cursor=pointer]:
+              - generic [ref=e225]: Medium
+              - img [ref=e226]
+            - generic [ref=e228] [cursor=pointer]: Edit sample
+            - generic [ref=e233]:
+              - button [ref=e234] [cursor=pointer]:
+                - img [ref=e236]
+              - button [ref=e241] [cursor=pointer]:
+                - img [ref=e243]
+              - button [ref=e248] [cursor=pointer]:
+                - img [ref=e250]
+            - link "Buy" [ref=e255] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e258] [cursor=pointer]: A man’s conscience and his judgment is the same thing; and as the judgment, so also the conscience, may be erroneous
+        - generic [ref=e259]:
+          - generic [ref=e260]:
+            - generic [ref=e262] [cursor=pointer]:
+              - generic [ref=e263]: Chap
+              - img [ref=e264]
+            - generic [ref=e267] [cursor=pointer]:
+              - generic [ref=e268]: Medium Italic
+              - img [ref=e269]
+            - generic [ref=e271] [cursor=pointer]: Edit sample
+            - generic [ref=e276]:
+              - button [ref=e277] [cursor=pointer]:
+                - img [ref=e279]
+              - button [ref=e284] [cursor=pointer]:
+                - img [ref=e286]
+              - button [ref=e291] [cursor=pointer]:
+                - img [ref=e293]
+            - link "Buy" [ref=e298] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e301] [cursor=pointer]: Waylon Smithers is offered a job at the Globex Corporation
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - generic [ref=e305] [cursor=pointer]:
+              - generic [ref=e306]: Chap
+              - img [ref=e307]
+            - generic [ref=e310] [cursor=pointer]:
+              - generic [ref=e311]: Semibold
+              - img [ref=e312]
+            - generic [ref=e314] [cursor=pointer]: Edit sample
+            - generic [ref=e319]:
+              - button [ref=e320] [cursor=pointer]:
+                - img [ref=e322]
+              - button [ref=e327] [cursor=pointer]:
+                - img [ref=e329]
+              - button [ref=e334] [cursor=pointer]:
+                - img [ref=e336]
+            - link "Buy" [ref=e341] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e344] [cursor=pointer]: Société des Peintres Orientalistes Français
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - generic [ref=e348] [cursor=pointer]:
+              - generic [ref=e349]: Chap
+              - img [ref=e350]
+            - generic [ref=e353] [cursor=pointer]:
+              - generic [ref=e354]: Semibold Italic
+              - img [ref=e355]
+            - generic [ref=e357] [cursor=pointer]: Edit sample
+            - generic [ref=e362]:
+              - button [ref=e363] [cursor=pointer]:
+                - img [ref=e365]
+              - button [ref=e370] [cursor=pointer]:
+                - img [ref=e372]
+              - button [ref=e377] [cursor=pointer]:
+                - img [ref=e379]
+            - link "Buy" [ref=e384] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e387] [cursor=pointer]: The story of a fierce bad rabbit and the sly old cat
+        - generic [ref=e388]:
+          - generic [ref=e389]:
+            - generic [ref=e391] [cursor=pointer]:
+              - generic [ref=e392]: Chap
+              - img [ref=e393]
+            - generic [ref=e396] [cursor=pointer]:
+              - generic [ref=e397]: Bold
+              - img [ref=e398]
+            - generic [ref=e400] [cursor=pointer]: Edit sample
+            - generic [ref=e405]:
+              - button [ref=e406] [cursor=pointer]:
+                - img [ref=e408]
+              - button [ref=e413] [cursor=pointer]:
+                - img [ref=e415]
+              - button [ref=e420] [cursor=pointer]:
+                - img [ref=e422]
+            - link "Buy" [ref=e427] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e430] [cursor=pointer]: Deal was the only person to respond, but arrived at the audition without a bass as she had never played the instrument before
+        - generic [ref=e431]:
+          - generic [ref=e432]:
+            - generic [ref=e434] [cursor=pointer]:
+              - generic [ref=e435]: Chap
+              - img [ref=e436]
+            - generic [ref=e439] [cursor=pointer]:
+              - generic [ref=e440]: Bold Italic
+              - img [ref=e441]
+            - generic [ref=e443] [cursor=pointer]: Edit sample
+            - generic [ref=e448]:
+              - button [ref=e449] [cursor=pointer]:
+                - img [ref=e451]
+              - button [ref=e456] [cursor=pointer]:
+                - img [ref=e458]
+              - button [ref=e463] [cursor=pointer]:
+                - img [ref=e465]
+            - link "Buy" [ref=e470] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e473] [cursor=pointer]: "Fun Fact: Winnipeg is home to the worst drivers in the world"
+        - generic [ref=e474]:
+          - generic [ref=e475]:
+            - generic [ref=e477] [cursor=pointer]:
+              - generic [ref=e478]: Chap
+              - img [ref=e479]
+            - generic [ref=e482] [cursor=pointer]:
+              - generic [ref=e483]: Black
+              - img [ref=e484]
+            - generic [ref=e486] [cursor=pointer]: Edit sample
+            - generic [ref=e491]:
+              - button [ref=e492] [cursor=pointer]:
+                - img [ref=e494]
+              - button [ref=e499] [cursor=pointer]:
+                - img [ref=e501]
+              - button [ref=e506] [cursor=pointer]:
+                - img [ref=e508]
+            - link "Buy" [ref=e513] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e516] [cursor=pointer]: Dogged by years of poor health, drug abuse, depression, alcoholism, and criticisms of YSL designs, Saint Laurent closed the couture house of YSL
+        - generic [ref=e517]:
+          - generic [ref=e518]:
+            - generic [ref=e520] [cursor=pointer]:
+              - generic [ref=e521]: Chap
+              - img [ref=e522]
+            - generic [ref=e525] [cursor=pointer]:
+              - generic [ref=e526]: Black Italic
+              - img [ref=e527]
+            - generic [ref=e529] [cursor=pointer]: Edit sample
+            - generic [ref=e534]:
+              - button [ref=e535] [cursor=pointer]:
+                - img [ref=e537]
+              - button [ref=e542] [cursor=pointer]:
+                - img [ref=e544]
+              - button [ref=e549] [cursor=pointer]:
+                - img [ref=e551]
+            - link "Buy" [ref=e556] [cursor=pointer]:
+              - /url: /chap/buy
+          - generic [ref=e559] [cursor=pointer]: Bette works with Valérie Marneffe, an unhappily married young lady, to seduce and torment a series of men
+    - separator [ref=e560]
+    - generic [ref=e561]:
+      - heading "About Chap" [level=1] [ref=e562]
+      - generic [ref=e564]:
+        - paragraph [ref=e565]: The history of the 20th-century Grotesk is a story of gradually diminishing stroke contrast. Sans serifs with visible contrast (also known as modulated, thick-thin, or stressed) were quite popular in the 1920s–50s when they were commonly used in advertising, architectural lettering, and logotypes. This typographic style fell out of fashion when late Modernism took over, and it effectively went into hiding for the next fifty years, reappearing only in the service of novelty or nostalgia.
+        - paragraph [ref=e566]: Initially designed for the Finnish Culture Institute in New York, Chap pays tribute to the contrasted sans tradition, but avoids direct references to any particular design. In fact, even its construction skirts convention. Its thicks and thins generally reference the broad nib pen, but not always in expected ways. There are unusual twists of stroke, and even moments where calligraphy yields to geometry. Chap is an attempt to show that a sans with contrast can be modern and current. It is type that feels at home in a variety of contemporary environments, and yet, it is not just a fashionable face. In lieu of chasing trends associated with display typography, Chap seeks a more timeless, functional aesthetic by drawing letters that can work together in readable passages of text in all sizes and lengths. This multipurpose aim is also reflected in the generous weight range (six plus italics), the figures for text, titling, and tables, and the Extended Latin character set.
+        - paragraph [ref=e567]: Chap is a mix of the smooth and the sharp, a sans serif with a new idea of contrast for the new century.
+      - link "Download PDF specimen" [ref=e569] [cursor=pointer]:
+        - /url: /api/pdfs/schick-toikka-chap
+  - contentinfo [ref=e570]:
+    - generic [ref=e571]:
+      - separator [ref=e572]
+      - generic [ref=e573]:
+        - generic [ref=e575]:
+          - heading "Typefaces" [level=4] [ref=e576]:
+            - link "Typefaces" [ref=e577] [cursor=pointer]:
+              - /url: /
+          - list [ref=e578]:
+            - listitem [ref=e579]:
+              - link "Edict" [ref=e580] [cursor=pointer]:
+                - /url: /edict
+            - listitem [ref=e581]:
+              - link "Phonic" [ref=e582] [cursor=pointer]:
+                - /url: /phonic
+            - listitem [ref=e583]:
+              - link "Lateral" [ref=e584] [cursor=pointer]:
+                - /url: /lateral
+            - listitem [ref=e585]:
+              - link "Items" [ref=e586] [cursor=pointer]:
+                - /url: /items
+            - listitem [ref=e587]:
+              - link "Saol" [ref=e588] [cursor=pointer]:
+                - /url: /saol
+            - listitem [ref=e589]:
+              - link "Scto Grotesk" [ref=e590] [cursor=pointer]:
+                - /url: /scto-grotesk
+            - listitem [ref=e591]:
+              - link "Apris" [ref=e592] [cursor=pointer]:
+                - /url: /apris
+            - listitem [ref=e593]:
+              - link "Noe" [ref=e594] [cursor=pointer]:
+                - /url: /noe
+            - listitem [ref=e595]:
+              - link "Krana Fat" [ref=e596] [cursor=pointer]:
+                - /url: /krana-fat
+            - listitem [ref=e597]:
+              - link "Spot" [ref=e598] [cursor=pointer]:
+                - /url: /spot
+            - listitem [ref=e599]:
+              - link "Chap" [ref=e600] [cursor=pointer]:
+                - /url: /chap
+            - listitem [ref=e601]:
+              - link "Trio Grotesk" [ref=e602] [cursor=pointer]:
+                - /url: /trio-grotesk
+            - listitem [ref=e603]:
+              - link "Lyyra" [ref=e604] [cursor=pointer]:
+                - /url: /lyyra
+            - listitem [ref=e605]:
+              - link "Dia" [ref=e606] [cursor=pointer]:
+                - /url: /dia
+        - generic [ref=e608]:
+          - heading "Custom" [level=4] [ref=e609]:
+            - link "Custom" [ref=e610] [cursor=pointer]:
+              - /url: /custom
+          - list [ref=e611]:
+            - listitem [ref=e612]:
+              - link "Marimekko" [ref=e613] [cursor=pointer]:
+                - /url: /custom/marimekko
+            - listitem [ref=e614]:
+              - link "Movado" [ref=e615] [cursor=pointer]:
+                - /url: /custom/movado
+            - listitem [ref=e616]:
+              - link "Kinfolk" [ref=e617] [cursor=pointer]:
+                - /url: /custom/kinfolk
+            - listitem [ref=e618]:
+              - link "Nike Women" [ref=e619] [cursor=pointer]:
+                - /url: /custom/nike-women
+            - listitem [ref=e620]:
+              - link "Sakara" [ref=e621] [cursor=pointer]:
+                - /url: /custom/sakara
+            - listitem [ref=e622]:
+              - link "Pitted Dates" [ref=e623] [cursor=pointer]:
+                - /url: /custom/pitted-dates
+            - listitem [ref=e624]:
+              - link "Nora Turato" [ref=e625] [cursor=pointer]:
+                - /url: /custom/nora-turato
+            - listitem [ref=e626]:
+              - link "Moda Operandi" [ref=e627] [cursor=pointer]:
+                - /url: /custom/moda-operandi
+            - listitem [ref=e628]:
+              - link "Max Richter" [ref=e629] [cursor=pointer]:
+                - /url: /custom/max-richter
+            - listitem [ref=e630]:
+              - link "Jacobin" [ref=e631] [cursor=pointer]:
+                - /url: /custom/jacobin
+            - listitem [ref=e632]:
+              - link "Suomen Kuvalehti" [ref=e633] [cursor=pointer]:
+                - /url: /custom/suomen-kuvalehti
+            - listitem [ref=e634]:
+              - link "Nike Unlaced" [ref=e635] [cursor=pointer]:
+                - /url: /custom/nike-unlaced
+            - listitem [ref=e636]:
+              - link "Flow Festival" [ref=e637] [cursor=pointer]:
+                - /url: /custom/flow-festival
+            - listitem [ref=e638]:
+              - link "Receptor" [ref=e639] [cursor=pointer]:
+                - /url: /custom/receptor
+            - listitem [ref=e640]:
+              - link "Dansens Hus" [ref=e641] [cursor=pointer]:
+                - /url: /custom/dansens-hus
+            - listitem [ref=e642]:
+              - link "Grafia" [ref=e643] [cursor=pointer]:
+                - /url: /custom/grafia
+        - generic [ref=e645]:
+          - heading "Information" [level=4] [ref=e646]:
+            - link "Information" [ref=e647] [cursor=pointer]:
+              - /url: /studio
+          - list [ref=e648]:
+            - listitem [ref=e649]:
+              - link "Studio" [ref=e650] [cursor=pointer]:
+                - /url: /studio
+            - listitem [ref=e651]:
+              - link "Licenses" [ref=e652] [cursor=pointer]:
+                - /url: /licenses
+            - listitem [ref=e653]:
+              - link "Disclaimer" [ref=e654] [cursor=pointer]:
+                - /url: /disclaimer
+            - listitem [ref=e655]:
+              - link "Privacy Policy" [ref=e656] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e657]:
+              - link "Imprint" [ref=e658] [cursor=pointer]:
+                - /url: /imprint
+            - listitem [ref=e659]:
+              - link "Contact" [ref=e660] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e662]:
+          - heading "Get in touch" [level=4] [ref=e663]
+          - list [ref=e664]:
+            - listitem [ref=e665]:
+              - link "Email" [ref=e666] [cursor=pointer]:
+                - /url: mailto:mail@schick-toikka.com
+            - listitem [ref=e667]:
+              - link "Instagram" [ref=e668] [cursor=pointer]:
+                - /url: https://www.instagram.com/schicktoikka/
+      - generic [ref=e669]: Copyright © 2026 Schick Toikka

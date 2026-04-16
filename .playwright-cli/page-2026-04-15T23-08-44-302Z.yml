@@ -1,0 +1,706 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "Fonts" [ref=e10] [cursor=pointer]:
+          - /url: https://type-o-tones.com/catalogues
+      - listitem [ref=e11]:
+        - link "Custom work" [ref=e12] [cursor=pointer]:
+          - /url: https://type-o-tones.com/custom-work
+      - listitem [ref=e13]:
+        - link "News&Notes" [ref=e14] [cursor=pointer]:
+          - /url: https://type-o-tones.com/news
+      - listitem [ref=e15]:
+        - link "About us" [ref=e16] [cursor=pointer]:
+          - /url: https://type-o-tones.com/about-us
+    - link "" [ref=e18] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e19]:
+        - generic [ref=e20]: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+    - generic [ref=e21]:
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Log In" [ref=e24] [cursor=pointer]:
+            - /url: https://type-o-tones.com/login
+      - generic [ref=e28] [cursor=pointer]: 
+  - generic [ref=e31]:
+    - generic [ref=e33]:
+      - text: We use cookies to improve your experience on this site. By continuing to browse our site you agree to our use of
+      - link "cookies" [ref=e34] [cursor=pointer]:
+        - /url: \"http://type-o-tones.com/terms\"
+      - text: . For security and the best experience, please use the latest version of your browser.
+    - generic [ref=e35]:
+      - link "Configuration" [ref=e36] [cursor=pointer]:
+        - /url: "#"
+      - link "Accept all" [ref=e37] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e39]:
+    - generic [ref=e43]: About us
+    - generic [ref=e45]:
+      - paragraph [ref=e50]: Type-Ø-Tones is a typographic design company founded in 1990 by Joan Barjau, Enric Jardí, Laura Meseguer and José Manuel Urós. Although we mainly publish our own designs, we collaborate with many other typographers. Below there is more information about us and our colleagues.
+      - separator [ref=e55]
+      - generic [ref=e56]:
+        - generic:
+          - paragraph [ref=e59]: Joan Barjau
+          - paragraph [ref=e62]: is a graphic designer in its widest sense, a cartoonist, illustrator, painter, animator... Graphic design teacher at Eina School, between 1984 and 1993. Presently he works in his own studio as graphic and type designer.
+          - generic [ref=e64]:
+            - paragraph [ref=e65]:
+              - link "Analfabeto" [ref=e66] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/analfabeto
+              - text: ","
+              - link "Ivà" [ref=e67] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/iva
+              - text: ","
+              - link "Sniff" [ref=e68] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/sniff
+              - text: ","
+              - link "Talqual" [ref=e69] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/talqual
+              - text: ","
+              - link "Tschicholina" [ref=e70] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/tschicholina
+              - text: ","
+              - link "Xiquets" [ref=e71] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/xiquets
+              - text: ","
+              - link "Zubizarreta" [ref=e72] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/zubizarreta
+            - paragraph
+      - separator [ref=e77]
+      - generic [ref=e78]:
+        - generic:
+          - paragraph [ref=e81]: Enric Jardí
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - paragraph [ref=e84]: Was born in Barcelona in 1964. He studied graphic design at Elisava and has been teaching there since 1988. Since 1983 he has worked in a number of different studios, and in 1992 he was one of the founders of Propaganda studio. In 1998 he started up on his own studio.
+              - paragraph [ref=e85]: His work is focused on typography, magazine design, book covers and corporate design.
+              - paragraph [ref=e86]: He is the director of the Master on Advanced Typography at the Eina school of art and design, in collaboration with the Autonomous University of Barcelona.
+              - paragraph [ref=e87]: In collaboration with Marcus Villaça, he has developed editorial projects such as the redesigning of the Chicago Reader and the Boston Phoenix.
+              - paragraph [ref=e88]: He is the author of the book Twenty-two tips on typography (that some designers will never reveal) and twenty-two things you should never do with typefaces (that some typographers will never tell you) published by Actar.
+            - link "Read More" [ref=e89] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e91]:
+            - paragraph [ref=e92]:
+              - link "Deseada" [ref=e93] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/deseada
+              - text: ","
+              - link "Magothic" [ref=e94] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/magothic
+              - text: ","
+              - link "Mayayo" [ref=e95] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/mayayo
+              - text: ","
+              - link "Neeskens" [ref=e96] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/neeskens
+              - text: ","
+              - link "Peter Sellers" [ref=e97] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/peter-sellers
+              - text: ","
+              - link "Poca" [ref=e98] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/poca
+              - text: ","
+              - link "Retorica" [ref=e99] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/retorica
+              - text: ","
+              - link "Verdaguera" [ref=e100] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/verdaguera
+              - text: ","
+              - link "Wilma" [ref=e101] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/wilma
+            - paragraph
+      - separator [ref=e106]
+      - generic [ref=e107]:
+        - generic:
+          - paragraph [ref=e110]: Laura Meseguer
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - paragraph [ref=e113]:
+                - text: Laura Meseguer is a freelance typographer and lettering and type designer based in Barcelona. She runs
+                - link "her own studio" [ref=e114] [cursor=pointer]:
+                  - /url: http://www.laurameseguer.com
+                - text: ", where she develops projects related to identity and editorial design, but also personal and custom projects on lettering and type design. Laura holds a BA in Design and MA degree in type design from"
+                - link "Type]Media" [ref=e115] [cursor=pointer]:
+                  - /url: http://www.kabk.nl/pagewideEN.php?id=16
+                - text: masters program at the KABK in The Hague, The Netherlands.
+                - link "Rumba" [ref=e116] [cursor=pointer]:
+                  - /url: http://type-o-tones.com/fonts/rumba
+                - text: ", the typeface she designed as part of this course, was selected in the TDC TypeDesign Competition 2005. She is also a teacher and eventually writes. She is the author of"
+                - link "TypoMag. Typography in Magazines" [ref=e117] [cursor=pointer]:
+                  - /url: http://www.laurameseguer.com/portfolio/typomag-typography-in-magazines/
+                - text: ", published by IndexBook and co-author of the book “"
+                - link "Cómo crear tipografías. Del boceto a la pantalla" [ref=e118] [cursor=pointer]:
+                  - /url: http://www.laurameseguer.com/portfolio/how-to-create-typefaces/
+                - text: ”, published by Tipo e. She is also a teacher and gives lectures and workshops all around.
+                - text: and, since 2019, the founder and academic director of
+                - link "Tipo-g, Escuela de tipografía de Barcelona" [ref=e119] [cursor=pointer]:
+                  - /url: http://www.tipo-g.com
+                - text: (Barcelona School of Typography)
+              - paragraph [ref=e120]
+              - paragraph [ref=e121]
+              - paragraph [ref=e122]
+            - link "Read More" [ref=e123] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e125]:
+            - paragraph [ref=e126]:
+              - link "Adelita" [ref=e127] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/adelita
+              - text: ","
+              - link "Brise" [ref=e128] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/brise
+              - text: ","
+              - link "Brushland" [ref=e129] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/brushland
+              - text: ","
+              - link "Cortada Dos" [ref=e130] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/cortada-dos
+              - text: ","
+              - link "Ella" [ref=e131] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/ella
+              - text: ","
+              - link "Fabulosa" [ref=e132] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/fabulosa
+              - text: ","
+              - link "Frankie" [ref=e133] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/frankie
+              - text: ","
+              - link "Gallard" [ref=e134] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/gallard
+              - text: ","
+              - link "Guapa" [ref=e135] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/guapa
+              - text: ","
+              - link "Lalola" [ref=e136] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/lalola
+              - text: ","
+              - link "Magasin" [ref=e137] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/magasin
+              - text: ","
+              - link "Multi" [ref=e138] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/multi
+              - text: ","
+              - link "Placa" [ref=e139] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/placa
+              - text: ","
+              - link "Qandus Latin" [ref=e140] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/qandus-latin
+              - text: ","
+              - link "Rumba" [ref=e141] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/rumba
+              - text: ","
+              - link "Sisters" [ref=e142] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/sisters
+            - paragraph
+      - separator [ref=e147]
+      - generic [ref=e148]:
+        - generic:
+          - paragraph [ref=e151]: José Manuel Urós
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - paragraph [ref=e154]: Is a self-taught programmer, typo(graphic) designer and guitar player. Also a reluctant barcelonian, where he was born in 1956. A programmer in the eighties, he became the happiest/luckiest guy when switched from awful code to desktop publishing at the very launch of the technology, around 1988. From that year, he has helped a number of studios to develop their skills at electronic publishing.
+              - paragraph [ref=e155]: From 1992 to 2011, Josema developed a close relationship with the Estudio Mariscal, where he cared for the Macs, the typography, the editorial design and the becarias. Teaching begin in 1993, with courses on interface and icon design, and typography. He teaches at Eina, IED and IDEP.
+              - paragraph [ref=e156]: Also, somehow, he manages to have a musical life, having played with Bootunoo, New Buildings, MCW, La Fura dels Baus, Leo Mariño, Josep Giménez, Elements, Pangrams, Pascal Comelade, PAD, Adrián Morales, Unoma, Altaba/Samsó/Urós and GRUS, among others. His latest noises had been made with Les Cocos and Stock de Coque.
+            - link "Read More" [ref=e157] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e159]:
+            - paragraph [ref=e160]:
+              - link "Arboria" [ref=e161] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/arboria
+              - text: ","
+              - link "Arbotek" [ref=e162] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/arbotek
+              - text: ","
+              - link "Chico" [ref=e163] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/chico
+              - text: ","
+              - link "DINosaur" [ref=e164] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/dinosaur
+              - text: ","
+              - link "DINosaur Sharp" [ref=e165] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - text: ","
+              - link "EbuScript" [ref=e166] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/ebuscript
+              - text: ","
+              - link "Eixample Dip" [ref=e167] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/eixample-dip
+              - text: ","
+              - link "Eixample Glaces" [ref=e168] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/eixample-glaces
+              - text: ","
+              - link "Eixample Villa" [ref=e169] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/eixample-villa
+              - text: ","
+              - link "FinalSix" [ref=e170] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/finalsix
+              - text: ","
+              - link "Ginebra" [ref=e171] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/ginebra
+              - text: ","
+              - link "Joost" [ref=e172] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/joost
+              - text: ","
+              - link "Matricia" [ref=e173] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/matricia
+              - text: ","
+              - link "Memimas Pro" [ref=e174] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/memimas-pro
+              - text: ","
+              - link "Optica" [ref=e175] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/optica
+              - text: ","
+              - link "Poca" [ref=e176] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/poca
+              - text: ","
+              - link "Reload" [ref=e177] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/reload
+              - text: ","
+              - link "Rothwood" [ref=e178] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/rothwood
+              - text: ","
+              - link "Scena" [ref=e179] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/scena
+              - text: ","
+              - link "Skope" [ref=e180] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/skope
+              - text: ","
+              - link "Solida" [ref=e181] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/solida
+              - text: ","
+              - link "Unicaster" [ref=e182] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/unicaster
+              - text: ","
+              - link "ZooLogic" [ref=e183] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/zoologic
+            - paragraph
+      - separator [ref=e188]
+      - paragraph [ref=e192]: Authors, colleagues and inspirational friends
+      - separator [ref=e197]
+      - generic [ref=e198]:
+        - generic:
+          - paragraph [ref=e201]: Marcela Aguilera
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - text: Marcela Aguilera Casanueva is a graphic designer, Master in Advanced Typography, specialized in editorial design, a university teacher, and an expert in calligraphy. She studied Graphic Design at Instituto Santo Tomás in Puerto Montt, pursued a Diploma in Typography and Lettering at the University of Chile in Santiago, and completed a Master’s in Advanced Typography at EINA, Barcelona.
+                - text: Since 2015, she has conducted workshops on calligraphic styles and tools. She combines editorial design with teaching, offering classes at UTEM, Arcos, and UDD. Since 2022, she has collaborated in the "Encuentros de Tipografía de la UTEM". She was one of the hosts of the “PodCasType” (Chile, Argentina, Barcelon/Spain & Germany).
+                - text: In 2020, her typeface “Gotta” was selected for the commemorative publication 15 Years of the Advanced Typography Master’s at EINA. In 2024, she received the Recognition for Community Engagement Initiatives awarded by UTEM.
+              - link "https://www.instagram.com/lanascribe/" [ref=e206] [cursor=pointer]:
+                - /url: https://www.instagram.com/lanascribe/
+            - link "Read More" [ref=e207] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e209]:
+            - paragraph [ref=e210]:
+              - link "Gotta Scotch" [ref=e211] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/gotta-scotch
+            - paragraph
+      - separator [ref=e216]
+      - generic [ref=e217]:
+        - generic:
+          - paragraph [ref=e220]: Salvador Alimbau
+          - generic [ref=e221]:
+            - paragraph [ref=e223]: Remains one of the most misterious collaborators of our crew. Tori gave us the curious Vulcano, designed in his period of editorial design, just before leaving Barcelona and starting an art direction career for fashion and music in Madrid.
+            - link "Read More" [ref=e224] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e226]:
+            - paragraph [ref=e227]:
+              - link "Vulcano" [ref=e228] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/vulcano
+            - paragraph
+      - separator [ref=e233]
+      - generic [ref=e234]:
+        - generic:
+          - paragraph [ref=e237]: Adela de Bara
+          - generic [ref=e238]:
+            - paragraph [ref=e240]: "Is the sort of artist that is normally involved in different enterprises and disciplines: poetry, painting, etc. Laura Meseguer helped her to design Adelita in 1993 when she was in the Fundación Juan Tabique (probably among other projects)."
+            - link "Read More" [ref=e241] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e243]:
+            - paragraph [ref=e244]:
+              - link "Adelita" [ref=e245] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/adelita
+            - paragraph
+      - separator [ref=e250]
+      - generic [ref=e251]:
+        - generic:
+          - paragraph [ref=e254]: Juan Luis Blanco
+          - generic [ref=e255]:
+            - generic [ref=e256]:
+              - paragraph [ref=e257]: Juan Luis Blanco is a graphic designer, type designer and calligrapher based in Zumaia (Spain). He has worked as a freelancer graphic designer from 1997, and in 2013, he attained an MA in Typeface Design at the University of Reading. During the MA in Typeface Design he developed Amaikha, a multi-script font family comprising Latin, Greek, Cyrillic, Arabic and Tifinagh. Currently he combines calligraphy classes and graphic design with typographic projects that focus in the Basque lettering style as well as multi script typefaces involving the Latin, Arabic and Tifinagh alphabets. He loves designing typefaces and maintains a healthy balance by rock-climbing.
+              - paragraph [ref=e258]:
+                - link "http://www.blancoletters.com" [ref=e259] [cursor=pointer]:
+                  - /url: http://www.blancoletters.com
+            - link "Read More" [ref=e260] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e262]:
+            - paragraph [ref=e263]:
+              - link "Harri" [ref=e264] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/harri
+              - text: ","
+              - link "Harri Sans" [ref=e265] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/harri-sans
+              - text: ","
+              - link "Harri Text" [ref=e266] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/harri-text
+            - paragraph
+      - separator [ref=e271]
+      - generic [ref=e272]:
+        - generic:
+          - paragraph [ref=e275]: Sabina Chipară
+          - generic [ref=e276]:
+            - paragraph [ref=e278]: Sabina Chipară is a freelance type & graphic designer currently based in Amsterdam. She runs her own studio where she designs typefaces or helps build typographically coherent brands. Sabina holds a BA in Graphic Design, a MA degree in Visual communication and a MA degree from EINA, Barcelona in Advanced Typography where she met Josema Urós and Laura Meseguer. She proudly considers them more than her mentors but also her friends.
+            - link "Read More" [ref=e279] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e281]:
+            - paragraph [ref=e282]:
+              - link "Eixample Dip" [ref=e283] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/eixample-dip
+              - text: ","
+              - link "Eixample Glaces" [ref=e284] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/eixample-glaces
+              - text: ","
+              - link "Eixample Villa" [ref=e285] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/eixample-villa
+              - text: ","
+              - link "Joc" [ref=e286] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/joc
+              - text: ","
+              - link "Scena" [ref=e287] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/scena
+            - paragraph
+      - separator [ref=e292]
+      - generic [ref=e293]:
+        - generic:
+          - paragraph [ref=e296]: Juan Dávila
+          - generic [ref=e297]:
+            - paragraph [ref=e299]: Has been running the studio Cosmic since 1994. Juan, almost a Type-Ø-Tones' founder, developed along with Laura Meseguer our best-selling font Frankie.
+            - link "Read More" [ref=e300] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e302]:
+            - paragraph [ref=e303]:
+              - link "Frankie" [ref=e304] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/frankie
+            - paragraph
+      - separator [ref=e309]
+      - generic [ref=e310]:
+        - generic:
+          - paragraph [ref=e313]: Jordi Embodas
+          - generic [ref=e314]:
+            - paragraph [ref=e316]:
+              - text: Jordi Embodas is a graphic and type designer. He was born in Barcelona in 1977 and studied graphic design in Elisava, where he now
+              - text: teaches some typography.
+              - text: Since 2001, he works at Estudi Juste Calduch. Jordi publishes his fonts in his own foundry, Tipografies, since 2010.
+              - link "http://tipografies.com/" [ref=e317] [cursor=pointer]:
+                - /url: http://tipografies.com/
+            - link "Read More" [ref=e318] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e320]:
+            - paragraph [ref=e321]:
+              - link "Orenga" [ref=e322] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/orenga
+            - paragraph
+      - separator [ref=e327]
+      - generic [ref=e328]:
+        - generic:
+          - paragraph [ref=e331]: Julia Friese
+          - generic [ref=e332]:
+            - generic [ref=e333]:
+              - paragraph [ref=e334]: "Is a graphic designer and illustrator born in Leipzig, Germany in 1979. She is a tireless traveler and has been practicing her organic, smooth and strong style in different European cities: Bilbao, Barcelona and Dublin."
+              - paragraph [ref=e335]:
+                - text: At the time of this writing -2016- Julia is living and working in Berlin and you can see her beautiful work at
+                - link "http://www.juliafriese.com" [ref=e336] [cursor=pointer]:
+                  - /url: http://www.juliafriese.com
+            - link "Read More" [ref=e337] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e339]:
+            - paragraph [ref=e340]:
+              - link "Scissorgirl" [ref=e341] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/scissorgirl
+            - paragraph
+      - separator [ref=e346]
+      - generic [ref=e347]:
+        - generic:
+          - paragraph [ref=e350]: Miguel Gallardo
+          - generic [ref=e351]:
+            - paragraph [ref=e353]: Is a great illustrator and a close friend. Among his multiple stylistic periods, we are specially fond of the Perro Nick. Which is where the typefaces Mike, Gallard and Victims come from.
+            - link "Read More" [ref=e354] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e356]:
+            - paragraph [ref=e357]:
+              - link "Gallard" [ref=e358] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/gallard
+            - paragraph
+      - separator [ref=e363]
+      - generic [ref=e364]:
+        - generic:
+          - paragraph [ref=e367]: Pedro González
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - generic [ref=e370]:
+                - text: Also known as “Peggo” is the founder of Peggo Fonts Foundry (2002). He is a Chilean Type designer, calligrapher and illustrator, who graduated in graphic design in 2005 from the Universidad del Bío-Bío (Chilllán, Chile).
+                - text: Also works many years as High School and University teacher in type design, digital illustration and graphic design editor softwares.
+              - generic [ref=e371]:
+                - text: He also was one of the hosts of the “PodCasType” (Chile, Argentina, Barcelona/Spain & Germany) a podcast focused on talk with people linked in some way or another with the discipline of the letter.
+                - text: Doing many workshops about calligraphy, lettering and type design (along Chilean cities and Barcelona). He recently returned to do online calligraphy classes and workshops.
+                - link "https://www.instagram.com/bypeggo" [ref=e372] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bypeggo
+            - link "Read More" [ref=e373] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e375]:
+            - paragraph [ref=e376]:
+              - link "Gotta Scotch" [ref=e377] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/gotta-scotch
+            - paragraph
+      - separator [ref=e382]
+      - generic [ref=e383]:
+        - generic:
+          - paragraph [ref=e386]: Íñigo Jerez
+          - generic [ref=e387]:
+            - generic [ref=e388]:
+              - paragraph [ref=e389]: Iñigo Jerez is really more of a talented illustrator and designer who happens to find his personal Shangri-La in the design of complete alphabets. His prolific and amazing production can be viewed at his personal foundry, Textaxis.
+              - paragraph [ref=e390]:
+                - link "http://www.textaxis.com" [ref=e391] [cursor=pointer]:
+                  - /url: http://www.textaxis.com
+            - link "Read More" [ref=e392] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e394]:
+            - paragraph [ref=e395]:
+              - link "ASM" [ref=e396] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/asm
+              - text: ","
+              - link "Blak" [ref=e397] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/blak
+              - text: ","
+              - link "Poster" [ref=e398] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/poster
+            - paragraph
+      - separator [ref=e403]
+      - generic [ref=e404]:
+        - generic:
+          - paragraph [ref=e407]: Laura Klamburg
+          - generic [ref=e408]:
+            - paragraph [ref=e410]: Was a Joan Barjau's student in Eina School. After living and working as a graphic designer in Canada and the United States, she came back to Barcelona with the Surreal project.
+            - link "Read More" [ref=e411] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e413]:
+            - paragraph [ref=e414]:
+              - link "Surreal PostIndian" [ref=e415] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/surreal-postindian
+            - paragraph
+      - separator [ref=e420]
+      - generic [ref=e421]:
+        - generic:
+          - paragraph [ref=e424]: Estudio Mariscal
+          - generic [ref=e425]:
+            - paragraph [ref=e427]: Was one of the biggest graphic design studios in Barcelona. Josema Urós developed a group of typefaces at the studio derived from Javier Mariscal's lettering and scripts in order to be used on the daily in-house work. We got the chance to choose a pair for our catalogue.
+            - link "Read More" [ref=e428] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e430]:
+            - paragraph [ref=e431]:
+              - link "Chico" [ref=e432] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/chico
+              - text: ","
+              - link "Hannover" [ref=e433] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/hannover
+              - text: ","
+              - link "Mundo" [ref=e434] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/mundo
+            - paragraph
+      - separator [ref=e439]
+      - generic [ref=e440]:
+        - generic:
+          - paragraph [ref=e443]: Luis Mendo
+          - generic [ref=e444]:
+            - paragraph [ref=e446]: Luis Mendo was born in Spain in 1969. Luis has been designing from 1996. Before moving to Amsterdam, he worked in newspaper design teams from Barcelona. In june 2005 he opened GOOD Inc.® and was chosen one of the “Top 10 best Art Directors in NL”. Luis writes in books, blogs and magazines, teaches editorial design and gives lectures & workshops internationally. In 2007 he founded the Goodfellas Network together with Diseco.
+            - link "Read More" [ref=e447] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e449]:
+            - paragraph [ref=e450]:
+              - link "DesignOrDie" [ref=e451] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/designordie
+            - paragraph
+      - separator [ref=e456]
+      - generic [ref=e457]:
+        - generic:
+          - paragraph [ref=e460]: Maria Montes
+          - generic [ref=e461]:
+            - generic [ref=e462]:
+              - paragraph [ref=e463]: Maria Montes is an independent type and lettering designer specialising in premium branding assets for cultural institutions and the luxury market. Montes is also a calligraphy and type educator since 2014.
+              - paragraph [ref=e464]: Her creative practice is set by the principles of never stop learning, sharing knowledge, and evoking emotion through her work.
+              - paragraph [ref=e465]: In 2011, Maria completed a Postgraduate Degree in Advanced Typography in Barcelona, followed by an Intensive Type Design Program at The Cooper Union in New York City. In 2018, she published her first display font family called Green Fairy.
+              - paragraph [ref=e466]: Her artistic work has led her to present three solo exhibitions in Melbourne, Lleida and Tarragona.
+              - paragraph [ref=e467]:
+                - text: You can find Maria‘s work at
+                - link "www.mariamontes.net" [ref=e468] [cursor=pointer]:
+                  - /url: http://www.mariamontes.net
+                - text: .
+            - link "Read More" [ref=e469] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e471]:
+            - paragraph [ref=e472]:
+              - link "Green Fairy" [ref=e473] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/green-fairy
+              - text: ","
+              - link "Kanat Latin" [ref=e474] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/kanat-latin
+            - paragraph
+      - separator [ref=e479]
+      - generic [ref=e480]:
+        - generic:
+          - paragraph [ref=e483]: Flavio Morais
+          - generic [ref=e484]:
+            - generic [ref=e485]:
+              - paragraph [ref=e486]: "Flavio Morais was born in São Paulo, Brasil, where he started to work as a illustrator for a T-Shirt company, then he moved to London and attended an Art and Design course at Chelsea School of Art and finally ended up in Barcelona where he still lives and works for press, editorials, advertising and Mural paintings. Some of his clients include: Once, La Vanguardia, El País, El Mundo, Avui, Saatchi & Saatchi, Canal +, Spanish TV, Volkswagen, Coca-Cola, Café Ducados (Madrid), Sampaka (Valencia), Cocktail bar Negroni (Barcelona), Restaurant Spin (Shangai)"
+              - paragraph [ref=e487]: Apart from the comission works he also made several individual exhibitions.
+              - paragraph [ref=e488]: He has a especial love for the Popular Culture in Africa, Bahia, Mexico and works done by people without any knowledge of Art, art brut and outsiders.
+              - paragraph [ref=e489]: Music keeps him alive,... turn the music off and there will be no more Flavio Morais!
+            - link "Read More" [ref=e490] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e492]:
+            - paragraph [ref=e493]:
+              - link "Analfabeto" [ref=e494] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/analfabeto
+            - paragraph
+      - separator [ref=e499]
+      - generic [ref=e500]:
+        - generic:
+          - paragraph [ref=e503]: Pepe Puertas
+          - generic [ref=e504]:
+            - paragraph [ref=e506]: Is a gifted illustrator born in Martorell, Barcelona. His character 'El Capitán Beso' hit the senses of the comic-books connoiseurs in the 90's. After several years of mastering the pen and ink on paper, he became hipnotized by the pixel style of illustration.
+            - link "Read More" [ref=e507] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e509]:
+            - paragraph [ref=e510]:
+              - link "Pepepue" [ref=e511] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/pepepue
+            - paragraph
+      - separator [ref=e516]
+      - generic [ref=e517]:
+        - generic:
+          - paragraph [ref=e520]: Pera Ribalta
+          - generic [ref=e521]:
+            - paragraph [ref=e523]: Designed Matricia Uno for editorial purposes and, starting from the original grid, we extended the range. Pera switches constantly between painting, editorial design and music.
+            - link "Read More" [ref=e524] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e526]:
+            - paragraph [ref=e527]:
+              - link "Matricia" [ref=e528] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/matricia
+            - paragraph
+      - separator [ref=e533]
+      - generic [ref=e534]:
+        - generic:
+          - paragraph [ref=e537]: Jaume Ros
+          - generic [ref=e538]:
+            - paragraph [ref=e540]: A former Enric Jardí's student in Elisava School, came to us in 1997, in one particularly serendipitous case, with a textured version of Franklin Gothic Condensed. Apparently this project doesn't have a connection with Laura Meseguer and Juan Dávila's Frankie, but we decided to add it to our list. A little bit later Jaume devised Despatxada.
+            - link "Read More" [ref=e541] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e543]:
+            - paragraph [ref=e544]:
+              - link "Despatxada" [ref=e545] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/despatxada
+              - text: ","
+              - link "Frankie Dos" [ref=e546] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/frankie-dos
+            - paragraph
+      - separator [ref=e551]
+      - generic [ref=e552]:
+        - generic:
+          - paragraph [ref=e555]: Félix Rufín
+          - generic [ref=e556]:
+            - paragraph [ref=e558]: A designer and programmer, typically features a sense of order and precision in his designs. Designal, his 2008 incorporation, embodies that spirit in a beautiful way.
+            - link "Read More" [ref=e559] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e561]:
+            - paragraph [ref=e562]:
+              - link "Designal" [ref=e563] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/designal
+              - text: ","
+              - link "InterFace" [ref=e564] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/interface
+            - paragraph
+      - separator [ref=e569]
+      - generic [ref=e570]:
+        - generic:
+          - paragraph [ref=e573]: Daniel Sabino
+          - generic [ref=e574]:
+            - generic [ref=e575]:
+              - paragraph [ref=e576]: Daniel Sabino is a native brazilian graphic and type designer based on São Paulo, Brazil. After almost ten years working on the graphic design field he graduated on the MA Advanced Typography from EINA/UAB, Barcelona, in 2011, specializing in Type Design and Typography. Since then he has been working on type and graphic design projects through his own studio Blackletra.
+              - paragraph [ref=e577]:
+                - link "www.blackletra.com" [ref=e578] [cursor=pointer]:
+                  - /url: http://www.blackletra.com
+            - link "Read More" [ref=e579] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e581]:
+            - paragraph [ref=e582]:
+              - link "Karol" [ref=e583] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/karol
+              - text: ","
+              - link "Karol Sans" [ref=e584] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/karol-sans
+            - paragraph
+      - separator [ref=e589]
+      - generic [ref=e590]:
+        - generic:
+          - paragraph [ref=e593]: Pere Torrent
+          - paragraph [ref=e596]: a.k.a. Peret, is still one of the most representative artists (or designers, or illustrators, or whatever) of the Catalan (or Spanish or whatever) arena.
+          - generic [ref=e598]:
+            - paragraph [ref=e599]:
+              - link "Poca" [ref=e600] [cursor=pointer]:
+                - /url: https://type-o-tones.com/fonts/poca
+            - paragraph
+  - generic [ref=e609]:
+    - list [ref=e611]:
+      - listitem [ref=e612]: Contact
+      - listitem [ref=e613]: Newsletter
+      - listitem [ref=e614]:
+        - link "Licensing" [ref=e615] [cursor=pointer]:
+          - /url: https://type-o-tones.com/licensing
+      - listitem [ref=e616]:
+        - link "Terms" [ref=e617] [cursor=pointer]:
+          - /url: https://type-o-tones.com/terms
+      - listitem [ref=e618]:
+        - link "Cookies" [ref=e619] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e620]:
+        - link "Font Radar" [ref=e621] [cursor=pointer]:
+          - /url: https://type-o-tones.com/font-radar
+      - listitem [ref=e622]:
+        - link "FAQ" [ref=e623] [cursor=pointer]:
+          - /url: https://type-o-tones.com/faq
+      - listitem [ref=e624]:
+        - link "Site credits" [ref=e625] [cursor=pointer]:
+          - /url: https://type-o-tones.com/site-credits
+    - generic [ref=e627]:
+      - link [ref=e628] [cursor=pointer]:
+        - /url: https://typo.social/@typeotones
+      - link "" [ref=e629] [cursor=pointer]:
+        - /url: https://www.facebook.com/type-o-tones
+        - generic [ref=e630]:
+          - generic [ref=e631]: 
+          - generic: 
+      - link [ref=e632] [cursor=pointer]:
+        - /url: https://www.instagram.com/typeotones/
+        - img [ref=e634]

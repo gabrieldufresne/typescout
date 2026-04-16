@@ -6,12 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "specimen": "node scripts/capture-specimen.js",
+    "push": "node scripts/push-to-sanity.js",
+    "check": "node scripts/check-sanity.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.89.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@sanity/client": "^7.21.0",
+    "@sanity/image-url": "^2.1.1",
+    "motion": "^12.38.0",
     "next": "16.2.3",
+    "next-sanity": "^12.2.2",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "sanity": "^5.20.0",
+    "styled-components": "^6.4.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -20,6 +31,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
+    "playwright": "^1.59.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

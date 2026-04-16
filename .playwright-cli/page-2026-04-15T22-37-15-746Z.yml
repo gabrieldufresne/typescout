@@ -1,0 +1,766 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Eksell Display" [ref=e6] [cursor=pointer]
+        - button "Large" [ref=e8] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e12]: Olle Eksell
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - heading "Letters from Sweden" [level=2] [ref=e16]:
+          - link "Letters from Sweden" [ref=e17] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se
+        - navigation [ref=e18]:
+          - link "Fonts" [ref=e19] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/fonts
+          - text: ","
+          - link "Custom" [ref=e20] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/custom
+          - text: ","
+          - link "Trials" [ref=e21] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/trials
+          - text: ", &"
+          - link "More" [ref=e22] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about
+        - link "Cart → €0" [ref=e24] [cursor=pointer]:
+          - /url: https://lettersfromsweden.se/cart/
+          - text: Cart →
+          - generic [ref=e27]: €0
+        - button [ref=e28] [cursor=pointer]
+      - generic [ref=e29]:
+        - text: Quick Preview
+        - figure [ref=e30]:
+          - generic [ref=e31]: xx
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - heading "Eksell Display" [level=1] [ref=e34]
+        - generic [ref=e35]:
+          - generic [ref=e36]: Buy →
+          - generic [ref=e37]:
+            - button "App" [ref=e38] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e39]:
+            - button "Desktop" [ref=e40] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e41]:
+            - button "Web" [ref=e42] [cursor=pointer]
+            - text: 02193 02193
+      - generic [ref=e43]:
+        - paragraph [ref=e44]:
+          - text: Eksell Display is a unique typeface from 1962, designed by the legendary swedish designer
+          - link "Olle Eksell" [ref=e45] [cursor=pointer]:
+            - /url: https://www.olleeksell.se/
+          - text: (1918–2007).
+        - paragraph [ref=e46]:
+          - text: Olle was a prolific artist who couldn’t resist sketching out whatever ideas came to mind. His work covered a broad range, this being one of merely
+          - link "two complete typefaces" [ref=e47] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/eksell-sans/
+          - text: .
+        - paragraph [ref=e48]: The letters were drawn in Olle’s five square meter studio in Stockholm, six years after he designed the classic Mazetti eyes. We carefully digitized the letters and developed a family of four optical styles, including a stencil version. Have fun with it, we think Olle did.
+        - generic [ref=e49]:
+          - text: Year
+          - text: "2015"
+        - generic [ref=e50]:
+          - text: Designed by
+          - generic [ref=e51]:
+            - link "Olle Eksell" [ref=e53] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/olle-eksell/
+            - link "Göran Söderström" [ref=e55] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/goran-soderstrom/
+            - link "Krista Radoeva (Cyrillic)" [ref=e57] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/krista-radoeva/
+            - link "George Triantafyllakos (Greek)" [ref=e59] [cursor=pointer]:
+              - /url: https://lettersfromsweden.se/designer/george-triantafyllakos/
+        - generic [ref=e60]:
+          - text: Script(s)
+          - text: latin cyrillic greek
+        - generic [ref=e61]:
+          - text: Specimen
+          - link "Download Eksell Display PDF" [ref=e63] [cursor=pointer]:
+            - /url: https://bunny-wp-pullzone-4h7oycc6ie.b-cdn.net/wp-content/uploads/LFS_EksellDisplay.pdf
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - button "Eksell Display" [ref=e67] [cursor=pointer]
+        - button "Medium" [ref=e69] [cursor=pointer]
+        - generic [ref=e72]:
+          - button [ref=e73]
+          - button [ref=e75] [cursor=pointer]
+          - button [ref=e77] [cursor=pointer]
+        - list [ref=e80]:
+          - listitem [ref=e81] [cursor=pointer]: ss01
+          - listitem [ref=e82] [cursor=pointer]: ss02
+          - listitem [ref=e83] [cursor=pointer]: ss03
+          - listitem [ref=e84] [cursor=pointer]: ss04
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e86]:
+        - text: ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ
+        - text: abcdefghijklmnopqrstuvwxyzåäö
+        - text: АБВГДЕЖЗИКЛМНОПРСТУФХЧЦШЩЬЪЫЭЮЯ
+        - text: абвгдежзиклмнопрстуфхчцшщьъыэюя
+        - text: ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
+        - text: αβγδεζηθικλμνξοπρςστυφχψω
+        - text: 1234567890@&!?#$€%
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - button "Eksell Display" [ref=e90] [cursor=pointer]
+        - button "Large" [ref=e92] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e94]: ål.la
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - button "Eksell Display" [ref=e98] [cursor=pointer]
+        - button "Small" [ref=e100] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e102]: Björkhagen é um distrito na área de Skarpnäck, Söderort, no município de Estocolmo. A maioria dos edifícios em Björkhagen foram construídos entre os anos de 1948 e 1952. Às ruas foram dadas os nomes das cidades do sul da Suécia – Falsterbovägen, Ronnebyvägen e Halmstadsvägen. Os nomes dos bairros vêm do clima e da natureza – Lågtrycket, Högtrycket, Passadvinden e Snötäcket. A principal rua do distrito é a rua Malmövägen, que começa na estação de metro em Hammarbyhöjden, atravessa Björkhagen e termina em Ystadsvägen, na fronteira com Kärrtorp. A praça de Björkhagen em Björkhagsplan foi inaugurada a 1 de outubro de 1959. Porque o distrito fica situado entre os centros comerciais de Hammarbyhöjden e Kärrtorp, as lojas da Björkhagsplan satisfazem apenas necessidades básicas.
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - button "Eksell Display" [ref=e106] [cursor=pointer]
+        - button "Large" [ref=e108] [cursor=pointer]
+        - generic [ref=e111]:
+          - button [ref=e112]
+          - button [ref=e114] [cursor=pointer]
+          - button [ref=e116] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e119]: “In short, these letters look like the work of a graphic designer (without any deep skill in lettering), not a type designer.” Paul Shaw, 2016
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - button "Eksell Display" [ref=e123] [cursor=pointer]
+        - button "Medium" [ref=e125] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e127]: Eksell Display—ето уникальный шрифт 1962 года, разработан легендарным шведским дизайнером Олле Экселлом (1918–2007). Олле был плодотворным художником, который не мог удержаться от набросков любых идеи, которые приходили ему в голову. Его работа обхватывает широкий диапазон, это был один из двух его шрифтов.
+    - generic [ref=e128]:
+      - generic [ref=e129]:
+        - button "Eksell Display" [ref=e131] [cursor=pointer]
+        - button "Medium" [ref=e133] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e135]: Η Eksell Display είναι μια ιδιαίτερη γραμματοσειρά η οποία σχεδιάστηκε το 1962 από τον θρυλικό σουηδό σχεδιαστή Olle Eksell (1918–2007). Ο Olle ήταν ένας πολύ παραγωγικός καλλιτέχνης και σχεδίαζε, χωρίς κανέναν ενδοιασμό, όποια ιδέα του ερχόταν στο μυαλό. Η δουλειά του εκτεινόταν σε ένα μεγάλο εύρος εφαρμογών, και η Eksell είναι η μια από τις δυο γραμματοσειρές που σχεδίασε.
+    - generic [ref=e136]:
+      - generic [ref=e138]: Eksell Display Characters
+      - generic [ref=e139]:
+        - generic: A
+        - generic [ref=e140]:
+          - text: A
+          - text: Á
+          - text: Ă
+          - text: Â
+          - text: Ä
+          - text: À
+          - text: Ā
+          - text: Ą
+          - text: Å
+          - text: Ã
+          - text: Æ
+          - text: B
+          - text: C
+          - text: Ć
+          - text: Č
+          - text: Ç
+          - text: Ċ
+          - text: D
+          - text: Ð
+          - text: Ď
+          - text: Đ
+          - text: E
+          - text: É
+          - text: Ě
+          - text: Ê
+          - text: Ë
+          - text: Ė
+          - text: È
+          - text: Ē
+          - text: Ę
+          - text: F
+          - text: G
+          - text: Ğ
+          - text: Ģ
+          - text: Ġ
+          - text: H
+          - text: Ħ
+          - text: I
+          - text: Í
+          - text: Î
+          - text: Ï
+          - text: İ
+          - text: Ì
+          - text: Ī
+          - text: Į
+          - text: J
+          - text: K
+          - text: Ķ
+          - text: L
+          - text: Ĺ
+          - text: Ľ
+          - text: Ļ
+          - text: Ł
+          - text: M
+          - text: "N"
+          - text: Ń
+          - text: Ň
+          - text: Ņ
+          - text: Ñ
+          - text: Ŋ
+          - text: O
+          - text: Ó
+          - text: Ô
+          - text: Ö
+          - text: Ò
+          - text: Ő
+          - text: Ō
+          - text: Ø
+          - text: Õ
+          - text: Œ
+          - text: P
+          - text: Þ
+          - text: Q
+          - text: R
+          - text: Ŕ
+          - text: Ř
+          - text: Ŗ
+          - text: S
+          - text: Ś
+          - text: Š
+          - text: Ş
+          - text: Ș
+          - text: ẞ
+          - text: T
+          - text: Ŧ
+          - text: Ť
+          - text: Ţ
+          - text: Ț
+          - text: U
+          - text: Ú
+          - text: Û
+          - text: Ü
+          - text: Ù
+          - text: Ű
+          - text: Ū
+          - text: Ų
+          - text: Ů
+          - text: V
+          - text: W
+          - text: Ẃ
+          - text: Ŵ
+          - text: Ẅ
+          - text: Ẁ
+          - text: X
+          - text: "Y"
+          - text: Ý
+          - text: Ŷ
+          - text: Ÿ
+          - text: Ỳ
+          - text: Z
+          - text: Ź
+          - text: Ž
+          - text: Ż
+          - text: 
+          - text: 
+          - text: a
+          - text: á
+          - text: ă
+          - text: â
+          - text: ä
+          - text: à
+          - text: ā
+          - text: ą
+          - text: å
+          - text: ã
+          - text: æ
+          - text: b
+          - text: c
+          - text: ć
+          - text: č
+          - text: ç
+          - text: ċ
+          - text: d
+          - text: ð
+          - text: ď
+          - text: đ
+          - text: e
+          - text: é
+          - text: ě
+          - text: ê
+          - text: ë
+          - text: ė
+          - text: è
+          - text: ē
+          - text: ę
+          - text: f
+          - text: g
+          - text: ğ
+          - text: ģ
+          - text: ġ
+          - text: h
+          - text: ħ
+          - text: i
+          - text: ı
+          - text: í
+          - text: î
+          - text: ï
+          - text: 
+          - text: ì
+          - text: ī
+          - text: į
+          - text: j
+          - text: k
+          - text: ķ
+          - text: l
+          - text: ĺ
+          - text: ľ
+          - text: ļ
+          - text: ł
+          - text: m
+          - text: "n"
+          - text: ń
+          - text: ň
+          - text: ņ
+          - text: ñ
+          - text: ŋ
+          - text: o
+          - text: ó
+          - text: ô
+          - text: ö
+          - text: ò
+          - text: ő
+          - text: ō
+          - text: ø
+          - text: õ
+          - text: œ
+          - text: p
+          - text: þ
+          - text: q
+          - text: r
+          - text: ŕ
+          - text: ř
+          - text: ŗ
+          - text: s
+          - text: ś
+          - text: š
+          - text: ş
+          - text: ș
+          - text: ß
+          - text: t
+          - text: ŧ
+          - text: ť
+          - text: ţ
+          - text: ț
+          - text: u
+          - text: ú
+          - text: û
+          - text: ü
+          - text: ù
+          - text: ű
+          - text: ū
+          - text: ų
+          - text: ů
+          - text: v
+          - text: w
+          - text: ẃ
+          - text: ŵ
+          - text: ẅ
+          - text: ẁ
+          - text: x
+          - text: "y"
+          - text: ý
+          - text: ŷ
+          - text: ÿ
+          - text: ỳ
+          - text: z
+          - text: ź
+          - text: ž
+          - text: ż
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: ﬁ
+          - text: ﬂ
+          - text: А
+          - text: Б
+          - text: В
+          - text: Г
+          - text: Ѓ
+          - text: Ґ
+          - text: Ғ
+          - text: Д
+          - text: Е
+          - text: Ѐ
+          - text: Ё
+          - text: Ж
+          - text: З
+          - text: И
+          - text: Й
+          - text: Ѝ
+          - text: К
+          - text: Ќ
+          - text: Л
+          - text: М
+          - text: Н
+          - text: О
+          - text: П
+          - text: Р
+          - text: С
+          - text: Т
+          - text: У
+          - text: Ў
+          - text: Ф
+          - text: Х
+          - text: Ч
+          - text: Ц
+          - text: Ш
+          - text: Щ
+          - text: Џ
+          - text: Ь
+          - text: Ы
+          - text: Ъ
+          - text: Љ
+          - text: Њ
+          - text: Ѕ
+          - text: Є
+          - text: Э
+          - text: І
+          - text: Ї
+          - text: Ј
+          - text: Ћ
+          - text: Ю
+          - text: Я
+          - text: Ђ
+          - text: Қ
+          - text: Ң
+          - text: Ү
+          - text: Ұ
+          - text: Һ
+          - text: Ӏ
+          - text: Ә
+          - text: Ө
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: а
+          - text: б
+          - text: в
+          - text: г
+          - text: ѓ
+          - text: ґ
+          - text: ғ
+          - text: д
+          - text: е
+          - text: ѐ
+          - text: ё
+          - text: ж
+          - text: з
+          - text: и
+          - text: й
+          - text: ѝ
+          - text: к
+          - text: ќ
+          - text: л
+          - text: м
+          - text: н
+          - text: о
+          - text: п
+          - text: р
+          - text: с
+          - text: т
+          - text: у
+          - text: ў
+          - text: ф
+          - text: х
+          - text: ч
+          - text: ц
+          - text: ш
+          - text: щ
+          - text: џ
+          - text: ь
+          - text: ы
+          - text: ъ
+          - text: љ
+          - text: њ
+          - text: ѕ
+          - text: є
+          - text: э
+          - text: і
+          - text: ї
+          - text: ј
+          - text: ћ
+          - text: ю
+          - text: я
+          - text: ђ
+          - text: қ
+          - text: ң
+          - text: ү
+          - text: ұ
+          - text: һ
+          - text: ӏ
+          - text: ә
+          - text: ө
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: Α
+          - text: Β
+          - text: Γ
+          - text: Δ
+          - text: Ε
+          - text: Ζ
+          - text: Η
+          - text: Θ
+          - text: Ι
+          - text: Κ
+          - text: Λ
+          - text: Μ
+          - text: Ν
+          - text: Ξ
+          - text: Ο
+          - text: Π
+          - text: Ρ
+          - text: Σ
+          - text: Τ
+          - text: Υ
+          - text: Φ
+          - text: Χ
+          - text: Ψ
+          - text: Ω
+          - text: Ά
+          - text: Έ
+          - text: Ή
+          - text: Ί
+          - text: Ό
+          - text: Ύ
+          - text: Ώ
+          - text: Ϊ
+          - text: Ϋ
+          - text: 
+          - text: 
+          - text: 
+          - text: α
+          - text: β
+          - text: γ
+          - text: δ
+          - text: ε
+          - text: ζ
+          - text: η
+          - text: θ
+          - text: ι
+          - text: κ
+          - text: λ
+          - text: μ
+          - text: ν
+          - text: ξ
+          - text: ο
+          - text: π
+          - text: ρ
+          - text: ς
+          - text: σ
+          - text: τ
+          - text: υ
+          - text: φ
+          - text: χ
+          - text: ψ
+          - text: ω
+          - text: ί
+          - text: ϊ
+          - text: ΐ
+          - text: ύ
+          - text: ϋ
+          - text: ΰ
+          - text: ό
+          - text: ώ
+          - text: ά
+          - text: έ
+          - text: ή
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: "0"
+          - text: "1"
+          - text: "2"
+          - text: "3"
+          - text: "4"
+          - text: "5"
+          - text: "6"
+          - text: "7"
+          - text: "8"
+          - text: "9"
+          - text: ⁄
+          - text: ½
+          - text: ¼
+          - text: ¾
+          - text: ¹
+          - text: ²
+          - text: ³
+          - text: ⁴
+          - text: ·
+          - text: ;
+          - text: .
+          - text: ","
+          - text: ":"
+          - text: ;
+          - text: …
+          - text: "!"
+          - text: ¡
+          - text: "?"
+          - text: ¿
+          - text: ·
+          - text: •
+          - text: "*"
+          - text: "#"
+          - text: /
+          - text: \
+          - text: "-"
+          - text: –
+          - text: —
+          - text: _
+          - text: (
+          - text: )
+          - text: "{"
+          - text: "}"
+          - text: "["
+          - text: "]"
+          - text: ‚
+          - text: „
+          - text: “
+          - text: ”
+          - text: ‘
+          - text: ’
+          - text: «
+          - text: »
+          - text: ‹
+          - text: ›
+          - text: "\""
+          - text: "'"
+          - text: "@"
+          - text: "&"
+          - text: ¶
+          - text: §
+          - text: ©
+          - text: ®
+          - text: ™
+          - text: °
+          - text: "|"
+          - text: †
+          - text: ‡
+          - text: ¢
+          - text: $
+          - text: €
+          - text: ₴
+          - text: ₺
+          - text: ₽
+          - text: ₹
+          - text: £
+          - text: ₸
+          - text: ¥
+          - text: +
+          - text: −
+          - text: ×
+          - text: ÷
+          - text: =
+          - text: ≠
+          - text: ">"
+          - text: <
+          - text: "%"
+          - text: ‰
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - button "Capitaine" [ref=e144] [cursor=pointer]
+        - button "Medium" [ref=e146] [cursor=pointer]
+        - generic [ref=e149]:
+          - button [ref=e150]
+          - button [ref=e152] [cursor=pointer]
+          - button [ref=e154] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e157]: Introducing Capitaine. A good-humoured, chunky slab serif based on the Adtype Series, as found on pages 572 to 575 in the American Specimen Book of Type Styles (American Type Founders, 1912).
+      - link "→ Learn more about Capitaine" [ref=e158] [cursor=pointer]:
+        - /url: https://lettersfromsweden.se/font/capitaine/
+  - contentinfo [ref=e159]:
+    - navigation [ref=e160]:
+      - list [ref=e162]:
+        - listitem [ref=e163]:
+          - link "About" [ref=e164] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about/
+          - text: ","
+        - listitem [ref=e165]:
+          - link "Support" [ref=e166] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/support/
+          - text: ","
+        - listitem [ref=e167]:
+          - link "License" [ref=e168] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/license/
+          - text: ","
+        - listitem [ref=e169]:
+          - link "Designers" [ref=e170] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/designers/
+          - text: ","
+        - listitem [ref=e171]:
+          - link "Contact" [ref=e172] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/contact/
+          - text: ","
+        - listitem [ref=e173]:
+          - link "Privacy Policy" [ref=e174] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/privacypolicy/
+  - status [ref=e175]

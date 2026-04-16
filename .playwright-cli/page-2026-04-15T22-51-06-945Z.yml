@@ -1,0 +1,642 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Ivar Headline" [ref=e6] [cursor=pointer]
+        - button "Medium Italic" [ref=e8] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e12]: Breaking News
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - heading "Letters from Sweden" [level=2] [ref=e16]:
+          - link "Letters from Sweden" [ref=e17] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se
+        - navigation [ref=e18]:
+          - link "Fonts" [ref=e19] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/fonts
+          - text: ","
+          - link "Custom" [ref=e20] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/custom
+          - text: ","
+          - link "Trials" [ref=e21] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/trials
+          - text: ", &"
+          - link "More" [ref=e22] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about
+        - link "Cart → €0" [ref=e24] [cursor=pointer]:
+          - /url: https://lettersfromsweden.se/cart/
+          - text: Cart →
+          - generic [ref=e27]: €0
+        - button [ref=e28] [cursor=pointer]
+      - generic [ref=e29]:
+        - text: Quick Preview
+        - figure [ref=e30]:
+          - generic [ref=e31]: xx
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - heading "Ivar Headline" [level=1] [ref=e34]
+        - generic [ref=e35]:
+          - generic [ref=e36]: Buy →
+          - generic [ref=e37]:
+            - button "App" [ref=e38] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e39]:
+            - button "Desktop" [ref=e40] [cursor=pointer]
+            - text: 02193 02193
+          - generic [ref=e41]:
+            - button "Web" [ref=e42] [cursor=pointer]
+            - text: 02193 02193
+      - generic [ref=e43]:
+        - paragraph [ref=e44]:
+          - text: Ivar began with the idea of creating a serif companion for
+          - link "Siri" [ref=e45] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/siri/
+          - text: . During its development, it became apparent that typographic siblings don’t necessarily need to have a uniform design. After three years of drawing and perfecting the letterforms, the only shared characteristics that remain are the shapes of the terminals.
+        - paragraph [ref=e46]: "Rather than being a revival, Ivar is strongly influenced by the grace and sturdy construction of Times. The typeface stands on the shoulders of giants: the design refers to the dependable text faces from the mid-1900s, which in turn were rooted in classic designs from the 16th and 17th century."
+        - paragraph [ref=e47]:
+          - text: Ivar comes in three optical sizes. Each sub-family consists of four weights with matching italics, for a total of 24 fonts. The names of the optical sizes—
+          - link "Text" [ref=e48] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/ivar-text/
+          - text: ","
+          - link "Headline" [ref=e49] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/ivar-headline/
+          - text: ", and"
+          - link "Display" [ref=e50] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/ivar-display/
+          - text: —suggest how they should be applied, yet we encourage users to practice typography as they see fit.
+        - paragraph [ref=e51]:
+          - text: In March 2020 we added the fourth optical size to Ivar – a high contrast version we call
+          - link "Ivar Fine" [ref=e52] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/ivar-fine/
+          - text: .
+        - paragraph [ref=e53]:
+          - text: See also
+          - link "Ivar Display Condensed" [ref=e54] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/ivar-display-condensed/
+          - text: ","
+          - link "Ivar Nostalgi" [ref=e55] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/ivar-nostalgi/
+          - text: and
+          - link "Ivar Soft" [ref=e56] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/font/ivar-soft/
+          - text: .
+        - generic [ref=e57]:
+          - text: Year
+          - text: "2017"
+        - generic [ref=e58]:
+          - text: Designed by
+          - link "Göran Söderström" [ref=e61] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/designer/goran-soderstrom/
+        - generic [ref=e62]:
+          - text: Script(s)
+          - text: latin
+        - generic [ref=e63]:
+          - text: Specimen
+          - link "Download Ivar Headline PDF" [ref=e65] [cursor=pointer]:
+            - /url: https://bunny-wp-pullzone-4h7oycc6ie.b-cdn.net/wp-content/uploads/LFS_Ivar.pdf
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - button "Ivar Headline" [ref=e69] [cursor=pointer]
+        - button "Regular" [ref=e71] [cursor=pointer]
+        - generic [ref=e74]:
+          - button [ref=e75]
+          - button [ref=e77] [cursor=pointer]
+          - button [ref=e79] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e82]:
+        - text: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        - text: abcdefghijklmnopqrstuvwxyz
+        - text: 1234567890@&!?#$€%
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - button "Ivar Headline" [ref=e86] [cursor=pointer]
+        - button "SemiBold" [ref=e88] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e90]: "Sweet sweet codeine: See wetin Kano pipo talk about codeine abuse for dia state"
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - button "Ivar Headline" [ref=e94] [cursor=pointer]
+        - button "Italic" [ref=e96] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e98]: American singer Rihanna say she and rapper Drake no be friends again
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - button "Ivar Headline" [ref=e102] [cursor=pointer]
+        - button "Bold Italic" [ref=e104] [cursor=pointer]
+        - generic [ref=e107]:
+          - button [ref=e108] [cursor=pointer]
+          - button [ref=e110]
+          - button [ref=e112] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e115]: Nigeria senator Shehu Sani say make Kanye West come learn slave history
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - button "Ivar Text" [ref=e119] [cursor=pointer]
+        - button "Italic" [ref=e121] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e123]: "Rather than being a revival, Ivar is strongly influenced by the grace and sturdy construction of Times. The typeface stands on the shoulders of giants: the design refers to the dependable text faces from the mid-1900s, which in turn were rooted in classic designs from the 16th and 17th century."
+      - link "→ Learn more about Ivar Text" [ref=e124] [cursor=pointer]:
+        - /url: https://lettersfromsweden.se/font/ivar-text/
+    - generic [ref=e125]:
+      - generic [ref=e127]: Ivar Headline Characters
+      - generic [ref=e128]:
+        - generic: A
+        - generic [ref=e129]:
+          - text: A
+          - text: Á
+          - text: Ă
+          - text: Â
+          - text: Ä
+          - text: À
+          - text: Ā
+          - text: Ą
+          - text: Å
+          - text: Ã
+          - text: Æ
+          - text: B
+          - text: C
+          - text: Ć
+          - text: Č
+          - text: Ç
+          - text: Ċ
+          - text: D
+          - text: Ď
+          - text: Đ
+          - text: Ð
+          - text: E
+          - text: É
+          - text: Ě
+          - text: Ê
+          - text: Ë
+          - text: Ė
+          - text: È
+          - text: Ē
+          - text: Ę
+          - text: Ʒ
+          - text: F
+          - text: G
+          - text: Ğ
+          - text: Ģ
+          - text: Ġ
+          - text: H
+          - text: Ħ
+          - text: I
+          - text: Í
+          - text: Ǐ
+          - text: Î
+          - text: Ï
+          - text: İ
+          - text: Ì
+          - text: Ī
+          - text: Į
+          - text: Ĩ
+          - text: J
+          - text: 
+          - text: K
+          - text: Ķ
+          - text: L
+          - text: Ĺ
+          - text: Ľ
+          - text: Ļ
+          - text: Ł
+          - text: M
+          - text: "N"
+          - text: Ń
+          - text: Ň
+          - text: Ņ
+          - text: Ñ
+          - text: Ŋ
+          - text: O
+          - text: Ó
+          - text: Ǒ
+          - text: Ô
+          - text: Ö
+          - text: Ò
+          - text: Ő
+          - text: Ō
+          - text: Ø
+          - text: Õ
+          - text: Œ
+          - text: P
+          - text: Þ
+          - text: Q
+          - text: R
+          - text: Ŕ
+          - text: Ř
+          - text: Ŗ
+          - text: S
+          - text: Ś
+          - text: Š
+          - text: Ş
+          - text: Ș
+          - text: ẞ
+          - text: T
+          - text: Ŧ
+          - text: Ť
+          - text: Ţ
+          - text: Ț
+          - text: U
+          - text: Ú
+          - text: Û
+          - text: Ü
+          - text: Ù
+          - text: Ű
+          - text: Ū
+          - text: Ų
+          - text: Ů
+          - text: Ũ
+          - text: V
+          - text: W
+          - text: Ẃ
+          - text: Ŵ
+          - text: Ẅ
+          - text: Ẁ
+          - text: X
+          - text: "Y"
+          - text: Ý
+          - text: Ŷ
+          - text: Ÿ
+          - text: Ỳ
+          - text: Z
+          - text: Ź
+          - text: Ž
+          - text: Ż
+          - text: a
+          - text: 
+          - text: á
+          - text: ă
+          - text: â
+          - text: ä
+          - text: à
+          - text: ā
+          - text: ą
+          - text: å
+          - text: ã
+          - text: æ
+          - text: b
+          - text: c
+          - text: ć
+          - text: č
+          - text: ç
+          - text: ċ
+          - text: d
+          - text: ď
+          - text: đ
+          - text: ð
+          - text: e
+          - text: é
+          - text: ě
+          - text: ê
+          - text: ë
+          - text: ė
+          - text: è
+          - text: ē
+          - text: ę
+          - text: ʒ
+          - text: f
+          - text: 
+          - text: g
+          - text: 
+          - text: ğ
+          - text: 
+          - text: ģ
+          - text: 
+          - text: ġ
+          - text: 
+          - text: h
+          - text: ħ
+          - text: i
+          - text: ı
+          - text: í
+          - text: ǐ
+          - text: î
+          - text: ï
+          - text: 
+          - text: ì
+          - text: ī
+          - text: į
+          - text: ĩ
+          - text: j
+          - text: ȷ
+          - text: 
+          - text: k
+          - text: 
+          - text: ķ
+          - text: 
+          - text: l
+          - text: ĺ
+          - text: ľ
+          - text: ļ
+          - text: ł
+          - text: m
+          - text: "n"
+          - text: ń
+          - text: ň
+          - text: ņ
+          - text: ñ
+          - text: ŋ
+          - text: o
+          - text: ó
+          - text: ǒ
+          - text: ô
+          - text: ö
+          - text: ò
+          - text: ő
+          - text: ō
+          - text: ø
+          - text: õ
+          - text: œ
+          - text: p
+          - text: þ
+          - text: q
+          - text: r
+          - text: 
+          - text: ŕ
+          - text: ř
+          - text: ŗ
+          - text: s
+          - text: ś
+          - text: š
+          - text: ş
+          - text: ș
+          - text: ß
+          - text: t
+          - text: ŧ
+          - text: ť
+          - text: ţ
+          - text: ț
+          - text: u
+          - text: ú
+          - text: û
+          - text: ü
+          - text: ù
+          - text: ű
+          - text: ū
+          - text: ų
+          - text: ů
+          - text: ũ
+          - text: v
+          - text: w
+          - text: ẃ
+          - text: ŵ
+          - text: ẅ
+          - text: ẁ
+          - text: x
+          - text: "y"
+          - text: ý
+          - text: ŷ
+          - text: ÿ
+          - text: ỳ
+          - text: z
+          - text: ź
+          - text: ž
+          - text: ż
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: ﬁ
+          - text: ﬂ
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: ª
+          - text: º
+          - text: Ӡ
+          - text: ӡ
+          - text: "0"
+          - text: "1"
+          - text: "2"
+          - text: "3"
+          - text: "4"
+          - text: "5"
+          - text: "6"
+          - text: "7"
+          - text: "8"
+          - text: "9"
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: 
+          - text: ⁄
+          - text: ½
+          - text: ⅔
+          - text: ¼
+          - text: ¾
+          - text: ⅛
+          - text: ⅜
+          - text: ⅝
+          - text: ⅞
+          - text: ₀
+          - text: ₁
+          - text: ₂
+          - text: ₃
+          - text: ₄
+          - text: ₅
+          - text: ₆
+          - text: ₇
+          - text: ₈
+          - text: ₉
+          - text: ⁰
+          - text: ¹
+          - text: ²
+          - text: ³
+          - text: ⁴
+          - text: ⁵
+          - text: ⁶
+          - text: ⁷
+          - text: ⁸
+          - text: ⁹
+          - text: .
+          - text: ","
+          - text: ":"
+          - text: ;
+          - text: …
+          - text: "!"
+          - text: ¡
+          - text: 
+          - text: "?"
+          - text: ¿
+          - text: 
+          - text: ·
+          - text: •
+          - text: "*"
+          - text: "#"
+          - text: /
+          - text: \
+          - text: "-"
+          - text: 
+          - text: –
+          - text: 
+          - text: —
+          - text: 
+          - text: ‑
+          - text: _
+          - text: (
+          - text: )
+          - text: "{"
+          - text: "}"
+          - text: "["
+          - text: "]"
+          - text: ‚
+          - text: „
+          - text: “
+          - text: ”
+          - text: ‘
+          - text: ’
+          - text: «
+          - text: »
+          - text: ‹
+          - text: ›
+          - text: "\""
+          - text: "'"
+          - text: "@"
+          - text: 
+          - text: "&"
+          - text: ¶
+          - text: §
+          - text: ©
+          - text: ®
+          - text: ℗
+          - text: ™
+          - text: °
+          - text: ′
+          - text: ″
+          - text: "|"
+          - text: ¦
+          - text: †
+          - text: ‡
+          - text: ¢
+          - text: ¤
+          - text: $
+          - text: €
+          - text: ₺
+          - text: ₹
+          - text: £
+          - text: ¥
+          - text: +
+          - text: 
+          - text: −
+          - text: 
+          - text: ×
+          - text: 
+          - text: ÷
+          - text: 
+          - text: =
+          - text: 
+          - text: ≠
+          - text: 
+          - text: ">"
+          - text: 
+          - text: <
+          - text: 
+          - text: ≥
+          - text: 
+          - text: ≤
+          - text: 
+          - text: ±
+          - text: 
+          - text: ≈
+          - text: 
+          - text: ~
+          - text: ^
+          - text: "%"
+          - text: ‰
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - button "Ivar Display" [ref=e133] [cursor=pointer]
+        - button "Regular" [ref=e135] [cursor=pointer]
+        - text: 02193 02193 02193 02193 02193 02193
+      - generic [ref=e137]: More Ivar
+      - link "→ Learn more about Ivar Display" [ref=e138] [cursor=pointer]:
+        - /url: https://lettersfromsweden.se/font/ivar-display/
+  - contentinfo [ref=e139]:
+    - navigation [ref=e140]:
+      - list [ref=e142]:
+        - listitem [ref=e143]:
+          - link "About" [ref=e144] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/about/
+          - text: ","
+        - listitem [ref=e145]:
+          - link "Support" [ref=e146] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/support/
+          - text: ","
+        - listitem [ref=e147]:
+          - link "License" [ref=e148] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/license/
+          - text: ","
+        - listitem [ref=e149]:
+          - link "Designers" [ref=e150] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/designers/
+          - text: ","
+        - listitem [ref=e151]:
+          - link "Contact" [ref=e152] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/contact/
+          - text: ","
+        - listitem [ref=e153]:
+          - link "Privacy Policy" [ref=e154] [cursor=pointer]:
+            - /url: https://lettersfromsweden.se/privacypolicy/
+  - status [ref=e155]

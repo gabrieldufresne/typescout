@@ -1,0 +1,2366 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "Fonts" [ref=e10] [cursor=pointer]:
+          - /url: https://type-o-tones.com/catalogues
+      - listitem [ref=e11]:
+        - link "Custom work" [ref=e12] [cursor=pointer]:
+          - /url: https://type-o-tones.com/custom-work
+      - listitem [ref=e13]:
+        - link "News&Notes" [ref=e14] [cursor=pointer]:
+          - /url: https://type-o-tones.com/news
+      - listitem [ref=e15]:
+        - link "About us" [ref=e16] [cursor=pointer]:
+          - /url: https://type-o-tones.com/about-us
+    - link "" [ref=e18] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e19]:
+        - generic [ref=e20]: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+        - generic: 
+    - generic [ref=e21]:
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Log In" [ref=e24] [cursor=pointer]:
+            - /url: https://type-o-tones.com/login
+      - generic [ref=e28] [cursor=pointer]: 
+  - generic [ref=e31]:
+    - generic [ref=e33]:
+      - text: We use cookies to improve your experience on this site. By continuing to browse our site you agree to our use of
+      - link "cookies" [ref=e34] [cursor=pointer]:
+        - /url: \"http://type-o-tones.com/terms\"
+      - text: . For security and the best experience, please use the latest version of your browser.
+    - generic [ref=e35]:
+      - link "Configuration" [ref=e36] [cursor=pointer]:
+        - /url: "#"
+      - link "Accept all" [ref=e37] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e39]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - group "1 / 11" [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: NEW FOR '26!
+              - generic [ref=e51]: Harri Sans Light
+              - generic [ref=e53]: by Juan Luis Blanco
+            - link [ref=e54] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e55]
+        - group "2 / 11" [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e59]:
+              - generic [ref=e60]: NEW FOR '26!
+              - generic [ref=e61]: Harri Sans Regular
+              - generic [ref=e63]: by Juan Luis Blanco
+            - link [ref=e64] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e65]
+        - group "3 / 11" [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: NEW FOR '26!
+              - generic [ref=e71]: Harri Sans Medium
+              - generic [ref=e73]: by Juan Luis Blanco
+            - link [ref=e74] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e75]
+        - group "4 / 11" [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: NEW FOR '26!
+              - generic [ref=e81]: Harri Sans Bold
+              - generic [ref=e83]: by Juan Luis Blanco
+            - link [ref=e84] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e85]
+        - group "5 / 11" [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e89]:
+              - generic [ref=e90]: NEW FOR '26!
+              - generic [ref=e91]: Harri Sans ExtraBold
+              - generic [ref=e93]: by Juan Luis Blanco
+            - link [ref=e94] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e95]
+        - group "6 / 11" [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - generic [ref=e100]: NEW FOR '26!
+              - generic [ref=e101]: Harri Sans Condensed Light
+              - generic [ref=e103]: by Juan Luis Blanco
+            - link [ref=e104] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e105]
+        - group "7 / 11" [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e109]:
+              - generic [ref=e110]: NEW FOR '26!
+              - generic [ref=e111]: Harri Sans Condensed Regular
+              - generic [ref=e113]: by Juan Luis Blanco
+            - link [ref=e114] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e115]
+        - group "8 / 11" [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: NEW FOR '26!
+              - generic [ref=e121]: Harri Sans Condensed Medium
+              - generic [ref=e123]: by Juan Luis Blanco
+            - link [ref=e124] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e125]
+        - group "9 / 11" [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e129]:
+              - generic [ref=e130]: NEW FOR '26!
+              - generic [ref=e131]: Harri Sans Condensed Bold
+              - generic [ref=e133]: by Juan Luis Blanco
+            - link [ref=e134] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e135]
+        - group "10 / 11" [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: NEW FOR '26!
+              - generic [ref=e141]: Harri Sans Condensed ExtraBold
+              - generic [ref=e143]: by Juan Luis Blanco
+            - link [ref=e144] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - img [ref=e145]
+        - group "11 / 11" [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e149]:
+              - generic [ref=e150]: NEW FOR '26!
+              - generic [ref=e151]: Harri Sans Variable Font
+              - generic [ref=e153]: by Juan Luis Blanco
+            - link "Harri VF" [ref=e154] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-sans
+              - generic [ref=e155]: Harri VF
+      - button "Next slide" [ref=e156] [cursor=pointer]: 
+      - button "Previous slide" [ref=e157] [cursor=pointer]: 
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - group "1 / 12" [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e167]:
+              - generic [ref=e168]: NEW FOR '26!
+              - generic [ref=e169]: Harri Text ExtraLight
+              - generic [ref=e171]: by Juan Luis Blanco
+            - link [ref=e172] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e173]
+        - group "2 / 12" [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: NEW FOR '26!
+              - generic [ref=e179]: Harri Text ExtraLight Italic
+              - generic [ref=e181]: by Juan Luis Blanco
+            - link [ref=e182] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e183]
+        - group "3 / 12" [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e187]:
+              - generic [ref=e188]: NEW FOR '26!
+              - generic [ref=e189]: Harri Text Light
+              - generic [ref=e191]: by Juan Luis Blanco
+            - link [ref=e192] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e193]
+        - group "4 / 12" [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e197]:
+              - generic [ref=e198]: NEW FOR '26!
+              - generic [ref=e199]: Harri Text Light Italic
+              - generic [ref=e201]: by Juan Luis Blanco
+            - link [ref=e202] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e203]
+        - group "5 / 12" [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e207]:
+              - generic [ref=e208]: NEW FOR '26!
+              - generic [ref=e209]: Harri Text Regular
+              - generic [ref=e211]: by Juan Luis Blanco
+            - link [ref=e212] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e213]
+        - group "6 / 12" [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e217]:
+              - generic [ref=e218]: NEW FOR '26!
+              - generic [ref=e219]: Harri Text Italic
+              - generic [ref=e221]: by Juan Luis Blanco
+            - link [ref=e222] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e223]
+        - group "7 / 12" [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e227]:
+              - generic [ref=e228]: NEW FOR '26!
+              - generic [ref=e229]: Harri Text SemiBold
+              - generic [ref=e231]: by Juan Luis Blanco
+            - link [ref=e232] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e233]
+        - group "8 / 12" [ref=e234]:
+          - generic [ref=e235]:
+            - generic [ref=e237]:
+              - generic [ref=e238]: NEW FOR '26!
+              - generic [ref=e239]: Harri Text SemiBold Italic
+              - generic [ref=e241]: by Juan Luis Blanco
+            - link [ref=e242] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e243]
+        - group "9 / 12" [ref=e244]:
+          - generic [ref=e245]:
+            - generic [ref=e247]:
+              - generic [ref=e248]: NEW FOR '26!
+              - generic [ref=e249]: Harri Text Bold
+              - generic [ref=e251]: by Juan Luis Blanco
+            - link [ref=e252] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e253]
+        - group "10 / 12" [ref=e254]:
+          - generic [ref=e255]:
+            - generic [ref=e257]:
+              - generic [ref=e258]: NEW FOR '26!
+              - generic [ref=e259]: Harri Text Bold Italic
+              - generic [ref=e261]: by Juan Luis Blanco
+            - link [ref=e262] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e263]
+        - group "11 / 12" [ref=e264]:
+          - generic [ref=e265]:
+            - generic [ref=e267]:
+              - generic [ref=e268]: NEW FOR '26!
+              - generic [ref=e269]: Harri Text ExtraBold
+              - generic [ref=e271]: by Juan Luis Blanco
+            - link [ref=e272] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e273]
+        - group "12 / 12" [ref=e274]:
+          - generic [ref=e275]:
+            - generic [ref=e277]:
+              - generic [ref=e278]: NEW FOR '26!
+              - generic [ref=e279]: Harri Text ExtraBold Italic
+              - generic [ref=e281]: by Juan Luis Blanco
+            - link [ref=e282] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri-text
+              - img [ref=e283]
+      - button "Next slide" [ref=e284] [cursor=pointer]: 
+      - button "Previous slide" [ref=e285] [cursor=pointer]: 
+    - generic [ref=e290]:
+      - generic [ref=e291]:
+        - group "1 / 11" [ref=e292]:
+          - generic [ref=e293]:
+            - generic [ref=e295]:
+              - generic [ref=e296]: NEW FOR '26!
+              - generic [ref=e297]: Harri Light
+              - generic [ref=e299]: by Juan Luis Blanco
+            - link [ref=e300] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e301]
+        - group "2 / 11" [ref=e302]:
+          - generic [ref=e303]:
+            - generic [ref=e305]:
+              - generic [ref=e306]: NEW FOR '26!
+              - generic [ref=e307]: Harri Regular
+              - generic [ref=e309]: by Juan Luis Blanco
+            - link [ref=e310] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e311]
+        - group "3 / 11" [ref=e312]:
+          - generic [ref=e313]:
+            - generic [ref=e315]:
+              - generic [ref=e316]: NEW FOR '26!
+              - generic [ref=e317]: Harri Medium
+              - generic [ref=e319]: by Juan Luis Blanco
+            - link [ref=e320] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e321]
+        - group "4 / 11" [ref=e322]:
+          - generic [ref=e323]:
+            - generic [ref=e325]:
+              - generic [ref=e326]: NEW FOR '26!
+              - generic [ref=e327]: Harri Bold
+              - generic [ref=e329]: by Juan Luis Blanco
+            - link [ref=e330] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e331]
+        - group "5 / 11" [ref=e332]:
+          - generic [ref=e333]:
+            - generic [ref=e335]:
+              - generic [ref=e336]: NEW FOR '26!
+              - generic [ref=e337]: Harri ExtraBold
+              - generic [ref=e339]: by Juan Luis Blanco
+            - link [ref=e340] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e341]
+        - group "6 / 11" [ref=e342]:
+          - generic [ref=e343]:
+            - generic [ref=e345]:
+              - generic [ref=e346]: NEW FOR '26!
+              - generic [ref=e347]: Harri Condensed Light
+              - generic [ref=e349]: by Juan Luis Blanco
+            - link [ref=e350] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e351]
+        - group "7 / 11" [ref=e352]:
+          - generic [ref=e353]:
+            - generic [ref=e355]:
+              - generic [ref=e356]: NEW FOR '26!
+              - generic [ref=e357]: Harri Condensed Regular
+              - generic [ref=e359]: by Juan Luis Blanco
+            - link [ref=e360] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e361]
+        - group "8 / 11" [ref=e362]:
+          - generic [ref=e363]:
+            - generic [ref=e365]:
+              - generic [ref=e366]: NEW FOR '26!
+              - generic [ref=e367]: Harri Condensed Medium
+              - generic [ref=e369]: by Juan Luis Blanco
+            - link [ref=e370] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e371]
+        - group "9 / 11" [ref=e372]:
+          - generic [ref=e373]:
+            - generic [ref=e375]:
+              - generic [ref=e376]: NEW FOR '26!
+              - generic [ref=e377]: Harri Condensed Bold
+              - generic [ref=e379]: by Juan Luis Blanco
+            - link [ref=e380] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e381]
+        - group "10 / 11" [ref=e382]:
+          - generic [ref=e383]:
+            - generic [ref=e385]:
+              - generic [ref=e386]: NEW FOR '26!
+              - generic [ref=e387]: Harri Condensed ExtraBold
+              - generic [ref=e389]: by Juan Luis Blanco
+            - link [ref=e390] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - img [ref=e391]
+        - group "11 / 11" [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e395]:
+              - generic [ref=e396]: NEW FOR '26!
+              - generic [ref=e397]: Harri Variable Font
+              - generic [ref=e399]: by Juan Luis Blanco
+            - link "Harri VF" [ref=e400] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/harri
+              - generic [ref=e401]: Harri VF
+      - button "Next slide" [ref=e402] [cursor=pointer]: 
+      - button "Previous slide" [ref=e403] [cursor=pointer]: 
+    - generic [ref=e408]:
+      - generic [ref=e409]:
+        - group "1 / 6" [ref=e410]:
+          - generic [ref=e411]:
+            - generic [ref=e413]:
+              - generic [ref=e414]: NEW! -20% OFF
+              - generic [ref=e415]: Placa Fina
+              - generic [ref=e417]: by Laura Meseguer
+            - link [ref=e418] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/placa
+              - img [ref=e419]
+        - group "2 / 6" [ref=e420]:
+          - generic [ref=e421]:
+            - generic [ref=e423]:
+              - generic [ref=e424]: NEW! -20% OFF
+              - generic [ref=e425]: Placa Regular
+              - generic [ref=e427]: by Laura Meseguer
+            - link [ref=e428] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/placa
+              - img [ref=e429]
+        - group "3 / 6" [ref=e430]:
+          - generic [ref=e431]:
+            - generic [ref=e433]:
+              - generic [ref=e434]: NEW! -20% OFF
+              - generic [ref=e435]: Placa Mediana
+              - generic [ref=e437]: by Laura Meseguer
+            - link [ref=e438] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/placa
+              - img [ref=e439]
+        - group "4 / 6" [ref=e440]:
+          - generic [ref=e441]:
+            - generic [ref=e443]:
+              - generic [ref=e444]: NEW! -20% OFF
+              - generic [ref=e445]: Placa DemiGruixuda
+              - generic [ref=e447]: by Laura Meseguer
+            - link [ref=e448] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/placa
+              - img [ref=e449]
+        - group "5 / 6" [ref=e450]:
+          - generic [ref=e451]:
+            - generic [ref=e453]:
+              - generic [ref=e454]: NEW! -20% OFF
+              - generic [ref=e455]: Placa Gruixuda
+              - generic [ref=e457]: by Laura Meseguer
+            - link [ref=e458] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/placa
+              - img [ref=e459]
+        - group "6 / 6" [ref=e460]:
+          - generic [ref=e461]:
+            - generic [ref=e463]:
+              - generic [ref=e464]: NEW! -20% OFF
+              - generic [ref=e465]: Placa Variable Font
+              - generic [ref=e467]: by Laura Meseguer
+            - link "Placa VF" [ref=e468] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/placa
+              - generic [ref=e469]: Placa VF
+      - button "Next slide" [ref=e470] [cursor=pointer]: 
+      - button "Previous slide" [ref=e471] [cursor=pointer]: 
+    - generic [ref=e476]:
+      - generic [ref=e477]:
+        - group "1 / 7" [ref=e478]:
+          - generic [ref=e479]:
+            - generic [ref=e481]:
+              - generic [ref=e482]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e483]: Green Fairy Outline
+              - generic [ref=e485]: by Maria Montes
+            - link [ref=e486] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/green-fairy
+              - img [ref=e487]
+        - group "2 / 7" [ref=e488]:
+          - generic [ref=e489]:
+            - generic [ref=e491]:
+              - generic [ref=e492]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e493]: Green Fairy Dots
+              - generic [ref=e495]: by Maria Montes
+            - link [ref=e496] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/green-fairy
+              - img [ref=e497]
+        - group "3 / 7" [ref=e498]:
+          - generic [ref=e499]:
+            - generic [ref=e501]:
+              - generic [ref=e502]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e503]: Green Fairy Stencil
+              - generic [ref=e505]: by Maria Montes
+            - link [ref=e506] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/green-fairy
+              - img [ref=e507]
+        - group "4 / 7" [ref=e508]:
+          - generic [ref=e509]:
+            - generic [ref=e511]:
+              - generic [ref=e512]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e513]: Green Fairy Full
+              - generic [ref=e515]: by Maria Montes
+            - link [ref=e516] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/green-fairy
+              - img [ref=e517]
+        - group "5 / 7" [ref=e518]:
+          - generic [ref=e519]:
+            - generic [ref=e521]:
+              - generic [ref=e522]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e523]: Green Fairy Dots Combo
+              - generic [ref=e525]: by Maria Montes
+            - link [ref=e526] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/green-fairy
+              - img [ref=e527]
+        - group "6 / 7" [ref=e528]:
+          - generic [ref=e529]:
+            - generic [ref=e531]:
+              - generic [ref=e532]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e533]: Green Fairy Stencil Combo
+              - generic [ref=e535]: by Maria Montes
+            - link [ref=e536] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/green-fairy
+              - img [ref=e537]
+        - group "7 / 7" [ref=e538]:
+          - generic [ref=e539]:
+            - generic [ref=e541]:
+              - generic [ref=e542]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e543]: Green Fairy Full Combo
+              - generic [ref=e545]: by Maria Montes
+            - link [ref=e546] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/green-fairy
+              - img [ref=e547]
+      - button "Next slide" [ref=e548] [cursor=pointer]: 
+      - button "Previous slide" [ref=e549] [cursor=pointer]: 
+    - generic [ref=e554]:
+      - generic [ref=e555]:
+        - group "1 / 3" [ref=e556]:
+          - generic [ref=e557]:
+            - generic [ref=e559]:
+              - generic [ref=e560]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e561]: ZooLogic Style 1
+              - generic [ref=e563]: by José Manuel Urós
+            - link [ref=e564] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/zoologic
+              - img [ref=e565]
+        - group "2 / 3" [ref=e566]:
+          - generic [ref=e567]:
+            - generic [ref=e569]:
+              - generic [ref=e570]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e571]: ZooLogic Style 2
+              - generic [ref=e573]: by José Manuel Urós
+            - link [ref=e574] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/zoologic
+              - img [ref=e575]
+        - group "3 / 3" [ref=e576]:
+          - generic [ref=e577]:
+            - generic [ref=e579]:
+              - generic [ref=e580]: NEW! -20% OFF - LAUNCH OFFER
+              - generic [ref=e581]: ZooLogic Style 3
+              - generic [ref=e583]: by José Manuel Urós
+            - link [ref=e584] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/zoologic
+              - img [ref=e585]
+      - button "Next slide" [ref=e586] [cursor=pointer]: 
+      - button "Previous slide" [ref=e587] [cursor=pointer]: 
+    - generic [ref=e592]:
+      - group "1 / 1" [ref=e594]:
+        - generic [ref=e595]:
+          - generic [ref=e597]:
+            - generic [ref=e598]: NEW! -20% OFF - LAUNCH OFFER
+            - generic [ref=e599]: Kanat Latin Ultra
+            - generic [ref=e601]: by Maria Montes
+          - link [ref=e602] [cursor=pointer]:
+            - /url: https://type-o-tones.com/fonts/kanat-latin
+            - img [ref=e603]
+      - text:  
+    - generic [ref=e608]:
+      - generic [ref=e609]:
+        - group "1 / 6" [ref=e610]:
+          - generic [ref=e611]:
+            - generic [ref=e613]:
+              - generic [ref=e614]: NEW! -20% OFF
+              - generic [ref=e615]: Brise Text Light
+              - generic [ref=e617]: by Laura Meseguer
+            - link [ref=e618] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/brise
+              - img [ref=e619]
+        - group "2 / 6" [ref=e620]:
+          - generic [ref=e621]:
+            - generic [ref=e623]:
+              - generic [ref=e624]: NEW! -20% OFF
+              - generic [ref=e625]: Brise Text Regular
+              - generic [ref=e627]: by Laura Meseguer
+            - link [ref=e628] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/brise
+              - img [ref=e629]
+        - group "3 / 6" [ref=e630]:
+          - generic [ref=e631]:
+            - generic [ref=e633]:
+              - generic [ref=e634]: NEW! -20% OFF
+              - generic [ref=e635]: Brise Display Bold
+              - generic [ref=e637]: by Laura Meseguer
+            - link [ref=e638] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/brise
+              - img [ref=e639]
+        - group "4 / 6" [ref=e640]:
+          - generic [ref=e641]:
+            - generic [ref=e643]:
+              - generic [ref=e644]: NEW! -20% OFF
+              - generic [ref=e645]: Brise Display ExtraBold
+              - generic [ref=e647]: by Laura Meseguer
+            - link [ref=e648] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/brise
+              - img [ref=e649]
+        - group "5 / 6" [ref=e650]:
+          - generic [ref=e651]:
+            - generic [ref=e653]:
+              - generic [ref=e654]: NEW! -20% OFF
+              - generic [ref=e655]: Brise Display Extreme
+              - generic [ref=e657]: by Laura Meseguer
+            - link [ref=e658] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/brise
+              - img [ref=e659]
+        - group "6 / 6" [ref=e660]:
+          - generic [ref=e661]:
+            - generic [ref=e663]:
+              - generic [ref=e664]: NEW! -20% OFF
+              - generic [ref=e665]: Brise Variable Font
+              - generic [ref=e667]: by Laura Meseguer
+            - link "Brise VF" [ref=e668] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/brise
+              - generic [ref=e669]: Brise VF
+      - button "Next slide" [ref=e670] [cursor=pointer]: 
+      - button "Previous slide" [ref=e671] [cursor=pointer]: 
+    - generic [ref=e676]:
+      - generic [ref=e677]:
+        - group "1 / 28" [ref=e678]:
+          - generic [ref=e679]:
+            - generic [ref=e681]:
+              - generic [ref=e683]: Scena Thin
+              - generic [ref=e685]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e686] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e687]
+        - group "2 / 28" [ref=e688]:
+          - generic [ref=e689]:
+            - generic [ref=e691]:
+              - generic [ref=e693]: Scena Thin Slanted
+              - generic [ref=e695]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e696] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e697]
+        - group "3 / 28" [ref=e698]:
+          - generic [ref=e699]:
+            - generic [ref=e701]:
+              - generic [ref=e703]: Scena Light
+              - generic [ref=e705]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e706] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e707]
+        - group "4 / 28" [ref=e708]:
+          - generic [ref=e709]:
+            - generic [ref=e711]:
+              - generic [ref=e713]: Scena Light Slanted
+              - generic [ref=e715]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e716] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e717]
+        - group "5 / 28" [ref=e718]:
+          - generic [ref=e719]:
+            - generic [ref=e721]:
+              - generic [ref=e723]: Scena Regular
+              - generic [ref=e725]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e726] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e727]
+        - group "6 / 28" [ref=e728]:
+          - generic [ref=e729]:
+            - generic [ref=e731]:
+              - generic [ref=e733]: Scena Regular Slanted
+              - generic [ref=e735]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e736] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e737]
+        - group "7 / 28" [ref=e738]:
+          - generic [ref=e739]:
+            - generic [ref=e741]:
+              - generic [ref=e743]: Scena SemiBold
+              - generic [ref=e745]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e746] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e747]
+        - group "8 / 28" [ref=e748]:
+          - generic [ref=e749]:
+            - generic [ref=e751]:
+              - generic [ref=e753]: Scena SemiBold Slanted
+              - generic [ref=e755]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e756] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e757]
+        - group "9 / 28" [ref=e758]:
+          - generic [ref=e759]:
+            - generic [ref=e761]:
+              - generic [ref=e763]: Scena Bold
+              - generic [ref=e765]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e766] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e767]
+        - group "10 / 28" [ref=e768]:
+          - generic [ref=e769]:
+            - generic [ref=e771]:
+              - generic [ref=e773]: Scena Bold Slanted
+              - generic [ref=e775]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e776] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e777]
+        - group "11 / 28" [ref=e778]:
+          - generic [ref=e779]:
+            - generic [ref=e781]:
+              - generic [ref=e783]: Scena Extra Bold
+              - generic [ref=e785]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e786] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e787]
+        - group "12 / 28" [ref=e788]:
+          - generic [ref=e789]:
+            - generic [ref=e791]:
+              - generic [ref=e793]: Scena Extra Bold Slanted
+              - generic [ref=e795]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e796] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e797]
+        - group "13 / 28" [ref=e798]:
+          - generic [ref=e799]:
+            - generic [ref=e801]:
+              - generic [ref=e803]: Scena Black
+              - generic [ref=e805]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e806] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e807]
+        - group "14 / 28" [ref=e808]:
+          - generic [ref=e809]:
+            - generic [ref=e811]:
+              - generic [ref=e813]: Scena Black Slanted
+              - generic [ref=e815]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e816] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e817]
+        - group "15 / 28" [ref=e818]:
+          - generic [ref=e819]:
+            - generic [ref=e821]:
+              - generic [ref=e823]: Scena Thin Wide
+              - generic [ref=e825]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e826] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e827]
+        - group "16 / 28" [ref=e828]:
+          - generic [ref=e829]:
+            - generic [ref=e831]:
+              - generic [ref=e833]: Scena Thin Wide Slanted
+              - generic [ref=e835]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e836] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e837]
+        - group "17 / 28" [ref=e838]:
+          - generic [ref=e839]:
+            - generic [ref=e841]:
+              - generic [ref=e843]: Scena Light Wide
+              - generic [ref=e845]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e846] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e847]
+        - group "18 / 28" [ref=e848]:
+          - generic [ref=e849]:
+            - generic [ref=e851]:
+              - generic [ref=e853]: Scena Light Wide Slanted
+              - generic [ref=e855]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e856] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e857]
+        - group "19 / 28" [ref=e858]:
+          - generic [ref=e859]:
+            - generic [ref=e861]:
+              - generic [ref=e863]: Scena Regular Wide
+              - generic [ref=e865]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e866] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e867]
+        - group "20 / 28" [ref=e868]:
+          - generic [ref=e869]:
+            - generic [ref=e871]:
+              - generic [ref=e873]: Scena Regular Wide Slanted
+              - generic [ref=e875]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e876] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e877]
+        - group "21 / 28" [ref=e878]:
+          - generic [ref=e879]:
+            - generic [ref=e881]:
+              - generic [ref=e883]: Scena SemiBold Wide
+              - generic [ref=e885]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e886] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e887]
+        - group "22 / 28" [ref=e888]:
+          - generic [ref=e889]:
+            - generic [ref=e891]:
+              - generic [ref=e893]: Scena SemiBold Wide Slanted
+              - generic [ref=e895]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e896] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e897]
+        - group "23 / 28" [ref=e898]:
+          - generic [ref=e899]:
+            - generic [ref=e901]:
+              - generic [ref=e903]: Scena Bold Wide
+              - generic [ref=e905]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e906] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e907]
+        - group "24 / 28" [ref=e908]:
+          - generic [ref=e909]:
+            - generic [ref=e911]:
+              - generic [ref=e913]: Scena Bold Wide Slanted
+              - generic [ref=e915]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e916] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e917]
+        - group "25 / 28" [ref=e918]:
+          - generic [ref=e919]:
+            - generic [ref=e921]:
+              - generic [ref=e923]: Scena Extra Bold Wide
+              - generic [ref=e925]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e926] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e927]
+        - group "26 / 28" [ref=e928]:
+          - generic [ref=e929]:
+            - generic [ref=e931]:
+              - generic [ref=e933]: Scena Extra Bold Wide Slanted
+              - generic [ref=e935]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e936] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e937]
+        - group "27 / 28" [ref=e938]:
+          - generic [ref=e939]:
+            - generic [ref=e941]:
+              - generic [ref=e943]: Scena Black Wide
+              - generic [ref=e945]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e946] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e947]
+        - group "28 / 28" [ref=e948]:
+          - generic [ref=e949]:
+            - generic [ref=e951]:
+              - generic [ref=e953]: Scena Black Wide Slanted
+              - generic [ref=e955]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e956] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/scena
+              - img [ref=e957]
+      - button "Next slide" [ref=e958] [cursor=pointer]: 
+      - button "Previous slide" [ref=e959] [cursor=pointer]: 
+    - generic [ref=e964]:
+      - generic [ref=e965]:
+        - group "1 / 6" [ref=e966]:
+          - generic [ref=e967]:
+            - generic [ref=e969]:
+              - generic [ref=e971]: Gotta Scotch Regular
+              - generic [ref=e973]: by Marcela Aguilera, Pedro González
+            - link [ref=e974] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/gotta-scotch
+              - img [ref=e975]
+        - group "2 / 6" [ref=e976]:
+          - generic [ref=e977]:
+            - generic [ref=e979]:
+              - generic [ref=e981]: Gotta Scotch Italic
+              - generic [ref=e983]: by Marcela Aguilera, Pedro González
+            - link [ref=e984] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/gotta-scotch
+              - img [ref=e985]
+        - group "3 / 6" [ref=e986]:
+          - generic [ref=e987]:
+            - generic [ref=e989]:
+              - generic [ref=e991]: Gotta Scotch Medium
+              - generic [ref=e993]: by Marcela Aguilera, Pedro González
+            - link [ref=e994] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/gotta-scotch
+              - img [ref=e995]
+        - group "4 / 6" [ref=e996]:
+          - generic [ref=e997]:
+            - generic [ref=e999]:
+              - generic [ref=e1001]: Gotta Scotch Medium Italic
+              - generic [ref=e1003]: by Marcela Aguilera, Pedro González
+            - link [ref=e1004] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/gotta-scotch
+              - img [ref=e1005]
+        - group "5 / 6" [ref=e1006]:
+          - generic [ref=e1007]:
+            - generic [ref=e1009]:
+              - generic [ref=e1011]: Gotta Scotch Bold
+              - generic [ref=e1013]: by Marcela Aguilera, Pedro González
+            - link [ref=e1014] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/gotta-scotch
+              - img [ref=e1015]
+        - group "6 / 6" [ref=e1016]:
+          - generic [ref=e1017]:
+            - generic [ref=e1019]:
+              - generic [ref=e1021]: Gotta Scotch Bold Italic
+              - generic [ref=e1023]: by Marcela Aguilera, Pedro González
+            - link [ref=e1024] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/gotta-scotch
+              - img [ref=e1025]
+      - button "Next slide" [ref=e1026] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1027] [cursor=pointer]: 
+    - generic [ref=e1032]:
+      - group "1 / 1" [ref=e1034]:
+        - generic [ref=e1035]:
+          - generic [ref=e1041]: by Laura Meseguer
+          - link [ref=e1042] [cursor=pointer]:
+            - /url: https://type-o-tones.com/fonts/fabulosa
+            - img [ref=e1043]
+      - text:  
+    - generic [ref=e1048]:
+      - generic [ref=e1049]:
+        - group "1 / 12" [ref=e1050]:
+          - generic [ref=e1051]:
+            - generic [ref=e1053]:
+              - generic [ref=e1055]: DINosaur Sharp Thin
+              - generic [ref=e1057]: by José Manuel Urós
+            - link [ref=e1058] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1059]
+        - group "2 / 12" [ref=e1060]:
+          - generic [ref=e1061]:
+            - generic [ref=e1063]:
+              - generic [ref=e1065]: DINosaur Sharp Thin Italic
+              - generic [ref=e1067]: by José Manuel Urós
+            - link [ref=e1068] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1069]
+        - group "3 / 12" [ref=e1070]:
+          - generic [ref=e1071]:
+            - generic [ref=e1073]:
+              - generic [ref=e1075]: DINosaur Sharp Light
+              - generic [ref=e1077]: by José Manuel Urós
+            - link [ref=e1078] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1079]
+        - group "4 / 12" [ref=e1080]:
+          - generic [ref=e1081]:
+            - generic [ref=e1083]:
+              - generic [ref=e1085]: DINosaur Sharp Light Italic
+              - generic [ref=e1087]: by José Manuel Urós
+            - link [ref=e1088] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1089]
+        - group "5 / 12" [ref=e1090]:
+          - generic [ref=e1091]:
+            - generic [ref=e1093]:
+              - generic [ref=e1095]: DINosaur Sharp Book
+              - generic [ref=e1097]: by José Manuel Urós
+            - link [ref=e1098] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1099]
+        - group "6 / 12" [ref=e1100]:
+          - generic [ref=e1101]:
+            - generic [ref=e1103]:
+              - generic [ref=e1105]: DINosaur Sharp Book Italic
+              - generic [ref=e1107]: by José Manuel Urós
+            - link [ref=e1108] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1109]
+        - group "7 / 12" [ref=e1110]:
+          - generic [ref=e1111]:
+            - generic [ref=e1113]:
+              - generic [ref=e1115]: DINosaur Sharp Medium
+              - generic [ref=e1117]: by José Manuel Urós
+            - link [ref=e1118] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1119]
+        - group "8 / 12" [ref=e1120]:
+          - generic [ref=e1121]:
+            - generic [ref=e1123]:
+              - generic [ref=e1125]: DINosaur Sharp Medium Italic
+              - generic [ref=e1127]: by José Manuel Urós
+            - link [ref=e1128] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1129]
+        - group "9 / 12" [ref=e1130]:
+          - generic [ref=e1131]:
+            - generic [ref=e1133]:
+              - generic [ref=e1135]: DINosaur Sharp Bold
+              - generic [ref=e1137]: by José Manuel Urós
+            - link [ref=e1138] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1139]
+        - group "10 / 12" [ref=e1140]:
+          - generic [ref=e1141]:
+            - generic [ref=e1143]:
+              - generic [ref=e1145]: DINosaur Sharp Bold Italic
+              - generic [ref=e1147]: by José Manuel Urós
+            - link [ref=e1148] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1149]
+        - group "11 / 12" [ref=e1150]:
+          - generic [ref=e1151]:
+            - generic [ref=e1153]:
+              - generic [ref=e1155]: DINosaur Sharp Black
+              - generic [ref=e1157]: by José Manuel Urós
+            - link [ref=e1158] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1159]
+        - group "12 / 12" [ref=e1160]:
+          - generic [ref=e1161]:
+            - generic [ref=e1163]:
+              - generic [ref=e1165]: DINosaur Sharp Black Italic
+              - generic [ref=e1167]: by José Manuel Urós
+            - link [ref=e1168] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur-sharp
+              - img [ref=e1169]
+      - button "Next slide" [ref=e1170] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1171] [cursor=pointer]: 
+    - generic [ref=e1176]:
+      - group "1 / 1" [ref=e1178]:
+        - generic [ref=e1179]:
+          - generic [ref=e1181]:
+            - generic [ref=e1183]: Joc Display
+            - generic [ref=e1185]: by Sabina Chipară
+          - link [ref=e1186] [cursor=pointer]:
+            - /url: https://type-o-tones.com/fonts/joc
+            - img [ref=e1187]
+      - text:  
+    - generic [ref=e1192]:
+      - generic [ref=e1193]:
+        - group "2 / 6" [ref=e1194]:
+          - generic [ref=e1195]:
+            - generic [ref=e1197]:
+              - generic [ref=e1199]: Unicaster Thin Slanted
+              - generic [ref=e1201]: by José Manuel Urós
+            - link [ref=e1202] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/unicaster
+              - img [ref=e1203]
+        - group "3 / 6" [ref=e1204]:
+          - generic [ref=e1205]:
+            - generic [ref=e1207]:
+              - generic [ref=e1209]: Unicaster Regular
+              - generic [ref=e1211]: by José Manuel Urós
+            - link [ref=e1212] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/unicaster
+              - img [ref=e1213]
+        - group "4 / 6" [ref=e1214]:
+          - generic [ref=e1215]:
+            - generic [ref=e1217]:
+              - generic [ref=e1219]: Unicaster Regular Slanted
+              - generic [ref=e1221]: by José Manuel Urós
+            - link [ref=e1222] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/unicaster
+              - img [ref=e1223]
+        - group "5 / 6" [ref=e1224]:
+          - generic [ref=e1225]:
+            - generic [ref=e1227]:
+              - generic [ref=e1229]: Unicaster Bold
+              - generic [ref=e1231]: by José Manuel Urós
+            - link [ref=e1232] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/unicaster
+              - img [ref=e1233]
+        - group "6 / 6" [ref=e1234]:
+          - generic [ref=e1235]:
+            - generic [ref=e1237]:
+              - generic [ref=e1239]: Unicaster Bold Slanted
+              - generic [ref=e1241]: by José Manuel Urós
+            - link [ref=e1242] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/unicaster
+              - img [ref=e1243]
+        - group "1 / 6" [ref=e1244]:
+          - generic [ref=e1245]:
+            - generic [ref=e1247]:
+              - generic [ref=e1249]: Unicaster Thin
+              - generic [ref=e1251]: by José Manuel Urós
+            - link [ref=e1252] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/unicaster
+              - img [ref=e1253]
+      - button "Next slide" [ref=e1254] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1255] [cursor=pointer]: 
+    - generic [ref=e1260]:
+      - generic [ref=e1261]:
+        - group "1 / 8" [ref=e1262]:
+          - generic [ref=e1263]:
+            - generic [ref=e1265]:
+              - generic [ref=e1266]: TDC 2023 Winner!
+              - generic [ref=e1267]: Ella Roman Regular
+              - generic [ref=e1269]: by Laura Meseguer
+            - link [ref=e1270] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/ella
+              - img [ref=e1271]
+        - group "2 / 8" [ref=e1272]:
+          - generic [ref=e1273]:
+            - generic [ref=e1275]:
+              - generic [ref=e1276]: TDC 2023 Winner!
+              - generic [ref=e1277]: Ella Roman Bold
+              - generic [ref=e1279]: by Laura Meseguer
+            - link [ref=e1280] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/ella
+              - img [ref=e1281]
+        - group "3 / 8" [ref=e1282]:
+          - generic [ref=e1283]:
+            - generic [ref=e1285]:
+              - generic [ref=e1286]: TDC 2023 Winner!
+              - generic [ref=e1287]: Ella Uncial Regular
+              - generic [ref=e1289]: by Laura Meseguer
+            - link [ref=e1290] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/ella
+              - img [ref=e1291]
+        - group "4 / 8" [ref=e1292]:
+          - generic [ref=e1293]:
+            - generic [ref=e1295]:
+              - generic [ref=e1296]: TDC 2023 Winner!
+              - generic [ref=e1297]: Ella Uncial Bold
+              - generic [ref=e1299]: by Laura Meseguer
+            - link [ref=e1300] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/ella
+              - img [ref=e1301]
+        - group "5 / 8" [ref=e1302]:
+          - generic [ref=e1303]:
+            - generic [ref=e1305]:
+              - generic [ref=e1306]: TDC 2023 Winner!
+              - generic [ref=e1307]: Ella Rustic Regular
+              - generic [ref=e1309]: by Laura Meseguer
+            - link [ref=e1310] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/ella
+              - img [ref=e1311]
+        - group "6 / 8" [ref=e1312]:
+          - generic [ref=e1313]:
+            - generic [ref=e1315]:
+              - generic [ref=e1316]: TDC 2023 Winner!
+              - generic [ref=e1317]: Ella Rustic Bold
+              - generic [ref=e1319]: by Laura Meseguer
+            - link [ref=e1320] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/ella
+              - img [ref=e1321]
+        - group "7 / 8" [ref=e1322]:
+          - generic [ref=e1323]:
+            - generic [ref=e1325]:
+              - generic [ref=e1326]: TDC 2023 Winner!
+              - generic [ref=e1327]: Ella Brutalist Regular
+              - generic [ref=e1329]: by Laura Meseguer
+            - link [ref=e1330] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/ella
+              - img [ref=e1331]
+        - group "8 / 8" [ref=e1332]:
+          - generic [ref=e1333]:
+            - generic [ref=e1335]:
+              - generic [ref=e1336]: TDC 2023 Winner!
+              - generic [ref=e1337]: Ella Brutalist Bold
+              - generic [ref=e1339]: by Laura Meseguer
+            - link [ref=e1340] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/ella
+              - img [ref=e1341]
+      - button "Next slide" [ref=e1342] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1343] [cursor=pointer]: 
+    - generic [ref=e1348]:
+      - generic [ref=e1349]:
+        - group "2 / 9" [ref=e1350]:
+          - generic [ref=e1351]:
+            - generic [ref=e1353]:
+              - generic [ref=e1355]: Eixample Dip Narrow Light
+              - generic [ref=e1357]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1358] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1359]
+        - group "3 / 9" [ref=e1360]:
+          - generic [ref=e1361]:
+            - generic [ref=e1363]:
+              - generic [ref=e1365]: Eixample Dip Narrow Regular
+              - generic [ref=e1367]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1368] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1369]
+        - group "4 / 9" [ref=e1370]:
+          - generic [ref=e1371]:
+            - generic [ref=e1373]:
+              - generic [ref=e1375]: Eixample Dip Narrow Bold
+              - generic [ref=e1377]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1378] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1379]
+        - group "5 / 9" [ref=e1380]:
+          - generic [ref=e1381]:
+            - generic [ref=e1383]:
+              - generic [ref=e1385]: Eixample Dip ExtraLight
+              - generic [ref=e1387]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1388] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1389]
+        - group "6 / 9" [ref=e1390]:
+          - generic [ref=e1391]:
+            - generic [ref=e1393]:
+              - generic [ref=e1395]: Eixample Dip Light
+              - generic [ref=e1397]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1398] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1399]
+        - group "7 / 9" [ref=e1400]:
+          - generic [ref=e1401]:
+            - generic [ref=e1403]:
+              - generic [ref=e1405]: Eixample Dip Regular
+              - generic [ref=e1407]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1408] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1409]
+        - group "8 / 9" [ref=e1410]:
+          - generic [ref=e1411]:
+            - generic [ref=e1413]:
+              - generic [ref=e1415]: Eixample Dip Bold
+              - generic [ref=e1417]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1418] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1419]
+        - group "9 / 9" [ref=e1420]:
+          - generic [ref=e1421]:
+            - generic [ref=e1423]:
+              - generic [ref=e1425]: Eixample Dip Inline
+              - generic [ref=e1427]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1428] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1429]
+        - group "1 / 9" [ref=e1430]:
+          - generic [ref=e1431]:
+            - generic [ref=e1433]:
+              - generic [ref=e1435]: Eixample Dip Narrow ExtraLight
+              - generic [ref=e1437]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1438] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-dip
+              - img [ref=e1439]
+      - button "Next slide" [ref=e1440] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1441] [cursor=pointer]: 
+    - generic [ref=e1446]:
+      - generic [ref=e1447]:
+        - group "3 / 3" [ref=e1448]:
+          - generic [ref=e1449]:
+            - generic [ref=e1451]:
+              - generic [ref=e1453]: Eixample Glaces Contrast 2
+              - generic [ref=e1455]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1456] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-glaces
+              - img [ref=e1457]
+        - group "1 / 3" [ref=e1458]:
+          - generic [ref=e1459]:
+            - generic [ref=e1461]:
+              - generic [ref=e1463]: Eixample Glaces Contrast 0
+              - generic [ref=e1465]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1466] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-glaces
+              - img [ref=e1467]
+        - group "2 / 3" [ref=e1468]:
+          - generic [ref=e1469]:
+            - generic [ref=e1471]:
+              - generic [ref=e1473]: Eixample Glaces Contrast 1
+              - generic [ref=e1475]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1476] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-glaces
+              - img [ref=e1477]
+      - button "Next slide" [ref=e1478] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1479] [cursor=pointer]: 
+    - generic [ref=e1484]:
+      - generic [ref=e1485]:
+        - group "1 / 6" [ref=e1486]:
+          - generic [ref=e1487]:
+            - generic [ref=e1489]:
+              - generic [ref=e1491]: Eixample Villa Thin
+              - generic [ref=e1493]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1494] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-villa
+              - img [ref=e1495]
+        - group "2 / 6" [ref=e1496]:
+          - generic [ref=e1497]:
+            - generic [ref=e1499]:
+              - generic [ref=e1501]: Eixample Villa Light
+              - generic [ref=e1503]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1504] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-villa
+              - img [ref=e1505]
+        - group "3 / 6" [ref=e1506]:
+          - generic [ref=e1507]:
+            - generic [ref=e1509]:
+              - generic [ref=e1511]: Eixample Villa Regular
+              - generic [ref=e1513]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1514] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-villa
+              - img [ref=e1515]
+        - group "4 / 6" [ref=e1516]:
+          - generic [ref=e1517]:
+            - generic [ref=e1519]:
+              - generic [ref=e1521]: Eixample Villa Bold
+              - generic [ref=e1523]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1524] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-villa
+              - img [ref=e1525]
+        - group "5 / 6" [ref=e1526]:
+          - generic [ref=e1527]:
+            - generic [ref=e1529]:
+              - generic [ref=e1531]: Eixample Villa Extra Bold
+              - generic [ref=e1533]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1534] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-villa
+              - img [ref=e1535]
+        - group "6 / 6" [ref=e1536]:
+          - generic [ref=e1537]:
+            - generic [ref=e1539]:
+              - generic [ref=e1541]: Eixample Villa Heavy
+              - generic [ref=e1543]: by José Manuel Urós, Sabina Chipară
+            - link [ref=e1544] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/eixample-villa
+              - img [ref=e1545]
+      - button "Next slide" [ref=e1546] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1547] [cursor=pointer]: 
+    - generic [ref=e1552]:
+      - generic [ref=e1553]:
+        - group "1 / 9" [ref=e1554]:
+          - generic [ref=e1555]:
+            - generic [ref=e1557]:
+              - generic [ref=e1559]: FinalSix Hairline
+              - generic [ref=e1561]: by José Manuel Urós
+            - link [ref=e1562] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1563]
+        - group "2 / 9" [ref=e1564]:
+          - generic [ref=e1565]:
+            - generic [ref=e1567]:
+              - generic [ref=e1569]: FinalSix Thin
+              - generic [ref=e1571]: by José Manuel Urós
+            - link [ref=e1572] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1573]
+        - group "3 / 9" [ref=e1574]:
+          - generic [ref=e1575]:
+            - generic [ref=e1577]:
+              - generic [ref=e1579]: FinalSix Light
+              - generic [ref=e1581]: by José Manuel Urós
+            - link [ref=e1582] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1583]
+        - group "4 / 9" [ref=e1584]:
+          - generic [ref=e1585]:
+            - generic [ref=e1587]:
+              - generic [ref=e1589]: FinalSix Book
+              - generic [ref=e1591]: by José Manuel Urós
+            - link [ref=e1592] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1593]
+        - group "5 / 9" [ref=e1594]:
+          - generic [ref=e1595]:
+            - generic [ref=e1597]:
+              - generic [ref=e1599]: FinalSix Medium
+              - generic [ref=e1601]: by José Manuel Urós
+            - link [ref=e1602] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1603]
+        - group "6 / 9" [ref=e1604]:
+          - generic [ref=e1605]:
+            - generic [ref=e1607]:
+              - generic [ref=e1609]: FinalSix Bold
+              - generic [ref=e1611]: by José Manuel Urós
+            - link [ref=e1612] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1613]
+        - group "7 / 9" [ref=e1614]:
+          - generic [ref=e1615]:
+            - generic [ref=e1617]:
+              - generic [ref=e1619]: FinalSix ExtraBold
+              - generic [ref=e1621]: by José Manuel Urós
+            - link [ref=e1622] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1623]
+        - group "8 / 9" [ref=e1624]:
+          - generic [ref=e1625]:
+            - generic [ref=e1627]:
+              - generic [ref=e1629]: FinalSix Black
+              - generic [ref=e1631]: by José Manuel Urós
+            - link [ref=e1632] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1633]
+        - group "9 / 9" [ref=e1634]:
+          - generic [ref=e1635]:
+            - generic [ref=e1637]:
+              - generic [ref=e1639]: FinalSix Heavy
+              - generic [ref=e1641]: by José Manuel Urós
+            - link [ref=e1642] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/finalsix
+              - img [ref=e1643]
+      - button "Next slide" [ref=e1644] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1645] [cursor=pointer]: 
+    - generic [ref=e1650]:
+      - generic [ref=e1651]:
+        - group "2 / 9" [ref=e1652]:
+          - generic [ref=e1653]:
+            - generic [ref=e1655]:
+              - generic [ref=e1657]: Qandus Latin Solid Medium
+              - generic [ref=e1659]: by Laura Meseguer
+            - link [ref=e1660] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1661]
+        - group "3 / 9" [ref=e1662]:
+          - generic [ref=e1663]:
+            - generic [ref=e1665]:
+              - generic [ref=e1667]: Qandus Latin Solid Dark
+              - generic [ref=e1669]: by Laura Meseguer
+            - link [ref=e1670] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1671]
+        - group "4 / 9" [ref=e1672]:
+          - generic [ref=e1673]:
+            - generic [ref=e1675]:
+              - generic [ref=e1677]: Qandus Latin Original Regular
+              - generic [ref=e1679]: by Laura Meseguer
+            - link [ref=e1680] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1681]
+        - group "5 / 9" [ref=e1682]:
+          - generic [ref=e1683]:
+            - generic [ref=e1685]:
+              - generic [ref=e1687]: Qandus Latin Original Medium
+              - generic [ref=e1689]: by Laura Meseguer
+            - link [ref=e1690] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1691]
+        - group "6 / 9" [ref=e1692]:
+          - generic [ref=e1693]:
+            - generic [ref=e1695]:
+              - generic [ref=e1697]: Qandus Latin Original Dark
+              - generic [ref=e1699]: by Laura Meseguer
+            - link [ref=e1700] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1701]
+        - group "7 / 9" [ref=e1702]:
+          - generic [ref=e1703]:
+            - generic [ref=e1705]:
+              - generic [ref=e1707]: Qandus Latin Fluid Regular
+              - generic [ref=e1709]: by Laura Meseguer
+            - link [ref=e1710] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1711]
+        - group "8 / 9" [ref=e1712]:
+          - generic [ref=e1713]:
+            - generic [ref=e1715]:
+              - generic [ref=e1717]: Qandus Latin Fluid Medium
+              - generic [ref=e1719]: by Laura Meseguer
+            - link [ref=e1720] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1721]
+        - group "9 / 9" [ref=e1722]:
+          - generic [ref=e1723]:
+            - generic [ref=e1725]:
+              - generic [ref=e1727]: Qandus Latin Fluid Dark
+              - generic [ref=e1729]: by Laura Meseguer
+            - link [ref=e1730] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1731]
+        - group "1 / 9" [ref=e1732]:
+          - generic [ref=e1733]:
+            - generic [ref=e1735]:
+              - generic [ref=e1737]: Qandus Latin Solid Regular
+              - generic [ref=e1739]: by Laura Meseguer
+            - link [ref=e1740] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/qandus-latin
+              - img [ref=e1741]
+      - button "Next slide" [ref=e1742] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1743] [cursor=pointer]: 
+    - generic [ref=e1748]:
+      - generic [ref=e1749]:
+        - group "1 / 4" [ref=e1750]:
+          - generic [ref=e1751]:
+            - generic [ref=e1753]:
+              - generic [ref=e1755]: Sisters One
+              - generic [ref=e1757]: by Laura Meseguer
+            - link [ref=e1758] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/sisters
+              - img [ref=e1759]
+        - group "2 / 4" [ref=e1760]:
+          - generic [ref=e1761]:
+            - generic [ref=e1763]:
+              - generic [ref=e1765]: Sisters Two
+              - generic [ref=e1767]: by Laura Meseguer
+            - link [ref=e1768] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/sisters
+              - img [ref=e1769]
+        - group "3 / 4" [ref=e1770]:
+          - generic [ref=e1771]:
+            - generic [ref=e1773]:
+              - generic [ref=e1775]: Sisters Three
+              - generic [ref=e1777]: by Laura Meseguer
+            - link [ref=e1778] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/sisters
+              - img [ref=e1779]
+        - group "4 / 4" [ref=e1780]:
+          - generic [ref=e1781]:
+            - generic [ref=e1783]:
+              - generic [ref=e1785]: Sisters Four
+              - generic [ref=e1787]: by Laura Meseguer
+            - link [ref=e1788] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/sisters
+              - img [ref=e1789]
+      - button "Next slide" [ref=e1790] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1791] [cursor=pointer]: 
+    - generic [ref=e1796]:
+      - generic [ref=e1797]:
+        - group "2 / 14" [ref=e1798]:
+          - generic [ref=e1799]:
+            - generic [ref=e1801]:
+              - generic [ref=e1803]: Rothwood Hairline Italic
+              - generic [ref=e1805]: by José Manuel Urós
+            - link [ref=e1806] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1807]
+        - group "3 / 14" [ref=e1808]:
+          - generic [ref=e1809]:
+            - generic [ref=e1811]:
+              - generic [ref=e1813]: Rothwood Thin
+              - generic [ref=e1815]: by José Manuel Urós
+            - link [ref=e1816] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1817]
+        - group "4 / 14" [ref=e1818]:
+          - generic [ref=e1819]:
+            - generic [ref=e1821]:
+              - generic [ref=e1823]: Rothwood Thin Italic
+              - generic [ref=e1825]: by José Manuel Urós
+            - link [ref=e1826] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1827]
+        - group "5 / 14" [ref=e1828]:
+          - generic [ref=e1829]:
+            - generic [ref=e1831]:
+              - generic [ref=e1833]: Rothwood Light
+              - generic [ref=e1835]: by José Manuel Urós
+            - link [ref=e1836] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1837]
+        - group "6 / 14" [ref=e1838]:
+          - generic [ref=e1839]:
+            - generic [ref=e1841]:
+              - generic [ref=e1843]: Rothwood Light Italic
+              - generic [ref=e1845]: by José Manuel Urós
+            - link [ref=e1846] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1847]
+        - group "7 / 14" [ref=e1848]:
+          - generic [ref=e1849]:
+            - generic [ref=e1851]:
+              - generic [ref=e1853]: Rothwood Book
+              - generic [ref=e1855]: by José Manuel Urós
+            - link [ref=e1856] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1857]
+        - group "8 / 14" [ref=e1858]:
+          - generic [ref=e1859]:
+            - generic [ref=e1861]:
+              - generic [ref=e1863]: Rothwood Book Italic
+              - generic [ref=e1865]: by José Manuel Urós
+            - link [ref=e1866] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1867]
+        - group "9 / 14" [ref=e1868]:
+          - generic [ref=e1869]:
+            - generic [ref=e1871]:
+              - generic [ref=e1873]: Rothwood DemiBold
+              - generic [ref=e1875]: by José Manuel Urós
+            - link [ref=e1876] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1877]
+        - group "10 / 14" [ref=e1878]:
+          - generic [ref=e1879]:
+            - generic [ref=e1881]:
+              - generic [ref=e1883]: Rothwood DemiBold Italic
+              - generic [ref=e1885]: by José Manuel Urós
+            - link [ref=e1886] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1887]
+        - group "11 / 14" [ref=e1888]:
+          - generic [ref=e1889]:
+            - generic [ref=e1891]:
+              - generic [ref=e1893]: Rothwood Bold
+              - generic [ref=e1895]: by José Manuel Urós
+            - link [ref=e1896] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1897]
+        - group "12 / 14" [ref=e1898]:
+          - generic [ref=e1899]:
+            - generic [ref=e1901]:
+              - generic [ref=e1903]: Rothwood Bold Italic
+              - generic [ref=e1905]: by José Manuel Urós
+            - link [ref=e1906] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1907]
+        - group "13 / 14" [ref=e1908]:
+          - generic [ref=e1909]:
+            - generic [ref=e1911]:
+              - generic [ref=e1913]: Rothwood Ultra
+              - generic [ref=e1915]: by José Manuel Urós
+            - link [ref=e1916] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1917]
+        - group "14 / 14" [ref=e1918]:
+          - generic [ref=e1919]:
+            - generic [ref=e1921]:
+              - generic [ref=e1923]: Rothwood Ultra Italic
+              - generic [ref=e1925]: by José Manuel Urós
+            - link [ref=e1926] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1927]
+        - group "1 / 14" [ref=e1928]:
+          - generic [ref=e1929]:
+            - generic [ref=e1931]:
+              - generic [ref=e1933]: Rothwood Hairline
+              - generic [ref=e1935]: by José Manuel Urós
+            - link [ref=e1936] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rothwood
+              - img [ref=e1937]
+      - button "Next slide" [ref=e1938] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1939] [cursor=pointer]: 
+    - generic [ref=e1944]:
+      - generic [ref=e1945]:
+        - group "1 / 2" [ref=e1946]:
+          - generic [ref=e1947]:
+            - generic [ref=e1949]:
+              - generic [ref=e1951]: Chico Regular
+              - generic [ref=e1953]: by Estudio Mariscal, José Manuel Urós
+            - link [ref=e1954] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/chico
+              - img [ref=e1955]
+        - group "2 / 2" [ref=e1956]:
+          - generic [ref=e1957]:
+            - generic [ref=e1959]:
+              - generic [ref=e1961]: Chico Bold
+              - generic [ref=e1963]: by Estudio Mariscal, José Manuel Urós
+            - link [ref=e1964] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/chico
+              - img [ref=e1965]
+      - button "Next slide" [ref=e1966] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1967] [cursor=pointer]: 
+    - generic [ref=e1972]:
+      - generic [ref=e1973]:
+        - group "2 / 2" [ref=e1974]:
+          - generic [ref=e1975]:
+            - generic [ref=e1977]:
+              - generic [ref=e1979]: Lalola Regular + Cyrillic Regular
+              - generic [ref=e1981]: by Laura Meseguer
+            - link [ref=e1982] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/lalola
+              - img [ref=e1983]
+        - group "1 / 2" [ref=e1984]:
+          - generic [ref=e1985]:
+            - generic [ref=e1987]:
+              - generic [ref=e1989]: Lalola Regular
+              - generic [ref=e1991]: by Laura Meseguer
+            - link [ref=e1992] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/lalola
+              - img [ref=e1993]
+      - button "Next slide" [ref=e1994] [cursor=pointer]: 
+      - button "Previous slide" [ref=e1995] [cursor=pointer]: 
+    - generic [ref=e2000]:
+      - generic [ref=e2001]:
+        - group "1 / 12" [ref=e2002]:
+          - generic [ref=e2003]:
+            - generic [ref=e2005]:
+              - generic [ref=e2007]: DINosaur Thin
+              - generic [ref=e2009]: by José Manuel Urós
+            - link [ref=e2010] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2011]
+        - group "2 / 12" [ref=e2012]:
+          - generic [ref=e2013]:
+            - generic [ref=e2015]:
+              - generic [ref=e2017]: DINosaur Thin Italic
+              - generic [ref=e2019]: by José Manuel Urós
+            - link [ref=e2020] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2021]
+        - group "3 / 12" [ref=e2022]:
+          - generic [ref=e2023]:
+            - generic [ref=e2025]:
+              - generic [ref=e2027]: DINosaur Light
+              - generic [ref=e2029]: by José Manuel Urós
+            - link [ref=e2030] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2031]
+        - group "4 / 12" [ref=e2032]:
+          - generic [ref=e2033]:
+            - generic [ref=e2035]:
+              - generic [ref=e2037]: DINosaur Light Italic
+              - generic [ref=e2039]: by José Manuel Urós
+            - link [ref=e2040] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2041]
+        - group "5 / 12" [ref=e2042]:
+          - generic [ref=e2043]:
+            - generic [ref=e2045]:
+              - generic [ref=e2047]: DINosaur Book
+              - generic [ref=e2049]: by José Manuel Urós
+            - link [ref=e2050] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2051]
+        - group "6 / 12" [ref=e2052]:
+          - generic [ref=e2053]:
+            - generic [ref=e2055]:
+              - generic [ref=e2057]: DINosaur Book Italic
+              - generic [ref=e2059]: by José Manuel Urós
+            - link [ref=e2060] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2061]
+        - group "7 / 12" [ref=e2062]:
+          - generic [ref=e2063]:
+            - generic [ref=e2065]:
+              - generic [ref=e2067]: DINosaur Medium
+              - generic [ref=e2069]: by José Manuel Urós
+            - link [ref=e2070] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2071]
+        - group "8 / 12" [ref=e2072]:
+          - generic [ref=e2073]:
+            - generic [ref=e2075]:
+              - generic [ref=e2077]: DINosaur Medium Italic
+              - generic [ref=e2079]: by José Manuel Urós
+            - link [ref=e2080] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2081]
+        - group "9 / 12" [ref=e2082]:
+          - generic [ref=e2083]:
+            - generic [ref=e2085]:
+              - generic [ref=e2087]: DINosaur Bold
+              - generic [ref=e2089]: by José Manuel Urós
+            - link [ref=e2090] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2091]
+        - group "10 / 12" [ref=e2092]:
+          - generic [ref=e2093]:
+            - generic [ref=e2095]:
+              - generic [ref=e2097]: DINosaur Bold Italic
+              - generic [ref=e2099]: by José Manuel Urós
+            - link [ref=e2100] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2101]
+        - group "11 / 12" [ref=e2102]:
+          - generic [ref=e2103]:
+            - generic [ref=e2105]:
+              - generic [ref=e2107]: DINosaur Black
+              - generic [ref=e2109]: by José Manuel Urós
+            - link [ref=e2110] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2111]
+        - group "12 / 12" [ref=e2112]:
+          - generic [ref=e2113]:
+            - generic [ref=e2115]:
+              - generic [ref=e2117]: DINosaur Black Italic
+              - generic [ref=e2119]: by José Manuel Urós
+            - link [ref=e2120] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/dinosaur
+              - img [ref=e2121]
+      - button "Next slide" [ref=e2122] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2123] [cursor=pointer]: 
+    - generic [ref=e2128]:
+      - group "1 / 1" [ref=e2130]:
+        - generic [ref=e2131]:
+          - generic [ref=e2133]:
+            - generic [ref=e2135]: Brushland Regular
+            - generic [ref=e2137]: by Laura Meseguer
+          - link [ref=e2138] [cursor=pointer]:
+            - /url: https://type-o-tones.com/fonts/brushland
+            - img [ref=e2139]
+      - text:  
+    - generic [ref=e2144]:
+      - generic [ref=e2145]:
+        - group "2 / 12" [ref=e2146]:
+          - generic [ref=e2147]:
+            - generic [ref=e2149]:
+              - generic [ref=e2151]: Memimas Pro Regular Italic
+              - generic [ref=e2153]: by José Manuel Urós
+            - link [ref=e2154] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2155]
+        - group "3 / 12" [ref=e2156]:
+          - generic [ref=e2157]:
+            - generic [ref=e2159]:
+              - generic [ref=e2161]: Memimas Pro Medium
+              - generic [ref=e2163]: by José Manuel Urós
+            - link [ref=e2164] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2165]
+        - group "4 / 12" [ref=e2166]:
+          - generic [ref=e2167]:
+            - generic [ref=e2169]:
+              - generic [ref=e2171]: Memimas Pro Medium Italic
+              - generic [ref=e2173]: by José Manuel Urós
+            - link [ref=e2174] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2175]
+        - group "5 / 12" [ref=e2176]:
+          - generic [ref=e2177]:
+            - generic [ref=e2179]:
+              - generic [ref=e2181]: Memimas Pro Bold
+              - generic [ref=e2183]: by José Manuel Urós
+            - link [ref=e2184] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2185]
+        - group "6 / 12" [ref=e2186]:
+          - generic [ref=e2187]:
+            - generic [ref=e2189]:
+              - generic [ref=e2191]: Memimas Pro Bold Italic
+              - generic [ref=e2193]: by José Manuel Urós
+            - link [ref=e2194] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2195]
+        - group "7 / 12" [ref=e2196]:
+          - generic [ref=e2197]:
+            - generic [ref=e2199]:
+              - generic [ref=e2201]: Memimas Pro Black
+              - generic [ref=e2203]: by José Manuel Urós
+            - link [ref=e2204] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2205]
+        - group "8 / 12" [ref=e2206]:
+          - generic [ref=e2207]:
+            - generic [ref=e2209]:
+              - generic [ref=e2211]: Memimas Pro Black Italic
+              - generic [ref=e2213]: by José Manuel Urós
+            - link [ref=e2214] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2215]
+        - group "9 / 12" [ref=e2216]:
+          - generic [ref=e2217]:
+            - generic [ref=e2219]:
+              - generic [ref=e2221]: Memimas Pro Ultra
+              - generic [ref=e2223]: by José Manuel Urós
+            - link [ref=e2224] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2225]
+        - group "10 / 12" [ref=e2226]:
+          - generic [ref=e2227]:
+            - generic [ref=e2229]:
+              - generic [ref=e2231]: Memimas Pro Ultra Italic
+              - generic [ref=e2233]: by José Manuel Urós
+            - link [ref=e2234] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2235]
+        - group "11 / 12" [ref=e2236]:
+          - generic [ref=e2237]:
+            - generic [ref=e2239]:
+              - generic [ref=e2241]: Memimas Pro Dots
+              - generic [ref=e2243]: by José Manuel Urós
+            - link [ref=e2244] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2245]
+        - group "12 / 12" [ref=e2246]:
+          - generic [ref=e2247]:
+            - generic [ref=e2249]:
+              - generic [ref=e2251]: Memimas Pro Dots Italic
+              - generic [ref=e2253]: by José Manuel Urós
+            - link [ref=e2254] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2255]
+        - group "1 / 12" [ref=e2256]:
+          - generic [ref=e2257]:
+            - generic [ref=e2259]:
+              - generic [ref=e2261]: Memimas Pro Regular
+              - generic [ref=e2263]: by José Manuel Urós
+            - link [ref=e2264] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/memimas-pro
+              - img [ref=e2265]
+      - button "Next slide" [ref=e2266] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2267] [cursor=pointer]: 
+    - generic [ref=e2272]:
+      - generic [ref=e2273]:
+        - group "1 / 2" [ref=e2274]:
+          - generic [ref=e2275]:
+            - generic [ref=e2277]:
+              - generic [ref=e2279]: Skope Regular
+              - generic [ref=e2281]: by José Manuel Urós
+            - link [ref=e2282] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/skope
+              - img [ref=e2283]
+        - group "2 / 2" [ref=e2284]:
+          - generic [ref=e2285]:
+            - generic [ref=e2287]:
+              - generic [ref=e2289]: Skope Italic
+              - generic [ref=e2291]: by José Manuel Urós
+            - link [ref=e2292] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/skope
+              - img [ref=e2293]
+      - button "Next slide" [ref=e2294] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2295] [cursor=pointer]: 
+    - generic [ref=e2300]:
+      - generic [ref=e2301]:
+        - group "2 / 5" [ref=e2302]:
+          - generic [ref=e2303]:
+            - generic [ref=e2305]:
+              - generic [ref=e2307]: Joost Bold
+              - generic [ref=e2309]: by José Manuel Urós
+            - link [ref=e2310] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/joost
+              - img [ref=e2311]
+        - group "3 / 5" [ref=e2312]:
+          - generic [ref=e2313]:
+            - generic [ref=e2315]:
+              - generic [ref=e2317]: Joost Medium
+              - generic [ref=e2319]: by José Manuel Urós
+            - link [ref=e2320] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/joost
+              - img [ref=e2321]
+        - group "4 / 5" [ref=e2322]:
+          - generic [ref=e2323]:
+            - generic [ref=e2325]:
+              - generic [ref=e2327]: Joost Regular
+              - generic [ref=e2329]: by José Manuel Urós
+            - link [ref=e2330] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/joost
+              - img [ref=e2331]
+        - group "5 / 5" [ref=e2332]:
+          - generic [ref=e2333]:
+            - generic [ref=e2335]:
+              - generic [ref=e2337]: Joost Light
+              - generic [ref=e2339]: by José Manuel Urós
+            - link [ref=e2340] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/joost
+              - img [ref=e2341]
+        - group "1 / 5" [ref=e2342]:
+          - generic [ref=e2343]:
+            - generic [ref=e2345]:
+              - generic [ref=e2347]: Joost Stencil
+              - generic [ref=e2349]: by José Manuel Urós
+            - link [ref=e2350] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/joost
+              - img [ref=e2351]
+      - button "Next slide" [ref=e2352] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2353] [cursor=pointer]: 
+    - generic [ref=e2358]:
+      - generic [ref=e2359]:
+        - group "1 / 12" [ref=e2360]:
+          - generic [ref=e2361]:
+            - generic [ref=e2363]:
+              - generic [ref=e2365]: Arboria Thin
+              - generic [ref=e2367]: by José Manuel Urós
+            - link [ref=e2368] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2369]
+        - group "2 / 12" [ref=e2370]:
+          - generic [ref=e2371]:
+            - generic [ref=e2373]:
+              - generic [ref=e2375]: Arboria Thin Italic
+              - generic [ref=e2377]: by José Manuel Urós
+            - link [ref=e2378] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2379]
+        - group "3 / 12" [ref=e2380]:
+          - generic [ref=e2381]:
+            - generic [ref=e2383]:
+              - generic [ref=e2385]: Arboria Light
+              - generic [ref=e2387]: by José Manuel Urós
+            - link [ref=e2388] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2389]
+        - group "4 / 12" [ref=e2390]:
+          - generic [ref=e2391]:
+            - generic [ref=e2393]:
+              - generic [ref=e2395]: Arboria Light Italic
+              - generic [ref=e2397]: by José Manuel Urós
+            - link [ref=e2398] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2399]
+        - group "5 / 12" [ref=e2400]:
+          - generic [ref=e2401]:
+            - generic [ref=e2403]:
+              - generic [ref=e2405]: Arboria Book
+              - generic [ref=e2407]: by José Manuel Urós
+            - link [ref=e2408] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2409]
+        - group "6 / 12" [ref=e2410]:
+          - generic [ref=e2411]:
+            - generic [ref=e2413]:
+              - generic [ref=e2415]: Arboria Book Italic
+              - generic [ref=e2417]: by José Manuel Urós
+            - link [ref=e2418] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2419]
+        - group "7 / 12" [ref=e2420]:
+          - generic [ref=e2421]:
+            - generic [ref=e2423]:
+              - generic [ref=e2425]: Arboria Medium
+              - generic [ref=e2427]: by José Manuel Urós
+            - link [ref=e2428] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2429]
+        - group "8 / 12" [ref=e2430]:
+          - generic [ref=e2431]:
+            - generic [ref=e2433]:
+              - generic [ref=e2435]: Arboria Medium Italic
+              - generic [ref=e2437]: by José Manuel Urós
+            - link [ref=e2438] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2439]
+        - group "9 / 12" [ref=e2440]:
+          - generic [ref=e2441]:
+            - generic [ref=e2443]:
+              - generic [ref=e2445]: Arboria Bold
+              - generic [ref=e2447]: by José Manuel Urós
+            - link [ref=e2448] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2449]
+        - group "10 / 12" [ref=e2450]:
+          - generic [ref=e2451]:
+            - generic [ref=e2453]:
+              - generic [ref=e2455]: Arboria Bold Italic
+              - generic [ref=e2457]: by José Manuel Urós
+            - link [ref=e2458] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2459]
+        - group "11 / 12" [ref=e2460]:
+          - generic [ref=e2461]:
+            - generic [ref=e2463]:
+              - generic [ref=e2465]: Arboria Black
+              - generic [ref=e2467]: by José Manuel Urós
+            - link [ref=e2468] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2469]
+        - group "12 / 12" [ref=e2470]:
+          - generic [ref=e2471]:
+            - generic [ref=e2473]:
+              - generic [ref=e2475]: Arboria Black Italic
+              - generic [ref=e2477]: by José Manuel Urós
+            - link [ref=e2478] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arboria
+              - img [ref=e2479]
+      - button "Next slide" [ref=e2480] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2481] [cursor=pointer]: 
+    - generic [ref=e2486]:
+      - generic [ref=e2487]:
+        - group "3 / 3" [ref=e2488]:
+          - generic [ref=e2489]:
+            - generic [ref=e2491]:
+              - generic [ref=e2493]: Rumba Small
+              - generic [ref=e2495]: by Laura Meseguer
+            - link [ref=e2496] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rumba
+              - img [ref=e2497]
+        - group "1 / 3" [ref=e2498]:
+          - generic [ref=e2499]:
+            - generic [ref=e2501]:
+              - generic [ref=e2503]: Rumba Large
+              - generic [ref=e2505]: by Laura Meseguer
+            - link [ref=e2506] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rumba
+              - img [ref=e2507]
+        - group "2 / 3" [ref=e2508]:
+          - generic [ref=e2509]:
+            - generic [ref=e2511]:
+              - generic [ref=e2513]: Rumba Extra
+              - generic [ref=e2515]: by Laura Meseguer
+            - link [ref=e2516] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/rumba
+              - img [ref=e2517]
+      - button "Next slide" [ref=e2518] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2519] [cursor=pointer]: 
+    - generic [ref=e2524]:
+      - generic [ref=e2525]:
+        - group "1 / 4" [ref=e2526]:
+          - generic [ref=e2527]:
+            - generic [ref=e2529]:
+              - generic [ref=e2531]: Arbotek Ultra
+              - generic [ref=e2533]: by José Manuel Urós
+            - link [ref=e2534] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arbotek
+              - img [ref=e2535]
+        - group "2 / 4" [ref=e2536]:
+          - generic [ref=e2537]:
+            - generic [ref=e2539]:
+              - generic [ref=e2541]: Arbotek Thin
+              - generic [ref=e2543]: by José Manuel Urós
+            - link [ref=e2544] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arbotek
+              - img [ref=e2545]
+        - group "3 / 4" [ref=e2546]:
+          - generic [ref=e2547]:
+            - generic [ref=e2549]:
+              - generic [ref=e2551]: Arbotek Light
+              - generic [ref=e2553]: by José Manuel Urós
+            - link [ref=e2554] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arbotek
+              - img [ref=e2555]
+        - group "4 / 4" [ref=e2556]:
+          - generic [ref=e2557]:
+            - generic [ref=e2559]:
+              - generic [ref=e2561]: Arbotek Light Rounded
+              - generic [ref=e2563]: by José Manuel Urós
+            - link [ref=e2564] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/arbotek
+              - img [ref=e2565]
+      - button "Next slide" [ref=e2566] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2567] [cursor=pointer]: 
+    - generic [ref=e2572]:
+      - generic [ref=e2573]:
+        - group "1 / 8" [ref=e2574]:
+          - generic [ref=e2575]:
+            - generic [ref=e2577]:
+              - generic [ref=e2579]: Designal Fabric
+              - generic [ref=e2581]: by Félix Rufín
+            - link [ref=e2582] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/designal
+              - img [ref=e2583]
+        - group "2 / 8" [ref=e2584]:
+          - generic [ref=e2585]:
+            - generic [ref=e2587]:
+              - generic [ref=e2589]: Designal Packing
+              - generic [ref=e2591]: by Félix Rufín
+            - link [ref=e2592] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/designal
+              - img [ref=e2593]
+        - group "3 / 8" [ref=e2594]:
+          - generic [ref=e2595]:
+            - generic [ref=e2597]:
+              - generic [ref=e2599]: Designal Packing Stencil
+              - generic [ref=e2601]: by Félix Rufín
+            - link [ref=e2602] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/designal
+              - img [ref=e2603]
+        - group "4 / 8" [ref=e2604]:
+          - generic [ref=e2605]:
+            - generic [ref=e2607]:
+              - generic [ref=e2609]: Designal Weather
+              - generic [ref=e2611]: by Félix Rufín
+            - link [ref=e2612] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/designal
+              - img [ref=e2613]
+        - group "5 / 8" [ref=e2614]:
+          - generic [ref=e2615]:
+            - generic [ref=e2617]:
+              - generic [ref=e2619]: Designal LW20
+              - generic [ref=e2621]: by Félix Rufín
+            - link [ref=e2622] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/designal
+              - img [ref=e2623]
+        - group "6 / 8" [ref=e2624]:
+          - generic [ref=e2625]:
+            - generic [ref=e2627]:
+              - generic [ref=e2629]: Designal R
+              - generic [ref=e2631]: by Félix Rufín
+            - link [ref=e2632] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/designal
+              - img [ref=e2633]
+        - group "7 / 8" [ref=e2634]:
+          - generic [ref=e2635]:
+            - generic [ref=e2637]:
+              - generic [ref=e2639]: Designal BW20
+              - generic [ref=e2641]: by Félix Rufín
+            - link [ref=e2642] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/designal
+              - img [ref=e2643]
+        - group "8 / 8" [ref=e2644]:
+          - generic [ref=e2645]:
+            - generic [ref=e2647]:
+              - generic [ref=e2649]: Designal Stencil
+              - generic [ref=e2651]: by Félix Rufín
+            - link [ref=e2652] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/designal
+              - img [ref=e2653]
+      - button "Next slide" [ref=e2654] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2655] [cursor=pointer]: 
+    - generic [ref=e2660]:
+      - generic [ref=e2661]:
+        - group "1 / 20" [ref=e2662]:
+          - generic [ref=e2663]:
+            - generic [ref=e2665]:
+              - generic [ref=e2667]: Multi Text Regular
+              - generic [ref=e2669]: by Laura Meseguer
+            - link [ref=e2670] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2671]
+        - group "2 / 20" [ref=e2672]:
+          - generic [ref=e2673]:
+            - generic [ref=e2675]:
+              - generic [ref=e2677]: Multi Text Regular Italic
+              - generic [ref=e2679]: by Laura Meseguer
+            - link [ref=e2680] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2681]
+        - group "3 / 20" [ref=e2682]:
+          - generic [ref=e2683]:
+            - generic [ref=e2685]:
+              - generic [ref=e2687]: Multi Text SemiBold
+              - generic [ref=e2689]: by Laura Meseguer
+            - link [ref=e2690] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2691]
+        - group "4 / 20" [ref=e2692]:
+          - generic [ref=e2693]:
+            - generic [ref=e2695]:
+              - generic [ref=e2697]: Multi Text SemiBold Italic
+              - generic [ref=e2699]: by Laura Meseguer
+            - link [ref=e2700] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2701]
+        - group "5 / 20" [ref=e2702]:
+          - generic [ref=e2703]:
+            - generic [ref=e2705]:
+              - generic [ref=e2707]: Multi Text Bold
+              - generic [ref=e2709]: by Laura Meseguer
+            - link [ref=e2710] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2711]
+        - group "6 / 20" [ref=e2712]:
+          - generic [ref=e2713]:
+            - generic [ref=e2715]:
+              - generic [ref=e2717]: Multi Text Bold Italic
+              - generic [ref=e2719]: by Laura Meseguer
+            - link [ref=e2720] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2721]
+        - group "7 / 20" [ref=e2722]:
+          - generic [ref=e2723]:
+            - generic [ref=e2725]:
+              - generic [ref=e2727]: Multi Display Thin
+              - generic [ref=e2729]: by Laura Meseguer
+            - link [ref=e2730] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2731]
+        - group "8 / 20" [ref=e2732]:
+          - generic [ref=e2733]:
+            - generic [ref=e2735]:
+              - generic [ref=e2737]: Multi Display Thin Italic
+              - generic [ref=e2739]: by Laura Meseguer
+            - link [ref=e2740] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2741]
+        - group "9 / 20" [ref=e2742]:
+          - generic [ref=e2743]:
+            - generic [ref=e2745]:
+              - generic [ref=e2747]: Multi Display Light
+              - generic [ref=e2749]: by Laura Meseguer
+            - link [ref=e2750] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2751]
+        - group "10 / 20" [ref=e2752]:
+          - generic [ref=e2753]:
+            - generic [ref=e2755]:
+              - generic [ref=e2757]: Multi Display Light Italic
+              - generic [ref=e2759]: by Laura Meseguer
+            - link [ref=e2760] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2761]
+        - group "11 / 20" [ref=e2762]:
+          - generic [ref=e2763]:
+            - generic [ref=e2765]:
+              - generic [ref=e2767]: Multi Display Regular
+              - generic [ref=e2769]: by Laura Meseguer
+            - link [ref=e2770] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2771]
+        - group "12 / 20" [ref=e2772]:
+          - generic [ref=e2773]:
+            - generic [ref=e2775]:
+              - generic [ref=e2777]: Multi Display Italic
+              - generic [ref=e2779]: by Laura Meseguer
+            - link [ref=e2780] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2781]
+        - group "13 / 20" [ref=e2782]:
+          - generic [ref=e2783]:
+            - generic [ref=e2785]:
+              - generic [ref=e2787]: Multi Display Medium
+              - generic [ref=e2789]: by Laura Meseguer
+            - link [ref=e2790] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2791]
+        - group "14 / 20" [ref=e2792]:
+          - generic [ref=e2793]:
+            - generic [ref=e2795]:
+              - generic [ref=e2797]: Multi Display Medium Italic
+              - generic [ref=e2799]: by Laura Meseguer
+            - link [ref=e2800] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2801]
+        - group "15 / 20" [ref=e2802]:
+          - generic [ref=e2803]:
+            - generic [ref=e2805]:
+              - generic [ref=e2807]: Multi Display Bold
+              - generic [ref=e2809]: by Laura Meseguer
+            - link [ref=e2810] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2811]
+        - group "16 / 20" [ref=e2812]:
+          - generic [ref=e2813]:
+            - generic [ref=e2815]:
+              - generic [ref=e2817]: Multi Display Bold Italic
+              - generic [ref=e2819]: by Laura Meseguer
+            - link [ref=e2820] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2821]
+        - group "17 / 20" [ref=e2822]:
+          - generic [ref=e2823]:
+            - generic [ref=e2825]:
+              - generic [ref=e2827]: Multi Display ExtraBold
+              - generic [ref=e2829]: by Laura Meseguer
+            - link [ref=e2830] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2831]
+        - group "18 / 20" [ref=e2832]:
+          - generic [ref=e2833]:
+            - generic [ref=e2835]:
+              - generic [ref=e2837]: Multi Display ExtraBold Italic
+              - generic [ref=e2839]: by Laura Meseguer
+            - link [ref=e2840] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2841]
+        - group "19 / 20" [ref=e2842]:
+          - generic [ref=e2843]:
+            - generic [ref=e2845]:
+              - generic [ref=e2847]: Multi Display Poster
+              - generic [ref=e2849]: by Laura Meseguer
+            - link [ref=e2850] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2851]
+        - group "20 / 20" [ref=e2852]:
+          - generic [ref=e2853]:
+            - generic [ref=e2855]:
+              - generic [ref=e2857]: Multi Display Poster Italic
+              - generic [ref=e2859]: by Laura Meseguer
+            - link [ref=e2860] [cursor=pointer]:
+              - /url: https://type-o-tones.com/fonts/multi
+              - img [ref=e2861]
+      - button "Next slide" [ref=e2862] [cursor=pointer]: 
+      - button "Previous slide" [ref=e2863] [cursor=pointer]: 
+    - generic [ref=e2865]:
+      - img [ref=e2869] [cursor=pointer]
+      - generic [ref=e2870]:
+        - generic [ref=e2871]:
+          - generic [ref=e2872]: "Eixample Collection: from street signage to typography"
+          - generic [ref=e2873]:
+            - paragraph [ref=e2874]: Some of the letterings from the Barcelona Eixample neighborhood were used as a base to design the typographic suite with the same name. While they don’t seem to have a precise style appertaining they blend together flavours of Art-Deco modernism and Bauhaus’ modularity.
+            - paragraph [ref=e2875]
+        - generic [ref=e2876]:
+          - generic [ref=e2877]: Custom and unique pictograms for the Government of La Rioja (Spain)
+          - generic [ref=e2878]:
+            - paragraph [ref=e2879]: Some time ago, we had the pleasure of designing a custom pictograms typeface family as a companion of Riojana, the existing corporate typeface designed and licensed for Comunidad Autónoma de La Rioja (Spain).
+            - paragraph [ref=e2880]
+        - generic [ref=e2881]:
+          - generic [ref=e2882]: The Beautiful People
+          - paragraph [ref=e2884]:
+            - text: The Beautiful People” is an exhibition by Laura Meseguer, originally organized by
+            - link "La Sala. Centre d’Art Contemporani" [ref=e2885] [cursor=pointer]:
+              - /url: http://www.lasalavng.cat/
+            - text: de Vilanova i la Geltrú and
+            - link "Blanc! Festival" [ref=e2886] [cursor=pointer]:
+              - /url: https://blancfestival.com/
+            - text: as part of the Blanc Orígens Program. Curated by
+            - link "Eider Corral" [ref=e2887] [cursor=pointer]:
+              - /url: https://eidercorral.com/
+            - text: .
+      - generic [ref=e2888]:
+        - link "Read More" [ref=e2890] [cursor=pointer]:
+          - /url: https://type-o-tones.com/news/eixample-collection-from-street-signage-to-typography
+        - link "Read More" [ref=e2892] [cursor=pointer]:
+          - /url: https://type-o-tones.com/news/custom-and-unique-pictograms-for-the-government-of-la-rioja-spain
+        - link "Read More" [ref=e2894] [cursor=pointer]:
+          - /url: https://type-o-tones.com/news/the-beautiful-people
+  - generic [ref=e2901]:
+    - list [ref=e2903]:
+      - listitem [ref=e2904]: Contact
+      - listitem [ref=e2905]: Newsletter
+      - listitem [ref=e2906]:
+        - link "Licensing" [ref=e2907] [cursor=pointer]:
+          - /url: https://type-o-tones.com/licensing
+      - listitem [ref=e2908]:
+        - link "Terms" [ref=e2909] [cursor=pointer]:
+          - /url: https://type-o-tones.com/terms
+      - listitem [ref=e2910]:
+        - link "Cookies" [ref=e2911] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e2912]:
+        - link "Font Radar" [ref=e2913] [cursor=pointer]:
+          - /url: https://type-o-tones.com/font-radar
+      - listitem [ref=e2914]:
+        - link "FAQ" [ref=e2915] [cursor=pointer]:
+          - /url: https://type-o-tones.com/faq
+      - listitem [ref=e2916]:
+        - link "Site credits" [ref=e2917] [cursor=pointer]:
+          - /url: https://type-o-tones.com/site-credits
+      - listitem [ref=e2918] [cursor=pointer]: Front News
+    - generic [ref=e2920]:
+      - link [ref=e2921] [cursor=pointer]:
+        - /url: https://typo.social/@typeotones
+      - link "" [ref=e2922] [cursor=pointer]:
+        - /url: https://www.facebook.com/type-o-tones
+        - generic [ref=e2923]:
+          - generic [ref=e2924]: 
+          - generic: 
+      - link [ref=e2925] [cursor=pointer]:
+        - /url: https://www.instagram.com/typeotones/
+        - img [ref=e2927]

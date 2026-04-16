@@ -1,0 +1,682 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Pangram Pangram Foundry" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: Pangram Pangram Foundry
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "All fonts" [ref=e11] [cursor=pointer]:
+              - /url: /collections/fonts
+          - listitem [ref=e12]:
+            - link "Font starter pack" [ref=e13] [cursor=pointer]:
+              - /url: /products/fsp
+          - listitem [ref=e14]:
+            - link "Font in use" [ref=e15] [cursor=pointer]:
+              - /url: /blogs/font-in-use
+          - listitem [ref=e16]:
+            - link "Academy" [ref=e17] [cursor=pointer]:
+              - /url: /blogs/journal
+          - listitem [ref=e18]:
+            - link "Support" [ref=e19] [cursor=pointer]:
+              - /url: /pages/contact-us
+      - navigation [ref=e20]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link [ref=e23] [cursor=pointer]:
+              - /url: /search
+              - img [ref=e24]
+          - listitem [ref=e27]:
+            - link [ref=e28] [cursor=pointer]:
+              - /url: /cart
+              - img [ref=e29]
+          - listitem [ref=e32]:
+            - button [ref=e34] [cursor=pointer]:
+              - img [ref=e35]
+  - main [ref=e37]:
+    - generic [ref=e39]:
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "Paloma Collection" [ref=e44] [cursor=pointer]:
+            - /url: /products/paloma
+            - img [ref=e46]
+            - generic [ref=e49]: Paloma Collection
+        - listitem [ref=e50]:
+          - link "Aa Fizzy Family" [ref=e51] [cursor=pointer]:
+            - /url: /products/paloma-fizzy
+            - generic [ref=e52]: Aa
+            - generic [ref=e53]: Fizzy Family
+        - listitem [ref=e54]:
+          - link "Aa Plain Family" [ref=e55] [cursor=pointer]:
+            - /url: /products/paloma-plain
+            - generic [ref=e56]: Aa
+            - generic [ref=e57]: Plain Family
+      - generic [ref=e59]:
+        - generic [ref=e60]: Early Access
+        - generic [ref=e61]:
+          - heading "Paloma" [level=1] [ref=e62]:
+            - generic [ref=e63]: Paloma
+          - paragraph [ref=e64]: Paloma is loosely inspired by the giants like Antique Olive, Johnston and Avenir, but treats the references lightheartedly, going for a different route with a flair.
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - button "Try for Free" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: Try for Free
+            - button "Buy Now" [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: Buy Now
+          - paragraph [ref=e73]:
+            - text: Free to try
+            - text: Licenses start at $40
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - heading "Explore the sub-families by clicking on the cards below." [level=4] [ref=e83]
+        - paragraph [ref=e84]: 2 Sub-Families
+      - list [ref=e85]:
+        - listitem [ref=e86]:
+          - link "Fizzy Family 14 styles + Variable cut Including Italics Aa The July sun caused a fragment of black pine wax to ooze on the velvet quilt. Check it out" [ref=e88] [cursor=pointer]:
+            - /url: /products/paloma-fizzy
+            - generic [ref=e90]:
+              - heading "Fizzy Family" [level=3] [ref=e91]
+              - generic [ref=e92]:
+                - text: 14 styles + Variable cut
+                - text: Including Italics
+            - generic [ref=e93]:
+              - img [ref=e97]:
+                - generic [ref=e98]: Aa
+              - generic [ref=e99]:
+                - generic [ref=e101]: The July sun caused a fragment of black pine wax to ooze on the velvet quilt.
+                - button "Check it out" [ref=e102]:
+                  - generic [ref=e103]: Check it out
+        - listitem [ref=e104]:
+          - link "Plain Family 14 styles + Variable cut Including Italics Aa The cajoling quirked sexy wizard mob persuade very influentially. Check it out" [ref=e106] [cursor=pointer]:
+            - /url: /products/paloma-plain
+            - generic [ref=e108]:
+              - heading "Plain Family" [level=3] [ref=e109]
+              - generic [ref=e110]:
+                - text: 14 styles + Variable cut
+                - text: Including Italics
+            - generic [ref=e111]:
+              - img [ref=e115]:
+                - generic [ref=e116]: Aa
+              - generic [ref=e117]:
+                - generic [ref=e119]: The cajoling quirked sexy wizard mob persuade very influentially.
+                - button "Check it out" [ref=e120]:
+                  - generic [ref=e121]: Check it out
+      - generic [ref=e122]: License purchase for individual styles is available in sub-families
+    - generic [ref=e126]:
+      - generic [ref=e127]: Paloma is variable
+      - paragraph [ref=e128]:
+        - text: Paloma
+        - text: Collection
+      - generic [ref=e129]:
+        - button [ref=e130] [cursor=pointer]:
+          - img [ref=e132]
+        - generic [ref=e135]:
+          - generic [ref=e136]: Zest
+          - slider "Zest" [ref=e137]: "13"
+          - generic [ref=e138]: "13"
+        - generic [ref=e139]:
+          - generic [ref=e140]: Weight
+          - slider "Weight" [ref=e141]: "210"
+          - generic [ref=e142]: "210"
+        - generic [ref=e143]:
+          - generic [ref=e144]: Italic
+          - slider "Italic" [ref=e145]: "0.01"
+          - generic [ref=e146]: "0.01"
+    - generic [ref=e148]:
+      - generic [ref=e151]:
+        - heading "A familiar Humanist with Fizz." [level=2] [ref=e152]
+        - paragraph [ref=e154]:
+          - text: PP Paloma is a spritzy sans family of a dual geo-humanist nature. Designed for versatility, the typeface spans across the two genres, combining the best of both worlds. Paloma is loosely inspired by the giants like Antique Olive, Johnston and Avenir, but treats the references lightheartedly, going for a different route with a flair.
+          - text: One part of the family is toned-down and humanist, featuring open shapes, natural letterforms and balanced proportions, intended for subtle roles when reading comfort and legibility are crucial. The other subfamily, Fizzy, cranks up the flavor all the way up, turning the shapes geometric, tightening spacing and making details more crisp and accentuated, perfect for juicy large-size uses.
+          - text: "While not a typical “workhorse” grotesk, Paloma is crafted to be adaptive for a wide range of applications from long-form reading to headlines and posters; from soft neutrality to memorable resonance. The font family comes in 28 styles: 2 subfamilies of 7 weights plus italics; all also available in the variable format. It includes many OpenType features for professional typesettings and supports a wide range of Latin-based languages."
+      - generic [ref=e157]:
+        - generic [ref=e159]:
+          - heading "Designers" [level=4] [ref=e160]
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - link "Alex Slobzheninov" [ref=e163] [cursor=pointer]:
+                - /url: https://instagram.com/slobzheninov
+            - listitem [ref=e164]:
+              - link "Mat Desjardins" [ref=e165] [cursor=pointer]:
+                - /url: https://instagram.com/matdesjardins
+            - listitem [ref=e166]:
+              - link "Francesca Bolognini" [ref=e167] [cursor=pointer]:
+                - /url: https://www.instagram.com/francescab_type
+        - generic [ref=e169]:
+          - heading "Categories" [level=4] [ref=e170]
+          - list [ref=e171]:
+            - listitem [ref=e172]: Display
+            - listitem [ref=e173]: Expressive
+            - listitem [ref=e174]: Humanist
+            - listitem [ref=e175]: Italics
+            - listitem [ref=e176]: Sans Serif
+            - listitem [ref=e177]: Variable
+        - generic [ref=e179]:
+          - heading "Styles" [level=4] [ref=e180]
+          - list [ref=e181]:
+            - listitem [ref=e182]: 2 Subfamilies
+            - listitem [ref=e183]: 14 Styles each
+          - paragraph [ref=e184]:
+            - text: 2 cuts X 14 Styles each with 501 Glyphs
+            - text: Including Italic
+          - heading "Version" [level=4] [ref=e185]
+          - paragraph [ref=e186]: "1.00"
+          - paragraph [ref=e187]: "Latest update: March 2026"
+        - generic [ref=e189]:
+          - heading "Available formats" [level=4] [ref=e190]
+          - paragraph [ref=e191]: OTF, TTF, WOFF, WOFF2
+          - heading "Language Support" [level=4] [ref=e192]
+          - paragraph [ref=e193]: Afrikaans, Basque, Breton, Catalan, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Gaelic, German, Hungarian, Icelandic, Indonesian, Irish, Italian, Latvian, Lituanian, Norwegian, Polish, Portuguese, Romanian, Saami, Slovak, Slovenian, Spanish, Swahili, Swedish, Turkish, (and more)
+    - generic [ref=e197]:
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - heading "Commercial Licenses" [level=2] [ref=e200]
+          - generic [ref=e202]: Love Paloma for your project? Grab our comprehensive licenses below.
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - text: 1 Choose your font package
+            - generic [ref=e207]:
+              - combobox "1 Choose your font package" [ref=e208] [cursor=pointer]:
+                - option "Complete Collection (28 Styles + Variable Fonts)" [selected]
+                - option "Upright Collection (14 Styles)"
+                - option "Italic Collection (14 Styles)"
+                - option "Essentials Collection (8 Styles - Regular, Bold, Regular Italic, Bold Italic in Plain and Fizzy)"
+                - option "Plain Family (14 Styles with Italics + Variable Font)"
+                - option "Plain Upright Family (7 Styles + Variable Font)"
+                - option "Plain Italic Family (7 Styles + Variable Font)"
+                - option "Plain Essentials (4 Styles - Regular, Italic, Bold, Bold Italic)"
+                - option "Fizzy Family (14 Styles with Italics + Variable Font)"
+                - option "Fizzy Upright Family (7 Styles + Variable Font)"
+                - option "Fizzy Italic Family (7 Styles + Variable Font)"
+                - option "Fizzy Essentials (4 Styles - Regular, Italic, Bold, Bold Italic)"
+              - img
+          - generic [ref=e209]:
+            - paragraph
+            - generic [ref=e210]: Subtotal in USD
+            - button "Add to cart →" [disabled] [ref=e212]
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - heading "Not sure what to get? Or can’t find the right coverage?" [level=6] [ref=e216]
+            - paragraph [ref=e217]: Please contact us for our tailored corporate licenses!
+          - link "Contact us" [ref=e219] [cursor=pointer]:
+            - /url: /pages/contact-us
+            - generic [ref=e220]: Contact us
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - heading "Need more information about our licenses?" [level=6] [ref=e223]
+            - paragraph [ref=e224]: Our FAQ usually contains most of the answers.
+          - link "Read our FAQ" [ref=e226] [cursor=pointer]:
+            - /url: /pages/faq
+            - generic [ref=e227]: Read our FAQ
+    - generic [ref=e230]:
+      - generic [ref=e231]:
+        - heading "Paloma pairs well with these typefaces." [level=2] [ref=e232]
+        - link "View all fonts" [ref=e233] [cursor=pointer]:
+          - /url: /collections/fonts
+          - generic [ref=e234]: View all fonts
+      - list [ref=e235]:
+        - listitem [ref=e236]:
+          - generic [ref=e237]:
+            - link "Kyoto 18 styles + Variable cuts Including Italics Aa Jaded zombies acted quietly but kept driving their oxen forward. Check it out New" [ref=e238] [cursor=pointer]:
+              - /url: /products/kyoto
+              - generic [ref=e240]:
+                - heading "Kyoto" [level=3] [ref=e241]
+                - generic [ref=e242]:
+                  - text: 18 styles + Variable cuts
+                  - text: Including Italics
+              - generic [ref=e243]:
+                - img [ref=e247]:
+                  - generic [ref=e248]: Aa
+                - generic [ref=e249]:
+                  - generic [ref=e251]: Jaded zombies acted quietly but kept driving their oxen forward.
+                  - button "Check it out" [ref=e252]:
+                    - generic [ref=e253]: Check it out
+            - generic [ref=e254]: New
+        - listitem [ref=e255]:
+          - link "Lettra Mono 16 styles + Variable cut Including Italics Aa A quivering Texas zombie fought republic linked jewelry. Check it out" [ref=e257] [cursor=pointer]:
+            - /url: /products/lettra-mono
+            - generic [ref=e259]:
+              - heading "Lettra Mono" [level=3] [ref=e260]
+              - generic [ref=e261]:
+                - text: 16 styles + Variable cut
+                - text: Including Italics
+            - generic [ref=e262]:
+              - img [ref=e266]:
+                - generic [ref=e267]: Aa
+              - generic [ref=e268]:
+                - generic [ref=e270]: A quivering Texas zombie fought republic linked jewelry.
+                - button "Check it out" [ref=e271]:
+                  - generic [ref=e272]: Check it out
+        - listitem [ref=e273]:
+          - link "Air Collection 36 Styles + Variable Cut Including Italics Aa Twelve ziggurats quickly jumped a finch box. Check it out" [ref=e275] [cursor=pointer]:
+            - /url: /products/air
+            - generic [ref=e276]:
+              - generic [ref=e277]:
+                - heading "Air Collection" [level=3] [ref=e278]
+                - generic [ref=e279]:
+                  - text: 36 Styles + Variable Cut
+                  - text: Including Italics
+              - img [ref=e281]
+            - generic [ref=e284]:
+              - img [ref=e288]:
+                - generic [ref=e289]: Aa
+              - generic [ref=e290]:
+                - generic [ref=e292]: Twelve ziggurats quickly jumped a finch box.
+                - button "Check it out" [ref=e293]:
+                  - generic [ref=e294]: Check it out
+        - listitem [ref=e295]:
+          - link "Playground 5 styles + Variable cut Aa Jim quickly realized that the beautiful gowns are expensive. Check it out" [ref=e297] [cursor=pointer]:
+            - /url: /products/playground
+            - generic [ref=e299]:
+              - heading "Playground" [level=3] [ref=e300]
+              - generic [ref=e301]: 5 styles + Variable cut
+            - generic [ref=e302]:
+              - img [ref=e306]:
+                - generic [ref=e307]: Aa
+              - generic [ref=e308]:
+                - generic [ref=e310]: Jim quickly realized that the beautiful gowns are expensive.
+                - button "Check it out" [ref=e311]:
+                  - generic [ref=e312]: Check it out
+    - generic [ref=e314]:
+      - generic [ref=e316]:
+        - heading "Our fonts in use" [level=2] [ref=e317]
+        - link "View all" [ref=e318] [cursor=pointer]:
+          - /url: /blogs/font-in-use
+          - generic [ref=e319]: View all
+      - generic [ref=e322]:
+        - generic [ref=e323]:
+          - img [ref=e325]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - generic [ref=e328]: Bitmap Fonts
+              - generic [ref=e329]: Branding
+              - generic [ref=e330]: Packaging
+              - generic [ref=e331]: Print
+            - heading "Catalyst" [level=3] [ref=e332]
+            - link "View project" [ref=e333] [cursor=pointer]:
+              - /url: /blogs/font-in-use/catalyst
+              - generic [ref=e334]: View project
+        - generic [ref=e335]:
+          - img [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - generic [ref=e340]: Editorial New
+              - generic [ref=e341]: Print
+            - heading "Carlos Edelmiro" [level=3] [ref=e342]
+            - link "View project" [ref=e343] [cursor=pointer]:
+              - /url: /blogs/font-in-use/pages
+              - generic [ref=e344]: View project
+        - generic [ref=e345]:
+          - img [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - generic [ref=e350]: Branding
+              - generic [ref=e351]: Digital
+              - generic [ref=e352]: Editorial Old
+            - heading "Delve" [level=3] [ref=e353]
+            - link "View project" [ref=e354] [cursor=pointer]:
+              - /url: /blogs/font-in-use/delve
+              - generic [ref=e355]: View project
+        - generic [ref=e356]:
+          - img [ref=e358]
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - generic [ref=e361]: Acma
+              - generic [ref=e362]: Branding
+              - generic [ref=e363]: Digital
+              - generic [ref=e364]: Editorial New
+              - generic [ref=e365]: Lettra Mono
+              - generic [ref=e366]: Playground
+              - generic [ref=e367]: Print
+            - heading "Forma" [level=3] [ref=e368]
+            - link "View project" [ref=e369] [cursor=pointer]:
+              - /url: /blogs/font-in-use/forma
+              - generic [ref=e370]: View project
+        - generic [ref=e371]:
+          - img [ref=e373]
+          - generic [ref=e374]:
+            - generic [ref=e375]:
+              - generic [ref=e376]: Branding
+              - generic [ref=e377]: Cirka
+              - generic [ref=e378]: Digital
+              - generic [ref=e379]: Print
+            - heading "DARC" [level=3] [ref=e380]
+            - link "View project" [ref=e381] [cursor=pointer]:
+              - /url: /blogs/font-in-use/darc
+              - generic [ref=e382]: View project
+        - generic [ref=e383]:
+          - img [ref=e385]
+          - generic [ref=e386]:
+            - generic [ref=e387]:
+              - generic [ref=e388]: Branding
+              - generic [ref=e389]: Neue Montreal
+              - generic [ref=e390]: Print
+            - heading "Semiprecious" [level=3] [ref=e391]
+            - link "View project" [ref=e392] [cursor=pointer]:
+              - /url: /blogs/font-in-use/semiprecious
+              - generic [ref=e393]: View project
+  - contentinfo [ref=e403]:
+    - generic [ref=e404]:
+      - generic [ref=e405]:
+        - img "Pangram Pangram Foundry" [ref=e407]
+        - generic [ref=e408]:
+          - generic [ref=e409]:
+            - generic [ref=e410]: All Fonts
+            - list [ref=e411]:
+              - listitem [ref=e412]:
+                - link "Frama" [ref=e413] [cursor=pointer]:
+                  - /url: /products/frama
+              - listitem [ref=e414]:
+                - link "Kyoto" [ref=e415] [cursor=pointer]:
+                  - /url: /products/kyoto
+              - listitem [ref=e416]:
+                - link "Watch" [ref=e417] [cursor=pointer]:
+                  - /url: /products/watch
+              - listitem [ref=e418]:
+                - link "Museum" [ref=e419] [cursor=pointer]:
+                  - /url: /products/museum
+              - listitem [ref=e420]:
+                - link "Model" [ref=e421] [cursor=pointer]:
+                  - /url: /products/model
+              - listitem [ref=e422]:
+                - link "Lettra Mono" [ref=e423] [cursor=pointer]:
+                  - /url: /products/lettra-mono
+              - listitem [ref=e424]:
+                - link "Valve" [ref=e425] [cursor=pointer]:
+                  - /url: /products/valve
+              - listitem [ref=e426]:
+                - link "Neue Corp" [ref=e427] [cursor=pointer]:
+                  - /url: /products/neue-corp
+              - listitem [ref=e428]:
+                - link "Editorial Sans" [ref=e429] [cursor=pointer]:
+                  - /url: /products/editorial-sans
+              - listitem [ref=e430]:
+                - link "Playground" [ref=e431] [cursor=pointer]:
+                  - /url: /products/playground
+              - listitem [ref=e432]:
+                - link "Nikkei" [ref=e433] [cursor=pointer]:
+                  - /url: /products/nikkei
+              - listitem [ref=e434]:
+                - link "Gatwick" [ref=e435] [cursor=pointer]:
+                  - /url: /products/gatwick
+              - listitem [ref=e436]:
+                - link "Talisman" [ref=e437] [cursor=pointer]:
+                  - /url: /products/talisman
+              - listitem [ref=e438]:
+                - link "Right Grotesk Mono" [ref=e439] [cursor=pointer]:
+                  - /url: /products/right-grotesk-mono
+              - listitem [ref=e440]:
+                - link "Right Serif Mono" [ref=e441] [cursor=pointer]:
+                  - /url: /products/right-serif-mono
+              - listitem [ref=e442]:
+                - link "Pangaia" [ref=e443] [cursor=pointer]:
+                  - /url: /products/pangaia
+              - listitem [ref=e444]:
+                - link "Neue Montreal Mono" [ref=e445] [cursor=pointer]:
+                  - /url: /products/neue-montreal-mono
+              - listitem [ref=e446]:
+                - link "Hatton" [ref=e447] [cursor=pointer]:
+                  - /url: /products/hatton
+              - listitem [ref=e448]:
+                - link "Air" [ref=e449] [cursor=pointer]:
+                  - /url: /products/air
+              - listitem [ref=e450]:
+                - link "Editorial Old" [ref=e451] [cursor=pointer]:
+                  - /url: /products/editorial-old
+              - listitem [ref=e452]:
+                - link "Fragment" [ref=e453] [cursor=pointer]:
+                  - /url: /products/fragment
+              - listitem [ref=e454]:
+                - link "Neue Montreal Arabic" [ref=e455] [cursor=pointer]:
+                  - /url: /products/neue-montreal-arabic
+              - listitem [ref=e456]:
+                - link "Right Didone" [ref=e457] [cursor=pointer]:
+                  - /url: /products/right-didone
+              - listitem [ref=e458]:
+                - link "Right Serif" [ref=e459] [cursor=pointer]:
+                  - /url: /products/right-serif
+              - listitem [ref=e460]:
+                - link "Right Slab" [ref=e461] [cursor=pointer]:
+                  - /url: /products/right-slab
+              - listitem [ref=e462]:
+                - link "Acma" [ref=e463] [cursor=pointer]:
+                  - /url: /products/acma
+              - listitem [ref=e464]:
+                - link "Writer" [ref=e465] [cursor=pointer]:
+                  - /url: /products/writer
+              - listitem [ref=e466]:
+                - link "Telegraf" [ref=e467] [cursor=pointer]:
+                  - /url: /products/telegraf
+              - listitem [ref=e468]:
+                - link "Neue Machina" [ref=e469] [cursor=pointer]:
+                  - /url: /products/neue-machina-collection
+              - listitem [ref=e470]:
+                - link "Mori" [ref=e471] [cursor=pointer]:
+                  - /url: /products/mori
+              - listitem [ref=e472]:
+                - link "Right Sans" [ref=e473] [cursor=pointer]:
+                  - /url: /products/right-sans
+              - listitem [ref=e474]:
+                - link "Formula" [ref=e475] [cursor=pointer]:
+                  - /url: /products/formula
+              - listitem [ref=e476]:
+                - link "Rader" [ref=e477] [cursor=pointer]:
+                  - /url: /products/rader
+              - listitem [ref=e478]:
+                - link "Neue Montreal" [ref=e479] [cursor=pointer]:
+                  - /url: /products/neue-montreal
+              - listitem [ref=e480]:
+                - link "Neue World" [ref=e481] [cursor=pointer]:
+                  - /url: /products/neue-world
+              - listitem [ref=e482]:
+                - link "Radio Grotesk" [ref=e483] [cursor=pointer]:
+                  - /url: /products/radio-grotesk
+              - listitem [ref=e484]:
+                - link "Eiko" [ref=e485] [cursor=pointer]:
+                  - /url: /products/eiko
+              - listitem [ref=e486]:
+                - link "Pangram Sans" [ref=e487] [cursor=pointer]:
+                  - /url: /products/pangram-sans
+              - listitem [ref=e488]:
+                - link "Editorial New" [ref=e489] [cursor=pointer]:
+                  - /url: /products/editorial-new
+              - listitem [ref=e490]:
+                - link "Migra" [ref=e491] [cursor=pointer]:
+                  - /url: /products/migra
+              - listitem [ref=e492]:
+                - link "Pangram Sans Rounded" [ref=e493] [cursor=pointer]:
+                  - /url: /products/pangram-sans-rounded
+              - listitem [ref=e494]:
+                - link "Agrandir" [ref=e495] [cursor=pointer]:
+                  - /url: /products/agrandir
+              - listitem [ref=e496]:
+                - link "Right Gothic" [ref=e497] [cursor=pointer]:
+                  - /url: /products/right-gothic
+              - listitem [ref=e498]:
+                - link "Supply" [ref=e499] [cursor=pointer]:
+                  - /url: /products/supply
+              - listitem [ref=e500]:
+                - link "Monument" [ref=e501] [cursor=pointer]:
+                  - /url: /products/monument
+              - listitem [ref=e502]:
+                - link "Right Grotesk" [ref=e503] [cursor=pointer]:
+                  - /url: /products/right-grotesk
+              - listitem [ref=e504]:
+                - link "Fraktion" [ref=e505] [cursor=pointer]:
+                  - /url: /products/fraktion
+              - listitem [ref=e506]:
+                - link "Bitmap Font Pack" [ref=e507] [cursor=pointer]:
+                  - /url: /products/bitmap-fonts
+              - listitem [ref=e508]:
+                - link "Object Sans" [ref=e509] [cursor=pointer]:
+                  - /url: /products/object-sans
+              - listitem [ref=e510]:
+                - link "Cirka" [ref=e511] [cursor=pointer]:
+                  - /url: /products/cirka
+              - listitem [ref=e512]:
+                - link "Grafier" [ref=e513] [cursor=pointer]:
+                  - /url: /products/grafier
+              - listitem [ref=e514]:
+                - link "Gosha Sans" [ref=e515] [cursor=pointer]:
+                  - /url: /products/gosha-sans
+              - listitem [ref=e516]:
+                - link "Woodland" [ref=e517] [cursor=pointer]:
+                  - /url: /products/woodland
+              - listitem [ref=e518]:
+                - link "Fuji Sans" [ref=e519] [cursor=pointer]:
+                  - /url: /products/fuji-sans
+              - listitem [ref=e520]:
+                - link "Stellar Sans" [ref=e521] [cursor=pointer]:
+                  - /url: /products/stellar-sans
+              - listitem [ref=e522]:
+                - link "Pier Sans" [ref=e523] [cursor=pointer]:
+                  - /url: /products/pier-sans
+              - listitem [ref=e524]:
+                - link "Charlevoix Pro" [ref=e525] [cursor=pointer]:
+                  - /url: /products/charlevoix-pro
+              - listitem [ref=e526]:
+                - link "Casa Stencil" [ref=e527] [cursor=pointer]:
+                  - /url: /products/casa-stencil
+              - listitem [ref=e528]:
+                - link "Chronos Serif" [ref=e529] [cursor=pointer]:
+                  - /url: /products/chronos-serif
+          - generic [ref=e530]:
+            - generic [ref=e531]: Support
+            - list [ref=e532]:
+              - listitem [ref=e533]:
+                - link "Contact us" [ref=e534] [cursor=pointer]:
+                  - /url: /pages/contact-us
+              - listitem [ref=e535]:
+                - link "Font Licenses" [ref=e536] [cursor=pointer]:
+                  - /url: /pages/faq#font-licensing
+              - listitem [ref=e537]:
+                - link "Free To Try" [ref=e538] [cursor=pointer]:
+                  - /url: /pages/faq#free-fonts-and-personal-use
+              - listitem [ref=e539]:
+                - link "FAQs" [ref=e540] [cursor=pointer]:
+                  - /url: /pages/faq
+              - listitem [ref=e541]:
+                - link "EULA" [ref=e542] [cursor=pointer]:
+                  - /url: /pages/eula
+            - link "About us" [ref=e544] [cursor=pointer]:
+              - /url: /pages/about-us
+            - list [ref=e545]:
+              - listitem [ref=e546]:
+                - link "Expertise" [ref=e547] [cursor=pointer]:
+                  - /url: /pages/about-us#intro
+              - listitem [ref=e548]:
+                - link "Clients" [ref=e549] [cursor=pointer]:
+                  - /url: /pages/about-us#clients
+              - listitem [ref=e550]:
+                - link "Team" [ref=e551] [cursor=pointer]:
+                  - /url: /pages/about-us#team
+            - generic [ref=e552]: Follow us
+            - list [ref=e553]:
+              - listitem [ref=e554]:
+                - link "Instagram" [ref=e555] [cursor=pointer]:
+                  - /url: https://www.instagram.com/pangram.pangram/
+              - listitem [ref=e556]:
+                - link "Twitter" [ref=e557] [cursor=pointer]:
+                  - /url: https://x.com/pangrampangram_
+              - listitem [ref=e558]:
+                - link "YouTube" [ref=e559] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@pangrampangramfoundry7892
+          - generic [ref=e560]:
+            - generic [ref=e561]: More PP®F
+            - list [ref=e562]:
+              - listitem [ref=e563]:
+                - link "All Fonts" [ref=e564] [cursor=pointer]:
+                  - /url: /collections/fonts
+              - listitem [ref=e565]:
+                - link "Early access" [ref=e566] [cursor=pointer]:
+                  - /url: /collections/early-access
+              - listitem [ref=e567]:
+                - link "Font Starter Pack" [ref=e568] [cursor=pointer]:
+                  - /url: /products/fsp
+              - listitem [ref=e569]:
+                - link "Font in use" [ref=e570] [cursor=pointer]:
+                  - /url: /blogs/font-in-use
+              - listitem [ref=e571]:
+                - link "Academy" [ref=e572] [cursor=pointer]:
+                  - /url: /blogs/journal
+              - listitem [ref=e573]:
+                - link "About Us" [ref=e574] [cursor=pointer]:
+                  - /url: /pages/about-us
+            - generic [ref=e575]: From the Lab
+            - list [ref=e576]:
+              - listitem [ref=e577]:
+                - link "Inspiration" [ref=e578] [cursor=pointer]:
+                  - /url: https://www.instagram.com/lab.pangrampangram
+              - listitem [ref=e579]:
+                - link "Latest Playlist" [ref=e580] [cursor=pointer]:
+                  - /url: https://open.spotify.com/playlist/4OhzmCJrrvbmibukHpExOb?si=1c22ebde7dc04c7a
+          - generic [ref=e581]:
+            - generic [ref=e582]: Microsites
+            - list [ref=e583]:
+              - listitem [ref=e584]:
+                - link "Frama" [ref=e585] [cursor=pointer]:
+                  - /url: https://pp-frama.com/
+              - listitem [ref=e586]:
+                - link "Fragment" [ref=e587] [cursor=pointer]:
+                  - /url: https://pp-fragment.com/
+              - listitem [ref=e588]:
+                - link "Editorial New" [ref=e589] [cursor=pointer]:
+                  - /url: https://editorialnew.com/
+            - generic [ref=e590]: Powered by us
+            - list [ref=e591]:
+              - listitem [ref=e592]:
+                - link "Off Type Foundry" [ref=e593] [cursor=pointer]:
+                  - /url: https://off-type.com/
+              - listitem [ref=e594]:
+                - link "Playground Goods" [ref=e595] [cursor=pointer]:
+                  - /url: https://pangramplayground.com/
+              - listitem [ref=e596]:
+                - link "Font Starter Pack" [ref=e597] [cursor=pointer]:
+                  - /url: /products/fsp
+              - listitem [ref=e598]:
+                - link "TypeTrials®" [ref=e599] [cursor=pointer]:
+                  - /url: https://typetrials.com/
+          - generic [ref=e600]:
+            - generic [ref=e601]: Account
+            - list [ref=e602]:
+              - listitem [ref=e603]:
+                - link "Login" [ref=e604] [cursor=pointer]:
+                  - /url: /account/login
+              - listitem [ref=e605]:
+                - link "Create account" [ref=e606] [cursor=pointer]:
+                  - /url: /account/register
+            - link "Cart0" [ref=e608] [cursor=pointer]:
+              - /url: /cart
+              - text: Cart
+              - superscript [ref=e609]: "0"
+            - link "Français" [ref=e612] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=e613]:
+            - generic [ref=e614]: Don't miss a beat
+            - paragraph [ref=e615]: Subscribe to our newsletter to stay in touch with the latest.
+            - generic [ref=e617]:
+              - textbox "Email address" [ref=e618]
+              - button "→" [ref=e619] [cursor=pointer]
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - img [ref=e623]
+            - img [ref=e626]
+            - img [ref=e629]
+            - img [ref=e632]
+          - generic [ref=e635]: Copyright © 2018 – 2026. All rights reserved.
+      - generic [ref=e636]:
+        - link "↑ Back to top" [ref=e638] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e639]: Pangram Pangram® Foundry
+        - generic [ref=e640]:
+          - text: Created by
+          - link "Mat Desjardins" [ref=e641] [cursor=pointer]:
+            - /url: https://www.instagram.com/matdesjardins/
+          - text: and
+          - link "the team" [ref=e642] [cursor=pointer]:
+            - /url: /pages/about-us#team
+          - text: .

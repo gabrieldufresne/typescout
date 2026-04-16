@@ -1,0 +1,143 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "W Type Foundry" [ref=e5] [cursor=pointer]:
+      - /url: https://wtypefoundry.com
+      - img "W Type Foundry" [ref=e6]
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "Typefaces" [ref=e10] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/typefaces
+      - listitem [ref=e11]:
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/about
+      - listitem [ref=e13]:
+        - link "Blog" [ref=e14] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/blog
+      - listitem [ref=e15]:
+        - link "Licenses" [ref=e16] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/licenses
+      - listitem [ref=e17]:
+        - link "Contact" [ref=e18] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/contact
+    - list [ref=e20]:
+      - listitem [ref=e21]:
+        - link "Sign in" [ref=e22] [cursor=pointer]:
+          - /url: https://wtypefoundry.com/login
+  - main [ref=e23]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "FAQ" [level=2] [ref=e27]
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - heading "Who are you?" [level=2] [ref=e30]
+            - paragraph [ref=e31]:
+              - text: Diego Aravena – Head of Type Design, Co-Founder
+              - text: Magdalena Arasanz – Managing Director, Co-Founder
+              - text: Patricio Gonzalez – Cultural Researcher, Co-Founder
+              - text: David Súid – Type Designer
+              - text: Gaspar Muñoz – Type Designer
+            - separator
+          - listitem [ref=e32]:
+            - heading "How can I get in touch?" [level=2] [ref=e33]
+            - paragraph [ref=e34]:
+              - text: You can write us an email directly to
+              - link "hola@wtypefoundry.com" [ref=e35] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/contact
+              - text: We are able to answer in English and Spanish.
+            - separator
+          - listitem [ref=e36]:
+            - heading "Do you participate in events, give lectures or workshops?" [level=2] [ref=e37]
+            - paragraph [ref=e38]:
+              - text: Yes, we are available for events, lectures and workshops. If you want to invite us to participate in any activity
+              - link "get in touch with us!" [ref=e39] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/contact
+            - separator
+          - listitem [ref=e40]:
+            - heading "Can I become a collaborator?" [level=2] [ref=e41]
+            - paragraph [ref=e42]:
+              - text: Sure you can, if you have experience designing typefaces or a good idea you want to share with us, let us know at
+              - link "hola@wtypefoundry.com" [ref=e43] [cursor=pointer]:
+                - /url: https://wtypefoundry.com/contact
+            - separator
+        - heading "CUSTOM TYPEFACES" [level=1] [ref=e44]
+        - paragraph [ref=e45]:
+          - text: We know every project involving typography is unique in its own way and sometimes it calls for something extra to make it shine. That's why we offer the creation of custom fonts, from scratch tailored to your needs.
+          - text: We can also modify or extend existing typefaces, adding special characters, languages, or symbols.
+          - text: The resulting typeface won't be commercialized and only you will be able to use it – and even give it a name!
+      - generic [ref=e46]:
+        - heading "W TYPE FOUNDRY" [level=1] [ref=e47]
+        - paragraph [ref=e48]: W Type Foundry took its current shape in 2016, since then we’ve worked collectively publishing typefaces designed by us and collaborators.
+        - paragraph [ref=e49]: Our goal is to produce quality fonts that meet current technological requirements keeping high aesthetic care. Our catalog offers designers, users, and brands a wide variety of typefaces ranging from super display fonts and emojis to sans serif fonts, and formal text fonts.
+        - paragraph [ref=e50]: Additionally, we offer custom typography services as well as modifications and alterations to fonts from our catalog.
+        - separator
+        - heading "EVENTS" [level=1] [ref=e51]
+        - paragraph [ref=e52]: "VIII Latin American Typography Biennial — Tipos Latinos. \x03"
+        - paragraph [ref=e53]: In 2018 Magdalena Arasanz & Patricio Truenos were Regional event creatives, coordinators and producers.
+        - paragraph [ref=e54]: — Tipos Latinos is an event dedicated to celebrate, promote and spread Latin American typography, it selects the best Latin American fonts every two years.
+        - paragraph [ref=e55]: — The 8th Latin American Typography Biennial was held from October 22 to 27 - 2018 in Santiago, Chile. It consisted of 20 Conferences, 16 Workshops and a Typographic fair.
+        - paragraph [ref=e56]: — Themes covered letters in general, different disciplines, applications and trades; lettering, calligraphy, digital typography, editorial design, posters, letterpress, experimental, printing methods and tools.
+        - paragraph [ref=e57]: — Diego Aravena was selected to represent Chile as a jury for the VIII Latin American Typography Biennial — Tipos Latinos (2018).
+        - separator
+        - paragraph [ref=e58]: Charlas Mateas 2019.
+        - paragraph [ref=e59]: In 2019 we organized and hosted a series of talks in our office space. This initiative was born from our curiosity about topics related to letters but not directly related to what we do.
+        - paragraph [ref=e60]: The topics ranged from experimental sound typography (for DJs), programming and Glyphs automatization, to letterpress and lettering.
+        - separator
+        - heading "LECTURES" [level=1] [ref=e61]
+        - list [ref=e62]:
+          - listitem [ref=e63]: Canilari, III Simposio Fundación Historia del Diseño, Barcelona 2020
+          - listitem [ref=e64]: How we started, Charlas Común
+          - listitem [ref=e65]: We design fonts, INACAP
+          - listitem [ref=e66]: Design process of a digital Typeface and its uses, UDD
+          - listitem [ref=e67]: "How fonts are made, Cerro Estudio Valparaíso\x03"
+          - listitem [ref=e68]: I see dead letters, AIEP
+          - listitem [ref=e69]: "Amateur to professional, CDI\x03"
+          - listitem [ref=e70]: "The creative process in font development, Universidad Jorge Tadeo Lozano, Colombia.\x03"
+          - listitem [ref=e71]: Creativity & leisure, INACAP
+          - listitem [ref=e72]: Authors ENEDI, END National Design Space
+          - listitem [ref=e73]: Hello, we are W Type Foundry, AIEP
+          - listitem [ref=e74]: "Behance Portafolio Review\x03"
+          - listitem [ref=e75]: "4th Typographic encounter, Universidad Tecnológica Metropolitana\x03"
+          - listitem [ref=e76]: Carretón, Latin American Typography Biennial 2016, Universidad de Chile
+        - separator
+        - heading "WORKSHOPS & CLASSES" [level=1] [ref=e77]
+        - list [ref=e78]:
+          - listitem [ref=e79]: Collabtype 13º Encontro de tipografia Lisboa, Portugal 2023.
+          - listitem [ref=e80]: 2nd Collaborative Typography Workshop ft Type Thursday Barcelona 2021
+          - listitem [ref=e81]: Typography teacher, Graphic Design UTEM Chile 2021
+          - listitem [ref=e82]: 1st Collaborative Typography Workshop ft New Latin Wave festival, NY 2021
+          - listitem [ref=e83]: On line Glyphs tutorial series, Santiago May 2020
+          - listitem [ref=e84]: Display Typography workshop, EINA Barcelona 2020
+          - listitem [ref=e85]: Experimental Typography workshop, Universidad de Chile
+          - listitem [ref=e86]: Collective Typography, Cerro Estudio Valparaíso
+          - listitem [ref=e87]: Typography & Lettering workshop, UNIACC
+          - listitem [ref=e88]: Caligraphy & Lettering, DUOC, 2016 — 2018
+          - listitem [ref=e89]: Design assistance teacher, University of Chile, 2016 — 2018
+          - listitem [ref=e90]: Collaborative alphabet, Universidad Católica de Chile
+          - listitem [ref=e91]: 3rd W Type Design workshop
+          - listitem [ref=e92]: Type correction guests, AIEP
+          - listitem [ref=e93]: 2nd W Type Design workshop
+          - listitem [ref=e94]: 1st W Type Design workshop, Cerro Estudio Valparaíso
+          - listitem [ref=e95]: Professors Diploma of Typography, Universidad de Chile, 2016-2017
+        - separator
+        - heading "AWARDS & PUBLICATIONS" [level=1] [ref=e96]
+        - list [ref=e97]:
+          - listitem [ref=e98]: Typodarium 2024
+          - listitem [ref=e99]: Vitrina Mes del Diseño, Chile 2020
+          - listitem [ref=e100]: "Typodarium 2018\x03"
+          - listitem [ref=e101]: "Behance Review Best Portafolio 2017\x03"
+          - listitem [ref=e102]: "2016 Latin American Typography Biennial — Tipos Latinos — Carretón\x03"
+          - listitem [ref=e103]: "2016 Latin American Typography Biennial — Tipos Latinos — Biblioteca\x03"
+          - listitem [ref=e104]: 2015 Ampersand Show UK & United States — Canilari
+          - listitem [ref=e105]: 2014 Latin American Typography Biennial — Tipos Latinos — D-Sari
+          - listitem [ref=e106]: 2014 Latin American Typography Biennial — Tipos Latinos — Canilari.
+        - separator
+  - contentinfo [ref=e107]:
+    - generic [ref=e108]:
+      - link "Instagram" [ref=e110] [cursor=pointer]:
+        - /url: http://www.instagram.com/wtypefoundry/
+      - link "Subscribe" [ref=e112] [cursor=pointer]:
+        - /url: https://wtypefoundry.com/contact
+      - link "hola@wtypefoundry.com" [ref=e114] [cursor=pointer]:
+        - /url: mailto:hola@wtypefoundry.com
+      - button "BACK TO TOP" [ref=e116] [cursor=pointer]
+      - generic [ref=e117]: © W Type Foundry 2026

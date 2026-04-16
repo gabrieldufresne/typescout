@@ -1,0 +1,47 @@
+- main [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - link "Nuform_logo_Yellow_A":
+          - /url: https://nuformtype.com
+          - img "Nuform_logo_Yellow_A" [ref=e8] [cursor=pointer]
+      - navigation [ref=e12]:
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "Fonts" [ref=e15] [cursor=pointer]:
+              - /url: https://nuformtype.com/
+              - generic [ref=e16]: Fonts
+          - listitem [ref=e17]:
+            - link "Info" [ref=e18] [cursor=pointer]:
+              - /url: www.nuformtype.com/info
+              - generic [ref=e19]: Info
+    - generic [ref=e21]:
+      - img "NF_Hermanos_Specimen_01L" [ref=e30]
+      - img "NF_Hermanos_Specimen_4B" [ref=e39]
+      - generic [ref=e42]:
+        - paragraph [ref=e48]:
+          - generic [ref=e49]:
+            - text: Based in San Francisco,
+            - link "Chicano Nuevo" [ref=e50] [cursor=pointer]:
+              - /url: https://www.chicanonuevo.com
+            - text: is authentic
+            - text: Mexican cuisine from local
+            - text: legend Abraham Nuñez.
+        - img "NF_Hermanos_Specimen_06O" [ref=e56]
+      - img "NF_Hermanos_Specimen_5G" [ref=e65]
+      - img "NF_Hermanos_Specimen_08K" [ref=e74]
+      - generic [ref=e77]:
+        - paragraph [ref=e82]: At the original shoreline by the mouth of Strawberry creek, the mound was once 30 feet high and a hundred yards long, a pyramid of shell and earth, a burial ground for ancestors of the Ohlone Indians, a sacred site. The Ohlone people lived here continuously from around 3,700 B.C. until 800 A.D., when they moved their village, and thereafter used the mound as a ceremonial site.
+        - paragraph [ref=e87]: The mound is the earliest inhabited location in the Bay Area. Contrary to Harper’s misinformation, archaeologists have recovered large numbers of tools and ornaments from the mound, and 95 human burials. Most of the artifacts are stored in the catacombs of U.C. Yes, the above-ground part shellmound was leveled and paved over. But much of the below-ground part remains intact today, extending up to 20' in some parts, under parking lots, streets, railroad tracks, and buildings.
+      - img "NF_Jaws_Specimen_3C" [ref=e96]
+      - img "NF_Hermanos_Specimen_3L" [ref=e105]
+      - img "NF_Hermanos_Specimen_07a" [ref=e114]
+      - paragraph [ref=e122]: HERMANOS
+      - paragraph [ref=e131]: Hermanos is a dedication to the hand painted signs found in the Mission District of San Francisco. It's flared serifs, narrow stature and cheerful spirit make Hermanos a perfect compliment for packaging, restaurants, and creepy halloween headlines.
+      - paragraph [ref=e140]:
+        - link "DOWNLOAD SPECIMEN" [ref=e142] [cursor=pointer]:
+          - /url: https://nuformtype.com/wp-content/uploads/2022/01/hermanos_specimen.pdf
+      - link "BUY HERMANOS" [ref=e151] [cursor=pointer]:
+        - /url: https://www.futurefonts.xyz/erik-marinovich/hermanos
+        - generic [ref=e153]: BUY HERMANOS
+      - paragraph [ref=e161]: ©2026 NUFORM TYPE

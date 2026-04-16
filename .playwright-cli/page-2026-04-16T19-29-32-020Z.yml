@@ -1,0 +1,1739 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+        - navigation [ref=e14]:
+          - link "Typefaces" [ref=e15] [cursor=pointer]:
+            - /url: /typefaces
+          - link "About Us" [ref=e16] [cursor=pointer]:
+            - /url: /about-us
+          - link "Case Studies" [ref=e17] [cursor=pointer]:
+            - /url: /case-studies
+          - link "Licensing" [ref=e18] [cursor=pointer]:
+            - /url: /licensing
+          - link "News" [ref=e19] [cursor=pointer]:
+            - /url: /news
+          - link "FM" [ref=e20] [cursor=pointer]:
+            - /url: /fm
+        - generic [ref=e21]:
+          - link "Buy" [ref=e22] [cursor=pointer]:
+            - /url: "#buy"
+            - generic [ref=e23]: Buy
+          - button "Try" [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]: Try
+        - navigation [ref=e26]:
+          - link "Sign In" [ref=e27] [cursor=pointer]:
+            - /url: /sign-in
+          - link "Sign Up" [ref=e28] [cursor=pointer]:
+            - /url: /sign-up
+        - navigation [ref=e29]:
+          - link [ref=e30] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e31]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Doyle" [level=1] [ref=e38]
+          - generic [ref=e41]:
+            - link "Specimens" [ref=e42] [cursor=pointer]:
+              - /url: "#specimens"
+            - link "Glyphs" [ref=e43] [cursor=pointer]:
+              - /url: "#glyphs"
+            - link "PDF" [ref=e44] [cursor=pointer]:
+              - /url: https://dcym8fthxf5uu.cloudfront.net/files/2ba384dc64a39ab559ae212531566e22/2024-Doyle-Specimen.pdf
+            - link "Buy" [ref=e45] [cursor=pointer]:
+              - /url: "#buy"
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - 'link "Making Doyle: Process Page" [ref=e50] [cursor=pointer]':
+              - /url: /news/process-doyle
+              - text: "Making Doyle: Process Page"
+            - generic [ref=e53]: "Doyle is a period piece, a loving synthesis of 2 iconic styles that became the visual backdrop of a generation. The darkest master is Lucas Sharp’s ode to Cooper Black drawn from memory, and on the light end of the spectrum the chubby organic forms suck it in and take on a style reminiscent of ITC American Typewriter. While Doyle takes many cues from these 2 sources, their reinterpretation and amalgamation form something new entirely: a coherent family that is both structured and loose, with an inky wetness that is positively brimming with life. Doyle was designed by Lucas Sharp and Marc Rouault in 2019."
+            - generic [ref=e54]:
+              - generic [ref=e55]: Designed By Lucas Sharp & Marc Rouault
+              - generic [ref=e56]:
+                - generic [ref=e57]: Version History
+                - text: V.1 Apr 2019
+          - button "Information" [ref=e58] [cursor=pointer]:
+            - text: Information
+            - img [ref=e59]
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e66]:
+                - generic [ref=e67]:
+                  - generic [ref=e68]: Explore Licensing Packages
+                  - generic [ref=e69]:
+                    - link "Family Package" [ref=e70] [cursor=pointer]:
+                      - /url: "#buy-family"
+                      - text: Family Package
+                    - link "Pairs" [ref=e72] [cursor=pointer]:
+                      - /url: "#buy-pairs"
+                      - text: Pairs
+                    - link "Individual fonts" [ref=e74] [cursor=pointer]:
+                      - /url: "#buy-fonts"
+                      - text: Individual fonts
+                - link "Buy" [ref=e76] [cursor=pointer]:
+                  - /url: "#buy"
+                  - generic [ref=e77]: Buy
+              - link "↑ Return to top" [ref=e79] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e80]: ↑ Return to top
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - generic [ref=e85]:
+                    - generic [ref=e87]:
+                      - combobox [ref=e89] [cursor=pointer]:
+                        - option "Black" [selected]
+                        - option "Black Italic"
+                        - option "Bold"
+                        - option "Bold Italic"
+                        - option "Medium"
+                        - option "Medium Italic"
+                        - option "Regular"
+                        - option "Italic"
+                        - option "Light"
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e91]:
+                      - generic [ref=e94]: Size
+                      - slider "Size" [ref=e97]: "165"
+                  - generic [ref=e101]: Breakfast
+                - generic [ref=e102]:
+                  - generic [ref=e104]:
+                    - generic [ref=e106]:
+                      - combobox [ref=e108] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic" [selected]
+                        - option "Bold"
+                        - option "Bold Italic"
+                        - option "Medium"
+                        - option "Medium Italic"
+                        - option "Regular"
+                        - option "Italic"
+                        - option "Light"
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e110]:
+                      - generic [ref=e113]: Size
+                      - slider "Size" [ref=e116]: "130"
+                  - generic [ref=e120]: Strawberries
+                - generic [ref=e121]:
+                  - generic [ref=e123]:
+                    - generic [ref=e125]:
+                      - combobox [ref=e127] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic"
+                        - option "Bold" [selected]
+                        - option "Bold Italic"
+                        - option "Medium"
+                        - option "Medium Italic"
+                        - option "Regular"
+                        - option "Italic"
+                        - option "Light"
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e129]:
+                      - generic [ref=e132]: Size
+                      - slider "Size" [ref=e135]: "95"
+                  - generic [ref=e139]: Lemon & Dillweed
+                - generic [ref=e140]:
+                  - generic [ref=e142]:
+                    - generic [ref=e144]:
+                      - combobox [ref=e146] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic"
+                        - option "Bold"
+                        - option "Bold Italic" [selected]
+                        - option "Medium"
+                        - option "Medium Italic"
+                        - option "Regular"
+                        - option "Italic"
+                        - option "Light"
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e148]:
+                      - generic [ref=e151]: Size
+                      - slider "Size" [ref=e154]: "65"
+                  - generic [ref=e158]: Finnish Salmon and Dill Pie
+                - generic [ref=e159]:
+                  - generic [ref=e161]:
+                    - generic [ref=e163]:
+                      - combobox [ref=e165] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic"
+                        - option "Bold"
+                        - option "Bold Italic"
+                        - option "Medium" [selected]
+                        - option "Medium Italic"
+                        - option "Regular"
+                        - option "Italic"
+                        - option "Light"
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e167]:
+                      - generic [ref=e170]: Size
+                      - slider "Size" [ref=e173]: "60"
+                  - generic [ref=e177]: Strawberry-Almond Compote
+                - generic [ref=e178]:
+                  - generic [ref=e180]:
+                    - generic [ref=e182]:
+                      - combobox [ref=e184] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic"
+                        - option "Bold"
+                        - option "Bold Italic"
+                        - option "Medium"
+                        - option "Medium Italic" [selected]
+                        - option "Regular"
+                        - option "Italic"
+                        - option "Light"
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e186]:
+                      - generic [ref=e189]: Size
+                      - slider "Size" [ref=e192]: "55"
+                  - generic [ref=e196]: Use the French bread to soak it up
+                - generic [ref=e197]:
+                  - generic [ref=e199]:
+                    - generic [ref=e201]:
+                      - combobox [ref=e203] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic"
+                        - option "Bold"
+                        - option "Bold Italic"
+                        - option "Medium"
+                        - option "Medium Italic"
+                        - option "Regular" [selected]
+                        - option "Italic"
+                        - option "Light"
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e205]:
+                      - generic [ref=e208]: Size
+                      - slider "Size" [ref=e211]: "50"
+                  - generic [ref=e215]: Authentic Grandma's Italian Roulade
+                - generic [ref=e216]:
+                  - generic [ref=e218]:
+                    - generic [ref=e220]:
+                      - combobox [ref=e222] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic"
+                        - option "Bold"
+                        - option "Bold Italic"
+                        - option "Medium"
+                        - option "Medium Italic"
+                        - option "Regular"
+                        - option "Italic" [selected]
+                        - option "Light"
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e224]:
+                      - generic [ref=e227]: Size
+                      - slider "Size" [ref=e230]: "45"
+                  - generic [ref=e234]: My Daughter-In-Law Gave Me This Recipe
+                - generic [ref=e235]:
+                  - generic [ref=e237]:
+                    - generic [ref=e239]:
+                      - combobox [ref=e241] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic"
+                        - option "Bold"
+                        - option "Bold Italic"
+                        - option "Medium"
+                        - option "Medium Italic"
+                        - option "Regular"
+                        - option "Italic"
+                        - option "Light" [selected]
+                        - option "Light Italic"
+                      - generic: ▼
+                    - generic [ref=e243]:
+                      - generic [ref=e246]: Size
+                      - slider "Size" [ref=e249]: "40"
+                  - generic [ref=e253]: Slow-Cooked Spicy Portuguese Cacoila Dishes
+                - generic [ref=e254]:
+                  - generic [ref=e256]:
+                    - generic [ref=e258]:
+                      - combobox [ref=e260] [cursor=pointer]:
+                        - option "Black"
+                        - option "Black Italic"
+                        - option "Bold"
+                        - option "Bold Italic"
+                        - option "Medium"
+                        - option "Medium Italic"
+                        - option "Regular"
+                        - option "Italic"
+                        - option "Light"
+                        - option "Light Italic" [selected]
+                      - generic: ▼
+                    - generic [ref=e262]:
+                      - generic [ref=e265]: Size
+                      - slider "Size" [ref=e268]: "35"
+                  - generic [ref=e272]: You're used to pulled pork coated with barbecue sauce
+                - link "not def (OH YEAH!) .notdef glyph featured in Doyle." [ref=e273] [cursor=pointer]:
+                  - /url: /news/process-doyle
+                  - generic [ref=e276]:
+                    - img "not def" [ref=e278]
+                    - generic [ref=e280]: (OH YEAH!) .notdef glyph featured in Doyle.
+                - generic [ref=e281]:
+                  - generic [ref=e282]:
+                    - generic [ref=e286]: Bold Italic
+                    - paragraph [ref=e290]: New
+                  - generic [ref=e291]:
+                    - generic [ref=e295]: Light
+                    - paragraph [ref=e299]: 50¢
+                - generic [ref=e301]:
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: Black & Black Italic
+                    - generic [ref=e306]: "55"
+                  - paragraph [ref=e310]: For years, the three of us crossed paths at the coffee shop nearly every morning — giving each other groggy pre-caffeinated hugs, catching up on the past day’s events, ruffling the heads of one another’s pups
+                - generic [ref=e311]:
+                  - link "In Use, Project for Public Spaces by Pentagram In Use, Project for Public Spaces by Bruce Mau" [ref=e312] [cursor=pointer]:
+                    - /url: /news/project-public-spaces-doyle
+                    - generic [ref=e316]: In Use, Project for Public Spaces by Pentagram
+                    - img "In Use, Project for Public Spaces by Bruce Mau" [ref=e318]
+                  - link "In Use, Project for Public Spaces by Bruce Mau In Use, Project for Public Spaces by Pentagram" [ref=e319] [cursor=pointer]:
+                    - /url: /news/project-public-spaces-doyle
+                    - generic [ref=e323]: In Use, Project for Public Spaces by Bruce Mau
+                    - img "In Use, Project for Public Spaces by Pentagram" [ref=e325]
+                - generic [ref=e327]:
+                  - generic [ref=e331]: Concept by Calvin Kwok
+                  - paragraph [ref=e334]: 一
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - generic [ref=e339]:
+                      - generic [ref=e340]: Bold
+                      - generic [ref=e341]: "35"
+                    - paragraph [ref=e345]: Malanga, taro, eddoe are the most common of the many names given to this plant. It is also called tales in Java, oah in Hokkien, cocoyam in Ghana, taro in Tahiti, Talo in Samoa
+                  - generic [ref=e346]:
+                    - generic [ref=e349]:
+                      - generic [ref=e350]: Regular
+                      - generic [ref=e351]: "35"
+                    - paragraph [ref=e355]: Root vegetables are key to a healthy plant based diet. They are a great source of fibre, antioxidant, vitamins, carbohydrates, minerals and nutrients.
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - generic [ref=e358]:
+                      - generic [ref=e361]: Alternates
+                      - generic [ref=e363]:
+                        - generic "OpenType Features" [ref=e364]
+                        - generic [ref=e365]:
+                          - generic [ref=e367]:
+                            - generic [ref=e368]:
+                              - checkbox "SS01" [checked] [ref=e369] [cursor=pointer]
+                              - img [ref=e372]
+                            - generic [ref=e375]: SS01
+                          - generic [ref=e377]:
+                            - generic [ref=e378]:
+                              - checkbox "SS02" [checked] [ref=e379] [cursor=pointer]
+                              - img [ref=e382]
+                            - generic [ref=e385]: SS02
+                          - generic [ref=e387]:
+                            - generic [ref=e388]:
+                              - checkbox "SS03" [checked] [ref=e389] [cursor=pointer]
+                              - img [ref=e392]
+                            - generic [ref=e395]: SS03
+                          - generic [ref=e397]:
+                            - generic [ref=e398]:
+                              - checkbox "SS06" [checked] [ref=e399] [cursor=pointer]
+                              - img [ref=e402]
+                            - generic [ref=e405]: SS06
+                    - paragraph [ref=e409]: SR&Q
+                  - generic [ref=e410]:
+                    - generic [ref=e414]: In Use for Eye Magazine
+                    - img "In Use for Eye Magazine" [ref=e416]
+                - generic [ref=e418]:
+                  - generic [ref=e422]: Punctuation
+                  - paragraph [ref=e426]: ". , … : ; ! ? ¿ ( ) [ ] { } / | ¦ ‖ \\ ‼ ‽ ‴ \" ' ‘ ’ “ ” ‹ › « » - ‒ – — ― _ ‗ ~ ^ ´`¯¨˘˙˚˜˝¸˛ • † ‡ ¶ & @№# % ‰ § * °®℗™℠© ® ■□▪▫☒●○◎⚫⚪ ⌂▲◢►◥▼◤◄◣★☼☾♠♣♥♦ ♻♼♽"
+                - generic [ref=e427]:
+                  - generic [ref=e428]:
+                    - generic [ref=e429]:
+                      - generic [ref=e432]: Stylistic Set 05 - Schoolbook ‘y’
+                      - generic [ref=e434]:
+                        - generic "OpenType Features" [ref=e435]
+                        - generic [ref=e438]:
+                          - generic [ref=e439]:
+                            - checkbox "SS05" [checked] [ref=e440] [cursor=pointer]
+                            - img [ref=e443]
+                          - generic [ref=e446]: SS05
+                    - paragraph [ref=e450]: Mayo
+                  - generic [ref=e451]:
+                    - generic [ref=e452]:
+                      - generic [ref=e455]: Stylistic Set 04 - Looped ‘k’
+                      - generic [ref=e457]:
+                        - generic "OpenType Features" [ref=e458]
+                        - generic [ref=e461]:
+                          - generic [ref=e462]:
+                            - checkbox "SS04" [checked] [ref=e463] [cursor=pointer]
+                            - img [ref=e466]
+                          - generic [ref=e469]: SS04
+                    - paragraph [ref=e473]: Duck
+                - generic [ref=e474]:
+                  - generic [ref=e475]:
+                    - generic [ref=e478]:
+                      - generic [ref=e479]: Bold
+                      - generic [ref=e480]: "12"
+                    - paragraph [ref=e484]: I still remember the first time I set foot in a candy shop. It felt like I had entered a magical world. So many vivid colors. So many incredible shapes. So many new flavours. Here some green, blue, yellow, pink, orange, red, purple gumballs, jelly beans or crocodiles with soft white bellies, there rainbow lollipops, striped candy sticks, melting marshmallows… A delight for the senses. Physically, candy is a confection that features sugar as a principal ingredient. Candies are usually made in small pieces. However, the definition of candy also depends upon how people treat the food. I still remember the first time I set foot in a candy shop. It felt like I had entered a magical world. So many vivid colors. So many incredible shapes. So many new flavours. Here some green, blue, yellow, pink, orange, red, purple gumballs, jelly beans or crocodiles with soft white bellies, there rainbow lollipops, striped candy sticks, melting marshmallows… A delight for the senses. Physically, candy is a confection that features sugar as a principal ingredient. Candies are usually made in small pieces. However, the definition of candy also depends upon how people treat the food.
+                  - generic [ref=e485]:
+                    - generic [ref=e488]:
+                      - generic [ref=e489]: Medium
+                      - generic [ref=e490]: "12"
+                    - paragraph [ref=e494]: Picky Seafood Shopping – Only one of three grocery shoppers (34 percent) buy all their seafood from one store, according to The Power of Seafood, a study by the Food Market Institute*. The others buy seafood at different stores and specialty markets, but not online. Consumers think that buying seafood is complex in terms of varieties, evaluating quality, and ways to cook. Unlike sweet pastries served for a dessert course at the end of a meal, candies are normally eaten casually, often with the fingers, as a snack between meals. Picky Seafood Shopping – Only one of three grocery shoppers (34 percent) buy all their seafood from one store, according to The Power of Seafood, a study by the Food Market Institute*. The others buy seafood at different stores and specialty markets, but not online. Consumers think that buying seafood is complex in terms of varieties, evaluating quality, and ways to cook. Unlike sweet pastries served for a dessert course at the end of a meal, candies are normally eaten casually, often with the fingers, as a snack between meals.
+                  - generic [ref=e495]:
+                    - generic [ref=e498]:
+                      - generic [ref=e499]: Regular
+                      - generic [ref=e500]: "12"
+                    - paragraph [ref=e504]: It is now possible to find a brand new flavour of breakfast cereals, that does not actually include cereals. Indeed, LC* offers a limited-edition version filled with just rainbow and unicorn marshmallows; the cereal bits have been omitted. A whole new concept! In addition, specially-marked packages will be available through summer 2019 with a special code on the inside panel for the lucky winners of the rainbow and unicorn tee-shirts, mugs and tote bags. Everything but cereals! Each culture has its own ideas of what constitutes candy rather than dessert. It is now possible to find a brand new flavour of breakfast cereals, that does not actually include cereals. Indeed, LC* offers a limited-edition version filled with just rainbow and unicorn marshmallows; the cereal bits have been omitted. A whole new concept! In addition, specially-marked packages will be available through summer 2019 with a special code on the inside panel for the lucky winners of the rainbow and unicorn tee-shirts, mugs and tote bags. Everything but cereals! Each culture has its own ideas of what constitutes candy rather than dessert.
+                  - generic [ref=e505]:
+                    - generic [ref=e508]:
+                      - generic [ref=e509]: Light
+                      - generic [ref=e510]: "12"
+                    - paragraph [ref=e514]: MY FIRST GROCERY LOVE, MY FIRST GROCERY LOVE, certainly, was Meilleur*. Every summer, I’d exchange my father’s home in Columbus, Ohio for my mother’s in Holland, Michigan. The first thing we would do would be to visit the aforementioned regional supermarket and pick up food for my stay. We’d stroll down each clean-smelling, fluorescent-lit aisle, perusing brightly colored, message-laden boxes in search of the favorites I wasn’t allowed to eat back home. Sugar cereals. Dinosaur-shaped cracker. So, so many cans of cherry soda. And chocolate bars of all kinds.certainly, was Meilleur*. Every summer, I’d exchange my father’s home in Columbus, Ohio for my mother’s in Holland, Michigan. The first thing we would do would be to visit the aforementioned regional supermarket and pick up food for my stay. We’d stroll down each clean-smelling, fluorescent-lit aisle, perusing brightly colored, message-laden boxes in search of the favorites I wasn’t allowed to eat back home. Sugar cereals. Dinosaur-shaped cracker. So, so many cans of cherry soda. And chocolate bars of all kinds.
+            - generic [ref=e517]:
+              - generic [ref=e519]:
+                - img [ref=e520]:
+                  - generic [ref=e521]: A
+                  - generic [ref=e522]: CH
+                  - generic [ref=e523]: XH
+                  - generic [ref=e524]: BL
+                  - generic [ref=e525]: D
+                  - generic [ref=e527]: A
+                - generic [ref=e529]:
+                  - generic:
+                    - img
+                  - combobox [ref=e530] [cursor=pointer]:
+                    - option "Black"
+                    - option "Black Italic"
+                    - option "Bold" [selected]
+                    - option "Bold Italic"
+                    - option "Medium"
+                    - option "Medium Italic"
+                    - option "Regular"
+                    - option "Italic"
+                    - option "Light"
+                    - option "Light Italic"
+                - generic [ref=e531]:
+                  - generic [ref=e533]: Glyph Name
+                  - generic [ref=e535]:
+                    - generic [ref=e536]: Code Point
+                    - generic [ref=e537]: "0041"
+                  - generic [ref=e538]:
+                    - generic [ref=e539]: Unicode Decimal
+                    - generic [ref=e540]: "65"
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: HTML Entity
+                    - generic [ref=e543]: "&#41;"
+              - generic [ref=e544]:
+                - group [ref=e545]:
+                  - generic "Uppercase" [ref=e546] [cursor=pointer]:
+                    - generic [ref=e547]: Uppercase
+                    - img [ref=e549]
+                  - generic [ref=e551]:
+                    - button "0041 A" [ref=e552]:
+                      - generic [ref=e553]: "0041"
+                      - generic [ref=e554]: A
+                    - button "0042 B" [ref=e555]:
+                      - generic [ref=e556]: "0042"
+                      - generic [ref=e557]: B
+                    - button "0043 C" [ref=e558]:
+                      - generic [ref=e559]: "0043"
+                      - generic [ref=e560]: C
+                    - button "0044 D" [ref=e561]:
+                      - generic [ref=e562]: "0044"
+                      - generic [ref=e563]: D
+                    - button "0045 E" [ref=e564]:
+                      - generic [ref=e565]: "0045"
+                      - generic [ref=e566]: E
+                    - button "0046 F" [ref=e567]:
+                      - generic [ref=e568]: "0046"
+                      - generic [ref=e569]: F
+                    - button "0047 G" [ref=e570]:
+                      - generic [ref=e571]: "0047"
+                      - generic [ref=e572]: G
+                    - button "0048 H" [ref=e573]:
+                      - generic [ref=e574]: "0048"
+                      - generic [ref=e575]: H
+                    - button "0049 I" [ref=e576]:
+                      - generic [ref=e577]: "0049"
+                      - generic [ref=e578]: I
+                    - button "004a J" [ref=e579]:
+                      - generic [ref=e580]: 004a
+                      - generic [ref=e581]: J
+                    - button "004b K" [ref=e582]:
+                      - generic [ref=e583]: 004b
+                      - generic [ref=e584]: K
+                    - button "004c L" [ref=e585]:
+                      - generic [ref=e586]: 004c
+                      - generic [ref=e587]: L
+                    - button "004d M" [ref=e588]:
+                      - generic [ref=e589]: 004d
+                      - generic [ref=e590]: M
+                    - button "004e N" [ref=e591]:
+                      - generic [ref=e592]: 004e
+                      - generic [ref=e593]: "N"
+                    - button "004f O" [ref=e594]:
+                      - generic [ref=e595]: 004f
+                      - generic [ref=e596]: O
+                    - button "0050 P" [ref=e597]:
+                      - generic [ref=e598]: "0050"
+                      - generic [ref=e599]: P
+                    - button "0051 Q" [ref=e600]:
+                      - generic [ref=e601]: "0051"
+                      - generic [ref=e602]: Q
+                    - button "0052 R" [ref=e603]:
+                      - generic [ref=e604]: "0052"
+                      - generic [ref=e605]: R
+                    - button "0053 S" [ref=e606]:
+                      - generic [ref=e607]: "0053"
+                      - generic [ref=e608]: S
+                    - button "0054 T" [ref=e609]:
+                      - generic [ref=e610]: "0054"
+                      - generic [ref=e611]: T
+                    - button "0055 U" [ref=e612]:
+                      - generic [ref=e613]: "0055"
+                      - generic [ref=e614]: U
+                    - button "0056 V" [ref=e615]:
+                      - generic [ref=e616]: "0056"
+                      - generic [ref=e617]: V
+                    - button "0057 W" [ref=e618]:
+                      - generic [ref=e619]: "0057"
+                      - generic [ref=e620]: W
+                    - button "0058 X" [ref=e621]:
+                      - generic [ref=e622]: "0058"
+                      - generic [ref=e623]: X
+                    - button "0059 Y" [ref=e624]:
+                      - generic [ref=e625]: "0059"
+                      - generic [ref=e626]: "Y"
+                    - button "005a Z" [ref=e627]:
+                      - generic [ref=e628]: 005a
+                      - generic [ref=e629]: Z
+                - group [ref=e630]:
+                  - generic "Lowercase" [ref=e631] [cursor=pointer]:
+                    - generic [ref=e632]: Lowercase
+                    - img [ref=e634]
+                  - generic [ref=e636]:
+                    - button "0061 a" [ref=e637]:
+                      - generic [ref=e638]: "0061"
+                      - generic [ref=e639]: a
+                    - button "0062 b" [ref=e640]:
+                      - generic [ref=e641]: "0062"
+                      - generic [ref=e642]: b
+                    - button "0063 c" [ref=e643]:
+                      - generic [ref=e644]: "0063"
+                      - generic [ref=e645]: c
+                    - button "0064 d" [ref=e646]:
+                      - generic [ref=e647]: "0064"
+                      - generic [ref=e648]: d
+                    - button "0065 e" [ref=e649]:
+                      - generic [ref=e650]: "0065"
+                      - generic [ref=e651]: e
+                    - button "0066 f" [ref=e652]:
+                      - generic [ref=e653]: "0066"
+                      - generic [ref=e654]: f
+                    - button "0067 g" [ref=e655]:
+                      - generic [ref=e656]: "0067"
+                      - generic [ref=e657]: g
+                    - button "0068 h" [ref=e658]:
+                      - generic [ref=e659]: "0068"
+                      - generic [ref=e660]: h
+                    - button "0069 i" [ref=e661]:
+                      - generic [ref=e662]: "0069"
+                      - generic [ref=e663]: i
+                    - button "006a j" [ref=e664]:
+                      - generic [ref=e665]: 006a
+                      - generic [ref=e666]: j
+                    - button "006b k" [ref=e667]:
+                      - generic [ref=e668]: 006b
+                      - generic [ref=e669]: k
+                    - button "006c l" [ref=e670]:
+                      - generic [ref=e671]: 006c
+                      - generic [ref=e672]: l
+                    - button "006d m" [ref=e673]:
+                      - generic [ref=e674]: 006d
+                      - generic [ref=e675]: m
+                    - button "006e n" [ref=e676]:
+                      - generic [ref=e677]: 006e
+                      - generic [ref=e678]: "n"
+                    - button "006f o" [ref=e679]:
+                      - generic [ref=e680]: 006f
+                      - generic [ref=e681]: o
+                    - button "0070 p" [ref=e682]:
+                      - generic [ref=e683]: "0070"
+                      - generic [ref=e684]: p
+                    - button "0071 q" [ref=e685]:
+                      - generic [ref=e686]: "0071"
+                      - generic [ref=e687]: q
+                    - button "0072 r" [ref=e688]:
+                      - generic [ref=e689]: "0072"
+                      - generic [ref=e690]: r
+                    - button "0073 s" [ref=e691]:
+                      - generic [ref=e692]: "0073"
+                      - generic [ref=e693]: s
+                    - button "0074 t" [ref=e694]:
+                      - generic [ref=e695]: "0074"
+                      - generic [ref=e696]: t
+                    - button "0075 u" [ref=e697]:
+                      - generic [ref=e698]: "0075"
+                      - generic [ref=e699]: u
+                    - button "0076 v" [ref=e700]:
+                      - generic [ref=e701]: "0076"
+                      - generic [ref=e702]: v
+                    - button "0077 w" [ref=e703]:
+                      - generic [ref=e704]: "0077"
+                      - generic [ref=e705]: w
+                    - button "0078 x" [ref=e706]:
+                      - generic [ref=e707]: "0078"
+                      - generic [ref=e708]: x
+                    - button "0079 y" [ref=e709]:
+                      - generic [ref=e710]: "0079"
+                      - generic [ref=e711]: "y"
+                    - button "007a z" [ref=e712]:
+                      - generic [ref=e713]: 007a
+                      - generic [ref=e714]: z
+                - group [ref=e715]:
+                  - generic "Proportional Lining Figures" [ref=e716] [cursor=pointer]:
+                    - generic [ref=e717]: Proportional Lining Figures
+                    - img [ref=e719]
+                  - generic [ref=e721]:
+                    - button "0030 0" [ref=e722]:
+                      - generic [ref=e723]: "0030"
+                      - generic [ref=e724]: "0"
+                    - button "0031 1" [ref=e725]:
+                      - generic [ref=e726]: "0031"
+                      - generic [ref=e727]: "1"
+                    - button "0032 2" [ref=e728]:
+                      - generic [ref=e729]: "0032"
+                      - generic [ref=e730]: "2"
+                    - button "0033 3" [ref=e731]:
+                      - generic [ref=e732]: "0033"
+                      - generic [ref=e733]: "3"
+                    - button "0034 4" [ref=e734]:
+                      - generic [ref=e735]: "0034"
+                      - generic [ref=e736]: "4"
+                    - button "0035 5" [ref=e737]:
+                      - generic [ref=e738]: "0035"
+                      - generic [ref=e739]: "5"
+                    - button "0036 6" [ref=e740]:
+                      - generic [ref=e741]: "0036"
+                      - generic [ref=e742]: "6"
+                    - button "0037 7" [ref=e743]:
+                      - generic [ref=e744]: "0037"
+                      - generic [ref=e745]: "7"
+                    - button "0038 8" [ref=e746]:
+                      - generic [ref=e747]: "0038"
+                      - generic [ref=e748]: "8"
+                    - button "0039 9" [ref=e749]:
+                      - generic [ref=e750]: "0039"
+                      - generic [ref=e751]: "9"
+                - group [ref=e752]:
+                  - generic "Accented Uppercase" [ref=e753] [cursor=pointer]:
+                    - generic [ref=e754]: Accented Uppercase
+                    - img [ref=e756]
+                  - generic [ref=e758]:
+                    - button "00C1 Á" [ref=e759]:
+                      - generic [ref=e760]: 00C1
+                      - generic [ref=e761]: Á
+                    - button "0102 Ă" [ref=e762]:
+                      - generic [ref=e763]: "0102"
+                      - generic [ref=e764]: Ă
+                    - button "00C2 Â" [ref=e765]:
+                      - generic [ref=e766]: 00C2
+                      - generic [ref=e767]: Â
+                    - button "00C4 Ä" [ref=e768]:
+                      - generic [ref=e769]: 00C4
+                      - generic [ref=e770]: Ä
+                    - button "00C0 À" [ref=e771]:
+                      - generic [ref=e772]: 00C0
+                      - generic [ref=e773]: À
+                    - button "0100 Ā" [ref=e774]:
+                      - generic [ref=e775]: "0100"
+                      - generic [ref=e776]: Ā
+                    - button "0104 Ą" [ref=e777]:
+                      - generic [ref=e778]: "0104"
+                      - generic [ref=e779]: Ą
+                    - button "00C5 Å" [ref=e780]:
+                      - generic [ref=e781]: 00C5
+                      - generic [ref=e782]: Å
+                    - button "00C3 Ã" [ref=e783]:
+                      - generic [ref=e784]: 00C3
+                      - generic [ref=e785]: Ã
+                    - button "00C6 Æ" [ref=e786]:
+                      - generic [ref=e787]: 00C6
+                      - generic [ref=e788]: Æ
+                    - button "01FC Ǽ" [ref=e789]:
+                      - generic [ref=e790]: 01FC
+                      - generic [ref=e791]: Ǽ
+                    - button "0106 Ć" [ref=e792]:
+                      - generic [ref=e793]: "0106"
+                      - generic [ref=e794]: Ć
+                    - button "010C Č" [ref=e795]:
+                      - generic [ref=e796]: 010C
+                      - generic [ref=e797]: Č
+                    - button "00C7 Ç" [ref=e798]:
+                      - generic [ref=e799]: 00C7
+                      - generic [ref=e800]: Ç
+                    - button "0108 Ĉ" [ref=e801]:
+                      - generic [ref=e802]: "0108"
+                      - generic [ref=e803]: Ĉ
+                    - button "010A Ċ" [ref=e804]:
+                      - generic [ref=e805]: 010A
+                      - generic [ref=e806]: Ċ
+                    - button "010E Ď" [ref=e807]:
+                      - generic [ref=e808]: 010E
+                      - generic [ref=e809]: Ď
+                    - button "0110 Đ" [ref=e810]:
+                      - generic [ref=e811]: "0110"
+                      - generic [ref=e812]: Đ
+                    - button "00D0 Ð" [ref=e813]:
+                      - generic [ref=e814]: 00D0
+                      - generic [ref=e815]: Ð
+                    - button "00C9 É" [ref=e816]:
+                      - generic [ref=e817]: 00C9
+                      - generic [ref=e818]: É
+                    - button "0114 Ĕ" [ref=e819]:
+                      - generic [ref=e820]: "0114"
+                      - generic [ref=e821]: Ĕ
+                    - button "011A Ě" [ref=e822]:
+                      - generic [ref=e823]: 011A
+                      - generic [ref=e824]: Ě
+                    - button "00CA Ê" [ref=e825]:
+                      - generic [ref=e826]: 00CA
+                      - generic [ref=e827]: Ê
+                    - button "00CB Ë" [ref=e828]:
+                      - generic [ref=e829]: 00CB
+                      - generic [ref=e830]: Ë
+                    - button "0116 Ė" [ref=e831]:
+                      - generic [ref=e832]: "0116"
+                      - generic [ref=e833]: Ė
+                    - button "00C8 È" [ref=e834]:
+                      - generic [ref=e835]: 00C8
+                      - generic [ref=e836]: È
+                    - button "0112 Ē" [ref=e837]:
+                      - generic [ref=e838]: "0112"
+                      - generic [ref=e839]: Ē
+                    - button "0118 Ę" [ref=e840]:
+                      - generic [ref=e841]: "0118"
+                      - generic [ref=e842]: Ę
+                    - button "011E Ğ" [ref=e843]:
+                      - generic [ref=e844]: 011E
+                      - generic [ref=e845]: Ğ
+                    - button "011C Ĝ" [ref=e846]:
+                      - generic [ref=e847]: 011C
+                      - generic [ref=e848]: Ĝ
+                    - button "0122 Ģ" [ref=e849]:
+                      - generic [ref=e850]: "0122"
+                      - generic [ref=e851]: Ģ
+                    - button "0120 Ġ" [ref=e852]:
+                      - generic [ref=e853]: "0120"
+                      - generic [ref=e854]: Ġ
+                    - button "0126 Ħ" [ref=e855]:
+                      - generic [ref=e856]: "0126"
+                      - generic [ref=e857]: Ħ
+                    - button "0124 Ĥ" [ref=e858]:
+                      - generic [ref=e859]: "0124"
+                      - generic [ref=e860]: Ĥ
+                    - button "00CD Í" [ref=e861]:
+                      - generic [ref=e862]: 00CD
+                      - generic [ref=e863]: Í
+                    - button "012C Ĭ" [ref=e864]:
+                      - generic [ref=e865]: 012C
+                      - generic [ref=e866]: Ĭ
+                    - button "00CE Î" [ref=e867]:
+                      - generic [ref=e868]: 00CE
+                      - generic [ref=e869]: Î
+                    - button "00CF Ï" [ref=e870]:
+                      - generic [ref=e871]: 00CF
+                      - generic [ref=e872]: Ï
+                    - button "0130 İ" [ref=e873]:
+                      - generic [ref=e874]: "0130"
+                      - generic [ref=e875]: İ
+                    - button "00CC Ì" [ref=e876]:
+                      - generic [ref=e877]: 00CC
+                      - generic [ref=e878]: Ì
+                    - button "012A Ī" [ref=e879]:
+                      - generic [ref=e880]: 012A
+                      - generic [ref=e881]: Ī
+                    - button "012E Į" [ref=e882]:
+                      - generic [ref=e883]: 012E
+                      - generic [ref=e884]: Į
+                    - button "0128 Ĩ" [ref=e885]:
+                      - generic [ref=e886]: "0128"
+                      - generic [ref=e887]: Ĩ
+                    - button "0134 Ĵ" [ref=e888]:
+                      - generic [ref=e889]: "0134"
+                      - generic [ref=e890]: Ĵ
+                    - button "0136 Ķ" [ref=e891]:
+                      - generic [ref=e892]: "0136"
+                      - generic [ref=e893]: Ķ
+                    - button "0139 Ĺ" [ref=e894]:
+                      - generic [ref=e895]: "0139"
+                      - generic [ref=e896]: Ĺ
+                    - button "013D Ľ" [ref=e897]:
+                      - generic [ref=e898]: 013D
+                      - generic [ref=e899]: Ľ
+                    - button "013B Ļ" [ref=e900]:
+                      - generic [ref=e901]: 013B
+                      - generic [ref=e902]: Ļ
+                    - button "013F Ŀ" [ref=e903]:
+                      - generic [ref=e904]: 013F
+                      - generic [ref=e905]: Ŀ
+                    - button "0141 Ł" [ref=e906]:
+                      - generic [ref=e907]: "0141"
+                      - generic [ref=e908]: Ł
+                    - button "0143 Ń" [ref=e909]:
+                      - generic [ref=e910]: "0143"
+                      - generic [ref=e911]: Ń
+                    - button "0147 Ň" [ref=e912]:
+                      - generic [ref=e913]: "0147"
+                      - generic [ref=e914]: Ň
+                    - button "0145 Ņ" [ref=e915]:
+                      - generic [ref=e916]: "0145"
+                      - generic [ref=e917]: Ņ
+                    - button "00D1 Ñ" [ref=e918]:
+                      - generic [ref=e919]: 00D1
+                      - generic [ref=e920]: Ñ
+                    - button "014A Ŋ" [ref=e921]:
+                      - generic [ref=e922]: 014A
+                      - generic [ref=e923]: Ŋ
+                    - button "00D3 Ó" [ref=e924]:
+                      - generic [ref=e925]: 00D3
+                      - generic [ref=e926]: Ó
+                    - button "014E Ŏ" [ref=e927]:
+                      - generic [ref=e928]: 014E
+                      - generic [ref=e929]: Ŏ
+                    - button "00D4 Ô" [ref=e930]:
+                      - generic [ref=e931]: 00D4
+                      - generic [ref=e932]: Ô
+                    - button "00D6 Ö" [ref=e933]:
+                      - generic [ref=e934]: 00D6
+                      - generic [ref=e935]: Ö
+                    - button "00D2 Ò" [ref=e936]:
+                      - generic [ref=e937]: 00D2
+                      - generic [ref=e938]: Ò
+                    - button "0150 Ő" [ref=e939]:
+                      - generic [ref=e940]: "0150"
+                      - generic [ref=e941]: Ő
+                    - button "014C Ō" [ref=e942]:
+                      - generic [ref=e943]: 014C
+                      - generic [ref=e944]: Ō
+                    - button "00D8 Ø" [ref=e945]:
+                      - generic [ref=e946]: 00D8
+                      - generic [ref=e947]: Ø
+                    - button "01FE Ǿ" [ref=e948]:
+                      - generic [ref=e949]: 01FE
+                      - generic [ref=e950]: Ǿ
+                    - button "00D5 Õ" [ref=e951]:
+                      - generic [ref=e952]: 00D5
+                      - generic [ref=e953]: Õ
+                    - button "0152 Œ" [ref=e954]:
+                      - generic [ref=e955]: "0152"
+                      - generic [ref=e956]: Œ
+                    - button "00DE Þ" [ref=e957]:
+                      - generic [ref=e958]: 00DE
+                      - generic [ref=e959]: Þ
+                    - button "0154 Ŕ" [ref=e960]:
+                      - generic [ref=e961]: "0154"
+                      - generic [ref=e962]: Ŕ
+                    - button "0158 Ř" [ref=e963]:
+                      - generic [ref=e964]: "0158"
+                      - generic [ref=e965]: Ř
+                    - button "0156 Ŗ" [ref=e966]:
+                      - generic [ref=e967]: "0156"
+                      - generic [ref=e968]: Ŗ
+                    - button "015A Ś" [ref=e969]:
+                      - generic [ref=e970]: 015A
+                      - generic [ref=e971]: Ś
+                    - button "0160 Š" [ref=e972]:
+                      - generic [ref=e973]: "0160"
+                      - generic [ref=e974]: Š
+                    - button "015E Ş" [ref=e975]:
+                      - generic [ref=e976]: 015E
+                      - generic [ref=e977]: Ş
+                    - button "015C Ŝ" [ref=e978]:
+                      - generic [ref=e979]: 015C
+                      - generic [ref=e980]: Ŝ
+                    - button "0218 Ș" [ref=e981]:
+                      - generic [ref=e982]: "0218"
+                      - generic [ref=e983]: Ș
+                    - button "1E9E ẞ" [ref=e984]:
+                      - generic [ref=e985]: 1E9E
+                      - generic [ref=e986]: ẞ
+                    - button "0166 Ŧ" [ref=e987]:
+                      - generic [ref=e988]: "0166"
+                      - generic [ref=e989]: Ŧ
+                    - button "0164 Ť" [ref=e990]:
+                      - generic [ref=e991]: "0164"
+                      - generic [ref=e992]: Ť
+                    - button "0162 Ţ" [ref=e993]:
+                      - generic [ref=e994]: "0162"
+                      - generic [ref=e995]: Ţ
+                    - button "021A Ț" [ref=e996]:
+                      - generic [ref=e997]: 021A
+                      - generic [ref=e998]: Ț
+                    - button "00DA Ú" [ref=e999]:
+                      - generic [ref=e1000]: 00DA
+                      - generic [ref=e1001]: Ú
+                    - button "016C Ŭ" [ref=e1002]:
+                      - generic [ref=e1003]: 016C
+                      - generic [ref=e1004]: Ŭ
+                    - button "00DB Û" [ref=e1005]:
+                      - generic [ref=e1006]: 00DB
+                      - generic [ref=e1007]: Û
+                    - button "00DC Ü" [ref=e1008]:
+                      - generic [ref=e1009]: 00DC
+                      - generic [ref=e1010]: Ü
+                    - button "00D9 Ù" [ref=e1011]:
+                      - generic [ref=e1012]: 00D9
+                      - generic [ref=e1013]: Ù
+                    - button "0170 Ű" [ref=e1014]:
+                      - generic [ref=e1015]: "0170"
+                      - generic [ref=e1016]: Ű
+                    - button "016A Ū" [ref=e1017]:
+                      - generic [ref=e1018]: 016A
+                      - generic [ref=e1019]: Ū
+                    - button "0172 Ų" [ref=e1020]:
+                      - generic [ref=e1021]: "0172"
+                      - generic [ref=e1022]: Ų
+                    - button "016E Ů" [ref=e1023]:
+                      - generic [ref=e1024]: 016E
+                      - generic [ref=e1025]: Ů
+                    - button "0168 Ũ" [ref=e1026]:
+                      - generic [ref=e1027]: "0168"
+                      - generic [ref=e1028]: Ũ
+                    - button "1E82 Ẃ" [ref=e1029]:
+                      - generic [ref=e1030]: "1E82"
+                      - generic [ref=e1031]: Ẃ
+                    - button "0174 Ŵ" [ref=e1032]:
+                      - generic [ref=e1033]: "0174"
+                      - generic [ref=e1034]: Ŵ
+                    - button "1E84 Ẅ" [ref=e1035]:
+                      - generic [ref=e1036]: "1E84"
+                      - generic [ref=e1037]: Ẅ
+                    - button "1E80 Ẁ" [ref=e1038]:
+                      - generic [ref=e1039]: "1E80"
+                      - generic [ref=e1040]: Ẁ
+                    - button "00DD Ý" [ref=e1041]:
+                      - generic [ref=e1042]: 00DD
+                      - generic [ref=e1043]: Ý
+                    - button "0176 Ŷ" [ref=e1044]:
+                      - generic [ref=e1045]: "0176"
+                      - generic [ref=e1046]: Ŷ
+                    - button "0178 Ÿ" [ref=e1047]:
+                      - generic [ref=e1048]: "0178"
+                      - generic [ref=e1049]: Ÿ
+                    - button "1EF2 Ỳ" [ref=e1050]:
+                      - generic [ref=e1051]: 1EF2
+                      - generic [ref=e1052]: Ỳ
+                    - button "0132 Ĳ" [ref=e1053]:
+                      - generic [ref=e1054]: "0132"
+                      - generic [ref=e1055]: Ĳ
+                    - button "0179 Ź" [ref=e1056]:
+                      - generic [ref=e1057]: "0179"
+                      - generic [ref=e1058]: Ź
+                    - button "017D Ž" [ref=e1059]:
+                      - generic [ref=e1060]: 017D
+                      - generic [ref=e1061]: Ž
+                    - button "017B Ż" [ref=e1062]:
+                      - generic [ref=e1063]: 017B
+                      - generic [ref=e1064]: Ż
+                - group [ref=e1065]:
+                  - generic "Accented Lowercase" [ref=e1066] [cursor=pointer]:
+                    - generic [ref=e1067]: Accented Lowercase
+                    - img [ref=e1069]
+                  - generic [ref=e1071]:
+                    - button "00E1 á" [ref=e1072]:
+                      - generic [ref=e1073]: "00E1"
+                      - generic [ref=e1074]: á
+                    - button "0103 ă" [ref=e1075]:
+                      - generic [ref=e1076]: "0103"
+                      - generic [ref=e1077]: ă
+                    - button "00E2 â" [ref=e1078]:
+                      - generic [ref=e1079]: "00E2"
+                      - generic [ref=e1080]: â
+                    - button "00E4 ä" [ref=e1081]:
+                      - generic [ref=e1082]: "00E4"
+                      - generic [ref=e1083]: ä
+                    - button "00E0 à" [ref=e1084]:
+                      - generic [ref=e1085]: "00E0"
+                      - generic [ref=e1086]: à
+                    - button "0101 ā" [ref=e1087]:
+                      - generic [ref=e1088]: "0101"
+                      - generic [ref=e1089]: ā
+                    - button "0105 ą" [ref=e1090]:
+                      - generic [ref=e1091]: "0105"
+                      - generic [ref=e1092]: ą
+                    - button "00E5 å" [ref=e1093]:
+                      - generic [ref=e1094]: "00E5"
+                      - generic [ref=e1095]: å
+                    - button "00E3 ã" [ref=e1096]:
+                      - generic [ref=e1097]: "00E3"
+                      - generic [ref=e1098]: ã
+                    - button "00E6 æ" [ref=e1099]:
+                      - generic [ref=e1100]: "00E6"
+                      - generic [ref=e1101]: æ
+                    - button "01FD ǽ" [ref=e1102]:
+                      - generic [ref=e1103]: 01FD
+                      - generic [ref=e1104]: ǽ
+                    - button "0107 ć" [ref=e1105]:
+                      - generic [ref=e1106]: "0107"
+                      - generic [ref=e1107]: ć
+                    - button "010D č" [ref=e1108]:
+                      - generic [ref=e1109]: 010D
+                      - generic [ref=e1110]: č
+                    - button "00E7 ç" [ref=e1111]:
+                      - generic [ref=e1112]: "00E7"
+                      - generic [ref=e1113]: ç
+                    - button "0109 ĉ" [ref=e1114]:
+                      - generic [ref=e1115]: "0109"
+                      - generic [ref=e1116]: ĉ
+                    - button "010B ċ" [ref=e1117]:
+                      - generic [ref=e1118]: 010B
+                      - generic [ref=e1119]: ċ
+                    - button "010F ď" [ref=e1120]:
+                      - generic [ref=e1121]: 010F
+                      - generic [ref=e1122]: ď
+                    - button "0111 đ" [ref=e1123]:
+                      - generic [ref=e1124]: "0111"
+                      - generic [ref=e1125]: đ
+                    - button "00F0 ð" [ref=e1126]:
+                      - generic [ref=e1127]: 00F0
+                      - generic [ref=e1128]: ð
+                    - button "00E9 é" [ref=e1129]:
+                      - generic [ref=e1130]: "00E9"
+                      - generic [ref=e1131]: é
+                    - button "0115 ĕ" [ref=e1132]:
+                      - generic [ref=e1133]: "0115"
+                      - generic [ref=e1134]: ĕ
+                    - button "011B ě" [ref=e1135]:
+                      - generic [ref=e1136]: 011B
+                      - generic [ref=e1137]: ě
+                    - button "00EA ê" [ref=e1138]:
+                      - generic [ref=e1139]: 00EA
+                      - generic [ref=e1140]: ê
+                    - button "00EB ë" [ref=e1141]:
+                      - generic [ref=e1142]: 00EB
+                      - generic [ref=e1143]: ë
+                    - button "0117 ė" [ref=e1144]:
+                      - generic [ref=e1145]: "0117"
+                      - generic [ref=e1146]: ė
+                    - button "00E8 è" [ref=e1147]:
+                      - generic [ref=e1148]: "00E8"
+                      - generic [ref=e1149]: è
+                    - button "0113 ē" [ref=e1150]:
+                      - generic [ref=e1151]: "0113"
+                      - generic [ref=e1152]: ē
+                    - button "0119 ę" [ref=e1153]:
+                      - generic [ref=e1154]: "0119"
+                      - generic [ref=e1155]: ę
+                    - button "011F ğ" [ref=e1156]:
+                      - generic [ref=e1157]: 011F
+                      - generic [ref=e1158]: ğ
+                    - button "011D ĝ" [ref=e1159]:
+                      - generic [ref=e1160]: 011D
+                      - generic [ref=e1161]: ĝ
+                    - button "0123 ģ" [ref=e1162]:
+                      - generic [ref=e1163]: "0123"
+                      - generic [ref=e1164]: ģ
+                    - button "0121 ġ" [ref=e1165]:
+                      - generic [ref=e1166]: "0121"
+                      - generic [ref=e1167]: ġ
+                    - button "0127 ħ" [ref=e1168]:
+                      - generic [ref=e1169]: "0127"
+                      - generic [ref=e1170]: ħ
+                    - button "0125 ĥ" [ref=e1171]:
+                      - generic [ref=e1172]: "0125"
+                      - generic [ref=e1173]: ĥ
+                    - button "00ED í" [ref=e1174]:
+                      - generic [ref=e1175]: 00ED
+                      - generic [ref=e1176]: í
+                    - button "012D ĭ" [ref=e1177]:
+                      - generic [ref=e1178]: 012D
+                      - generic [ref=e1179]: ĭ
+                    - button "00EE î" [ref=e1180]:
+                      - generic [ref=e1181]: 00EE
+                      - generic [ref=e1182]: î
+                    - button "00EF ï" [ref=e1183]:
+                      - generic [ref=e1184]: 00EF
+                      - generic [ref=e1185]: ï
+                    - button "00EC ì" [ref=e1186]:
+                      - generic [ref=e1187]: 00EC
+                      - generic [ref=e1188]: ì
+                    - button "012B ī" [ref=e1189]:
+                      - generic [ref=e1190]: 012B
+                      - generic [ref=e1191]: ī
+                    - button "012F į" [ref=e1192]:
+                      - generic [ref=e1193]: 012F
+                      - generic [ref=e1194]: į
+                    - button "0129 ĩ" [ref=e1195]:
+                      - generic [ref=e1196]: "0129"
+                      - generic [ref=e1197]: ĩ
+                    - button "0131 ı" [ref=e1198]:
+                      - generic [ref=e1199]: "0131"
+                      - generic [ref=e1200]: ı
+                    - button "0135 ĵ" [ref=e1201]:
+                      - generic [ref=e1202]: "0135"
+                      - generic [ref=e1203]: ĵ
+                    - button "0237 ȷ" [ref=e1204]:
+                      - generic [ref=e1205]: "0237"
+                      - generic [ref=e1206]: ȷ
+                    - button "0137 ķ" [ref=e1207]:
+                      - generic [ref=e1208]: "0137"
+                      - generic [ref=e1209]: ķ
+                    - button "0138 ĸ" [ref=e1210]:
+                      - generic [ref=e1211]: "0138"
+                      - generic [ref=e1212]: ĸ
+                    - button "013A ĺ" [ref=e1213]:
+                      - generic [ref=e1214]: 013A
+                      - generic [ref=e1215]: ĺ
+                    - button "013E ľ" [ref=e1216]:
+                      - generic [ref=e1217]: 013E
+                      - generic [ref=e1218]: ľ
+                    - button "013C ļ" [ref=e1219]:
+                      - generic [ref=e1220]: 013C
+                      - generic [ref=e1221]: ļ
+                    - button "0140 ŀ" [ref=e1222]:
+                      - generic [ref=e1223]: "0140"
+                      - generic [ref=e1224]: ŀ
+                    - button "0142 ł" [ref=e1225]:
+                      - generic [ref=e1226]: "0142"
+                      - generic [ref=e1227]: ł
+                    - button "0144 ń" [ref=e1228]:
+                      - generic [ref=e1229]: "0144"
+                      - generic [ref=e1230]: ń
+                    - button "0148 ň" [ref=e1231]:
+                      - generic [ref=e1232]: "0148"
+                      - generic [ref=e1233]: ň
+                    - button "0146 ņ" [ref=e1234]:
+                      - generic [ref=e1235]: "0146"
+                      - generic [ref=e1236]: ņ
+                    - button "00F1 ñ" [ref=e1237]:
+                      - generic [ref=e1238]: 00F1
+                      - generic [ref=e1239]: ñ
+                    - button "014B ŋ" [ref=e1240]:
+                      - generic [ref=e1241]: 014B
+                      - generic [ref=e1242]: ŋ
+                    - button "00F3 ó" [ref=e1243]:
+                      - generic [ref=e1244]: 00F3
+                      - generic [ref=e1245]: ó
+                    - button "014F ŏ" [ref=e1246]:
+                      - generic [ref=e1247]: 014F
+                      - generic [ref=e1248]: ŏ
+                    - button "00F4 ô" [ref=e1249]:
+                      - generic [ref=e1250]: 00F4
+                      - generic [ref=e1251]: ô
+                    - button "00F6 ö" [ref=e1252]:
+                      - generic [ref=e1253]: 00F6
+                      - generic [ref=e1254]: ö
+                    - button "0153 œ" [ref=e1255]:
+                      - generic [ref=e1256]: "0153"
+                      - generic [ref=e1257]: œ
+                    - button "00F2 ò" [ref=e1258]:
+                      - generic [ref=e1259]: 00F2
+                      - generic [ref=e1260]: ò
+                    - button "0151 ő" [ref=e1261]:
+                      - generic [ref=e1262]: "0151"
+                      - generic [ref=e1263]: ő
+                    - button "014D ō" [ref=e1264]:
+                      - generic [ref=e1265]: 014D
+                      - generic [ref=e1266]: ō
+                    - button "00F8 ø" [ref=e1267]:
+                      - generic [ref=e1268]: 00F8
+                      - generic [ref=e1269]: ø
+                    - button "01FF ǿ" [ref=e1270]:
+                      - generic [ref=e1271]: 01FF
+                      - generic [ref=e1272]: ǿ
+                    - button "00F5 õ" [ref=e1273]:
+                      - generic [ref=e1274]: 00F5
+                      - generic [ref=e1275]: õ
+                    - button "00FE þ" [ref=e1276]:
+                      - generic [ref=e1277]: 00FE
+                      - generic [ref=e1278]: þ
+                    - button "0155 ŕ" [ref=e1279]:
+                      - generic [ref=e1280]: "0155"
+                      - generic [ref=e1281]: ŕ
+                    - button "0159 ř" [ref=e1282]:
+                      - generic [ref=e1283]: "0159"
+                      - generic [ref=e1284]: ř
+                    - button "0157 ŗ" [ref=e1285]:
+                      - generic [ref=e1286]: "0157"
+                      - generic [ref=e1287]: ŗ
+                    - button "015B ś" [ref=e1288]:
+                      - generic [ref=e1289]: 015B
+                      - generic [ref=e1290]: ś
+                    - button "0161 š" [ref=e1291]:
+                      - generic [ref=e1292]: "0161"
+                      - generic [ref=e1293]: š
+                    - button "015F ş" [ref=e1294]:
+                      - generic [ref=e1295]: 015F
+                      - generic [ref=e1296]: ş
+                    - button "015D ŝ" [ref=e1297]:
+                      - generic [ref=e1298]: 015D
+                      - generic [ref=e1299]: ŝ
+                    - button "0219 ș" [ref=e1300]:
+                      - generic [ref=e1301]: "0219"
+                      - generic [ref=e1302]: ș
+                    - button "00DF ß" [ref=e1303]:
+                      - generic [ref=e1304]: 00DF
+                      - generic [ref=e1305]: ß
+                    - button "0167 ŧ" [ref=e1306]:
+                      - generic [ref=e1307]: "0167"
+                      - generic [ref=e1308]: ŧ
+                    - button "0165 ť" [ref=e1309]:
+                      - generic [ref=e1310]: "0165"
+                      - generic [ref=e1311]: ť
+                    - button "021B ț" [ref=e1312]:
+                      - generic [ref=e1313]: 021B
+                      - generic [ref=e1314]: ț
+                    - button "0163 ţ" [ref=e1315]:
+                      - generic [ref=e1316]: "0163"
+                      - generic [ref=e1317]: ţ
+                    - button "00FA ú" [ref=e1318]:
+                      - generic [ref=e1319]: 00FA
+                      - generic [ref=e1320]: ú
+                    - button "016D ŭ" [ref=e1321]:
+                      - generic [ref=e1322]: 016D
+                      - generic [ref=e1323]: ŭ
+                    - button "00FB û" [ref=e1324]:
+                      - generic [ref=e1325]: 00FB
+                      - generic [ref=e1326]: û
+                    - button "00FC ü" [ref=e1327]:
+                      - generic [ref=e1328]: 00FC
+                      - generic [ref=e1329]: ü
+                    - button "00F9 ù" [ref=e1330]:
+                      - generic [ref=e1331]: 00F9
+                      - generic [ref=e1332]: ù
+                    - button "0171 ű" [ref=e1333]:
+                      - generic [ref=e1334]: "0171"
+                      - generic [ref=e1335]: ű
+                    - button "016B ū" [ref=e1336]:
+                      - generic [ref=e1337]: 016B
+                      - generic [ref=e1338]: ū
+                    - button "0173 ų" [ref=e1339]:
+                      - generic [ref=e1340]: "0173"
+                      - generic [ref=e1341]: ų
+                    - button "016F ů" [ref=e1342]:
+                      - generic [ref=e1343]: 016F
+                      - generic [ref=e1344]: ů
+                    - button "0169 ũ" [ref=e1345]:
+                      - generic [ref=e1346]: "0169"
+                      - generic [ref=e1347]: ũ
+                    - button "1E83 ẃ" [ref=e1348]:
+                      - generic [ref=e1349]: "1E83"
+                      - generic [ref=e1350]: ẃ
+                    - button "0175 ŵ" [ref=e1351]:
+                      - generic [ref=e1352]: "0175"
+                      - generic [ref=e1353]: ŵ
+                    - button "1E85 ẅ" [ref=e1354]:
+                      - generic [ref=e1355]: "1E85"
+                      - generic [ref=e1356]: ẅ
+                    - button "1E81 ẁ" [ref=e1357]:
+                      - generic [ref=e1358]: "1E81"
+                      - generic [ref=e1359]: ẁ
+                    - button "00FD ý" [ref=e1360]:
+                      - generic [ref=e1361]: 00FD
+                      - generic [ref=e1362]: ý
+                    - button "0177 ŷ" [ref=e1363]:
+                      - generic [ref=e1364]: "0177"
+                      - generic [ref=e1365]: ŷ
+                    - button "00FF ÿ" [ref=e1366]:
+                      - generic [ref=e1367]: 00FF
+                      - generic [ref=e1368]: ÿ
+                    - button "1EF3 ỳ" [ref=e1369]:
+                      - generic [ref=e1370]: 1EF3
+                      - generic [ref=e1371]: ỳ
+                    - button "0133 ĳ" [ref=e1372]:
+                      - generic [ref=e1373]: "0133"
+                      - generic [ref=e1374]: ĳ
+                    - button "017A ź" [ref=e1375]:
+                      - generic [ref=e1376]: 017A
+                      - generic [ref=e1377]: ź
+                    - button "017E ž" [ref=e1378]:
+                      - generic [ref=e1379]: 017E
+                      - generic [ref=e1380]: ž
+                    - button "017C ż" [ref=e1381]:
+                      - generic [ref=e1382]: 017C
+                      - generic [ref=e1383]: ż
+                - group [ref=e1384]:
+                  - generic "Punctuation & Symbols" [ref=e1385] [cursor=pointer]:
+                    - generic [ref=e1386]: Punctuation & Symbols
+                    - img [ref=e1388]
+                  - generic [ref=e1390]:
+                    - button "002E ." [ref=e1391]:
+                      - generic [ref=e1392]: 002E
+                      - generic [ref=e1393]: .
+                    - button "002C ," [ref=e1394]:
+                      - generic [ref=e1395]: 002C
+                      - generic [ref=e1396]: ","
+                    - button "2026 …" [ref=e1397]:
+                      - generic [ref=e1398]: "2026"
+                      - generic [ref=e1399]: …
+                    - button "003A :" [ref=e1400]:
+                      - generic [ref=e1401]: 003A
+                      - generic [ref=e1402]: ":"
+                    - button "003B ;" [ref=e1403]:
+                      - generic [ref=e1404]: 003B
+                      - generic [ref=e1405]: ;
+                    - button "0021 !" [ref=e1406]:
+                      - generic [ref=e1407]: "0021"
+                      - generic [ref=e1408]: "!"
+                    - button "003F ?" [ref=e1409]:
+                      - generic [ref=e1410]: 003F
+                      - generic [ref=e1411]: "?"
+                    - button "00BF ¿" [ref=e1412]:
+                      - generic [ref=e1413]: 00BF
+                      - generic [ref=e1414]: ¿
+                    - button "203C ‼" [ref=e1415]:
+                      - generic [ref=e1416]: 203C
+                      - generic [ref=e1417]: ‼
+                    - button "203D ‽" [ref=e1418]:
+                      - generic [ref=e1419]: 203D
+                      - generic [ref=e1420]: ‽
+                    - button "0028 (" [ref=e1421]:
+                      - generic [ref=e1422]: "0028"
+                      - generic [ref=e1423]: (
+                    - button "0029 )" [ref=e1424]:
+                      - generic [ref=e1425]: "0029"
+                      - generic [ref=e1426]: )
+                    - button "005B [" [ref=e1427]:
+                      - generic [ref=e1428]: 005B
+                      - generic [ref=e1429]: "["
+                    - button "005D ]" [ref=e1430]:
+                      - generic [ref=e1431]: 005D
+                      - generic [ref=e1432]: "]"
+                    - 'button "007B {" [ref=e1433]':
+                      - generic [ref=e1434]: 007B
+                      - generic [ref=e1435]: "{"
+                    - 'button "007D }" [ref=e1436]':
+                      - generic [ref=e1437]: 007D
+                      - generic [ref=e1438]: "}"
+                    - button "002F /" [ref=e1439]:
+                      - generic [ref=e1440]: 002F
+                      - generic [ref=e1441]: /
+                    - button "007C |" [ref=e1442]:
+                      - generic [ref=e1443]: 007C
+                      - generic [ref=e1444]: "|"
+                    - button "00A6 ¦" [ref=e1445]:
+                      - generic [ref=e1446]: 00A6
+                      - generic [ref=e1447]: ¦
+                    - button "2016 ‖" [ref=e1448]:
+                      - generic [ref=e1449]: "2016"
+                      - generic [ref=e1450]: ‖
+                    - button "005C \\" [ref=e1451]:
+                      - generic [ref=e1452]: 005C
+                      - generic [ref=e1453]: \
+                    - button "2034 ‴" [ref=e1454]:
+                      - generic [ref=e1455]: "2034"
+                      - generic [ref=e1456]: ‴
+                    - button "0022 \"" [ref=e1457]:
+                      - generic [ref=e1458]: "0022"
+                      - generic [ref=e1459]: "\""
+                    - button "0027 '" [ref=e1460]:
+                      - generic [ref=e1461]: "0027"
+                      - generic [ref=e1462]: "'"
+                    - button "2018 ‘" [ref=e1463]:
+                      - generic [ref=e1464]: "2018"
+                      - generic [ref=e1465]: ‘
+                    - button "2019 ’" [ref=e1466]:
+                      - generic [ref=e1467]: "2019"
+                      - generic [ref=e1468]: ’
+                    - button "201C “" [ref=e1469]:
+                      - generic [ref=e1470]: 201C
+                      - generic [ref=e1471]: “
+                    - button "201D ”" [ref=e1472]:
+                      - generic [ref=e1473]: 201D
+                      - generic [ref=e1474]: ”
+                    - button "2039 ‹" [ref=e1475]:
+                      - generic [ref=e1476]: "2039"
+                      - generic [ref=e1477]: ‹
+                    - button "203A ›" [ref=e1478]:
+                      - generic [ref=e1479]: 203A
+                      - generic [ref=e1480]: ›
+                    - button "00AB «" [ref=e1481]:
+                      - generic [ref=e1482]: 00AB
+                      - generic [ref=e1483]: «
+                    - button "00BB »" [ref=e1484]:
+                      - generic [ref=e1485]: 00BB
+                      - generic [ref=e1486]: »
+                    - button "002D -" [ref=e1487]:
+                      - generic [ref=e1488]: 002D
+                      - generic [ref=e1489]: "-"
+                    - button "2012 ‒" [ref=e1490]:
+                      - generic [ref=e1491]: "2012"
+                      - generic [ref=e1492]: ‒
+                    - button "2013 –" [ref=e1493]:
+                      - generic [ref=e1494]: "2013"
+                      - generic [ref=e1495]: –
+                    - button "2014 —" [ref=e1496]:
+                      - generic [ref=e1497]: "2014"
+                      - generic [ref=e1498]: —
+                    - button "2015 ―" [ref=e1499]:
+                      - generic [ref=e1500]: "2015"
+                      - generic [ref=e1501]: ―
+                    - button "005F _" [ref=e1502]:
+                      - generic [ref=e1503]: 005F
+                      - generic [ref=e1504]: _
+                    - button "2017 ‗" [ref=e1505]:
+                      - generic [ref=e1506]: "2017"
+                      - generic [ref=e1507]: ‗
+                    - button "007E ~" [ref=e1508]:
+                      - generic [ref=e1509]: 007E
+                      - generic [ref=e1510]: ~
+                    - button "005E ^" [ref=e1511]:
+                      - generic [ref=e1512]: 005E
+                      - generic [ref=e1513]: ^
+                    - button "2020 †" [ref=e1514]:
+                      - generic [ref=e1515]: "2020"
+                      - generic [ref=e1516]: †
+                    - button "2021 ‡" [ref=e1517]:
+                      - generic [ref=e1518]: "2021"
+                      - generic [ref=e1519]: ‡
+                    - button "00B6 ¶" [ref=e1520]:
+                      - generic [ref=e1521]: 00B6
+                      - generic [ref=e1522]: ¶
+                    - button "0026 &" [ref=e1523]:
+                      - generic [ref=e1524]: "0026"
+                      - generic [ref=e1525]: "&"
+                    - button "0040 @" [ref=e1526]:
+                      - generic [ref=e1527]: "0040"
+                      - generic [ref=e1528]: "@"
+                    - button "2116 №" [ref=e1529]:
+                      - generic [ref=e1530]: "2116"
+                      - generic [ref=e1531]: №
+                    - button "00A7 §" [ref=e1532]:
+                      - generic [ref=e1533]: 00A7
+                      - generic [ref=e1534]: §
+                    - button "002A *" [ref=e1535]:
+                      - generic [ref=e1536]: 002A
+                      - generic [ref=e1537]: "*"
+                    - button "00B0 °" [ref=e1538]:
+                      - generic [ref=e1539]: 00B0
+                      - generic [ref=e1540]: °
+                    - button "00A9 ©" [ref=e1541]:
+                      - generic [ref=e1542]: 00A9
+                      - generic [ref=e1543]: ©
+                    - button "00AE ®" [ref=e1544]:
+                      - generic [ref=e1545]: 00AE
+                      - generic [ref=e1546]: ®
+                    - button "2117 ℗" [ref=e1547]:
+                      - generic [ref=e1548]: "2117"
+                      - generic [ref=e1549]: ℗
+                    - button "2122 ™" [ref=e1550]:
+                      - generic [ref=e1551]: "2122"
+                      - generic [ref=e1552]: ™
+                    - button "2120 ℠" [ref=e1553]:
+                      - generic [ref=e1554]: "2120"
+                      - generic [ref=e1555]: ℠
+                - group [ref=e1556]:
+                  - generic "Small Figures" [ref=e1557] [cursor=pointer]:
+                    - generic [ref=e1558]: Small Figures
+                    - img [ref=e1560]
+                - group [ref=e1562]:
+                  - generic "Pre-Built Fractions" [ref=e1563] [cursor=pointer]:
+                    - generic [ref=e1564]: Pre-Built Fractions
+                    - img [ref=e1566]
+                - group [ref=e1568]:
+                  - generic "Currency Symbols" [ref=e1569] [cursor=pointer]:
+                    - generic [ref=e1570]: Currency Symbols
+                    - img [ref=e1572]
+                - group [ref=e1574]:
+                  - generic "Mathematical Symbols" [ref=e1575] [cursor=pointer]:
+                    - generic [ref=e1576]: Mathematical Symbols
+                    - img [ref=e1578]
+                - group [ref=e1580]:
+                  - generic "Special Chinese Characters Set" [ref=e1581] [cursor=pointer]:
+                    - generic [ref=e1582]: Special Chinese Characters Set
+                    - img [ref=e1584]
+                - group [ref=e1586]:
+                  - generic "Icons" [ref=e1587] [cursor=pointer]:
+                    - generic [ref=e1588]: Icons
+                    - img [ref=e1590]
+                - group [ref=e1592]:
+                  - generic "Arrows" [ref=e1593] [cursor=pointer]:
+                    - generic [ref=e1594]: Arrows
+                    - img [ref=e1596]
+          - generic [ref=e1598]:
+            - generic [ref=e1599]:
+              - link [ref=e1600] [cursor=pointer]:
+                - /url: https://dcym8fthxf5uu.cloudfront.net/files/2ba384dc64a39ab559ae212531566e22/2024-Doyle-Specimen.pdf
+                - img [ref=e1601]
+              - generic [ref=e1607]:
+                - generic [ref=e1608]:
+                  - generic [ref=e1609]: aalt
+                  - generic [ref=e1610]: Access All Alternates
+                - generic [ref=e1611]:
+                  - generic [ref=e1612]: case
+                  - generic [ref=e1613]: Case-Sensitive Forms
+                - generic [ref=e1614]:
+                  - generic [ref=e1615]: dnom
+                  - generic [ref=e1616]: Denominators
+                - generic [ref=e1617]:
+                  - generic [ref=e1618]: frac
+                  - generic [ref=e1619]: Fractions
+                - generic [ref=e1620]:
+                  - generic [ref=e1621]: liga
+                  - generic [ref=e1622]: Standard Ligatures
+                - generic [ref=e1623]:
+                  - generic [ref=e1624]: locl
+                  - generic [ref=e1625]: Localized Forms
+                - generic [ref=e1626]:
+                  - generic [ref=e1627]: numr
+                  - generic [ref=e1628]: Numerators
+                - generic [ref=e1629]:
+                  - generic [ref=e1630]: ordn
+                  - generic [ref=e1631]: Ordinals
+                - generic [ref=e1632]:
+                  - generic [ref=e1633]: salt
+                  - generic [ref=e1634]: Stylistic Alternates
+                - generic [ref=e1635]:
+                  - generic [ref=e1636]: sinf
+                  - generic [ref=e1637]: Scientific Inferiors
+                - generic [ref=e1639]: ss01
+                - generic [ref=e1642]: ss02
+                - generic [ref=e1645]: ss03
+                - generic [ref=e1648]: ss04
+                - generic [ref=e1651]: ss05
+                - generic [ref=e1654]: ss06
+                - generic [ref=e1657]: ss07
+                - generic [ref=e1660]: ss08
+                - generic [ref=e1662]:
+                  - generic [ref=e1663]: subs
+                  - generic [ref=e1664]: Subscript
+                - generic [ref=e1665]:
+                  - generic [ref=e1666]: sups
+                  - generic [ref=e1667]: Superscript
+            - generic [ref=e1669]: Acheron, Achinese, Acholi, Afar, Afrikaans, Alekano, Aleut, Amahuaca, Amarakaeri, Amis, Anaang, Andaandi, Dongolawi, Anuta, Ao Naga, Aragonese, Arbëreshë Albanian, Arvanitika Albanian, Asháninka, Ashéninka Perené, Asu (Tanzania), Balinese, Bari, Basque, Batak Dairi, Batak Karo, Batak Mandailing, Batak Simalungun, Batak Toba, Bemba (Zambia), Bena (Tanzania), Bikol, Bislama, Borana-Arsi-Guji Oromo, Bosnian, Breton, Buginese, Candoshi-Shapra, Caquinte, Cashibo-Cacataibo, Catalan, Cebuano, Central Aymara, Central Kurdish, Chamorro, Chavacano, Chiga, Chiltepec Chinantec, Chokwe, Chuukese, Cimbrian, Cofán, Congo Swahili, Cook Islands Māori, Cornish, Corsican, Creek, Crimean Tatar, Croatian, Czech, Danish, Dehu, Dutch, Eastern Arrernte, Eastern Oromo, Embu, English, Ese Ejja, Faroese, Fijian, Filipino, Finnish, French, Friulian, Gagauz, Galician, Ganda, Ga’anda, German, Gheg Albanian, Gilbertese, Gooniyandi, Gourmanchéma, Guadeloupean Creole French, Gusii, Haitian, Hani, Hiligaynon, Ho-Chunk, Hopi, Huastec, Hungarian, Icelandic, Iloko, Inari Sami, Indonesian, Irish, Istro Romanian, Italian, Ixcatlán Mazatec, Jamaican Creole English, Japanese, Javanese, Jola-Fonyi, K'iche', Kabuverdianu, Kala Lagaw Ya, Kalaallisut, Kalenjin, Kamba (Kenya), Kaonde, Karelian, Kashubian, Kekchí, Kenzi, Mattokki, Khasi, Kikuyu, Kimbundu, Kinyarwanda, Kituba (DRC), Kongo, Konzo, Kuanyama, Kven Finnish, Kölsch, Ladin, Ladino, Latgalian, Ligurian, Lithuanian, Lombard, Low German, Lower Sorbian, Luba-Lulua, Lule Sami, Luo (Kenya and Tanzania), Luxembourgish, Macedo-Romanian, Makhuwa, Makhuwa-Meetto, Makonde, Makwe, Malagasy, Malaysian, Maltese, Mandinka, Mandjak, Mankanya, Manx, Maore Comorian, Maori, Mapudungun, Matsés, Mauritian Creole, Meriam Mir, Meru, Minangkabau, Mirandese, Mohawk, Montenegrin, Munsee, Murrinh-Patha, Mwani, Mískito, Naga Pidgin, Ndonga, Neapolitan, Ngazidja Comorian, Niuean, Nobiin, Nomatsiguenga, North Ndebele, Northern Kurdish, Northern Qiandong Miao, Northern Sami, Northern Uzbek, Norwegian, Nyanja, Nyankole, Occitan, Orma, Oroqen, Palauan, Paluan, Pampanga, Papiamento, Pedi, Picard, Pichis Ashéninka, Piemontese, Pijin, Pintupi-Luritja, Pohnpeian, Polish, Portuguese, Potawatomi, Quechua, Romanian, Romansh, Rotokas, Rundi, Rwa, Samburu, Samoan, Sango, Sangu (Tanzania), Saramaccan, Sardinian, Scots, Scottish Gaelic, Sena, Seri, Seselwa Creole French, Shambala, Shawnee, Shipibo-Conibo, Shona, Sicilian, Silesian, Slovak, Slovenian, Soga, Somali, Soninke, South Ndebele, Southern Aymara, Southern Qiandong Miao, Southern Sami, Southern Sotho, Spanish, Sranan Tongo, Standard Estonian, Standard Latvian, Standard Malay, Sundanese, Swahili, Swati, Swedish, Swiss German, Tagalog, Tahitian, Taita, Tedim Chin, Tetum, Tetun Dili, Tiv, Tok Pisin, Tokelau, Tonga (Tonga Islands), Tosk Albanian, Tsonga, Tswana, Tumbuka, Turkish, Turkmen, Tzeltal, Tzotzil, Uab Meto, Ume Sami, Upper Guinea Crioulo, Upper Sorbian, Venetian, Veps, Võro, Walloon, Walser, Wangaaybuwan-Ngiyambaa, Waray (Philippines), Warlpiri, Wayuu, Welsh, West Central Oromo, Western Abnaki, Western Frisian, Wik-Mungkan, Wiradjuri, Wolof, Xhosa, Yanesha', Yao, Yapese, Yindjibarndi, Yucateco, Zulu, Záparo
+  - contentinfo [ref=e1674]:
+    - generic [ref=e1676]:
+      - generic [ref=e1678]:
+        - heading "Sharp Type Bulletin" [level=3] [ref=e1679]
+        - textbox "Email Address" [ref=e1681]
+        - textbox [ref=e1683]
+        - button "Subscribe" [ref=e1684]
+      - generic [ref=e1685]:
+        - text: By submitting your email you agree to receive updates about Sharp Type. You can unsubscribe at any time.
+        - link "View our full Privacy Policy" [ref=e1686] [cursor=pointer]:
+          - /url: /privacy-policy
+        - text: .
+    - navigation [ref=e1687]:
+      - generic [ref=e1688]:
+        - generic [ref=e1689]:
+          - link "Alpes" [ref=e1691] [cursor=pointer]:
+            - /url: /typefaces/alpes
+            - text: Alpes
+          - link "Alpes Mono" [ref=e1694] [cursor=pointer]:
+            - /url: /typefaces/alpes-mono
+            - text: Alpes Mono
+        - generic [ref=e1696]:
+          - link "Beatrice Display" [ref=e1698] [cursor=pointer]:
+            - /url: /typefaces/beatrice-display
+            - text: Beatrice Display
+          - link "Beatrice Headline" [ref=e1701] [cursor=pointer]:
+            - /url: /typefaces/beatrice-headline
+            - text: Beatrice Headline
+          - link "Beatrice Deck" [ref=e1704] [cursor=pointer]:
+            - /url: /typefaces/beatrice-deck
+            - text: Beatrice Deck
+          - link "Beatrice Standard" [ref=e1707] [cursor=pointer]:
+            - /url: /typefaces/beatrice-standard
+            - text: Beatrice Standard
+        - link "Carta Nueva" [ref=e1711] [cursor=pointer]:
+          - /url: /typefaces/carta-nueva
+          - text: Carta Nueva
+        - generic [ref=e1713]:
+          - link "Centra No.1" [ref=e1715] [cursor=pointer]:
+            - /url: /typefaces/centra-no-1
+            - text: Centra No.1
+          - link "Centra No.2" [ref=e1718] [cursor=pointer]:
+            - /url: /typefaces/centra-no-2
+            - text: Centra No.2
+          - link "Centra Mono" [ref=e1721] [cursor=pointer]:
+            - /url: /typefaces/centra-mono
+            - text: Centra Mono
+        - link "Ceraph" [ref=e1725] [cursor=pointer]:
+          - /url: /typefaces/ceraph
+          - text: Ceraph
+        - link "Cordier Script" [ref=e1729] [cursor=pointer]:
+          - /url: /typefaces/cordier-script
+          - text: Cordier Script
+        - link "DOSS Collection" [ref=e1733] [cursor=pointer]:
+          - /url: /typefaces/doss-superfamily
+          - text: DOSS Collection
+        - link "Doyle" [ref=e1737] [cursor=pointer]:
+          - /url: /typefaces/doyle
+          - text: Doyle
+        - generic [ref=e1739]:
+          - link "Eterne Display" [ref=e1741] [cursor=pointer]:
+            - /url: /typefaces/eterne-display
+            - text: Eterne Display
+          - link "Eterne Text" [ref=e1744] [cursor=pointer]:
+            - /url: /typefaces/eterne-text
+            - text: Eterne Text
+        - link "Frauen" [ref=e1748] [cursor=pointer]:
+          - /url: /typefaces/frauen
+          - text: Frauen
+        - link "Ghost" [ref=e1752] [cursor=pointer]:
+          - /url: /typefaces/ghost
+          - text: Ghost
+        - link "Greenstone" [ref=e1756] [cursor=pointer]:
+          - /url: /typefaces/greenstone
+          - text: Greenstone
+        - generic [ref=e1758]:
+          - link "Hauss" [ref=e1760] [cursor=pointer]:
+            - /url: /typefaces/hauss
+            - text: Hauss
+          - link "Raum" [ref=e1763] [cursor=pointer]:
+            - /url: /typefaces/raum
+            - text: Raum
+        - link "Octave" [ref=e1767] [cursor=pointer]:
+          - /url: /typefaces/octave
+          - text: Octave
+        - generic [ref=e1769]:
+          - link "Ogg Text" [ref=e1771] [cursor=pointer]:
+            - /url: /typefaces/ogg-text
+            - text: Ogg Text
+          - link "Ogg" [ref=e1774] [cursor=pointer]:
+            - /url: /typefaces/ogg
+            - text: Ogg
+        - link "Post Grotesk" [ref=e1778] [cursor=pointer]:
+          - /url: /typefaces/post-grotesk
+          - text: Post Grotesk
+        - generic [ref=e1780]:
+          - link "Record Laser" [ref=e1782] [cursor=pointer]:
+            - /url: /typefaces/record-laser
+            - text: Record Laser
+          - link "Record Disc" [ref=e1785] [cursor=pointer]:
+            - /url: /typefaces/record-disc
+            - text: Record Disc
+        - link "Respira" [ref=e1789] [cursor=pointer]:
+          - /url: /typefaces/respira
+          - text: Respira
+        - link "Rosalie" [ref=e1793] [cursor=pointer]:
+          - /url: /typefaces/rosalie
+          - text: Rosalie
+        - generic [ref=e1795]:
+          - link "Rotina" [ref=e1797] [cursor=pointer]:
+            - /url: /typefaces/rotina
+            - text: Rotina
+          - link "Rotina Swash" [ref=e1800] [cursor=pointer]:
+            - /url: /typefaces/rotina
+            - text: Rotina Swash
+          - link "Rotina Script" [ref=e1803] [cursor=pointer]:
+            - /url: /typefaces/rotina
+            - text: Rotina Script
+        - link "Salter" [ref=e1807] [cursor=pointer]:
+          - /url: /typefaces/salter
+          - text: Salter
+        - generic [ref=e1809]:
+          - link "Sharp Earth" [ref=e1811] [cursor=pointer]:
+            - /url: /typefaces/earth-omni-latin
+            - text: Sharp Earth
+          - link "Sharp Earth PanEuro" [ref=e1814] [cursor=pointer]:
+            - /url: /typefaces/earth-pan-euro
+            - text: Sharp Earth PanEuro
+          - link "Sharp Earth 日本語" [ref=e1817] [cursor=pointer]:
+            - /url: /typefaces/earth-japanese
+            - text: Sharp Earth 日本語
+          - link "Sharp Earth عربي" [ref=e1820] [cursor=pointer]:
+            - /url: /typefaces/earth-arabic
+            - text: Sharp Earth عربي
+          - link "Sharp Earth देवनागरी" [ref=e1823] [cursor=pointer]:
+            - /url: /typefaces/earth-devanagari
+            - text: Sharp Earth देवनागरी
+          - link "Sharp Earth ภาษาไทย" [ref=e1826] [cursor=pointer]:
+            - /url: /typefaces/earth-thai
+            - text: Sharp Earth ภาษาไทย
+          - link "Sharp Earth Mono" [ref=e1829] [cursor=pointer]:
+            - /url: /typefaces/sharp-earth-mono
+            - text: Sharp Earth Mono
+        - link "Sharp Freehand" [ref=e1833] [cursor=pointer]:
+          - /url: /typefaces/sharp-freehand
+          - text: Sharp Freehand
+        - generic [ref=e1835]:
+          - link "Sharp Grotesk Pan Euro" [ref=e1837] [cursor=pointer]:
+            - /url: /typefaces/sharp-grotesk-pan-euro
+            - text: Sharp Grotesk Pan Euro
+          - link "Sharp Grotesk 한글" [ref=e1840] [cursor=pointer]:
+            - /url: /typefaces/sharp-grotesk-hangul
+            - text: Sharp Grotesk 한글
+          - link "Sharp Grotesk" [ref=e1843] [cursor=pointer]:
+            - /url: /typefaces/sharp-grotesk
+            - text: Sharp Grotesk
+          - link "Sharp Grotesk ภาษาไทย" [ref=e1846] [cursor=pointer]:
+            - /url: /typefaces/sharp-grotesk-thai
+            - text: Sharp Grotesk ภาษาไทย
+        - link "Sharp Roman" [ref=e1850] [cursor=pointer]:
+          - /url: /typefaces/sharp-roman
+          - text: Sharp Roman
+        - generic [ref=e1852]:
+          - link "Sharp Sans Display No.1" [ref=e1854] [cursor=pointer]:
+            - /url: /typefaces/sharp-sans-display-no-1
+            - text: Sharp Sans Display No.1
+          - link "Sharp Sans Display No.2" [ref=e1857] [cursor=pointer]:
+            - /url: /typefaces/sharp-sans-display-no-2
+            - text: Sharp Sans Display No.2
+          - link "Sharp Sans" [ref=e1860] [cursor=pointer]:
+            - /url: /typefaces/sharp-sans
+            - text: Sharp Sans
+          - link "Sharp Slab" [ref=e1863] [cursor=pointer]:
+            - /url: /typefaces/sharp-slab
+            - text: Sharp Slab
+          - link "Sharp Sans Condensed" [ref=e1866] [cursor=pointer]:
+            - /url: /typefaces/sharp-sans-condensed
+            - text: Sharp Sans Condensed
+        - generic [ref=e1868]:
+          - link "Sharp Serif Text" [ref=e1870] [cursor=pointer]:
+            - /url: /typefaces/sharp-serif-omni
+            - text: Sharp Serif Text
+          - link "Sharp Serif Text PanEuro" [ref=e1873] [cursor=pointer]:
+            - /url: /typefaces/sharp-serif-pan-euro
+            - text: Sharp Serif Text PanEuro
+          - link "Sharp Serif Display" [ref=e1876] [cursor=pointer]:
+            - /url: /typefaces/sharp-serif-display
+            - text: Sharp Serif Display
+          - link "Sharp Serif Display PanEuro" [ref=e1879] [cursor=pointer]:
+            - /url: /typefaces/sharp-serif-display-paneuro
+            - text: Sharp Serif Display PanEuro
+        - link "Simula" [ref=e1883] [cursor=pointer]:
+          - /url: /typefaces/simula
+          - text: Simula
+        - generic [ref=e1885]:
+          - link "Tarnac" [ref=e1887] [cursor=pointer]:
+            - /url: /typefaces/tarnac
+            - text: Tarnac
+          - link "Tarnac Sans" [ref=e1890] [cursor=pointer]:
+            - /url: /typefaces/tarnac-sans
+            - text: Tarnac Sans
+        - link "Trois Mille" [ref=e1894] [cursor=pointer]:
+          - /url: /typefaces/trois-mille
+          - text: Trois Mille
+      - generic [ref=e1896]:
+        - generic [ref=e1897]:
+          - link "About Us" [ref=e1898] [cursor=pointer]:
+            - /url: /about-us
+          - link "Contact Us" [ref=e1899] [cursor=pointer]:
+            - /url: /contact-us
+          - link "Things" [ref=e1900] [cursor=pointer]:
+            - /url: /things
+          - link "FAQ" [ref=e1901] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy Policy" [ref=e1902] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Cookies" [ref=e1903] [cursor=pointer]:
+            - /url: /cookies
+          - link "Terms of Use" [ref=e1904] [cursor=pointer]:
+            - /url: /terms-of-use
+        - generic [ref=e1905]:
+          - link "IG" [ref=e1906] [cursor=pointer]:
+            - /url: https://www.instagram.com/sharp_type
+          - text: /
+          - link "X" [ref=e1907] [cursor=pointer]:
+            - /url: https://x.com/sharptypeco
+  - generic [ref=e1908]:
+    - generic [ref=e1909]: We use cookies to enhance your browsing experience and provide essential functionality on our website. By continuing to use this site, you consent to the use of cookies in accordance with our Cookie Policy.
+    - generic [ref=e1910]:
+      - link "Learn more" [ref=e1911] [cursor=pointer]:
+        - /url: /cookies
+      - button "I Accept" [ref=e1912] [cursor=pointer]:
+        - generic [ref=e1913]: I Accept
+  - alert [ref=e1914]

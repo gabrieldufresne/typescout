@@ -1,0 +1,1726 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Optimo®" [ref=e4] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Typefaces" [ref=e8] [cursor=pointer]:
+            - /url: /typefaces
+        - listitem [ref=e9]:
+          - link "Type it" [ref=e10] [cursor=pointer]:
+            - /url: /type_it
+        - listitem [ref=e11]:
+          - link "Custom" [ref=e12] [cursor=pointer]:
+            - /url: /custom
+        - listitem [ref=e13]:
+          - link "Articles" [ref=e15] [cursor=pointer]:
+            - /url: /articles
+        - listitem [ref=e16]:
+          - text: Information
+          - navigation:
+            - list:
+              - listitem:
+                - link "FAQ":
+                  - /url: /faq
+              - listitem:
+                - link "Specifications":
+                  - /url: /specifications
+              - listitem:
+                - link "EULA":
+                  - /url: /eula
+              - listitem:
+                - link "Terms of Service":
+                  - /url: /terms_of_service
+              - listitem:
+                - link "Privacy Policy":
+                  - /url: /privacy_policy
+              - listitem:
+                - link "Designers":
+                  - /url: /designers
+              - listitem:
+                - link "About":
+                  - /url: /about_optimo
+              - listitem:
+                - link "Contact":
+                  - /url: /contact
+        - listitem [ref=e17]:
+          - link "Sign In" [ref=e18] [cursor=pointer]:
+            - /url: /sign_in
+  - generic [ref=e19]:
+    - img [ref=e23]
+    - img [ref=e27]
+    - img [ref=e31]
+    - img [ref=e35]
+    - img [ref=e39]
+    - img [ref=e43]
+    - img [ref=e47]
+    - img [ref=e51]
+    - img [ref=e55]
+    - img [ref=e59]
+    - img [ref=e63]
+    - img [ref=e67]
+    - img [ref=e71]
+    - img [ref=e75]
+    - img [ref=e79]
+    - generic [ref=e81]:
+      - button [ref=e82]
+      - button [ref=e83]
+      - button [ref=e84]
+      - button [ref=e85]
+      - button [ref=e86]
+      - button [ref=e87]
+      - button [ref=e88]
+      - button [ref=e89]
+      - button [ref=e90]
+      - button [ref=e91]
+      - button [ref=e92]
+      - button [ref=e93]
+      - button [ref=e94]
+      - button [ref=e95]
+      - button [ref=e96]
+  - main [ref=e98]:
+    - navigation:
+      - link "Type It" [ref=e99] [cursor=pointer]:
+        - /url: "#type_it"
+      - link "Family Overview" [ref=e100] [cursor=pointer]:
+        - /url: "#family_overview"
+      - link "OpenType Features" [ref=e101] [cursor=pointer]:
+        - /url: "#opentype_features"
+      - link "Character Map" [ref=e102] [cursor=pointer]:
+        - /url: "#character_map"
+      - link "About" [ref=e103] [cursor=pointer]:
+        - /url: "#about"
+    - generic [ref=e105]:
+      - generic [ref=e107]:
+        - heading "SuperScotch" [level=2] [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]: Thin
+          - generic [ref=e111]: Thin Italic
+          - generic [ref=e112]: Light
+          - generic [ref=e113]: Light Italic
+          - generic [ref=e114]: Book
+          - generic [ref=e115]: Book Italic
+          - generic [ref=e116]: Regular
+          - generic [ref=e117]: Italic
+          - generic [ref=e118]: Bold
+          - generic [ref=e119]: Bold Italic
+          - generic [ref=e120]: Black
+          - generic [ref=e121]: Black Italic
+          - generic [ref=e122]: Extra
+          - generic [ref=e123]: Extra Italic
+      - generic [ref=e124]:
+        - heading "SuperScotch Display" [level=2] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]: Display Thin
+          - generic [ref=e128]: Display Thin Italic
+          - generic [ref=e129]: Display Light
+          - generic [ref=e130]: Display Light Italic
+          - generic [ref=e131]: Display Regular
+          - generic [ref=e132]: Display Italic
+          - generic [ref=e133]: Display Bold
+          - generic [ref=e134]: Display Bold Italic
+          - generic [ref=e135]: Display Black
+          - generic [ref=e136]: Display Black Italic
+          - generic [ref=e137]: Display Extra
+          - generic [ref=e138]: Display Extra Italic
+    - generic [ref=e139]:
+      - generic [ref=e142]:
+        - heading "OpenType Features" [level=2] [ref=e143]
+        - list [ref=e146]:
+          - listitem: SuperScotch Light
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - heading "Case Sensitive Forms" [level=2] [ref=e150]
+            - generic:
+              - generic [ref=e151] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: All Caps [cpsp]
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Case Sensitive Forms [case]
+                - paragraph: This function formats the text in uppercase and adjusts spacing between all capital letters. It also applies the ‘Case Sensitive Forms’ feature which replaces certain characters with alternates that are better suited for all capital text, especially related to punctuation.
+          - generic [ref=e152]:
+            - paragraph [ref=e154]:
+              - text: «Optimo»
+              - generic [ref=e155]: "@|¦()[]{}¿¡‹›«»-–—·"
+            - paragraph [ref=e157]:
+              - text: «OPTIMO»
+              - text: "@|¦()[]{}¿¡‹›«»-–—·"
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - heading "Contextual Alternates" [level=2] [ref=e160]
+            - generic:
+              - generic [ref=e161] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Contextual Alternates [calt]
+                - paragraph: This feature adapts the position of a glyph after its surrounding context. For instance, a dash placed between two uppercase letters or numbers will be replaced by an uppercase version of the dash, slightly higher. This feature is usually active by default in Adobe applications.
+          - generic [ref=e162]:
+            - generic [ref=e163]: A-A B–0 1—2
+            - generic [ref=e164]: A-A B–0 1—2
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - heading "Alternate T" [level=2] [ref=e167]
+            - generic:
+              - generic [ref=e168] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Stylistic Set 1 [ss01]
+                - paragraph: This feature replaces glyph(s) with stylistic alternate(s).
+          - generic [ref=e169]:
+            - paragraph [ref=e171]:
+              - text: Teaching ASPHALT
+              - text: TŦŤŢȚ
+            - paragraph [ref=e173]:
+              - text: Teaching ASPHALT
+              - text: TŦŤŢȚ
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - heading "Alternate ?" [level=2] [ref=e176]
+            - generic:
+              - generic [ref=e177] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Stylistic Set 2 [ss02]
+                - paragraph: This feature replaces glyph(s) with stylistic alternate(s).
+          - generic [ref=e178]:
+            - paragraph [ref=e180]: ¿Qué tal?
+            - paragraph [ref=e182]: ¿Qué tal?
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - heading "Alternate 3 5" [level=2] [ref=e185]
+            - generic:
+              - generic [ref=e186] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Stylistic Set 7 [ss07]
+                - paragraph: This feature replaces glyph(s) with stylistic alternate(s).
+          - generic [ref=e187]:
+            - paragraph [ref=e189]: "35"
+            - paragraph [ref=e191]: "35"
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - heading "Alternate 4" [level=2] [ref=e194]
+            - generic:
+              - generic [ref=e195] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Stylistic Set 8 [ss08]
+                - paragraph: This feature replaces glyph(s) with stylistic alternate(s).
+          - generic [ref=e196]:
+            - paragraph [ref=e198]: "4"
+            - paragraph [ref=e200]: "4"
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - heading "Alternate g" [level=2] [ref=e203]
+            - generic:
+              - generic [ref=e204] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Stylistic Set 9 [ss09]
+                - paragraph: This feature replaces glyph(s) with stylistic alternate(s).
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - paragraph [ref=e207]: Playground
+              - paragraph [ref=e208]: gğĝģġ
+            - generic [ref=e209]:
+              - paragraph [ref=e210]: Playground
+              - paragraph [ref=e211]: gğĝģġ
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - heading "Alternate a [uprights only]" [level=2] [ref=e214]
+            - generic:
+              - generic [ref=e215] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Stylistic Set 10 [ss10]
+                - paragraph: This feature replaces glyph(s) with stylistic alternate(s).
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - paragraph [ref=e218]: Nails
+              - paragraph [ref=e219]: aáăâäàāąåã
+            - generic [ref=e220]:
+              - paragraph [ref=e221]: Nails
+              - paragraph [ref=e222]: aáăâäàāąåã
+        - generic [ref=e223]:
+          - generic [ref=e224]:
+            - heading "Tabular Lining Figures" [level=2] [ref=e225]
+            - generic:
+              - generic [ref=e226] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Tabular Lining Figures [tnum–lnum]
+                - paragraph: Based on the proportions of the capitals, lining figures have an invariable height. With the combination of the tabular spacing format, the width of each numeral is uniformized. This feature is useful when numerals need to all lined up. It facilitates the reading of numbers set within columns or tables. As some applications don’t have access to this feature, proportional figures are set as the default choice.
+          - generic [ref=e227]:
+            - paragraph [ref=e229]: "0123456789"
+            - paragraph [ref=e231]: "0123456789"
+        - generic [ref=e232]:
+          - generic [ref=e233]:
+            - heading "Proportional Oldstyle Figures" [level=2] [ref=e234]
+            - generic:
+              - generic [ref=e235] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Proportional Oldstyle Figures [pnum–onum]
+                - paragraph: Based on the design of the lowercase, oldstyle figures have varying ascenders and descenders. Like most of the letters, each number has an appropriate width based on its shape. The combination of oldstyle figures with proportional setting generate numerals perfectly adapted for text.
+          - generic [ref=e236]:
+            - generic [ref=e237]: "0123456789"
+            - generic [ref=e238]: "0123456789"
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - heading "Tabular Oldstyle Figures" [level=2] [ref=e241]
+            - generic:
+              - generic [ref=e242] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Tabular Oldstyle Figures [tnum–onum]
+                - paragraph: Based on the design of the lowercase, oldstyle figures have varying ascenders and descenders. With the combination of the tabular spacing format, the width of each numeral is uniformized. This feature is useful when numerals need to all lined up. It facilitates the reading of numbers set within columns or tables.
+          - generic [ref=e243]:
+            - generic [ref=e244]: "0123456789"
+            - generic [ref=e245]: "0123456789"
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - heading "Fractions" [level=2] [ref=e248]
+            - generic:
+              - generic [ref=e249] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Fractions [frac]
+                - paragraph: With this feature, any numbers separated by a slash will automatically turn into a fraction. To fit in fraction configuration, numerals have been designed smaller and their weights have been adjusted to suit the typeface.
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - text: 1/2 1/3 2/3 1/
+              - generic [ref=e252]: "4"
+              - text: 3/4 3/8 5/8 7/8
+            - generic [ref=e253]:
+              - text: 1/2 1/3 2/3 1/
+              - generic [ref=e254]: "4"
+              - text: 3/4 3/8 5/8 7/8
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - heading "Lowercase math symbols" [level=2] [ref=e257]
+            - generic:
+              - generic [ref=e258] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Stylistic Set 6 [ss06]
+                - paragraph: This feature activates alternate lowercase positioning of mathematical symbols.
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - text: 4−7×8
+              - text: up+down
+              - text: +±×÷−=≈≠¬∞
+            - generic [ref=e261]:
+              - text: 4−7×8
+              - text: up+down
+              - text: +±×÷−=≈≠¬∞
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - heading "Ordinals" [level=2] [ref=e264]
+            - generic:
+              - generic [ref=e265] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Ordinals [ordn]
+                - paragraph: This feature replaces any letter following a numeral with its matching superior letters. French language uses the ordinal indicators such as ‘er’ for 1er premier, while Spanish, Portuguese and Italian require the feminine and masculine ordinals ‘a,’ ‘o’ for 1º, 1ª. Ordinals are designed to match the weight of the typeface.
+          - generic [ref=e266]:
+            - generic [ref=e267]: 2a 2o 1er
+            - generic [ref=e268]: 2a 2o 1er
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - heading "Slashed Zero" [level=2] [ref=e271]
+            - generic:
+              - generic [ref=e272] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Slashed Zero [zero]
+                - paragraph: Originally created to avoid the confusion between the ‘0’ and the ‘O’, this feature substitutes all zeros in a selected text by a slashed form of the zero.
+          - generic [ref=e273]:
+            - generic [ref=e274]: "0"
+            - generic [ref=e275]: "0"
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - heading "Slashed Zero Oldstyle" [level=2] [ref=e278]
+            - generic:
+              - generic [ref=e279] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Slashed Zero [zero]
+                - paragraph: Originally created to avoid the confusion between the ‘0’ and the ‘O’, this feature substitutes all zeros in a selected text by a slashed form of the zero.
+                - generic:
+                  - img
+                  - generic: Proportional Oldstyle Figures [onum]
+                - paragraph: Tabular figures are all of equal width. They are only needed when the figures must all line up from one line to the next, as in a table. Proportional figures have varying widths, just like most letters; each number has a width appropriate to its design. Lining figures are all the same height, usually similar to that of capital letters. They are needed for use with all-capital settings.
+          - generic [ref=e280]:
+            - generic [ref=e281]: "0"
+            - generic [ref=e282]: "0"
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - heading "Multiply sign" [level=2] [ref=e285]
+            - generic:
+              - generic [ref=e286] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Stylistic Set 20 [ss20]
+                - paragraph: This feature substitutes the letter “x” into the multiplication sign.
+          - generic [ref=e287]:
+            - generic [ref=e288]: 32x50 cm
+            - generic [ref=e289]: 32x50 cm
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - heading "Numerators" [level=2] [ref=e292]
+            - generic:
+              - generic [ref=e293] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Numerators [numr]
+                - paragraph: This feature substitutes glyphs with their matching smaller alternates. The numerators are the same glyphs that are used to create fractions, their vertical position remains within the capital letters height. These glyphs are reduced in size and designed slightly heavier to keep them consistent with the rest of the font.
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - text: H0123456789−+=
+              - text: Habcdefghijklmn
+              - text: Hopqrstuvwxyz()[].,
+            - generic [ref=e296]:
+              - text: H0123456789−+=
+              - text: Habcdefghijklmn
+              - text: Hopqrstuvwxyz()[].,
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - heading "Denominators" [level=2] [ref=e299]
+            - generic:
+              - generic [ref=e300] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Denominators [dnom]
+                - paragraph: This feature substitutes glyphs with their matching smaller alternates and low position glyphs. The denominators are the same glyphs that are used to create fractions, their vertical position remains within the base line. These glyphs are reduced in size and designed slightly heavier to keep them consistent with the rest of the font.
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - text: H0123456789−+=
+              - text: Habcdefghijklmn
+              - text: Hopqrstuvwxyz()[].,
+            - generic [ref=e303]:
+              - text: H0123456789−+=
+              - text: Habcdefghijklmn
+              - text: Hopqrstuvwxyz()[].,
+        - generic [ref=e304]:
+          - generic [ref=e305]:
+            - heading "Superscript/Superiors" [level=2] [ref=e306]
+            - generic:
+              - generic [ref=e307] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Superscript / Superiors [sups]
+                - paragraph: This feature substitutes glyphs with their matching smaller alternates which are set slightly above the height of the capital letters. These glyphs are reduced in size and designed slightly heavier to keep them consistent with the rest of the font.
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - text: H0123456789−+=
+              - text: Habcdefghijklmn
+              - text: Hopqrstuvwxyz()[].,
+            - generic [ref=e310]:
+              - text: H0123456789−+=
+              - text: Habcdefghijklmn
+              - text: Hopqrstuvwxyz()[].,
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - heading "Subscript/Inferiors" [level=2] [ref=e313]
+            - generic:
+              - generic [ref=e314] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Subscript / Inferiors [subs]
+                - paragraph: This feature substitutes glyphs with their matching smaller alternates which are set slightly below the baseline. These glyphs are reduced in size and designed slightly heavier to keep them consistent with the rest of the font.
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - text: H0123456789−+=
+              - text: Habcdefghijklmno
+              - text: Hpqrstuvwxyz()[].,
+            - generic [ref=e317]:
+              - text: H0123456789−+=
+              - text: Habcdefghijklmno
+              - text: Hpqrstuvwxyz()[].,
+        - generic [ref=e318]:
+          - generic [ref=e319]:
+            - heading "Standard Ligatures" [level=2] [ref=e320]
+            - generic:
+              - generic [ref=e321] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Standard Ligatures [liga]
+                - paragraph: Standard ligatures replaces a sequence of characters with a single ligature glyph, they are designed to improve kerning and readability of certain letter pairs.
+          - generic [ref=e322]:
+            - paragraph [ref=e324]: fi ffi fl ffl ff fb ffb fh ffh fk ffk ft ff fj
+            - paragraph [ref=e326]: fi ffi fl ffl ff fb ffb fh ffh fk ffk ft ff fj
+        - generic [ref=e327]:
+          - generic [ref=e328]:
+            - heading "Discretionary Ligatures" [level=2] [ref=e329]
+            - generic:
+              - generic [ref=e330] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Discretionary Ligatures [dlig]
+                - paragraph: This feature activates discretionary ligatures which are specific to the typeface. It applies all other designed ligatures that are not classified as standard ligatures.
+          - generic [ref=e331]:
+            - paragraph [ref=e333]: "-> <-"
+            - paragraph [ref=e335]: "-> <-"
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - heading "Small Caps" [level=2] [ref=e338]
+            - generic:
+              - generic [ref=e339] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: Small Caps [smcp]
+                - paragraph: This feature formats the text from lowercase or uppercase to small caps. Depending on the software used, lowercase may be affected only when a word starts with a capital.
+          - generic [ref=e340]:
+            - generic [ref=e341]:
+              - text: Small Caps
+              - generic [ref=e342]: abcdefghijklmn
+              - generic [ref=e343]:
+                - text: opqrstuvwxyz&
+                - text: 0123456789-–—
+                - text: "()[]{}¡!¿?‘’“”‚„'\"/\\|¦"
+            - generic [ref=e344]:
+              - text: Small Caps
+              - generic [ref=e345]: abcdefghijklmn
+              - generic [ref=e346]:
+                - text: opqrstuvwxyz&
+                - text: 0123456789-–—
+                - text: "()[]{}¡!¿?‘’“”‚„'\"/\\|¦"
+        - generic [ref=e347]:
+          - generic [ref=e348]:
+            - heading "All Small Caps" [level=2] [ref=e349]
+            - generic:
+              - generic [ref=e350] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic: All Small Caps [c2sc]
+                - paragraph: This feature formats the text from lowercase or uppercase to small caps. It uses alternate characters for punctuation which are lowered and adjusted to small caps. Depending on the software used, lowercase may be affected only when a word starts with a capital.
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - generic [ref=e353]: ALL SMALL CAPS
+              - text: ABCDEFGHIJK
+              - generic [ref=e354]:
+                - text: LMN
+                - text: OPQRSTU
+              - text: VWXYZ&
+              - paragraph [ref=e355]:
+                - text: "0123456789"
+                - generic [ref=e356]:
+                  - text: "-–—"
+                  - text: "()[]{}¡!¿?‘’“”‚„'\"/\\|¦"
+            - generic [ref=e357]:
+              - generic [ref=e358]: ALL SMALL CAPS
+              - text: ABCDEFGHIJK
+              - generic [ref=e359]:
+                - text: LMN
+                - text: OPQRSTU
+              - text: VWXYZ&
+              - paragraph [ref=e360]:
+                - text: "0123456789"
+                - generic [ref=e361]:
+                  - text: "-–—"
+                  - text: "()[]{}¡!¿?‘’“”‚„'\"/\\|¦"
+        - generic [ref=e362]:
+          - generic [ref=e363]:
+            - heading "Circled Figures" [level=2] [ref=e364]
+            - generic:
+              - generic [ref=e365] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Stylistic Set 14 [ss14]
+                - paragraph: This feature replaces glyph(s) with stylistic alternate(s).
+          - generic [ref=e366]:
+            - paragraph [ref=e368]: "0123456789"
+            - paragraph [ref=e370]: "0123456789"
+        - generic [ref=e371]:
+          - generic [ref=e372]:
+            - heading "Black Circled Figures" [level=2] [ref=e373]
+            - generic:
+              - generic [ref=e374] [cursor=pointer]: More Information
+              - generic:
+                - img
+                - generic:
+                  - img
+                  - generic:
+                    - paragraph: Stylistic Set 15 [ss15]
+                - paragraph: This feature replaces glyph(s) with stylistic alternate(s).
+          - generic [ref=e375]:
+            - paragraph [ref=e377]: "0123456789"
+            - paragraph [ref=e379]: "0123456789"
+    - generic [ref=e380]:
+      - generic [ref=e383]:
+        - heading "Character Map" [level=2] [ref=e384]
+        - list [ref=e387]:
+          - listitem: SuperScotch Light
+      - generic [ref=e388]:
+        - heading "Uppercases" [level=2] [ref=e389]
+        - generic [ref=e390]:
+          - generic [ref=e392]: A
+          - generic [ref=e394]: B
+          - generic [ref=e396]: C
+          - generic [ref=e398]: D
+          - generic [ref=e400]: E
+          - generic [ref=e402]: F
+          - generic [ref=e404]: G
+          - generic [ref=e406]: H
+          - generic [ref=e408]: I
+          - generic [ref=e410]: J
+          - generic [ref=e412]: K
+          - generic [ref=e414]: L
+          - generic [ref=e416]: M
+          - generic [ref=e418]: "N"
+          - generic [ref=e420]: O
+          - generic [ref=e422]: P
+          - generic [ref=e424]: Q
+          - generic [ref=e426]: R
+          - generic [ref=e428]: S
+          - generic [ref=e430]: T
+          - generic [ref=e432]: U
+          - generic [ref=e434]: V
+          - generic [ref=e436]: W
+          - generic [ref=e438]: X
+          - generic [ref=e440]: "Y"
+          - generic [ref=e442]: Z
+      - generic [ref=e443]:
+        - heading "Lowercases" [level=2] [ref=e444]
+        - generic [ref=e445]:
+          - generic [ref=e447]: a
+          - generic [ref=e449]: b
+          - generic [ref=e451]: c
+          - generic [ref=e453]: d
+          - generic [ref=e455]: e
+          - generic [ref=e457]: f
+          - generic [ref=e459]: g
+          - generic [ref=e461]: h
+          - generic [ref=e463]: i
+          - generic [ref=e465]: j
+          - generic [ref=e467]: k
+          - generic [ref=e469]: l
+          - generic [ref=e471]: m
+          - generic [ref=e473]: "n"
+          - generic [ref=e475]: o
+          - generic [ref=e477]: p
+          - generic [ref=e479]: q
+          - generic [ref=e481]: r
+          - generic [ref=e483]: s
+          - generic [ref=e485]: t
+          - generic [ref=e487]: u
+          - generic [ref=e489]: v
+          - generic [ref=e491]: w
+          - generic [ref=e493]: x
+          - generic [ref=e495]: "y"
+          - generic [ref=e497]: z
+      - generic [ref=e498]:
+        - heading "Small Caps" [level=2] [ref=e499]
+        - generic [ref=e500]:
+          - generic [ref=e502]: A
+          - generic [ref=e504]: B
+          - generic [ref=e506]: C
+          - generic [ref=e508]: D
+          - generic [ref=e510]: E
+          - generic [ref=e512]: F
+          - generic [ref=e514]: G
+          - generic [ref=e516]: H
+          - generic [ref=e518]: I
+          - generic [ref=e520]: J
+          - generic [ref=e522]: K
+          - generic [ref=e524]: L
+          - generic [ref=e526]: M
+          - generic [ref=e528]: "N"
+          - generic [ref=e530]: O
+          - generic [ref=e532]: P
+          - generic [ref=e534]: Q
+          - generic [ref=e536]: R
+          - generic [ref=e538]: S
+          - generic [ref=e540]: T
+          - generic [ref=e542]: U
+          - generic [ref=e544]: V
+          - generic [ref=e546]: W
+          - generic [ref=e548]: X
+          - generic [ref=e550]: "Y"
+          - generic [ref=e552]: Z
+      - generic [ref=e553]:
+        - heading "Accented Uppercases" [level=2] [ref=e554]
+        - generic [ref=e555]:
+          - generic [ref=e557]: À
+          - generic [ref=e559]: Á
+          - generic [ref=e561]: Â
+          - generic [ref=e563]: Ã
+          - generic [ref=e565]: Ä
+          - generic [ref=e567]: Ā
+          - generic [ref=e569]: Ă
+          - generic [ref=e571]: Å
+          - generic [ref=e573]: Ą
+          - generic [ref=e575]: Æ
+          - generic [ref=e577]: Ǽ
+          - generic [ref=e579]: Ć
+          - generic [ref=e581]: Ĉ
+          - generic [ref=e583]: Č
+          - generic [ref=e585]: Ċ
+          - generic [ref=e587]: Ç
+          - generic [ref=e589]: Ď
+          - generic [ref=e591]: Đ
+          - generic [ref=e593]: Ð
+          - generic [ref=e595]: È
+          - generic [ref=e597]: É
+          - generic [ref=e599]: Ê
+          - generic [ref=e601]: Ě
+          - generic [ref=e603]: Ë
+          - generic [ref=e605]: Ē
+          - generic [ref=e607]: Ĕ
+          - generic [ref=e609]: Ė
+          - generic [ref=e611]: Ę
+          - generic [ref=e613]: Ĝ
+          - generic [ref=e615]: Ğ
+          - generic [ref=e617]: Ġ
+          - generic [ref=e619]: Ģ
+          - generic [ref=e621]: Ĥ
+          - generic [ref=e623]: Ħ
+          - generic [ref=e625]: Ì
+          - generic [ref=e627]: Í
+          - generic [ref=e629]: Î
+          - generic [ref=e631]: Ĩ
+          - generic [ref=e633]: Ï
+          - generic [ref=e635]: Ī
+          - generic [ref=e637]: Ĭ
+          - generic [ref=e639]: İ
+          - generic [ref=e641]: Į
+          - generic [ref=e643]: Ĳ
+          - generic [ref=e645]: Ĵ
+          - generic [ref=e647]: Ķ
+          - generic [ref=e649]: Ĺ
+          - generic [ref=e651]: Ľ
+          - generic [ref=e653]: Ļ
+          - generic [ref=e655]: Ł
+          - generic [ref=e657]: Ŀ
+          - generic [ref=e659]: Ń
+          - generic [ref=e661]: Ň
+          - generic [ref=e663]: Ñ
+          - generic [ref=e665]: Ņ
+          - generic [ref=e667]: Ŋ
+          - generic [ref=e669]: Ò
+          - generic [ref=e671]: Ó
+          - generic [ref=e673]: Ô
+          - generic [ref=e675]: Õ
+          - generic [ref=e677]: Ö
+          - generic [ref=e679]: Ō
+          - generic [ref=e681]: Ŏ
+          - generic [ref=e683]: Ő
+          - generic [ref=e685]: Ø
+          - generic [ref=e687]: Ǿ
+          - generic [ref=e689]: Œ
+          - generic [ref=e691]: Þ
+          - generic [ref=e693]: Ŕ
+          - generic [ref=e695]: Ř
+          - generic [ref=e697]: Ŗ
+          - generic [ref=e699]: Ŝ
+          - generic [ref=e701]: Š
+          - generic [ref=e703]: Ś
+          - generic [ref=e705]: Ş
+          - generic [ref=e707]: Ș
+          - generic [ref=e709]: ẞ
+          - generic [ref=e711]: Ť
+          - generic [ref=e713]: Ț
+          - generic [ref=e715]: Ţ
+          - generic [ref=e717]: Ŧ
+          - generic [ref=e719]: Ù
+          - generic [ref=e721]: Ú
+          - generic [ref=e723]: Û
+          - generic [ref=e725]: Ũ
+          - generic [ref=e727]: Ü
+          - generic [ref=e729]: Ū
+          - generic [ref=e731]: Ŭ
+          - generic [ref=e733]: Ů
+          - generic [ref=e735]: Ű
+          - generic [ref=e737]: Ų
+          - generic [ref=e739]: Ẁ
+          - generic [ref=e741]: Ẃ
+          - generic [ref=e743]: Ŵ
+          - generic [ref=e745]: Ẅ
+          - generic [ref=e747]: Ỳ
+          - generic [ref=e749]: Ý
+          - generic [ref=e751]: Ŷ
+          - generic [ref=e753]: Ÿ
+          - generic [ref=e755]: Ź
+          - generic [ref=e757]: Ž
+          - generic [ref=e759]: Ż
+      - generic [ref=e760]:
+        - heading "Accented Lowercases" [level=2] [ref=e761]
+        - generic [ref=e762]:
+          - generic [ref=e764]: à
+          - generic [ref=e766]: á
+          - generic [ref=e768]: â
+          - generic [ref=e770]: ã
+          - generic [ref=e772]: ä
+          - generic [ref=e774]: ā
+          - generic [ref=e776]: ă
+          - generic [ref=e778]: å
+          - generic [ref=e780]: ą
+          - generic [ref=e782]: æ
+          - generic [ref=e784]: ǽ
+          - generic [ref=e786]: ć
+          - generic [ref=e788]: ĉ
+          - generic [ref=e790]: č
+          - generic [ref=e792]: ċ
+          - generic [ref=e794]: ç
+          - generic [ref=e796]: ď
+          - generic [ref=e798]: đ
+          - generic [ref=e800]: ð
+          - generic [ref=e802]: è
+          - generic [ref=e804]: é
+          - generic [ref=e806]: ê
+          - generic [ref=e808]: ě
+          - generic [ref=e810]: ë
+          - generic [ref=e812]: ē
+          - generic [ref=e814]: ĕ
+          - generic [ref=e816]: ė
+          - generic [ref=e818]: ę
+          - generic [ref=e820]: ĝ
+          - generic [ref=e822]: ğ
+          - generic [ref=e824]: ġ
+          - generic [ref=e826]: ģ
+          - generic [ref=e828]: ĥ
+          - generic [ref=e830]: ħ
+          - generic [ref=e832]: ì
+          - generic [ref=e834]: í
+          - generic [ref=e836]: î
+          - generic [ref=e838]: ĩ
+          - generic [ref=e840]: ï
+          - generic [ref=e842]: ī
+          - generic [ref=e844]: ĭ
+          - generic [ref=e846]: ı
+          - generic [ref=e848]: į
+          - generic [ref=e850]: ĳ
+          - generic [ref=e852]: ĵ
+          - generic [ref=e854]: ȷ
+          - generic [ref=e856]: ķ
+          - generic [ref=e858]: ĺ
+          - generic [ref=e860]: ľ
+          - generic [ref=e862]: ļ
+          - generic [ref=e864]: ł
+          - generic [ref=e866]: ŀ
+          - generic [ref=e868]: ń
+          - generic [ref=e870]: ň
+          - generic [ref=e872]: ñ
+          - generic [ref=e874]: ņ
+          - generic [ref=e876]: ŋ
+          - generic [ref=e878]: ò
+          - generic [ref=e880]: ó
+          - generic [ref=e882]: ô
+          - generic [ref=e884]: õ
+          - generic [ref=e886]: ö
+          - generic [ref=e888]: ō
+          - generic [ref=e890]: ŏ
+          - generic [ref=e892]: ő
+          - generic [ref=e894]: ø
+          - generic [ref=e896]: ǿ
+          - generic [ref=e898]: œ
+          - generic [ref=e900]: þ
+          - generic [ref=e902]: ŕ
+          - generic [ref=e904]: ř
+          - generic [ref=e906]: ŗ
+          - generic [ref=e908]: ś
+          - generic [ref=e910]: ŝ
+          - generic [ref=e912]: š
+          - generic [ref=e914]: ş
+          - generic [ref=e916]: ș
+          - generic [ref=e918]: ß
+          - generic [ref=e920]: ť
+          - generic [ref=e922]: ț
+          - generic [ref=e924]: ţ
+          - generic [ref=e926]: ŧ
+          - generic [ref=e928]: ù
+          - generic [ref=e930]: ú
+          - generic [ref=e932]: û
+          - generic [ref=e934]: ũ
+          - generic [ref=e936]: ü
+          - generic [ref=e938]: ū
+          - generic [ref=e940]: ŭ
+          - generic [ref=e942]: ů
+          - generic [ref=e944]: ű
+          - generic [ref=e946]: ų
+          - generic [ref=e948]: ẁ
+          - generic [ref=e950]: ẃ
+          - generic [ref=e952]: ŵ
+          - generic [ref=e954]: ẅ
+          - generic [ref=e956]: ỳ
+          - generic [ref=e958]: ý
+          - generic [ref=e960]: ŷ
+          - generic [ref=e962]: ÿ
+          - generic [ref=e964]: ź
+          - generic [ref=e966]: ž
+          - generic [ref=e968]: ż
+      - generic [ref=e969]:
+        - heading "Accented Small Caps" [level=2] [ref=e970]
+        - generic [ref=e971]:
+          - generic [ref=e973]: À
+          - generic [ref=e975]: Á
+          - generic [ref=e977]: Â
+          - generic [ref=e979]: Ã
+          - generic [ref=e981]: Ä
+          - generic [ref=e983]: Ā
+          - generic [ref=e985]: Ă
+          - generic [ref=e987]: Å
+          - generic [ref=e989]: Ą
+          - generic [ref=e991]: Æ
+          - generic [ref=e993]: Ǽ
+          - generic [ref=e995]: Ć
+          - generic [ref=e997]: Ĉ
+          - generic [ref=e999]: Č
+          - generic [ref=e1001]: Ċ
+          - generic [ref=e1003]: Ç
+          - generic [ref=e1005]: Ď
+          - generic [ref=e1007]: Đ
+          - generic [ref=e1009]: Ð
+          - generic [ref=e1011]: È
+          - generic [ref=e1013]: É
+          - generic [ref=e1015]: Ê
+          - generic [ref=e1017]: Ě
+          - generic [ref=e1019]: Ë
+          - generic [ref=e1021]: Ē
+          - generic [ref=e1023]: Ĕ
+          - generic [ref=e1025]: Ė
+          - generic [ref=e1027]: Ę
+          - generic [ref=e1029]: Ĝ
+          - generic [ref=e1031]: Ğ
+          - generic [ref=e1033]: Ġ
+          - generic [ref=e1035]: Ģ
+          - generic [ref=e1037]: Ĥ
+          - generic [ref=e1039]: Ħ
+          - generic [ref=e1041]: Ì
+          - generic [ref=e1043]: Í
+          - generic [ref=e1045]: Î
+          - generic [ref=e1047]: Ĩ
+          - generic [ref=e1049]: Ï
+          - generic [ref=e1051]: Ī
+          - generic [ref=e1053]: Ĭ
+          - generic [ref=e1055]: İ
+          - generic [ref=e1057]: Į
+          - generic [ref=e1059]: Ĳ
+          - generic [ref=e1061]: Ĵ
+          - generic [ref=e1063]: Ķ
+          - generic [ref=e1065]: Ĺ
+          - generic [ref=e1067]: Ľ
+          - generic [ref=e1069]: Ļ
+          - generic [ref=e1071]: Ł
+          - generic [ref=e1073]: Ŀ
+          - generic [ref=e1075]: Ń
+          - generic [ref=e1077]: Ň
+          - generic [ref=e1079]: Ñ
+          - generic [ref=e1081]: Ņ
+          - generic [ref=e1083]: Ŋ
+          - generic [ref=e1085]: Ò
+          - generic [ref=e1087]: Ó
+          - generic [ref=e1089]: Ô
+          - generic [ref=e1091]: Õ
+          - generic [ref=e1093]: Ö
+          - generic [ref=e1095]: Ō
+          - generic [ref=e1097]: Ŏ
+          - generic [ref=e1099]: Ő
+          - generic [ref=e1101]: Ø
+          - generic [ref=e1103]: Ǿ
+          - generic [ref=e1105]: Œ
+          - generic [ref=e1107]: Þ
+          - generic [ref=e1109]: Ŕ
+          - generic [ref=e1111]: Ř
+          - generic [ref=e1113]: Ŗ
+          - generic [ref=e1115]: Ŝ
+          - generic [ref=e1117]: Š
+          - generic [ref=e1119]: Ś
+          - generic [ref=e1121]: Ş
+          - generic [ref=e1123]: Ș
+          - generic [ref=e1125]: ẞ
+          - generic [ref=e1127]: Ť
+          - generic [ref=e1129]: Ț
+          - generic [ref=e1131]: Ţ
+          - generic [ref=e1133]: Ŧ
+          - generic [ref=e1135]: Ù
+          - generic [ref=e1137]: Ú
+          - generic [ref=e1139]: Û
+          - generic [ref=e1141]: Ũ
+          - generic [ref=e1143]: Ü
+          - generic [ref=e1145]: Ū
+          - generic [ref=e1147]: Ŭ
+          - generic [ref=e1149]: Ů
+          - generic [ref=e1151]: Ű
+          - generic [ref=e1153]: Ų
+          - generic [ref=e1155]: Ẁ
+          - generic [ref=e1157]: Ẃ
+          - generic [ref=e1159]: Ŵ
+          - generic [ref=e1161]: Ẅ
+          - generic [ref=e1163]: Ỳ
+          - generic [ref=e1165]: Ý
+          - generic [ref=e1167]: Ŷ
+          - generic [ref=e1169]: Ÿ
+          - generic [ref=e1171]: Ź
+          - generic [ref=e1173]: Ž
+          - generic [ref=e1175]: Ż
+      - generic [ref=e1176]:
+        - heading "Standard Ligatures" [level=2] [ref=e1177]
+        - generic [ref=e1178]:
+          - generic [ref=e1180]: fi
+          - generic [ref=e1182]: ffi
+          - generic [ref=e1184]: fl
+          - generic [ref=e1186]: ffl
+          - generic [ref=e1188]: ff
+          - generic [ref=e1190]: fb
+          - generic [ref=e1192]: ffb
+          - generic [ref=e1194]: fh
+          - generic [ref=e1196]: ffh
+          - generic [ref=e1198]: fk
+          - generic [ref=e1200]: ft
+          - generic [ref=e1202]: fj
+      - generic [ref=e1203]:
+        - heading "Stylistic Alternates" [level=2] [ref=e1204]
+        - generic [ref=e1205]:
+          - generic [ref=e1207]: T
+          - generic [ref=e1209]: g
+          - generic [ref=e1211]: "3"
+          - generic [ref=e1213]: "5"
+          - generic [ref=e1215]: "4"
+          - generic [ref=e1217]: "?"
+      - generic [ref=e1218]:
+        - heading "Stylistic Alternates [SuperScotch uprights only]" [level=2] [ref=e1219]
+        - generic [ref=e1222]: a
+      - generic [ref=e1223]:
+        - heading "Punctuation" [level=2] [ref=e1224]
+        - generic [ref=e1225]:
+          - generic [ref=e1227]: "-"
+          - generic [ref=e1229]: –
+          - generic [ref=e1231]: —
+          - generic [ref=e1233]: (
+          - generic [ref=e1235]: )
+          - generic [ref=e1237]: "["
+          - generic [ref=e1239]: "]"
+          - generic [ref=e1241]: "{"
+          - generic [ref=e1243]: "}"
+          - generic [ref=e1245]: ‹
+          - generic [ref=e1247]: ›
+          - generic [ref=e1249]: «
+          - generic [ref=e1251]: »
+          - generic [ref=e1253]: "|"
+          - generic [ref=e1255]: ¦
+          - generic [ref=e1257]: ·
+          - generic [ref=e1259]: "@"
+          - generic [ref=e1261]: ¡
+          - generic [ref=e1263]: ¿
+          - generic [ref=e1265]: "!"
+          - generic [ref=e1267]: "?"
+          - generic [ref=e1269]: .
+          - generic [ref=e1271]: ":"
+          - generic [ref=e1273]: ","
+          - generic [ref=e1275]: ;
+          - generic [ref=e1277]: …
+          - generic [ref=e1279]: _
+          - generic [ref=e1281]: ‘
+          - generic [ref=e1283]: ’
+          - generic [ref=e1285]: “
+          - generic [ref=e1287]: ”
+          - generic [ref=e1289]: ‚
+          - generic [ref=e1291]: „
+          - generic [ref=e1293]: "'"
+          - generic [ref=e1295]: "\""
+          - generic [ref=e1297]: •
+          - generic [ref=e1299]: /
+          - generic [ref=e1301]: \
+      - generic [ref=e1302]:
+        - heading "Lining Figures" [level=2] [ref=e1303]
+        - generic [ref=e1304]:
+          - generic [ref=e1306]: "0"
+          - generic [ref=e1308]: "1"
+          - generic [ref=e1310]: "2"
+          - generic [ref=e1312]: "3"
+          - generic [ref=e1314]: "4"
+          - generic [ref=e1316]: "5"
+          - generic [ref=e1318]: "6"
+          - generic [ref=e1320]: "7"
+          - generic [ref=e1322]: "8"
+          - generic [ref=e1324]: "9"
+      - generic [ref=e1325]:
+        - heading "Oldstyle Figures" [level=2] [ref=e1326]
+        - generic [ref=e1327]:
+          - generic [ref=e1329]: "0"
+          - generic [ref=e1331]: "1"
+          - generic [ref=e1333]: "2"
+          - generic [ref=e1335]: "3"
+          - generic [ref=e1337]: "4"
+          - generic [ref=e1339]: "5"
+          - generic [ref=e1341]: "6"
+          - generic [ref=e1343]: "7"
+          - generic [ref=e1345]: "8"
+          - generic [ref=e1347]: "9"
+      - generic [ref=e1348]:
+        - heading "Slashed Zero" [level=2] [ref=e1349]
+        - generic [ref=e1350]:
+          - generic [ref=e1352]: "0"
+          - generic [ref=e1354]: "0"
+      - generic [ref=e1355]:
+        - heading "Numerators" [level=2] [ref=e1356]
+        - generic [ref=e1357]:
+          - generic [ref=e1359]: "0"
+          - generic [ref=e1361]: "1"
+          - generic [ref=e1363]: "2"
+          - generic [ref=e1365]: "3"
+          - generic [ref=e1367]: "4"
+          - generic [ref=e1369]: "5"
+          - generic [ref=e1371]: "6"
+          - generic [ref=e1373]: "7"
+          - generic [ref=e1375]: "8"
+          - generic [ref=e1377]: "9"
+          - generic [ref=e1379]: a
+          - generic [ref=e1381]: b
+          - generic [ref=e1383]: c
+          - generic [ref=e1385]: d
+          - generic [ref=e1387]: e
+          - generic [ref=e1389]: f
+          - generic [ref=e1391]: g
+          - generic [ref=e1393]: h
+          - generic [ref=e1395]: i
+          - generic [ref=e1397]: j
+          - generic [ref=e1399]: k
+          - generic [ref=e1401]: l
+          - generic [ref=e1403]: m
+          - generic [ref=e1405]: "n"
+          - generic [ref=e1407]: o
+          - generic [ref=e1409]: p
+          - generic [ref=e1411]: q
+          - generic [ref=e1413]: r
+          - generic [ref=e1415]: s
+          - generic [ref=e1417]: t
+          - generic [ref=e1419]: u
+          - generic [ref=e1421]: v
+          - generic [ref=e1423]: w
+          - generic [ref=e1425]: x
+          - generic [ref=e1427]: "y"
+          - generic [ref=e1429]: z
+          - generic [ref=e1431]: (
+          - generic [ref=e1433]: )
+          - generic [ref=e1435]: "["
+          - generic [ref=e1437]: "]"
+          - generic [ref=e1439]: =
+          - generic [ref=e1441]: −
+          - generic [ref=e1443]: +
+          - generic [ref=e1445]: .
+          - generic [ref=e1447]: ","
+      - generic [ref=e1448]:
+        - heading "Denominators" [level=2] [ref=e1449]
+        - generic [ref=e1450]:
+          - generic [ref=e1452]: "0"
+          - generic [ref=e1454]: "1"
+          - generic [ref=e1456]: "2"
+          - generic [ref=e1458]: "3"
+          - generic [ref=e1460]: "4"
+          - generic [ref=e1462]: "5"
+          - generic [ref=e1464]: "6"
+          - generic [ref=e1466]: "7"
+          - generic [ref=e1468]: "8"
+          - generic [ref=e1470]: "9"
+          - generic [ref=e1472]: a
+          - generic [ref=e1474]: b
+          - generic [ref=e1476]: c
+          - generic [ref=e1478]: d
+          - generic [ref=e1480]: e
+          - generic [ref=e1482]: f
+          - generic [ref=e1484]: g
+          - generic [ref=e1486]: h
+          - generic [ref=e1488]: i
+          - generic [ref=e1490]: j
+          - generic [ref=e1492]: k
+          - generic [ref=e1494]: l
+          - generic [ref=e1496]: m
+          - generic [ref=e1498]: "n"
+          - generic [ref=e1500]: o
+          - generic [ref=e1502]: p
+          - generic [ref=e1504]: q
+          - generic [ref=e1506]: r
+          - generic [ref=e1508]: s
+          - generic [ref=e1510]: t
+          - generic [ref=e1512]: u
+          - generic [ref=e1514]: v
+          - generic [ref=e1516]: w
+          - generic [ref=e1518]: x
+          - generic [ref=e1520]: "y"
+          - generic [ref=e1522]: z
+          - generic [ref=e1524]: (
+          - generic [ref=e1526]: )
+          - generic [ref=e1528]: "["
+          - generic [ref=e1530]: "]"
+          - generic [ref=e1532]: =
+          - generic [ref=e1534]: −
+          - generic [ref=e1536]: +
+          - generic [ref=e1538]: .
+          - generic [ref=e1540]: ","
+      - generic [ref=e1541]:
+        - heading "Superscripts/Superiors" [level=2] [ref=e1542]
+        - generic [ref=e1543]:
+          - generic [ref=e1545]: "0"
+          - generic [ref=e1547]: "1"
+          - generic [ref=e1549]: "2"
+          - generic [ref=e1551]: "3"
+          - generic [ref=e1553]: "4"
+          - generic [ref=e1555]: "5"
+          - generic [ref=e1557]: "6"
+          - generic [ref=e1559]: "7"
+          - generic [ref=e1561]: "8"
+          - generic [ref=e1563]: "9"
+          - generic [ref=e1565]: a
+          - generic [ref=e1567]: b
+          - generic [ref=e1569]: c
+          - generic [ref=e1571]: d
+          - generic [ref=e1573]: e
+          - generic [ref=e1575]: f
+          - generic [ref=e1577]: g
+          - generic [ref=e1579]: h
+          - generic [ref=e1581]: i
+          - generic [ref=e1583]: j
+          - generic [ref=e1585]: k
+          - generic [ref=e1587]: l
+          - generic [ref=e1589]: m
+          - generic [ref=e1591]: "n"
+          - generic [ref=e1593]: o
+          - generic [ref=e1595]: p
+          - generic [ref=e1597]: q
+          - generic [ref=e1599]: r
+          - generic [ref=e1601]: s
+          - generic [ref=e1603]: t
+          - generic [ref=e1605]: u
+          - generic [ref=e1607]: v
+          - generic [ref=e1609]: w
+          - generic [ref=e1611]: x
+          - generic [ref=e1613]: "y"
+          - generic [ref=e1615]: z
+          - generic [ref=e1617]: (
+          - generic [ref=e1619]: )
+          - generic [ref=e1621]: "["
+          - generic [ref=e1623]: "]"
+          - generic [ref=e1625]: =
+          - generic [ref=e1627]: −
+          - generic [ref=e1629]: +
+          - generic [ref=e1631]: .
+          - generic [ref=e1633]: ","
+      - generic [ref=e1634]:
+        - heading "Subscripts/Inferiors" [level=2] [ref=e1635]
+        - generic [ref=e1636]:
+          - generic [ref=e1638]: "0"
+          - generic [ref=e1640]: "1"
+          - generic [ref=e1642]: "2"
+          - generic [ref=e1644]: "3"
+          - generic [ref=e1646]: "4"
+          - generic [ref=e1648]: "5"
+          - generic [ref=e1650]: "6"
+          - generic [ref=e1652]: "7"
+          - generic [ref=e1654]: "8"
+          - generic [ref=e1656]: "9"
+          - generic [ref=e1658]: a
+          - generic [ref=e1660]: b
+          - generic [ref=e1662]: c
+          - generic [ref=e1664]: d
+          - generic [ref=e1666]: e
+          - generic [ref=e1668]: f
+          - generic [ref=e1670]: g
+          - generic [ref=e1672]: h
+          - generic [ref=e1674]: i
+          - generic [ref=e1676]: j
+          - generic [ref=e1678]: k
+          - generic [ref=e1680]: l
+          - generic [ref=e1682]: m
+          - generic [ref=e1684]: "n"
+          - generic [ref=e1686]: o
+          - generic [ref=e1688]: p
+          - generic [ref=e1690]: q
+          - generic [ref=e1692]: r
+          - generic [ref=e1694]: s
+          - generic [ref=e1696]: t
+          - generic [ref=e1698]: u
+          - generic [ref=e1700]: v
+          - generic [ref=e1702]: w
+          - generic [ref=e1704]: x
+          - generic [ref=e1706]: "y"
+          - generic [ref=e1708]: z
+          - generic [ref=e1710]: (
+          - generic [ref=e1712]: )
+          - generic [ref=e1714]: "["
+          - generic [ref=e1716]: "]"
+          - generic [ref=e1718]: =
+          - generic [ref=e1720]: −
+          - generic [ref=e1722]: +
+          - generic [ref=e1724]: .
+          - generic [ref=e1726]: ","
+      - generic [ref=e1727]:
+        - heading "Circled Numbers" [level=2] [ref=e1728]
+        - generic [ref=e1729]:
+          - generic [ref=e1731]: "0"
+          - generic [ref=e1733]: "1"
+          - generic [ref=e1735]: "2"
+          - generic [ref=e1737]: "3"
+          - generic [ref=e1739]: "4"
+          - generic [ref=e1741]: "5"
+          - generic [ref=e1743]: "6"
+          - generic [ref=e1745]: "7"
+          - generic [ref=e1747]: "8"
+          - generic [ref=e1749]: "9"
+      - generic [ref=e1750]:
+        - heading "Black Circled Numbers" [level=2] [ref=e1751]
+        - generic [ref=e1752]:
+          - generic [ref=e1754]: "0"
+          - generic [ref=e1756]: "1"
+          - generic [ref=e1758]: "2"
+          - generic [ref=e1760]: "3"
+          - generic [ref=e1762]: "4"
+          - generic [ref=e1764]: "5"
+          - generic [ref=e1766]: "6"
+          - generic [ref=e1768]: "7"
+          - generic [ref=e1770]: "8"
+          - generic [ref=e1772]: "9"
+      - generic [ref=e1773]:
+        - heading "Prebuilt Fractions" [level=2] [ref=e1774]
+        - generic [ref=e1775]:
+          - generic [ref=e1777]: ¼
+          - generic [ref=e1779]: ½
+          - generic [ref=e1781]: ¾
+          - generic [ref=e1783]: ⅓
+          - generic [ref=e1785]: ⅔
+          - generic [ref=e1787]: ⅛
+          - generic [ref=e1789]: ⅜
+          - generic [ref=e1791]: ⅝
+          - generic [ref=e1793]: ⅞
+      - generic [ref=e1794]:
+        - heading "Symbols" [level=2] [ref=e1795]
+        - generic [ref=e1796]:
+          - generic [ref=e1798]: "&"
+          - generic [ref=e1800]: "%"
+          - generic [ref=e1802]: ‰
+          - generic [ref=e1804]: ©
+          - generic [ref=e1806]: ®
+          - generic [ref=e1808]: ™
+          - generic [ref=e1810]: °
+          - generic [ref=e1812]: §
+          - generic [ref=e1814]: ¶
+          - generic [ref=e1816]: "*"
+          - generic [ref=e1818]: †
+          - generic [ref=e1820]: ‡
+          - generic [ref=e1822]: "#"
+      - generic [ref=e1823]:
+        - heading "Mathematical Symbols" [level=2] [ref=e1824]
+        - generic [ref=e1825]:
+          - generic [ref=e1827]: +
+          - generic [ref=e1829]: −
+          - generic [ref=e1831]: ±
+          - generic [ref=e1833]: ×
+          - generic [ref=e1835]: ÷
+          - generic [ref=e1837]: =
+          - generic [ref=e1839]: ≠
+          - generic [ref=e1841]: ≈
+          - generic [ref=e1843]: <
+          - generic [ref=e1845]: ">"
+          - generic [ref=e1847]: ≤
+          - generic [ref=e1849]: ≥
+          - generic [ref=e1851]: ¬
+          - generic [ref=e1853]: ∞
+          - generic [ref=e1855]: ~
+          - generic [ref=e1857]: ^
+          - generic [ref=e1859]: µ
+          - generic [ref=e1861]: ∫
+          - generic [ref=e1863]: Ω
+          - generic [ref=e1865]: π
+          - generic [ref=e1867]: ∂
+          - generic [ref=e1869]: ∆
+          - generic [ref=e1871]: ∏
+          - generic [ref=e1873]: ∑
+          - generic [ref=e1875]: √
+          - generic [ref=e1877]: ◊
+      - generic [ref=e1878]:
+        - heading "Currencies" [level=2] [ref=e1879]
+        - generic [ref=e1880]:
+          - generic [ref=e1882]: $
+          - generic [ref=e1884]: ¢
+          - generic [ref=e1886]: £
+          - generic [ref=e1888]: ¥
+          - generic [ref=e1890]: €
+          - generic [ref=e1892]: ₽
+          - generic [ref=e1894]: ₴
+          - generic [ref=e1896]: ₸
+          - generic [ref=e1898]: ₨
+          - generic [ref=e1900]: ₹
+          - generic [ref=e1902]: ₺
+          - generic [ref=e1904]: ₼
+          - generic [ref=e1906]: ƒ
+          - generic [ref=e1908]: ₩
+          - generic [ref=e1910]: ₫
+          - generic [ref=e1912]: ₿
+          - generic [ref=e1914]: ฿
+          - generic [ref=e1916]: ֏
+          - generic [ref=e1918]: ₵
+          - generic [ref=e1920]: ₡
+          - generic [ref=e1922]: ₲
+          - generic [ref=e1924]: ₭
+          - generic [ref=e1926]: ₾
+          - generic [ref=e1928]: ₦
+          - generic [ref=e1930]: ₱
+          - generic [ref=e1932]: ₪
+          - generic [ref=e1934]: ¤
+      - generic [ref=e1935]:
+        - heading "Arrows" [level=2] [ref=e1936]
+        - generic [ref=e1937]:
+          - generic [ref=e1939]: ←
+          - generic [ref=e1941]: →
+          - generic [ref=e1943]: ↑
+          - generic [ref=e1945]: ↓
+          - generic [ref=e1947]: ↖
+          - generic [ref=e1949]: ↗
+          - generic [ref=e1951]: ↘
+          - generic [ref=e1953]: ↙
+      - generic [ref=e1954]:
+        - heading "Ordinals" [level=2] [ref=e1955]
+        - generic [ref=e1956]:
+          - generic [ref=e1958]: ª
+          - generic [ref=e1960]: º
+    - generic [ref=e1961]:
+      - heading "About" [level=2] [ref=e1963]
+      - complementary [ref=e1964]:
+        - generic [ref=e1966]:
+          - heading "Designer" [level=2] [ref=e1967]
+          - generic [ref=e1969]: François Rappo
+        - generic [ref=e1971]:
+          - heading "Language Support" [level=2] [ref=e1972]
+          - generic [ref=e1974]: Show Languages
+        - generic [ref=e1975]:
+          - heading "Single Style" [level=2] [ref=e1976]
+          - generic [ref=e1977]: Base price CHF 150.–
+        - generic [ref=e1978]:
+          - heading "Collection Package" [level=2] [ref=e1979]
+          - generic [ref=e1980]: Base price CHF 720.–
+        - generic [ref=e1982]:
+          - heading "Specimens" [level=2] [ref=e1983]
+          - generic [ref=e1984]:
+            - link [ref=e1986] [cursor=pointer]:
+              - /url: /uploads/0426/d73901e1f0735497fa663898b09e7272a302bce40a50107323a054eeb6f0d993/Optimo-SuperScotch-Specimen.pdf
+              - img [ref=e1987]
+            - generic [ref=e1988]:
+              - button "Previous specimen" [ref=e1989]
+              - generic [ref=e1990]: 1 / 2
+              - button "Next specimen" [ref=e1991]
+      - generic [ref=e1992]:
+        - paragraph [ref=e1993]: From an unexpected alignment of François Rappo’s longstanding interests in both mountaineering and type design, SuperScotch emerges as an original typeface inspired by the typography found in technical, adventure, and travel publications.
+        - paragraph [ref=e1994]: As a point of departure, Rappo turned to “The Playground of Europe”, a classic early work of mountaineering literature that brings together the Alps, British explorers, and a Scotch-face. With this inspiration, Rappo set out to tackle the challenge of creating a new set of curves and structural tensions, which he mastered with remarkable finesse in SuperScotch. The typeface carries a distinctly vertical axis, echoing the imposing stance of Alpine peaks, along with a pronounced stroke contrast, beautiful serifs, and generous ball terminals.
+        - paragraph [ref=e1995]: Offering a more pragmatic alternative to the severe neo-classical styles and positioned halfway between modern and transitional faces, SuperScotch channels this sense of historical shift. It also resonates with the turning point in the Victorian era when the Alps went from being thought of as a terrifying, sublime space to be understood as landscapes for recreation and exploration.
+        - paragraph [ref=e1996]: "Featuring display styles that have a dramatic, commanding presence that is ideal for titles, SuperScotch is above all a versatile typeface. Its balance of rational and expressive features performs well across a wide range of contexts, from print to digital environments. True to Rappo’s practice, no detail has been left unattended: each weight has been drawn individually, without interpolation, giving every style integrity and its own carefully chiseled forms. The result is a modernist take on a modern face—precise, distinctive, and as cleanly defined as the Matterhorn’s ridgeline."
+        - generic [ref=e1997]:
+          - heading "Also designed by François Rappo" [level=2] [ref=e1998]
+          - list [ref=e1999]:
+            - listitem [ref=e2000]:
+              - generic [ref=e2001]:
+                - link:
+                  - /url: /typefaces/jjannon
+                  - img [ref=e2002] [cursor=pointer]
+                - heading "JJannon Display Light Italic" [level=2] [ref=e2004]
+              - generic [ref=e2005]:
+                - link:
+                  - /url: /typefaces/jjannon
+                  - img [ref=e2006] [cursor=pointer]
+                - heading "JJannon Book Italic" [level=2] [ref=e2008]
+              - generic [ref=e2009]:
+                - link:
+                  - /url: /typefaces/jjannon
+                  - img [ref=e2010] [cursor=pointer]
+                - heading "JJannon Extrabold" [level=2] [ref=e2012]
+              - generic [ref=e2013]:
+                - link:
+                  - /url: /typefaces/jjannon
+                  - img [ref=e2014] [cursor=pointer]
+                - heading "JJannon Italic" [level=2] [ref=e2016]
+              - generic [ref=e2017]:
+                - link:
+                  - /url: /typefaces/jjannon
+                  - img [ref=e2018] [cursor=pointer]
+                - heading "JJannon Bold" [level=2] [ref=e2020]
+              - generic [ref=e2021]:
+                - link:
+                  - /url: /typefaces/jjannon
+                  - img [ref=e2022] [cursor=pointer]
+                - heading "JJannon Regular" [level=2] [ref=e2024]
+              - generic [ref=e2025]:
+                - link:
+                  - /url: /typefaces/jjannon
+                  - img [ref=e2026] [cursor=pointer]
+                - heading "JJannon Book" [level=2] [ref=e2028]
+              - generic [ref=e2029]:
+                - link:
+                  - /url: /typefaces/jjannon
+                  - img [ref=e2030] [cursor=pointer]
+                - heading "JJannon Bold Italic" [level=2] [ref=e2032]
+              - link "Learn More" [ref=e2033] [cursor=pointer]:
+                - /url: /typefaces/jjannon
+              - button "Try or Buy" [ref=e2034]
+            - listitem [ref=e2035]:
+              - generic [ref=e2036]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2037] [cursor=pointer]
+                - heading "Practice Extrabold" [level=2] [ref=e2039]
+              - generic [ref=e2040]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2041] [cursor=pointer]
+                - heading "Practice Extrabold Italic" [level=2] [ref=e2043]
+              - generic [ref=e2044]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2045] [cursor=pointer]
+                - heading "Practice Regular" [level=2] [ref=e2047]
+              - generic [ref=e2048]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2049] [cursor=pointer]
+                - heading "Practice Book" [level=2] [ref=e2051]
+              - generic [ref=e2052]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2053] [cursor=pointer]
+                - heading "Practice Book Italic" [level=2] [ref=e2055]
+              - generic [ref=e2056]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2057] [cursor=pointer]
+                - heading "Practice Semibold Italic" [level=2] [ref=e2059]
+              - generic [ref=e2060]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2061] [cursor=pointer]
+                - heading "Practice Bold" [level=2] [ref=e2063]
+              - generic [ref=e2064]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2065] [cursor=pointer]
+                - heading "Practice Black Italic" [level=2] [ref=e2067]
+              - generic [ref=e2068]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2069] [cursor=pointer]
+                - heading "Practice Black" [level=2] [ref=e2071]
+              - generic [ref=e2072]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2073] [cursor=pointer]
+                - heading "Practice Italic" [level=2] [ref=e2075]
+              - generic [ref=e2076]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2077] [cursor=pointer]
+                - heading "Practice Semibold" [level=2] [ref=e2079]
+              - generic [ref=e2080]:
+                - link:
+                  - /url: /typefaces/practice
+                  - img [ref=e2081] [cursor=pointer]
+                - heading "Practice Bold Italic" [level=2] [ref=e2083]
+              - link "Learn More" [ref=e2084] [cursor=pointer]:
+                - /url: /typefaces/practice
+              - button "Try or Buy" [ref=e2085]
+            - listitem [ref=e2086]:
+              - generic [ref=e2087]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2088] [cursor=pointer]
+                - heading "Clarendon Graphic Bold" [level=2] [ref=e2091]
+              - generic [ref=e2092]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2093] [cursor=pointer]
+                - heading "Clarendon Graphic Thin" [level=2] [ref=e2096]
+              - generic [ref=e2097]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2098] [cursor=pointer]
+                - heading "Clarendon Graphic Black" [level=2] [ref=e2101]
+              - generic [ref=e2102]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2103] [cursor=pointer]
+                - heading "Clarendon Graphic Hairline" [level=2] [ref=e2106]
+              - generic [ref=e2107]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2108] [cursor=pointer]
+                - heading "Clarendon Graphic Medium" [level=2] [ref=e2111]
+              - generic [ref=e2112]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2113] [cursor=pointer]
+                - heading "Clarendon Graphic Regular" [level=2] [ref=e2116]
+              - generic [ref=e2117]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2118] [cursor=pointer]
+                - heading "Clarendon Graphic Semibold" [level=2] [ref=e2121]
+              - generic [ref=e2122]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2123] [cursor=pointer]
+                - heading "Clarendon Graphic Stencil Semibold" [level=2] [ref=e2126]
+              - generic [ref=e2127]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2128] [cursor=pointer]
+                - heading "Clarendon Graphic Ultrathin" [level=2] [ref=e2131]
+              - generic [ref=e2132]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2133] [cursor=pointer]
+                - heading "Clarendon Graphic Ultralight" [level=2] [ref=e2136]
+              - generic [ref=e2137]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2138] [cursor=pointer]
+                - heading "Clarendon Graphic Light" [level=2] [ref=e2141]
+              - generic [ref=e2142]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2143] [cursor=pointer]
+                - heading "Clarendon Graphic Stencil Ultrathin" [level=2] [ref=e2146]
+              - generic [ref=e2147]:
+                - link:
+                  - /url: /typefaces/clarendon_graphic
+                  - img [ref=e2148] [cursor=pointer]
+                - heading "Clarendon Graphic Stencil Light" [level=2] [ref=e2151]
+              - link "Learn More" [ref=e2152] [cursor=pointer]:
+                - /url: /typefaces/clarendon_graphic
+              - button "Try or Buy" [ref=e2153]
+            - listitem [ref=e2154]:
+              - generic [ref=e2155]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2156] [cursor=pointer]
+                - heading "Genath Display Thin" [level=2] [ref=e2158]
+              - generic [ref=e2159]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2160] [cursor=pointer]
+                - heading "Genath Display Extrabold" [level=2] [ref=e2162]
+              - generic [ref=e2163]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2164] [cursor=pointer]
+                - heading "Genath Light" [level=2] [ref=e2166]
+              - generic [ref=e2167]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2168] [cursor=pointer]
+                - heading "Genath Bold" [level=2] [ref=e2170]
+              - generic [ref=e2171]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2172] [cursor=pointer]
+                - heading "Genath Italic" [level=2] [ref=e2174]
+              - generic [ref=e2175]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2176] [cursor=pointer]
+                - heading "Genath Regular" [level=2] [ref=e2178]
+              - generic [ref=e2179]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2180] [cursor=pointer]
+                - heading "Genath Extrabold" [level=2] [ref=e2182]
+              - generic [ref=e2183]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2184] [cursor=pointer]
+                - heading "Genath Display Light" [level=2] [ref=e2186]
+              - generic [ref=e2187]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2188] [cursor=pointer]
+                - heading "Genath Display Bold" [level=2] [ref=e2190]
+              - generic [ref=e2191]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2192] [cursor=pointer]
+                - heading "Genath Display Regular" [level=2] [ref=e2194]
+              - generic [ref=e2195]:
+                - link:
+                  - /url: /typefaces/genath
+                  - img [ref=e2196] [cursor=pointer]
+                - heading "Genath Display Italic" [level=2] [ref=e2198]
+              - link "Learn More" [ref=e2199] [cursor=pointer]:
+                - /url: /typefaces/genath
+              - button "Try or Buy" [ref=e2200]
+    - generic [ref=e2201]: © 1998–2026 Optimo Sàrl, All rights reserved
+  - contentinfo:
+    - generic [ref=e2203]:
+      - generic [ref=e2204]: Cart
+      - button "Try or Buy" [ref=e2205]
+    - generic [ref=e2206]:
+      - text: By continuing to browse this site, you agree to the use of cookies to identify your session and to remember your login after you close the browser (authentication cookies).
+      - link "Learn more" [ref=e2207] [cursor=pointer]:
+        - /url: /privacy_policy
+      - text: or
+      - link "agree and close" [ref=e2208] [cursor=pointer]:
+        - /url: /cookie_agree
+      - text: .

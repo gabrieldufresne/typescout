@@ -166,10 +166,12 @@ export async function POST(request: Request): Promise<Response> {
 
   if (tags.classification.length > 0)
     conditions.push('count((classification)[@ in $classification]) > 0');
-  // variableFont is a boolean field, not a classification tag.
-  // Detect variable font queries directly from the raw query string.
+  // variableFont and licensing are boolean/enum fields outside the tag vocabulary.
+  // Detect them directly from the raw query string.
   if (/\bvariable\b/i.test(query))
     conditions.push('variableFont == true');
+  if (/\bfree\b/i.test(query))
+    conditions.push('licensing == "free"');
   if (tags.personalityTags.length > 0)
     conditions.push('count((personalityTags)[@ in $personalityTags]) > 0');
   if (tags.useCaseTags.length > 0)

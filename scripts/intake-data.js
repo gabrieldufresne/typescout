@@ -10,56 +10,37 @@
 // ── Foundry ───────────────────────────────────────────────────────────────────
 // Existing foundry
 const FOUNDRY = null;
-const FOUNDRY_ID = 'foundry-branding-with-type';
+const FOUNDRY_ID = 'foundry-velvetyne';
 
 // ── Shared fields (common to all typefaces in this intake) ────────────────────
 const SHARED = {
-  weightRange:         ['thin', 'light', 'regular', 'medium', 'bold', 'extrabold'],
-  era:                 ['Contemporary'],
-  licensing:           'paid',
+  weightRange:         ['regular'],
+  width:               'normal',
+  era:                 ['Contemporary', 'Constructivist'],
+  licensing:           'free',
   platforms:           'neither',
   variableFont:        false,
-  multilingualSupport: true,
+  multilingualSupport: false,
   featured:            false,
 };
 
 // ── Typefaces ─────────────────────────────────────────────────────────────────
 const TYPEFACES = [
   {
-    _id:               'typeface-bw-pose-no-3',
-    name:              'Bw Pose Nº 3',
-    slug:              'bw-pose-no-3',
-    specimenFile:      'branding-with-type_bw-pose-no-3_specimen.jpg',
-    specimenHeavyFile: 'branding-with-type_bw-pose-no-3_specimen_heavy.jpg',
-    editorialNote:     'Bw Pose Nº 3 is the more restrained of the two Pose subfamilies, a contemporary Didone by Alberto Romanos (2021) that pairs high-contrast strokes with traditional letterform proportions and subtly unexpected details. Six weights from Thin to ExtraBold with true italics make it adaptable across headline and editorial contexts. It leans into sophistication without sacrificing warmth.',
-    classification:    ['serif', 'display'],
-    subClassification: 'Contemporary Didone',
-    personalityTags:   ['Elegant', 'Refined', 'Sophisticated', 'Warm', 'Approachable'],
-    useCaseTags:       ['Branding', 'Editorial', 'Logo', 'Poster', 'Headline'],
-    width:             'normal',
-    xHeight:           'medium',
-    contrast:          ['high'],
-    typefaceURL:       'https://brandingwithtype.com/typefaces/bw-pose-no-3',
-    hasItalics:        true,
-    rawKeywords:       ['Branding with Type', 'BWT', 'Alberto Romanos', '2021', 'Bw Pose', 'Bw Pose Collection', 'Didone', 'modern serif', 'romantic', 'stylistic alternates', 'old style figures'],
-  },
-  {
-    _id:               'typeface-bw-pose-no-5',
-    name:              'Bw Pose Nº 5',
-    slug:              'bw-pose-no-5',
-    specimenFile:      'branding-with-type_bw-pose-no-5_specimen.jpg',
-    specimenHeavyFile: 'branding-with-type_bw-pose-no-5_specimen_heavy.jpg',
-    editorialNote:     'Bw Pose Nº 5 is the bolder sibling in the Pose collection — a high-contrast Didone by Alberto Romanos (2021) that pushes further into expressive territory with an extra layer of quirky detail in its letterforms. Six weights from Thin to ExtraBold with true italics give it range, while its daring character makes it well suited to fashion branding, editorial display, and headline work that wants an edge.',
-    classification:    ['serif', 'display'],
-    subClassification: 'Contemporary Didone',
-    personalityTags:   ['Expressive', 'Elegant', 'Quirky', 'Sophisticated', 'Luxurious'],
-    useCaseTags:       ['Branding', 'Editorial', 'Poster', 'Headline', 'Logo'],
-    width:             'normal',
-    xHeight:           'medium',
-    contrast:          ['high'],
-    typefaceURL:       'https://brandingwithtype.com/typefaces/bw-pose-no-5',
-    hasItalics:        true,
-    rawKeywords:       ['Branding with Type', 'BWT', 'Alberto Romanos', '2021', 'Bw Pose', 'Bw Pose Collection', 'Didone', 'modern serif', 'romantic', 'quirky', 'stylistic alternates', 'old style figures'],
+    _id:             'typeface-resistance',
+    name:            'Résistance',
+    slug:            'resistance',
+    specimenFile:    'velvetyne_resistance_specimen.jpg',
+    editorialNote:   'Résistance Générale is a curveless geometric sans-serif created in 2015 during a type design workshop at La Générale in Paris, by a collective of nine students from ENSAD Paris with support from Velvetyne. Every curve has been reduced to straight lines and right angles, giving the typeface a hard-edged, constructivist character that sits between functional display type and graphic protest. Its name — evoking both the French Resistance and the physics concept of electrical resistance — frames the design as a deliberate act of opposition.',
+    classification:  ['sans-serif', 'display'],
+    subClassification: 'Geometric Sans',
+    personalityTags: ['Experimental', 'Raw', 'Authoritative', 'Minimal', 'Serious'],
+    useCaseTags:     ['Poster', 'Headline', 'Branding', 'Editorial', 'Short Copy'],
+    xHeight:         'medium',
+    contrast:        ['monolinear'],
+    typefaceURL:     'https://velvetyne.fr/fonts/resistance/',
+    hasItalics:      false,
+    rawKeywords:     ['Velvetyne', 'ENSAD Paris', 'La Générale', 'collective', '2015', 'curveless', 'brutalist', 'geometric', 'right angles', 'no curves', 'student workshop', 'open source', 'OFL', 'Pauline Cormault', 'Esther Michaud', 'Claire Mucchieli', 'Merlin Andreae', 'Raphaël Maman', 'Pedro Gomes-Cardoso', 'Juliette Nier', 'Gabrielle Meistretty', 'Damien Bauza', 'Résistance Générale', 'Resistance Generale'],
   },
 ];
 

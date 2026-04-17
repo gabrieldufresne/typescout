@@ -122,7 +122,16 @@ Weight names outside this vocabulary (e.g. "Heavy" used as a name above Black, "
 
 **Always written or reviewed by a human before pushing.**
 
-Base the note on the foundry's own description. 1–3 sentences. Describe the design's concept or origin, its defining visual characteristics, its strongest use case. Neutral editorial voice — not marketing copy.
+Before drafting, assess the source material and state which tier applies:
+
+**Rich** — foundry has 2+ sentences of their own copy about the typeface.
+→ Compress to 1–3 sentences. Preserve their exact language and voice. Do not rewrite, editorialize, or substitute neutral tone for their own. Only cut for length.
+
+**Thin** — foundry has one sentence, or the description is mostly specs and weight names.
+→ Keep what they have. Supplement with context drawn from the page: classification, visual characteristics, historical references, designer name, year.
+
+**Missing** — no description at all.
+→ Write from scratch based on what the page reveals: structure, contrast, category, era, use case signals.
 
 **Good:**
 > Scatch asks a precise question — what would a Scotch Roman look like if you removed the serifs? Designed in 2023 by Jordi Embodas and David Montserrat, it is a modulated grotesque that retains the rhythm and contrast of the historical Scotch genre while operating entirely as a sans.

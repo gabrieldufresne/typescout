@@ -47,6 +47,7 @@ export interface Foundry {
 export interface TypefaceResult {
   _id: string
   name: string
+  slug: string
   foundry: {
     name: string
     slug: { current: string }
@@ -72,6 +73,19 @@ export interface TypefaceResult {
   typefaceURL: string
   featured: boolean
   rawKeywords: string[]
+}
+
+export interface TypefaceDetail extends Omit<TypefaceResult, 'foundry'> {
+  foundry: Foundry
+}
+
+export interface RelatedTypeface {
+  _id: string
+  name: string
+  slug: string
+  foundry: { name: string }
+  specimenImage: SanityImageRef
+  classification: Classification[]
 }
 
 /** Structured tag object returned by Claude from a natural language query. */

@@ -68,6 +68,7 @@ Example output for "something elegant from a Barcelona foundry":
 const TYPEFACE_PROJECTION = `{
   _id,
   name,
+  "slug": slug.current,
   "foundry": foundry->{name, slug, location},
   specimenImage,
   specimenImageHeavy,
@@ -196,8 +197,8 @@ export async function POST(request: Request): Promise<Response> {
 
   const filter =
     conditions.length > 0
-      ? `_type == "typeface" && (${conditions.join(" && ")} || ${textMatch})`
-      : `_type == "typeface" && ${textMatch}`;
+      ? `_type == "typeface" && !(_id in path("drafts.**")) && (${conditions.join(" && ")} || ${textMatch})`
+      : `_type == "typeface" && !(_id in path("drafts.**"))`;
 
   const groqQuery = `*[${filter}] | order(name asc) ${TYPEFACE_PROJECTION}`;
 

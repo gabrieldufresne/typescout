@@ -92,7 +92,7 @@ export function PixelPigeon({ activeChar }: { activeChar: string }) {
       const offsetY   = Math.floor((cssHeight - gridH) / 2 - cssHeight * 0.04)
 
       ctx.clearRect(0, 0, cssWidth, cssHeight)
-      ctx.fillStyle = 'rgba(21,21,21,1)'
+      ctx.fillStyle = '#BFBEB8'
       ctx.font = `${fontSize}px monospace`
       ctx.textAlign = 'center'
       ctx.textBaseline = 'middle'

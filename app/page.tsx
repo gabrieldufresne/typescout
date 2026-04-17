@@ -184,6 +184,17 @@ export default function HomePage() {
   const [errorMessage, setErrorMessage] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
 
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q");
+    if (q) {
+      setQuery(q);
+      void runSearch(q);
+      window.history.replaceState({}, "", "/");
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // ── Search handler ──────────────────────────────────────────────────────────
   async function runSearch(q: string) {
     const trimmed = q.trim();
@@ -307,7 +318,7 @@ export default function HomePage() {
                 ? "rounded-[4px] bg-white flex flex-col justify-between p-[16px] min-h-[100px]"
                 : "rounded-[4px] bg-white flex flex-row items-center gap-3 py-[12px] px-[16px]"
             }
-            style={{ border: isIdle ? "1px solid #E0DED8" : "1px solid #171717" }}
+            style={{ border: "1px solid #151515" }}
           >
             {/* Row 1 — Input (anchored to top) */}
             <motion.div layout className="flex items-center gap-3 flex-1 min-w-0">
@@ -438,7 +449,7 @@ export default function HomePage() {
                       </>
                     ) : null}
                   </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     {results.map((typeface, i) => (
                       <TypefaceCard key={typeface._id} typeface={typeface} index={i} />
                     ))}

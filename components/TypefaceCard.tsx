@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Link from "next/link";
 import { motion } from "motion/react";
 import {
   ArrowUpRight,
@@ -239,13 +240,11 @@ export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
         </div>
       </div>
 
-      {/* ── Navigation link — covers card, above specimen, below tag rows ─────── */}
-      {typeface.typefaceURL && (
-        <a
-          href={typeface.typefaceURL}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`Open ${typeface.name} on foundry site`}
+      {/* ── Navigation link — covers card, links to internal detail page ──────── */}
+      {typeface.slug && (
+        <Link
+          href={`/typeface/${typeface.slug}`}
+          aria-label={`View ${typeface.name} by ${typeface.foundry?.name ?? "Unknown foundry"}`}
           className="absolute inset-0 rounded-[16px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#151515]/30 focus-visible:ring-offset-2 focus-visible:ring-offset-[#f2f1ed] cursor-pointer"
         />
       )}

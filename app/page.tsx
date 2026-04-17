@@ -361,7 +361,7 @@ export default function HomePage() {
                   <div className="flex items-center gap-2">
                     <button
                       type="submit"
-                      disabled={status === "loading" || !query.trim()}
+                      disabled={!query.trim()}
                       className="font-sans text-[14px] text-[#151515] uppercase px-[8px] py-[4px] rounded-[2px] cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed transition-colors hover:bg-[#e0ded8]"
                       style={{ border: "0.5px solid #151515" }}
                     >
@@ -369,7 +369,7 @@ export default function HomePage() {
                     </button>
                     <button
                       type="submit"
-                      disabled={status === "loading" || !query.trim()}
+                      disabled={!query.trim()}
                       aria-label="Search"
                       className="w-6 h-6 rounded-full bg-[#f4fbd4] flex items-center justify-center flex-shrink-0 text-[#151515] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-opacity hover:opacity-80"
                       style={{ border: "0.5px solid #151515" }}

@@ -25,6 +25,7 @@ const client = createClient({
 // Each entry: { id, add } — keywords to append if not already present.
 
 const PATCHES = [
+  // ── Previously run patches (idempotent — safe to re-run) ──────────────────
   {
     id:  'typeface-factor-a',
     add: ['Swiss grotesque', 'Swiss', 'International Style', 'geometric sans tradition'],
@@ -33,6 +34,31 @@ const PATCHES = [
     id:  'typeface-neue-freigeist',
     add: ['Swiss grotesque', 'Swiss', 'International Style', 'Grotesk tradition', 'early grotesque'],
   },
+
+  // ── Foundry name patches — enables foundry-name search ───────────────────
+  // Rule: every typeface must have the foundry's exact display name in rawKeywords.
+  {
+    id:  'typeface-grotta',
+    add: ['Due Studio', 'Due'],
+  },
+  {
+    id:  'typeface-olivo',
+    add: ['Typeverything', 'Type Everything', 'Andrei Robu'],
+  },
+  {
+    id:  'typeface-hermanos',
+    add: ['Nuform Type', 'Nuform'],
+  },
+  {
+    id:  'typeface-plaid',
+    add: ['Tigh Type'],
+  },
+  {
+    id:  'typeface-plaid-mono',
+    add: ['Tigh Type'],
+  },
+  // typeface-factor-a and typeface-armin-grotesk — add foundry name once confirmed.
+  // Check Studio → the linked foundry record's name field.
 ];
 
 async function main() {

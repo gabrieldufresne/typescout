@@ -99,9 +99,13 @@ export const typeface = defineType({
     defineField({
       name: 'subClassification',
       title: 'Sub-Classification',
-      description: 'Free-text refinement — e.g. "Humanist", "Geometric", "Transitional"',
+      description: '3 words max — e.g. "Humanist Grotesque", "Transitional Serif"',
       type: 'string',
       group: 'classification',
+      validation: (Rule) => Rule.custom((val: string | undefined) => {
+        if (!val) return true
+        return val.trim().split(/\s+/).length <= 3 || 'Sub-classification must be 3 words or fewer'
+      }),
     }),
     defineField({
       name: 'personalityTags',
@@ -217,6 +221,13 @@ export const typeface = defineType({
     defineField({
       name: 'variableFont',
       title: 'Variable Font',
+      type: 'boolean',
+      group: 'licensing',
+      initialValue: false,
+    }),
+    defineField({
+      name: 'hasItalics',
+      title: 'Has Italics',
       type: 'boolean',
       group: 'licensing',
       initialValue: false,

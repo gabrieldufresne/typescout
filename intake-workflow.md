@@ -72,8 +72,8 @@ Work through every field. Present as a compact list, not a table.
 - `slug` — lowercase, hyphens
 - `editorialNote` — 1–3 sentences, see §Editorial Note below, **always human-reviewed**
 - `typefaceURL` — the typeface landing page URL (the URL used to trigger intake)
-- `classification` — select all that apply from: `serif` `sans-serif` `display` `script` `monospace` `slab-serif` `blackletter` `decorative` `variable`
-- `subClassification` — free text, specific: `Humanist Grotesque`, `Transitional Serif`, etc.
+- `classification` — select all that apply from: `serif` `sans-serif` `display` `script` `monospace` `slab-serif` `blackletter` `decorative`
+- `subClassification` — free text, 3 words max: `Humanist Grotesque`, `Transitional Serif`, `Geometric Sans`
 - `personalityTags` — 3–5 from controlled vocabulary. **"Bold" is a weight descriptor, not a personality tag** — use `Loud`, `Expressive`, or `Authoritative` instead.
 - `useCaseTags` — 3–5 from controlled vocabulary
 - `era` — 1–3 from controlled vocabulary
@@ -83,10 +83,11 @@ Work through every field. Present as a compact list, not a table.
 - `xHeight` — `low` | `medium` | `tall`
 - `licensing` — `free` | `paid` (free = free/open-source/Google Fonts; paid = purchase or subscription required)
 - `platforms` — `google-fonts` | `adobe-fonts` | `both` | `neither`
-- `variableFont` — `true` if the page lists a variable font or VAR file
+- `variableFont` — `true` if the page lists a variable font or VAR file. This is the only signal used for variable font search — do not add `variable` to `classification`
+- `hasItalics` — `true` if the typeface includes italic or oblique styles. Look for: an "Italic" tab or section on the specimen page, italic weights listed in the weight table, `/i` or `Italic` suffixes in font file names visible in the network inspector, or any explicit mention of oblique/slanted styles. Default `false` if not mentioned.
 - `multilingualSupport` — `true` if the page mentions multilingual coverage or lists 50+ languages
 - `featured` — always `false` on intake
-- `rawKeywords` — descriptors that don't fit the controlled vocabulary: designer names, year, historical references, technical details
+- `rawKeywords` — **always start with the foundry's exact display name** (e.g. `'PangramPangram'`, `'Pangram Pangram'`, `'Grilli Type'`). Add alternate spellings or abbreviations if the name is commonly written multiple ways. Then add other descriptors that don't fit the controlled vocabulary: designer names, year, historical references, technical details
 
 ### Weight mapping
 
@@ -219,6 +220,7 @@ const TYPEFACES = [
     contrast:          ['low'],
     typefaceURL:       '...',  // the intake URL — no extra lookup needed
     rawKeywords:       [...],
+    hasItalics:        false,
   },
 ];
 ```
@@ -253,7 +255,7 @@ Then reload `localhost:3000` and run a search that should surface the new typefa
 > **Source of truth: `lib/taxonomy.ts`** — edit that file to add or rename tags. The Studio dropdowns and Claude search engine both derive from it automatically. Keep this section in sync when taxonomy changes.
 
 ### Classification
-`serif` · `sans-serif` · `display` · `script` · `monospace` · `slab-serif` · `blackletter` · `decorative` · `variable`
+`serif` · `sans-serif` · `display` · `script` · `monospace` · `slab-serif` · `blackletter` · `decorative`
 
 ### Personality
 `Neutral` · `Expressive` · `Elegant` · `Rugged` · `Friendly` · `Serious` · `Playful` · `Sophisticated` · `Warm` · `Cold` · `Minimal` · `Loud` · `Refined` · `Raw` · `Quirky` · `Authoritative` · `Approachable` · `Luxurious` · `Functional` · `Experimental`
@@ -287,7 +289,9 @@ Then reload `localhost:3000` and run a search that should surface the new typefa
 
 ## rawKeywords — the parking lot
 
-Add any descriptor from the page that doesn't fit the taxonomy above:
+**The foundry name is always the first entry.** Include the exact display name as it appears on the site, plus any common alternate form (e.g. `'PangramPangram'` and `'Pangram Pangram'`; `'Grilli Type'` and `'GT'`). This is what powers foundry-name search — without it, searching the foundry name returns wrong results.
+
+Add any other descriptor from the page that doesn't fit the taxonomy above:
 - Designer names, year of release
 - Specific historical references
 - Technical details (ink traps, optical sizes, double-storey g)

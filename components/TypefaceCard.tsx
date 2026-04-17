@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef } from "react";
 import { motion } from "motion/react";
 import {
   ArrowUpRight,
@@ -7,11 +8,89 @@ import {
   TextAa,
   UserFocus,
   PencilCircle,
-  ArrowsCounterClockwise,
+  TextItalic,
+  ArrowsOutLineHorizontal,
   Lock,
 } from "@phosphor-icons/react";
 import { urlFor } from "@/lib/sanity";
 import type { TypefaceResult, WeightName } from "@/lib/types";
+
+// ── Scrollable tag row ────────────────────────────────────────────────────────
+
+function ScrollableTagRow({ children }: { children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const rafRef = useRef(0);
+
+  function onMouseDown(e: React.MouseEvent) {
+    if (!ref.current) return;
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    const el = ref.current!;
+
+    cancelAnimationFrame(rafRef.current);
+
+    const startX = e.clientX;
+    const startLeft = el.scrollLeft;
+    let dragged = false;
+    let velocity = 0;
+    let lastX = e.clientX;
+    let lastT = performance.now();
+
+    function onMove(e: MouseEvent) {
+      const now = performance.now();
+      const dt = now - lastT;
+      const dx = e.clientX - startX;
+      if (!dragged && Math.abs(dx) > 4) {
+        dragged = true;
+        el.style.cursor = "grabbing";
+      }
+      if (dragged) {
+        if (dt > 0) velocity = (lastX - e.clientX) / dt;
+        el.scrollLeft = startLeft - dx;
+        lastX = e.clientX;
+        lastT = now;
+      }
+    }
+
+    function onUp() {
+      el.style.cursor = "";
+      document.removeEventListener("mousemove", onMove);
+      document.removeEventListener("mouseup", onUp);
+      if (!dragged || Math.abs(velocity) < 0.05) return;
+      let prev = performance.now();
+      function step(now: number) {
+        const dt = now - prev;
+        prev = now;
+        velocity *= 0.93 ** (dt / 16);
+        el.scrollLeft += velocity * dt;
+        if (Math.abs(velocity) > 0.05) {
+          rafRef.current = requestAnimationFrame(step);
+        }
+      }
+      rafRef.current = requestAnimationFrame(step);
+    }
+
+    document.addEventListener("mousemove", onMove);
+    document.addEventListener("mouseup", onUp);
+  }
+
+  return (
+    <div className="relative flex-1 min-w-0">
+      <div
+        ref={ref}
+        onMouseDown={onMouseDown}
+        className="flex flex-nowrap items-center gap-2 overflow-x-auto cursor-grab select-none [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      >
+        {children}
+        {/* Trailing spacer so gradient never overlaps the last tag */}
+        <div className="min-w-[32px] flex-shrink-0" aria-hidden="true" />
+      </div>
+      <div
+        className="absolute inset-y-0 right-0 w-8 pointer-events-none"
+        style={{ background: "linear-gradient(to right, transparent, #f2f1ed)" }}
+      />
+    </div>
+  );
+}
 
 // ── Tag components ────────────────────────────────────────────────────────────
 
@@ -27,14 +106,14 @@ function SandTag({ children }: { children: React.ReactNode }) {
   );
 }
 
-/** Lime-filled tag — feature badges (Variable, Italics) */
-function FeatureTag({ children }: { children: React.ReactNode }) {
+/** Lime-filled tag — feature badges (Italics, Variable) */
+function FeatureTag({ children, icon: Icon }: { children: React.ReactNode; icon: React.ElementType }) {
   return (
     <span
       className="inline-flex items-center gap-1 pl-[6px] pr-[8px] py-[4px] rounded-[2px] font-sans text-[0.785rem] text-[#000000] bg-[#f4fbd4] uppercase whitespace-nowrap"
       style={{ border: "0.5px solid #151515" }}
     >
-      <ArrowsCounterClockwise size={16} weight="regular" aria-hidden="true" />
+      <Icon size={16} weight="regular" aria-hidden={true} />
       {children}
     </span>
   );
@@ -114,12 +193,6 @@ export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
       ? urlFor(typeface.specimenImage).width(800).url()
       : null;
 
-  const handleClick = () => {
-    if (typeface.typefaceURL) {
-      window.open(typeface.typefaceURL, "_blank", "noopener,noreferrer");
-    }
-  };
-
   const weights = WEIGHT_ORDER.filter((w) => typeface.weightRange?.includes(w));
 
   return (
@@ -130,14 +203,8 @@ export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
       exit={{ opacity: 0, y: 8 }}
       transition={{ delay: index * 0.06, duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
       whileHover="hover"
-      onClick={handleClick}
-      role="button"
-      tabIndex={0}
-      onKeyDown={(e) => {
-        if (e.key === "Enter" || e.key === " ") handleClick();
-      }}
       aria-label={`${typeface.name} by ${typeface.foundry?.name ?? "Unknown foundry"}`}
-      className="rounded-[16px] bg-[#f2f1ed] overflow-hidden cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-[#151515]/30 focus-visible:ring-offset-2 focus-visible:ring-offset-[#f2f1ed] h-full flex flex-col"
+      className="relative rounded-[16px] bg-[#f2f1ed] overflow-hidden h-full flex flex-col"
     >
       {/* ── White specimen area ─────────────────────────────────────────────── */}
       <div className="mx-[16px] mt-[16px] rounded-[8px] bg-white overflow-hidden flex-1 flex flex-col justify-between">
@@ -172,39 +239,54 @@ export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
         </div>
       </div>
 
+      {/* ── Navigation link — covers card, above specimen, below tag rows ─────── */}
+      {typeface.typefaceURL && (
+        <a
+          href={typeface.typefaceURL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Open ${typeface.name} on foundry site`}
+          className="absolute inset-0 rounded-[16px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#151515]/30 focus-visible:ring-offset-2 focus-visible:ring-offset-[#f2f1ed] cursor-pointer"
+        />
+      )}
+
       {/* ── Metadata section — full width tag rows ──────────────────────────── */}
-      <div className="px-[16px] pt-4 pb-4 flex flex-col gap-2">
+      <div className="relative z-10 px-[16px] pt-4 pb-4 flex flex-col gap-2">
 
         {/* Row 1: Classification */}
         {typeface.classification && typeface.classification.length > 0 && (
           <div className="flex items-center gap-3">
             <ClassificationIcon />
-            <div className="flex flex-wrap gap-2 items-center">
+            <ScrollableTagRow>
               {typeface.classification.map((c) => (
                 <SandTag key={c}>{c}</SandTag>
               ))}
               {typeface.subClassification && (
                 <SandTag>{typeface.subClassification}</SandTag>
               )}
-            </div>
+            </ScrollableTagRow>
           </div>
         )}
 
-        {/* Row 2: Weights + feature badges */}
+        {/* Row 2: Weight count + feature badges */}
         {weights.length > 0 && (
           <div className="flex items-center gap-3">
             <WeightsIcon />
-            <div className="flex flex-wrap gap-2 items-center">
-              {weights.map((w) => (
-                <SandTag key={w}>{w}</SandTag>
-              ))}
+            <ScrollableTagRow>
+              <SandTag>{weights.length} Weight{weights.length !== 1 ? "s" : ""}</SandTag>
+              {typeface.hasItalics && (
+                <>
+                  <span className="font-sans text-[0.785rem] text-[#000000]">·</span>
+                  <FeatureTag icon={TextItalic}><span className="sm:hidden">Ital</span><span className="hidden sm:inline">Italics</span></FeatureTag>
+                </>
+              )}
               {typeface.variableFont && (
                 <>
                   <span className="font-sans text-[0.785rem] text-[#000000]">·</span>
-                  <FeatureTag>Variable</FeatureTag>
+                  <FeatureTag icon={ArrowsOutLineHorizontal}><span className="sm:hidden">Var</span><span className="hidden sm:inline">Variable</span></FeatureTag>
                 </>
               )}
-            </div>
+            </ScrollableTagRow>
           </div>
         )}
 
@@ -212,11 +294,11 @@ export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
         {typeface.personalityTags && typeface.personalityTags.length > 0 && (
           <div className="flex items-center gap-3">
             <PersonalityIcon />
-            <div className="flex flex-wrap gap-2">
+            <ScrollableTagRow>
               {typeface.personalityTags.map((tag) => (
                 <OutlineTag key={tag}>{tag}</OutlineTag>
               ))}
-            </div>
+            </ScrollableTagRow>
           </div>
         )}
 
@@ -224,11 +306,11 @@ export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
         {typeface.useCaseTags && typeface.useCaseTags.length > 0 && (
           <div className="flex items-center gap-3">
             <UseCaseIcon />
-            <div className="flex flex-wrap gap-2">
+            <ScrollableTagRow>
               {typeface.useCaseTags.map((tag) => (
                 <OutlineTag key={tag}>{tag}</OutlineTag>
               ))}
-            </div>
+            </ScrollableTagRow>
           </div>
         )}
 

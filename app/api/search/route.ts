@@ -82,9 +82,11 @@ const TYPEFACE_PROJECTION = `{
   licensing,
   platforms,
   variableFont,
+  hasItalics,
   multilingualSupport,
   typefaceURL,
-  featured
+  featured,
+  rawKeywords
 }`;
 
 // ── Route handler ────────────────────────────────────────────────────────────
@@ -164,6 +166,10 @@ export async function POST(request: Request): Promise<Response> {
 
   if (tags.classification.length > 0)
     conditions.push('count((classification)[@ in $classification]) > 0');
+  // variableFont is a boolean field, not a classification tag.
+  // Detect variable font queries directly from the raw query string.
+  if (/\bvariable\b/i.test(query))
+    conditions.push('variableFont == true');
   if (tags.personalityTags.length > 0)
     conditions.push('count((personalityTags)[@ in $personalityTags]) > 0');
   if (tags.useCaseTags.length > 0)
@@ -182,10 +188,14 @@ export async function POST(request: Request): Promise<Response> {
   // Conditions between dimensions use AND — a result must satisfy every
   // non-empty dimension. Within each dimension the GROQ already uses OR
   // (any matching value in the array qualifies).
+  // Text search clause — always runs alongside tag conditions.
+  // Matches the raw query against name, rawKeywords, subClassification, and editorialNote.
+  const textMatch = `(name match $rawQuery || count((rawKeywords)[@ match $rawQuery]) > 0 || subClassification match $rawQuery || editorialNote match $rawQuery)`;
+
   const filter =
     conditions.length > 0
-      ? `_type == "typeface" && ${conditions.join(" && ")}`
-      : `_type == "typeface"`;
+      ? `_type == "typeface" && (${conditions.join(" && ")} || ${textMatch})`
+      : `_type == "typeface" && ${textMatch}`;
 
   const groqQuery = `*[${filter}] | order(name asc) ${TYPEFACE_PROJECTION}`;
 
@@ -200,6 +210,7 @@ export async function POST(request: Request): Promise<Response> {
       weightRange: tags.weightRange,
       era: tags.era,
       foundryQuery: tags.foundryQuery,
+      rawQuery: query,
     });
   } catch (err) {
     console.error("[TypeScout] Sanity query error:", err);
@@ -230,6 +241,28 @@ export async function POST(request: Request): Promise<Response> {
     if (tags.era.length > 0)
       s += (result.era ?? []).filter(v => tags.era.includes(v)).length * 1;
     if (result.featured) s += 1;
+    // Name / text match bonus — floats direct name hits above tag coincidences.
+    const rq = query.toLowerCase();
+    const nameLower = (result.name ?? '').toLowerCase();
+    if (nameLower === rq) s += 10;
+    else if (nameLower.includes(rq) || rq.includes(nameLower)) s += 6;
+    // Foundry match — strong signal, floats foundry-specific queries to the top.
+    // 5pts outweighs typical tag-match scores so a direct foundry search
+    // surfaces that foundry's typefaces before unrelated tag coincidences.
+    if (tags.foundryQuery.length > 0) {
+      const fq = tags.foundryQuery.toLowerCase();
+      const foundryName = (result.foundry?.name ?? '').toLowerCase();
+      const foundryLocation = (result.foundry?.location ?? '').toLowerCase();
+      const keywords = (result.rawKeywords ?? []).map((k: string) => k.toLowerCase());
+      if (
+        foundryName.includes(fq) ||
+        fq.includes(foundryName) ||
+        foundryLocation.includes(fq) ||
+        keywords.some((k: string) => k.includes(fq))
+      ) {
+        s += 5;
+      }
+    }
     return s;
   }
 

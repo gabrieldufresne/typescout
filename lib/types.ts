@@ -22,7 +22,6 @@ export type Classification =
   | 'slab-serif'
   | 'blackletter'
   | 'decorative'
-  | 'variable'
 
 export type Licensing = 'free' | 'paid'
 export type Platform = 'google-fonts' | 'adobe-fonts' | 'both' | 'neither'
@@ -68,6 +67,7 @@ export interface TypefaceResult {
   licensing: Licensing
   platforms: Platform
   variableFont: boolean
+  hasItalics?: boolean
   multilingualSupport: boolean
   typefaceURL: string
   featured: boolean

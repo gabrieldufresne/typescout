@@ -4,6 +4,7 @@ import { useState, useRef, useEffect, FormEvent } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowUpRight, X } from "@phosphor-icons/react";
 import { TypefaceCard } from "@/components/TypefaceCard";
+import { PixelPigeon } from "@/components/PixelPigeon";
 import type { TypefaceResult, SearchStatus } from "@/lib/types";
 
 // ── Animated placeholder prompts ─────────────────────────────────────────────
@@ -156,17 +157,17 @@ function AnimatedPlaceholder({ visible }: { visible: boolean }) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
-          className="absolute inset-0 flex items-center pointer-events-none font-sans text-[16px] normal-case"
+          className="col-start-1 row-start-1 flex items-start pointer-events-none font-sans text-[16px] normal-case"
           style={{ color: "rgba(21,21,21,0.40)" }}
           aria-hidden="true"
         >
-          {displayed}
           <motion.span
-            animate={{ opacity: [1, 0] }}
-            transition={{ duration: 0.6, repeat: Infinity, repeatType: "reverse" }}
-            className="inline-block w-[1px] h-[1em] ml-[1px] align-middle"
+            animate={{ opacity: [1, 1, 0, 0] }}
+            transition={{ duration: 1, repeat: Infinity, repeatType: "loop", times: [0, 0.5, 0.5, 1], ease: "linear" }}
+            className="inline-block w-[1px] h-[1em] mr-[2px] mt-[0.15em] flex-shrink-0"
             style={{ background: "rgba(21,21,21,0.40)" }}
           />
+          {displayed}
         </motion.span>
       )}
     </AnimatePresence>
@@ -231,33 +232,63 @@ export default function HomePage() {
   }
 
   const isIdle = status === "idle";
+  const activeChar = query.length > 0 ? query[query.length - 1].toUpperCase() : '';
 
   // ── Render ──────────────────────────────────────────────────────────────────
   return (
-    <div className="min-h-[100dvh] flex flex-col">
+    <div className="relative min-h-[100dvh] flex flex-col">
 
       {/* ── Main — flex-1 so taglines below are pinned to bottom ───────────── */}
       <main
         className={`flex-1 flex flex-col px-6 w-full ${
           isIdle
-            ? "items-center justify-center gap-8"
+            ? "items-center justify-center"
             : "pt-16"
         }`}
       >
 
-        {/* ── TYPESCOUT wordmark (idle only) ──────────────────────────────── */}
+        {/* ── Pixel pigeon background (idle only) ─────────────────────────── */}
         <AnimatePresence>
           {isIdle && (
-            <motion.img
+            <motion.div
+              key="pigeon"
+              className="absolute inset-0 w-full h-full"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+              style={{ zIndex: -1 }}
+            >
+              <PixelPigeon activeChar={activeChar} />
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* ── TYPESCOUT wordmark (idle only) — pinned to top ─────────────── */}
+        <AnimatePresence>
+          {isIdle && (
+            <motion.div
               key="wordmark"
-              src="/typescout-logo.svg"
-              alt="TypeScout"
-              className="mix-blend-multiply w-auto max-w-[360px] pointer-events-none select-none"
+              className="absolute top-0 left-0 right-0 flex justify-center px-6 pt-8 pointer-events-none select-none"
+              style={{ zIndex: 1 }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
-            />
+              aria-label="TypeScout"
+            >
+              <svg className="h-10 w-auto" viewBox="0 0 338 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M320.181 46.872C319.533 46.872 318.885 46.584 318.381 46.08L312.765 40.464C312.405 40.104 312.117 39.6 312.117 39.024V18.072H318.669V40.392L333.285 25.776L337.821 30.24L321.981 46.08C321.477 46.584 320.829 46.872 320.181 46.872ZM312.117 7.344V0H318.669V8.928C318.669 9.792 319.389 10.512 320.325 10.512H337.173V16.992H321.117C320.037 16.992 319.605 16.56 318.885 15.84L313.269 10.224C312.477 9.432 312.117 8.424 312.117 7.344Z" fill="#151515"/>
+                <path d="M279.048 46.872C278.4 46.872 277.752 46.584 277.248 46.08L271.632 40.464C271.272 40.104 270.984 39.6 270.984 39.024V10.512H277.536V40.392L292.152 25.776L296.688 30.24L280.848 46.08C280.344 46.584 279.696 46.872 279.048 46.872ZM298.344 46.872V10.512H304.896V46.872H298.344Z" fill="#151515"/>
+                <path d="M238.795 46.872C237.715 46.872 236.707 46.44 235.987 45.72L230.371 40.104C229.579 39.312 229.219 38.304 229.219 37.224V20.16C229.219 19.08 229.579 18.072 230.371 17.28L235.987 11.664C236.707 10.944 237.715 10.512 238.795 10.512H254.203C255.283 10.512 256.291 10.944 257.011 11.664L262.627 17.28C263.419 18.072 263.779 19.08 263.779 20.16V37.224C263.779 38.304 263.419 39.312 262.627 40.104L257.011 45.72C256.291 46.44 255.283 46.872 254.203 46.872H238.795ZM235.771 38.808C235.771 39.672 236.491 40.392 237.427 40.392H255.571C256.507 40.392 257.227 39.672 257.227 38.808V18.576C257.227 17.712 256.507 16.992 255.571 16.992H237.427C236.491 16.992 235.771 17.712 235.771 18.576V38.808Z" fill="#151515"/>
+                <path d="M201.388 46.872C200.308 46.872 199.3 46.44 198.58 45.72L192.964 40.104C192.172 39.312 191.812 38.304 191.812 37.224V20.16C191.812 19.08 192.172 18.072 192.964 17.28L198.58 11.664C199.3 10.944 200.308 10.512 201.388 10.512H222.772V16.992H200.02C199.084 16.992 198.364 17.712 198.364 18.576V38.808C198.364 39.672 199.084 40.392 200.02 40.392H222.772V46.872H201.388Z" fill="#151515"/>
+                <path d="M185.653 44.64C185.653 45.216 185.365 45.792 184.933 46.152C184.501 46.584 183.853 46.872 183.133 46.872H153.757V40.392H181.549L169.885 28.728L174.349 24.264L184.933 34.848C185.365 35.28 185.653 35.928 185.653 36.576V44.64ZM154.117 20.88V12.744C154.117 12.168 154.405 11.592 154.837 11.232C155.269 10.8 155.917 10.512 156.637 10.512H186.013V16.992H158.149L169.885 28.728L165.421 33.192L154.837 22.608C154.405 22.176 154.117 21.528 154.117 20.88Z" fill="#151515"/>
+                <path d="M125.099 46.872C124.019 46.872 123.011 46.44 122.291 45.72L116.675 40.104C115.883 39.312 115.523 38.304 115.523 37.224V20.16C115.523 19.08 115.883 18.072 116.675 17.28L122.291 11.664C123.011 10.944 124.019 10.512 125.099 10.512H140.867C141.443 10.512 141.947 10.8 142.307 11.16L147.923 16.776C148.427 17.28 148.715 17.928 148.715 18.576C148.715 19.224 148.427 19.872 147.923 20.376L131.003 37.296L126.467 32.832L142.307 16.992H123.731C122.795 16.992 122.075 17.712 122.075 18.576V38.808C122.075 39.672 122.795 40.392 123.731 40.392H147.059V46.872H125.099Z" fill="#151515"/>
+                <path d="M72.5625 20.16C72.5625 19.08 72.9225 18.072 73.7145 17.28L79.3305 11.664C80.0505 10.944 81.0585 10.512 82.1385 10.512H98.7705C99.8505 10.512 100.858 10.944 101.578 11.664L107.195 17.28C107.987 18.072 108.347 19.08 108.347 20.16V39.024C108.347 39.6 108.059 40.104 107.699 40.464L102.083 46.08C101.579 46.584 100.931 46.872 100.283 46.872C99.6345 46.872 98.9865 46.584 98.4825 46.08L81.4905 29.088L86.0265 24.624L101.795 40.392V18.576C101.795 17.712 101.075 16.992 100.139 16.992H80.7705C79.8345 16.992 79.1145 17.712 79.1145 18.576V61.272H72.5625V20.16Z" fill="#151515"/>
+                <path d="M34.0937 61.272V54.792H57.0617C57.9977 54.792 58.7897 54.072 58.7897 53.208V10.512H65.3417V51.624C65.3417 52.704 64.9817 53.712 64.1897 54.504L58.5737 60.12C57.8537 60.84 56.8457 61.272 55.7657 61.272H34.0937ZM31.4297 39.024V10.512H37.9817V40.392L52.5977 25.776L57.1337 30.24L41.2937 46.08C40.7897 46.584 40.1417 46.872 39.4937 46.872C38.8457 46.872 38.1977 46.584 37.6937 46.08L32.0777 40.464C31.7177 40.104 31.4297 39.6 31.4297 39.024Z" fill="#151515"/>
+                <path d="M8.064 46.872C7.416 46.872 6.768 46.584 6.264 46.08L0.648 40.464C0.288 40.104 0 39.6 0 39.024V18.072H6.552V40.392L21.168 25.776L25.704 30.24L9.864 46.08C9.36 46.584 8.712 46.872 8.064 46.872ZM0 7.344V0H6.552V8.928C6.552 9.792 7.272 10.512 8.208 10.512H25.056V16.992H9C7.92 16.992 7.488 16.56 6.768 15.84L1.152 10.224C0.36 9.432 0 8.424 0 7.344Z" fill="#151515"/>
+              </svg>
+            </motion.div>
           )}
         </AnimatePresence>
 
@@ -268,13 +299,19 @@ export default function HomePage() {
           transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
           className="w-full max-w-[850px] mx-auto"
         >
-          <div
-            className="rounded-[24px] bg-white flex flex-col justify-between p-[24px] min-h-[200px]"
-            style={{ border: "1px solid #E0DED8" }}
+          <motion.div
+            layout="position"
+            transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
+            className={
+              isIdle
+                ? "rounded-[4px] bg-white flex flex-col justify-between p-[16px] min-h-[100px]"
+                : "rounded-[4px] bg-white flex flex-row items-center gap-3 py-[12px] px-[16px]"
+            }
+            style={{ border: isIdle ? "1px solid #E0DED8" : "1px solid #171717" }}
           >
             {/* Row 1 — Input (anchored to top) */}
-            <div className="flex items-center gap-3">
-              <div className="relative flex-1">
+            <motion.div layout className="flex items-center gap-3 flex-1 min-w-0">
+              <div className="grid flex-1 min-w-0">
                 <input
                   ref={inputRef}
                   autoFocus
@@ -282,7 +319,7 @@ export default function HomePage() {
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   placeholder=""
-                  className="w-full bg-transparent text-[16px] font-sans text-[#000000] uppercase outline-none"
+                  className="col-start-1 row-start-1 w-full bg-transparent text-[16px] font-sans text-[#000000] uppercase outline-none"
                   aria-label="Typeface search"
                   disabled={status === "loading"}
                 />
@@ -305,34 +342,65 @@ export default function HomePage() {
                   </motion.button>
                 )}
               </AnimatePresence>
-            </div>
+            </motion.div>
 
-            {/* Row 2 — Action bar (anchored to bottom via justify-between) */}
-            <div className="flex items-center justify-between">
-              <span className="font-sans text-[14px] font-semibold text-[#000000] uppercase">
-                V.1.0
-              </span>
-              <div className="flex items-center gap-2">
-                <button
-                  type="submit"
-                  disabled={status === "loading" || !query.trim()}
-                  className="font-sans text-[14px] text-[#151515] uppercase px-[8px] py-[4px] rounded-[2px] cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed transition-colors hover:bg-[#e0ded8]"
-                  style={{ border: "0.5px solid #151515" }}
+            {/* Row 2 — Action bar (idle only) */}
+            <AnimatePresence>
+              {isIdle && (
+                <motion.div
+                  key="action-bar"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
+                  className="flex items-end justify-between pt-2"
                 >
-                  Search
-                </button>
-                <button
+                  <span className="font-sans text-[14px] font-light uppercase" style={{ color: "rgba(21,21,21,0.50)" }}>
+                    V.{process.env.NEXT_PUBLIC_APP_VERSION}
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="submit"
+                      disabled={status === "loading" || !query.trim()}
+                      className="font-sans text-[14px] text-[#151515] uppercase px-[8px] py-[4px] rounded-[2px] cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed transition-colors hover:bg-[#e0ded8]"
+                      style={{ border: "0.5px solid #151515" }}
+                    >
+                      Search
+                    </button>
+                    <button
+                      type="submit"
+                      disabled={status === "loading" || !query.trim()}
+                      aria-label="Search"
+                      className="w-6 h-6 rounded-full bg-[#f4fbd4] flex items-center justify-center flex-shrink-0 text-[#151515] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-opacity hover:opacity-80"
+                      style={{ border: "0.5px solid #151515" }}
+                    >
+                      <ArrowUpRight size={12} weight="regular" aria-hidden="true" />
+                    </button>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+            {/* Compact submit — active state only */}
+            <AnimatePresence>
+              {!isIdle && (
+                <motion.button
+                  key="compact-submit"
                   type="submit"
                   disabled={status === "loading" || !query.trim()}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.8 }}
+                  transition={{ duration: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
                   aria-label="Search"
                   className="w-6 h-6 rounded-full bg-[#f4fbd4] flex items-center justify-center flex-shrink-0 text-[#151515] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-opacity hover:opacity-80"
                   style={{ border: "0.5px solid #151515" }}
                 >
                   <ArrowUpRight size={12} weight="regular" aria-hidden="true" />
-                </button>
-              </div>
-            </div>
-          </div>
+                </motion.button>
+              )}
+            </AnimatePresence>
+          </motion.div>
         </motion.form>
 
         {/* ── Results area (active state) ──────────────────────────────────── */}
@@ -405,16 +473,27 @@ export default function HomePage() {
             <p className="font-sans text-[14px] text-[#000000] uppercase">
               Search by feeling, not by checkbox.
             </p>
-            <p
-              className="font-sans text-[14px] uppercase mt-2"
-              style={{ color: "rgba(21,21,21,0.50)" }}
-            >
-              Made by:{" "}
-              <span className="underline underline-offset-2">August Strategy</span>
-            </p>
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* ── Footer — always visible ──────────────────────────────────────────── */}
+      <footer className={`px-6 pb-8 text-center${isIdle ? "" : " mt-16"}`}>
+        <p
+          className="font-sans text-[14px] uppercase"
+          style={{ color: "rgba(21,21,21,0.50)" }}
+        >
+          Made by:{" "}
+          <a
+            href="https://auguststrategy.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:opacity-70 transition-opacity"
+          >
+            August Strategy
+          </a>
+        </p>
+      </footer>
 
     </div>
   );

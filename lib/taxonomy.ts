@@ -12,7 +12,7 @@
 
 export const CLASSIFICATION = [
   'serif', 'sans-serif', 'display', 'script', 'monospace',
-  'slab-serif', 'blackletter', 'decorative', 'variable',
+  'slab-serif', 'blackletter', 'decorative',
 ] as const
 
 export const PERSONALITY_TAGS = [

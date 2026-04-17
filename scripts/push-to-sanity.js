@@ -99,6 +99,7 @@ async function main() {
       contrast:          tf.contrast,
       typefaceURL:       tf.typefaceURL,
       rawKeywords:       tf.rawKeywords,
+      hasItalics:        tf.hasItalics ?? false,
       ...SHARED,
     });
     console.log(`  ✓ ${tf._id} created`);

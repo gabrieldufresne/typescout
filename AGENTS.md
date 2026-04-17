@@ -25,3 +25,17 @@ Playwright and all project dependencies live in `typescout/node_modules`. They a
 
 Before running any `npm run`, `node scripts/`, or `playwright-cli` command, confirm the working directory is `typescout/`. If in doubt, prefix every command with `cd typescout &&`.
 <!-- END:working-directory-rules -->
+
+<!-- BEGIN:deploy-version-rules -->
+# Version bump on deploy
+
+Before every deploy commit, bump the version in `package.json` using:
+
+```bash
+npm version patch   # bug fixes and small improvements (1.0.0 → 1.0.1)
+npm version minor   # new features (1.0.0 → 1.1.0)
+npm version major   # breaking changes or major releases (1.0.0 → 2.0.0)
+```
+
+This command updates `package.json`, commits the change, and tags the commit automatically. The version number is read at build time by `next.config.ts` and displayed in the search card as `V.x.x.x`. No manual edits to `page.tsx` needed.
+<!-- END:deploy-version-rules -->

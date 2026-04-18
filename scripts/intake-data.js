@@ -10,37 +10,38 @@
 // ── Foundry ───────────────────────────────────────────────────────────────────
 // Existing foundry
 const FOUNDRY = null;
-const FOUNDRY_ID = 'foundry-typeverything';
+const FOUNDRY_ID = 'foundry-formerly-known';
 
 // ── Shared fields (common to all typefaces in this intake) ────────────────────
 const SHARED = {
-  weightRange:         ['light'],
+  weightRange:         ['regular', 'medium', 'bold', 'extrabold'],
   width:               'normal',
-  era:                 ['Contemporary'],
+  era:                 ['Contemporary', 'Heritage'],
   licensing:           'paid',
   platforms:           'neither',
-  variableFont:        false,
-  multilingualSupport: false,
+  variableFont:        true,
+  multilingualSupport: true,
   featured:            false,
 };
 
 // ── Typefaces ─────────────────────────────────────────────────────────────────
 const TYPEFACES = [
   {
-    _id:               'typeface-kitsune',
-    name:              'Kitsune',
-    slug:              'kitsune',
-    specimenFile:      'typeverything_kitsune_specimen.jpg',
-    editorialNote:     'Kitsuné, the Japanese word for fox, is a modern script display typeface packed with OpenType alternates and graphic glyphs. The subtle and well considered geometric shoulders and beautifully flowing capital forms are bound to impress, well suited for fashion magazines, wedding invitations and more. Designed by Andrei Robu.',
-    classification:    ['script', 'display'],
-    subClassification: 'Geometric Script',
-    personalityTags:   ['Elegant', 'Sophisticated', 'Expressive', 'Refined'],
-    useCaseTags:       ['Branding', 'Editorial', 'Packaging', 'Poster'],
+    _id:               'typeface-echo',
+    name:              'Echo',
+    slug:              'echo',
+    specimenFile:      'formerly-known_echo_specimen.jpg',
+    specimenHeavyFile: 'formerly-known_echo_specimen_heavy.jpg',
+    editorialNote:     'Echo is a contemporary Old Style serif in 4 upright weights across 4 widths, where softened details give the family an approachable, familiar feel. Quirky, slouchy shaping and terminal overreach are unexpected for an Old Style; its reflected O and o, activatable through OpenType features, add a disruptive visual impact.',
+    classification:    ['serif'],
+    subClassification: 'Old Style Serif',
+    personalityTags:   ['Approachable', 'Warm', 'Quirky', 'Expressive', 'Experimental'],
+    useCaseTags:       ['Editorial', 'Body Text', 'Headline', 'Branding', 'Longform Reading'],
     xHeight:           'medium',
-    contrast:          ['monolinear'],
-    typefaceURL:       'https://typeverything.com/kitsune',
+    contrast:          ['medium'],
+    typefaceURL:       'https://formerly-known.com/typeface/echo',
     hasItalics:        false,
-    rawKeywords:       ['Typeverything', 'Type Everything', 'Andrei Robu', 'Kitsuné', 'fox', 'Japanese', 'script display', 'wedding', 'fashion', 'OpenType alternates', 'ligatures', 'graphic glyphs'],
+    rawKeywords:       ['Formerly Known', 'FKT', 'Formerly Known Type', 'Hambly Freeman', '2024', 'Old Style', 'Echoplex', 'tape delay', 'variable font', 'reflected O', 'condensed', 'four widths'],
   },
 ];
 

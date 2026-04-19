@@ -22,6 +22,7 @@ import {
   USE_CASE_TAGS,
   CONTRAST,
   WEIGHT_RANGE,
+  WIDTH,
   ERA_TAGS,
 } from "@/lib/taxonomy";
 
@@ -33,7 +34,7 @@ const anthropic = new Anthropic({
 // Vocabulary is derived from lib/taxonomy.ts — the single source of truth.
 // To add or rename a tag, edit taxonomy.ts only.
 
-const SYSTEM_PROMPT = `You are the TypeScout search engine. Given a natural language query from a designer, extract relevant search tags and return ONLY a valid JSON object with these fields: classification (array), personalityTags (array), useCaseTags (array), contrast (array), weightRange (array), era (array), foundryQuery (string). Match tags strictly to the controlled vocabulary below. Return an empty array for any dimension you cannot confidently match. Return an empty string for foundryQuery if no foundry or location is mentioned. No explanation, no markdown, only JSON.
+const SYSTEM_PROMPT = `You are the TypeScout search engine. Given a natural language query from a designer, extract relevant search tags and return ONLY a valid JSON object with these fields: classification (array), personalityTags (array), useCaseTags (array), contrast (array), weightRange (array), width (array), era (array), foundryQuery (string). Match tags strictly to the controlled vocabulary below. Return an empty array for any dimension you cannot confidently match. Return an empty string for foundryQuery if no foundry or location is mentioned. No explanation, no markdown, only JSON.
 
 CONTROLLED VOCABULARY:
 
@@ -51,6 +52,9 @@ ${CONTRAST.join(', ')}
 
 weightRange (use lowercase values):
 ${WEIGHT_RANGE.join(', ')}
+
+width (use lowercase values):
+${WIDTH.join(', ')}
 
 era (use exact capitalisation):
 ${ERA_TAGS.join(', ')}
@@ -79,6 +83,7 @@ const TYPEFACE_PROJECTION = `{
   useCaseTags,
   weightRange,
   contrast,
+  width,
   era,
   licensing,
   platforms,
@@ -150,6 +155,7 @@ export async function POST(request: Request): Promise<Response> {
       weightRange: Array.isArray(parsed.weightRange)
         ? parsed.weightRange
         : [],
+      width: Array.isArray(parsed.width) ? parsed.width : [],
       era: Array.isArray(parsed.era) ? parsed.era : [],
       foundryQuery: typeof parsed.foundryQuery === 'string' ? parsed.foundryQuery : '',
     };
@@ -206,6 +212,8 @@ export async function POST(request: Request): Promise<Response> {
   // weightRange is intentionally excluded from GROQ conditions — Claude infers
   // weights from aesthetic context, which is too imprecise for a hard AND filter.
   // Weight is surfaced as card metadata only.
+  if (tags.width.length > 0)
+    conditions.push('width in $width');
   if (tags.era.length > 0)
     conditions.push('count((era)[@ in $era]) > 0');
   // foundryQuery is intentionally excluded from GROQ conditions — it acts as a
@@ -247,6 +255,7 @@ export async function POST(request: Request): Promise<Response> {
       useCaseTags: tags.useCaseTags,
       contrast: tags.contrast,
       weightRange: tags.weightRange,
+      width: tags.width,
       era: tags.era,
       foundryQuery: tags.foundryQuery,
     });
@@ -276,6 +285,8 @@ export async function POST(request: Request): Promise<Response> {
       s += (result.useCaseTags ?? []).filter(v => tags.useCaseTags.includes(v)).length * 2;
     if (tags.contrast.length > 0)
       s += (result.contrast ?? []).filter(v => tags.contrast.includes(v)).length * 1;
+    if (tags.width.length > 0)
+      s += (result.width && tags.width.includes(result.width)) ? 2 : 0;
     if (tags.era.length > 0)
       s += (result.era ?? []).filter(v => tags.era.includes(v)).length * 1;
     if (result.featured) s += 1;

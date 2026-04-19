@@ -34,27 +34,6 @@ const PROMPTS = [
 
 // ── Loading dots ──────────────────────────────────────────────────────────────
 
-function LoadingDots() {
-  return (
-    <div className="flex items-center justify-center gap-1.5 py-20" aria-label="Searching…">
-      {[0, 1, 2].map((i) => (
-        <motion.span
-          key={i}
-          className="block w-1.5 h-1.5 rounded-full"
-          style={{ background: "rgba(21,21,21,0.40)" }}
-          animate={{ opacity: [0.2, 1, 0.2] }}
-          transition={{
-            duration: 1.2,
-            repeat: Infinity,
-            delay: i * 0.2,
-            ease: "easeInOut",
-          }}
-        />
-      ))}
-    </div>
-  );
-}
-
 // ── No results state ──────────────────────────────────────────────────────────
 
 function NoResults({ query }: { query: string }) {
@@ -190,7 +169,6 @@ export default function HomePage() {
     if (q) {
       setQuery(q);
       void runSearch(q);
-      window.history.replaceState({}, "", "/");
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -201,6 +179,7 @@ export default function HomePage() {
     if (!trimmed) return;
 
     setSubmittedQuery(trimmed);
+    window.history.replaceState({}, "", `/?q=${encodeURIComponent(trimmed)}`);
     setStatus("loading");
     setResults([]);
     setErrorMessage("");
@@ -239,6 +218,7 @@ export default function HomePage() {
     setStatus("idle");
     setResults([]);
     setErrorMessage("");
+    window.history.replaceState({}, "", "/");
     inputRef.current?.focus();
   }
 
@@ -249,6 +229,21 @@ export default function HomePage() {
   return (
     <div className="relative min-h-[100dvh] flex flex-col">
 
+      {/* ── Globe — always mounted, opacity driven by state ─────────────────── */}
+      <motion.div
+        className="fixed inset-0 w-full h-full pointer-events-none"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: (isIdle || isLoading) ? 1 : 0 }}
+        transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
+        style={{ zIndex: -1 }}
+      >
+        <GlobeBackground
+          query={query}
+          loading={isLoading}
+          idle={isIdle}
+        />
+      </motion.div>
+
       {/* ── Main — flex-1 so taglines below are pinned to bottom ───────────── */}
       <main
         className={`flex-1 flex flex-col px-6 w-full ${
@@ -257,23 +252,6 @@ export default function HomePage() {
             : "pt-16"
         }`}
       >
-
-        {/* ── Globe background (idle only) ─────────────────────────────────── */}
-        <AnimatePresence>
-          {isIdle && (
-            <motion.div
-              key="globe"
-              className="absolute inset-0 w-full h-full"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-              style={{ zIndex: -1 }}
-            >
-              <GlobeBackground query={query} dissolving={isLoading} />
-            </motion.div>
-          )}
-        </AnimatePresence>
 
         {/* ── TYPESCOUT wordmark (idle only) — pinned to top ─────────────── */}
         <AnimatePresence>
@@ -303,6 +281,23 @@ export default function HomePage() {
           )}
         </AnimatePresence>
 
+        {/* ── Search card heading (idle only) ─────────────────────────── */}
+        <AnimatePresence>
+          {isIdle && (
+            <motion.p
+              key="search-heading"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+              className="w-full max-w-[850px] mx-auto font-sans text-[14px] uppercase mb-3 text-center"
+              style={{ color: "#151515" }}
+            >
+              Describe what you&rsquo;re designing. We&rsquo;ll find the typeface.
+            </motion.p>
+          )}
+        </AnimatePresence>
+
         {/* ── Search card ─────────────────────────────────────────────────── */}
         <motion.form
           onSubmit={handleSubmit}
@@ -310,9 +305,7 @@ export default function HomePage() {
           transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
           className="w-full max-w-[850px] mx-auto"
         >
-          <motion.div
-            layout="position"
-            transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
+          <div
             className={
               isIdle
                 ? "rounded-[4px] bg-white flex flex-col justify-between p-[16px] min-h-[100px]"
@@ -321,7 +314,7 @@ export default function HomePage() {
             style={{ border: "1px solid #151515" }}
           >
             {/* Row 1 — Input (anchored to top) */}
-            <motion.div layout className="flex items-center gap-3 flex-1 min-w-0">
+            <div className="flex items-center gap-3 flex-1 min-w-0">
               <div className="grid flex-1 min-w-0">
                 <input
                   ref={inputRef}
@@ -353,7 +346,7 @@ export default function HomePage() {
                   </motion.button>
                 )}
               </AnimatePresence>
-            </motion.div>
+            </div>
 
             {/* Row 2 — Action bar (idle only) */}
             <AnimatePresence>
@@ -378,7 +371,8 @@ export default function HomePage() {
                     >
                       Search
                     </button>
-                    <button
+                    <motion.button
+                      layoutId="cta-button"
                       type="submit"
                       disabled={!query.trim()}
                       aria-label="Search"
@@ -386,7 +380,7 @@ export default function HomePage() {
                       style={{ border: "0.5px solid #151515" }}
                     >
                       <ArrowUpRight size={12} weight="regular" aria-hidden="true" />
-                    </button>
+                    </motion.button>
                   </div>
                 </motion.div>
               )}
@@ -396,6 +390,7 @@ export default function HomePage() {
             <AnimatePresence>
               {!isIdle && (
                 <motion.button
+                  layoutId="cta-button"
                   key="compact-submit"
                   type="submit"
                   disabled={status === "loading" || !query.trim()}
@@ -411,41 +406,14 @@ export default function HomePage() {
                 </motion.button>
               )}
             </AnimatePresence>
-          </motion.div>
+          </div>
         </motion.form>
 
         {/* ── Results area (active state) ──────────────────────────────────── */}
         {!isIdle && (
           <section aria-live="polite" aria-label="Search results" className="mt-10 w-full">
 
-            {/* Loading bar — sweeps full-width at 2px, fades out when results arrive */}
-            <AnimatePresence>
-              {status === "loading" && (
-                <motion.div
-                  key="loading-bar"
-                  className="w-full overflow-hidden mb-4"
-                  style={{ height: "2px" }}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <motion.div
-                    className="h-full w-full bg-[#151515]"
-                    animate={{ x: ["-100%", "100%"] }}
-                    transition={{ duration: 0.9, ease: "linear", repeat: Infinity }}
-                  />
-                </motion.div>
-              )}
-            </AnimatePresence>
-
             <AnimatePresence mode="wait">
-
-              {status === "loading" && (
-                <motion.div key="loading" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-                  <LoadingDots />
-                </motion.div>
-              )}
 
               {status === "error" && (
                 <ErrorState key="error-state" message={errorMessage} />
@@ -454,12 +422,13 @@ export default function HomePage() {
               {status === "success" && results.length > 0 && (
                 <motion.div
                   key="results"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.2 }}
                 >
-                  <p
+                  <motion.p
+                    initial={{ opacity: 0, y: 32 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.3, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                     className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
                     style={{ color: "rgba(21,21,21,0.50)" }}
                   >
@@ -470,7 +439,7 @@ export default function HomePage() {
                         <span className="text-[#151515]">&ldquo;{submittedQuery}&rdquo;</span>
                       </>
                     ) : null}
-                  </p>
+                  </motion.p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     {results.map((typeface, i) => (
                       <TypefaceCard key={typeface._id} typeface={typeface} index={i} score={submittedQuery ? (typeface._score ?? 0) : 0} />

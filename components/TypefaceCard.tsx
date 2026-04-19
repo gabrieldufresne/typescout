@@ -175,10 +175,10 @@ export function TypefaceCard({ typeface, index, score = 0 }: TypefaceCardProps) 
   return (
     <motion.article
       variants={{ rest: { opacity: 1, y: 0 }, hover: {} }}
-      initial={{ opacity: 0, y: 16 }}
+      initial={{ opacity: 0, y: 32 }}
       animate="rest"
       exit={{ opacity: 0, y: 8 }}
-      transition={{ delay: index * 0.06, duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+      transition={{ delay: 0.3 + index * 0.08, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
       whileHover="hover"
       aria-label={`${typeface.name} by ${typeface.foundry?.name ?? "Unknown foundry"}`}
       className="relative rounded-[16px] bg-[#f2f1ed] overflow-hidden h-full flex flex-col"

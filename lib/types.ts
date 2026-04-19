@@ -94,6 +94,7 @@ export interface SearchTags {
   useCaseTags: string[]
   contrast: string[]
   weightRange: string[]
+  width: string[]
   era: string[]
   /** Free-text foundry name or location extracted from the query. Empty string when not mentioned. */
   foundryQuery: string

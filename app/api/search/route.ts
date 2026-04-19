@@ -161,6 +161,30 @@ export async function POST(request: Request): Promise<Response> {
     );
   }
 
+  // Pre-flight foundry check — runs only when Claude didn't extract a foundry name.
+  // Checks the raw query directly against foundry names and rawKeywords in Sanity.
+  // This catches queries like "Pangram" or "CoType" that Claude won't recognise as foundries.
+  if (!tags.foundryQuery) {
+    const foundryMatch = await client.fetch<{ name: string } | null>(
+      `*[_type == "foundry" && name match $q][0]{ name }`,
+      { q: query }
+    );
+    if (foundryMatch?.name) {
+      tags.foundryQuery = foundryMatch.name;
+    } else {
+      // Also check rawKeywords — catches alternate foundry spellings like "PangramPangram"
+      const keywordMatch = await client.fetch<{ foundryName: string } | null>(
+        `*[_type == "typeface" && count((rawKeywords)[@ match $q]) > 0][0]{
+          "foundryName": foundry->name
+        }`,
+        { q: query }
+      );
+      if (keywordMatch?.foundryName) {
+        tags.foundryQuery = keywordMatch.foundryName;
+      }
+    }
+  }
+
   // 3. Build GROQ filter dynamically — only include conditions for non-empty
   //    tag arrays so an empty response doesn't return zero results.
   const conditions: string[] = [];
@@ -191,13 +215,9 @@ export async function POST(request: Request): Promise<Response> {
   // Conditions between dimensions use AND — a result must satisfy every
   // non-empty dimension. Within each dimension the GROQ already uses OR
   // (any matching value in the array qualifies).
-  // Text search clause — always runs alongside tag conditions.
-  // Matches the raw query against name, rawKeywords, subClassification, and editorialNote.
-  const textMatch = `(name match $rawQuery || count((rawKeywords)[@ match $rawQuery]) > 0 || subClassification match $rawQuery || editorialNote match $rawQuery)`;
-
   const filter =
     conditions.length > 0
-      ? `_type == "typeface" && !(_id in path("drafts.**")) && (${conditions.join(" && ")} || ${textMatch})`
+      ? `_type == "typeface" && !(_id in path("drafts.**")) && ${conditions.join(" && ")}`
       : `_type == "typeface" && !(_id in path("drafts.**"))`;
 
   const groqQuery = `*[${filter}] | order(name asc) ${TYPEFACE_PROJECTION}`;
@@ -213,7 +233,6 @@ export async function POST(request: Request): Promise<Response> {
       weightRange: tags.weightRange,
       era: tags.era,
       foundryQuery: tags.foundryQuery,
-      rawQuery: query,
     });
   } catch (err) {
     console.error("[TypeScout] Sanity query error:", err);
@@ -269,7 +288,9 @@ export async function POST(request: Request): Promise<Response> {
     return s;
   }
 
-  results.sort((a, b) => score(b) - score(a));
+  const scored = results
+    .map(r => ({ ...r, _score: score(r) }))
+    .sort((a, b) => b._score - a._score);
 
-  return Response.json({ results, tags });
+  return Response.json({ results: scored, tags });
 }

@@ -12,6 +12,9 @@ import {
   USE_CASE_TAGS,
   ERA_TAGS,
   WEIGHT_RANGE,
+  CONTRAST,
+  WIDTH,
+  X_HEIGHT,
 } from '../../lib/taxonomy'
 
 export const typeface = defineType({
@@ -147,13 +150,7 @@ export const typeface = defineType({
       type: 'string',
       group: 'classification',
       options: {
-        list: [
-          { title: 'Condensed', value: 'condensed' },
-          { title: 'Narrow', value: 'narrow' },
-          { title: 'Normal', value: 'normal' },
-          { title: 'Wide', value: 'wide' },
-          { title: 'Extended', value: 'extended' },
-        ],
+        list: WIDTH.map((v) => ({ title: v.charAt(0).toUpperCase() + v.slice(1), value: v })),
         layout: 'radio',
       },
     }),
@@ -164,12 +161,7 @@ export const typeface = defineType({
       group: 'classification',
       of: [{ type: 'string' }],
       options: {
-        list: [
-          { title: 'Low', value: 'low' },
-          { title: 'Medium', value: 'medium' },
-          { title: 'High', value: 'high' },
-          { title: 'Monolinear', value: 'monolinear' },
-        ],
+        list: CONTRAST.map((v) => ({ title: v.charAt(0).toUpperCase() + v.slice(1), value: v })),
       },
     }),
     defineField({
@@ -178,11 +170,7 @@ export const typeface = defineType({
       type: 'string',
       group: 'classification',
       options: {
-        list: [
-          { title: 'Low', value: 'low' },
-          { title: 'Medium', value: 'medium' },
-          { title: 'Tall', value: 'tall' },
-        ],
+        list: X_HEIGHT.map((v) => ({ title: v.charAt(0).toUpperCase() + v.slice(1), value: v })),
         layout: 'radio',
       },
     }),

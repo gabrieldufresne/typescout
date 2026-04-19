@@ -8,13 +8,13 @@ import {
   Barbell,
   TextAa,
   UserFocus,
-  PencilCircle,
   TextItalic,
   ArrowsOutLineHorizontal,
-  Lock,
 } from "@phosphor-icons/react";
 import { urlFor } from "@/lib/sanity";
 import type { TypefaceResult, WeightName } from "@/lib/types";
+import { SandTag, OutlineTag, FeatureTag, PaidBadge } from "@/components/ui/Tag";
+import { SCORE_STRONG, SCORE_GOOD, SCORE_PARTIAL } from "@/lib/scoring";
 
 // ── Scrollable tag row ────────────────────────────────────────────────────────
 
@@ -93,58 +93,6 @@ function ScrollableTagRow({ children }: { children: React.ReactNode }) {
   );
 }
 
-// ── Tag components ────────────────────────────────────────────────────────────
-
-/** Sand-filled tag — classification, weight rows */
-function SandTag({ children }: { children: React.ReactNode }) {
-  return (
-    <span
-      className="inline-flex items-center px-[8px] py-[4px] rounded-[2px] font-sans text-[0.785rem] text-[#000000] bg-[#e0ded8] uppercase whitespace-nowrap"
-      style={{ border: "0.5px solid #151515" }}
-    >
-      {children}
-    </span>
-  );
-}
-
-/** Lime-filled tag — feature badges (Italics, Variable) */
-function FeatureTag({ children, icon: Icon }: { children: React.ReactNode; icon: React.ElementType }) {
-  return (
-    <span
-      className="inline-flex items-center gap-1 pl-[6px] pr-[8px] py-[4px] rounded-[2px] font-sans text-[0.785rem] text-[#000000] bg-[#f4fbd4] uppercase whitespace-nowrap"
-      style={{ border: "0.5px solid #151515" }}
-    >
-      <Icon size={16} weight="regular" aria-hidden={true} />
-      {children}
-    </span>
-  );
-}
-
-/** Transparent outline tag — personality, use-case rows */
-function OutlineTag({ children }: { children: React.ReactNode }) {
-  return (
-    <span
-      className="inline-flex items-center px-[8px] py-[4px] rounded-[2px] font-sans text-[0.785rem] text-[#151515] bg-transparent uppercase whitespace-nowrap"
-      style={{ border: "0.5px solid #151515" }}
-    >
-      {children}
-    </span>
-  );
-}
-
-/** Paid badge — outline, matches other tag styles */
-function PaidBadge() {
-  return (
-    <span
-      className="inline-flex items-center gap-1 pl-[6px] pr-[8px] py-[4px] rounded-[2px] font-sans text-[0.785rem] text-[#151515] bg-transparent uppercase whitespace-nowrap"
-      style={{ border: "0.5px solid #151515" }}
-    >
-      <Lock size={14} weight="regular" aria-hidden="true" />
-      Paid
-    </span>
-  );
-}
-
 // ── Row icons ─────────────────────────────────────────────────────────────────
 
 const ROW_ICON_PROPS = {
@@ -157,7 +105,34 @@ const ROW_ICON_PROPS = {
 function ClassificationIcon() { return <TextAa {...ROW_ICON_PROPS} />; }
 function WeightsIcon()        { return <Barbell {...ROW_ICON_PROPS} />; }
 function PersonalityIcon()    { return <UserFocus {...ROW_ICON_PROPS} />; }
-function UseCaseIcon()        { return <PencilCircle {...ROW_ICON_PROPS} />; }
+
+// ── Match badge ───────────────────────────────────────────────────────────────
+
+function MatchBadge({ score }: { score: number }) {
+  if (score === 0) return null;
+  let bg: string;
+  let label: string;
+  if (score >= SCORE_STRONG) {
+    bg = "#f4fbd4";
+    label = "STRONG MATCH";
+  } else if (score >= SCORE_GOOD) {
+    bg = "#e0ded8";
+    label = "GOOD MATCH";
+  } else if (score >= SCORE_PARTIAL) {
+    bg = "transparent";
+    label = "PARTIAL MATCH";
+  } else {
+    return null;
+  }
+  return (
+    <span
+      className="inline-flex items-center px-[8px] py-[4px] rounded-[2px] font-sans text-[12px] text-[#151515] uppercase whitespace-nowrap tracking-[.02em] flex-shrink-0"
+      style={{ background: bg, border: "0.5px solid #151515" }}
+    >
+      {label}
+    </span>
+  );
+}
 
 // ── CTA circle (24px, lives in specimen header) ───────────────────────────────
 
@@ -182,13 +157,14 @@ function CtaCircle() {
 interface TypefaceCardProps {
   typeface: TypefaceResult;
   index: number;
+  score?: number;
 }
 
 const WEIGHT_ORDER: WeightName[] = [
   "thin", "light", "regular", "medium", "semibold", "bold", "extrabold", "black",
 ];
 
-export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
+export function TypefaceCard({ typeface, index, score = 0 }: TypefaceCardProps) {
   const specimenUrl =
     typeface.specimenImage?.asset
       ? urlFor(typeface.specimenImage).width(800).url()
@@ -210,27 +186,22 @@ export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
       {/* ── White specimen area ─────────────────────────────────────────────── */}
       <div className="mx-[16px] mt-[16px] rounded-[8px] bg-white overflow-hidden flex-1 flex flex-col justify-between">
 
-        {/* Header row — foundry left, paid badge + arrow right */}
+        {/* Header row — typeface name left, match badge placeholder right */}
         <div className="flex items-center justify-between px-5 pt-4 pb-3">
-          <p className="font-sans text-[0.785rem] text-[#000000] uppercase leading-none">
-            {typeface.foundry?.name ?? "Unknown foundry"}
-            <span className="mx-[6px] opacity-40">•</span>
+          <p className="font-sans text-[12px] text-[#000000] uppercase leading-none min-w-0 mr-3 truncate">
             {typeface.name}
           </p>
-          <div className="flex items-center gap-2">
-            {typeface.licensing === "paid" && <PaidBadge />}
-            <CtaCircle />
-          </div>
+          <MatchBadge score={score} />
         </div>
 
         {/* Specimen image */}
-        <div className="ml-1 mr-5">
+        <div className="mx-5 h-[120px] flex items-center justify-center">
           {specimenUrl ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={specimenUrl}
               alt={`${typeface.name} typeface specimen`}
-              style={{ display: "block", width: "auto", height: "auto", maxHeight: "8rem", maxWidth: "100%" }}
+              style={{ display: "block", width: "auto", height: "auto", maxHeight: "100%", maxWidth: "100%" }}
             />
           ) : (
             <span className="font-sans text-[56px] font-bold text-[#000000] uppercase leading-none block">
@@ -301,18 +272,26 @@ export function TypefaceCard({ typeface, index }: TypefaceCardProps) {
           </div>
         )}
 
-        {/* Row 4: Use cases */}
-        {typeface.useCaseTags && typeface.useCaseTags.length > 0 && (
-          <div className="flex items-center gap-3">
-            <UseCaseIcon />
-            <ScrollableTagRow>
-              {typeface.useCaseTags.map((tag) => (
-                <OutlineTag key={tag}>{tag}</OutlineTag>
-              ))}
-            </ScrollableTagRow>
-          </div>
-        )}
+      </div>
 
+      {/* ── Footer strip — foundry info left, paid badge + CTA right ────────── */}
+      <div
+        className="relative z-10 px-[16px] py-[12px] flex items-center justify-between"
+        style={{ borderTop: "0.5px solid #bfbeb8" }}
+      >
+        <p className="font-sans text-[12px] text-[#000000] uppercase leading-none min-w-0 mr-3 truncate">
+          {typeface.foundry?.name ?? "Unknown foundry"}
+          {typeface.foundry?.location && (
+            <>
+              <span className="mx-[6px] opacity-40">•</span>
+              {typeface.foundry.location}
+            </>
+          )}
+        </p>
+        <div className="flex items-center gap-2 shrink-0">
+          {typeface.licensing === "paid" && <PaidBadge />}
+          <CtaCircle />
+        </div>
       </div>
     </motion.article>
   );

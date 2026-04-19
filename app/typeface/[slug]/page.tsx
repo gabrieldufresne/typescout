@@ -3,14 +3,13 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import {
   ArrowUpRight,
-  Lock,
-  TextItalic,
-  ArrowsOutLineHorizontal,
   Globe,
 } from "@phosphor-icons/react/dist/ssr";
 import { client, urlFor } from "@/lib/sanity";
 import type { TypefaceDetail, RelatedTypeface, WeightName } from "@/lib/types";
 import { DetailSearchBar } from "@/components/DetailSearchBar";
+import { SandTag, OutlineTag, PaidBadge } from "@/components/ui/Tag";
+import { TypefaceBadges } from "@/components/ui/TypefaceBadges";
 
 // ── GROQ queries ──────────────────────────────────────────────────────────────
 
@@ -18,7 +17,7 @@ const DETAIL_QUERY = `*[_type == "typeface" && slug.current == $slug][0] {
   _id,
   name,
   "slug": slug.current,
-  "foundry": foundry->{ _id, name, slug, location, website, description, foundryType },
+  "foundry": foundry->{ _id, name, slug, location, website, description },
   specimenImage,
   specimenImageHeavy,
   editorialNote,
@@ -73,59 +72,6 @@ export async function generateMetadata({
       tf.editorialNote ??
       `Discover ${tf.name} by ${tf.foundry.name} on TypeScout.`,
   };
-}
-
-// ── Tag components ────────────────────────────────────────────────────────────
-
-function SandTag({ children }: { children: React.ReactNode }) {
-  return (
-    <span
-      className="inline-flex items-center px-[8px] py-[4px] rounded-[2px] font-sans text-[12px] text-[#000000] bg-[#e0ded8] uppercase whitespace-nowrap tracking-[.02em]"
-      style={{ border: "0.5px solid #151515" }}
-    >
-      {children}
-    </span>
-  );
-}
-
-function OutlineTag({ children }: { children: React.ReactNode }) {
-  return (
-    <span
-      className="inline-flex items-center px-[8px] py-[4px] rounded-[2px] font-sans text-[12px] text-[#151515] bg-transparent uppercase whitespace-nowrap tracking-[.02em]"
-      style={{ border: "0.5px solid #151515" }}
-    >
-      {children}
-    </span>
-  );
-}
-
-function LimeFeatureTag({
-  children,
-  icon: Icon,
-}: {
-  children: React.ReactNode;
-  icon: React.ElementType;
-}) {
-  return (
-    <span
-      className="inline-flex items-center gap-[6px] pl-[6px] pr-[8px] py-[4px] rounded-[2px] font-sans text-[12px] text-[#000000] bg-[#f4fbd4] uppercase whitespace-nowrap tracking-[.02em]"
-      style={{ border: "0.5px solid #151515" }}
-    >
-      <Icon size={12} aria-hidden="true" />
-      {children}
-    </span>
-  );
-}
-
-function DarkTag({ children }: { children: React.ReactNode }) {
-  return (
-    <span
-      className="inline-flex items-center gap-[6px] pl-[6px] pr-[8px] py-[4px] rounded-[2px] font-sans text-[12px] text-[#fafafa] bg-[#151515] uppercase whitespace-nowrap tracking-[.02em]"
-      style={{ border: "0.5px solid #151515" }}
-    >
-      {children}
-    </span>
-  );
 }
 
 // ── Section wrapper ───────────────────────────────────────────────────────────
@@ -268,20 +214,11 @@ export default async function TypefacePage({
                 <span className="mx-2 opacity-40">•</span>
                 {tf.name}
               </p>
-              <div className="flex items-center gap-2">
-                {tf.variableFont && (
-                  <LimeFeatureTag icon={ArrowsOutLineHorizontal}>Variable</LimeFeatureTag>
-                )}
-                {tf.hasItalics && (
-                  <LimeFeatureTag icon={TextItalic}>Italics</LimeFeatureTag>
-                )}
-                {tf.licensing === "paid" && (
-                  <DarkTag>
-                    <Lock size={11} aria-hidden="true" />
-                    Paid
-                  </DarkTag>
-                )}
-              </div>
+              <TypefaceBadges
+                variableFont={tf.variableFont}
+                hasItalics={tf.hasItalics ?? false}
+                licensing={tf.licensing}
+              />
             </div>
 
             {/* Specimen image */}
@@ -291,7 +228,7 @@ export default async function TypefacePage({
                 <img
                   src={specimenUrl}
                   alt={`${tf.name} specimen`}
-                  style={{ maxWidth: "86%", height: "auto", display: "block" }}
+                  style={{ maxWidth: "86%", maxHeight: "180px", height: "auto", display: "block" }}
                 />
               ) : (
                 <span className="font-sans text-[56px] font-bold text-[#000000] uppercase leading-none">
@@ -449,11 +386,6 @@ export default async function TypefacePage({
                     {tf.foundry.description}
                   </p>
                 )}
-                {tf.foundry?.foundryType && (
-                  <div className="flex flex-wrap gap-2 mt-8">
-                    <OutlineTag>{tf.foundry.foundryType}</OutlineTag>
-                  </div>
-                )}
                 {tf.foundry?.website && (
                   <a
                     href={tf.foundry.website}
@@ -486,10 +418,7 @@ export default async function TypefacePage({
                   >
                     <span style={{ color: "rgba(21,21,21,0.5)" }}>Access</span>
                     {tf.licensing === "paid" ? (
-                      <DarkTag>
-                        <Lock size={11} aria-hidden="true" />
-                        Paid
-                      </DarkTag>
+                      <PaidBadge variant="dark" />
                     ) : (
                       <span className="text-[#000000]">Free</span>
                     )}

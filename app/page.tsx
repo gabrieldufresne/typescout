@@ -417,6 +417,28 @@ export default function HomePage() {
         {/* ── Results area (active state) ──────────────────────────────────── */}
         {!isIdle && (
           <section aria-live="polite" aria-label="Search results" className="mt-10 w-full">
+
+            {/* Loading bar — sweeps full-width at 2px, fades out when results arrive */}
+            <AnimatePresence>
+              {status === "loading" && (
+                <motion.div
+                  key="loading-bar"
+                  className="w-full overflow-hidden mb-4"
+                  style={{ height: "2px" }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <motion.div
+                    className="h-full w-full bg-[#151515]"
+                    animate={{ x: ["-100%", "100%"] }}
+                    transition={{ duration: 0.9, ease: "linear", repeat: Infinity }}
+                  />
+                </motion.div>
+              )}
+            </AnimatePresence>
+
             <AnimatePresence mode="wait">
 
               {status === "loading" && (
@@ -451,7 +473,7 @@ export default function HomePage() {
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     {results.map((typeface, i) => (
-                      <TypefaceCard key={typeface._id} typeface={typeface} index={i} />
+                      <TypefaceCard key={typeface._id} typeface={typeface} index={i} score={submittedQuery ? (typeface._score ?? 0) : 0} />
                     ))}
                   </div>
                 </motion.div>

@@ -25,7 +25,6 @@ export type Classification =
 
 export type Licensing = 'free' | 'paid'
 export type Platform = 'google-fonts' | 'adobe-fonts' | 'both' | 'neither'
-export type FoundryType = 'independent' | 'commercial' | 'open-source'
 
 export interface SanityImageRef {
   asset: {
@@ -41,13 +40,13 @@ export interface Foundry {
   location: string
   website: string
   description: string
-  foundryType: FoundryType
 }
 
 export interface TypefaceResult {
   _id: string
   name: string
   slug: string
+  _score?: number
   foundry: {
     name: string
     slug: { current: string }
@@ -68,7 +67,7 @@ export interface TypefaceResult {
   licensing: Licensing
   platforms: Platform
   variableFont: boolean
-  hasItalics?: boolean
+  hasItalics: boolean
   multilingualSupport: boolean
   typefaceURL: string
   featured: boolean

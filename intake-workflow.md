@@ -63,7 +63,6 @@ Work through every field. Present as a compact list, not a table.
 - `slug` — lowercase, hyphens, e.g. `grilli-type`
 - `location` — City, Country
 - `website` — root domain
-- `foundryType` — `independent` | `commercial` | `open-source`
 - `description` — 2–4 sentences from About page, neutral editorial voice
 
 ### Typeface fields

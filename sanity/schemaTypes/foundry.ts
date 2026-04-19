@@ -43,20 +43,6 @@ export const foundry = defineType({
       type: 'text',
       rows: 4,
     }),
-    defineField({
-      name: 'foundryType',
-      title: 'Foundry Type',
-      type: 'string',
-      options: {
-        list: [
-          { title: 'Independent', value: 'independent' },
-          { title: 'Commercial', value: 'commercial' },
-          { title: 'Open Source', value: 'open-source' },
-        ],
-        layout: 'radio',
-      },
-      validation: (Rule) => Rule.required(),
-    }),
   ],
   preview: {
     select: {

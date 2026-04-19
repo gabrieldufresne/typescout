@@ -1,0 +1,20 @@
+# TypeScout
+
+> TypeScout is a typeface discovery tool for designers and creative directors. Search in natural language — "geometric sans with italics, good for editorial" — and get curated matches from hand-picked independent foundries.
+
+TypeScout uses AI to interpret search queries and match them against a hand-curated database of typefaces. Every entry includes classification, weight range, personality descriptors, use case tags, era, contrast level, and licensing. The database spans serif, sans-serif, display, monospace, slab-serif, script, blackletter, and decorative classifications. Typefaces are sourced from independent and boutique foundries worldwide.
+
+Each typeface record includes: foundry name and location, classification, sub-classification, personality tags (e.g. "elegant", "technical", "playful"), use case tags (e.g. "editorial", "branding", "UI"), weight range, variable font support, italic support, multilingual support, licensing (free or paid), and platform availability (Google Fonts, Adobe Fonts).
+
+## Search
+
+- [Natural Language Search](https://typescout.com): Describe what you need — TypeScout returns curated typeface matches with relevance scoring
+
+## Typefaces
+
+- [Browse All Typefaces](https://typescout.com): Full curated collection with filtering by classification, licensing, and foundry
+
+## Optional
+
+- [Individual Typeface Pages](https://typescout.com/typeface/[slug]): Detailed specimen, editorial note, full metadata, and link to purchase or download
+- [Foundry Pages](https://typescout.com/foundry/[slug]): Foundry biography, location, and full type catalogue within TypeScout

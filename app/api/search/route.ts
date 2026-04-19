@@ -308,5 +308,15 @@ export async function POST(request: Request): Promise<Response> {
     .map(r => ({ ...r, _score: score(r) }))
     .sort((a, b) => b._score - a._score);
 
+  // Log the query to Sanity — fire-and-forget so a write failure never
+  // blocks or breaks the search response.
+  client.create({
+    _type: 'searchLog',
+    query,
+    resultCount: scored.length,
+    tags,
+    searchedAt: new Date().toISOString(),
+  }).catch((err) => console.error('[TypeScout] Search log write failed:', err));
+
   return Response.json({ results: scored, tags });
 }

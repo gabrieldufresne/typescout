@@ -5,5 +5,6 @@
 
 import { foundry } from './foundry'
 import { typeface } from './typeface'
+import { searchLog } from './searchLog'
 
-export const schemaTypes = [foundry, typeface]
+export const schemaTypes = [foundry, typeface, searchLog]

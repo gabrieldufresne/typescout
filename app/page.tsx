@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, FormEvent } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowUpRight, X } from "@phosphor-icons/react";
 import { TypefaceCard } from "@/components/TypefaceCard";
-import { PixelPigeon } from "@/components/PixelPigeon";
+import { GlobeBackground } from "@/components/GlobeBackground";
 import type { TypefaceResult, SearchStatus } from "@/lib/types";
 
 // ── Animated placeholder prompts ─────────────────────────────────────────────
@@ -243,7 +243,7 @@ export default function HomePage() {
   }
 
   const isIdle = status === "idle";
-  const activeChar = query.length > 0 ? query[query.length - 1].toUpperCase() : '';
+  const isLoading = status === "loading";
 
   // ── Render ──────────────────────────────────────────────────────────────────
   return (
@@ -258,11 +258,11 @@ export default function HomePage() {
         }`}
       >
 
-        {/* ── Pixel pigeon background (idle only) ─────────────────────────── */}
+        {/* ── Globe background (idle only) ─────────────────────────────────── */}
         <AnimatePresence>
           {isIdle && (
             <motion.div
-              key="pigeon"
+              key="globe"
               className="absolute inset-0 w-full h-full"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -270,7 +270,7 @@ export default function HomePage() {
               transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
               style={{ zIndex: -1 }}
             >
-              <PixelPigeon activeChar={activeChar} />
+              <GlobeBackground query={query} dissolving={isLoading} />
             </motion.div>
           )}
         </AnimatePresence>

@@ -208,17 +208,33 @@ export async function POST(request: Request): Promise<Response> {
   // Weight is surfaced as card metadata only.
   if (tags.era.length > 0)
     conditions.push('count((era)[@ in $era]) > 0');
-  if (tags.foundryQuery.length > 0)
-    conditions.push('(foundry->name match $foundryQuery || foundry->location match $foundryQuery || count((rawKeywords)[@ match $foundryQuery]) > 0)');
+  // foundryQuery is intentionally excluded from GROQ conditions — it acts as a
+  // scoring boost only (+5pts in the score function below). This prevents
+  // geographic project context like "a montreal cultural magazine" from being
+  // treated as a hard foundry-origin filter and zeroing out otherwise strong matches.
 
-  // If Claude returned nothing useful, fall back to featured typefaces.
-  // Conditions between dimensions use AND — a result must satisfy every
-  // non-empty dimension. Within each dimension the GROQ already uses OR
-  // (any matching value in the array qualifies).
-  const filter =
-    conditions.length > 0
-      ? `_type == "typeface" && !(_id in path("drafts.**")) && ${conditions.join(" && ")}`
-      : `_type == "typeface" && !(_id in path("drafts.**"))`;
+  const tagFilter = conditions.length > 0
+    ? `(${conditions.join(" && ")})`
+    : null;
+
+  const foundryFilter = tags.foundryQuery.length > 0
+    ? `(foundry->name match $foundryQuery || foundry->location match $foundryQuery || count((rawKeywords)[@ match $foundryQuery]) > 0)`
+    : null;
+
+  let filter: string;
+  if (tagFilter && foundryFilter) {
+    // Tag conditions OR foundry match — a typeface qualifies if it satisfies
+    // the tag filter, OR if it belongs to the matched foundry/location.
+    // The +5 foundry bonus in the score() function ensures foundry matches
+    // still rise above unrelated tag coincidences.
+    filter = `_type == "typeface" && !(_id in path("drafts.**")) && (${tagFilter} || ${foundryFilter})`;
+  } else if (tagFilter) {
+    filter = `_type == "typeface" && !(_id in path("drafts.**")) && ${tagFilter}`;
+  } else if (foundryFilter) {
+    filter = `_type == "typeface" && !(_id in path("drafts.**")) && ${foundryFilter}`;
+  } else {
+    filter = `_type == "typeface" && !(_id in path("drafts.**"))`;
+  }
 
   const groqQuery = `*[${filter}] | order(name asc) ${TYPEFACE_PROJECTION}`;
 

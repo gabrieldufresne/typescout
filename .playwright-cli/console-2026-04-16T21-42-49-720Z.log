@@ -1,1 +1,11 @@
 [    1318ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://tightype.com/favicon.svg:0
+[ 6859061ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[ 6983296ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[ 6993442ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[ 7003617ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[ 7013632ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[ 7017657ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[ 7985500ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[ 8019102ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[14136562ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0
+[15667317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://cdn.growthbook.io/sub/sdk-mzwikU7qC2Nkc8f:0

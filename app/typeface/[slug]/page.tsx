@@ -177,10 +177,10 @@ export default async function TypefacePage({
       )
     : [];
 
-  const specimenSource = tf.specimenImageHeavy?.asset
-    ? tf.specimenImageHeavy
-    : tf.specimenImage?.asset
-      ? tf.specimenImage
+  const specimenSource = tf.specimenImage?.asset
+    ? tf.specimenImage
+    : tf.specimenImageHeavy?.asset
+      ? tf.specimenImageHeavy
       : null;
   const specimenUrl = specimenSource ? urlFor(specimenSource).width(1200).url() : null;
 

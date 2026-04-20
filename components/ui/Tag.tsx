@@ -1,6 +1,6 @@
 "use client";
 
-import { CurrencyCircleDollar } from "@phosphor-icons/react";
+import { CurrencyCircleDollar, Asterisk } from "@phosphor-icons/react";
 
 export function SandTag({ children }: { children: React.ReactNode }) {
   return (
@@ -38,6 +38,18 @@ export function FeatureTag({
     >
       <Icon size={12} aria-hidden="true" />
       {children}
+    </span>
+  );
+}
+
+export function FreeBadge() {
+  return (
+    <span
+      className="inline-flex items-center gap-[6px] pl-[6px] pr-[8px] py-[4px] rounded-[2px] font-sans text-[12px] text-[#151515] bg-transparent uppercase whitespace-nowrap tracking-[.02em]"
+      style={{ border: "0.5px solid #151515" }}
+    >
+      <Asterisk size={12} aria-hidden="true" />
+      Free
     </span>
   );
 }

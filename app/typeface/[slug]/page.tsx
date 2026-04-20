@@ -8,7 +8,7 @@ import {
 import { client, urlFor } from "@/lib/sanity";
 import type { TypefaceDetail, RelatedTypeface, WeightName } from "@/lib/types";
 import { DetailSearchBar } from "@/components/DetailSearchBar";
-import { SandTag, OutlineTag, PaidBadge } from "@/components/ui/Tag";
+import { SandTag, OutlineTag, PaidBadge, FreeBadge } from "@/components/ui/Tag";
 import { TypefaceBadges } from "@/components/ui/TypefaceBadges";
 
 // ── GROQ queries ──────────────────────────────────────────────────────────────
@@ -135,7 +135,7 @@ function CharRowRight({ label, value }: { label: string; value: string }) {
 function Wordmark() {
   return (
     <svg
-      style={{ height: "22px", width: "auto", display: "block" }}
+      style={{ height: "40px", width: "auto", display: "block" }}
       viewBox="0 0 338 62"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -420,7 +420,7 @@ export default async function TypefacePage({
                     {tf.licensing === "paid" ? (
                       <PaidBadge variant="dark" />
                     ) : (
-                      <span className="text-[#000000]">Free</span>
+                      <FreeBadge />
                     )}
                   </div>
                   <div

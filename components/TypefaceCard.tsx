@@ -13,7 +13,7 @@ import {
 } from "@phosphor-icons/react";
 import { urlFor } from "@/lib/sanity";
 import type { TypefaceResult, WeightName } from "@/lib/types";
-import { SandTag, OutlineTag, FeatureTag, PaidBadge } from "@/components/ui/Tag";
+import { SandTag, OutlineTag, FeatureTag, PaidBadge, FreeBadge } from "@/components/ui/Tag";
 import { SCORE_STRONG, SCORE_GOOD, SCORE_PARTIAL } from "@/lib/scoring";
 
 // ── Scrollable tag row ────────────────────────────────────────────────────────
@@ -290,6 +290,7 @@ export function TypefaceCard({ typeface, index, score = 0 }: TypefaceCardProps) 
         </p>
         <div className="flex items-center gap-2 shrink-0">
           {typeface.licensing === "paid" && <PaidBadge />}
+          {typeface.licensing === "free" && <FreeBadge />}
           <CtaCircle />
         </div>
       </div>

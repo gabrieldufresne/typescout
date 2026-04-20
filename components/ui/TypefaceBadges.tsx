@@ -1,7 +1,7 @@
 "use client";
 
 import { TextItalic, ArrowsOutLineHorizontal } from "@phosphor-icons/react";
-import { FeatureTag, PaidBadge } from "@/components/ui/Tag";
+import { FeatureTag, PaidBadge, FreeBadge } from "@/components/ui/Tag";
 
 interface TypefaceBadgesProps {
   variableFont: boolean;
@@ -15,6 +15,7 @@ export function TypefaceBadges({ variableFont, hasItalics, licensing }: Typeface
       {variableFont && <FeatureTag icon={ArrowsOutLineHorizontal}>Variable</FeatureTag>}
       {hasItalics && <FeatureTag icon={TextItalic}>Italics</FeatureTag>}
       {licensing === "paid" && <PaidBadge variant="dark" />}
+      {licensing === "free" && <FreeBadge />}
     </div>
   );
 }

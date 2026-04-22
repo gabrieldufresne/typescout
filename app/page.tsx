@@ -507,7 +507,31 @@ export default function HomePage() {
                 </motion.div>
               )}
 
-              {status === "success" && results.length === 0 && (
+              {status === "success" && results.length === 0 && secondaryResults.length > 0 && (
+                <motion.div
+                  key="fallback-results"
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <motion.p
+                    initial={{ opacity: 0, y: 32 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.3, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                    className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
+                    style={{ color: "rgba(21,21,21,0.50)" }}
+                  >
+                    No exact matches — closest results for{" "}
+                    <span className="text-[#151515]">&ldquo;{submittedQuery}&rdquo;</span>
+                  </motion.p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    {secondaryResults.map((typeface, i) => (
+                      <TypefaceCard key={typeface._id} typeface={typeface} index={i} score={0} />
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+
+              {status === "success" && results.length === 0 && secondaryResults.length === 0 && (
                 <NoResults key="no-results-state" query={submittedQuery} />
               )}
 

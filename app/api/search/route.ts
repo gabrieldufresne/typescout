@@ -379,7 +379,7 @@ export async function POST(request: Request): Promise<Response> {
     tags.personalityTags.length > 0 ||
     tags.useCaseTags.length > 0;
 
-  if (finalResults.length > 0 && hasTagSignal) {
+  if (hasTagSignal) {
     try {
       const excludeIds = finalResults.map(r => r._id);
       const secondaryGroq = `*[

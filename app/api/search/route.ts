@@ -201,6 +201,12 @@ export async function POST(request: Request): Promise<Response> {
   // Detect them directly from the raw query string.
   if (/\bvariable\b/i.test(query))
     conditions.push('variableFont == true');
+  if (/\bslanted\b|\bitalic(s)?\b|\boblique\b|\bslant\b/i.test(query))
+    conditions.push('hasItalics == true');
+  if (/\bgoogle\s*fonts?\b/i.test(query))
+    conditions.push('"google-fonts" in platforms');
+  if (/\badobe\s*fonts?\b/i.test(query))
+    conditions.push('"adobe-fonts" in platforms');
   if (/\bfree\b/i.test(query))
     conditions.push('licensing == "free"');
   if (tags.personalityTags.length > 0)
@@ -273,6 +279,14 @@ export async function POST(request: Request): Promise<Response> {
   //    personalityTags and useCaseTags are the most expressive (2pts each match),
   //    classification/era/contrast are broader signals (1pt each match).
   //    featured adds a small editorial quality bump.
+  function extractEditorialText(editorialNote: unknown): string {
+    if (typeof editorialNote === 'string') return editorialNote;
+    if (!Array.isArray(editorialNote)) return '';
+    return (editorialNote as Array<{ children?: Array<{ text?: string }> }>)
+      .flatMap(block => (block.children ?? []).map(span => span.text ?? ''))
+      .join(' ');
+  }
+
   function score(result: TypefaceResult): number {
     let s = 0;
     if (tags.classification.length > 0)
@@ -329,6 +343,16 @@ export async function POST(request: Request): Promise<Response> {
       const subClassHits = subClassWords.filter(w => subClass.includes(w)).length;
       s += subClassHits * 4;
     }
+    // Editorial note — richest semantic description of the typeface.
+    // Match query words against the full editorial prose to surface typefaces
+    // whose character is described in the note but not captured by formal tags.
+    // Weight is conservative (1pt/word) since prose has more incidental matches
+    // than structured tag fields.
+    const editorialText = extractEditorialText(result.editorialNote).toLowerCase();
+    if (editorialText && queryWords.length > 0) {
+      const editorialHits = queryWords.filter(w => editorialText.includes(w)).length;
+      s += editorialHits * 1;
+    }
     return s;
   }
 
@@ -348,6 +372,48 @@ export async function POST(request: Request): Promise<Response> {
     ? scored.filter(r => r._score >= topScore - GAP_LIMIT)
     : scored;
 
+  // Secondary query — OR-logic across tag dimensions, excludes primary results.
+  let secondaryResults: TypefaceResult[] = [];
+  const hasTagSignal =
+    tags.classification.length > 0 ||
+    tags.personalityTags.length > 0 ||
+    tags.useCaseTags.length > 0;
+
+  if (finalResults.length > 0 && hasTagSignal) {
+    try {
+      const excludeIds = finalResults.map(r => r._id);
+      const secondaryGroq = `*[
+        _type == "typeface" &&
+        !(_id in path("drafts.**")) &&
+        !(_id in $excludeIds) &&
+        (
+          count((classification)[@ in $classification]) > 0 ||
+          count((personalityTags)[@ in $personalityTags]) > 0 ||
+          count((useCaseTags)[@ in $useCaseTags]) > 0 ||
+          count((contrast)[@ in $contrast]) > 0 ||
+          count((era)[@ in $era]) > 0
+        )
+      ] | order(name asc) ${TYPEFACE_PROJECTION}`;
+
+      const secondaryRaw = await client.fetch<TypefaceResult[]>(secondaryGroq, {
+        excludeIds,
+        classification: tags.classification,
+        personalityTags: tags.personalityTags,
+        useCaseTags: tags.useCaseTags,
+        contrast: tags.contrast,
+        era: tags.era,
+      });
+
+      secondaryResults = secondaryRaw
+        .map(r => ({ ...r, _score: score(r) }))
+        .sort((a, b) => b._score - a._score)
+        .slice(0, 4);
+    } catch (err) {
+      console.error('[TypeScout] Secondary query error:', err);
+      secondaryResults = [];
+    }
+  }
+
   // Log the query to Sanity — fire-and-forget so a write failure never
   // blocks or breaks the search response.
   client.create({
@@ -358,5 +424,5 @@ export async function POST(request: Request): Promise<Response> {
     searchedAt: new Date().toISOString(),
   }).catch((err) => console.error('[TypeScout] Search log write failed:', err));
 
-  return Response.json({ results: finalResults, tags });
+  return Response.json({ results: finalResults, secondaryResults, tags });
 }

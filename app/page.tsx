@@ -161,8 +161,21 @@ export default function HomePage() {
   const [submittedQuery, setSubmittedQuery] = useState("");
   const [status, setStatus] = useState<SearchStatus>("idle");
   const [results, setResults] = useState<TypefaceResult[]>([]);
+  const [secondaryResults, setSecondaryResults] = useState<TypefaceResult[]>([]);
   const [errorMessage, setErrorMessage] = useState("");
+  const [isScrolled, setIsScrolled] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    if (status !== 'success') {
+      setIsScrolled(false);
+      return;
+    }
+    const onScroll = () => setIsScrolled(window.scrollY > 80);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [status]);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -183,6 +196,7 @@ export default function HomePage() {
     window.history.replaceState({}, "", `/?q=${encodeURIComponent(trimmed)}`);
     setStatus("loading");
     setResults([]);
+    setSecondaryResults([]);
     setErrorMessage("");
 
     try {
@@ -197,9 +211,10 @@ export default function HomePage() {
         throw new Error(data.error ?? `HTTP ${res.status}`);
       }
 
-      const data = (await res.json()) as { results: TypefaceResult[]; tags?: unknown };
+      const data = (await res.json()) as { results: TypefaceResult[]; secondaryResults?: TypefaceResult[]; tags?: unknown };
       console.log("[TypeScout] tags extracted by Claude:", data.tags);
       setResults(data.results ?? []);
+      setSecondaryResults(data.secondaryResults ?? []);
       setStatus("success");
     } catch (err) {
       const msg = err instanceof Error ? err.message : "Unknown error";
@@ -218,6 +233,7 @@ export default function HomePage() {
     setSubmittedQuery("");
     setStatus("idle");
     setResults([]);
+    setSecondaryResults([]);
     setErrorMessage("");
     window.history.replaceState({}, "", "/");
     inputRef.current?.focus();
@@ -229,6 +245,28 @@ export default function HomePage() {
   // ── Render ──────────────────────────────────────────────────────────────────
   return (
     <div className="relative min-h-[100dvh] flex flex-col">
+
+      {/* Frosted glass scroll backdrop — desktop only, results state only */}
+      <AnimatePresence>
+        {isScrolled && status === 'success' && (
+          <motion.div
+            key="scroll-backdrop"
+            className="fixed top-0 left-0 right-0 z-30 pointer-events-none hidden md:block"
+            style={{
+              height: '120px',
+              backdropFilter: 'blur(8px)',
+              WebkitBackdropFilter: 'blur(8px)',
+              background: 'linear-gradient(to bottom, rgba(250,250,250,0.75) 40%, rgba(250,250,250,0))',
+              maskImage: 'linear-gradient(to bottom, black 30%, transparent 100%)',
+              WebkitMaskImage: 'linear-gradient(to bottom, black 30%, transparent 100%)',
+            }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25, ease: [0.25, 0.1, 0.25, 1] }}
+          />
+        )}
+      </AnimatePresence>
 
       {/* ── Globe — always mounted, opacity driven by state ─────────────────── */}
       <motion.div
@@ -296,7 +334,9 @@ export default function HomePage() {
           onSubmit={handleSubmit}
           layout="position"
           transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
-          className="w-full max-w-[850px] mx-auto"
+          className={`w-full max-w-[850px] mx-auto transition-all duration-300${
+            !isIdle ? ' md:sticky md:top-6 md:z-40' : ''
+          }`}
         >
           <div
             className={
@@ -438,6 +478,32 @@ export default function HomePage() {
                       <TypefaceCard key={typeface._id} typeface={typeface} index={i} score={submittedQuery ? (typeface._score ?? 0) : 0} />
                     ))}
                   </div>
+
+                  {secondaryResults.length > 0 && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 24 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.6, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                      className="mt-14"
+                    >
+                      <p
+                        className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
+                        style={{ color: "rgba(21,21,21,0.50)" }}
+                      >
+                        Also worth exploring
+                      </p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                        {secondaryResults.map((typeface, i) => (
+                          <TypefaceCard
+                            key={typeface._id}
+                            typeface={typeface}
+                            index={i}
+                            score={0}
+                          />
+                        ))}
+                      </div>
+                    </motion.div>
+                  )}
                 </motion.div>
               )}
 

@@ -221,28 +221,25 @@ export async function POST(request: Request): Promise<Response> {
   // geographic project context like "a montreal cultural magazine" from being
   // treated as a hard foundry-origin filter and zeroing out otherwise strong matches.
 
-  const tagFilter = conditions.length > 0
-    ? `(${conditions.join(" && ")})`
-    : null;
+  // foundryQuery is intentionally excluded from GROQ conditions — it acts as
+  // a scoring boost only (+5pts in the score function). Typeface character and
+  // aesthetic fit (tags) always determines what gets fetched; foundry origin
+  // only influences ranking within those results.
+  // When Claude extracts no tags (unusual/abstract queries), fall back to a
+  // rawKeywords full-text match so the search doesn't return the entire catalogue.
+  // rawKeywords is NOT added as a general OR alongside tag conditions — that
+  // caused the false-positive problem (Flint Script in "berlin nightclub") that
+  // we fixed by reverting the foundry rescue OR.
+  // Name/slug OR — ensures typefaces whose name or slug matches the raw query
+  // are always included, even if Claude's tag extraction doesn't match their
+  // formal tags. Searching "Copernicus" or "Obbligato" directly will always
+  // surface the typeface regardless of what tags Claude inferred from the query.
+  const nameMatchCondition = `(name match $rawQuery || slug.current match $rawQuery)`;
 
-  const foundryFilter = tags.foundryQuery.length > 0
-    ? `(foundry->name match $foundryQuery || foundry->location match $foundryQuery || count((rawKeywords)[@ match $foundryQuery]) > 0)`
-    : null;
-
-  let filter: string;
-  if (tagFilter && foundryFilter) {
-    // Tag conditions OR foundry match — a typeface qualifies if it satisfies
-    // the tag filter, OR if it belongs to the matched foundry/location.
-    // The +5 foundry bonus in the score() function ensures foundry matches
-    // still rise above unrelated tag coincidences.
-    filter = `_type == "typeface" && !(_id in path("drafts.**")) && (${tagFilter} || ${foundryFilter})`;
-  } else if (tagFilter) {
-    filter = `_type == "typeface" && !(_id in path("drafts.**")) && ${tagFilter}`;
-  } else if (foundryFilter) {
-    filter = `_type == "typeface" && !(_id in path("drafts.**")) && ${foundryFilter}`;
-  } else {
-    filter = `_type == "typeface" && !(_id in path("drafts.**"))`;
-  }
+  const filter =
+    conditions.length > 0
+      ? `_type == "typeface" && !(_id in path("drafts.**")) && (${conditions.join(" && ")} || ${nameMatchCondition})`
+      : `_type == "typeface" && !(_id in path("drafts.**")) && (${nameMatchCondition} || count((rawKeywords)[@ match $rawQuery]) > 0)`;
 
   const groqQuery = `*[${filter}] | order(name asc) ${TYPEFACE_PROJECTION}`;
 
@@ -258,6 +255,7 @@ export async function POST(request: Request): Promise<Response> {
       width: tags.width,
       era: tags.era,
       foundryQuery: tags.foundryQuery,
+      rawQuery: query,
     });
   } catch (err) {
     console.error("[TypeScout] Sanity query error:", err);
@@ -312,6 +310,25 @@ export async function POST(request: Request): Promise<Response> {
         s += 5;
       }
     }
+    const queryWords = query.toLowerCase().split(/\W+/).filter(w => w.length > 3);
+    if (queryWords.length > 0) {
+      const keywords = (result.rawKeywords ?? []).map((k: string) => k.toLowerCase());
+      const matchCount = queryWords.filter(word =>
+        keywords.some(kw => kw.includes(word) || word.includes(kw))
+      ).length;
+      s += matchCount * 2;
+    }
+    // subClassification boost — this field contains highly specific typographic
+    // descriptors ("Condensed Flared Serif", "Medieval Modernist Display", etc.)
+    // that capture concepts not covered by the tag taxonomy. Matching query words
+    // against it surfaces typefaces for precise typographic terms like "flared",
+    // "inscriptional", "stencil", "inline", etc.
+    const subClass = (result.subClassification ?? '').toLowerCase();
+    if (subClass) {
+      const subClassWords = query.toLowerCase().split(/\W+/).filter(w => w.length > 3);
+      const subClassHits = subClassWords.filter(w => subClass.includes(w)).length;
+      s += subClassHits * 4;
+    }
     return s;
   }
 
@@ -319,15 +336,27 @@ export async function POST(request: Request): Promise<Response> {
     .map(r => ({ ...r, _score: score(r) }))
     .sort((a, b) => b._score - a._score);
 
+  // Score gap filter — when a clearly strong match exists (topScore ≥ 8),
+  // drop results that fall more than 6 points below the top score.
+  // This prevents over-broad tag matches (e.g. display + Expressive + high contrast)
+  // from flooding results alongside a handful of genuinely specific matches.
+  // For low-scoring queries (topScore < 8), return everything rather than risk
+  // returning nothing.
+  const topScore = scored[0]?._score ?? 0;
+  const GAP_LIMIT = 6;
+  const finalResults = topScore >= 8
+    ? scored.filter(r => r._score >= topScore - GAP_LIMIT)
+    : scored;
+
   // Log the query to Sanity — fire-and-forget so a write failure never
   // blocks or breaks the search response.
   client.create({
     _type: 'searchLog',
     query,
-    resultCount: scored.length,
+    resultCount: finalResults.length,
     tags,
     searchedAt: new Date().toISOString(),
   }).catch((err) => console.error('[TypeScout] Search log write failed:', err));
 
-  return Response.json({ results: scored, tags });
+  return Response.json({ results: finalResults, tags });
 }

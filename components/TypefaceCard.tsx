@@ -181,10 +181,10 @@ export function TypefaceCard({ typeface, index, score = 0 }: TypefaceCardProps) 
       transition={{ delay: 0.3 + index * 0.08, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
       whileHover="hover"
       aria-label={`${typeface.name} by ${typeface.foundry?.name ?? "Unknown foundry"}`}
-      className="relative rounded-[16px] bg-[#f2f1ed] overflow-hidden h-full flex flex-col"
+      className="relative rounded-[12px] bg-[#f2f1ed] overflow-hidden h-full flex flex-col"
     >
       {/* ── White specimen area ─────────────────────────────────────────────── */}
-      <div className="mx-[16px] mt-[16px] rounded-[8px] bg-white overflow-hidden flex-1 flex flex-col justify-between">
+      <div className="mx-[16px] mt-[16px] rounded-[6px] bg-white overflow-hidden flex-1 flex flex-col justify-between">
 
         {/* Header row — typeface name left, match badge placeholder right */}
         <div className="flex items-center justify-between px-5 pt-4 pb-3">
@@ -216,7 +216,7 @@ export function TypefaceCard({ typeface, index, score = 0 }: TypefaceCardProps) 
         <Link
           href={`/typeface/${typeface.slug}`}
           aria-label={`View ${typeface.name} by ${typeface.foundry?.name ?? "Unknown foundry"}`}
-          className="absolute inset-0 rounded-[16px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#151515]/30 focus-visible:ring-offset-2 focus-visible:ring-offset-[#f2f1ed] cursor-pointer"
+          className="absolute inset-0 rounded-[12px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#151515]/30 focus-visible:ring-offset-2 focus-visible:ring-offset-[#f2f1ed] cursor-pointer"
         />
       )}
 

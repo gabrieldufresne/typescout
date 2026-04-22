@@ -19,12 +19,12 @@ export const PERSONALITY_TAGS = [
   'Neutral', 'Expressive', 'Elegant', 'Rugged', 'Friendly', 'Serious',
   'Playful', 'Sophisticated', 'Warm', 'Cold', 'Minimal', 'Loud',
   'Refined', 'Raw', 'Quirky', 'Authoritative', 'Approachable',
-  'Luxurious', 'Functional', 'Experimental',
+  'Luxurious', 'Functional', 'Technical', 'Experimental',
 ] as const
 
 export const USE_CASE_TAGS = [
   'Branding', 'Packaging', 'Editorial', 'Poster', 'Headline',
-  'Body Text', 'Digital UI', 'Logo', 'Signage', 'Motion',
+  'Body Text', 'Digital UI', 'Technology', 'Logo', 'Signage', 'Motion',
   'Wayfinding', 'Longform Reading', 'Short Copy', 'Captions',
 ] as const
 

@@ -38,8 +38,9 @@ const foundry    = getArg('--foundry');
 const typeface   = getArg('--typeface');
 const fontFamily = getArg('--font-family');
 const url        = getArg('--url');
-const weight     = getArg('--weight') ?? '400';
-const isHeavy    = args.includes('--heavy');
+const weight      = getArg('--weight') ?? '400';
+const fontStretch = getArg('--font-stretch') ?? 'normal'; // CSS font-stretch keyword, e.g. "condensed"
+const isHeavy     = args.includes('--heavy');
 // Optional: display text different from the CSS family name (e.g. when each weight
 // is its own family like "ScatchRegular"). Defaults to fontFamily if not provided.
 const displayText = getArg('--text') ?? null;
@@ -54,6 +55,7 @@ Usage:
     [--text <label>]         display text if different from font-family (e.g. "Scatch")
     --url <url>              foundry page where the font is loaded
     [--weight <number>]      font-weight to render (default: 400)
+    [--font-stretch <kw>]    CSS font-stretch keyword, e.g. "condensed" (default: normal)
     [--heavy]                suffix output filename with _heavy
   `);
   process.exit(1);
@@ -70,7 +72,8 @@ const outPath  = path.join(outDir, filename);
 
 async function captureSpecimen() {
   console.log(`\nTypeScout specimen capture`);
-  console.log(`  Typeface : ${fontFamily} (weight ${weight})`);
+  const stretchLabel = fontStretch !== 'normal' ? ` stretch ${fontStretch}` : '';
+  console.log(`  Typeface : ${fontFamily} (weight ${weight}${stretchLabel})`);
   console.log(`  Source   : ${url}`);
   console.log(`  Output   : specimens/${filename}\n`);
 
@@ -84,52 +87,42 @@ async function captureSpecimen() {
 
   // Navigate to the foundry page so all fonts are loaded in their context
   console.log('→ Loading page…');
-  await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+  await page.goto(url, { waitUntil: 'load', timeout: 60000 });
 
   // Ensure all web fonts have finished loading
   await page.evaluate(() => document.fonts.ready);
+
+  // Explicitly load the target font (covers per-weight families that load lazily)
+  await page.evaluate(({ fontFamily, weight, fontStretch }) => {
+    return document.fonts.load(`${fontStretch} ${weight} 120px "${fontFamily}"`);
+  }, { fontFamily, weight, fontStretch });
 
   // Give late-loading fonts an extra moment
   await page.waitForTimeout(800);
 
   // ── Inject specimen overlay and measure exact text bounds ──────────────────
   const clip = await page.evaluate(
-    ({ fontFamily, weight, label }) => {
+    ({ fontFamily, weight, fontStretch, label }) => {
       // Remove any leftover overlay from a previous run
       document.getElementById('__ts_specimen__')?.remove();
 
       const FONT_SIZE = 120; // px — large enough for quality, small enough to fit
       const PADDING   = 28;  // px — consistent whitespace around the glyph bounds
 
-      // Measure text precisely using the Canvas 2D API
-      const canvas = document.createElement('canvas');
-      const ctx    = canvas.getContext('2d');
-      ctx.font     = `${weight} ${FONT_SIZE}px "${fontFamily}"`;
-      const m      = ctx.measureText(label);
-
-      const textW   = Math.ceil(m.width);
-      const ascent  = Math.ceil(m.fontBoundingBoxAscent  ?? FONT_SIZE * 0.80);
-      const descent = Math.ceil(m.fontBoundingBoxDescent ?? FONT_SIZE * 0.20);
-      const textH   = ascent + descent;
-
-      const totalW = textW + PADDING * 2;
-      const totalH = textH + PADDING * 2;
-
-      // Build the overlay — fixed position, top-left, above everything
+      // Build the overlay — inline-flex so it naturally wraps the text content
       const overlay = document.createElement('div');
       overlay.id = '__ts_specimen__';
       Object.assign(overlay.style, {
-        position:   'fixed',
-        top:        '0',
-        left:       '0',
-        width:      `${totalW}px`,
-        height:     `${totalH}px`,
-        background: '#ffffff',
-        display:    'flex',
-        alignItems: 'center',
+        position:       'fixed',
+        top:            '0',
+        left:           '0',
+        background:     '#ffffff',
+        display:        'inline-flex',
+        alignItems:     'center',
         justifyContent: 'center',
-        zIndex:     '2147483647',
-        overflow:   'hidden',
+        padding:        `${PADDING}px`,
+        zIndex:         '2147483647',
+        overflow:       'visible',
       });
 
       const text = document.createElement('span');
@@ -138,6 +131,7 @@ async function captureSpecimen() {
         fontFamily:  `"${fontFamily}", serif`,
         fontSize:    `${FONT_SIZE}px`,
         fontWeight:  String(weight),
+        fontStretch: fontStretch || 'normal',
         color:       '#000000',
         lineHeight:  '1',
         whiteSpace:  'nowrap',
@@ -148,9 +142,14 @@ async function captureSpecimen() {
       overlay.appendChild(text);
       document.body.appendChild(overlay);
 
+      // Measure actual rendered bounds — accurate for variable font width variants
+      const rect   = overlay.getBoundingClientRect();
+      const totalW = Math.ceil(rect.width);
+      const totalH = Math.ceil(rect.height);
+
       return { x: 0, y: 0, width: totalW, height: totalH };
     },
-    { fontFamily, weight, label: displayText ?? fontFamily }
+    { fontFamily, weight, fontStretch, label: displayText ?? fontFamily }
   );
 
   // ── Screenshot ─────────────────────────────────────────────────────────────

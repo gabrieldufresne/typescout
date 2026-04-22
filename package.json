@@ -1,6 +1,6 @@
 {
   "name": "typescout",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,8 @@
     "specimen": "node scripts/capture-specimen.js",
     "push": "node scripts/push-to-sanity.js",
     "check": "node scripts/check-sanity.js",
-    "intake:gf": "node scripts/intake-google-fonts.js"
+    "intake:gf": "node scripts/intake-google-fonts.js",
+    "verify": "node scripts/verify-intake.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.89.0",

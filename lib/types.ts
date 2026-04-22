@@ -56,7 +56,7 @@ export interface TypefaceResult {
   specimenImageHeavy?: SanityImageRef
   editorialNote: string
   classification: Classification[]
-  subClassification: string
+  subClassification?: string | null
   personalityTags: string[]
   useCaseTags: string[]
   weightRange: WeightName[]

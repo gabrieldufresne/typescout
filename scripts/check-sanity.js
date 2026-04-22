@@ -75,6 +75,20 @@ async function main() {
     }
   }
 
+  // Draft check — runs always, not just when --typeface is provided.
+  // Drafts are excluded from search by the GROQ filter (!(_id in path("drafts.**")))
+  // so a published-looking record that isn't appearing in search is often a draft.
+  const draftQuery = typeface
+    ? `*[_type == "typeface" && slug.current == $slug && _id in path("drafts.**")][0]{ _id, name }`
+    : `*[_type == "foundry" && slug.current == $slug && _id in path("drafts.**")][0]{ _id, name }`;
+
+  const draftDoc = await client.fetch(draftQuery, { slug: typeface || foundry });
+  if (draftDoc) {
+    console.log(`\n⚠  DRAFT DETECTED   "${draftDoc.name}" exists as an unpublished draft (${draftDoc._id})`);
+    console.log(`  → This record is invisible to TypeScout search until published.`);
+    console.log(`  → Open Sanity Studio and click Publish to make it live.`);
+  }
+
   console.log('');
 }
 

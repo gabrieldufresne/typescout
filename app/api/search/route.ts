@@ -203,6 +203,23 @@ export async function POST(request: Request): Promise<Response> {
     conditions.push('variableFont == true');
   if (/\bslanted\b|\bitalic(s)?\b|\boblique\b|\bslant\b/i.test(query))
     conditions.push('hasItalics == true');
+  // OpenType feature detection
+  if (/slashed.?zero/i.test(query))
+    conditions.push('("slashed zero" in rawKeywords || "slashed-zero" in rawKeywords)');
+  if (/tabular.?figures?|tabular.?nums?/i.test(query))
+    conditions.push('("tabular figures" in rawKeywords)');
+  if (/old.?style.?figures?|old.?style.?nums?/i.test(query))
+    conditions.push('("old-style figures" in rawKeywords)');
+  if (/small.?caps/i.test(query))
+    conditions.push('("small caps" in rawKeywords)');
+  if (/discretionary.?ligatures?/i.test(query))
+    conditions.push('("discretionary ligatures" in rawKeywords)');
+  if (/stylistic.?alternates?|stylistic.?sets?/i.test(query))
+    conditions.push('("stylistic alternates" in rawKeywords)');
+  if (/swash/i.test(query))
+    conditions.push('("swash" in rawKeywords)');
+  if (/optical.?size/i.test(query))
+    conditions.push('("optical sizes" in rawKeywords)');
   if (/\bgoogle\s*fonts?\b/i.test(query))
     conditions.push('"google-fonts" in platforms');
   if (/\badobe\s*fonts?\b/i.test(query))
@@ -324,7 +341,16 @@ export async function POST(request: Request): Promise<Response> {
         s += 5;
       }
     }
-    const queryWords = query.toLowerCase().split(/\W+/).filter(w => w.length > 3);
+    const scoringQuery = query
+      .replace(/slashed.?zero/gi, '')
+      .replace(/tabular.?figures?/gi, '')
+      .replace(/old.?style.?figures?/gi, '')
+      .replace(/small.?caps/gi, '')
+      .replace(/discretionary.?ligatures?/gi, '')
+      .replace(/stylistic.?alternates?/gi, '')
+      .replace(/optical.?sizes?/gi, '')
+      .trim();
+    const queryWords = scoringQuery.toLowerCase().split(/\W+/).filter(w => w.length > 3);
     if (queryWords.length > 0) {
       const keywords = (result.rawKeywords ?? []).map((k: string) => k.toLowerCase());
       const matchCount = queryWords.filter(word =>
@@ -339,7 +365,7 @@ export async function POST(request: Request): Promise<Response> {
     // "inscriptional", "stencil", "inline", etc.
     const subClass = (result.subClassification ?? '').toLowerCase();
     if (subClass) {
-      const subClassWords = query.toLowerCase().split(/\W+/).filter(w => w.length > 3);
+      const subClassWords = scoringQuery.toLowerCase().split(/\W+/).filter(w => w.length > 3);
       const subClassHits = subClassWords.filter(w => subClass.includes(w)).length;
       s += subClassHits * 4;
     }

@@ -20,6 +20,28 @@ npm run check -- --foundry <slug> --typeface <slug>
 
 ---
 
+## Step 0.5 — Font pre-flight check
+
+Run this immediately after the duplicate check, before opening any browser manually.
+It reveals how fonts are loaded on the page and determines how much effort the specimen capture will take.
+
+```bash
+npm run font-check -- --url <typeface URL> --foundry <slug> --typeface <slug>
+```
+
+**Verdicts and what to do next:**
+
+| Verdict | Meaning | Action |
+|---|---|---|
+| `EASY ✓` | Fonts in `document.fonts` with readable names | Copy the suggested `npm run specimen` command from the output and run it directly — skip font ID work in Step 1 |
+| `MEDIUM ~` | Fonts loaded but UUID-style or per-weight families | Pick the right family name from the list printed. UUID fonts need the DOM cross-reference commands printed in the output |
+| `HARD ✗` | Fonts registered but not yet loaded — lazy-loaded | Expect Tier 3 work in Step 1. The output prints the exact playwright-cli commands to start with |
+| `BLOCKED ✗` | No fonts found at all | Check if the page needs login/purchase, or try a different page (type tester, specimen page). Consider skipping |
+
+**For EASY intakes:** the font-check output includes a ready-to-paste `npm run specimen` command. You can skip the font identification work in Step 1 and jump straight to Step 5 (Capture specimens).
+
+---
+
 ## Step 1 — Extract page content
 
 **Always try WebFetch first** — no Bash approval required, works for server-rendered pages:
@@ -306,6 +328,21 @@ Add any other descriptor from the page that doesn't fit the taxonomy above:
 - Unusual use cases or moods
 
 Claude uses `rawKeywords` for query matching even though they don't appear in the UI.
+
+### OpenType features — add verbatim when supported
+
+The search engine checks `rawKeywords` for these exact strings to filter results for feature-specific queries (e.g. "slashed zero", "tabular figures"). Add them verbatim — the match is exact, not fuzzy:
+
+- `"slashed zero"` — zero with a diagonal slash; common in coding and developer-facing fonts
+- `"tabular figures"` — fixed-width numerals that align in columns; essential for data and finance
+- `"old-style figures"` — numerals with ascenders and descenders; common in classical and editorial typefaces
+- `"small caps"` — uppercase letterforms drawn at x-height; distinct from scaled capitals
+- `"discretionary ligatures"` — decorative letter combinations activated via OpenType `dlig`
+- `"stylistic alternates"` — alternate character designs accessible via OpenType `salt` or `ssXX` sets
+- `"optical sizes"` — separate cuts (caption, text, display) optimised for different size ranges
+- `"swash"` — decorative flourished characters, typically on italics or display cuts
+
+If the typeface supports a feature, add the exact string above. Do not paraphrase — the search engine matches these strings literally.
 
 ---
 

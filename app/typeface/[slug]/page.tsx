@@ -200,15 +200,14 @@ export default async function TypefacePage({
     <div className="min-h-[100dvh] flex flex-col bg-white">
 
       {/* ── Nav ──────────────────────────────────────────────────────────────── */}
-      <header className="w-full max-w-[1180px] mx-auto px-6 lg:px-10 pt-7 pb-5 flex flex-col gap-5">
-        <Link href="/" aria-label="TypeScout home" className="self-center">
+      <header className="w-full max-w-[1180px] mx-auto px-6 lg:px-10 pt-7 pb-5 flex justify-center">
+        <Link href="/" aria-label="TypeScout home">
           <Wordmark />
         </Link>
-        <DetailSearchBar />
       </header>
 
       {/* ── Main container ────────────────────────────────────────────────────── */}
-      <div className="flex-1 w-full max-w-[1180px] mx-auto px-6 lg:px-10 pb-20">
+      <div className="flex-1 w-full max-w-[1180px] mx-auto px-6 lg:px-10 pb-[120px]">
 
         {/* ── Specimen card ─────────────────────────────────────────────────── */}
         <SpecimenCard
@@ -258,7 +257,7 @@ export default async function TypefacePage({
               </span>
             </>
 
-            {/* CTA — pushed to the right */}
+            {/* CTA — desktop only, pushed to the right */}
             {tf.typefaceURL && (
               <>
                 <div className="flex-1" />
@@ -266,7 +265,7 @@ export default async function TypefacePage({
                   href={tf.typefaceURL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-[10px] font-sans text-[13px] uppercase tracking-[.02em] text-[#151515] bg-[#f4fbd4] px-[14px] py-[8px] rounded-[2px] hover:bg-[#ecf5bf] transition-colors flex-shrink-0"
+                  className="hidden sm:inline-flex items-center gap-[10px] font-sans text-[13px] uppercase tracking-[.02em] text-[#151515] bg-[#f4fbd4] px-[14px] py-[8px] rounded-[2px] hover:bg-[#ecf5bf] transition-colors flex-shrink-0"
                   style={{ border: "0.5px solid #151515" }}
                 >
                   <span>Get {tf.name}</span>
@@ -278,6 +277,22 @@ export default async function TypefacePage({
             )}
 
         </div>
+
+        {/* CTA — mobile only, full viewport width */}
+        {tf.typefaceURL && (
+          <a
+            href={tf.typefaceURL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="sm:hidden flex items-center justify-center gap-[10px] font-sans text-[13px] uppercase tracking-[.02em] text-[#151515] bg-[#f4fbd4] px-[14px] py-[12px] rounded-[2px] hover:bg-[#ecf5bf] transition-colors w-full"
+            style={{ border: "0.5px solid #151515" }}
+          >
+            <span>Get {tf.name}</span>
+            <span className="w-[20px] h-[20px] rounded-full bg-[#151515] flex items-center justify-center flex-shrink-0">
+              <ArrowUpRight size={9} color="#f4fbd4" aria-hidden="true" />
+            </span>
+          </a>
+        )}
 
         {/* ── Two-column body ───────────────────────────────────────────────── */}
         <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-[1.25fr_1fr] lg:gap-14">
@@ -586,6 +601,9 @@ export default async function TypefacePage({
           </a>
         </p>
       </footer>
+
+      {/* ── Fixed-bottom search bar — matches home page active state ─────────── */}
+      <DetailSearchBar />
     </div>
   );
 }

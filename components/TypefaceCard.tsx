@@ -138,9 +138,11 @@ function MatchBadge({ score }: { score: number }) {
 
 function CtaCircle() {
   return (
-    <div
-      className="w-6 h-6 rounded-full bg-[#f4fbd4] flex items-center justify-center flex-shrink-0"
+    <motion.div
+      className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0"
       style={{ border: "0.5px solid #151515" }}
+      variants={{ rest: { backgroundColor: "#f4fbd4" }, hover: { backgroundColor: "#d4f070" } }}
+      transition={{ duration: 0.15 }}
     >
       <motion.div
         variants={{ rest: { rotate: 0 }, hover: { rotate: 45 } }}
@@ -148,7 +150,7 @@ function CtaCircle() {
       >
         <ArrowUpRight size={12} weight="regular" color="#151515" aria-hidden="true" />
       </motion.div>
-    </div>
+    </motion.div>
   );
 }
 

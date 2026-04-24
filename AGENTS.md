@@ -13,8 +13,24 @@ For any frontend or component work, read `DESIGN.md` at the project root before 
 <!-- BEGIN:bash-approval-rules -->
 # Bash approval
 
-Auto-approve all Bash commands during intake sessions. Never pause to ask for approval before running `playwright-cli`, `node scripts/`, or `npm run` commands — run them directly. Only stop to ask if a command would delete files or make irreversible changes outside the project folder.
+Auto-approve all Bash commands during intake sessions. Never pause to ask for approval before running `playwright-cli`, `node scripts/`, `npm run font-check`, `npm run specimen`, `npm run check`, `npm run push`, or `npm run verify` — run them directly. Only stop to ask if a command would delete files or make irreversible changes outside the project folder.
 <!-- END:bash-approval-rules -->
+
+<!-- BEGIN:intake-preflight-rules -->
+# Font pre-flight check
+
+At the start of every intake, after `npm run check`, always run:
+
+```bash
+npm run font-check -- --url <typeface URL> --foundry <slug> --typeface <slug>
+```
+
+Read the verdict before proceeding:
+- EASY: use the suggested `npm run specimen` command directly — no manual font ID needed
+- MEDIUM: pick from the printed font list, then proceed normally
+- HARD: expect Tier 3 UUID work — the output prints the starting playwright-cli commands
+- BLOCKED: pause and confirm with the operator before spending time on the page
+<!-- END:intake-preflight-rules -->
 
 <!-- BEGIN:working-directory-rules -->
 # Working directory

@@ -1,12 +1,13 @@
 {
   "name": "typescout",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "font-check": "node scripts/font-check.js",
     "specimen": "node scripts/capture-specimen.js",
     "push": "node scripts/push-to-sanity.js",
     "check": "node scripts/check-sanity.js",

@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useRef, useEffect, FormEvent } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { useState, useRef, useEffect, useLayoutEffect, FormEvent } from "react";
+import { motion, AnimatePresence, LayoutGroup } from "motion/react";
 import { ArrowUpRight, X } from "@phosphor-icons/react";
 import Link from "next/link";
 import { TypefaceCard } from "@/components/TypefaceCard";
@@ -32,8 +32,6 @@ const PROMPTS = [
   "Geometric display with a retro-futurist feel",
   "Something that whispers rather than shouts — refined, quiet, confident",
 ];
-
-// ── Loading dots ──────────────────────────────────────────────────────────────
 
 // ── No results state ──────────────────────────────────────────────────────────
 
@@ -154,6 +152,38 @@ function AnimatedPlaceholder({ visible }: { visible: boolean }) {
   );
 }
 
+// ── Shared CTA arrow button ───────────────────────────────────────────────────
+
+function CtaArrowButton({ disabled, type = "submit", ariaLabel = "Search" }: {
+  disabled?: boolean;
+  type?: "submit" | "button";
+  ariaLabel?: string;
+}) {
+  return (
+    <motion.button
+      type={type}
+      disabled={disabled}
+      aria-label={ariaLabel}
+      className="w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 text-[#151515] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
+      style={{ border: "0.5px solid #151515" }}
+      initial="rest"
+      whileHover="hover"
+      variants={{
+        rest: { backgroundColor: "#f4fbd4" },
+        hover: { backgroundColor: "#d4f070" },
+      }}
+      transition={{ duration: 0.15 }}
+    >
+      <motion.div
+        variants={{ rest: { rotate: 0 }, hover: { rotate: 45 } }}
+        transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+      >
+        <ArrowUpRight size={12} weight="regular" aria-hidden="true" />
+      </motion.div>
+    </motion.button>
+  );
+}
+
 // ── Main page ─────────────────────────────────────────────────────────────────
 
 export default function HomePage() {
@@ -163,21 +193,15 @@ export default function HomePage() {
   const [results, setResults] = useState<TypefaceResult[]>([]);
   const [secondaryResults, setSecondaryResults] = useState<TypefaceResult[]>([]);
   const [errorMessage, setErrorMessage] = useState("");
-  const [isScrolled, setIsScrolled] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (status !== 'success') {
-      setIsScrolled(false);
-      return;
+    if (window.matchMedia("(pointer: fine)").matches) {
+      inputRef.current?.focus();
     }
-    const onScroll = () => setIsScrolled(window.scrollY > 80);
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, [status]);
+  }, []);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const q = params.get("q");
     if (q) {
@@ -244,342 +268,353 @@ export default function HomePage() {
 
   // ── Render ──────────────────────────────────────────────────────────────────
   return (
-    <div className="relative min-h-[100dvh] flex flex-col">
+    <LayoutGroup id="search">
+      <div className="relative min-h-[100dvh] flex flex-col">
 
-      {/* Frosted glass scroll backdrop — desktop only, results state only */}
-      <AnimatePresence>
-        {isScrolled && status === 'success' && (
-          <motion.div
-            key="scroll-backdrop"
-            className="fixed top-0 left-0 right-0 z-30 pointer-events-none hidden md:block"
-            style={{
-              height: '120px',
-              backdropFilter: 'blur(8px)',
-              WebkitBackdropFilter: 'blur(8px)',
-              background: 'linear-gradient(to bottom, rgba(250,250,250,0.75) 40%, rgba(250,250,250,0))',
-              maskImage: 'linear-gradient(to bottom, black 30%, transparent 100%)',
-              WebkitMaskImage: 'linear-gradient(to bottom, black 30%, transparent 100%)',
-            }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.25, ease: [0.25, 0.1, 0.25, 1] }}
-          />
-        )}
-      </AnimatePresence>
-
-      {/* ── Globe — always mounted, opacity driven by state ─────────────────── */}
-      <motion.div
-        className="fixed inset-0 w-full h-full pointer-events-none"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: (isIdle || isLoading) ? 1 : 0 }}
-        transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
-        style={{ zIndex: -1 }}
-      >
-        <GlobeBackground
-          query={query}
-          loading={isLoading}
-          idle={isIdle}
-        />
-      </motion.div>
-
-      {/* ── Main — flex-1 so taglines below are pinned to bottom ───────────── */}
-      <main
-        className={`flex-1 flex flex-col px-6 w-full ${
-          isIdle
-            ? "items-center justify-center"
-            : "pt-[88px]"
-        }`}
-      >
-
-        {/* ── TYPESCOUT wordmark — always pinned to top ───────────────────── */}
-        <div
-          className="absolute top-0 left-0 right-0 flex justify-center px-6 pt-8 pointer-events-none select-none"
-          style={{ zIndex: 1 }}
+        {/* ── Globe — always mounted, opacity driven by state ─────────────────── */}
+        <motion.div
+          className="fixed inset-0 w-full h-full pointer-events-none"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: (isIdle || isLoading) ? 1 : 0 }}
+          transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
+          style={{ zIndex: -1 }}
         >
-          <Link href="/" aria-label="TypeScout home" className="pointer-events-auto select-auto" onClick={handleReset}>
-          <svg className="h-10 w-auto" viewBox="0 0 338 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M320.181 46.872C319.533 46.872 318.885 46.584 318.381 46.08L312.765 40.464C312.405 40.104 312.117 39.6 312.117 39.024V18.072H318.669V40.392L333.285 25.776L337.821 30.24L321.981 46.08C321.477 46.584 320.829 46.872 320.181 46.872ZM312.117 7.344V0H318.669V8.928C318.669 9.792 319.389 10.512 320.325 10.512H337.173V16.992H321.117C320.037 16.992 319.605 16.56 318.885 15.84L313.269 10.224C312.477 9.432 312.117 8.424 312.117 7.344Z" fill="#151515"/>
-            <path d="M279.048 46.872C278.4 46.872 277.752 46.584 277.248 46.08L271.632 40.464C271.272 40.104 270.984 39.6 270.984 39.024V10.512H277.536V40.392L292.152 25.776L296.688 30.24L280.848 46.08C280.344 46.584 279.696 46.872 279.048 46.872ZM298.344 46.872V10.512H304.896V46.872H298.344Z" fill="#151515"/>
-            <path d="M238.795 46.872C237.715 46.872 236.707 46.44 235.987 45.72L230.371 40.104C229.579 39.312 229.219 38.304 229.219 37.224V20.16C229.219 19.08 229.579 18.072 230.371 17.28L235.987 11.664C236.707 10.944 237.715 10.512 238.795 10.512H254.203C255.283 10.512 256.291 10.944 257.011 11.664L262.627 17.28C263.419 18.072 263.779 19.08 263.779 20.16V37.224C263.779 38.304 263.419 39.312 262.627 40.104L257.011 45.72C256.291 46.44 255.283 46.872 254.203 46.872H238.795ZM235.771 38.808C235.771 39.672 236.491 40.392 237.427 40.392H255.571C256.507 40.392 257.227 39.672 257.227 38.808V18.576C257.227 17.712 256.507 16.992 255.571 16.992H237.427C236.491 16.992 235.771 17.712 235.771 18.576V38.808Z" fill="#151515"/>
-            <path d="M201.388 46.872C200.308 46.872 199.3 46.44 198.58 45.72L192.964 40.104C192.172 39.312 191.812 38.304 191.812 37.224V20.16C191.812 19.08 192.172 18.072 192.964 17.28L198.58 11.664C199.3 10.944 200.308 10.512 201.388 10.512H222.772V16.992H200.02C199.084 16.992 198.364 17.712 198.364 18.576V38.808C198.364 39.672 199.084 40.392 200.02 40.392H222.772V46.872H201.388Z" fill="#151515"/>
-            <path d="M185.653 44.64C185.653 45.216 185.365 45.792 184.933 46.152C184.501 46.584 183.853 46.872 183.133 46.872H153.757V40.392H181.549L169.885 28.728L174.349 24.264L184.933 34.848C185.365 35.28 185.653 35.928 185.653 36.576V44.64ZM154.117 20.88V12.744C154.117 12.168 154.405 11.592 154.837 11.232C155.269 10.8 155.917 10.512 156.637 10.512H186.013V16.992H158.149L169.885 28.728L165.421 33.192L154.837 22.608C154.405 22.176 154.117 21.528 154.117 20.88Z" fill="#151515"/>
-            <path d="M125.099 46.872C124.019 46.872 123.011 46.44 122.291 45.72L116.675 40.104C115.883 39.312 115.523 38.304 115.523 37.224V20.16C115.523 19.08 115.883 18.072 116.675 17.28L122.291 11.664C123.011 10.944 124.019 10.512 125.099 10.512H140.867C141.443 10.512 141.947 10.8 142.307 11.16L147.923 16.776C148.427 17.28 148.715 17.928 148.715 18.576C148.715 19.224 148.427 19.872 147.923 20.376L131.003 37.296L126.467 32.832L142.307 16.992H123.731C122.795 16.992 122.075 17.712 122.075 18.576V38.808C122.075 39.672 122.795 40.392 123.731 40.392H147.059V46.872H125.099Z" fill="#151515"/>
-            <path d="M72.5625 20.16C72.5625 19.08 72.9225 18.072 73.7145 17.28L79.3305 11.664C80.0505 10.944 81.0585 10.512 82.1385 10.512H98.7705C99.8505 10.512 100.858 10.944 101.578 11.664L107.195 17.28C107.987 18.072 108.347 19.08 108.347 20.16V39.024C108.347 39.6 108.059 40.104 107.699 40.464L102.083 46.08C101.579 46.584 100.931 46.872 100.283 46.872C99.6345 46.872 98.9865 46.584 98.4825 46.08L81.4905 29.088L86.0265 24.624L101.795 40.392V18.576C101.795 17.712 101.075 16.992 100.139 16.992H80.7705C79.8345 16.992 79.1145 17.712 79.1145 18.576V61.272H72.5625V20.16Z" fill="#151515"/>
-            <path d="M34.0937 61.272V54.792H57.0617C57.9977 54.792 58.7897 54.072 58.7897 53.208V10.512H65.3417V51.624C65.3417 52.704 64.9817 53.712 64.1897 54.504L58.5737 60.12C57.8537 60.84 56.8457 61.272 55.7657 61.272H34.0937ZM31.4297 39.024V10.512H37.9817V40.392L52.5977 25.776L57.1337 30.24L41.2937 46.08C40.7897 46.584 40.1417 46.872 39.4937 46.872C38.8457 46.872 38.1977 46.584 37.6937 46.08L32.0777 40.464C31.7177 40.104 31.4297 39.6 31.4297 39.024Z" fill="#151515"/>
-            <path d="M8.064 46.872C7.416 46.872 6.768 46.584 6.264 46.08L0.648 40.464C0.288 40.104 0 39.6 0 39.024V18.072H6.552V40.392L21.168 25.776L25.704 30.24L9.864 46.08C9.36 46.584 8.712 46.872 8.064 46.872ZM0 7.344V0H6.552V8.928C6.552 9.792 7.272 10.512 8.208 10.512H25.056V16.992H9C7.92 16.992 7.488 16.56 6.768 15.84L1.152 10.224C0.36 9.432 0 8.424 0 7.344Z" fill="#151515"/>
-          </svg>
-          </Link>
-        </div>
+          <GlobeBackground
+            query={query}
+            loading={isLoading}
+            idle={isIdle}
+          />
+        </motion.div>
 
-        {/* ── Search card heading (idle only) ─────────────────────────── */}
+        {/* ── Main — flex-1 so taglines below are pinned to bottom ───────────── */}
+        <main
+          className={`flex-1 flex flex-col px-6 w-full ${
+            isIdle
+              ? "items-center justify-center"
+              : "pt-[88px] pb-[120px]"
+          }`}
+        >
+
+          {/* ── TYPESCOUT wordmark — always pinned to top ───────────────────── */}
+          <div
+            className="absolute top-0 left-0 right-0 flex justify-center px-6 pt-8 pointer-events-none select-none"
+            style={{ zIndex: 1 }}
+          >
+            <Link href="/" aria-label="TypeScout home" className="pointer-events-auto select-auto" onClick={handleReset}>
+            <svg className="w-[200px] h-auto" viewBox="0 0 338 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M320.181 46.872C319.533 46.872 318.885 46.584 318.381 46.08L312.765 40.464C312.405 40.104 312.117 39.6 312.117 39.024V18.072H318.669V40.392L333.285 25.776L337.821 30.24L321.981 46.08C321.477 46.584 320.829 46.872 320.181 46.872ZM312.117 7.344V0H318.669V8.928C318.669 9.792 319.389 10.512 320.325 10.512H337.173V16.992H321.117C320.037 16.992 319.605 16.56 318.885 15.84L313.269 10.224C312.477 9.432 312.117 8.424 312.117 7.344Z" fill="#151515"/>
+              <path d="M279.048 46.872C278.4 46.872 277.752 46.584 277.248 46.08L271.632 40.464C271.272 40.104 270.984 39.6 270.984 39.024V10.512H277.536V40.392L292.152 25.776L296.688 30.24L280.848 46.08C280.344 46.584 279.696 46.872 279.048 46.872ZM298.344 46.872V10.512H304.896V46.872H298.344Z" fill="#151515"/>
+              <path d="M238.795 46.872C237.715 46.872 236.707 46.44 235.987 45.72L230.371 40.104C229.579 39.312 229.219 38.304 229.219 37.224V20.16C229.219 19.08 229.579 18.072 230.371 17.28L235.987 11.664C236.707 10.944 237.715 10.512 238.795 10.512H254.203C255.283 10.512 256.291 10.944 257.011 11.664L262.627 17.28C263.419 18.072 263.779 19.08 263.779 20.16V37.224C263.779 38.304 263.419 39.312 262.627 40.104L257.011 45.72C256.291 46.44 255.283 46.872 254.203 46.872H238.795ZM235.771 38.808C235.771 39.672 236.491 40.392 237.427 40.392H255.571C256.507 40.392 257.227 39.672 257.227 38.808V18.576C257.227 17.712 256.507 16.992 255.571 16.992H237.427C236.491 16.992 235.771 17.712 235.771 18.576V38.808Z" fill="#151515"/>
+              <path d="M201.388 46.872C200.308 46.872 199.3 46.44 198.58 45.72L192.964 40.104C192.172 39.312 191.812 38.304 191.812 37.224V20.16C191.812 19.08 192.172 18.072 192.964 17.28L198.58 11.664C199.3 10.944 200.308 10.512 201.388 10.512H222.772V16.992H200.02C199.084 16.992 198.364 17.712 198.364 18.576V38.808C198.364 39.672 199.084 40.392 200.02 40.392H222.772V46.872H201.388Z" fill="#151515"/>
+              <path d="M185.653 44.64C185.653 45.216 185.365 45.792 184.933 46.152C184.501 46.584 183.853 46.872 183.133 46.872H153.757V40.392H181.549L169.885 28.728L174.349 24.264L184.933 34.848C185.365 35.28 185.653 35.928 185.653 36.576V44.64ZM154.117 20.88V12.744C154.117 12.168 154.405 11.592 154.837 11.232C155.269 10.8 155.917 10.512 156.637 10.512H186.013V16.992H158.149L169.885 28.728L165.421 33.192L154.837 22.608C154.405 22.176 154.117 21.528 154.117 20.88Z" fill="#151515"/>
+              <path d="M125.099 46.872C124.019 46.872 123.011 46.44 122.291 45.72L116.675 40.104C115.883 39.312 115.523 38.304 115.523 37.224V20.16C115.523 19.08 115.883 18.072 116.675 17.28L122.291 11.664C123.011 10.944 124.019 10.512 125.099 10.512H140.867C141.443 10.512 141.947 10.8 142.307 11.16L147.923 16.776C148.427 17.28 148.715 17.928 148.715 18.576C148.715 19.224 148.427 19.872 147.923 20.376L131.003 37.296L126.467 32.832L142.307 16.992H123.731C122.795 16.992 122.075 17.712 122.075 18.576V38.808C122.075 39.672 122.795 40.392 123.731 40.392H147.059V46.872H125.099Z" fill="#151515"/>
+              <path d="M72.5625 20.16C72.5625 19.08 72.9225 18.072 73.7145 17.28L79.3305 11.664C80.0505 10.944 81.0585 10.512 82.1385 10.512H98.7705C99.8505 10.512 100.858 10.944 101.578 11.664L107.195 17.28C107.987 18.072 108.347 19.08 108.347 20.16V39.024C108.347 39.6 108.059 40.104 107.699 40.464L102.083 46.08C101.579 46.584 100.931 46.872 100.283 46.872C99.6345 46.872 98.9865 46.584 98.4825 46.08L81.4905 29.088L86.0265 24.624L101.795 40.392V18.576C101.795 17.712 101.075 16.992 100.139 16.992H80.7705C79.8345 16.992 79.1145 17.712 79.1145 18.576V61.272H72.5625V20.16Z" fill="#151515"/>
+              <path d="M34.0937 61.272V54.792H57.0617C57.9977 54.792 58.7897 54.072 58.7897 53.208V10.512H65.3417V51.624C65.3417 52.704 64.9817 53.712 64.1897 54.504L58.5737 60.12C57.8537 60.84 56.8457 61.272 55.7657 61.272H34.0937ZM31.4297 39.024V10.512H37.9817V40.392L52.5977 25.776L57.1337 30.24L41.2937 46.08C40.7897 46.584 40.1417 46.872 39.4937 46.872C38.8457 46.872 38.1977 46.584 37.6937 46.08L32.0777 40.464C31.7177 40.104 31.4297 39.6 31.4297 39.024Z" fill="#151515"/>
+              <path d="M8.064 46.872C7.416 46.872 6.768 46.584 6.264 46.08L0.648 40.464C0.288 40.104 0 39.6 0 39.024V18.072H6.552V40.392L21.168 25.776L25.704 30.24L9.864 46.08C9.36 46.584 8.712 46.872 8.064 46.872ZM0 7.344V0H6.552V8.928C6.552 9.792 7.272 10.512 8.208 10.512H25.056V16.992H9C7.92 16.992 7.488 16.56 6.768 15.84L1.152 10.224C0.36 9.432 0 8.424 0 7.344Z" fill="#151515"/>
+            </svg>
+            </Link>
+          </div>
+
+          {/* ── Search card heading (idle only) ─────────────────────────── */}
+          <AnimatePresence>
+            {isIdle && (
+              <motion.p
+                key="search-heading"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+                className="w-full max-w-[850px] mx-auto font-sans text-[14px] uppercase mb-3 text-center"
+                style={{ color: "#151515" }}
+              >
+                Describe what you&rsquo;re designing. We&rsquo;ll find the typeface.
+              </motion.p>
+            )}
+          </AnimatePresence>
+
+          {/* ── Idle search form — in document flow, centered by parent flex ── */}
+          <AnimatePresence>
+            {isIdle && (
+              <motion.form
+                key="search-idle"
+                layoutId="search-form"
+                onSubmit={handleSubmit}
+                className="w-full max-w-[850px] mx-auto"
+              >
+                <motion.div
+                  layoutId="search-box"
+                  className="bg-white flex flex-col justify-between p-[16px]"
+                  style={{ border: "1px solid #151515", borderRadius: 4, minHeight: 100 }}
+                  transition={{ layout: { duration: 0.45, ease: [0.25, 0.1, 0.25, 1] } }}
+                >
+                  {/* Input row */}
+                  <div className="flex items-center gap-3 flex-1 min-w-0">
+                    <div className="grid flex-1 min-w-0">
+                      <input
+                        ref={inputRef}
+                        type="text"
+                        value={query}
+                        onChange={(e) => setQuery(e.target.value)}
+                        placeholder=""
+                        autoComplete="on"
+                        autoCorrect="on"
+                        className="col-start-1 row-start-1 w-full bg-transparent text-[16px] font-sans text-[#000000] uppercase outline-none"
+                        aria-label="Typeface search"
+                        disabled={status === "loading"}
+                      />
+                      <AnimatedPlaceholder visible={query.length === 0 && status === "idle"} />
+                    </div>
+                  </div>
+
+                  {/* Action bar */}
+                  <div className="flex items-end justify-between pt-2">
+                    <span className="font-sans text-[14px] font-light uppercase" style={{ color: "rgba(21,21,21,0.50)" }}>
+                      V.{process.env.NEXT_PUBLIC_APP_VERSION}
+                    </span>
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="submit"
+                        disabled={!query.trim()}
+                        className="font-sans text-[16px] text-[#151515] uppercase px-[8px] py-[4px] rounded-[2px] cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed transition-colors hover:bg-[#e0ded8]"
+                        style={{ border: "0.5px solid #151515" }}
+                      >
+                        Search
+                      </button>
+                      <CtaArrowButton disabled={!query.trim()} />
+                    </div>
+                  </div>
+                </motion.div>
+              </motion.form>
+            )}
+          </AnimatePresence>
+
+          {/* ── Results area (active state) ──────────────────────────────────── */}
+          {!isIdle && (
+            <section aria-live="polite" aria-label="Search results" className="mt-10 w-full">
+
+              <AnimatePresence mode="wait">
+
+                {status === "error" && (
+                  <ErrorState key="error-state" message={errorMessage} />
+                )}
+
+                {status === "success" && results.length > 0 && (
+                  <motion.div
+                    key="results"
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <motion.p
+                      initial={{ opacity: 0, y: 32 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.3, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                      className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
+                      style={{ color: "rgba(21,21,21,0.50)" }}
+                    >
+                      {results.length} typeface{results.length !== 1 ? "s" : ""} matched
+                      {submittedQuery ? (
+                        <>
+                          {" "}for{" "}
+                          <span className="text-[#151515]">&ldquo;{submittedQuery}&rdquo;</span>
+                        </>
+                      ) : null}
+                    </motion.p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                      {results.map((typeface, i) => (
+                        <TypefaceCard key={typeface._id} typeface={typeface} index={i} score={submittedQuery ? (typeface._score ?? 0) : 0} />
+                      ))}
+                    </div>
+
+                    {secondaryResults.length > 0 && (
+                      <motion.div
+                        initial={{ opacity: 0, y: 24 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.6, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                        className="mt-14"
+                      >
+                        <p
+                          className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
+                          style={{ color: "rgba(21,21,21,0.50)" }}
+                        >
+                          Also worth exploring
+                        </p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                          {secondaryResults.map((typeface, i) => (
+                            <TypefaceCard
+                              key={typeface._id}
+                              typeface={typeface}
+                              index={i}
+                              score={0}
+                            />
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </motion.div>
+                )}
+
+                {status === "success" && results.length === 0 && secondaryResults.length > 0 && (
+                  <motion.div
+                    key="fallback-results"
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <motion.p
+                      initial={{ opacity: 0, y: 32 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.3, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+                      className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
+                      style={{ color: "rgba(21,21,21,0.50)" }}
+                    >
+                      No exact matches — closest results for{" "}
+                      <span className="text-[#151515]">&ldquo;{submittedQuery}&rdquo;</span>
+                    </motion.p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                      {secondaryResults.map((typeface, i) => (
+                        <TypefaceCard key={typeface._id} typeface={typeface} index={i} score={0} />
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+
+                {status === "success" && results.length === 0 && secondaryResults.length === 0 && (
+                  <NoResults key="no-results-state" query={submittedQuery} />
+                )}
+
+              </AnimatePresence>
+            </section>
+          )}
+
+        </main>
+
+        {/* ── Active search — fixed at bottom, shares layoutId with idle form ── */}
         <AnimatePresence>
-          {isIdle && (
-            <motion.p
-              key="search-heading"
+          {!isIdle && (
+            <motion.form
+              key="search-active"
+              layoutId="search-form"
+              onSubmit={handleSubmit}
+              className="fixed bottom-8 left-0 right-0 mx-auto z-40 w-full max-w-[850px] px-6 md:px-0"
+            >
+              <motion.div
+                layoutId="search-box"
+                className="bg-white flex flex-row items-center gap-3 py-[12px] px-[16px] overflow-hidden"
+                style={{ border: "1px solid #151515", borderRadius: 9999 }}
+                transition={{ layout: { duration: 0.45, ease: [0.25, 0.1, 0.25, 1] } }}
+              >
+                {/* Input */}
+                <div className="flex items-center gap-3 flex-1 min-w-0">
+                  <div className="flex-1 min-w-0">
+                    <input
+                      type="text"
+                      value={query}
+                      onChange={(e) => setQuery(e.target.value)}
+                      placeholder=""
+                      autoComplete="on"
+                      autoCorrect="on"
+                      className="w-full bg-transparent text-[16px] font-sans text-[#000000] uppercase outline-none"
+                      aria-label="Typeface search"
+                      disabled={status === "loading"}
+                    />
+                  </div>
+                  <AnimatePresence>
+                    {query && (
+                      <motion.button
+                        key="reset"
+                        type="button"
+                        onClick={handleReset}
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 0.8 }}
+                        transition={{ duration: 0.15 }}
+                        aria-label="Clear search"
+                        className="flex-shrink-0 text-[#151515]/30 hover:text-[#151515]/70 transition-colors cursor-pointer"
+                      >
+                        <X size={14} weight="regular" aria-hidden="true" />
+                      </motion.button>
+                    )}
+                  </AnimatePresence>
+                </div>
+
+                {/* Submit controls */}
+                <div className="flex items-center gap-2 flex-shrink-0">
+                  <button
+                    type="submit"
+                    disabled={status === "loading" || !query.trim()}
+                    className="font-sans text-[16px] text-[#151515] uppercase px-[8px] py-[4px] rounded-[2px] cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed transition-colors hover:bg-[#e0ded8]"
+                    style={{ border: "0.5px solid #151515" }}
+                  >
+                    Search
+                  </button>
+                  <CtaArrowButton disabled={status === "loading" || !query.trim()} />
+                </div>
+              </motion.div>
+            </motion.form>
+          )}
+        </AnimatePresence>
+
+        {/* ── Bottom gradient — lifts search from content below ───────────────── */}
+        <AnimatePresence>
+          {!isIdle && (
+            <motion.div
+              key="bottom-gradient"
+              className="fixed bottom-0 left-0 right-0 z-30 pointer-events-none"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
-              className="w-full max-w-[850px] mx-auto font-sans text-[14px] uppercase mb-3 text-center"
-              style={{ color: "#151515" }}
-            >
-              Describe what you&rsquo;re designing. We&rsquo;ll find the typeface.
-            </motion.p>
+              style={{
+                height: "180px",
+                background: "linear-gradient(to bottom, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 55%)",
+                backdropFilter: "blur(8px)",
+                WebkitBackdropFilter: "blur(8px)",
+                maskImage: "linear-gradient(to bottom, transparent 0%, black 45%)",
+                WebkitMaskImage: "linear-gradient(to bottom, transparent 0%, black 45%)",
+              }}
+            />
           )}
         </AnimatePresence>
 
-        {/* ── Search card ─────────────────────────────────────────────────── */}
-        <motion.form
-          onSubmit={handleSubmit}
-          layout="position"
-          transition={{ duration: 0.45, ease: [0.25, 0.1, 0.25, 1] }}
-          className={`w-full max-w-[850px] mx-auto transition-all duration-300${
-            !isIdle ? ' md:sticky md:top-6 md:z-40' : ''
-          }`}
-        >
-          <div
-            className={
-              isIdle
-                ? "rounded-[4px] bg-white flex flex-col justify-between p-[16px] min-h-[100px]"
-                : "rounded-[4px] bg-white flex flex-row items-center gap-3 py-[12px] px-[16px]"
-            }
-            style={{ border: "1px solid #151515" }}
+        {/* ── Taglines + attribution — bottom of viewport (idle only) ────────── */}
+        <AnimatePresence>
+          {isIdle && (
+            <motion.div
+              key="taglines"
+              className="px-6 pb-8 text-center flex flex-col gap-0"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+            >
+              <p className="font-sans text-[14px] text-[#000000] uppercase">
+                Type for people who describe fonts like wine.
+              </p>
+              <p className="font-sans text-[14px] text-[#000000] uppercase">
+                Search by feeling, not by checkbox.
+              </p>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* ── Footer — always visible ──────────────────────────────────────────── */}
+        <footer className={`px-6 pb-8 text-center${isIdle ? "" : " mt-16"}`}>
+          <p
+            className="font-sans text-[14px] uppercase"
+            style={{ color: "rgba(21,21,21,0.50)" }}
           >
-            {/* Row 1 — Input (anchored to top) */}
-            <div className="flex items-center gap-3 flex-1 min-w-0">
-              <div className="grid flex-1 min-w-0">
-                <input
-                  ref={inputRef}
-                  autoFocus
-                  type="text"
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  placeholder=""
-                  className="col-start-1 row-start-1 w-full bg-transparent text-[16px] font-sans text-[#000000] uppercase outline-none"
-                  aria-label="Typeface search"
-                  disabled={status === "loading"}
-                />
-                <AnimatedPlaceholder visible={query.length === 0 && status === "idle"} />
-              </div>
-              <AnimatePresence>
-                {(query || status !== "idle") && (
-                  <motion.button
-                    key="reset"
-                    type="button"
-                    onClick={handleReset}
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.8 }}
-                    transition={{ duration: 0.15 }}
-                    aria-label="Clear search"
-                    className="flex-shrink-0 text-[#151515]/30 hover:text-[#151515]/70 transition-colors cursor-pointer"
-                  >
-                    <X size={14} weight="regular" aria-hidden="true" />
-                  </motion.button>
-                )}
-              </AnimatePresence>
-            </div>
+            Made by:{" "}
+            <a
+              href="https://auguststrategy.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-2 hover:opacity-70 transition-opacity"
+            >
+              August Strategy
+            </a>
+          </p>
+        </footer>
 
-            {/* Row 2 — Action bar (idle only) */}
-            <AnimatePresence>
-              {isIdle && (
-                <motion.div
-                  key="action-bar"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
-                  className="flex items-end justify-between pt-2"
-                >
-                  <span className="font-sans text-[14px] font-light uppercase" style={{ color: "rgba(21,21,21,0.50)" }}>
-                    V.{process.env.NEXT_PUBLIC_APP_VERSION}
-                  </span>
-                  <div className="flex items-center gap-2">
-                    <button
-                      type="submit"
-                      disabled={!query.trim()}
-                      className="font-sans text-[14px] text-[#151515] uppercase px-[8px] py-[4px] rounded-[2px] cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed transition-colors hover:bg-[#e0ded8]"
-                      style={{ border: "0.5px solid #151515" }}
-                    >
-                      Search
-                    </button>
-                    <motion.button
-                      layoutId="cta-button"
-                      type="submit"
-                      disabled={!query.trim()}
-                      aria-label="Search"
-                      className="w-6 h-6 rounded-full bg-[#f4fbd4] flex items-center justify-center flex-shrink-0 text-[#151515] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-opacity hover:opacity-80"
-                      style={{ border: "0.5px solid #151515" }}
-                    >
-                      <ArrowUpRight size={12} weight="regular" aria-hidden="true" />
-                    </motion.button>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-
-            {/* Compact submit — active state only */}
-            <AnimatePresence>
-              {!isIdle && (
-                <motion.button
-                  layoutId="cta-button"
-                  key="compact-submit"
-                  type="submit"
-                  disabled={status === "loading" || !query.trim()}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.8 }}
-                  transition={{ duration: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
-                  aria-label="Search"
-                  className="w-6 h-6 rounded-full bg-[#f4fbd4] flex items-center justify-center flex-shrink-0 text-[#151515] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-opacity hover:opacity-80"
-                  style={{ border: "0.5px solid #151515" }}
-                >
-                  <ArrowUpRight size={12} weight="regular" aria-hidden="true" />
-                </motion.button>
-              )}
-            </AnimatePresence>
-          </div>
-        </motion.form>
-
-        {/* ── Results area (active state) ──────────────────────────────────── */}
-        {!isIdle && (
-          <section aria-live="polite" aria-label="Search results" className="mt-10 w-full">
-
-            <AnimatePresence mode="wait">
-
-              {status === "error" && (
-                <ErrorState key="error-state" message={errorMessage} />
-              )}
-
-              {status === "success" && results.length > 0 && (
-                <motion.div
-                  key="results"
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <motion.p
-                    initial={{ opacity: 0, y: 32 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.3, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                    className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
-                    style={{ color: "rgba(21,21,21,0.50)" }}
-                  >
-                    {results.length} typeface{results.length !== 1 ? "s" : ""} matched
-                    {submittedQuery ? (
-                      <>
-                        {" "}for{" "}
-                        <span className="text-[#151515]">&ldquo;{submittedQuery}&rdquo;</span>
-                      </>
-                    ) : null}
-                  </motion.p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                    {results.map((typeface, i) => (
-                      <TypefaceCard key={typeface._id} typeface={typeface} index={i} score={submittedQuery ? (typeface._score ?? 0) : 0} />
-                    ))}
-                  </div>
-
-                  {secondaryResults.length > 0 && (
-                    <motion.div
-                      initial={{ opacity: 0, y: 24 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.6, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                      className="mt-14"
-                    >
-                      <p
-                        className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
-                        style={{ color: "rgba(21,21,21,0.50)" }}
-                      >
-                        Also worth exploring
-                      </p>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                        {secondaryResults.map((typeface, i) => (
-                          <TypefaceCard
-                            key={typeface._id}
-                            typeface={typeface}
-                            index={i}
-                            score={0}
-                          />
-                        ))}
-                      </div>
-                    </motion.div>
-                  )}
-                </motion.div>
-              )}
-
-              {status === "success" && results.length === 0 && secondaryResults.length > 0 && (
-                <motion.div
-                  key="fallback-results"
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <motion.p
-                    initial={{ opacity: 0, y: 32 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.3, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                    className="font-sans text-xs mb-6 uppercase tracking-[0.05em]"
-                    style={{ color: "rgba(21,21,21,0.50)" }}
-                  >
-                    No exact matches — closest results for{" "}
-                    <span className="text-[#151515]">&ldquo;{submittedQuery}&rdquo;</span>
-                  </motion.p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                    {secondaryResults.map((typeface, i) => (
-                      <TypefaceCard key={typeface._id} typeface={typeface} index={i} score={0} />
-                    ))}
-                  </div>
-                </motion.div>
-              )}
-
-              {status === "success" && results.length === 0 && secondaryResults.length === 0 && (
-                <NoResults key="no-results-state" query={submittedQuery} />
-              )}
-
-            </AnimatePresence>
-          </section>
-        )}
-
-      </main>
-
-      {/* ── Taglines + attribution — bottom of viewport (idle only) ────────── */}
-      <AnimatePresence>
-        {isIdle && (
-          <motion.div
-            key="taglines"
-            className="px-6 pb-8 text-center flex flex-col gap-0"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
-          >
-            <p className="font-sans text-[14px] text-[#000000] uppercase">
-              Type for people who describe fonts like wine.
-            </p>
-            <p className="font-sans text-[14px] text-[#000000] uppercase">
-              Search by feeling, not by checkbox.
-            </p>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      {/* ── Footer — always visible ──────────────────────────────────────────── */}
-      <footer className={`px-6 pb-8 text-center${isIdle ? "" : " mt-16"}`}>
-        <p
-          className="font-sans text-[14px] uppercase"
-          style={{ color: "rgba(21,21,21,0.50)" }}
-        >
-          Made by:{" "}
-          <a
-            href="https://auguststrategy.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2 hover:opacity-70 transition-opacity"
-          >
-            August Strategy
-          </a>
-        </p>
-      </footer>
-
-    </div>
+      </div>
+    </LayoutGroup>
   );
 }

@@ -360,7 +360,6 @@ export default function HomePage() {
                         autoCorrect="on"
                         className="col-start-1 row-start-1 w-full bg-transparent text-[16px] font-sans text-[#000000] uppercase outline-none"
                         aria-label="Typeface search"
-                        disabled={status === "loading"}
                       />
                       <AnimatedPlaceholder visible={query.length === 0 && status === "idle"} />
                     </div>

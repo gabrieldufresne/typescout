@@ -79,11 +79,23 @@ async function main() {
   }
 
   // 3. Typefaces
+  // SHARED holds the defaults for the intake; per-typeface fields override
+  // when defined, so a single push can mix typefaces with different weight
+  // ranges, italic support, etc.
+  const SHARED_KEYS = [
+    'weightRange', 'width', 'era', 'licensing', 'platforms',
+    'variableFont', 'hasItalics', 'multilingualSupport', 'featured',
+  ];
+  const overridesFor = (tf) =>
+    Object.fromEntries(SHARED_KEYS.filter((k) => tf[k] !== undefined).map((k) => [k, tf[k]]));
+
   console.log('\nCreating typefaces…');
   for (const tf of TYPEFACES) {
     await client.createOrReplace({
       _type:   'typeface',
       _id:     tf._id,
+      ...SHARED,
+      ...overridesFor(tf),
       name:    tf.name,
       slug:    { _type: 'slug', current: tf.slug },
       foundry: { _type: 'reference', _ref: foundryId },
@@ -94,13 +106,10 @@ async function main() {
       subClassification: tf.subClassification,
       personalityTags:   tf.personalityTags,
       useCaseTags:       tf.useCaseTags,
-      width:             tf.width,
       xHeight:           tf.xHeight,
       contrast:          tf.contrast,
       typefaceURL:       tf.typefaceURL,
       rawKeywords:       tf.rawKeywords,
-      hasItalics:        tf.hasItalics ?? false,
-      ...SHARED,
     });
     console.log(`  ✓ ${tf._id} created`);
   }

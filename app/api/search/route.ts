@@ -100,17 +100,36 @@ const TYPEFACE_PROJECTION = `{
 export async function POST(request: Request): Promise<Response> {
   // 1. Parse request body
   let query: string;
+  let listAll = false;
   try {
-    const body = (await request.json()) as { query?: unknown };
-    if (typeof body.query !== "string" || body.query.trim().length === 0) {
-      return Response.json(
-        { error: "Request body must include a non-empty `query` string." },
-        { status: 400 }
-      );
+    const body = (await request.json()) as { query?: unknown; all?: unknown };
+    listAll = body.all === true;
+    if (!listAll) {
+      if (typeof body.query !== "string" || body.query.trim().length === 0) {
+        return Response.json(
+          { error: "Request body must include a non-empty `query` string." },
+          { status: 400 }
+        );
+      }
+      query = body.query.trim();
+    } else {
+      query = "";
     }
-    query = body.query.trim();
   } catch {
     return Response.json({ error: "Invalid JSON body." }, { status: 400 });
+  }
+
+  // List-all mode: bypass Claude, return every typeface ordered by foundry then name.
+  if (listAll) {
+    try {
+      const all = await client.fetch<TypefaceResult[]>(
+        `*[_type == "typeface" && !(_id in path("drafts.**"))] | order(foundry->name asc, name asc) ${TYPEFACE_PROJECTION}`
+      );
+      return Response.json({ results: all, secondaryResults: [], tags: null });
+    } catch (err) {
+      console.error("[TypeScout] Sanity list-all error:", err);
+      return Response.json({ error: "Database query failed." }, { status: 502 });
+    }
   }
 
   // 2. Call Claude to extract structured tags

@@ -34,6 +34,7 @@ npm run font-check -- --url <typeface URL> --foundry <slug> --typeface <slug>
 | Verdict | Meaning | Action |
 |---|---|---|
 | `EASY ✓` | Fonts in `document.fonts` with readable names | Copy the suggested `npm run specimen` command from the output and run it directly — skip font ID work in Step 1 |
+| `OBFUSCATED ~` | Family names randomized per page load (e.g. `F_1777383467_19`, `ES-2091256597405`) but readable woff URLs exist | Use the suggested `--font-url` command. The capture script registers a stable `@font-face` from the URL and bypasses the page's CSS lookup |
 | `MEDIUM ~` | Fonts loaded but UUID-style or per-weight families | Pick the right family name from the list printed. UUID fonts need the DOM cross-reference commands printed in the output |
 | `HARD ✗` | Fonts registered but not yet loaded — lazy-loaded | Expect Tier 3 work in Step 1. The output prints the exact playwright-cli commands to start with |
 | `BLOCKED ✗` | No fonts found at all | Check if the page needs login/purchase, or try a different page (type tester, specimen page). Consider skipping |
@@ -63,11 +64,12 @@ playwright-cli -s=intake eval "document.querySelector('main')?.innerText"
 playwright-cli -s=intake eval "document.querySelector('.content, .page-content, article, section, [class*=page]')?.innerText"
 ```
 
-**Font family name** — work through the three lookup tiers in `typeface-screenshot-tool.md` in order. Stop as soon as you have a name that renders correctly:
+**Font family name** — work through the lookup tiers in `typeface-screenshot-tool.md` in order. Stop as soon as you have a name that renders correctly:
 
 1. **Tier 1** — try the typeface name directly (`"Chap"`, `"GT America"`). Covers most foundries.
 2. **Tier 2** — `document.fonts` eval. Covers foundries with per-weight family names (Tipografies, Sharp Type).
 3. **Tier 3** — network interception + DOM cross-reference. For foundries that serve fonts under lazy-loaded UUID names (Schick Toikka pattern).
+4. **Tier 4 — Obfuscated families (`--font-url`).** When family names randomize on every page load (e.g. Type of Feeling: `F_1777383467_19`, `ES-2091256597405`), don't try to capture by family name — the IDs differ between the font-check probe and the specimen-capture run. Instead, find the readable woff/woff2 URL from `performance.getEntriesByType('resource')` and pass it via `--font-url` to `npm run specimen`. The capture script registers a stable `@font-face` from that URL and bypasses the page's CSS lookup entirely. The font-check pre-flight emits the right command automatically when it returns the `OBFUSCATED ~` verdict.
 
 Never attempt to click "Edit sample" or other UI triggers — fonts load on page init even when obfuscated; the network and DOM are sufficient.
 
@@ -154,6 +156,23 @@ Before drafting, assess the source material and state which tier applies:
 **Missing** — no description at all.
 → Write from scratch based on what the page reveals: structure, contrast, category, era, use case signals.
 
+### Inspect in-use imagery (Thin/Missing tiers only)
+
+When the foundry copy is one sentence or absent, the typeface page almost always carries in-situ photography or mocked-up applications that reveal context the words don't. Spend two extra minutes here — it materially sharpens the editorial note and `rawKeywords`.
+
+```bash
+playwright-cli -s=intake goto "<typeface URL>"
+playwright-cli -s=intake eval "(async () => { await new Promise(r => setTimeout(r, 1500)); return Array.from(document.querySelectorAll('img')).filter(i => i.naturalWidth > 400 && /shop|cdn/i.test(i.src)).map(i => ({ src: i.src.replace(/&width=\\d+/, ''), alt: i.alt, w: i.naturalWidth })); })()"
+```
+
+Download 2–3 of the largest in-use shots to `/tmp/`, then `Read` each image and pull out:
+
+- **Industry/context** — restaurant menu, album cover, fashion editorial, packaging mockup, dialog-box graphic, zine spread, etc.
+- **Aesthetic register** — Y2K, vernacular, editorial, hospitality, gallery, streetwear. These translate directly into `era` and `rawKeywords`.
+- **Project keywords** — terms a designer would actually search for ("podcast cover", "natural wine label", "art catalogue", "music poster"). Add verbatim to `rawKeywords`.
+
+The Bang! intake (cross-stitch script) is the worked example: foundry copy was thin, but the product imagery showed Y2K dialog boxes and meme-style quote graphics — that context shifted the era to `Y2K`, added `internet aesthetic / meme / content creator / zine` to keywords, and made project-style prompts work.
+
 **Good:**
 > Scatch asks a precise question — what would a Scotch Roman look like if you removed the serifs? Designed in 2023 by Jordi Embodas and David Montserrat, it is a modulated grotesque that retains the rhythm and contrast of the historical Scotch genre while operating entirely as a sans.
 
@@ -190,6 +209,17 @@ npm run specimen -- \
 ```
 
 All specimens render at 2× resolution automatically. For variant typefaces, capture regular + heavy for each variant separately.
+
+**Obfuscated families (`--font-url`)** — when font-check returns `OBFUSCATED ~`, swap `--font-family` for `--font-url <woff URL>`. The capture script registers a stable `@font-face` internally and renders against that. `--text` is required because there's no family name to fall back on. Type of Feeling is the worked example:
+
+```bash
+npm run specimen -- \
+  --foundry type-of-feeling \
+  --typeface elysian \
+  --font-url https://typeoffeeling.com/wp-content/uploads/2023/08/elysian-regular.woff2 \
+  --text "Elysian" \
+  --url https://typeoffeeling.com/products/elysian/
+```
 
 ---
 

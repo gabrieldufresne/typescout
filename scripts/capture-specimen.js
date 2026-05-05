@@ -44,15 +44,22 @@ const isHeavy     = args.includes('--heavy');
 // Optional: display text different from the CSS family name (e.g. when each weight
 // is its own family like "ScatchRegular"). Defaults to fontFamily if not provided.
 const displayText = getArg('--text') ?? null;
+// Optional: direct font file URL — bypasses the page's CSS family lookup by
+// registering a stable @font-face under "__ts_target__". Required when the
+// foundry obfuscates family names with session-randomized IDs (e.g. Type of
+// Feeling's F_1777383467_19 pattern).
+const fontUrl = getArg('--font-url');
 
-if (!foundry || !typeface || !fontFamily || !url) {
+if (!foundry || !typeface || !url || (!fontFamily && !fontUrl)) {
   console.error(`
 Usage:
   node scripts/capture-specimen.js \\
     --foundry <slug>         e.g. grilli-type
     --typeface <slug>        e.g. gt-america
-    --font-family <name>     e.g. "GT America"  (must match CSS font-family on the page)
-    [--text <label>]         display text if different from font-family (e.g. "Scatch")
+    --font-family <name>     CSS family name on the page (e.g. "GT America")
+                             — OR use --font-url instead (one is required)
+    [--font-url <url>]       direct woff/woff2 URL — for obfuscated family names
+    [--text <label>]         display text (defaults to family name or typeface slug)
     --url <url>              foundry page where the font is loaded
     [--weight <number>]      font-weight to render (default: 400)
     [--font-stretch <kw>]    CSS font-stretch keyword, e.g. "condensed" (default: normal)
@@ -60,6 +67,10 @@ Usage:
   `);
   process.exit(1);
 }
+
+// Internal stable family name used when --font-url is provided
+const STABLE_FAMILY = '__ts_target__';
+const renderFamily  = fontUrl ? STABLE_FAMILY : fontFamily;
 
 // ── Output path (PRD §09 naming convention) ───────────────────────────────────
 
@@ -73,7 +84,8 @@ const outPath  = path.join(outDir, filename);
 async function captureSpecimen() {
   console.log(`\nTypeScout specimen capture`);
   const stretchLabel = fontStretch !== 'normal' ? ` stretch ${fontStretch}` : '';
-  console.log(`  Typeface : ${fontFamily} (weight ${weight}${stretchLabel})`);
+  const sourceLabel  = fontUrl ? `font-url: ${fontUrl}` : fontFamily;
+  console.log(`  Typeface : ${sourceLabel} (weight ${weight}${stretchLabel})`);
   console.log(`  Source   : ${url}`);
   console.log(`  Output   : specimens/${filename}\n`);
 
@@ -92,13 +104,36 @@ async function captureSpecimen() {
   // Ensure all web fonts have finished loading
   await page.evaluate(() => document.fonts.ready);
 
+  // Trigger lazy-loaded fonts on type-tester pages that only register @font-face
+  // rules once the tester scrolls into view (e.g. giuliaboggio.xyz)
+  await page.evaluate(async () => {
+    window.scrollTo(0, document.body.scrollHeight);
+    await new Promise(r => setTimeout(r, 1500));
+    window.scrollTo(0, 0);
+  });
+
+  // ── Optional: register stable @font-face from --font-url ──────────────────
+  // Bypasses the page's CSS family lookup. Used when the foundry obfuscates
+  // family names with session-randomized IDs (e.g. Type of Feeling).
+  if (fontUrl) {
+    await page.evaluate(async ({ fontUrl, family, weight }) => {
+      const style = document.createElement('style');
+      style.textContent =
+        `@font-face { font-family: ${family}; ` +
+        `src: url("${fontUrl}") format("${fontUrl.endsWith('.woff') ? 'woff' : 'woff2'}"); ` +
+        `font-weight: ${weight}; font-style: normal; font-display: block; }`;
+      document.head.appendChild(style);
+      await document.fonts.load(`${weight} 120px "${family}"`);
+    }, { fontUrl, family: renderFamily, weight });
+  }
+
   // Explicitly load the target font (covers per-weight families that load lazily)
-  await page.evaluate(({ fontFamily, weight, fontStretch }) => {
-    return document.fonts.load(`${fontStretch} ${weight} 120px "${fontFamily}"`);
-  }, { fontFamily, weight, fontStretch });
+  await page.evaluate(({ family, weight, fontStretch }) => {
+    return document.fonts.load(`${fontStretch} ${weight} 120px "${family}"`);
+  }, { family: renderFamily, weight, fontStretch });
 
   // Give late-loading fonts an extra moment
-  await page.waitForTimeout(800);
+  await page.waitForTimeout(1200);
 
   // ── Inject specimen overlay and measure exact text bounds ──────────────────
   const clip = await page.evaluate(
@@ -149,7 +184,7 @@ async function captureSpecimen() {
 
       return { x: 0, y: 0, width: totalW, height: totalH };
     },
-    { fontFamily, weight, fontStretch, label: displayText ?? fontFamily }
+    { fontFamily: renderFamily, weight, fontStretch, label: displayText ?? fontFamily ?? typeface }
   );
 
   // ── Screenshot ─────────────────────────────────────────────────────────────
@@ -239,7 +274,8 @@ async function captureSpecimen() {
     console.log('──────────────────────────────────────────────────────────────\n');
   }
 
-  console.log(`Next: upload to Sanity as the specimenImage field on the "${fontFamily}" record.\n`);
+  const recordLabel = displayText ?? fontFamily ?? typeface;
+  console.log(`Next: upload to Sanity as the specimenImage field on the "${recordLabel}" record.\n`);
 }
 
 captureSpecimen().catch((err) => {

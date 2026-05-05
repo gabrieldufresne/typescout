@@ -204,7 +204,9 @@ export default function HomePage() {
   useLayoutEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const q = params.get("q");
-    if (q) {
+    if (params.get("all") === "1") {
+      void runListAll();
+    } else if (q) {
       setQuery(q);
       void runSearch(q);
     }
@@ -250,6 +252,38 @@ export default function HomePage() {
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
     void runSearch(query);
+  }
+
+  async function runListAll() {
+    setSubmittedQuery("All typefaces");
+    setQuery("");
+    window.history.replaceState({}, "", "/?all=1");
+    setStatus("loading");
+    setResults([]);
+    setSecondaryResults([]);
+    setErrorMessage("");
+
+    try {
+      const res = await fetch("/api/search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ all: true }),
+      });
+
+      if (!res.ok) {
+        const data = (await res.json()) as { error?: string };
+        throw new Error(data.error ?? `HTTP ${res.status}`);
+      }
+
+      const data = (await res.json()) as { results: TypefaceResult[] };
+      setResults(data.results ?? []);
+      setSecondaryResults([]);
+      setStatus("success");
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "Unknown error";
+      setErrorMessage(msg);
+      setStatus("error");
+    }
   }
 
   function handleReset() {
@@ -589,7 +623,14 @@ export default function HomePage() {
                 Type for people who describe fonts like wine.
               </p>
               <p className="font-sans text-[14px] text-[#000000] uppercase">
-                Search by feeling, not by checkbox.
+                Search by feeling, not by checkbox.{" "}
+                <button
+                  type="button"
+                  onClick={() => void runListAll()}
+                  className="underline underline-offset-2 hover:opacity-70 transition-opacity uppercase"
+                >
+                  See all typefaces
+                </button>
               </p>
             </motion.div>
           )}

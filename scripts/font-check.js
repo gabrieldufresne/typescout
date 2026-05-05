@@ -6,10 +6,12 @@
  * on a foundry's page — and get a ready-to-paste specimen command when possible.
  *
  * Verdicts:
- *   EASY    — fonts in document.fonts with readable names. Command generated.
- *   MEDIUM  — fonts loaded but names need selection (UUID or per-weight families).
- *   HARD    — fonts lazy-loaded. Expect Tier 3 UUID resolution.
- *   BLOCKED — no fonts found. May require login, purchase, or third-party CDN.
+ *   EASY       — fonts in document.fonts with readable names. Command generated.
+ *   OBFUSCATED — family names randomized per page load (Type of Feeling pattern).
+ *                Use --font-url against the readable woff URL instead.
+ *   MEDIUM     — fonts loaded but names need selection (UUID or per-weight families).
+ *   HARD       — fonts lazy-loaded. Expect Tier 3 UUID resolution.
+ *   BLOCKED    — no fonts found. May require login, purchase, or third-party CDN.
  *
  * Usage:
  *   npm run font-check -- --url <url> [--foundry <slug>] [--typeface <slug>]
@@ -77,6 +79,16 @@ const WEIGHT_SUFFIXES_RE = new RegExp(
 const UUID_PATTERN = /^[a-z0-9]{16,}$/i;
 const UUID_DASH_PATTERN = /^[a-f0-9]{8}-[a-f0-9]{4}-/;
 
+// Detects obfuscated/randomized family names (Type of Feeling pattern):
+// - F_1777383467_19  (prefix + digits + _ + digits)
+// - ES-2091256597405 (short prefix + 8+ digits)
+// These IDs change on every page load, so capturing via --font-family is
+// unreliable — use --font-url against the stable woff/woff2 URL instead.
+const OBFUSCATED_PATTERNS = [
+  /^[A-Za-z]{1,3}[-_]\d{6,}(_\d+)?$/,   // F_1777383467_19, ES-2091256597405
+  /^[A-Za-z]+_\d{4,}_\d{1,4}$/,         // Anything_1234567_19
+];
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function isSystemFont(name) {
@@ -87,6 +99,56 @@ function isSystemFont(name) {
 function isUUID(name) {
   const clean = name.replace(/['"]/g, '').trim();
   return UUID_PATTERN.test(clean) || UUID_DASH_PATTERN.test(clean);
+}
+
+function isObfuscated(name) {
+  const clean = name.replace(/['"]/g, '').trim();
+  return OBFUSCATED_PATTERNS.some(p => p.test(clean));
+}
+
+// Pick the best Regular-weight candidate from a list of network font URLs.
+// Looks for "regular", "roman", "book", "400", or fallback to first.
+function findRegularUrl(urls) {
+  return (
+    urls.find(u => /-regular\.|_regular\.|\bregular\./i.test(u)) ||
+    urls.find(u => /-roman\.|-book\./i.test(u)) ||
+    urls.find(u => /-400\.|_400\./.test(u)) ||
+    urls.find(u => !/-(thin|light|medium|semibold|demi|bold|extrabold|black|heavy|italic)/i.test(u)) ||
+    urls[0] ||
+    null
+  );
+}
+
+function findHeavyUrl(urls) {
+  return (
+    urls.find(u => /-black\.|_black\./i.test(u)) ||
+    urls.find(u => /-heavy\.|-ultra\./i.test(u)) ||
+    urls.find(u => /-extrabold\./i.test(u)) ||
+    urls.find(u => /-bold\.|_bold\./i.test(u)) ||
+    null
+  );
+}
+
+// Filter network font URLs to those whose filenames look like the typeface
+// (readable, not Google Fonts / theme UI fonts / system fonts). When the
+// typeface slug appears in any URL, narrow to only those — otherwise return
+// all readable typeface candidates so the operator can pick.
+function filterTypefaceFontUrls(networkFonts, typefaceSlug) {
+  const readable = networkFonts.filter(u => {
+    if (/googleapis|gstatic/i.test(u)) return false;
+    if (!/\.(woff2?|ttf|otf)($|\?)/i.test(u)) return false;
+    const filename = u.split('/').pop().toLowerCase();
+    if (/^(ibm|inter|geist|söhne|sohne|graphik|plex|space-grotesk|jetbrains)/i.test(filename)) return false;
+    return /[a-z]{4,}/i.test(filename) && !/^[a-f0-9]{16,}/i.test(filename);
+  });
+
+  if (typefaceSlug) {
+    const slug = typefaceSlug.toLowerCase();
+    const slugMatched = readable.filter(u => u.toLowerCase().includes(slug));
+    if (slugMatched.length > 0) return slugMatched;
+  }
+
+  return readable;
 }
 
 function stripWeightSuffix(name) {
@@ -139,6 +201,18 @@ function buildCommand(font, displayText, isHeavy) {
   if (displayText && displayText !== family) {
     lines.push(`  --text "${displayText}"`);
   }
+  lines.push(`  --url ${url}`);
+  if (isHeavy) lines.push('  --heavy');
+  return lines.join(' \\\n');
+}
+
+// Build a --font-url command for OBFUSCATED verdicts
+function buildFontUrlCommand(fontFileUrl, displayText, isHeavy) {
+  const lines = ['npm run specimen --'];
+  if (foundry)  lines.push(`  --foundry ${foundry}`);
+  if (typeface) lines.push(`  --typeface ${typeface}`);
+  lines.push(`  --font-url ${fontFileUrl}`);
+  if (displayText) lines.push(`  --text "${displayText}"`);
   lines.push(`  --url ${url}`);
   if (isHeavy) lines.push('  --heavy');
   return lines.join(' \\\n');
@@ -215,8 +289,9 @@ async function checkFonts() {
     return true;
   });
 
-  const namedFonts = customFonts.filter(f => !isUUID(f.family));
-  const uuidFonts  = customFonts.filter(f => isUUID(f.family));
+  const obfuscatedFonts = customFonts.filter(f => isObfuscated(f.family));
+  const uuidFonts       = customFonts.filter(f => !isObfuscated(f.family) && isUUID(f.family));
+  const namedFonts      = customFonts.filter(f => !isObfuscated(f.family) && !isUUID(f.family));
 
   const customFaceRules = report.faceRules.filter(
     f => f.family && !isSystemFont(f.family) && !seenFamilies.has(f.family)
@@ -224,6 +299,9 @@ async function checkFonts() {
 
   const hasNetworkFonts = report.networkFonts.length > 0;
   const hasFaceRules    = customFaceRules.length > 0;
+
+  // Network font URLs that look like the typeface (filtered down from all woff/woff2 hits)
+  const typefaceFontUrls = filterTypefaceFontUrls(report.networkFonts, typeface);
 
   // ── Determine verdict ─────────────────────────────────────────────────────
 
@@ -237,6 +315,9 @@ async function checkFonts() {
       verdict = 'MEDIUM ~';
       note    = 'Fonts detected — delivery method unclear. Pick the right family from the list below.';
     }
+  } else if (obfuscatedFonts.length > 0 && typefaceFontUrls.length > 0) {
+    verdict = 'OBFUSCATED ~';
+    note    = 'Family names are randomized per page load — use --font-url against the readable woff URL.';
   } else if (uuidFonts.length > 0) {
     verdict = 'MEDIUM ~';
     note    = 'Fonts loaded under UUID family names (Schick Toikka pattern). Need DOM cross-reference to map to weight labels.';
@@ -263,6 +344,14 @@ async function checkFonts() {
         ? '  ← "error" may still render via CSS demand-load — try it'
         : '';
       console.log(`  ${f.family.padEnd(38)}  wt:${f.weight.padEnd(6)}  ${f.status}${errNote}`);
+    }
+  }
+
+  // Obfuscated fonts (randomized IDs)
+  if (obfuscatedFonts.length > 0) {
+    console.log(`\nObfuscated families (${obfuscatedFonts.length}) — IDs change per page load:\n`);
+    for (const f of obfuscatedFonts) {
+      console.log(`  ${f.family.padEnd(38)}  wt:${f.weight.padEnd(6)}  ${f.status}`);
     }
   }
 
@@ -298,6 +387,32 @@ async function checkFonts() {
   }
 
   // ── Suggested commands ────────────────────────────────────────────────────
+
+  // OBFUSCATED — emit --font-url suggestion using readable woff filename
+  if (verdict.startsWith('OBFUSCATED') && typefaceFontUrls.length > 0) {
+    const regularUrl = findRegularUrl(typefaceFontUrls);
+    const heavyUrl   = findHeavyUrl(typefaceFontUrls.filter(u => u !== regularUrl));
+    const displayText = typeface
+      ? typeface.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+      : null;
+
+    console.log(`\n${LINE}`);
+    console.log('Suggested commands (using --font-url to bypass randomized family names):\n');
+
+    console.log('  Regular:');
+    const regularCmd = buildFontUrlCommand(regularUrl, displayText, false);
+    regularCmd.split('\n').forEach(l => console.log('  ' + l));
+
+    if (heavyUrl) {
+      console.log('\n  Heavy (only if Black/Bold looks meaningfully different at display size):');
+      const heavyCmd = buildFontUrlCommand(heavyUrl, displayText, true);
+      heavyCmd.split('\n').forEach(l => console.log('  ' + l));
+    }
+
+    if (!foundry || !typeface) {
+      console.log('\n  ↑ Re-run with --foundry <slug> --typeface <slug> to fill in the slugs.');
+    }
+  }
 
   if (namedFonts.length > 0) {
     const regular     = findRegular(namedFonts);

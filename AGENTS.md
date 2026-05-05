@@ -27,6 +27,7 @@ npm run font-check -- --url <typeface URL> --foundry <slug> --typeface <slug>
 
 Read the verdict before proceeding:
 - EASY: use the suggested `npm run specimen` command directly — no manual font ID needed
+- OBFUSCATED: family names randomize per page load — use the suggested `--font-url` command (Tier 4)
 - MEDIUM: pick from the printed font list, then proceed normally
 - HARD: expect Tier 3 UUID work — the output prints the starting playwright-cli commands
 - BLOCKED: pause and confirm with the operator before spending time on the page

@@ -1,24 +1,15 @@
 // ── Foundry ───────────────────────────────────────────────────────────────────
-const FOUNDRY = {
-  _type:       'foundry',
-  _id:         'foundry-heavyweight-type',
-  name:        'Heavyweight',
-  slug:        { _type: 'slug', current: 'heavyweight-type' },
-  location:    'Prague, Czech Republic',
-  website:     'https://heavyweight-type.com',
-  foundryType: 'independent',
-  description: 'Heavyweight is an independent design studio established by Filip Matejicek and Jan Horcik in Prague, specialising in typeface design. The foundry emphasises simplicity, precision of detail, and tasteful design while maintaining respect for the discipline and its history. Their fonts are used globally by major institutions including The New York Times, Walker Art Center, and Whitney Museum, as well as independent publishers and startups.',
-};
+const FOUNDRY_ID = 'foundry-kometa-type';
 
 // ── Shared fields ─────────────────────────────────────────────────────────────
 const SHARED = {
-  weightRange:         ['thin', 'light', 'regular', 'medium', 'semibold', 'bold', 'extrabold', 'black'],
+  weightRange:         ['thin', 'light', 'regular', 'medium', 'semibold', 'bold', 'black'],
   width:               'normal',
-  era:                 ['Heritage', 'Vintage'],
+  era:                 ['Contemporary', 'Swiss'],
   licensing:           'paid',
   platforms:           'neither',
-  variableFont:        false,
-  hasItalics:          false,
+  variableFont:        true,
+  hasItalics:          true,
   multilingualSupport: true,
   featured:            false,
 };
@@ -26,31 +17,57 @@ const SHARED = {
 // ── Typefaces ─────────────────────────────────────────────────────────────────
 const TYPEFACES = [
   {
-    _id:               'typeface-cigars',
-    name:              'Cigars',
-    slug:              'cigars',
-    specimenFile:      'heavyweight-type_cigars_specimen.jpg',
-    specimenHeavyFile: 'heavyweight-type_cigars_specimen_heavy.jpg',
-    editorialNote:     'Named for Heavyweight\'s admiration of vintage Marlboro advertising — which leaned on Century by American Type Founders — Cigars is a calligraphic serif that wears its influence quietly. The calligraphic hand is only visible in the details: letters like \'c\', \'f\', and \'r\' close with a perpendicular cut rather than a classic terminal, lending the face a refined idiosyncrasy across nine weights from SuperSlim to Strong.',
-    classification:    ['serif', 'display'],
-    subClassification: 'Calligraphic Serif',
-    personalityTags:   ['Sophisticated', 'Elegant', 'Refined', 'Expressive', 'Quirky'],
-    useCaseTags:       ['Headline', 'Editorial', 'Branding', 'Poster', 'Logo'],
-    xHeight:           'medium',
-    contrast:          ['high'],
-    typefaceURL:       'https://heavyweight-type.com/fonts/cigars/detail',
+    _id:               'typeface-uniforma',
+    name:              'Uniforma',
+    slug:              'uniforma',
+    specimenFile:      'kometa-type_uniforma_specimen.jpg',
+    specimenHeavyFile: 'kometa-type_uniforma_specimen_heavy.jpg',
+    editorialNote:     'Uniforma is a contemporary sans-serif system that began as an extension of Attila and outgrew its parent — fiercely familiar, innately original. Developed over seventeen months, it asserts a sovereign voice with its own internal logic, now expanded with distinctive Reverse Italics across eighteen styles. Designed by Christian Jánský for KOMETA, with 830 glyphs and 12 OpenType features.',
+    classification:    ['sans-serif'],
+    subClassification: 'Contemporary Grotesque',
+    personalityTags:   ['Neutral', 'Functional', 'Minimal', 'Sophisticated'],
+    useCaseTags:       ['Branding', 'Editorial', 'Body Text', 'Digital UI', 'Headline'],
+    xHeight:           'tall',
+    contrast:          ['low'],
+    typefaceURL:       'https://kometatype.com/typefaces/uniforma',
     rawKeywords:       [
-      'Heavyweight', 'heavyweight-type',
-      'Filip Matejicek', 'Jan Horcik',
-      'Prague', 'Czech Republic',
-      'Century', 'American Type Founders', 'Marlboro',
-      'SuperSlim', 'Slim', 'Strong',
-      'calligraphic', 'perpendicular cut terminals',
-      '219 languages',
-      'small caps', 'old-style figures', 'tabular figures',
-      'discretionary ligatures', 'stylistic alternates',
+      'KOMETA', 'KOMETA Typefaces', 'Kometa Type', 'kometa-type',
+      'Christian Jánský', 'Christian Jansky', 'Juan Jun Feng',
+      'Brno', 'Czech Republic', 'Czechia',
+      // distinctive features
+      'reverse italic', 'reverse italics', 'ritalic', 'backslant', 'back-slant',
+      'stylistic alternates', // OpenType — search engine matches verbatim
+      // visual character
+      'humanist sans', 'neo-grotesque', 'grotesque', 'contemporary sans',
+      'modern sans', 'utility sans', 'workhorse sans', 'workhorse',
+      'monolinear', 'open apertures', 'tall x-height',
+      // weights / language
+      'Hairline', 'Thin', 'Extralight', 'Black',
+      '18 styles', '18 fonts', '9 weights', 'nine weights',
+      'roman', 'italic', 'italics', 'variable font', 'VAR',
+      'Latin', 'Latin Extended A', '41 languages', 'multilingual',
+      '12 OpenType features', '830 glyphs',
+      // version / history
+      'Version 1.1', '2022 release', '2021 conceived',
+      'Attila companion', 'Attila family', 'Uniform subfamily',
+      // project-style keywords (from in-use imagery: graphic-design specimen book,
+      // red cover, contemporary brand publication)
+      'graphic design', 'design studio', 'design agency', 'creative studio',
+      'brand identity', 'brand system', 'identity system', 'wordmark', 'logotype',
+      'specimen book', 'design publication',
+      'magazine', 'magazine design', 'editorial', 'editorial design',
+      'annual report', 'corporate report', 'pitch deck', 'investor deck',
+      'tech startup', 'startup', 'fintech', 'SaaS',
+      'app UI', 'product UI', 'product design', 'web UI', 'dashboard',
+      'app interface', 'mobile app',
+      'fashion brand', 'luxury brand', 'cosmetics', 'beauty',
+      'hospitality', 'restaurant menu', 'wine label',
+      'wayfinding', 'signage', 'environmental graphics',
+      'poster', 'gallery poster', 'art gallery',
+      'small caps',
+      'independent foundry', 'independent type',
     ],
   },
 ];
 
-module.exports = { FOUNDRY, SHARED, TYPEFACES };
+module.exports = { FOUNDRY_ID, SHARED, TYPEFACES };
